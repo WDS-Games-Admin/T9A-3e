@@ -1,0 +1,3633 @@
+[
+  {
+    "Id": "4b8856ad-0bc8-4d19-a239-297e4b3f751e",
+    "Name": "Beastie",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "80"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Beastie",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "0ebdb68f-facc-4eb6-9ae9-74165a26526a",
+    "Name": "Beastie (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "130"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "974a0f60-b5b0-4db8-bc87-e01a19876e50",
+    "Name": "Pet Monster",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "135"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Pet Monster",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Pet Monster",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Pet Monster",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "a73447aa-15ed-4a92-8011-eec837b1ac3b",
+    "Name": "Rider (8)",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-fearless": "Fearless",
+      "ong-creepycrawlies": "Creepy-Crawlies",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Rider (8)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-fearless": "Fearless",
+          "ong-creepycrawlies": "Creepy-Crawlies",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Rider (8)",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Rider (8)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
+      },
+      {
+        "Name": "Gargantula",
+        "Values": {
+          "At": "6",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f6f790d8280c4b24525",
+    "Name": "Goblin Demagogue",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Goblin Demagogue",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Goblin Demagogue",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Goblin Demagogue",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "2",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "2cfeb0ad-8e27-40b9-bd54-902b5d50b689",
+    "Name": "Beastie",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "295"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Beastie",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "HP": "3",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "72920905-2674-4226-8bca-90e23638d662",
+    "Name": "Beastie (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "310"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "5f5c1cfb-8bfb-49d6-ae8e-282ca09a785b",
+    "Name": "Pet Monster",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "310"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Pet Monster",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Pet Monster",
+        "Values": {
+          "HP": "3",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Pet Monster",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "80ca8729-8b3c-462b-9fb1-9b826ff74fe2",
+    "Name": "Rider (8)",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "560"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-fearless": "Fearless",
+      "ong-creepycrawlies": "Creepy-Crawlies",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Rider (8)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-fearless": "Fearless",
+          "ong-creepycrawlies": "Creepy-Crawlies",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Rider (8)",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Rider (8)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
+      },
+      {
+        "Name": "Gargantula",
+        "Values": {
+          "At": "6",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f6f790d8280c4b2475e",
+    "Name": "Goblin Witch",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Goblin Witch",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Goblin Witch",
+        "Values": {
+          "HP": "3",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Goblin Witch",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "80742e4c-10d9-4408-a7bb-f998a5ead612",
+    "Name": "Beastie",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "45"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "ong-beastie_whisperer": "Beastie Whisperer",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hidden": "Hidden",
+      "rulebook-exclusive": "Exclusive (Goblin)",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "ong-netter": "Netter",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-distracting": "Distracting (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Beastie",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "ong-beastie_whisperer": "Beastie Whisperer",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hidden": "Hidden",
+          "rulebook-exclusive": "Exclusive (Goblin)",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "ong-netter": "Netter"
+        }
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f70790d8280c4b248ca",
+    "Name": "Gogtuk Initiate",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "ong-beastie_whisperer": "Beastie Whisperer",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hidden": "Hidden",
+      "rulebook-exclusive": "Exclusive (Goblin)",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "ong-netter": "Netter",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-distracting": "Distracting (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gogtuk Initiate",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "ong-beastie_whisperer": "Beastie Whisperer",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hidden": "Hidden",
+          "rulebook-exclusive": "Exclusive (Goblin)",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "ong-netter": "Netter"
+        }
+      },
+      {
+        "Name": "Gogtuk Initiate",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
+      },
+      {
+        "Name": "Gogtuk Initiate",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f70790d8280c4b2492d",
+    "Name": "Mad Git",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "ong-surprise": "Surprise",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-random_movement": "Random Movement (2D6\")",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "rulebook-solitary": "Solitary",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-force_of_destruction": "Force of Destruction (2D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Mad Git",
+        "Values": {
+          "Ad": "2D6",
+          "Ma": "2D6",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "ong-surprise": "Surprise",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-random_movement": "Random Movement (2D6\")",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "rulebook-solitary": "Solitary",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Mad Git",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": null,
+        "Values": {
+          "At": "0",
+          "Of": "4",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-force_of_destruction": "Force of Destruction (2D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "448796cf-fb67-4790-9c70-577601870c16",
+    "Name": "Grunter",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "300"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "da0ac3f9-980f-4b35-8743-9f1376c8d4af",
+    "Name": "Grunter (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "320"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "1",
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "52169ece-81c0-4e20-affc-f88e9b98e335",
+    "Name": "Wyvern",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "420"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f71790d8280c4b24936",
+    "Name": "Orc Shaman",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc, Troll)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Orc Shaman",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc, Troll)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Orc Shaman",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Orc Shaman",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "b3ec713e-3a07-4956-90cf-d56f18ee64f1",
+    "Name": "Grunter",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "275"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "51621983-2aff-4aca-84ab-e6c0b96ae03e",
+    "Name": "Grunter (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "300"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-general": "General",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-general": "General"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "1",
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "aff0a0fa-571d-40fb-b877-8a567ac77b81",
+    "Name": "Wyvern",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "360"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-general": "General",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-general": "General"
+        }
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f71790d8280c4b24a62",
+    "Name": "Orc Warlord",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "cl-fury": "Fury"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Orc Warlord",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Orc Warlord",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Orc Warlord",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "cl-fury": "Fury"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "d69c60ee-d25b-4d63-968f-727e25bcf3f2",
+    "Name": "Grunter",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "340"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "760113c6-ee7c-428b-891d-4abd6a1f9bcd",
+    "Name": "Grunter (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "370"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "76838a98-00a6-4831-bda1-2f9ab22b12c1",
+    "Name": "Wyvern",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f71790d8280c4b24bba",
+    "Name": "Iron Orc Loner",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Iron Orc Loner",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      },
+      {
+        "Name": "Iron Orc Loner",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": null,
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "25e05584-7de5-4f90-a232-7c6a8e185181",
+    "Name": "Grunter",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "75"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "6bce2036-c47c-49eb-b380-24454acf7173",
+    "Name": "Grunter (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "140"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "1",
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f72790d8280c4b24cfe",
+    "Name": "Brood Alpha",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "cl-fury": "Fury"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Brood Alpha",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Brood Alpha",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": null,
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "cl-fury": "Fury"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f72790d8280c4b24e0e",
+    "Name": "Feral Orcs",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-spear": "Spear",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feral Orcs",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy"
+        }
+      },
+      {
+        "Name": "Feral Orcs",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Feral Orc",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-spear": "Spear"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f73790d8280c4b24e4a",
+    "Name": "Feral Orc Marauders",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "ong-crude_weapons": "Crude Weapons",
+      "cl-fury": "Fury",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feral Orc Marauders",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Feral Orc Marauders",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Feral Orc",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "ong-crude_weapons": "Crude Weapons",
+          "cl-fury": "Fury",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f73790d8280c4b24e80",
+    "Name": "Goblin Rabble",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Goblin Rabble",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Goblin Rabble",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Goblin",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f73790d8280c4b24ec2",
+    "Name": "Goblin Reavers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Goblin Reavers",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "6",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Goblin Reavers",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Goblin",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f73790d8280c4b24f01",
+    "Name": "Veteran Orcs",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Veteran Orcs",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Veteran Orcs",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Veteran Orc",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f73790d8280c4b24f49",
+    "Name": "Veteran Orc Marauders",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-unruly": "Unruly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-lance": "Lance",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Veteran Orc Marauders",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-unruly": "Unruly",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Veteran Orc Marauders",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Veteran Orc",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-lance": "Lance"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f74790d8280c4b24f7d",
+    "Name": "Giant",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Giant",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "ong-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Giant",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Giant",
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357f74790d8280c4b24f86",
+    "Name": "Gnashers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gnashers",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Gnashers",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Gnasher",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f74790d8280c4b24f8b",
+    "Name": "Gnashers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gnashers",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Gnashers",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Gnasher",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f74790d8280c4b24f8e",
+    "Name": "Goblin Artillery",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "ong-skewerer": "Skewerer (4+)",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Goblin Artillery",
+        "Values": {
+          "Ad": "0",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary",
+          "ong-skewerer": "Skewerer (4+)"
+        }
+      },
+      {
+        "Name": "Goblin Artillery",
+        "Values": {
+          "HP": "5",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Goblin Crew",
+        "Values": {
+          "At": "3",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  },
+  {
+    "Id": "68357f75790d8280c4b24fa4",
+    "Name": "Goblin Chariots",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Beastie Chariot)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Goblin Chariots",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Beastie Chariot)",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Goblin Chariots",
+        "Values": {
+          "HP": "4",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Goblin (3)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
+      },
+      {
+        "Name": "Beastie (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f75790d8280c4b24fa9",
+    "Name": "Gogtuk Neophytes",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-poisoned_spear": "Poisoned Spear",
+      "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gogtuk Neophytes",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Gogtuk Neophytes",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Gogtuk Neophyte",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-poisoned_spear": "Poisoned Spear",
+          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f75790d8280c4b24fc5",
+    "Name": "Great Green Idol",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-terror": "Terror",
+      "rulebook-mindless": "Mindless",
+      "ong-green_tide": "Green Tide",
+      "ong-symbol_of_the_warborn_alliance": "Symbol of the Warborn Alliance",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-crush_attack": "Crush Attack",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-grind_attack": "Grind Attack (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Green Idol",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-terror": "Terror",
+          "rulebook-mindless": "Mindless",
+          "ong-green_tide": "Green Tide",
+          "ong-symbol_of_the_warborn_alliance": "Symbol of the Warborn Alliance",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Great Green Idol",
+        "Values": {
+          "HP": "8",
+          "Df": "2",
+          "Re": "8",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Great Green Idol",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "6",
+          "AP": "3",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-crush_attack": "Crush Attack",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-grind_attack": "Grind Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f75790d8280c4b24fc8",
+    "Name": "Grotlings",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fearless": "Fearless",
+      "rulebook-afflict": "Afflict (-2 Def)",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-distracting": "Distracting (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grotlings",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "4",
+          "Hgt": "0"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unstable": "Unstable",
+          "rulebook-fearless": "Fearless",
+          "rulebook-afflict": "Afflict (-2 Def)",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Grotlings",
+        "Values": {
+          "HP": "5",
+          "Df": "2",
+          "Re": "2",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-distracting": "Distracting (1)"
+        }
+      },
+      {
+        "Name": "Grotlings",
+        "Values": {
+          "At": "6",
+          "Of": "2",
+          "St": "2",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f75790d8280c4b24fcb",
+    "Name": "Grotling Scrap Wagon",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-afflict": "Afflict (-2 Def)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
+      "rulebook-grind_attack": "Grind Attack (2D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grotling Scrap Wagon",
+        "Values": {
+          "Ad": "3D6",
+          "Ma": "3D6",
+          "Di": "4",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-unstable": "Unstable",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-afflict": "Afflict (-2 Def)"
+        }
+      },
+      {
+        "Name": "Grotling Scrap Wagon",
+        "Values": {
+          "HP": "6",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grotlings",
+        "Values": {
+          "At": "6",
+          "Of": "2",
+          "St": "2",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "4",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
+          "rulebook-grind_attack": "Grind Attack (2D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f76790d8280c4b24fcc",
+    "Name": "Guardian Behemoth",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Guardian Behemoth",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "6",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Guardian Behemoth",
+        "Values": {
+          "HP": "6",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Rider (4)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
+      },
+      {
+        "Name": "Gogyag Behemoth",
+        "Values": {
+          "At": "6",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f76790d8280c4b24fd5",
+    "Name": "Iron Orc Chariots",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Iron Orc Chariots",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot)"
+        }
+      },
+      {
+        "Name": "Iron Orc Chariots",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Iron Orc (2)",
+        "Values": {
+          "At": "1",
+          "Of": "5",
+          "St": "4",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "0",
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f76790d8280c4b2500b",
+    "Name": "Iron Orcs",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Iron Orcs",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Iron Orcs",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Iron Orc",
+        "Values": {
+          "At": "1",
+          "Of": "5",
+          "St": "4",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-brood_rivalry": "Brood Rivalry",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f76790d8280c4b25047",
+    "Name": "Trolls",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-troll_toll": "Troll Toll",
+      "rulebook-regeneration": "Regeneration (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Trolls",
+        "Values": {
+          "Ad": "4",
+          "Ma": "6",
+          "Di": "6",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless"
+        }
+      },
+      {
+        "Name": "Trolls",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (4+)"
+        }
+      },
+      {
+        "Name": "Troll",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-troll_toll": "Troll Toll"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f76790d8280c4b2504e",
+    "Name": "Wrecking Team",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ong-force_of_destruction": "Force of Destruction (2D6)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wrecking Team",
+        "Values": {
+          "Ad": "3D6",
+          "Ma": "3D6",
+          "Di": "5",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant"
+        }
+      },
+      {
+        "Name": "Wrecking Team",
+        "Values": {
+          "HP": "3",
+          "Df": "0",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Wrecking Team",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-force_of_destruction": "Force of Destruction (2D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  }
+]

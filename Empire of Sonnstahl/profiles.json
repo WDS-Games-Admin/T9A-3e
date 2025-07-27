@@ -1,0 +1,2426 @@
+[
+  {
+    "Id": "99a749a6-c6f2-4c25-97ec-15ae88638eb3",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "100"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "30b54ddd-d92f-40d1-a2cc-f2fa0fd58ee6",
+    "Name": "Pegasus",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "130"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Pegasus",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Pegasus",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Pegasus",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "a7ea5646-a50a-4dd0-bf24-be47034c25e3",
+    "Name": "Great Griffon",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "190"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Griffon",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Great Griffon",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Great Griffon",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "3",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "93f57ebe-0725-4b88-b18d-e44e4b438e67",
+    "Name": "Commanding Dragon",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-terror": "Terror",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "eos-meeting_of_minds": "Meeting of Minds",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Commanding Dragon",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-terror": "Terror",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "eos-meeting_of_minds": "Meeting of Minds",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Commanding Dragon",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Commanding Dragon",
+        "Values": {
+          "At": "6",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f43790d8280c4b2056b",
+    "Name": "Marshal",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Marshal",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Marshal",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Marshal",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "761cdac2-8ec2-45ce-b096-929b3e761aa4",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "180"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-first_knight": "First Knight",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "eos-first_knight": "First Knight",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "3c33ac6c-c1cd-4b72-8937-a19c16076a37",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "205"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-first_knight": "First Knight",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "eos-first_knight": "First Knight",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f44790d8280c4b2077a",
+    "Name": "Knight Commander",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-first_knight": "First Knight",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Knight Commander",
+        "Values": {
+          "Ad": "0",
+          "Ma": "0",
+          "Di": "9",
+          "Hgt": "0"
+        },
+        "RuleIds": {
+          "eos-first_knight": "First Knight",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Knight Commander",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Knight Commander",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "56ec7566-841b-4188-947a-91fd27dcb480",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "190"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-blessings": "Blessings",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "eos-blessings": "Blessings",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "698b79f4-a60b-4744-8b2c-5b84b774f4c7",
+    "Name": "Horse (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "380"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-blessings": "Blessings",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "eos-holy_relic": "Holy Relic",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-aegis": "Aegis (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "eos-blessings": "Blessings",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "eos-holy_relic": "Holy Relic"
+        }
+      },
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "HP": "5",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
+      },
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f44790d8280c4b2086d",
+    "Name": "Prelate",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-blessings": "Blessings",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-divine_attacks": "Divine Attacks"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Prelate",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-blessings": "Blessings",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Prelate",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Prelate",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-divine_attacks": "Divine Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "f88733d7-bafd-4d9c-b50c-bdbd3e382a2a",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "260"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "4bc5b111-e57d-4cd9-ace5-ac573a6d4201",
+    "Name": "Pegasus",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "290"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Pegasus",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Pegasus",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Pegasus",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "1a66fe57-1332-469c-b4c5-3b57b134cce2",
+    "Name": "Great Griffon",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "375"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Griffon",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Great Griffon",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Great Griffon",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "3",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "26547df1-f207-4498-9952-89118b545a1f",
+    "Name": "Horse (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "400"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-solitary": "Solitary",
+      "eos-aura_of_power": "Aura of Power",
+      "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-solitary": "Solitary",
+          "eos-aura_of_power": "Aura of Power",
+          "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f44790d8280c4b2094e",
+    "Name": "Battlefield Wizard",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Battlefield Wizard",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Battlefield Wizard",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Battlefield Wizard",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "6ec9e5b8-5247-4108-bc20-d1e8532ce238",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "100"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-master_artificer": "Master Artificer",
+      "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+      "rulebook-attached": "Attached",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "eos-master_artificer": "Master Artificer",
+          "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+          "rulebook-attached": "Attached",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f45790d8280c4b20aad",
+    "Name": "Artificer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-master_artificer": "Master Artificer",
+      "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Artificer",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-master_artificer": "Master Artificer",
+          "rulebook-engineer": "Engineer (Blackpowder Artillery)",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Artificer",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Artificer",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "a4d85a37-52e3-422d-b947-6df68cc73585",
+    "Name": "Horse",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "135"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Horse",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f45790d8280c4b20b20",
+    "Name": "Inquisitor",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-zeal": "Zeal",
+      "rulebook-march_and_shoot": "March and Shoot",
+      "eos-silver_shots": "Silver Shots"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Inquisitor",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (units without Inquisitor)",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Inquisitor",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Inquisitor",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-zeal": "Zeal",
+          "rulebook-march_and_shoot": "March and Shoot",
+          "eos-silver_shots": "Silver Shots"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f45790d8280c4b20bc5",
+    "Name": "State Marksmen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "State Marksmen",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-support_unit": "Support Unit"
+        }
+      },
+      {
+        "Name": "State Marksmen",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "State Marksman",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f45790d8280c4b20c01",
+    "Name": "State Marksmen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "State Marksmen",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-support_unit": "Support Unit"
+        }
+      },
+      {
+        "Name": "State Marksmen",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "State Marksman",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f46790d8280c4b20c3d",
+    "Name": "State Marksmen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-support_unit": "Support Unit",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handgun": "Handgun (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "State Marksmen",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-support_unit": "Support Unit"
+        }
+      },
+      {
+        "Name": "State Marksmen",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "State Marksman",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handgun": "Handgun (4+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f46790d8280c4b20c79",
+    "Name": "Local Militia",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-pistol": "Pistol (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Local Militia",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Local Militia",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Local Militia",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-bow": "Bow (4+)",
+          "rulebook-pistol": "Pistol (4+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f46790d8280c4b20c8b",
+    "Name": "Electoral Cavalry",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Electoral Cavalry",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Electoral Cavalry",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Knight",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f46790d8280c4b20cca",
+    "Name": "Knightly Orders",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Knightly Orders",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Knightly Orders",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Knight",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f46790d8280c4b20d09",
+    "Name": "Imperial Guard",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Imperial Guard",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined"
+        }
+      },
+      {
+        "Name": "Imperial Guard",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Imperial Guard",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f47790d8280c4b20d45",
+    "Name": "Imperial Guard",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "eos-parent_unit": "Parent Unit",
+      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Imperial Guard",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-parent_unit": "Parent Unit",
+          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
+          "rulebook-disciplined": "Disciplined"
+        }
+      },
+      {
+        "Name": "Imperial Guard",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Imperial Guard",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f47790d8280c4b20d81",
+    "Name": "Knights of the Sun Griffon",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "eos-trained_ferocity": "Trained Ferocity",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Knights of the Sun Griffon",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Knights of the Sun Griffon",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Knight",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
+      },
+      {
+        "Name": "Young Griffon",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-trained_ferocity": "Trained Ferocity",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357f47790d8280c4b20dbb",
+    "Name": "Arcane Engine",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-channel": "Channel (1)",
+      "rulebook-solitary": "Solitary",
+      "eos-aura_of_power": "Aura of Power",
+      "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Arcane Engine",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-channel": "Channel (1)",
+          "rulebook-solitary": "Solitary",
+          "eos-aura_of_power": "Aura of Power",
+          "rulebook-ice_and_fire": "Ice and Fire (Cosmology)"
+        }
+      },
+      {
+        "Name": "Arcane Engine",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Crew (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Horse (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f47790d8280c4b20dc1",
+    "Name": "Imperial Rangers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-solitary": "Solitary",
+      "rulebook-disciplined": "Disciplined",
+      "eos-support_unit": "Support Unit",
+      "eos-wilderness_guides": "Wilderness Guides",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-bow": "Bow (3+)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Imperial Rangers",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-solitary": "Solitary",
+          "rulebook-disciplined": "Disciplined",
+          "eos-support_unit": "Support Unit",
+          "eos-wilderness_guides": "Wilderness Guides"
+        }
+      },
+      {
+        "Name": "Imperial Rangers",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Imperial Ranger",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-bow": "Bow (3+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f48790d8280c4b20dcf",
+    "Name": "Reiters",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-brace_of_pistols": "Brace of Pistols (4+)",
+      "eos-fire_on_impact": "Fire on Impact!"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Reiters",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Reiters",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Reiter",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-brace_of_pistols": "Brace of Pistols (4+)",
+          "eos-fire_on_impact": "Fire on Impact!"
+        }
+      },
+      {
+        "Name": "Horse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f48790d8280c4b20de1",
+    "Name": "Blackpowder Artillery",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "eos-imperial_rocketeer": "Imperial Rocketeer (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Blackpowder Artillery",
+        "Values": {
+          "Ad": "0",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Blackpowder Artillery",
+        "Values": {
+          "HP": "5",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Crew",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "eos-imperial_rocketeer": "Imperial Rocketeer (5+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  },
+  {
+    "Id": "68357f48790d8280c4b20e01",
+    "Name": "Flagellants",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-exclusive": "Exclusive (Zealot)",
+      "rulebook-resistance": "Resistance ( against Str 15)",
+      "rulebook-unstable": "Unstable",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-unruly": "Unruly",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "cl-fury": "Fury",
+      "rulebook-great_weapon": "Great Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Flagellants",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-exclusive": "Exclusive (Zealot)",
+          "rulebook-resistance": "Resistance ( against Str 15)",
+          "rulebook-unstable": "Unstable",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-fearless": "Fearless",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-unruly": "Unruly",
+          "rulebook-dying_blow": "Dying Blow"
+        }
+      },
+      {
+        "Name": "Flagellants",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Flagellant",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "cl-fury": "Fury",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f48790d8280c4b20e0d",
+    "Name": "Steam Tank",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (2D6\")",
+      "eos-steam_powered": "Steam Powered",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+      "rulebook-breath_attack": "Breath Attack (Str 2, AP 3, Stand and Shoot)",
+      "rulebook-grind_attack": "Grind Attack (3D3)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+      "eos-steam_cannon": "Steam Cannon (3+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Steam Tank",
+        "Values": {
+          "Ad": "2D6",
+          "Ma": "2D6",
+          "Di": "7",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (2D6\")",
+          "eos-steam_powered": "Steam Powered",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")"
+        }
+      },
+      {
+        "Name": "Steam Tank",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "8",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-breath_attack": "Breath Attack (Str 2, AP 3, Stand and Shoot)",
+          "rulebook-grind_attack": "Grind Attack (3D3)",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+          "eos-steam_cannon": "Steam Cannon (3+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  }
+]

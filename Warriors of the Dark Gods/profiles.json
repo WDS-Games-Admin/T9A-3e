@@ -1,0 +1,3465 @@
+[
+  {
+    "Id": "68357f9b790d8280c4b2756b",
+    "Name": "Exalted Herald",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "wdg-manifestation": "Manifestation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Exalted Herald",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-wizard_adept": "Wizard Adept",
+          "wdg-manifestation": "Manifestation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Exalted Herald",
+        "Values": {
+          "HP": "5",
+          "Df": "8",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
+      },
+      {
+        "Name": "Exalted Herald",
+        "Values": {
+          "At": "6",
+          "Of": "9",
+          "St": "5",
+          "AP": "2",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f9b790d8280c4b27576",
+    "Name": "Feldrak Ancestor",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-primal_legend": "Primal Legend",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "wdg-dying_embers": "Dying Embers",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feldrak Ancestor",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "wdg-primal_legend": "Primal Legend",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Feldrak Ancestor",
+        "Values": {
+          "HP": "8",
+          "Df": "6",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Feldrak Ancestor",
+        "Values": {
+          "At": "6",
+          "Of": "6",
+          "St": "7",
+          "AP": "4",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "wdg-dying_embers": "Dying Embers",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "8719365c-eeb9-4733-b667-6e67a16c545b",
+    "Name": "Scythed Skywheel",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "330"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-grind_attack": "Grind Attack (2D3+1)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "Ad": "6",
+          "Ma": "9",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield",
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
+      },
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "4",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (2D3+1)",
+          "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "19f95c10-422c-40c6-ac8a-ce718f6be669",
+    "Name": "Karkadan",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "370"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Karkadan",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Karkadan",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "6"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Karkadan",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "4395268f-eea8-4e3b-898f-cb91c3cca865",
+    "Name": "War Dais",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "380"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "War Dais",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "6"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "b4477cd4-f7a9-432a-95a1-7406cdad974f",
+    "Name": "Black Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "6"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "03e04ef9-9c26-485e-951c-3644faf403c1",
+    "Name": "Black Steed (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "6"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "3f9699b9-7b53-4f6d-b5fa-5d04616e732f",
+    "Name": "Chimera",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "440"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chimera",
+        "Values": {
+          "Ad": "8",
+          "Ma": "10",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Chimera",
+        "Values": {
+          "HP": "5",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Chimera",
+        "Values": {
+          "At": "5",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "6792e08f-ca79-4d8e-8124-5a34e4fb7669",
+    "Name": "Wasteland Dragon",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "640"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "wdg-meeting_of_minds": "Meeting of Minds",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wasteland Dragon",
+        "Values": {
+          "Ad": "7",
+          "Ma": "9",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "wdg-meeting_of_minds": "Meeting of Minds",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Wasteland Dragon",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Wasteland Dragon",
+        "Values": {
+          "At": "6",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f9b790d8280c4b275a3",
+    "Name": "Chosen Lord",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chosen Lord",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-light_troops": "Light Troops",
+          "wdg-gluttony": "Gluttony"
+        }
+      },
+      {
+        "Name": "Chosen Lord",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Chosen Lord",
+        "Values": {
+          "At": "5",
+          "Of": "8",
+          "St": "5",
+          "AP": "2",
+          "Ag": "7"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "f497b140-322e-4c04-8c74-ea7809c73174",
+    "Name": "Wasteland Behemoth",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "520"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "At": "6",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f9c790d8280c4b27963",
+    "Name": "Doomlord",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Doomlord",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Doomlord",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Doomlord",
+        "Values": {
+          "At": "5",
+          "Of": "7",
+          "St": "5",
+          "AP": "2",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "b955b1e8-2ac7-4ed2-a082-4fce34a6dab1",
+    "Name": "War Dais",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "335"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "War Dais",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "a4a9573f-b7b4-43b3-a36f-935fac59bb76",
+    "Name": "Black Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "340"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "8551a633-d7b3-46b6-919e-8ca633e413b8",
+    "Name": "Scythed Skywheel",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "340"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-grind_attack": "Grind Attack (2D3+1)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "Ad": "6",
+          "Ma": "9",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
+      },
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "4",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (2D3+1)",
+          "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "ce4015d3-b7c2-454a-ab96-950633aabbe7",
+    "Name": "Black Steed (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "360"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "ae7701de-e2e3-4306-a3fc-c71f82beecd6",
+    "Name": "Wretched One (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "480"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-solitary": "Solitary",
+      "wdg-beacon_of_the_dark_gods": "Beacon of the Dark Gods",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wretched One (2)",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-solitary": "Solitary",
+          "wdg-beacon_of_the_dark_gods": "Beacon of the Dark Gods",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Wretched One (2)",
+        "Values": {
+          "HP": "5",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Wretched One (2)",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "4",
+          "AP": "0",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "dffc0dd9-e17b-440c-928e-ef785c1908ed",
+    "Name": "Wasteland Behemoth",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "590"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "At": "6",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "26a4c668-caab-4288-8f1f-67bf1d393b73",
+    "Name": "Wasteland Dragon",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "610"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "wdg-meeting_of_minds": "Meeting of Minds",
+      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wasteland Dragon",
+        "Values": {
+          "Ad": "7",
+          "Ma": "9",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "wdg-meeting_of_minds": "Meeting of Minds",
+          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Wasteland Dragon",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wasteland Dragon",
+        "Values": {
+          "At": "6",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f9c790d8280c4b27a1f",
+    "Name": "Sorcerer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Sorcerer",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Sorcerer",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Sorcerer",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "37120b9a-6b91-4295-96a8-98932c26d597",
+    "Name": "War Dais",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "110"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "War Dais",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "caa04526-7a9d-4dae-9355-148419bf09e3",
+    "Name": "Black Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "120"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "ce2faf6b-08e1-4670-994f-221cbfdac320",
+    "Name": "Shadow Chaser",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "130"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "rulebook-vanguard": "Vanguard (3\")",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Shadow Chaser",
+        "Values": {
+          "Ad": "10",
+          "Ma": "10",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-vanguard": "Vanguard (3\")",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Shadow Chaser",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Shadow Chaser",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "a76a4ab8-c45a-47cd-94a4-f317db3a1420",
+    "Name": "Black Steed (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "160"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "8f7ce7ed-d90b-4f1e-8670-0b1fca4c503e",
+    "Name": "Chimera",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "280"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chimera",
+        "Values": {
+          "Ad": "8",
+          "Ma": "10",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Chimera",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Chimera",
+        "Values": {
+          "At": "5",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "abc37822-b43c-43f1-9058-c997eee9a356",
+    "Name": "Wasteland Behemoth",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "360"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wasteland Behemoth",
+        "Values": {
+          "At": "6",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f9d790d8280c4b27ce2",
+    "Name": "Barbarian Chief",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-deeds_not_words": "Deeds not Words"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Barbarian Chief",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Barbarian Chief",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Barbarian Chief",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "wdg-deeds_not_words": "Deeds not Words"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f9e790d8280c4b27fe9",
+    "Name": "Warriors",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Warriors",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever"
+        }
+      },
+      {
+        "Name": "Warriors",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Warrior",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f9e790d8280c4b28040",
+    "Name": "Fallen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Fallen",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-dying_blow": "Dying Blow"
+        }
+      },
+      {
+        "Name": "Fallen",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
+      },
+      {
+        "Name": "Fallen",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f9e790d8280c4b28045",
+    "Name": "Barbarians",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Barbarians",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever"
+        }
+      },
+      {
+        "Name": "Barbarians",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Barbarian",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f9f790d8280c4b2808a",
+    "Name": "Barbarian Horsemen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Barbarian Horsemen",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-battle_fever": "Battle Fever"
+        }
+      },
+      {
+        "Name": "Barbarian Horsemen",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Barbarian Horseman",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f9f790d8280c4b280c6",
+    "Name": "Warrior Knights",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Warrior Knights",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever"
+        }
+      },
+      {
+        "Name": "Warrior Knights",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Warrior Rider",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Black Steed",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f9f790d8280c4b28118",
+    "Name": "Warrior Chariot",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Warrior Chariot",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Warrior Chariot",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
+      },
+      {
+        "Name": "Warrior Crew (2)",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
+      },
+      {
+        "Name": "Black Steed (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f9f790d8280c4b28123",
+    "Name": "Chosen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "wdg-envy": "Envy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-extra_support": "Extra Support (3)",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chosen",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "wdg-envy": "Envy"
+        }
+      },
+      {
+        "Name": "Chosen",
+        "Values": {
+          "HP": "2",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Chosen",
+        "Values": {
+          "At": "3",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-extra_support": "Extra Support (3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357fa0790d8280c4b2817a",
+    "Name": "Chosen Knights",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-envy": "Envy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chosen Knights",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-envy": "Envy"
+        }
+      },
+      {
+        "Name": "Chosen Knights",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "5"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
+      },
+      {
+        "Name": "Chosen Rider",
+        "Values": {
+          "At": "3",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
+      },
+      {
+        "Name": "Karkadan",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357fa0790d8280c4b281c0",
+    "Name": "Chosen Chariot",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "wdg-envy": "Envy",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-halberd": "Halberd",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "wdg-hellforged_armour": "Hell-Forged Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chosen Chariot",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "wdg-envy": "Envy"
+        }
+      },
+      {
+        "Name": "Chosen Chariot",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour"
+        }
+      },
+      {
+        "Name": "Chosen Crew (2)",
+        "Values": {
+          "At": "3",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-halberd": "Halberd"
+        }
+      },
+      {
+        "Name": "Karkadan",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357fa0790d8280c4b281cb",
+    "Name": "Forsworn",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Doomlord)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-dying_blow": "Dying Blow",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Forsworn",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (Doomlord)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-dying_blow": "Dying Blow",
+          "wdg-battle_fever": "Battle Fever"
+        }
+      },
+      {
+        "Name": "Forsworn",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Forsworn",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-handandahalf": "Hand-and-a-Half"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357fa0790d8280c4b28210",
+    "Name": "Wretched Ones",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-solitary": "Solitary",
+      "rulebook-mindless": "Mindless",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "wdg-writhing_mass": "Writhing Mass",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wretched Ones",
+        "Values": {
+          "Ad": "3D6",
+          "Ma": "3D6",
+          "Di": "5",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-solitary": "Solitary",
+          "rulebook-mindless": "Mindless",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "wdg-writhing_mass": "Writhing Mass"
+        }
+      },
+      {
+        "Name": "Wretched Ones",
+        "Values": {
+          "HP": "4",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Wretched One",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "4",
+          "AP": "0",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357fa0790d8280c4b28213",
+    "Name": "Battleshrine",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-solitary": "Solitary",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-wizard_conclave": "Wizard Conclave (2)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Battleshrine",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-solitary": "Solitary",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-wizard_conclave": "Wizard Conclave (2)",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Battleshrine",
+        "Values": {
+          "HP": "5",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Shrine Priest",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Wretched One (2)",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "4",
+          "AP": "0",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357fa1790d8280c4b28219",
+    "Name": "Flayers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-vanguard": "Vanguard (3\")",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Flayers",
+        "Values": {
+          "Ad": "10",
+          "Ma": "10",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-vanguard": "Vanguard (3\")",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Flayers",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Flayer",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Shadow Chaser",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357fa1790d8280c4b28233",
+    "Name": "Warhounds",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "wdg-release_the_hounds": "Release the Hounds",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Warhounds",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly",
+          "wdg-release_the_hounds": "Release the Hounds"
+        }
+      },
+      {
+        "Name": "Warhounds",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Warhound",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357fa1790d8280c4b28236",
+    "Name": "Chimera",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Chimera",
+        "Values": {
+          "Ad": "8",
+          "Ma": "10",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Chimera",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Chimera",
+        "Values": {
+          "At": "5",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357fa1790d8280c4b2823a",
+    "Name": "Feldraks",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-halberd": "Halberd",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feldraks",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Feldraks",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Feldrak",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-halberd": "Halberd"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357fa2790d8280c4b28274",
+    "Name": "Feldrak Elder",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred ( against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feldrak Elder",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Feldrak Elder",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Feldrak Elder",
+        "Values": {
+          "At": "6",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357fa2790d8280c4b28279",
+    "Name": "Marauding Giant",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "wdg-giant_club": "Giant Club"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Marauding Giant",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "wdg-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Marauding Giant",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Marauding Giant",
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "wdg-giant_club": "Giant Club"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357fa2790d8280c4b28288",
+    "Name": "Forsaken One",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-mindless": "Mindless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-grind_attack": "Grind Attack (D6+3)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Forsaken One",
+        "Values": {
+          "Ad": "3D6",
+          "Ma": "3D6",
+          "Di": "5",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-mindless": "Mindless",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "rulebook-dying_blow": "Dying Blow"
+        }
+      },
+      {
+        "Name": "Forsaken One",
+        "Values": {
+          "HP": "8",
+          "Df": "2",
+          "Re": "6",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Forsaken One",
+        "Values": {
+          "At": "0",
+          "Of": "0",
+          "St": "6",
+          "AP": "2",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-grind_attack": "Grind Attack (D6+3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357fa2790d8280c4b28289",
+    "Name": "Hellmaw",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "wdg-gateway": "Gateway",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Hellmaw",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "7",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "wdg-gateway": "Gateway",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Hellmaw",
+        "Values": {
+          "HP": "6",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Hellmaw",
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  }
+]

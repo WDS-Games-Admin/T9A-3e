@@ -1,0 +1,1557 @@
+[
+  {
+    "Id": "68357f6a790d8280c4b24070",
+    "Name": "Great Khan",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Khan",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Great Khan",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Great Khan",
+        "Values": {
+          "At": "5",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6a790d8280c4b240d1",
+    "Name": "Khan",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Khan",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Khan",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Khan",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6a790d8280c4b2413e",
+    "Name": "Shaman",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Shaman",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Shaman",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Shaman",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "b7da4115-8155-4eb6-b11a-45aa67ffe740",
+    "Name": "Tusker",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "225"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ok-animal_master": "Animal Master",
+      "rulebook-exclusive": "Exclusive (Yetis)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tusker",
+        "Values": {
+          "Ad": "8",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "ok-animal_master": "Animal Master",
+          "rulebook-exclusive": "Exclusive (Yetis)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Tusker",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tusker",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "9ada8cec-bbc7-496f-aebc-4c7d12055ee2",
+    "Name": null,
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "500"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ok-animal_master": "Animal Master",
+      "rulebook-exclusive": "Exclusive (Yetis)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-terror": "Terror",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (3D3)",
+      "cl-fury": "Fury",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": null,
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "ok-animal_master": "Animal Master",
+          "rulebook-exclusive": "Exclusive (Yetis)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-terror": "Terror",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": null,
+        "Values": {
+          "HP": "7",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": null,
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "7",
+          "AP": "4",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (3D3)",
+          "cl-fury": "Fury",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f6a790d8280c4b2419b",
+    "Name": "Mammoth Hunter",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ok-animal_master": "Animal Master",
+      "rulebook-exclusive": "Exclusive (Yetis)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "ok-hunting_spear": "Hunting Spear (2+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Mammoth Hunter",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "ok-animal_master": "Animal Master",
+          "rulebook-exclusive": "Exclusive (Yetis)",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Mammoth Hunter",
+        "Values": {
+          "HP": "4",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Mammoth Hunter",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "ok-hunting_spear": "Hunting Spear (2+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6b790d8280c4b242f6",
+    "Name": "Tribesmen",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tribesmen",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tribesmen",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tribesman",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6b790d8280c4b24332",
+    "Name": "Bruisers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-first_strike": "First Strike (Resolute(1))",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-great_weapon": "Great Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Bruisers",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-first_strike": "First Strike (Resolute(1))"
+        }
+      },
+      {
+        "Name": "Bruisers",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Bruiser",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6b790d8280c4b24365",
+    "Name": "Scraplings",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-exclusive": "Exclusive (Scraplord)",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag (0\")",
+      "rulebook-unruly": "Unruly",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Scraplings",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-exclusive": "Exclusive (Scraplord)",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag (0\")",
+          "rulebook-unruly": "Unruly",
+          "rulebook-feigned_flight": "Feigned Flight"
+        }
+      },
+      {
+        "Name": "Scraplings",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Scrapling",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f6c790d8280c4b243a7",
+    "Name": "Mercenary Veterans",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-lethal_strike": "Lethal Strike"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Mercenary Veterans",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined"
+        }
+      },
+      {
+        "Name": "Mercenary Veterans",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Mercenary Veteran",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-lethal_strike": "Lethal Strike"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6c790d8280c4b24401",
+    "Name": "Tusker Cavalry",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tusker Cavalry",
+        "Values": {
+          "Ad": "8",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Tusker Cavalry",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Rider",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Tusker",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f6c790d8280c4b2443d",
+    "Name": "Yetis",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "ok-touch_of_frost": "Touch of Frost",
+      "rulebook-exclusive": "Exclusive (Mammoth Hunter)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Yetis",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "ok-touch_of_frost": "Touch of Frost",
+          "rulebook-exclusive": "Exclusive (Mammoth Hunter)"
+        }
+      },
+      {
+        "Name": "Yetis",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Yeti",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6c790d8280c4b2444b",
+    "Name": "Scrapling Trappers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "ok-its_a_trap": "It's a Trap!",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-throwing_weapons": "Throwing Weapons (4+)",
+      "rulebook-lethal_strike": "Lethal Strike (Shooting)",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Scrapling Trappers",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly",
+          "ok-its_a_trap": "It's a Trap!"
+        }
+      },
+      {
+        "Name": "Scrapling Trappers",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Scrapling Trapper",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-throwing_weapons": "Throwing Weapons (4+)",
+          "rulebook-lethal_strike": "Lethal Strike (Shooting)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f6c790d8280c4b24459",
+    "Name": "Sabretooth Tigers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-exclusive": "Exclusive (Mammoth Hunter)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Sabretooth Tigers",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "5",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-exclusive": "Exclusive (Mammoth Hunter)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Sabretooth Tigers",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Sabretooth Tiger",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f6d790d8280c4b2445c",
+    "Name": "Kin-Eater",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-ambush": "Ambush (Table Edge)",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-unruly": "Unruly",
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-hatred": "Hatred",
+      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-regeneration": "Regeneration (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kin-Eater",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "7",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-ambush": "Ambush (Table Edge)",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable",
+          "rulebook-unruly": "Unruly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Kin-Eater",
+        "Values": {
+          "HP": "4",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Kin-Eater",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-hatred": "Hatred",
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6d790d8280c4b2445f",
+    "Name": "Mercenary Gunners",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "ok-brace_of_ogre_pistols": "Brace of Ogre Pistols (4+)",
+      "rulebook-lethal_strike": "Lethal Strike (Shooting)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Mercenary Gunners",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined"
+        }
+      },
+      {
+        "Name": "Mercenary Gunners",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Mercenary Gunner",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "ok-brace_of_ogre_pistols": "Brace of Ogre Pistols (4+)",
+          "rulebook-lethal_strike": "Lethal Strike (Shooting)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6d790d8280c4b244a8",
+    "Name": "Thunder Cannon",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "ok-thunder_cannon": "Thunder Cannon (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Thunder Cannon",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Thunder Cannon",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Bombardier Crew",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Tusker",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)",
+          "ok-thunder_cannon": "Thunder Cannon (4+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f6d790d8280c4b244a9",
+    "Name": "Scratapult",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "ok-scratapult": "Scratapult (4+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Scratapult",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Scratapult",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Scrapling Crew (7)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Tusker",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)",
+          "ok-scratapult": "Scratapult (4+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f6d790d8280c4b244ac",
+    "Name": "Bombardiers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "ok-hand_cannon": "Hand Cannon (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Bombardiers",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Bombardiers",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Bombardier",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "ok-hand_cannon": "Hand Cannon (5+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f6d790d8280c4b244dd",
+    "Name": "Rock Aurochs",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fearless": "Fearless",
+      "rulebook-terror": "Terror",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ok-ogre_crossbow": "Ogre Crossbow (3+)",
+      "rulebook-impact_hits": "Impact Hits (3D3)",
+      "cl-fury": "Fury",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "ok-mountain_hide": "Mountain Hide"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Rock Aurochs",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-fearless": "Fearless",
+          "rulebook-terror": "Terror",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Rock Aurochs",
+        "Values": {
+          "HP": "7",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "ok-mountain_hide": "Mountain Hide"
+        }
+      },
+      {
+        "Name": "Tamer",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ok-ogre_crossbow": "Ogre Crossbow (3+)"
+        }
+      },
+      {
+        "Name": "Rock Aurochs",
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (3D3)",
+          "cl-fury": "Fury",
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f6e790d8280c4b244e2",
+    "Name": "Frost Mammoth",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "rulebook-swiftstride": "Swiftstride",
+      "ok-freezing_aura": "Freezing Aura",
+      "ok-dengrais_ice_storm": "Dengrai's Ice Storm",
+      "rulebook-afflict": "Afflict (Minimised Flee Distance Roll)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "ok-hunting_spear": "Hunting Spear (3+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Frost Mammoth",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror",
+          "rulebook-swiftstride": "Swiftstride",
+          "ok-freezing_aura": "Freezing Aura",
+          "ok-dengrais_ice_storm": "Dengrai's Ice Storm",
+          "rulebook-afflict": "Afflict (Minimised Flee Distance Roll)"
+        }
+      },
+      {
+        "Name": "Frost Mammoth",
+        "Values": {
+          "HP": "7",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tamer(2)",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ok-hunting_spear": "Hunting Spear (3+)"
+        }
+      },
+      {
+        "Name": "Frost Mammoth",
+        "Values": {
+          "At": "4",
+          "Of": "3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f6e790d8280c4b244e6",
+    "Name": "Mercenary Giant",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ok-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-first_strike": "First Strike (Fury)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-impact_hits": "Impact Hits (D3)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Mercenary Giant",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "ok-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-first_strike": "First Strike (Fury)"
+        }
+      },
+      {
+        "Name": "Mercenary Giant",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Mercenary Giant",
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-impact_hits": "Impact Hits (D3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  }
+]

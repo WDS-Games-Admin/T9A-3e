@@ -1,0 +1,2692 @@
+[
+  {
+    "Id": "80c85ad6-2293-4b17-a9ac-37023840ce52",
+    "Name": "Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "360"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-keys_to_the_citadel": "Keys to the Citadel",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "10",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-keys_to_the_citadel": "Keys to the Citadel",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "HP": "5",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "85fd36f7-3d9a-488a-9fc7-c03a2e794923",
+    "Name": "Great Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "580"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-keys_to_the_citadel": "Keys to the Citadel",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "10",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-keys_to_the_citadel": "Keys to the Citadel",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f54790d8280c4b21fd3",
+    "Name": "Overlord",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-keys_to_the_citadel": "Keys to the Citadel",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-spear": "Spear",
+      "id-infernal_weapon": "Infernal Weapon",
+      "id-flintlock_axe": "Flintlock Axe (2+)",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Overlord",
+        "Values": {
+          "Ad": "3",
+          "Ma": "4",
+          "Di": "10",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-keys_to_the_citadel": "Keys to the Citadel",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Overlord",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Overlord",
+        "Values": {
+          "At": "4",
+          "Of": "7",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-spear": "Spear",
+          "id-infernal_weapon": "Infernal Weapon",
+          "id-flintlock_axe": "Flintlock Axe (2+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "99c40cac-affe-442d-b6e0-1c3634ca0ba7",
+    "Name": "Vassal (4)",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "330"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-vassal_governor": "Vassal Governor",
+      "rulebook-disciplined": "Disciplined",
+      "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal (4)",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-vassal_governor": "Vassal Governor",
+          "rulebook-disciplined": "Disciplined",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Vassal (4)",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Vassal (4)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "5272868e-879b-4e9b-a190-34311eee413b",
+    "Name": "Kadim Beast",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "365"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-aegis": "Aegis (3+ against Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kadim Beast",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Kadim Beast",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-aegis": "Aegis (3+ against Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Kadim Beast",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "78bcc17d-0365-4ec9-9101-ce29dd9a197e",
+    "Name": "Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "440"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "HP": "5",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "5eca85fa-e8f0-4dc6-8930-9e5362bede1b",
+    "Name": "Crew (6)",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "590"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-strider": "Strider (Wall)",
+      "id-firing_platform": "Firing Platform",
+      "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3+1)",
+      "rulebook-crush_attack": "Crush Attack",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "Ad": "4",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-strider": "Strider (Wall)",
+          "id-firing_platform": "Firing Platform",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Battering Ram",
+        "Values": {
+          "At": null,
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D3+1)",
+          "rulebook-crush_attack": "Crush Attack"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "f00c7d46-8174-404d-a8a2-80d7525e7192",
+    "Name": "Great Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "670"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f54790d8280c4b220ed",
+    "Name": "Prophet",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Prophet",
+        "Values": {
+          "Ad": "3",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Prophet",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Prophet",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "2db2ff45-8048-403f-9ad8-614d4d56b959",
+    "Name": "Vassal (4)",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "150"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-vassal_governor": "Vassal Governor",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal (4)",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-vassal_governor": "Vassal Governor",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Vassal (4)",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Vassal (4)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "2908d7d1-e131-4320-b253-50faa68c5101",
+    "Name": "Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "260"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-fly": "Fly",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
+      "rulebook-supernal": "Supernal",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-fly": "Fly",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",
+          "rulebook-supernal": "Supernal",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "079a609a-f23a-4785-8a41-7546afc40f69",
+    "Name": "Crew (6)",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "390"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-strider": "Strider (Wall)",
+      "id-firing_platform": "Firing Platform",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3+1)",
+      "rulebook-crush_attack": "Crush Attack",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "Ad": "4",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-strider": "Strider (Wall)",
+          "id-firing_platform": "Firing Platform",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Battering Ram",
+        "Values": {
+          "At": null,
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D3+1)",
+          "rulebook-crush_attack": "Crush Attack"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f55790d8280c4b2235a",
+    "Name": "Vizier",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vizier",
+        "Values": {
+          "Ad": "3",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Vizier",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Vizier",
+        "Values": {
+          "At": "3",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f56790d8280c4b2250f",
+    "Name": "Taurukh Commissioner",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Taurukh Commissioner",
+        "Values": {
+          "Ad": "7",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Taurukh Commissioner",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Taurukh Commis.",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "20b14159-c797-4f9e-82b8-cc189c2223e5",
+    "Name": "Vassal Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "265"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-exclusive": "Exclusive (Insignificant)",
+      "rulebook-insignificant": "Insignificant",
+      "id-unbranded": "Unbranded",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-wizard_adept": "Wizard Adept",
+          "rulebook-exclusive": "Exclusive (Insignificant)",
+          "rulebook-insignificant": "Insignificant",
+          "id-unbranded": "Unbranded",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Vassal Steed",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Vassal Steed",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f56790d8280c4b22567",
+    "Name": "Vassal Conjurer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-exclusive": "Exclusive (Insignificant)",
+      "rulebook-insignificant": "Insignificant",
+      "id-unbranded": "Unbranded",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal Conjurer",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-wizard_adept": "Wizard Adept",
+          "rulebook-exclusive": "Exclusive (Insignificant)",
+          "rulebook-insignificant": "Insignificant",
+          "id-unbranded": "Unbranded",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "Vassal Conjurer",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Vassal Conjurer",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f56790d8280c4b225d2",
+    "Name": "Lamassu Scholar",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-fly": "Fly",
+      "id-riddle_of_the_lamassu": "Riddle of the Lamassu",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_conclave": "Wizard Conclave (3)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-infernal_weapon": "Infernal Weapon",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Lamassu Scholar",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-fly": "Fly",
+          "id-riddle_of_the_lamassu": "Riddle of the Lamassu",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-wizard_conclave": "Wizard Conclave (3)"
+        }
+      },
+      {
+        "Name": "Lamassu Scholar",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)",
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Student",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "id-infernal_weapon": "Infernal Weapon"
+        }
+      },
+      {
+        "Name": "Lamassu",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f56790d8280c4b225eb",
+    "Name": "Infernal Warriors",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Infernal Warriors",
+        "Values": {
+          "Ad": "3",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)"
+        }
+      },
+      {
+        "Name": "Infernal Warriors",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Infernal Warrior",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f56790d8280c4b2262a",
+    "Name": "Citadel Guard",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-pistol": "Pistol (4+)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Citadel Guard",
+        "Values": {
+          "Ad": "3",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)"
+        }
+      },
+      {
+        "Name": "Citadel Guard",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Citadel Guard",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-pistol": "Pistol (4+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f57790d8280c4b22669",
+    "Name": "Vassal Levies",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-exclusive": "Exclusive (Insignificant, Vassal Governor)",
+      "rulebook-weakness": "Weakness (Flaming Attacks)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-oil_flasks": "Oil Flasks (2)",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal Levies",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-exclusive": "Exclusive (Insignificant, Vassal Governor)",
+          "rulebook-weakness": "Weakness (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Vassal Levies",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Vassal Levy",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "id-oil_flasks": "Oil Flasks (2)",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f57790d8280c4b226ae",
+    "Name": "Shackled Slaves",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-solitary": "Solitary",
+      "rulebook-unruly": "Unruly",
+      "id-chained_together": "Chained Together",
+      "rulebook-unstable": "Unstable",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Shackled Slaves",
+        "Values": {
+          "Ad": "4",
+          "Ma": "6",
+          "Di": "4",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-solitary": "Solitary",
+          "rulebook-unruly": "Unruly",
+          "id-chained_together": "Chained Together",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Shackled Slaves",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Shackled Slave",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "68357f57790d8280c4b226c0",
+    "Name": "Kadim Chariot",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kadim Chariot",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)"
+        }
+      },
+      {
+        "Name": "Kadim Chariot",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Champion of Lugar (2)",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      },
+      {
+        "Name": "Kadim Beast",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f57790d8280c4b226c5",
+    "Name": "Immortals",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General, Overlord, Vizier)",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "cl-fury": "Fury",
+      "rulebook-great_weapon": "Great Weapon",
+      "id-infernal_armour": "Infernal Armour",
+      "id-defy_death": "Defy Death",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Immortals",
+        "Values": {
+          "Ad": "3",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General, Overlord, Vizier)",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "rulebook-disciplined": "Disciplined"
+        }
+      },
+      {
+        "Name": "Immortals",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour",
+          "id-defy_death": "Defy Death",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Immortal",
+        "Values": {
+          "At": "1",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "cl-fury": "Fury",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f58790d8280c4b22704",
+    "Name": "Disciples of Lugar",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-ghost_step": "Ghost Step",
+      "id-theocratic_litigators": "Theocratic Litigators",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Disciples of Lugar",
+        "Values": {
+          "Ad": "4",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "rulebook-ghost_step": "Ghost Step",
+          "id-theocratic_litigators": "Theocratic Litigators"
+        }
+      },
+      {
+        "Name": "Disciples of Lugar",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Disciple of Lugar",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f58790d8280c4b22740",
+    "Name": "Kadim Incarnates",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Supernal)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-volcanic_embrace": "Volcanic Embrace (1)",
+      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kadim Incarnates",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "6",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Supernal)"
+        }
+      },
+      {
+        "Name": "Kadim Incarnates",
+        "Values": {
+          "HP": "3",
+          "Df": "2",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Kadim Incarnate",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "id-volcanic_embrace": "Volcanic Embrace (1)",
+          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f58790d8280c4b2274e",
+    "Name": "Taurukh Enforcers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Taurukh Enforcers",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Taurukh Enforcers",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Taurukh Enforcer",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f58790d8280c4b22796",
+    "Name": "Taurukh Anointed",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-bodyguard": "Bodyguard (Taurukh Commissioner)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-great_weapon": "Great Weapon",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Taurukh Anointed",
+        "Values": {
+          "Ad": "7",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "rulebook-bodyguard": "Bodyguard (Taurukh Commissioner)",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Taurukh Anointed",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Taurukh Anointed",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-impact_hits": "Impact Hits (1)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357f59790d8280c4b227db",
+    "Name": "Vassal Cavalry",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-weakness": "Weakness (Flaming Attacks)",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-oil_flasks": "Oil Flasks (2)",
+      "rulebook-light_lance": "Light Lance",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal Cavalry",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-vanguard": "Vanguard",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-weakness": "Weakness (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Vassal Cavalry",
+        "Values": {
+          "HP": "1",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Vassal Rider",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "id-oil_flasks": "Oil Flasks (2)",
+          "rulebook-light_lance": "Light Lance",
+          "rulebook-bow": "Bow (4+)"
+        }
+      },
+      {
+        "Name": "Vassal Steed",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f59790d8280c4b2280c",
+    "Name": "Infernal Bastion",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-strider": "Strider (Wall)",
+      "id-firing_platform": "Firing Platform",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-impact_hits": "Impact Hits (D3+1)",
+      "rulebook-crush_attack": "Crush Attack",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Infernal Bastion",
+        "Values": {
+          "Ad": "4",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-strider": "Strider (Wall)",
+          "id-firing_platform": "Firing Platform"
+        }
+      },
+      {
+        "Name": "Infernal Bastion",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Crew (6)",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
+        }
+      },
+      {
+        "Name": "Battering Ram",
+        "Values": {
+          "At": null,
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D3+1)",
+          "rulebook-crush_attack": "Crush Attack"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f59790d8280c4b2280d",
+    "Name": "Vassal Slingshot",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "id-vassal_slingshot": "Vassal Slingshot (4+)",
+      "rulebook-weakness": "Weakness (Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vassal Slingshot",
+        "Values": {
+          "Ad": "0",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary",
+          "rulebook-insignificant": "Insignificant"
+        }
+      },
+      {
+        "Name": "Vassal Slingshot",
+        "Values": {
+          "HP": "5",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-weakness": "Weakness (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Crew",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "id-vassal_slingshot": "Vassal Slingshot (4+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  },
+  {
+    "Id": "68357f59790d8280c4b2280e",
+    "Name": "Gunnery Team",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-warplatform": "WarPlatform",
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (Citadel Guard, Immortals, Infernal Warriors)",
+      "rulebook-grind_attack": "Grind Attack (3)",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-march_and_shoot": "March and Shoot",
+      "id-naphtha_thrower": "Naphtha Thrower",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gunnery Team",
+        "Values": {
+          "Ad": "0",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-warplatform": "WarPlatform",
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (Citadel Guard, Immortals, Infernal Warriors)"
+        }
+      },
+      {
+        "Name": "Gunnery Team",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Gunnery Team\t",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (3)",
+          "rulebook-quick_to_fire": "Quick to Fire",
+          "rulebook-march_and_shoot": "March and Shoot",
+          "id-naphtha_thrower": "Naphtha Thrower"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f59790d8280c4b22822",
+    "Name": "Infernal Artillery",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-accurate": "Accurate",
+      "id-higher_calibre": "Higher Calibre",
+      "id-naphtha_thrower": "Naphtha Thrower (2+)",
+      "id-infernal_armour": "Infernal Armour"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Infernal Artillery",
+        "Values": {
+          "Ad": "0",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-emplacement": "Emplacement"
+        }
+      },
+      {
+        "Name": "Infernal Artillery",
+        "Values": {
+          "HP": "5",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Crew",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-accurate": "Accurate",
+          "id-higher_calibre": "Higher Calibre",
+          "id-naphtha_thrower": "Naphtha Thrower (2+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357f5a790d8280c4b22836",
+    "Name": "Kadim Titan",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-supernal": "Supernal",
+      "rulebook-fearless": "Fearless",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+      "rulebook-magical_attacks": "Magical Attacks (Melee & Shooting)",
+      "rulebook-aegis": "Aegis (5+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kadim Titan",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-supernal": "Supernal",
+          "rulebook-fearless": "Fearless",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Kadim Titan",
+        "Values": {
+          "HP": "7",
+          "Df": "3",
+          "Re": "6",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Kadim Titan",
+        "Values": {
+          "At": "6",
+          "Of": "4",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-magical_attacks": "Magical Attacks (Melee & Shooting)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
+    "Id": "68357f5a790d8280c4b2283c",
+    "Name": "Infernal Engine",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (12\", Insignificant)",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-terror": "Terror",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fearless": "Fearless",
+      "id-full_steam_ahead": "Full Steam Ahead!",
+      "rulebook-solitary": "Solitary",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+      "rulebook-grind_attack": "Grind Attack (3D3)",
+      "id-naphtha_thrower": "Naphtha Thrower"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Infernal Engine",
+        "Values": {
+          "Ad": "4",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (12\", Insignificant)",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-terror": "Terror",
+          "rulebook-unstable": "Unstable",
+          "rulebook-fearless": "Fearless",
+          "id-full_steam_ahead": "Full Steam Ahead!",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Infernal Engine",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "8",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+          "rulebook-grind_attack": "Grind Attack (3D3)",
+          "id-naphtha_thrower": "Naphtha Thrower"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f5a790d8280c4b2285a",
+    "Name": "Citizen Giant",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "id-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "id-infernal_lash": "Infernal Lash"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Citizen Giant",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "id-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",
+          "rulebook-solitary": "Solitary"
+        }
+      },
+      {
+        "Name": "Citizen Giant",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Citizen Giant",
+        "Values": {
+          "At": "5",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "id-infernal_lash": "Infernal Lash"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  }
+]
