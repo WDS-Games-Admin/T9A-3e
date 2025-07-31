@@ -1,5 +1,80 @@
 [
   {
+    "Id": "4b8856ad-0bc8-4d19-a239-297e4b3f991e",
+    "Name": "Beastie - Creepy-Crawlies",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "80"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "ong-goblin_cunning": "Goblin Cunning",
+      "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-captain": "Captain",
+      "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Beastie",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "ong-goblin_cunning": "Goblin Cunning",
+          "rulebook-exclusive": "Exclusive (Goblin, Troll)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-captain": "Captain",
+          "rulebook-attached": "Attached"
+        }
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Beastie",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "ong-creepycrawlies": "Creepy-Crawlies"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "4b8856ad-0bc8-4d19-a239-297e4b3f751e",
     "Name": "Beastie",
     "Attributes": {
@@ -872,7 +947,7 @@
   },
   {
     "Id": "68357f70790d8280c4b248ca",
-    "Name": "Gogtuk Initiate",
+    "Name": "Gogtuk Initiate - Netter",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -907,7 +982,8 @@
           "rulebook-hidden": "Hidden",
           "rulebook-exclusive": "Exclusive (Goblin)",
           "ong-unprofessional_courtesy": "Unprofessional Courtesy",
-          "ong-netter": "Netter"
+          "ong-netter": "Netter",
+          "rulebook-afflict": "Afflict (-3 Off)"
         }
       },
       {
@@ -923,7 +999,7 @@
         }
       },
       {
-        "Name": "Gogtuk Initiate",
+        "Name": "Gogtuk Initiate - Netter",
         "Values": {
           "At": "2",
           "Of": "4",
@@ -934,6 +1010,159 @@
         "RuleIds": {
           "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f70790d8280c4b248cb",
+    "Name": "Gogtuk Initiate - Headhunter",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "ong-beastie_whisperer": "Beastie Whisperer",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hidden": "Hidden",
+      "rulebook-exclusive": "Exclusive (Goblin)",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "ong-netter": "Netter",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-distracting": "Distracting (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gogtuk Initiate - Headhunter",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "ong-beastie_whisperer": "Beastie Whisperer",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hidden": "Hidden",
+          "rulebook-exclusive": "Exclusive (Goblin)",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "march_and_shoot": "March and Shoot",
+          "rulebook-poison_attacks": "Poison Attacks (Melee and Shooting)"
+        }
+      },
+      {
+        "Name": "Gogtuk Initiate",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
+      },
+      {
+        "Name": "Gogtuk Initiate - Headhunter",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-throwing_weapons": "Throwing Weapons (4+, Shots 3)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f70790d8280c4b248cc",
+    "Name": "Gogtuk Initiate - Mauler",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ong-goblin_cunning": "Goblin Cunning",
+      "ong-beastie_whisperer": "Beastie Whisperer",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hidden": "Hidden",
+      "rulebook-exclusive": "Exclusive (Goblin)",
+      "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+      "ong-netter": "Netter",
+      "rulebook-hand_weapon": "Hand Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-distracting": "Distracting (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Gogtuk Initiate - Mauler",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ong-goblin_cunning": "Goblin Cunning",
+          "ong-beastie_whisperer": "Beastie Whisperer",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hidden": "Hidden",
+          "rulebook-exclusive": "Exclusive (Goblin)",
+          "ong-unprofessional_courtesy": "Unprofessional Courtesy",
+          "first_strike": "First Strike (Hatred)",
+          "rulebook-fury": "Fury"
+        }
+      },
+      {
+        "Name": "Gogtuk Initiate",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
+      },
+      {
+        "Name": "Gogtuk Initiate - Mauler",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
+          "rulebook-great_weapon": "Great Weapon"
         }
       }
     ],
