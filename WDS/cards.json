@@ -932,7 +932,7 @@
     "CastingValue": "6",
     "Range": "24",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "T",
     "PathName": "Totems"
   },
   {
@@ -944,7 +944,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "T",
     "PathName": "Totems"
   },
   {
@@ -956,7 +956,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "T",
     "PathName": "Totems"
   },
   {
@@ -968,7 +968,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "T",
     "PathName": "Totems"
   },
   {
@@ -980,7 +980,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "T",
     "PathName": "Totems"
   },
   {
@@ -992,7 +992,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "R",
     "PathName": "Battle Runes"
   },
   {
@@ -1004,7 +1004,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "R",
     "PathName": "Battle Runes"
   },
   {
@@ -1016,7 +1016,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "R",
     "PathName": "Battle Runes"
   },
   {
@@ -1028,7 +1028,7 @@
     "CastingValue": "3",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "R",
     "PathName": "Battle Runes"
   },
   {
@@ -1040,7 +1040,7 @@
     "CastingValue": "4",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "R",
     "PathName": "Battle Runes"
   },
   {
@@ -1052,7 +1052,7 @@
     "CastingValue": "4",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "0",
+    "Level": "R",
     "PathName": "Battle Runes"
   },
   {
@@ -1060,11 +1060,11 @@
     "Name": "Frostbite",
     "Type": "Universal",
     "Attributes": {},
-    "Description": "If this spell targets a friendly unit, the target gains +1 Armour. If this spell targets an enemy unit, the target suffers -1 Armour. <span class=\"textbf\"><font color='blue'>{This spell may target two units instead of one (declare the additional target before the Casting Attempt).}</font></span>",
+    "Description": "If this spell targets a friendly unit, the target gains +1 Armour. If this spell targets an enemy unit, the target suffers H Armour. <span class=\"textbf\"><font color='blue'>{This spell may target two units instead of one (declare the additional target before the Casting Attempt).}</font></span>",
     "CastingValue": "5",
     "Range": "24",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1076,7 +1076,7 @@
     "CastingValue": "8",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1088,7 +1088,7 @@
     "CastingValue": "6",
     "Range": "18",
     "Duration": "Instant",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1100,7 +1100,7 @@
     "CastingValue": "10",
     "Range": "18",
     "Duration": "Instant",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1108,11 +1108,11 @@
     "Name": "Guile and Fury",
     "Type": "",
     "Attributes": {},
-    "Description": "Can be cast in one of two versions:\n    <span class=\"textbf\">Augment</span>:\n\tCannot be cast by a Goblin.\n\tThe target gains <span class=\"textbf\">+1</span> to hit, and its Charge Range, Flee Distance, and Pursuit Distance are <span class=\"textbf\">increased</span> by 1\".<br><br><span class=\"textbf\">Hex</span>:\n\tCannot be cast by an Orc.\n    The target suffers <span class=\"textbf\">-1</span> to hit, and its Charge Range, Flee Distance, and Pursuit Distance are <span class=\"textbf\">reduced</span> by 1\".",
+    "Description": "Can be cast in one of two versions:\n    <span class=\"textbf\">Augment</span>:\n\tCannot be cast by a Goblin.\n\tThe target gains <span class=\"textbf\">+1</span> to hit, and its Charge Range, Flee Distance, and Pursuit Distance are <span class=\"textbf\">increased</span> by 1\".<br><br><span class=\"textbf\">Hex</span>:\n\tCannot be cast by an Orc.\n    The target suffers <span class=\"textbf\">H</span> to hit, and its Charge Range, Flee Distance, and Pursuit Distance are <span class=\"textbf\">reduced</span> by 1\".",
     "CastingValue": "8",
     "Range": "24",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1124,7 +1124,7 @@
     "CastingValue": "6",
     "Range": "24",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1136,7 +1136,7 @@
     "CastingValue": "5",
     "Range": "24",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1148,7 +1148,7 @@
     "CastingValue": "6",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1160,7 +1160,7 @@
     "CastingValue": "6",
     "Range": "24",
     "Duration": "Instant",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1168,11 +1168,11 @@
     "Name": "Curse of the Phantom Queen",
     "Type": "Hex",
     "Attributes": {},
-    "Description": "Attacks made by the target suffer -1 AP.<br>Attacks made against the target gain +1 AP.<br>Attacks from spells are not affected.",
+    "Description": "Attacks made by the target suffer H AP.<br>Attacks made against the target gain +1 AP.<br>Attacks from spells are not affected.",
     "CastingValue": "9",
     "Range": "24",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1184,7 +1184,7 @@
     "CastingValue": "10",
     "Range": "undefined",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1192,11 +1192,11 @@
     "Name": "Curse of Nezibkesh",
     "Type": "Hex",
     "Attributes": {},
-    "Description": "The target gains <span class=\"textbf\">Incendiary</span>. In addition, the target suffers -1 Def and -1 Off, and an additional -1 Def and -1 Off, as long as it has 1 or more Incendiary Markers on it.",
+    "Description": "The target gains <span class=\"textbf\">Incendiary</span>. In addition, the target suffers H Def and H Off, and an additional H Def and H Off, as long as it has 1 or more Incendiary Markers on it.",
     "CastingValue": "8",
     "Range": "36",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1208,7 +1208,7 @@
     "CastingValue": "9",
     "Range": "undefined",
     "Duration": "Instant",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1220,7 +1220,7 @@
     "CastingValue": "6",
     "Range": "36",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1228,11 +1228,11 @@
     "Name": "Children of Umi",
     "Type": "Augment",
     "Attributes": {},
-    "Description": "All Melee Attacks allocated against the target suffer -1 to wound.",
+    "Description": "All Melee Attacks allocated against the target suffer H to wound.",
     "CastingValue": "6",
     "Range": "18",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1244,7 +1244,7 @@
     "CastingValue": "9",
     "Range": "12",
     "Duration": "1 Turn",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
@@ -1256,7 +1256,7 @@
     "CastingValue": "7",
     "Range": "24",
     "Duration": "Instant",
-    "Level": "-1",
+    "Level": "H",
     "PathName": "Hereditary"
   },
   {
