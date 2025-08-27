@@ -3303,19 +3303,13 @@
     "Id": "se-forests_thorns",
     "Name": "Forest's Thorns",
     "Type": "Equipment",
-    "Description": "The Attack's AP is set to at least 3. This can only be used with a <u><link=\"sylvan_bow\">Sylvan Bow</link></u>."
+    "Description": "The Attack's AP is set to at least 3. This can only be used with a <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u>."
   },
   {
     "Id": "gnarled_and_knotted",
     "Name": "Gnarled and Knotted",
     "Type": "General",
     "Description": "If the target is within 3\" of a Forest, use the Str and AP values in brackets."
-  },
-  {
-    "Id": "sylvan_bow",
-    "Name": "Sylvan Bow",
-    "Type": "General",
-    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "rulebook-undead",
@@ -6333,7 +6327,7 @@
     "Id": "se-heath_hunters",
     "Name": "Heath Hunters",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"feigned_flight\">Feigned Flight</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"vanguard\">Vanguard</link></u>, <u><link=\"light_lance\">Light Lance</link></u>, and <u><link=\"sylvan_bow\">Sylvan Bow (3+)</link></u>."
+    "Description": "The model gains <u><link=\"feigned_flight\">Feigned Flight</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"vanguard\">Vanguard</link></u>, <u><link=\"light_lance\">Light Lance</link></u>, and <u><link=\"se-sylvan_bow\">Sylvan Bow (3+)</link></u>."
   },
   {
     "Id": "se-the_forest_follows",
@@ -6351,13 +6345,13 @@
     "Id": "se-wild_hunter",
     "Name": "Wild Hunter",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"fearless\">Fearless</link></u>, <u><link=\"frenzy\">Frenzy</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"unruly\">Unruly</link></u>.\nIn addition, the model part gains <u><link=\"devastating_charge\">Devastating Charge(+1 Att)</link></u>, <u><link=\"fury\">Fury)</link></u>, <u><link=\"lethal_strike\">Lethal Strike</link></u>."
+    "Description": "The model gains <u><link=\"fearless\">Fearless</link></u>, <u><link=\"frenzy\">Frenzy</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"unruly\">Unruly</link></u>.\nIn addition, the model part gains <u><link=\"devastating_charge\">Devastating Charge(+1 Att)</link></u>, <u><link=\"fury\">Fury</link></u>, <u><link=\"lethal_strike\">Lethal Strike</link></u>."
   },
   {
     "Id": "se-pathfinder",
     "Name": "Pathfinder",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"scout\">Scout</link></u>, <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"vanguard\">Vanguard</link></u>.\nA <u><link=\"sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
+    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"scout\">Scout</link></u>, <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
   },
   {
     "Id": "se-forest_guardian",
