@@ -3225,31 +3225,31 @@
     "Id": "se-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "    The model gains <u><link=\"tree_singing\">Tree Singing</link></u>, and Shooting Attacks against the model can never hit on a natural roll of better than 4+ ."
+    "Description": "The model gains <u><link=\"se-tree_singing\">Tree Singing</link></u>, and Shooting Attacks against the model can never hit on a roll of better than 4+ ."
   },
   {
     "Id": "se-sylvan_beasts",
     "Name": "Sylvan Beasts",
     "Type": "Global",
-    "Description": "The sum of the <u><link=\"sylvan_beasts\">Sylvan Beasts</link></u> values stated in brackets of all models in the army is restricted to 1 per 1500 Army Points, rounding fractions up."
+    "Description": "The sum of the <u><link=\"se-sylvan_beasts\">Sylvan Beasts</link></u> values stated in brackets of all models in the army is restricted to 1 per 1500 Army Points, rounding fractions up."
   },
   {
     "Id": "se-tree_singing",
     "Name": "Tree Singing",
     "Type": "Global",
-    "Description": " Once in your Magic Phase, immediately after Excess Magic, a single model with <u><link=\"tree_singing\">Tree Singing</link></u> may move a Forest following the steps below. The owner may  discard a Magic Dice to increase the range to  the distances written in square brackets [X\"].\n- \n- "
+    "Description": "Once in your Magic Phase, immediately after Excess Magic, a single model with <u><link=\"se-tree_singing\">Tree Singing</link></u> may move a Forest following the steps below. The owner may  discard a Magic Dice to increase the range to  the distances written in square brackets [X\"].\n- \n- "
   },
   {
     "Id": "se-herald_of_sura",
     "Name": "Herald of Sura",
     "Type": "Global",
-    "Description": "The model's unit gains Magical Attacks, Strider."
+    "Description": "The model's unit gains <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"strider\">Strider</link></u>."
   },
   {
     "Id": "se-forest_dweller",
     "Name": "Forest Dweller",
     "Type": "Global",
-    "Description": "While the model's unit is within 3\" of a Forest, the model gains Stubborn. If the model's unit already contains Stubborn, the unit is considered Steady when rolling Break Tests."
+    "Description": "While the model's unit is within 3\" of a Forest, the model gains <u><link=\"stubborn\">Stubborn</link></u>. If the model's unit already contains <u><link=\"stubborn\">Stubborn</link></u>, the unit is considered Steady when rolling Break Tests."
   },
   {
     "Id": "se-impaling_roots",
@@ -3267,19 +3267,19 @@
     "Id": "se-elven_cloak",
     "Name": "Elven Cloak",
     "Type": "Defense",
-    "Description": "Shooting Attacks allocated against a Health Pool with <u><link=\"elven_cloak\">Elven Cloak</link></u> can never hit on a natural roll of better than 4+."
+    "Description": "Shooting Attacks allocated against a Health Pool with <u><link=\"se-elven_cloak\">Elven Cloak</link></u> can never hit on a roll of better than 4+."
   },
   {
     "Id": "se-sylvan_bow",
     "Name": "Sylvan Bow",
     "Type": "Equipment",
-    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"quick_to_fire\">Quick to Fire</link></u>\n"
+    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "se-heath_lancers",
     "Name": "Heath Lancers",
     "Type": "Equipment",
-    "Description": "The model gains Shield and Lance."
+    "Description": "The model gains <u><link=\"shield\">Shield</link></u> and <u><link=\"lance\">Lance</link></u>."
   },
   {
     "Id": "se-dances_of_cenyrn",
@@ -3297,7 +3297,7 @@
     "Id": "se-big_game_hunters",
     "Name": "Big Game Hunters",
     "Type": "Equipment",
-    "Description": "The attack always wounds on at least 4+ when allocated towards a Health Pool with Height 5.\n"
+    "Description": "The attack always wounds on at least 4+ when allocated towards a Health Pool with Height 5."
   },
   {
     "Id": "se-forests_thorns",
@@ -3306,22 +3306,16 @@
     "Description": "The Attack's AP is set to at least 3. This can only be used with a <u><link=\"sylvan_bow\">Sylvan Bow</link></u>."
   },
   {
-    "Id": "tree_singing",
-    "Name": "Tree Singing",
-    "Type": "General",
-    "Description": " Once in your Magic Phase, immediately after Excess Magic, a single model with <u><link=\"tree_singing\">Tree Singing</link></u> may move a Forest following the steps below. The owner may  discard a Magic Dice to increase the range to  the distances written in square brackets [X\"].\n- \n- "
-  },
-  {
     "Id": "gnarled_and_knotted",
     "Name": "Gnarled and Knotted",
     "Type": "General",
     "Description": "If the target is within 3\" of a Forest, use the Str and AP values in brackets."
   },
   {
-    "Id": "elven_cloak",
-    "Name": "Elven Cloak",
+    "Id": "sylvan_bow",
+    "Name": "Sylvan Bow",
     "Type": "General",
-    "Description": "Shooting Attacks allocated against a Health Pool with <u><link=\"elven_cloak\">Elven Cloak</link></u> can never hit on a natural roll of better than 4+."
+    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "rulebook-undead",
@@ -6332,14 +6326,14 @@
   {
     "Id": "se-clearing_spirits",
     "Name": "Clearing Spirits",
-    "Type": "General",
-    "Description": "The model gains Hard Target(1), Light Troops, Skirmisher."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"hard_target\">Hard Target(1)</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "se-heath_hunters",
     "Name": "Heath Hunters",
-    "Type": "General",
-    "Description": "The model gains Feigned Flight, Light Troops, Vanguard, Light Lance, and Sylvan Bow (3+)."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"feigned_flight\">Feigned Flight</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"vanguard\">Vanguard</link></u>, <u><link=\"light_lance\">Light Lance</link></u>, and <u><link=\"sylvan_bow\">Sylvan Bow (3+)</link></u>."
   },
   {
     "Id": "se-the_forest_follows",
@@ -6350,62 +6344,62 @@
   {
     "Id": "se-shapeshifter",
     "Name": "Shapeshifter",
-    "Type": "General",
-    "Description": "The model gains +2\" Cha and +2\" Mob, as well as Solitary, Vanguard, Multiple Wounds(2, towards Height 4-5), Devastating Charge(the model's Height is set to 3)."
+    "Type": "Equipment",
+    "Description": "The model gains +2″ Cha and +2″ Mob, as well as Devastating Charge (Height is set to 3), Multiple Wounds (2, towards Height 4-5), Solitary, and Vanguard."
   },
   {
     "Id": "se-wild_hunter",
     "Name": "Wild Hunter",
-    "Type": "General",
-    "Description": "The model gains Fearless, Frenzy, Light Troops, Unruly. In addition the model part gains Devastating Charge(+1 Att), Fury, Lethal Strike."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"fearless\">Fearless</link></u>, <u><link=\"frenzy\">Frenzy</link></u>, <u><link=\"light_troops\">Light Troops</link></u>, <u><link=\"unruly\">Unruly</link></u>.\nIn addition, the model part gains <u><link=\"devastating_charge\">Devastating Charge(+1 Att)</link></u>, <u><link=\"fury\">Fury)</link></u>, <u><link=\"lethal_strike\">Lethal Strike</link></u>."
   },
   {
     "Id": "se-pathfinder",
     "Name": "Pathfinder",
-    "Type": "General",
-    "Description": "The model gains , Forest's Thorns, Scout, Stand and Shoot, Vanguard.\n\tA Sylvan Bow wielded by the model has its Shots set to; 3 if a Chieftain with Captain, otherwise 5."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"scout\">Scout</link></u>, <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"vanguard\">Vanguard</link></u>.\nA <u><link=\"sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
   },
   {
     "Id": "se-forest_guardian",
     "Name": "Forest Guardian",
-    "Type": "General",
-    "Description": "The model gains Vanguard. The model and Rank-and-File models in the model's unit gain First Strike(Hatred)."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"vanguard\">Vanguard</link></u>.\nMoreover, the model, as well as Rank-and-File models in its unit, gains <u><link=\"first_strike\">First Strike(Hatred)</link></u>."
   },
   {
     "Id": "se-blade_dancer",
     "Name": "Blade Dancer",
-    "Type": "General",
-    "Description": "The model gains <u><link=\"aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"fearless\">Fearless</link></u>, Magic Resistance(1). The model's unit gains <u><link=\"swiftstride\">Swiftstride</link></u>, <u><link=\"devastating_charge\">Devastating Charge (Fly)</link></u>."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"fearless\">Fearless</link></u>, <u><link=\"magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"swiftstride\">Swiftstride</link></u>, <u><link=\"devastating_charge\">Devastating Charge (Fly)</link></u>."
   },
   {
     "Id": "se-scarred_bark",
     "Name": "Scarred Bark",
-    "Type": "General",
-    "Description": "The model's unit gains First Strike(Hatred)."
+    "Type": "Equipment",
+    "Description": "The model's unit gains <u><link=\"first_strike\">First Strike(Hatred)</link></u>."
   },
   {
     "Id": "se-entangling_vines",
     "Name": "Entangling Vines",
-    "Type": "General",
-    "Description": "The model gains Impaling Roots if it did not already have it. When Choosing Equipment and Abilities, choose one enemy Character model in contact with the wielder. During this Round of Combat, Melee Attacks from the chosen model must reroll successful to-hit rolls against the wielder."
+    "Type": "Equipment",
+    "Description": "The model gains <u><link=\"se-impaling_roots\">Impaling Roots</link></u> (if it did not already have it). In addition, the model gains the following model rule: Duration: End of Combat. When Choosing Equipment and Abilities; choose one enemy Character model in contact with the wielder. Melee Attacks from the chosen model must reroll successful to-hit rolls against the wielder"
   },
   {
     "Id": "se-toxic_spores",
     "Name": "Toxic Spores",
-    "Type": "General",
-    "Description": "The model's unit's Standard Melee Attacks gain Lethal Strike."
+    "Type": "Equipment",
+    "Description": "The model's unit's Standard Melee Attacks gain <u><link=\"lethal_strike\">Lethal Strike</link></u>."
   },
   {
     "Id": "se-oaken_crown",
     "Name": "Oaken Crown",
-    "Type": "General",
-    "Description": "The wearer gains Disciplined, Magic Resistance(2)."
+    "Type": "Equipment",
+    "Description": "The wearer gains <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"magic_resistance\">Magic Resistance(2)</link></u>."
   },
   {
     "Id": "se-verdant_rebirth",
     "Name": "Verdant Rebirth",
-    "Type": "General",
-    "Description": "This model Recovers 1 HP the first time each Magic Phase that it successfully casts a Learned Spell that targets a friendly unit.  The model cannot Recover more than 1 HP in total per Magic Phase from this spell or Fountain of Youth (Druidism)."
+    "Type": "Equipment",
+    "Description": "This model Recovers 1 HP the first time each Magic Phase that it successfully casts a Learned Spell that targets a friendly unit.\nIt cannot Recover more than 1 HP in total per Magic Phase from this spell or Fountain of Youth (Druidism)."
   },
   {
     "Id": "se-gnarled_and_knotted",
