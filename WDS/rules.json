@@ -3255,13 +3255,13 @@
     "Id": "se-impaling_roots",
     "Name": "Impaling Roots",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesImpaling Roots312\"D6+14\n1\n<u><link=\"gnarled_and_knotted\">Gnarled and Knotted</link></u>, March and Shoot, Quick to Fire, The attack ignores to-hit modifiers from Cover.\n<u><link=\"gnarled_and_knotted\">Gnarled and Knotted</link></u>\nIf the target is within 3\" of a Forest, use the Str and AP values in brackets."
+    "Description": "Aim 3+, Range 12\", Shots D6+1, Str 4[5], AP 1[2], <u><link=\"se-gnarled_and_knotted\">Gnarled and Knotted</link></u>, <u><link=\"march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, ignores to-hit modifiers from Cover."
   },
   {
     "Id": "se-sylvan_blades",
     "Name": "Sylvan Blades",
     "Type": "Equipment",
-    "Description": "Paired <u><link=\"weapons\">Weapons</link></u>, +1 AP."
+    "Description": "<u><link=\"paired_weapons\">Paired Weapons</link></u>, +1 AP."
   },
   {
     "Id": "se-elven_cloak",
@@ -3273,7 +3273,7 @@
     "Id": "se-sylvan_bow",
     "Name": "Sylvan Bow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesSylvan BowX30\"141Quick to Fire.\n"
+    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"quick_to_fire\">Quick to Fire</link></u>\n"
   },
   {
     "Id": "se-heath_lancers",
@@ -3285,19 +3285,19 @@
     "Id": "se-dances_of_cenyrn",
     "Name": "Dances of Cenyrn",
     "Type": "Equipment",
-    "Description": "When Choosing Equipment and Abilities, units entirely with this rule must choose one of the Dances listed below and apply its effects until the end of the Round of Combat:\n- \n- \n- \n- \nThe unit cannot choose a Dance again until after one of the following has happened: (1) the unit is no longer Engaged in Combat, or (2) the unit has chosen a different Dance."
+    "Description": "When Choose Equipment and Abilities, a unit entirely with Dances of Cenyrn must choose one of the following Dances and gain its effects, with Duration: Round of Combat.\n• Dance of Bedevilments: <u><link=\"afflict\">Afflict (−1 Dis)</link></u>, and enemy units in contact cannot claim Combat Score bonus\nfrom their Proper Ranks.\n• Dance of Biting Wind: +1 AP and <u><link=\"lethal_strike\">Lethal Strike</link></u>\n• Dance of the Parting Mists: −1 Str, −1 AP, and <u><link=\"aegis\">Aegis (3+)</link></u>\n• Dance of Whirling Blades: +1 Att\n\nThe unit cannot choose a specific Dance again until after one or both of the following has happened:\n• The unit is not Engaged in Combat.\n• The unit has chosen a different Dance."
   },
   {
     "Id": "se-poisoned_thorn",
     "Name": "Poisoned Thorn",
     "Type": "Equipment",
-    "Description": "<u><link=\"poisoned_thorn\">Poisoned Thorn</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"poisoned_thorn\">Poisoned Thorn</link></u>312\"131Poison Attacks, Quick to Fire, Stand and Shoot"
+    "Description": "Aim 3+, Range 12\", Shots 1, Str 3, AP 1, <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>"
   },
   {
     "Id": "se-big_game_hunters",
     "Name": "Big Game Hunters",
     "Type": "Equipment",
-    "Description": "    When rolling to wound against a Health Pool with Height 5, the Attack always wounds on at least 4+."
+    "Description": "The attack always wounds on at least 4+ when allocated towards a Health Pool with Height 5.\n"
   },
   {
     "Id": "se-forests_thorns",
@@ -3312,12 +3312,6 @@
     "Description": " Once in your Magic Phase, immediately after Excess Magic, a single model with <u><link=\"tree_singing\">Tree Singing</link></u> may move a Forest following the steps below. The owner may  discard a Magic Dice to increase the range to  the distances written in square brackets [X\"].\n- \n- "
   },
   {
-    "Id": "sylvan_beasts",
-    "Name": "Sylvan Beasts",
-    "Type": "General",
-    "Description": "The sum of the <u><link=\"sylvan_beasts\">Sylvan Beasts</link></u> values stated in brackets of all models in the army is restricted to 1 per 1500 Army Points, rounding fractions up."
-  },
-  {
     "Id": "gnarled_and_knotted",
     "Name": "Gnarled and Knotted",
     "Type": "General",
@@ -3328,18 +3322,6 @@
     "Name": "Elven Cloak",
     "Type": "General",
     "Description": "Shooting Attacks allocated against a Health Pool with <u><link=\"elven_cloak\">Elven Cloak</link></u> can never hit on a natural roll of better than 4+."
-  },
-  {
-    "Id": "poisoned_thorn",
-    "Name": "Poisoned Thorn",
-    "Type": "General",
-    "Description": "<u><link=\"poisoned_thorn\">Poisoned Thorn</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"poisoned_thorn\">Poisoned Thorn</link></u>312\"131Poison Attacks, Quick to Fire, Stand and Shoot"
-  },
-  {
-    "Id": "sylvan_bow",
-    "Name": "Sylvan Bow",
-    "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesSylvan BowX30\"141Quick to Fire.\n"
   },
   {
     "Id": "rulebook-undead",
@@ -6393,7 +6375,7 @@
     "Id": "se-blade_dancer",
     "Name": "Blade Dancer",
     "Type": "General",
-    "Description": "The model gains Aegis(6+), Dances of Cenyrn (see Blade Dancer unit), Exclusive(Blade Dancer Kindred, Blade Dancers), Fearless, Magic Resistance(1). The model's unit gains Swiftstride, Devastating Charge(Fly)."
+    "Description": "The model gains <u><link=\\\"aegis\\\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\\\"exclusive\\\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\\\"fearless\\\">Fearless</link></u>, Magic Resistance(1). The model's unit gains <u><link=\\\"swiftstride\\\">Swiftstride</link></u>, <u><link=\\\"devastating_charge\\\">Devastating Charge (Fly)</link></u>."
   },
   {
     "Id": "se-scarred_bark",
