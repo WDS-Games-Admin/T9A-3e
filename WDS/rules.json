@@ -39,7 +39,7 @@
     "Id": "rulebook-hand_weapon",
     "Name": "Hand Weapon",
     "Type": "Equipment",
-    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"shield\">Shield</link></u> gain <u><link=\"parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
+    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
   },
   {
     "Id": "rulebook-devastating_charge",
@@ -135,7 +135,7 @@
     "Id": "rulebook-shield",
     "Name": "Shield",
     "Type": "Defense",
-    "Description": "+1 Armour"
+    "Description": "A model with <u><link=\"rulebook-shield\">Shield</link></u> is considered to be using a <u><link=\"rulebook-shield\">Shield</link></u> at all times, except during the Melee Phase if it is using a Two-Handed Melee Weapon.\nA model using a <u><link=\"rulebook-shield\">Shield</link></u> gains +1 Arm.\nIn addition, any Height 1-3 model using a Hand Weapon while “using a <u><link=\"rulebook-shield\">Shield</link></u>” gains Parry.\nNote: <u><link=\"rulebook-shield\">Shield</link></u> provides no benefit against Melee Attacks when using a Two-Handed Melee Weapon . Remember that since <u><link=\"rulebook-shield\">Shield</link></u> (and parry) provide modifiers to Defensive Characteristics, their effects do not apply to a Character on a mount that has its own Defensive Skill or Armour."
   },
   {
     "Id": "rulebook-skirmisher",
@@ -477,13 +477,7 @@
     "Id": "hand_weapon",
     "Name": "Hand Weapon",
     "Type": "General",
-    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"shield\">Shield</link></u> gain <u><link=\"parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
-  },
-  {
-    "Id": "shield",
-    "Name": "Shield",
-    "Type": "General",
-    "Description": "+1 Armour"
+    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
   },
   {
     "Id": "parry",
@@ -681,7 +675,7 @@
     "Id": "twohanded",
     "Name": "Two-Handed",
     "Type": "General",
-    "Description": "A <u><link=\"model\">model</link></u> using a <u><link=\"twohanded\">Two-Handed</link></u> Melee Weapon can not simultaneously use a <u><link=\"shield\">Shield</link></u> against <u><link=\"melee_attacks\">Melee Attacks</link></u>."
+    "Description": "A <u><link=\"model\">model</link></u> using a <u><link=\"twohanded\">Two-Handed</link></u> Melee Weapon can not simultaneously use a <u><link=\"rulebook-shield\">Shield</link></u> against <u><link=\"melee_attacks\">Melee Attacks</link></u>."
   },
   {
     "Id": "paired_weapons",
@@ -2643,7 +2637,7 @@
     "Id": "rulebook-handandahalf",
     "Name": "Hand-and-a-Half",
     "Type": "Equipment",
-    "Description": "The <u><link=\"model\">model</link></u> part ignores <u><link=\"twohanded\">Two-Handed</link></u>, and its <u><link=\"weapons\">weapons</link></u> count as a <u><link=\"hand_weapon\">Hand Weapon</link></u> for the purpose of <u><link=\"shield\">Shield</link></u> (while keeping other rules and modifiers)."
+    "Description": "The <u><link=\"model\">model</link></u> part ignores <u><link=\"twohanded\">Two-Handed</link></u>, and its <u><link=\"weapons\">weapons</link></u> count as a <u><link=\"hand_weapon\">Hand Weapon</link></u> for the purpose of <u><link=\"rulebook-shield\">Shield</link></u> (while keeping other rules and modifiers)."
   },
   {
     "Id": "koe-stalwart_defense",
@@ -3237,7 +3231,7 @@
     "Id": "se-tree_singing",
     "Name": "Tree Singing",
     "Type": "Global",
-    "Description": "Once in your Magic Phase, immediately after Excess Magic, a single model with <u><link=\"se-tree_singing\">Tree Singing</link></u> may move a Forest following the steps below. The owner may  discard a Magic Dice to increase the range to  the distances written in square brackets [X\"].\n- \n- "
+    "Description": "Once in your Magic Phase, immediately after Excess Magic, a single model with <u><link=\"se-tree_singing\">Tree Singing</link></u> may move a Forest following the steps below. The owner may  discard a Magic Dice to increase the range to  the distances written in square brackets [X\"].\n1. Choose a Forest not in contact with any unit and within 8″ [24″] of a friendly model with Tree Singing.\n2. Move this Forest in a straight line up to 4″ [12″], or until just before moving into contact with any unit or Terrain Feature."
   },
   {
     "Id": "se-herald_of_sura",
@@ -3279,7 +3273,7 @@
     "Id": "se-heath_lancers",
     "Name": "Heath Lancers",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"shield\">Shield</link></u> and <u><link=\"lance\">Lance</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-shield\">Shield</link></u> and <u><link=\"lance\">Lance</link></u>."
   },
   {
     "Id": "se-dances_of_cenyrn",
@@ -6405,7 +6399,7 @@
     "Id": "se-forest_embrace",
     "Name": "Forest Embrace",
     "Type": "General",
-    "Description": "Place a Forest* underneath the target. This Forest always extends to the edges of the target's Unit Boundary (even if the unit moves or changes formation).\n\n* You may place a marker next to the unit instead"
+    "Description": "Place a Forest* underneath the target until the last model in the unit is removed as a casualty. This Forest always extends up to the edges of the target’s Unit Boundary (even if the unit moves or changes formation).\n\n* You may place a marker next to the unit instead"
   },
   {
     "Id": "se-weapons",
@@ -6416,91 +6410,91 @@
   {
     "Id": "se-spirit_arrows",
     "Name": "Spirit Arrows",
-    "Type": "General",
-    "Description": "When attacking with this weapon, before rolling to hit; choose one model with Channel in the target unit. The chosen model replaces its Channel(X) with Channel(X-1), with Duration: One Turn."
+    "Type": "Description",
+    "Description": "When attacking with this weapon, before rolling to hit; choose one model with <u><link=\"channel\">Channel</link></u> in the target unit. The chosen model replaces its <u><link=\"channel\">Channel(X)</link></u> with <u><link=\"channel\">Channel(X-1)</link></u>, with Duration: One Turn."
   },
   {
     "Id": "se-bough_of_wyscan",
     "Name": "Bough Of Wyscan",
-    "Type": "General",
-    "Description": "Number of Shots is always 1, Str 3, AP 2, Area Attack (1×5), and Direct Hit(Str 6, AP 4, Multiple Wounds(2))."
+    "Type": "Equipment",
+    "Description": "Number of Shots is always 1, Str 3, AP 2, <u><link=\"area_attack\">Area Attack (1×5)</link></u>, and <u><link=\"rulebook-direct_hit\">Direct Hit(Str 6, AP 4, Multiple Wounds(2))</link></u>."
   },
   {
     "Id": "se-hunters_honour",
     "Name": "Hunter's Honour",
-    "Type": "General",
-    "Description": "+1 Str and +1 AP. If the wielder causes at least one HP loss with this weapon, the wielder and all Rank-and-File models in its unit gain Distracting(1) until the end of the Round of Combat."
+    "Type": "Equipment",
+    "Description": "+1 Str and +1 AP.\nIf the wielder causes at least one HP loss with this weapon, the wielder and all Rank-and-File models in its unit gain <u><link=\"distracting\">Distracting(1)</link></u> until the end of the Round of Combat."
   },
   {
     "Id": "se-spirit_of_the_whirlwind",
     "Name": "Spirit of the Whirlwind",
-    "Type": "General",
+    "Type": "Equipment",
     "Description": "+1 Att, +1 Str, and +1  AP."
   },
   {
     "Id": "se-oaken_might",
     "Name": "Oaken Might",
-    "Type": "General",
+    "Type": "Equipment",
     "Description": "+3 Str."
   },
   {
     "Id": "se-shielding_bark",
     "Name": "Shielding Bark",
-    "Type": "General",
-    "Description": "+1 HP, Aegis(5+), Fearless, Tree Singing, Weakness(Flaming Attacks). Arm is set to 4 and can never be improved beyond this."
+    "Type": "Equipment",
+    "Description": "+1 HP, <u><link=\"aegis\">Aegis(5+)</link></u>, <u><link=\"fearless\">Fearless</link></u>, <u><link=\"se-tree_singing\">Tree Singing</link></u>, <u><link=\"weakness\">Weakness(Flaming Attacks)</link></u>.\nThe Armour value is set to 4 and can never be improved beyond this."
   },
   {
     "Id": "se-banner_of_deception",
     "Name": "Banner of Deception",
-    "Type": "General",
-    "Description": "At the beginning of step 3.E Battle Setup The owner may remove the bearer's unit from the Battlefield and deploy it in a new formation following the usual restrictions. Attached Models remain Attached."
+    "Type": "Equipment",
+    "Description": "At the beginning of step 3.5 of Battle Preparations (“Defender’s Advantage”), the owner may remove the bearer’s unit from the Battlefield and redeploy it in a new formation following the usual restrictions. Attached models remain Attached"
   },
   {
     "Id": "se-banner_of_silent_mist",
     "Name": "Banner of Silent Mist",
-    "Type": "General",
-    "Description": "The bearer's unit gains Magic Resistance(1) and is always considered to be in Soft Cover."
+    "Type": "Equipment",
+    "Description": "The bearer's unit gains <u><link=\"magic_resistance\">Magic Resistance(1)</link></u> and is always considered to be in Soft Cover."
   },
   {
     "Id": "se-predator_pennant",
     "Name": "Predator Pennant",
-    "Type": "General",
-    "Description": "The bearer's unit gains Devastating Charge(Distracting(1))."
+    "Type": "Equipment",
+    "Description": "The bearer's unit gains <u><link=\"devastating_charge\">Devastating Charge(Distracting(1))</link></u>."
   },
   {
     "Id": "se-hail_shot",
     "Name": "Hail Shot",
-    "Type": "General",
-    "Description": "One use only; Duration: Until the end of the Phase; May be activated in the Charge Phase or Shooting Phase. This is a Shooting Weapon with the following profile:\n  •\n\nHail Shot cannot benefit from Forest's Thorns."
+    "Type": "Equipment",
+    "Description": "One use only; Duration: Until the end of the Phase; May be activated in the Charge Phase or Shooting Phase. This is a Shooting Weapon with the following profile:\n  • Aim 2+, Range 30″, Shots 3D6, Str 4, AP 1, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>.\n\nHail Shot cannot benefit from <u><link=\"se-forests_thorns\">Forest's Thorns</link></u>."
   },
   {
     "Id": "se-mist_walkers_mirror",
     "Name": "Mist Walker's Mirror",
-    "Type": "General",
-    "Description": "One use only. May be activated at the end of any friendly Movement Phase if the bearer’s unit is Unengaged, consists entirely of Height 1 models, and is fully inside a Forest that is not in contact with enemy models. Apply the following rules:\t\n  •  Remove the bearer's unit from the Battlefield.\t\t\n  •  Immediately place it back using Ambush(centre of Forest). \t\n\nIf the unit cannot be placed, it is removed as a casualty where it was removed."
+    "Type": "Equipment",
+    "Description": "One use only. May be activated at the end of any friendly Movement Phase if the bearer’s unit is Unengaged, consists entirely of Height 1 models, and is fully inside a Forest that is not in contact with enemy models. Apply the following rules:\t\n  •  Remove the bearer's unit from the Battlefield.\t\t\n  •  Immediately place it back using <u><link=\"ambush\">Ambush(centre of Forest)</link></u>. \t\n\nIf the unit cannot be placed, it is removed as a casualty where it was removed."
   },
   {
     "Id": "se-sacred_seeds",
     "Name": "Sacred Seeds",
-    "Type": "General",
-    "Description": "May be activated at the end of any friendly Movement Phase, if the bearer is unengaged. Duration: Permanent. Place a Forest Terrain Feature in contact with the bearer and at least 1\" away from enemy units and other Terrain Features. This Forest is a 10×6\" rectangle and it follows the normal rules for a Forest, except it is Dangerous Terrain(6+)."
+    "Type": "Equipment",
+    "Description": "May be activated at the end of any friendly Movement Phase, if the bearer is Unengaged. Duration: Permanent.\nPlace a Forest, in contact with the bearer and at least 1\" away from enemy units and other Terrain Features. This Forest has the dimensions of a 10\"×6\" rectangle. It follows the normal Forest rules, except it is <u><link=\"dangerous_terrain\">Dangerous Terrain (6+)</link></u> instead of any other instance of Dangerous Terrain."
   },
   {
     "Id": "se-song_of_cenyrn",
     "Name": "Song of Cenyrn",
-    "Type": "General",
-    "Description": "May be activated when the bearer's unit declares a Charge. The target of the Charge can only declare Hold! as its Charge Reaction, unless it is Shaken. The enemy unit may still declare Charge Reactions as normal if  Charged by other units."
+    "Type": "Equipment",
+    "Description": "May be activated when the bearer’s unit Declares a Charge. The target of the Charge can only declare Hold! as its Charge Reaction, unless it is <u><link=\"shaken\">Shaken)</link></u>.\nThe enemy unit may still declare Charge Reactions as normal if charged by other units."
   },
   {
     "Id": "se-horn_of_the_wild_hunt",
     "Name": "Horn of the Wild Hunt",
-    "Type": "General",
+    "Type": "Equipment",
     "Description": "One use only. May be activated when a friendly unit within 8\" fails a Charge Range roll. The Charge Range roll is rerolled."
   },
   {
     "Id": "se-glyph_of_amryl",
     "Name": "Glyph of Amryl",
-    "Type": "General",
+    "Type": "Equipment",
     "Description": "The bearer gains +3 Def."
   },
   {
