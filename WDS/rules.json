@@ -57,7 +57,7 @@
     "Id": "rulebook-solitary",
     "Name": "Solitary",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"solitary\">Solitary</link></u> can never join other units, and can never be joined by other <u><link=\"model\">models</link></u>."
+    "Description": "Units entirely with <u><link=\"rulebook-solitary\">Solitary</link></u> can never join other units, and can never be joined by other <u><link=\"model\">models</link></u>."
   },
   {
     "Id": "bh-hunting_horn",
@@ -93,13 +93,13 @@
     "Id": "rulebook-wizard_adept",
     "Name": "Wizard Adept",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"channel\">Channel(1)</link></u>, and knows 3 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell and the Adept <u><link=\"spells\">Spells</link></u> (#1 - #4) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
+    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"rulebook-channel\">Channel(1)</link></u>, and knows 3 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell and the Adept <u><link=\"spells\">Spells</link></u> (#1 - #4) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
   },
   {
     "Id": "rulebook-fearless",
     "Name": "Fearless",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"rulebook-fearless\">Fearless</link></u> automatically passes <u><link=\"panic_tests\">Panic Tests</link></u>, cannot choose Flee! as a Charge Reaction unless it is already <u><link=\"shaken\">Shaken</link></u>, or the entire unit has <u><link=\"feigned_flight\">Feigned Flight</link></u>, and ignores the effects of <u><link=\"horror\">Horror</link></u>."
+    "Description": "A unit containing <u><link=\"rulebook-fearless\">Fearless</link></u> automatically passes <u><link=\"panic_tests\">Panic Tests</link></u>, cannot choose Flee! as a Charge Reaction unless it is already <u><link=\"shaken\">Shaken</link></u>, or the entire unit has <u><link=\"feigned_flight\">Feigned Flight</link></u>, and ignores the effects of <u><link=\"rulebook-horror\">Horror</link></u>."
   },
   {
     "Id": "rulebook-frenzy",
@@ -147,7 +147,7 @@
     "Id": "rulebook-hard_target",
     "Name": "Hard Target",
     "Type": "Global",
-    "Description": "Shooting <u><link=\"attacks\">Attacks</link></u> allocated against a Health Pool with <u><link=\"hard_target\">Hard Target</link></u> suffer X to hit."
+    "Description": "Shooting <u><link=\"attacks\">Attacks</link></u> allocated against a Health Pool with <u><link=\"rulebook-hard_target\">Hard Target</link></u> suffer X to hit."
   },
   {
     "Id": "rulebook-scout",
@@ -237,13 +237,13 @@
     "Id": "rulebook-fly",
     "Name": "Fly",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"fly\">Fly</link></u> ignore: <u><link=\"terrain\">Terrain</link></u> Features, <u><link=\"open_terrain\">Open Terrain</link></u> and other units during <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> and <u><link=\"charge_moves\">Charge Moves</link></u>. The unit must still follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its moves. <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> from which the <u><link=\"model\">model</link></u> starts or ends its move still affect it.\\\nDuring a <u><link=\"charge_move\">Charge Move</link></u>, the charged unit is not ignored, and there must be room for the unit’s Front Facing to be placed in contact with the charged unit before the Align Move."
+    "Description": "Units entirely with <u><link=\"rulebook-fly\">Fly</link></u> ignore: <u><link=\"terrain\">Terrain</link></u> Features, <u><link=\"open_terrain\">Open Terrain</link></u> and other units during <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> and <u><link=\"charge_moves\">Charge Moves</link></u>. The unit must still follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its moves. <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> from which the <u><link=\"model\">model</link></u> starts or ends its move still affect it.\\\nDuring a <u><link=\"charge_move\">Charge Move</link></u>, the charged unit is not ignored, and there must be room for the unit’s Front Facing to be placed in contact with the charged unit before the Align Move."
   },
   {
     "Id": "rulebook-terror",
     "Name": "Terror",
     "Type": "Global",
-    "Description": "When a unit containing <u><link=\"terror\">Terror</link></u> declares a Charge in the <u><link=\"charge_phase\">Charge Phase</link></u>, the target must take a Panic Test. If the test is failed, the unit must choose Flee! as its Charge Reaction if allowed to do so (e.g. not already <u><link=\"engaged_in_combat\">Engaged in Combat)</link></u>. Note that this <u><link=\"flee_move\">Flee Move</link></u> is not considered voluntary, and thus friendly units that may be required to take a Panic Test when moving through them. Units containing <u><link=\"terror\">Terror</link></u> are <u><link=\"immune\">immune</link></u> to the effects of <u><link=\"terror\">Terror</link></u>."
+    "Description": "When a unit containing <u><link=\"rulebook-terror\">Terror</link></u> declares a Charge in the <u><link=\"charge_phase\">Charge Phase</link></u>, the target must take a Panic Test. If the test is failed, the unit must choose Flee! as its Charge Reaction if allowed to do so (e.g. not already <u><link=\"engaged_in_combat\">Engaged in Combat)</link></u>. Note that this <u><link=\"flee_move\">Flee Move</link></u> is not considered voluntary, and thus friendly units that may be required to take a Panic Test when moving through them. Units containing <u><link=\"rulebook-terror\">Terror</link></u> are <u><link=\"rulebook-immune\">immune</link></u> to the effects of <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "rulebook-stomp_attack",
@@ -255,7 +255,7 @@
     "Id": "rulebook-divine_attacks",
     "Name": "Divine Attacks",
     "Type": "Equipment",
-    "Description": "<u><link=\"aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"divine_attacks\">Divine Attacks</link></u>."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>."
   },
   {
     "Id": "rulebook-quick_to_fire",
@@ -267,7 +267,7 @@
     "Id": "bh-hurl_attack",
     "Name": "Hurl Attack",
     "Type": "Equipment",
-    "Description": "Aim 4+, Range 24\", Shots 1, Str 7, AP 3, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (2×2)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u>(<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2)), <u><link=\"divine_attacks\">Divine Attacks</link></u>"
+    "Description": "Aim 4+, Range 24\", Shots 1, Str 7, AP 3, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (2×2)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u>(<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2)), <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>"
   },
   {
     "Id": "rulebook-magic_resistance",
@@ -279,7 +279,7 @@
     "Id": "rulebook-aegis",
     "Name": "Aegis",
     "Type": "Defense",
-    "Description": "<u><link=\"aegis\">Aegis</link></u> is a Special Save, with a value indicated in brackets (X). If X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"aegis\">Aegis</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"aegis\">Aegis</link></u>, it instead gains a <u><link=\"aegis\">Aegis</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"aegis\">Aegis</link></u> that gains <u><link=\"aegis\">Aegis(+2)</link></u> will gain <u><link=\"aegis\">Aegis(5+)</link></u>.\nNote that <u><link=\"aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with the <u><link=\"divine_attacks\">Divine Attacks</link></u> Attack Attribute."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u> is a Special Save, with a value indicated in brackets (X). If X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"rulebook-aegis\">Aegis</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"rulebook-aegis\">Aegis</link></u>, it instead gains a <u><link=\"rulebook-aegis\">Aegis</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"rulebook-aegis\">Aegis</link></u> that gains <u><link=\"rulebook-aegis\">Aegis(+2)</link></u> will gain <u><link=\"rulebook-aegis\">Aegis(5+)</link></u>.\nNote that <u><link=\"rulebook-aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with the <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u> Attack Attribute."
   },
   {
     "Id": "rulebook-lethal_strike",
@@ -303,7 +303,7 @@
     "Id": "rulebook-poison_attacks",
     "Name": "Poison Attacks",
     "Type": "Equipment",
-    "Description": "If the attack hits with a natural to-hit roll of ‘6’, it automatically wounds (no to-wound roll needed). If the attack has two or more instances of <u><link=\"poison_attacks\">Poison Attacks</link></u>, and it hits with a successful natural to-hit roll of ‘5’ or ‘6’ it automatically wounds.\nIf the attack is turned into more than one hit (e.g. a hit with <u><link=\"rulebook-area_attack\">Area Attack</link></u> or <u><link=\"rulebook-fury\">Fury</link></u>), only a single hit, chosen by the attacker, automatically wounds. All other hits must roll to wound as normal."
+    "Description": "If the attack hits with a natural to-hit roll of ‘6’, it automatically wounds (no to-wound roll needed). If the attack has two or more instances of <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>, and it hits with a successful natural to-hit roll of ‘5’ or ‘6’ it automatically wounds.\nIf the attack is turned into more than one hit (e.g. a hit with <u><link=\"rulebook-area_attack\">Area Attack</link></u> or <u><link=\"rulebook-fury\">Fury</link></u>), only a single hit, chosen by the attacker, automatically wounds. All other hits must roll to wound as normal."
   },
   {
     "Id": "rulebook-breath_attack",
@@ -387,7 +387,7 @@
     "Id": "flee_move",
     "Name": "Flee Move",
     "Type": "General",
-    "Description": "A <u><link=\"flee_move\">Flee Move</link></u> is a specific type of move performed in certain situations. The most common instances are failing a <u><link=\"rally_test\">Rally Test</link></u>, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a <u><link=\"flee_move\">Flee Move</link></u>, follow these steps:\n1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each <u><link=\"flee_move\">Flee Move</link></u> starts by <u><link=\"pivot\">Pivot</link></u>ing the unit to face a certain direction.\n-   Failed <u><link=\"rally_test\">Rally Test</link></u>: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the closest non-<u><link=\"shaken\">Shaken</link></u> enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n-   Charge Reaction Flee! and failed <u><link=\"terror\">Terror</link></u> Tests: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the Charging enemy.\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n-   Failed Break Test: <u><link=\"pivot\">Pivot</link></u> the <u><link=\"shaken\">Shaken</link></u> unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n3 -  Move the <u><link=\"shaken\">Shaken</link></u> unit straight forward by the distance rolled.\n4 -  A <u><link=\"flee_move\">Flee Move</link></u>, including the initial <u><link=\"pivot\">Pivot</link></u>, ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, and can move through any obstructions. However, the move cannot end overlapping other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, which means it can be placed within 1\" of other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n-   If the obstruction  encountered at any point of the move was an enemy unit or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, treat these as <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n5 -  If the <u><link=\"flee_move\">Flee Move</link></u> takes the unit into contact with the <u><link=\"table_edge\">Table Edge</link></u>, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is <u><link=\"removed\">removed</link></u> as a casualty.\n"
+    "Description": "A <u><link=\"flee_move\">Flee Move</link></u> is a specific type of move performed in certain situations. The most common instances are failing a <u><link=\"rally_test\">Rally Test</link></u>, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a <u><link=\"flee_move\">Flee Move</link></u>, follow these steps:\n1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each <u><link=\"flee_move\">Flee Move</link></u> starts by <u><link=\"pivot\">Pivot</link></u>ing the unit to face a certain direction.\n-   Failed <u><link=\"rally_test\">Rally Test</link></u>: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the closest non-<u><link=\"shaken\">Shaken</link></u> enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n-   Charge Reaction Flee! and failed <u><link=\"rulebook-terror\">Terror</link></u> Tests: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the Charging enemy.\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n-   Failed Break Test: <u><link=\"pivot\">Pivot</link></u> the <u><link=\"shaken\">Shaken</link></u> unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n3 -  Move the <u><link=\"shaken\">Shaken</link></u> unit straight forward by the distance rolled.\n4 -  A <u><link=\"flee_move\">Flee Move</link></u>, including the initial <u><link=\"pivot\">Pivot</link></u>, ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, and can move through any obstructions. However, the move cannot end overlapping other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, which means it can be placed within 1\" of other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n-   If the obstruction  encountered at any point of the move was an enemy unit or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, treat these as <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n5 -  If the <u><link=\"flee_move\">Flee Move</link></u> takes the unit into contact with the <u><link=\"table_edge\">Table Edge</link></u>, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is <u><link=\"removed\">removed</link></u> as a casualty.\n"
   },
   {
     "Id": "disruptive",
@@ -441,7 +441,7 @@
     "Id": "attachable_models",
     "Name": "Attachable Models",
     "Type": "General",
-    "Description": "Attachable models are models that have the flexibility to  join other units, as well as operate by themselves. The most common type of Attachable Models are Characters. All Characters are Attachable Models unless mentioned otherwise. In addition to Characters, a few models may be defined as being an Attachable Model, such as models with the Model Rule WarPlatform.\n/section{lone_attachable_models}/section{combined_units}"
+    "Description": "Attachable models are models that have the flexibility to  join other units, as well as operate by themselves. The most common type of Attachable Models are Characters. All Characters are Attachable Models unless mentioned otherwise. In addition to Characters, a few models may be defined as being an Attachable Model, such as models with the Model Rule War Platform.\n/section{lone_attachable_models}/section{combined_units}"
   },
   {
     "Id": "charge_range",
@@ -498,12 +498,6 @@
     "Description": "Each attempt to kill an enemy first requires you to land a blow, and second, for the blow to prove harmful. And of course, it must not be blocked by armour or other defences.\n/section{attacks}/section{attack_sequence}/section{saves}/section{health_pools_and_casualties}\nAttacks in the game can be performed using melee weapons, ranged weapons, spells, or unique abilities. This section explains the general process of performing attacks and determining their success in causing damage to their targets.\nAll sources of damage are categorised as attacks, which are divided into:\n-   Melee Attacks: Attacks made in the Melee Phase, from models towards a unit it is Engaged in Combat with.\n-   Standard Melee Attacks: The most common type of Melee Attack, where model parts perform a number of attacks based on their Attack Value (as well as other parameters), are called Standard Melee Attacks.\n-   Ranged Attacks: All attacks that are not Melee Attacks are considered Ranged Attacks.\n-   Shooting Attacks: Sometimes the rules refer to Shooting Attacks or attacks made by Shooting Weapons. Shooting Attacks are a type of Ranged Attacks."
   },
   {
-    "Id": "solitary",
-    "Name": "Solitary",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"solitary\">Solitary</link></u> can never join other units, and can never be joined by other <u><link=\"model\">models</link></u>."
-  },
-  {
     "Id": "hunting_horn",
     "Name": "Hunting Horn",
     "Type": "General",
@@ -528,12 +522,6 @@
     "Description": "<u><link=\"model\">Models</link></u> within 12\" of a friendly non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> must reroll failed <u><link=\"courage_tests\">Courage Tests</link></u>."
   },
   {
-    "Id": "channel",
-    "Name": "Channel",
-    "Type": "General",
-    "Description": "During <u><link=\"siphon_the_veil\">Siphon the Veil</link></u>, each of the Active Player’s <u><link=\"model\">models</link></u> with <u><link=\"channel\">Channel</link></u> may gain ‘X’ Magic <u><link=\"dice\">Dice</link></u>.\nNote, <u><link=\"shaken\">Shaken</link></u> <u><link=\"model\">models</link></u> may not use <u><link=\"channel\">Channel</link></u>."
-  },
-  {
     "Id": "spells",
     "Name": "Spells",
     "Type": "General",
@@ -549,19 +537,13 @@
     "Id": "panic_tests",
     "Name": "Panic Tests",
     "Type": "General",
-    "Description": "A Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly <u><link=\"shaken\">Shaken</link></u> unit performs a <u><link=\"flee_move\">Flee Move</link></u> through the unit.\n-   A <u><link=\"flee_move\">Flee Move</link></u> that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a <u><link=\"model\">model</link></u> containing <u><link=\"terror\">Terror)</link></u>, and voluntary Breaking from Combat with a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u>. Note that a <u><link=\"flee_move\">Flee Move</link></u> due to a failed <u><link=\"rally_test\">Rally Test</link></u> is not considered a voluntary <u><link=\"flee_move\">Flee Move</link></u>, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the <u><link=\"flee_move\">Flee Move</link></u>.\n-   The unit suffered enough Health Point losses in a single phase from Ranged <u><link=\"attacks\">Attacks</link></u> originating from enemy <u><link=\"model\">models</link></u>, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible <u><link=\"casualties\">casualties</link></u> have been <u><link=\"removed\">removed</link></u>. Ignore Health Point losses suffered while <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\n-   An enemy unit entirely with <u><link=\"terror\">Terror</link></u> declares a Charge against the unit in the <u><link=\"charge_phase\">Charge Phase</link></u>.\nUnits do not take <u><link=\"panic_tests\">Panic Tests</link></u> if\n-   they are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, or\n-   they are already <u><link=\"shaken\">Shaken</link></u>, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes <u><link=\"shaken\">Shaken</link></u>.\nNote that this normally does not mean the unit performs a <u><link=\"flee_move\">Flee Move</link></u>."
+    "Description": "A Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly <u><link=\"shaken\">Shaken</link></u> unit performs a <u><link=\"flee_move\">Flee Move</link></u> through the unit.\n-   A <u><link=\"flee_move\">Flee Move</link></u> that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a <u><link=\"model\">model</link></u> containing <u><link=\"rulebook-terror\">Terror)</link></u>, and voluntary Breaking from Combat with a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u>. Note that a <u><link=\"flee_move\">Flee Move</link></u> due to a failed <u><link=\"rally_test\">Rally Test</link></u> is not considered a voluntary <u><link=\"flee_move\">Flee Move</link></u>, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the <u><link=\"flee_move\">Flee Move</link></u>.\n-   The unit suffered enough Health Point losses in a single phase from Ranged <u><link=\"attacks\">Attacks</link></u> originating from enemy <u><link=\"model\">models</link></u>, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible <u><link=\"casualties\">casualties</link></u> have been <u><link=\"removed\">removed</link></u>. Ignore Health Point losses suffered while <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\n-   An enemy unit entirely with <u><link=\"rulebook-terror\">Terror</link></u> declares a Charge against the unit in the <u><link=\"charge_phase\">Charge Phase</link></u>.\nUnits do not take <u><link=\"panic_tests\">Panic Tests</link></u> if\n-   they are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, or\n-   they are already <u><link=\"shaken\">Shaken</link></u>, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes <u><link=\"shaken\">Shaken</link></u>.\nNote that this normally does not mean the unit performs a <u><link=\"flee_move\">Flee Move</link></u>."
   },
   {
     "Id": "feigned_flight",
     "Name": "Feigned Flight",
     "Type": "General",
     "Description": "At the end of a Round of Combat, if a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> is still Engaged with an enemy unit, before rolling any Break Tests, any unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> may choose to voluntarily break from the Combat. If so, the unit is considered to have failed a Break Test. If the unit was on the winning side of the Combat, the enemy cannot Pursue.\nIn addition, any <u><link=\"rally_test\">Rally Tests</link></u> taken by units entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> after voluntarily becoming <u><link=\"shaken\">Shaken</link></u>, are automatically passed. This cannot be used if the unit has performed another <u><link=\"flee_move\">Flee move</link></u> before rolling the <u><link=\"rally_test\">Rally Test</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"feigned_flight\">Feigned Flight</link></u> are not prevented from choosing Charge Reaction Flee! due to <u><link=\"rulebook-fearless\">Fearless</link></u>.\nRemember that a voluntary <u><link=\"flee_move\">Flee Move</link></u> does not cause a Panic Test in friendly units that the Fleeing unit moves through."
-  },
-  {
-    "Id": "horror",
-    "Name": "Horror",
-    "Type": "General",
-    "Description": "\n<u><link=\"flee_move\">Flee Moves</link></u> from enemy units made in the following situations gain Minimised two times:\n\n-   Flee! <u><link=\"charge_reactions\">Charge Reactions</link></u> declared in reaction to a Charge Declaration from a unit containing this rule. (Flee! <u><link=\"charge_reactions\">Charge Reactions</link></u> declared when later charged by other units are unaffected.)\n-   Breaking from combat while in contact with one or more units containing <u><link=\"horror\">Horror</link></u>.\n\nRemember that units containing <u><link=\"rulebook-fearless\">Fearless</link></u> are unaffected by this rule."
   },
   {
     "Id": "skirmisher",
@@ -580,12 +562,6 @@
     "Name": "Engaged in Combat",
     "Type": "General",
     "Description": "Once a unit successfully completes a <u><link=\"charge_move\">Charge Move</link></u>, the Charging Unit and the target unit are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, and remain <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> as long as at least their Unit Boundaries are in contact with an enemy Unit Boundary."
-  },
-  {
-    "Id": "hard_target",
-    "Name": "Hard Target",
-    "Type": "General",
-    "Description": "Shooting <u><link=\"attacks\">Attacks</link></u> allocated against a Health Pool with <u><link=\"hard_target\">Hard Target</link></u> suffer X to hit."
   },
   {
     "Id": "scout",
@@ -708,12 +684,6 @@
     "Description": "When wounds are inflicted on a unit, there are two types of saves that the defender can make to potentially negate the damage: Armour Saves and Special Saves.\nWhen taking saves, the owner of the attacked model rolls a D6 and compares it with the needed score to pass the save. See the details below for how to pass Armour Saves and Special Saves.\nIf successful, the wound is ignored. First roll Armour Save, and then, if this is not passed, roll the  Special Save. If the Special Save is failed, or the model does not have a Special Save, a wound is inflicted. Proceed to Losing Health Points and Casualties.\n\nArmour Saves\nThe defender rolls Armour Saves, by rolling a D6 for each wound, and comparing the result with the model’s Armour Value, reduced by the Attack's Armour Penetration.\nThe modified Armour Value describes the number of sides on a D6, counting down from the highest value, that will result in a successful roll, see tables below. If the Armor Save is successful, the wound is ignored. However, a natural roll of ‘1’ is considered a failure.\nArm - AP    Armour Save Roll\n5 or above    2+\n4    3+\n3    4+\n2    5+\n1    6+\n0    Cannot be passed  \nAP 0    AP 1    AP 2    AP 3    AP 4    AP 5    AP 6\nArm 0    N/A    N/A    N/A    N/A    N/A    N/A    N/A\nArm 1    6+    N/A    N/A    N/A    N/A    N/A    N/A\nArm 2    5+    6+    N/A    N/A    N/A    N/A    N/A\nArm 3    4+    5+    6+    N/A    N/A    N/A    N/A\nArm 4    3+    4+    5+    6+    N/A    N/A    N/A\nArm 5    2+    3+    4+    5+    6+    N/A    N/A\nArm 6    2+    2+    3+    4+    5+    6+    N/A  \nFor example, Armour 3, means that ‘6’, ‘5’, and ‘4’ would be successful Armour Save rolls. If the model is attacked by Armour Penetration 1, its Armour is reduced to Armour 2, which now means that ‘6’ and ‘5’ are successful Armour Save rolls. \nThis is equivalent with using the formula below to determine the required roll to negate the wound:\n7 - (Defender’s Armor)\n+ (Attacker’s Armour Penetration)\nCombined Armour\nEach model has a base Armour value in its profile, and some models may have additional equipment, rules, or are under the effect of spells that modify the Armour values. Different sources of Armour can be combined, adding up to the total combined Armour.\nFor example, a model with a base Armour of 3 that is under the effect of a spell that grants +1 Armour, has a combined Armour of 4. When wounded by an attack with Armour Penetration 1, the Armour Save roll would be ‘4’, ‘5’, or ‘6’ (or 4+).\nSpecial Saves\nIf a wound is not saved by the Armour Save, the defender may negate the attack with its Special Save, if it has one. Special Saves work like Armour saves, except they are unaffected by Armour Penetration.\nA natural roll of ‘1’ or ‘2’ is always considered a failure.\nThere are two main types of Special Saves; Aegis and Regeneration, each explained in more detail in the  Model Rules section. A model is only allowed to roll one Special Save roll for each attack."
   },
   {
-    "Id": "fly",
-    "Name": "Fly",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"fly\">Fly</link></u> ignore: <u><link=\"terrain\">Terrain</link></u> Features, <u><link=\"open_terrain\">Open Terrain</link></u> and other units during <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> and <u><link=\"charge_moves\">Charge Moves</link></u>. The unit must still follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its moves. <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> from which the <u><link=\"model\">model</link></u> starts or ends its move still affect it.\\\nDuring a <u><link=\"charge_move\">Charge Move</link></u>, the charged unit is not ignored, and there must be room for the unit’s Front Facing to be placed in contact with the charged unit before the Align Move."
-  },
-  {
     "Id": "open_terrain",
     "Name": "Open Terrain",
     "Type": "General",
@@ -732,40 +702,10 @@
     "Description": "A <u><link=\"charge_move\">Charge Move</link></u> is divided into two moves, first a <u><link=\"snaking_forward_move\">Snaking Forward Move</link></u> to get into contact with the target unit, which is then followed by an Align Move.\nStart with establishing in what Arc of the target unit, that the centre of the Charging Unit’s Front Facing is located in (see figure above). The Facing that corresponds to this Arc is the Target Facing. See <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter for definitions of Arcs and Facings.\nA <u><link=\"charge_move\">Charge Move</link></u> is then resolved using a single <u><link=\"snaking_forward_move\">Snaking Forward Move</link></u> (see <u><link=\"movement_phase\">Movement Phase</link></u> chapter for details), with an unlimited distance. During this move, the Charging Unit must move contact with its intended target - The Charging Unit’s Front Facing against the Target Facing.\n<u><link=\"charge_moves\">Charge Moves</link></u> are allowed to end the move within 1\" of <u><link=\"impassable_terrain\">Impassable Terrain</link></u> or other units, but are not allowed to move into contact with any enemy unit, other than the target of the Charge.\nOnce the Charging Unit touches its Target Facing, it performs an Align Move. This is done by picking up the Charging Unit and placing it back on the board aligned with the target unit, in a way that keeps the initial point of contact on the charged unit still in contact, while maximising the number of <u><link=\"model\">models</link></u> in contact. See the Reference Handbook for details on how to prioritise the Align Move in complex situations.\nApply the rules below when performing Align Moves. The <u><link=\"charge_move\">Charge Move</link></u> must be made in such a way that the Charging Unit can satisfy the conditions below as best as possible, in decreasing order of priority:\n-   The initial point of contact* on the target unit, before the Align Move, must remain in contact* after the Align Move. Note that the charging <u><link=\"model\">model</link></u> that initially made contact is not required to remain in contact*.\n-   If there is no single initial point of contact*, e.g. because the initial contact*is made along a line, the owner of the Charging Unit declares where the initial point of contact* is, among the possible points of initial contact*. This choice must be made such that the conditions below are satisfied as best as possible.\n-   The Charging Unit is placed fully aligned with its Front Facing flush against the Target Facing.\n-   If this is not possible, apply the rules for <u><link=\"unaligned_charges\">Unaligned Charges</link></u> (see below).\n-   The number of <u><link=\"model\">models</link></u> in the target unit that are in contact* must be maximised. This includes Fighting Over Gaps.\n-   The number of <u><link=\"model\">models</link></u> in the Charging Unit that are in contact* must be maximised. This includes Fighting Over Gaps.\nIf it is unavoidable to break one or more of the above conditions, prioritise maintaining the higher priority conditions, even if it means breaking a greater number of conditions in total. The Charging Unit must, if able to, perform its <u><link=\"charge_move\">Charge Move</link></u> so that the <u><link=\"model\">models</link></u> involved in the initial contact* satisfies the conditions above as best as possible. As long as all the above conditions are satisfied to the best extent possible, the owner has the freedom to choose how to perform the Align Move.\nReferenceManualColorExample of a <u><link=\"charge_move\">Charge Move</link></u>. From left to right.1. Declare Charge: Unit A Declares a Charge towards unit B.\n2. Initial Forward: Unit A moves straight forward.\n3. Wheel: The unit is rotated forward around its front right corner.\n4. Concluding Forward: Unit A moves forward again, until it contacts unit B.\n5. Align: Unit A is picked up and put back down in contact and fully aligned with unit B.\nNow me and Fleabag, when we’re working a mark, our most reliable method is the old one-two. It’s a classic for a reason. Go straight in and try to pinch the goods on your lonesome, you’re asking for a pointed intryductshin to a boot or five. But if the hound creeps up one way, and Klepa sidles over from behind, I can often have a leeesurely peroosal of pockets and purses before they know a thing. Teamwork makes the dream work – or as we Warborn say, broodwork makes the mood work!"
   },
   {
-    "Id": "terror",
-    "Name": "Terror",
-    "Type": "General",
-    "Description": "When a unit containing <u><link=\"terror\">Terror</link></u> declares a Charge in the <u><link=\"charge_phase\">Charge Phase</link></u>, the target must take a Panic Test. If the test is failed, the unit must choose Flee! as its Charge Reaction if allowed to do so (e.g. not already <u><link=\"engaged_in_combat\">Engaged in Combat)</link></u>. Note that this <u><link=\"flee_move\">Flee Move</link></u> is not considered voluntary, and thus friendly units that may be required to take a Panic Test when moving through them. Units containing <u><link=\"terror\">Terror</link></u> are <u><link=\"immune\">immune</link></u> to the effects of <u><link=\"terror\">Terror</link></u>."
-  },
-  {
-    "Id": "immune",
-    "Name": "Immune",
-    "Type": "General",
-    "Description": "<u><link=\"attacks\">Attacks</link></u> with the <u><link=\"attack_attributes\">Attack Attributes</link></u> or <u><link=\"properties\">Properties</link></u> stated in brackets (X) allocated towards the <u><link=\"model\">model</link></u> with <u><link=\"immune\">Immune(X)</link></u> lose these <u><link=\"attack_attributes\">Attack Attributes</link></u> or <u><link=\"properties\">Properties</link></u>."
-  },
-  {
-    "Id": "aegis",
-    "Name": "Aegis",
-    "Type": "General",
-    "Description": "<u><link=\"aegis\">Aegis</link></u> is a Special Save, with a value indicated in brackets (X). If X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"aegis\">Aegis</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"aegis\">Aegis</link></u>, it instead gains a <u><link=\"aegis\">Aegis</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"aegis\">Aegis</link></u> that gains <u><link=\"aegis\">Aegis(+2)</link></u> will gain <u><link=\"aegis\">Aegis(5+)</link></u>.\nNote that <u><link=\"aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with the <u><link=\"divine_attacks\">Divine Attacks</link></u> Attack Attribute."
-  },
-  {
-    "Id": "divine_attacks",
-    "Name": "Divine Attacks",
-    "Type": "General",
-    "Description": "<u><link=\"aegis\">Aegis</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"divine_attacks\">Divine Attacks</link></u>."
-  },
-  {
     "Id": "magic_resistance",
     "Name": "Magic Resistance",
     "Type": "General",
     "Description": "When an enemy <u><link=\"model\">model</link></u> casts a spell that targets one or more units containing <u><link=\"magic_resistance\">Magic Resistance</link></u>, the Casting Roll of the spell is modified by X, where X is the highest <u><link=\"magic_resistance\">Magic Resistance</link></u> value across all targets ."
-  },
-  {
-    "Id": "poison_attacks",
-    "Name": "Poison Attacks",
-    "Type": "General",
-    "Description": "If the attack hits with a natural to-hit roll of ‘6’, it automatically wounds (no to-wound roll needed). If the attack has two or more instances of <u><link=\"poison_attacks\">Poison Attacks</link></u>, and it hits with a successful natural to-hit roll of ‘5’ or ‘6’ it automatically wounds.\nIf the attack is turned into more than one hit (e.g. a hit with <u><link=\"rulebook-area_attack\">Area Attack</link></u> or <u><link=\"rulebook-fury\">Fury</link></u>), only a single hit, chosen by the attacker, automatically wounds. All other hits must roll to wound as normal."
   },
   {
     "Id": "march_and_shoot",
@@ -792,10 +732,10 @@
     "Description": " - Universal Rule\nWhile within 12\" of the model, friendly units gain Minimised(Discipline Tests).\nWhile within 12\" of the model, friendly units gain Minimised(Discipline Tests)."
   },
   {
-    "Id": "rulebook-warplatform",
-    "Name": "WarPlatform",
+    "Id": "rulebook-war_platform",
+    "Name": "War Platform",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> follows the rules for <u><link=\"attachable_models\">Attachable Models</link></u>, with the following exceptions:\n\n-   If can never perform <u><link=\"make_way\">Make Way</link></u> moves, not even if it is also a Character.\n-   For the purpose of allocating Ranged <u><link=\"attacks\">Attacks</link></u> onto a unit with a <u><link=\"warplatform\">WarPlatform</link></u> joined to it, the <u><link=\"model\">model</link></u> with <u><link=\"warplatform\">WarPlatform</link></u> is considered to be the same Height as the Rank-and-File <u><link=\"model\">models</link></u> in the same unit. If there are no Rank-and-File <u><link=\"model\">models</link></u> in the unit, ignore this rule.\n-   Only a single <u><link=\"model\">model</link></u> with <u><link=\"warplatform\">WarPlatform</link></u> can be joined to the same unit.\nWhen the <u><link=\"model\">model</link></u> is joined to a unit, its Mobility and Charge Speed is set to that of its unit, applying the following restrictions:\n\n-   If there are no Rank-and-File <u><link=\"model\">models</link></u> from the unit in contact with the <u><link=\"warplatform\">WarPlatform’s</link></u> flank Facings (right and left side), the <u><link=\"model\">model</link></u> must use its own Mobility and Charge Speed instead Meaning that, if slower than the unit, the unit’s Mobility and Charge Speed are set to those of the <u><link=\"warplatform\">WarPlatform</link></u>.\n-   The <u><link=\"warplatform\">WarPlatform</link></u> cannot use the unit’s Mobility and Charge Speed values when leaving the unit, including charging out of it. Instead, it uses its own Mobility and Charge Speed."
+    "Description": "The <u><link=\"model\">model</link></u> follows the rules for <u><link=\"attachable_models\">Attachable Models</link></u>, with the following exceptions:\n\n-   If can never perform <u><link=\"make_way\">Make Way</link></u> moves, not even if it is also a Character.\n-   For the purpose of allocating Ranged <u><link=\"attacks\">Attacks</link></u> onto a unit with a <u><link=\"rulebook-war_platform\">War Platform</link></u> joined to it, the <u><link=\"model\">model</link></u> with <u><link=\"rulebook-war_platform\">War Platform</link></u> is considered to be the same Height as the Rank-and-File <u><link=\"model\">models</link></u> in the same unit. If there are no Rank-and-File <u><link=\"model\">models</link></u> in the unit, ignore this rule.\n-   Only a single <u><link=\"model\">model</link></u> with <u><link=\"rulebook-war_platform\">War Platform</link></u> can be joined to the same unit.\nWhen the <u><link=\"model\">model</link></u> is joined to a unit, its Mobility and Charge Speed is set to that of its unit, applying the following restrictions:\n\n-   If there are no Rank-and-File <u><link=\"model\">models</link></u> from the unit in contact with the <u><link=\"rulebook-war_platform\">War Platform’s</link></u> flank Facings (right and left side), the <u><link=\"model\">model</link></u> must use its own Mobility and Charge Speed instead Meaning that, if slower than the unit, the unit’s Mobility and Charge Speed are set to those of the <u><link=\"rulebook-war_platform\">War Platform</link></u>.\n-   The <u><link=\"rulebook-war_platform\">War Platform</link></u> cannot use the unit’s Mobility and Charge Speed values when leaving the unit, including charging out of it. Instead, it uses its own Mobility and Charge Speed."
   },
   {
     "Id": "er-virulent_fumes",
@@ -819,7 +759,7 @@
     "Id": "rulebook-regeneration",
     "Name": "Regeneration",
     "Type": "Defense",
-    "Description": "<u><link=\"rulebook-regeneration\">Regeneration</link></u> is a Special Save, with a value indicated in brackets (X).\nIf X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"rulebook-regeneration\">Regeneration</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"rulebook-regeneration\">Regeneration</link></u>, it instead gains a <u><link=\"rulebook-regeneration\">Regeneration</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"rulebook-regeneration\">Regeneration</link></u> that gains <u><link=\"rulebook-regeneration\">Regeneration(+2)</link></u> will gain <u><link=\"rulebook-regeneration\">Regeneration(5+)</link></u>.\n<u><link=\"rulebook-regeneration\">Regeneration</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with <u><link=\"flaming_attacks\">Flaming Attacks</link></u>, nor against <u><link=\"attacks\">attacks</link></u> with <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> that roll a natural ‘6’ to wound."
+    "Description": "<u><link=\"rulebook-regeneration\">Regeneration</link></u> is a Special Save, with a value indicated in brackets (X).\nIf X is given as a modifier and with a maximum value (e.g. +2), the <u><link=\"model\">model</link></u> gains this as a modifier to all its <u><link=\"rulebook-regeneration\">Regeneration</link></u> Special Save rolls, which cannot be increased to rolls better than 3+. If the <u><link=\"model\">model</link></u> does not have <u><link=\"rulebook-regeneration\">Regeneration</link></u>, it instead gains a <u><link=\"rulebook-regeneration\">Regeneration</link></u>(7  X+). For example, a <u><link=\"model\">model</link></u> without <u><link=\"rulebook-regeneration\">Regeneration</link></u> that gains <u><link=\"rulebook-regeneration\">Regeneration(+2)</link></u> will gain <u><link=\"rulebook-regeneration\">Regeneration(5+)</link></u>.\n<u><link=\"rulebook-regeneration\">Regeneration</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"attacks\">attacks</link></u> with <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, nor against <u><link=\"attacks\">attacks</link></u> with <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> that roll a natural ‘6’ to wound."
   },
   {
     "Id": "er-cult_of_errahman",
@@ -831,7 +771,7 @@
     "Id": "rulebook-hatred",
     "Name": "Hatred",
     "Type": "Equipment",
-    "Description": "An attack with <u><link=\"hatred\">Hatred</link></u> must reroll failed to-hit rolls."
+    "Description": "An attack with <u><link=\"rulebook-hatred\">Hatred</link></u> must reroll failed to-hit rolls."
   },
   {
     "Id": "rulebook-wizard_apprentice",
@@ -849,7 +789,7 @@
     "Id": "rulebook-channel",
     "Name": "Channel",
     "Type": "Global",
-    "Description": "During <u><link=\"siphon_the_veil\">Siphon the Veil</link></u>, each of the Active Player’s <u><link=\"model\">models</link></u> with <u><link=\"channel\">Channel</link></u> may gain ‘X’ Magic <u><link=\"dice\">Dice</link></u>.\nNote, <u><link=\"shaken\">Shaken</link></u> <u><link=\"model\">models</link></u> may not use <u><link=\"channel\">Channel</link></u>."
+    "Description": "During <u><link=\"siphon_the_veil\">Siphon the Veil</link></u>, each of the Active Player’s <u><link=\"model\">models</link></u> with <u><link=\"rulebook-channel\">Channel</link></u> may gain ‘X’ Magic <u><link=\"dice\">Dice</link></u>.\nNote, <u><link=\"shaken\">Shaken</link></u> <u><link=\"model\">models</link></u> may not use <u><link=\"rulebook-channel\">Channel</link></u>."
   },
   {
     "Id": "er-life_is_cheap",
@@ -924,12 +864,6 @@
     "Description": "Sometimes <u><link=\"characters\">characters</link></u> find themselves <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, but not in contact with any enemy <u><link=\"model\">models</link></u>. When this happens, the Character may be eligible for a <u><link=\"make_way\">Make Way</link></u> move.\nTo be able to perform a <u><link=\"make_way\">Make Way</link></u> move, the Character:\n-   Must be in the First Rank of its unit.\n-   Must not be in contact with any enemy <u><link=\"model\">models</link></u>.\n-   Must not have a <u><link=\"mismatching_bases\">Mismatching Bases</link></u>.\n<u><link=\"make_way\">Make Way</link></u> moves are performed when Choosing Equipment and Abilities. The Character switches positions with a Rank-and-File <u><link=\"model\">model</link></u> or <u><link=\"model\">models</link></u> in its unit that is in contact with an enemy. The <u><link=\"characters\">Characters</link></u> must end up in a legal position. Normally this means that the Character can only swap positions with <u><link=\"model\">models</link></u> in the Front Rank.  "
   },
   {
-    "Id": "warplatform",
-    "Name": "WarPlatform",
-    "Type": "General",
-    "Description": "The <u><link=\"model\">model</link></u> follows the rules for <u><link=\"attachable_models\">Attachable Models</link></u>, with the following exceptions:\n\n-   If can never perform <u><link=\"make_way\">Make Way</link></u> moves, not even if it is also a Character.\n-   For the purpose of allocating Ranged <u><link=\"attacks\">Attacks</link></u> onto a unit with a <u><link=\"warplatform\">WarPlatform</link></u> joined to it, the <u><link=\"model\">model</link></u> with <u><link=\"warplatform\">WarPlatform</link></u> is considered to be the same Height as the Rank-and-File <u><link=\"model\">models</link></u> in the same unit. If there are no Rank-and-File <u><link=\"model\">models</link></u> in the unit, ignore this rule.\n-   Only a single <u><link=\"model\">model</link></u> with <u><link=\"warplatform\">WarPlatform</link></u> can be joined to the same unit.\nWhen the <u><link=\"model\">model</link></u> is joined to a unit, its Mobility and Charge Speed is set to that of its unit, applying the following restrictions:\n\n-   If there are no Rank-and-File <u><link=\"model\">models</link></u> from the unit in contact with the <u><link=\"warplatform\">WarPlatform’s</link></u> flank Facings (right and left side), the <u><link=\"model\">model</link></u> must use its own Mobility and Charge Speed instead Meaning that, if slower than the unit, the unit’s Mobility and Charge Speed are set to those of the <u><link=\"warplatform\">WarPlatform</link></u>.\n-   The <u><link=\"warplatform\">WarPlatform</link></u> cannot use the unit’s Mobility and Charge Speed values when leaving the unit, including charging out of it. Instead, it uses its own Mobility and Charge Speed."
-  },
-  {
     "Id": "courage_tests",
     "Name": "Courage tests",
     "Type": "General",
@@ -942,28 +876,16 @@
     "Description": "Paired Weapons. Poison Attacks."
   },
   {
-    "Id": "flaming_attacks",
-    "Name": "Flaming Attacks",
-    "Type": "General",
-    "Description": "<u><link=\"rulebook-regeneration\">Regeneration</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"flaming_attacks\">Flaming Attacks</link></u>."
-  },
-  {
     "Id": "cult_of_errahman",
     "Name": "Cult of Errahman",
     "Type": "General",
     "Description": "Whenever a natural ‘1’ is rolled to hit for an enemy Close Combat Attack allocated towards a model with <u><link=\"cult_of_errahman\">Cult of Errahman</link></u>, the model part inflicts 1 hit with Toxic Attacks on the attacking model's unit in the same Initiative Step, before any casualties are removed.\nmodels with <u><link=\"cult_of_errahman\">Cult of Errahman</link></u> cannot be joined by models without <u><link=\"cult_of_errahman\">Cult of Errahman</link></u>."
   },
   {
-    "Id": "hatred",
-    "Name": "Hatred",
-    "Type": "General",
-    "Description": "An attack with <u><link=\"hatred\">Hatred</link></u> must reroll failed to-hit rolls."
-  },
-  {
     "Id": "siphon_the_veil",
     "Name": "Siphon the Veil",
     "Type": "General",
-    "Description": "The Active Player gains additional Magic <u><link=\"dice\">Dice</link></u>  from the following sources:\n\n-   A free additional Magic <u><link=\"dice\">Dice</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> from <u><link=\"model\">models</link></u> with <u><link=\"channel\">Channel</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> stored from the previous phase (see <u><link=\"storing_magic\">Storing Magic)</link></u>.\nNote: Each non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"channel\">Channel(X)</link></u> adds X Magic <u><link=\"dice\">Dice</link></u>, the most common source of <u><link=\"channel\">Channel</link></u> are Wizards:\n-   <u><link=\"wizard_master\">Wizard Masters</link></u> have <u><link=\"channel\">Channel(2)</link></u>.\n-   <u><link=\"wizard_adept\">Wizard Adepts</link></u> have <u><link=\"channel\">Channel(1)</link></u>.\n-   <u><link=\"wizard_conclave\">Wizard Conclaves</link></u> have <u><link=\"channel\">Channel(1)</link></u>, unless it is a <u><link=\"wizard_conclave\">Wizard Conclave</link></u> (1).\n\n-10.80vampire_MadAt.pngMad Hat\n\nI hope you haven’t been listening to any criminal goblins. That would be almost as inadvisable as talking to an undergraduate!\nHerr Sigmund Selig here, Professor Emeritus; you may call me The Sage. Forgive my tardiness, but I’d just seen a paper by that buffoon of a provost from Eichtal, claiming that the Flux responds to the seniority of the mage who calls upon it. Naturally I had to write a treatise in response – the Flux is simply the vulgar term for the flow of magic into and around our Realm, and all proper experiments demonstrate that though a wizard might draw more of this substance to themselves by “channelling”, they cannot increase the total magical resources in the vicinity, which is entirely random. Thank goodness I was in time to correct you on that!"
+    "Description": "The Active Player gains additional Magic <u><link=\"dice\">Dice</link></u>  from the following sources:\n\n-   A free additional Magic <u><link=\"dice\">Dice</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> from <u><link=\"model\">models</link></u> with <u><link=\"rulebook-channel\">Channel</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> stored from the previous phase (see <u><link=\"storing_magic\">Storing Magic)</link></u>.\nNote: Each non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rulebook-channel\">Channel(X)</link></u> adds X Magic <u><link=\"dice\">Dice</link></u>, the most common source of <u><link=\"rulebook-channel\">Channel</link></u> are Wizards:\n-   <u><link=\"wizard_master\">Wizard Masters</link></u> have <u><link=\"rulebook-channel\">Channel(2)</link></u>.\n-   <u><link=\"wizard_adept\">Wizard Adepts</link></u> have <u><link=\"rulebook-channel\">Channel(1)</link></u>.\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u> have <u><link=\"rulebook-channel\">Channel(1)</link></u>, unless it is a <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (1).\n\n-10.80vampire_MadAt.pngMad Hat\n\nI hope you haven’t been listening to any criminal goblins. That would be almost as inadvisable as talking to an undergraduate!\nHerr Sigmund Selig here, Professor Emeritus; you may call me The Sage. Forgive my tardiness, but I’d just seen a paper by that buffoon of a provost from Eichtal, claiming that the Flux responds to the seniority of the mage who calls upon it. Naturally I had to write a treatise in response – the Flux is simply the vulgar term for the flow of magic into and around our Realm, and all proper experiments demonstrate that though a wizard might draw more of this substance to themselves by “channelling”, they cannot increase the total magical resources in the vicinity, which is entirely random. Thank goodness I was in time to correct you on that!"
   },
   {
     "Id": "life_is_cheap",
@@ -1005,7 +927,7 @@
     "Id": "rulebook-supernal",
     "Name": "Supernal",
     "Type": "Global",
-    "Description": "When a unit entirely with <u><link=\"supernal\">Supernal</link></u> fails a Break Test, instead of being Broken and subsequently <u><link=\"shaken\">Shaken</link></u>, it suffers a number of Health Point losses equal to the amount by which the combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"supernal\">Supernal</link></u> can only join units containing <u><link=\"supernal\">Supernal</link></u>, and units containing <u><link=\"supernal\">Supernal</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"supernal\">Supernal</link></u>."
+    "Description": "When a unit entirely with <u><link=\"rulebook-supernal\">Supernal</link></u> fails a Break Test, instead of being Broken and subsequently <u><link=\"shaken\">Shaken</link></u>, it suffers a number of Health Point losses equal to the amount by which the combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-supernal\">Supernal</link></u> can only join units containing <u><link=\"rulebook-supernal\">Supernal</link></u>, and units containing <u><link=\"rulebook-supernal\">Supernal</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-supernal\">Supernal</link></u>."
   },
   {
     "Id": "rulebook-feigned_flight",
@@ -1029,25 +951,25 @@
     "Id": "dl-know_thyself",
     "Name": "Know Thyself",
     "Type": "Equipment",
-    "Description": "At the begining of the Agility Step when the model's Standard Melee Attacks are made, select one model part from each enemy model in contact. Add their Attack Value Characteristics, excluding any modifiers, to the Attack Value of the Kuulima's Deceiver. At the end of each Round of Combat, the model's Attack Value is set to 1."
+    "Description": "At the beginning of the Agility Step when the model’s Standard Melee Attacks are allocated, select one model part from each enemy model in contact with this model. Add their Attack Value Characteristics, excluding any modifiers, to the Attack Value of the Kuulima’s Deceiver. Duration: Round of Combat."
   },
   {
     "Id": "dl-path_of_destruction",
     "Name": "Path of Destruction",
     "Type": "Equipment",
-    "Description": "This model part can allocate its Stomp Attack onto Health Pools of Height 4 or less (rather than 0-1). If the model part’s Stomp Attack is allocated onto a Health Pool with Height (3–4), the total number of hits is halved, rounding fractions up."
+    "Description": "This model part can allocate its <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> onto Health Pools of Height 4 or less (rather than 0-1). If the model part’s <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> is allocated towards a Health Pool with Height (3–4), the total number of hits is halved, rounding fractions up."
   },
   {
     "Id": "dl-devour",
     "Name": "Devour",
     "Type": "Defense",
-    "Description": "For each Health Point loss the model causes with Melee Attacks, roll a D6 at the end of the Agility Step. For each 4+ rolled, the model gains +1 Health Point.\nWhen the model has 20+ Health Points, all units within 9\" immediately suffer 2D6 hits with Toxic Attacks, and the model is removed as a casualty."
+    "Description": "For each Health Point loss the model causes with Melee Attacks, roll a D6 at the end of the Agility Step. For each 4+ rolled, the model gains +1 Health Point. If the model’s Health Points reach 20 or more, all units within 9\" immediately suffer 2D6 hits with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>, and the model is removed as a casualty"
   },
   {
     "Id": "dl-bribed_enchantments",
     "Name": "Bribed Enchantments",
     "Type": "Global",
-    "Description": "During Step 2.C Static Combat Score in a Round of Combat, select a single enemy unit the model is in contact with. For each Magic Item in the selected unit, the wearer's unit gains +1 Combat Score, to a maximum of +3."
+    "Description": "During Step 2.b of each Round of Combat (\"Calculate Static Combat Score\"), select a single enemy unit the model is in contact with, for each Magic Item in the selected unit, the bearer’s side add +1 to its Combat Score, to a maximum of +3."
   },
   {
     "Id": "rulebook-resistance",
@@ -1071,7 +993,7 @@
     "Id": "dl-divine_right",
     "Name": "Divine Right",
     "Type": "Global",
-    "Description": "While there is an enemy Character in contact with the model's unit, the model gains Distracting(1)."
+    "Description": "While there is an enemy Character in contact with the model's unit, the model gains <u><link=\"rulebook-distracting\">Distracting(1)</link></u>."
   },
   {
     "Id": "rulebook-multiple_wounds",
@@ -1083,13 +1005,13 @@
     "Id": "rulebook-wizard_master",
     "Name": "Wizard Master",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"channel\">Channel(2)</link></u> and knows 5 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell, the Adept, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
+    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"rulebook-channel\">Channel(2)</link></u> and knows 5 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell, the Adept, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
   },
   {
     "Id": "dl-omniscience",
     "Name": "Omniscience",
     "Type": "Global",
-    "Description": "    If one or more models with <u><link=\"omniscience\">Omniscience</link></u> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
+    "Description": "If one or more models with <u><link=\"dl-omniscience\">Omniscience</link></u> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
   },
   {
     "Id": "rulebook-grind_attack",
@@ -1101,7 +1023,7 @@
     "Id": "dl-energy_bolts",
     "Name": "Energy Bolts",
     "Type": "Equipment",
-    "Description": "<u><link=\"energy_bolts\">Energy Bolts</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"energy_bolts\">Energy Bolts</link></u>424\"150-"
+    "Description": "Aim 4+, Range 24\", Shots 1, Str 5, AP 0, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>"
   },
   {
     "Id": "dl-smother",
@@ -1113,49 +1035,49 @@
     "Id": "rulebook-stand_and_shoot",
     "Name": "Stand and Shoot",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> may perform an out of sequence Shooting Attack when an enemy unit has successfully performed a <u><link=\"charge_move\">Charge Move</link></u> into contact with the <u><link=\"model\">model’s</link></u> unit, if the following conditions are met:\n\n-   The <u><link=\"model\">model’s</link></u> unit is not <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> with any other units. Note that this means during a Combined Charge only the first Charging Unit moved can be targeted; except if the Charging Unit is <u><link=\"removed\">removed</link></u> at the end of its move. As long as the Charging Unit is <u><link=\"removed\">removed</link></u> at the end of its move, there is no limit on the amount of times a unit may use <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>.\n\n-   The enemy unit Charges the <u><link=\"model\">model</link></u> in its unit’s Front Facing.\n-   The enemy unit started the Charge further away than its Charge Speed, using the lowest Charge Speed in the unit.\n\n-   The Charge was not done as part of a Pursue Move.\n\nThis is a Shooting Attack that does not require <u><link=\"line_of_sight\">Line of Sight</link></u>, can be done even if the enemy unit is not in the Shooter's Front Arc, and is always resolved against the target unit's Front Facing."
+    "Description": "The <u><link=\"model\">model</link></u> may perform an out of sequence Shooting Attack when an enemy unit has successfully performed a <u><link=\"charge_move\">Charge Move</link></u> into contact with the <u><link=\"model\">model’s</link></u> unit, if the following conditions are met:\n\n-   The <u><link=\"model\">model’s</link></u> unit is not <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> with any other units. Note that this means during a Combined Charge only the first Charging Unit moved can be targeted; except if the Charging Unit is <u><link=\"removed\">removed</link></u> at the end of its move. As long as the Charging Unit is <u><link=\"removed\">removed</link></u> at the end of its move, there is no limit on the amount of times a unit may use <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>.\n\n-   The enemy unit Charges the <u><link=\"model\">model</link></u> in its unit’s Front Facing.\n-   The enemy unit started the Charge further away than its Charge Speed, using the lowest Charge Speed in the unit.\n\n-   The Charge was not done as part of a Pursue Move.\n\nThis is a Shooting Attack that does not require <u><link=\"line_of_sight\">Line of Sight</link></u>, can be done even if the enemy unit is not in the Shooter's Front Arc, and is always resolved against the target unit's Front Facing."
   },
   {
     "Id": "dl-dark_fire",
     "Name": "Dark Fire",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack Attributes<u><link=\"dark_fire\">Dark Fire</link></u>X18\"240Armour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dark_fire\">Dark Fire</link></u>. Magical Attacks\nArmour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dark_fire\">Dark Fire</link></u>."
+    "Description": "Aim X+, Range 18\", Shots 2, Str 4, AP 0, Armour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dl-dark_fire\">Dark Fire</link></u>."
   },
   {
     "Id": "rulebook-horror",
     "Name": "Horror",
     "Type": "Global",
-    "Description": "\n<u><link=\"flee_move\">Flee Moves</link></u> from enemy units made in the following situations gain Minimised two times:\n\n-   Flee! <u><link=\"charge_reactions\">Charge Reactions</link></u> declared in reaction to a Charge Declaration from a unit containing this rule. (Flee! <u><link=\"charge_reactions\">Charge Reactions</link></u> declared when later charged by other units are unaffected.)\n-   Breaking from combat while in contact with one or more units containing <u><link=\"horror\">Horror</link></u>.\n\nRemember that units containing <u><link=\"rulebook-fearless\">Fearless</link></u> are unaffected by this rule."
+    "Description": "\n<u><link=\"flee_move\">Flee Moves</link></u> from enemy units made in the following situations gain Minimised two times:\n\n-   Flee! <u><link=\"charge_reactions\">Charge Reactions</link></u> declared in reaction to a Charge Declaration from a unit containing this rule. (Flee! <u><link=\"charge_reactions\">Charge Reactions</link></u> declared when later charged by other units are unaffected.)\n-   Breaking from combat while in contact with one or more units containing <u><link=\"rulebook-horror\">Horror</link></u>.\n\nRemember that units containing <u><link=\"rulebook-fearless\">Fearless</link></u> are unaffected by this rule."
   },
   {
     "Id": "dl-horde_thresher",
     "Name": "Horde Thresher",
     "Type": "Global",
-    "Description": "Changes to the model's profile:\n-   Base size changed to 100×100mm.\n-   HP set to 6.\n-   Number of Tillers and Hellsteeds is set to (3).\n-   Tillers lose <u><link=\"smother\">Smother(1)</link></u> and gain <u><link=\"smother\">Smother(2)</link></u>.\n-   Chassis gains Impact Hits(3D3).\n-   Max. 3 models/army.\n-   Single model."
+    "Description": "Changes to the model's profile:\n   • Base size changed to 100×100mm.\n   • HP set to 6.\n   • Number of Tillers and Hellsteeds is set to (3).\n   • Tillers lose <u><link=\"dl-smother\">Smother(1)</link></u> and gain <u><link=\"dl-smother\">Smother(2)</link></u>.\n   • Chassis gains <u><link=\"rulebook-impact_hits\">Impact Hits(3D3)</link></u>.\n   • Max. 3 models/army.\n   • Single model."
   },
   {
     "Id": "dl-legion_thresher",
     "Name": "Legion Thresher",
     "Type": "Global",
-    "Description": "Changes to the model's profile:\n-   Base size changed to 100×150mm.\n-   HP set to 8.\n-   Number of Tillers and Hellsteeds is set to (4).\n-   Tillers lose <u><link=\"smother\">Smother(1)</link></u> and gain <u><link=\"smother\">Smother(2)</link></u>.\n-   Chassis gains Impact Hits(4D3).\n-   Max. 2 models/army.\n-   Single model."
+    "Description": "Changes to the model's profile:\n   • Base size changed to 100×150mm.\n   • HP set to 8.\n   • Number of Tillers and Hellsteeds is set to (4).\n   • Tillers lose <u><link=\"dl-smother\">Smother(1)</link></u> and gain <u><link=\"dl-smother\">Smother(2)</link></u>.\n   • Chassis gains Impact Hits(4D3).\n   • Max. 2 models/army.\n   • Single model."
   },
   {
     "Id": "dl-mountain_breaker",
     "Name": "Mountain Breaker",
     "Type": "Global",
-    "Description": "The model's Charge Range rolls towards units containing Height 5 are Maximised.\nImpact Hits gain Multiple Wounds(D3, towards Height 5)."
+    "Description": "The model's Charge Range rolls towards units containing Height 5 are Maximised.\nImpact Hits gain <u><link=\"rulebook-multiple_wounds\">Multiple Wounds(D3, towards Height 5)</link></u>."
   },
   {
     "Id": "dl-veil_stalker",
     "Name": "Veil Stalker",
     "Type": "Defense",
-    "Description": "For every successfully cast spell in the opponents previous Magic Phase this unit's Ambush roll gains Maximised, even if the unit is not on the battlefield."
+    "Description": "For every successfully cast spell in the opponents previous Magic Phase, this unit’s <u><link=\"rulebook-ambush\">Ambush</link></u> roll gains one instance of Maximised."
   },
   {
     "Id": "dl-tightening_grasp",
     "Name": "Tightening Grasp",
     "Type": "Equipment",
-    "Description": "The model gains Grind Attack(X). When a model is in the second rank, and not in contact with any enemy model,  it can make all its hits from Grind Attack across models in the front rank directly in front of it.\nWhen the model is not Engaged in Combat, X is set to 1. After each Round of Combat, X increases by 1 (e.g. Grind Attack(1) becomes Grind Attack(2))."
+    "Description": "The model gains <u><link=\"rulebook-grind_attack\">Grind Attack (X hits)</link></u>.\nAfter each Round of Combat, \"X\" increases by 1 (e.g. <u><link=\"rulebook-grind_attack\">Grind Attack (1 hit)</link></u> becomes <u><link=\"rulebook-grind_attack\">Grind Attack (2 hits)</link></u>) When the model is not Engaged in Combat, \"X\" is set to 1.\nWhen a model part with <u><link=\"dl-tightening_grasp\">Tightening Grasp</link></u> is in the second rank, and not in contact with any enemy model, it can make all its hits from <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> across models directly in front of it in the Front Rank."
   },
   {
     "Id": "rulebook-parry",
@@ -1167,31 +1089,25 @@
     "Id": "dl-falling_star",
     "Name": "Falling Star",
     "Type": "Global",
-    "Description": "The model's Def, Off, and Agi are set to twice the model's current number of HP, at the start of each Agility Step. "
+    "Description": "At the start of step 3.a \"Determine Agility Order\" the models Agility is set to twice the model’s current number of Health Points.\nAt the start of each Agility Step, the model’s Defensive Skill, and Offensive Skill, are set to twice the model’s current number of Health Points"
   },
   {
     "Id": "dl-aether_battery",
     "Name": "Aether Battery",
     "Type": "Equipment",
-    "Description": "If the model did not move this turn, the number of Shots gain Maximised.\nAether BatteryNameAimRangeShotsStrAPAttack AttributesAeth. Battery318\"3D641If the model did not move this turn, the number of Shots gain Maximised.\n"
+    "Description": "Aim 3+, Range 18\", Shots 3D6, Str 4, AP 1, If the model did not move this turn, the number of Shots gain Maximised. <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>"
   },
   {
     "Id": "dl-morphlings",
     "Name": "Morphlings",
     "Type": "Global",
-    "Description": "During Pre-game Selections, each unit of Veil Serpents must choose a <u><link=\"manifestation\">Manifestation</link></u> from the list below and apply the effects during the game:\n-  <u><link=\"mesmerising_plumage\">Mesmerising Plumage</link></u> \n-  <u><link=\"torporous_tendrils\">Torporous Tendrils</link></u> \n-  <u><link=\"venom_sacs\">Venom Sacs</link></u> "
+    "Description": "During Pre-game Selections, each unit of Veil Serpents must choose one of the following Manifestations, it gains the chosen Manifestations.\nDuration: Permanent:\n   • <u><link=\"dl-mesmerising_plumage\">Mesmerising Plumage</link></u>\n   • <u><link=\"dl-torporous_tendrils\">Torporous Tendrils</link></u>\n   • <u><link=\"dl-venom_sacs\">Venom Sacs</link></u>"
   },
   {
     "Id": "dl-acid_blood",
     "Name": "Acid Blood",
     "Type": "Equipment",
-    "Description": "Whenever this model fails a Regeneration Save against enemy Melee Attacks, it inflicts 1 hit with Toxic Attacks on the Health Pool of the attacking model, before any casualties are removed."
-  },
-  {
-    "Id": "supernal",
-    "Name": "Supernal",
-    "Type": "General",
-    "Description": "When a unit entirely with <u><link=\"supernal\">Supernal</link></u> fails a Break Test, instead of being Broken and subsequently <u><link=\"shaken\">Shaken</link></u>, it suffers a number of Health Point losses equal to the amount by which the combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"supernal\">Supernal</link></u> can only join units containing <u><link=\"supernal\">Supernal</link></u>, and units containing <u><link=\"supernal\">Supernal</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"supernal\">Supernal</link></u>."
+    "Description": "Each time a model with <u><link=\"dl-acid_blood\">Acid Blood</link></u> fails a Regeneration Save against an enemy Melee Attack, it immediately inflicts 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> towards the Health Pool of the attacking model, before any casualties are removed."
   },
   {
     "Id": "rally_test",
@@ -1206,40 +1122,10 @@
     "Description": "When making an attack it is necessary to wound the target in order to potentially cause harm.\nTo determine if a hit successfully wounds the target, roll a D6 for each hit. The required roll to wound depends on the difference between the <u><link=\"attacks\">attack’s</link></u> Strength and the defender’s Resilience, as indicated in the tables below. Both tables present the same relation, visualised in different ways.\nA natural roll of ‘6’ always succeeds, while a natural roll of ‘1’ always fails. The player who made the attack rolls to determine if each hit wounds the target. A successful to-wound roll results in a wound.\nIf the attack does not have a Strength, refer to the specific rules provided for that particular attack.\n\n\nDifference\nStr - Res    Required roll to wound\n2 or more    2+\n1    3+\n0    4+\n-1    5+\n-2 or less    6+  \n\n\nStr 1    Str 2    Str 3    Str 4    Str 5    Str 6    Str 7    Str 8    Str 9    Str 10\nRes 1    4+    3+    2+    2+    2+    2+    2+    2+    2+    2+\nRes 2    5+    4+    3+    2+    2+    2+    2+    2+    2+    2+\nRes 3    6+    5+    4+    3+    2+    2+    2+    2+    2+    2+\nRes 4    6+    6+    5+    4+    3+    2+    2+    2+    2+    2+\nRes 5    6+    6+    6+    5+    4+    3+    2+    2+    2+    2+\nRes 6    6+    6+    6+    6+    5+    4+    3+    2+    2+    2+\nRes 7    6+    6+    6+    6+    6+    5+    4+    3+    2+    2+\nRes 8    6+    6+    6+    6+    6+    6+    5+    4+    3+    2+\nRes 9    6+    6+    6+    6+    6+    6+    6+    5+    4+    3+\nRes 10    6+    6+    6+    6+    6+    6+    6+    6+    5+    4+  \n"
   },
   {
-    "Id": "omniscience",
-    "Name": "Omniscience",
-    "Type": "General",
-    "Description": "    If one or more models with <u><link=\"omniscience\">Omniscience</link></u> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
-  },
-  {
-    "Id": "energy_bolts",
-    "Name": "Energy Bolts",
-    "Type": "General",
-    "Description": "<u><link=\"energy_bolts\">Energy Bolts</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"energy_bolts\">Energy Bolts</link></u>424\"150-"
-  },
-  {
-    "Id": "stand_and_shoot",
-    "Name": "Stand and Shoot",
-    "Type": "General",
-    "Description": "The <u><link=\"model\">model</link></u> may perform an out of sequence Shooting Attack when an enemy unit has successfully performed a <u><link=\"charge_move\">Charge Move</link></u> into contact with the <u><link=\"model\">model’s</link></u> unit, if the following conditions are met:\n\n-   The <u><link=\"model\">model’s</link></u> unit is not <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> with any other units. Note that this means during a Combined Charge only the first Charging Unit moved can be targeted; except if the Charging Unit is <u><link=\"removed\">removed</link></u> at the end of its move. As long as the Charging Unit is <u><link=\"removed\">removed</link></u> at the end of its move, there is no limit on the amount of times a unit may use <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>.\n\n-   The enemy unit Charges the <u><link=\"model\">model</link></u> in its unit’s Front Facing.\n-   The enemy unit started the Charge further away than its Charge Speed, using the lowest Charge Speed in the unit.\n\n-   The Charge was not done as part of a Pursue Move.\n\nThis is a Shooting Attack that does not require <u><link=\"line_of_sight\">Line of Sight</link></u>, can be done even if the enemy unit is not in the Shooter's Front Arc, and is always resolved against the target unit's Front Facing."
-  },
-  {
-    "Id": "dark_fire",
-    "Name": "Dark Fire",
-    "Type": "General",
-    "Description": "Armour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dark_fire\">Dark Fire</link></u>."
-  },
-  {
     "Id": "charge_reactions",
     "Name": "Charge Reactions",
     "Type": "General",
-    "Description": "When a unit has a Charge declared against it must immediately perform a Charge Reaction. The owner of the charged unit declares which Charge Reaction, and resolve the effects immediately. There are two <u><link=\"charge_reactions\">Charge Reactions</link></u> to choose from:\n-   Hold!: This is the default Charge Reaction. Choosing the Hold! Charge Reaction means the unit stands its ground and makes no further action.\n-   Flee!: A unit can select this Charge Reaction only once per phase, and only if not already <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>. The unit is pivoted to face directly away from the Centre of the charging unit, it then performs a <u><link=\"flee_move\">Flee Move</link></u> (see <u><link=\"psychology\">Psychology</link></u> section).\n-   If this <u><link=\"flee_move\">Flee Move</link></u> brings the fleeing unit into contact with a unit that declared a Charge against it this phase, the fleeing unit is immediately <u><link=\"removed\">removed</link></u> as a casualty.\n-   Remember <u><link=\"flee_move\">Flee Moves</link></u> due to Charge Reaction Flee! do not cause a Panic Test in friendly units that the Fleeing unit moves through (unless caused by a failed Panic Test when charged by a unit containing <u><link=\"terror\">Terror)</link></u>."
-  },
-  {
-    "Id": "smother",
-    "Name": "Smother",
-    "Type": "General",
-    "Description": "If the attack is allocated towards a model that has the same Height as the attacker, it gains +1 to hit and +1 to wound."
+    "Description": "When a unit has a Charge declared against it must immediately perform a Charge Reaction. The owner of the charged unit declares which Charge Reaction, and resolve the effects immediately. There are two <u><link=\"charge_reactions\">Charge Reactions</link></u> to choose from:\n-   Hold!: This is the default Charge Reaction. Choosing the Hold! Charge Reaction means the unit stands its ground and makes no further action.\n-   Flee!: A unit can select this Charge Reaction only once per phase, and only if not already <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>. The unit is pivoted to face directly away from the Centre of the charging unit, it then performs a <u><link=\"flee_move\">Flee Move</link></u> (see <u><link=\"psychology\">Psychology</link></u> section).\n-   If this <u><link=\"flee_move\">Flee Move</link></u> brings the fleeing unit into contact with a unit that declared a Charge against it this phase, the fleeing unit is immediately <u><link=\"removed\">removed</link></u> as a casualty.\n-   Remember <u><link=\"flee_move\">Flee Moves</link></u> due to Charge Reaction Flee! do not cause a Panic Test in friendly units that the Fleeing unit moves through (unless caused by a failed Panic Test when charged by a unit containing <u><link=\"rulebook-terror\">Terror)</link></u>."
   },
   {
     "Id": "manifestation",
@@ -1248,22 +1134,10 @@
     "Description": "During Pre-game Selections, each Exalted Herald must choose two different <u><link=\"manifestation\">Manifestations</link></u> from the list below and apply the effects during the game. The model must select two spells out of those indicated for the chosen <u><link=\"manifestation\">Manifestations</link></u>, Wrath of God (Thaumaturgy), and Hellfire (Hereditary Spell). This replaces the normal rules for Spell Selection connected to being a Wizard Adept."
   },
   {
-    "Id": "mesmerising_plumage",
-    "Name": "Mesmerising Plumage",
-    "Type": "General",
-    "Description": "Enemy units in base contact with one or more models with this <u><link=\"manifestation\">Manifestation</link></u> suffer -1 Offensive Skill and -1 Defensive Skill."
-  },
-  {
     "Id": "torporous_tendrils",
     "Name": "Chilling Yawn",
     "Type": "General",
     "Description": "Enemy units in base contact with one or more models with this <u><link=\"manifestation\">Manifestation</link></u> suffer -2 Agility."
-  },
-  {
-    "Id": "venom_sacs",
-    "Name": "Venom Sacs",
-    "Type": "General",
-    "Description": "The model gains Poison Attacks. If the model's Close Combat Attacks already were Poison Attacks from another source than this <u><link=\"manifestation\">Manifestation</link></u>, they wound automatically on a successful natural to-hit roll of '5' or '6', unless the target has Immune (Poison Attacks)."
   },
   {
     "Id": "de-scent_of_blood",
@@ -1299,7 +1173,7 @@
     "Id": "rulebook-zeal",
     "Name": "Zeal",
     "Type": "Equipment",
-    "Description": "An attack with <u><link=\"zeal\">Zeal</link></u> must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
+    "Description": "An attack with <u><link=\"rulebook-zeal\">Zeal</link></u> must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
   },
   {
     "Id": "de-repeater_handbow",
@@ -1420,12 +1294,6 @@
     "Name": "Hidden",
     "Type": "General",
     "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
-  },
-  {
-    "Id": "zeal",
-    "Name": "Zeal",
-    "Type": "General",
-    "Description": "An attack with <u><link=\"zeal\">Zeal</link></u> must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
   },
   {
     "Id": "daeb_warfare",
@@ -1569,7 +1437,7 @@
     "Id": "rulebook-water_terrain",
     "Name": "Water Terrain",
     "Type": "Global",
-    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
+    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"rulebook-immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
   },
   {
     "Id": "df-toxic_scum",
@@ -1587,7 +1455,7 @@
     "Id": "rulebook-wizard_conclave",
     "Name": "Wizard Conclave",
     "Type": "Global",
-    "Description": "The unit knows X Learned <u><link=\"spells\">Spells</link></u>, chosen from the list of available <u><link=\"spells\">spells</link></u> in its unit entry, is a Wizard and if X is 2 or more it also gains <u><link=\"channel\">Channel(1)</link></u>. The unit may only do a Hereditary Swap if it could have picked the Hereditary Spell during 1.B.a <u><link=\"spell_selection\">Spell Selections</link></u>. It is always eligible for a <u><link=\"universal\">Universal</link></u> Swap. See Battle Preparation chapter for details.\nDespite the whole unit knowing <u><link=\"spells\">spells</link></u> only one <u><link=\"model\">model</link></u> is a Caster. Just before choosing targets for a spell, select one Rank-and-File <u><link=\"model\">model</link></u> as the Caster for this spell.\nWhen a <u><link=\"wizard_conclave\">Wizard Conclave</link></u> suffers a Miscast, treat the entire unit as the Caster."
+    "Description": "The unit knows X Learned <u><link=\"spells\">Spells</link></u>, chosen from the list of available <u><link=\"spells\">spells</link></u> in its unit entry, is a Wizard and if X is 2 or more it also gains <u><link=\"rulebook-channel\">Channel(1)</link></u>. The unit may only do a Hereditary Swap if it could have picked the Hereditary Spell during 1.B.a <u><link=\"spell_selection\">Spell Selections</link></u>. It is always eligible for a <u><link=\"universal\">Universal</link></u> Swap. See Battle Preparation chapter for details.\nDespite the whole unit knowing <u><link=\"spells\">spells</link></u> only one <u><link=\"model\">model</link></u> is a Caster. Just before choosing targets for a spell, select one Rank-and-File <u><link=\"model\">model</link></u> as the Caster for this spell.\nWhen a <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> suffers a Miscast, treat the entire unit as the Caster."
   },
   {
     "Id": "df-sirens_song",
@@ -1629,7 +1497,7 @@
     "Id": "water_terrain",
     "Name": "Water Terrain",
     "Type": "General",
-    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
+    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"rulebook-immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
   },
   {
     "Id": "shrouded_by_mist",
@@ -1641,19 +1509,13 @@
     "Id": "spell_selection",
     "Name": "Spell Selection",
     "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
+    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
   },
   {
     "Id": "universal",
     "Name": "Universal",
     "Type": "General",
     "Description": "<u><link=\"universal\">Universal</link></u> Rule"
-  },
-  {
-    "Id": "wizard_conclave",
-    "Name": "Wizard Conclave",
-    "Type": "General",
-    "Description": "The unit knows X Learned <u><link=\"spells\">Spells</link></u>, chosen from the list of available <u><link=\"spells\">spells</link></u> in its unit entry, is a Wizard and if X is 2 or more it also gains <u><link=\"channel\">Channel(1)</link></u>. The unit may only do a Hereditary Swap if it could have picked the Hereditary Spell during 1.B.a <u><link=\"spell_selection\">Spell Selections</link></u>. It is always eligible for a <u><link=\"universal\">Universal</link></u> Swap. See Battle Preparation chapter for details.\nDespite the whole unit knowing <u><link=\"spells\">spells</link></u> only one <u><link=\"model\">model</link></u> is a Caster. Just before choosing targets for a spell, select one Rank-and-File <u><link=\"model\">model</link></u> as the Caster for this spell.\nWhen a <u><link=\"wizard_conclave\">Wizard Conclave</link></u> suffers a Miscast, treat the entire unit as the Caster."
   },
   {
     "Id": "sirens_song",
@@ -1701,7 +1563,7 @@
     "Id": "rulebook-resolute",
     "Name": "Resolute",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"resolute\">Resolute</link></u>, that has at least one Proper Rank is considered to have X additional Proper Ranks, when Engaged."
+    "Description": "A unit containing <u><link=\"rulebook-resolute\">Resolute</link></u>, that has at least one Proper Rank is considered to have X additional Proper Ranks, when Engaged."
   },
   {
     "Id": "dh-runic_anvil",
@@ -1776,12 +1638,6 @@
     "Description": "If the <u><link=\"model\">model</link></u> performed a Move Manoeuvre in the current Player Turn, <u><link=\"attacks\">Attacks</link></u> with <u><link=\"unwieldy\">Unwieldy</link></u> suffer -X to Hit. This modifier can be combined with the -1 to-hit modifier from shooting in the same turn as performing a  Move Manoeuvre."
   },
   {
-    "Id": "resolute",
-    "Name": "Resolute",
-    "Type": "General",
-    "Description": "A unit containing <u><link=\"resolute\">Resolute</link></u>, that has at least one Proper Rank is considered to have X additional Proper Ranks, when Engaged."
-  },
-  {
     "Id": "forge_gun",
     "Name": "\n\t\tForge Gun",
     "Type": "General",
@@ -1827,7 +1683,7 @@
     "Id": "rulebook-ice_and_fire",
     "Name": "Ice and Fire",
     "Type": "Global",
-    "Description": "The target suffers 2D6 hits with Str 4, AP 0, and <u><link=\"magical_attacks\">Magical Attacks</link></u>. Successful [𝛼] against wounds caused by this spell must be rerolled.\\\n[𝛼]: Special Saves[𝛽]: <u><link=\"armour_saves\">Armour Saves</link></u>"
+    "Description": "The target suffers 2D6 hits with Str 4, AP 0, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. Successful [𝛼] against wounds caused by this spell must be rerolled.\\\n[𝛼]: Special Saves[𝛽]: <u><link=\"armour_saves\">Armour Saves</link></u>"
   },
   {
     "Id": "eos-master_artificer",
@@ -1918,12 +1774,6 @@
     "Name": "Aura of Power",
     "Type": "General",
     "Description": "Units within 8\" of one or more friendly models with <u><link=\"aura_of_power\">Aura of Power</link></u> gain +2 Def and +2 Off. Model parts with Mount are not affected. The model can cast its chosen spell as a Bound Spell(5+)."
-  },
-  {
-    "Id": "magical_attacks",
-    "Name": "Magical Attacks",
-    "Type": "General",
-    "Description": "This Attack Attribute does not confer any direct effects, but instead interacts with other rules, such as Aegis(X, against Magical Attacks)."
   },
   {
     "Id": "armour_saves",
@@ -2037,7 +1887,7 @@
     "Id": "rulebook-flaming_attacks",
     "Name": "Flaming Attacks",
     "Type": "Equipment",
-    "Description": "<u><link=\"rulebook-regeneration\">Regeneration</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"flaming_attacks\">Flaming Attacks</link></u>."
+    "Description": "<u><link=\"rulebook-regeneration\">Regeneration</link></u> <u><link=\"saves\">Saves</link></u> cannot be taken against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>."
   },
   {
     "Id": "he-sky_reaper",
@@ -2223,7 +2073,7 @@
     "Id": "rulebook-crush_attack",
     "Name": "Crush Attack",
     "Type": "Equipment",
-    "Description": "<u><link=\"unmodifiable\">Unmodifiable</link></u>. When the <u><link=\"model\">model</link></u> part allocates <u><link=\"attacks\">Attacks</link></u>, it may choose to exchange all of its <u><link=\"standard_melee_attacks\">Standard Melee Attacks</link></u> for a single Standard Melee Attack, which has its Str set to 10, its AP set to 10, and gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds(D3)</link></u>. This cannot be done as a Restricted Attack."
+    "Description": "<u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>. When the <u><link=\"model\">model</link></u> part allocates <u><link=\"attacks\">Attacks</link></u>, it may choose to exchange all of its <u><link=\"standard_melee_attacks\">Standard Melee Attacks</link></u> for a single Standard Melee Attack, which has its Str set to 10, its AP set to 10, and gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds(D3)</link></u>. This cannot be done as a Restricted Attack."
   },
   {
     "Id": "id-unbranded",
@@ -2340,12 +2190,6 @@
     "Description": "Friendly units  with Vassal within 12\" of one or more models with <u><link=\"vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
   },
   {
-    "Id": "unmodifiable",
-    "Name": "Unmodifiable",
-    "Type": "General",
-    "Description": "<u><link=\"attack_attributes\">Attack Attributes</link></u> with this special rule are never affected by other rules that affect the <u><link=\"model\">model</link></u> part with the Attack Attribute unless explicitly stated otherwise."
-  },
-  {
     "Id": "standard_melee_attacks",
     "Name": "Standard Melee Attacks",
     "Type": "General",
@@ -2451,7 +2295,7 @@
     "Id": "rulebook-throwing_weapons",
     "Name": "Throwing Weapons",
     "Type": "Equipment",
-    "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>"
+    "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>"
   },
   {
     "Id": "koe-the_quest",
@@ -2961,7 +2805,7 @@
     "Id": "sa-closely_guarded",
     "Name": "Closely Guarded",
     "Type": "Global",
-    "Description": "The model gains Attached, Exclusive(Caiman Elders, Tegu Guards, Tegu Warriors), Stand Behind, Strider, WarPlatform. "
+    "Description": "The model gains Attached, Exclusive(Caiman Elders, Tegu Guards, Tegu Warriors), Stand Behind, Strider, War Platform. "
   },
   {
     "Id": "sa-guardian_patu",
@@ -3105,7 +2949,7 @@
     "Id": "se-dances_of_cenyrn",
     "Name": "Dances of Cenyrn",
     "Type": "Equipment",
-    "Description": "When Choose Equipment and Abilities, a unit entirely with Dances of Cenyrn must choose one of the following Dances and gain its effects, with Duration: Round of Combat.\n• Dance of Bedevilments: <u><link=\"rulebook-afflict\">Afflict (−1 Dis)</link></u>, and enemy units in contact cannot claim Combat Score bonus\nfrom their Proper Ranks.\n• Dance of Biting Wind: +1 AP and <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>\n• Dance of the Parting Mists: −1 Str, −1 AP, and <u><link=\"aegis\">Aegis (3+)</link></u>\n• Dance of Whirling Blades: +1 Att\n\nThe unit cannot choose a specific Dance again until after one or both of the following has happened:\n• The unit is not Engaged in Combat.\n• The unit has chosen a different Dance."
+    "Description": "When Choose Equipment and Abilities, a unit entirely with Dances of Cenyrn must choose one of the following Dances and gain its effects, with Duration: Round of Combat.\n• Dance of Bedevilments: <u><link=\"rulebook-afflict\">Afflict (−1 Dis)</link></u>, and enemy units in contact cannot claim Combat Score bonus\nfrom their Proper Ranks.\n• Dance of Biting Wind: +1 AP and <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>\n• Dance of the Parting Mists: −1 Str, −1 AP, and <u><link=\"rulebook-aegis\">Aegis (3+)</link></u>\n• Dance of Whirling Blades: +1 Att\n\nThe unit cannot choose a specific Dance again until after one or both of the following has happened:\n• The unit is not Engaged in Combat.\n• The unit has chosen a different Dance."
   },
   {
     "Id": "se-poisoned_thorn",
@@ -3855,13 +3699,13 @@
     "Id": "de-altar_of_nabh",
     "Name": "Altar of Nabh",
     "Type": "General",
-    "Description": "The model gains Attached, Exclusive(Height 1), Frenzy, Fury, , WarPlatform, Unruly.\nModel parts with Elf in friendly units within 12\"  of the model gain Fury."
+    "Description": "The model gains Attached, Exclusive(Height 1), Frenzy, Fury, , War Platform, Unruly.\nModel parts with Elf in friendly units within 12\"  of the model gain Fury."
   },
   {
     "Id": "de-altar_of_yema",
     "Name": "Altar of Yema",
     "Type": "General",
-    "Description": "The model gains  Attached, , Exclusive(Height 1), , Petrifying Stare, , WarPlatform.  Whenever a friendly unit within 12\" is initiating a Move (see Definition and Terminology chapter in the Reference Handbook), the unit gains +1 Mob and Devastating Charge(Strider) for the duration of the Player Turn."
+    "Description": "The model gains  Attached, , Exclusive(Height 1), , Petrifying Stare, , War Platform.  Whenever a friendly unit within 12\" is initiating a Move (see Definition and Terminology chapter in the Reference Handbook), the unit gains +1 Mob and Devastating Charge(Strider) for the duration of the Player Turn."
   },
   {
     "Id": "de-warlock_acolytes",
@@ -4443,73 +4287,67 @@
     "Id": "dl-favoured_of_pride",
     "Name": "Favoured of Pride",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with an Omen of Savar as the General.\nThe unit  may select up to two Manifestations, instead of one."
+    "Description": "Legendary.\nCan only be taken in an army with an Omen of Savar as the General.\nThe unit may select up to two Manifestations instead of one."
   },
   {
     "Id": "dl-favoured_of_gluttony",
     "Name": "Favoured of Gluttony",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with a Maw of Akaan as the General.\nThe unit gains Solitary and may select up to two Manifestations, instead of one."
+    "Description": "Legendary.\nCan only be taken in an army with a Maw of Akaan as the General.\nThe unit gains <u><link=\"rulebook-solitary\">Solitary</link></u> and may select up to two Manifestations instead of one."
   },
   {
     "Id": "dl-favoured_of_wrath",
     "Name": "Favoured of Wrath",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with a Vanadra's Scourge as the General.\nThe unit gains Solitary and may select up to two Manifestations, instead of one."
+    "Description": "Legendary.\nCan only be taken in an army with a Vanadra’s Scourge as the General.\nThe unit gains <u><link=\"rulebook-solitary\">Solitary</link></u> and may select up to two Manifestations instead of one."
   },
   {
     "Id": "dl-favoured_of_greed",
     "Name": "Favoured of Greed",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with a Miser of Sugulag as the General.\nThe unit gains Solitary and may select up to two Manifestations, instead of one."
+    "Description": "Legendary.\nCan only be taken in an army with a Miser of Sugulag as the General.\nThe unit gains <u><link=\"rulebook-solitary\">Solitary</link></u> and may select up to two Manifestations instead of one"
   },
   {
     "Id": "dl-engine_of_damnation",
     "Name": "Engine of Damnation",
     "Type": "General",
-    "Description": "Extraordinary. The model's base size is changed to 150×100 mm, its Height is changed to 5, and it loses WarPlatform, Attached. Its HP are set to 9 and its Cha is set to 5. The model gains Terror, Stomp Attack(D6), Solitary."
+    "Description": "Extraordinary.\nThe model’s base size is changed to 150×100 mm, its Height is changed to 5, its Health Points are set to 9, its Charge Speed is set to 5.\nIn addition, it loses <u><link=\"attached\">Attached</link></u> and <u><link=\"rulebook-war_platform\">War Platform</link></u>, and it gains <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stomp_attack\">Stomp Attack (D6 hits)</link></u>, and <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "dl-favoured_of_sloth",
     "Name": "Favoured of Sloth",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with a Sentinel of Nukuja as the General.\nThe unit may select up to two Manifestations, instead of one."
+    "Description": "Legendary.\nCan only be taken in an army with a Sentinel of Nukuja as the General.\nThe unit may select up to two Manifestations instead of one."
   },
   {
     "Id": "dl-firestarter",
     "Name": "Firestarter(X)",
     "Type": "General",
-    "Description": "The  unit can cast the spell stated in brackets as a Bound Spell (4+). When casting the spell choose one Rank-and-File model to be the Caster."
+    "Description": "The  unit can cast the spell stated in brackets as a Bound Spell (4+).\nWhen casting the spell choose one Rank-and-File model to be the Caster."
   },
   {
     "Id": "dl-wings",
     "Name": "Wings",
     "Type": "General",
-    "Description": "The model’s Cha and Mob are both set to 7\", and it gains Fly."
+    "Description": "The model’s Charge Speed and Mobility are both set to 7\", and it gains <u><link=\"rulebook-fly\">Fly</link></u>"
   },
   {
     "Id": "dl-favoured_of_envy",
     "Name": "Favoured of Envy",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with a Kuulima's Deceiver as the General.\nThe unit gains Solitary and may select up to two Manifestations, instead of one."
+    "Description": "Legendary.\nCan only be taken in an army with a Kuulima’s Deceiver as the General.\nThe unit gains <u><link=\"rulebook-solitary\">Solitary</link></u> and may select up to two Manifestations instead of one."
   },
   {
     "Id": "dl-strixian_spirit",
     "Name": "Strixian Spirit",
     "Type": "General",
-    "Description": "The model's Height is changed to 5, its HP are set to 7, and its Cha and Mob are both set to 7\". It gains Fly, Light Troops, Terror, Stomp Attack(D6), Solitary."
+    "Description": "The model’s Height is changed to 5.\nIn addition, its HP are set to 7, its Charge Speed and Mobility are both set to 7\", and it gains <u><link=\"rulebook-fly\">Fly</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stomp_attack\">Stomp Attack (D6 hits)</link></u>, and <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "dl-favoured_of_lust",
     "Name": "Favoured of Lust",
     "Type": "General",
-    "Description": "Legendary.\nCan only be taken in an army with a Courtesan of Cibaresh as the General.\nThe unit gains Solitary and may select up to two Manifestations, instead of one."
-  },
-  {
-    "Id": "dl-span_classtextbfpath_of_destructionspan",
-    "Name": "Path of Destruction",
-    "Type": "General",
-    "Description": "This model part can allocate its Stomp Attack onto Health Pools of Height 4 or less (rather than 0-1). If the model part’s Stomp Attack is allocated onto a Health Pool with Height (3–4), the total number of hits is halved, rounding fractions up."
+    "Description": "Legendary.\nCan only be taken in an army with a Courtesan of Cibaresh as the General.\nThe unit gains <u><link=\"rulebook-solitary\">Solitary</link></u> and may select up to two Manifestations instead of one."
   },
   {
     "Id": "dl-rising_star",
@@ -4551,7 +4389,7 @@
     "Id": "dl-hell_can_wait",
     "Name": "Hell Can Wait",
     "Type": "General",
-    "Description": "One use only. Duration: Until the end of the Phase.\nMay be activated just before the model's unit rolls a Break Test. The Break Test is automatically failed, and the HP loss suffered from Supernal is halved, rounding fractions down."
+    "Description": "One use only. Duration: One Phase.\nMay be activated just before the model’s unit rolls a Break Test.\nThe Break Test is automatically failed, and the HP loss suffered from <u><link=\"rulebook-supernal\">Supernal</link></u> is halved, rounding fractions down."
   },
   {
     "Id": "dl-chitinous_scales",
@@ -4569,31 +4407,31 @@
     "Id": "dl-unnatural_roots",
     "Name": "Unnatural Roots",
     "Type": "General",
-    "Description": "A unit containing one or more Manifestations of Unnatural Roots gains Resolute(1)."
+    "Description": "A unit containing one or more Manifestations of Unnatural Roots gains <u><link=\"rulebook-resolute\">Resolute(1)</link></u>."
   },
   {
     "Id": "dl-mark_of_the_eternal_champion",
     "Name": "Mark of the Eternal Champion",
     "Type": "General",
-    "Description": "The unit or model knows (or gains) Spear of Infinity (Hereditary Spell) as an additional spell. In addition, if the unit or model is not a Wizard, it gains Wizard Conclave(1) ."
+    "Description": "The unit or model knows (or gains) Spear of Infinity (Hereditary Spell) as an additional spell.\nIf the unit or model is not a Wizard, it instead gains <u><link=\"rulebook-wizard_conclave\">Wizard Conclave(1)</link></u> that knows Spear of Infinity (Hereditary Spell)."
   },
   {
     "Id": "dl-clinging_ichor",
     "Name": "Clinging Ichor",
     "Type": "General",
-    "Description": "Enemy units in base contact with the bearer lose Devastating Charge(if they had it)."
+    "Description": "Enemy units in base contact with the bearer lose <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>."
   },
   {
     "Id": "dl-mirrored_scales",
     "Name": "Mirrored Scales",
     "Type": "General",
-    "Description": "Each Melee Attack allocated towards the model for which a natural ‘1’ to hit is rolled, hits the attacking model's Health Pool instead."
+    "Description": "Each Melee Attack allocated against the model that rolls a ‘1’ to hit, is instead allocated to the attacking model’s Health Pool with <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>."
   },
   {
     "Id": "dl-dark_hide",
     "Name": "Dark Hide",
     "Type": "General",
-    "Description": "At the start of step 3.5 of Battle Setup, Move Vanguard Units, you may remove units entirely with this Manifestation from the Battlefield and deploy them again elsewhere, following their normal deployment restrictions."
+    "Description": "At the start of step 3.5 of Battle Setup, \"Defender’s Advantage\", you may remove units entirely with this Manifestation from the Battlefield and Deploy them again elsewhere, following the general Deployment restrictions."
   },
   {
     "Id": "dl-hammer_hand",
@@ -4605,43 +4443,43 @@
     "Id": "dl-brimstone_secretions",
     "Name": "Brimstone Secretions",
     "Type": "General",
-    "Description": "Immune(Divine Attacks)."
+    "Description": "<u><link=\"rulebook-immune\">immune</link></u>(<u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>)."
   },
   {
     "Id": "dl-trampling_hooves",
     "Name": "Trampling Hooves",
     "Type": "General",
-    "Description": "Model parts without Mount or Construct gain Grind Attack(D3, Str 5 AP 2, Magical Attacks, Unmodifiable)."
+    "Description": "Model parts without Mount or Construct gain <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(D3, Str 5 AP 2, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>)."
   },
   {
     "Id": "dl-hellish_larynx",
     "Name": "Hellish Larynx",
     "Type": "General",
-    "Description": "The model part gains Breath Attack(Str 3, AP 2, Magical Attacks, Stand and Shoot)."
+    "Description": "The model part gains <u><link=\"rulebook-breath_attack\">Breath Attack</link></u>(Str 3, AP 2, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>)."
   },
   {
     "Id": "dl-kaleidoscopic_flesh",
     "Name": "Kaleidoscopic Flesh",
     "Type": "General",
-    "Description": "Hard Target(1)."
+    "Description": "<u><link=\"rulebook-hard_target\">Hard Target(1)</link></u>."
   },
   {
     "Id": "dl-horrifying_visage",
     "Name": "Horrifying Visage",
     "Type": "General",
-    "Description": "One use only. Duration: Until the end of the Phase.\nMay be activated at the start of a friendly Charge Phase. When activated, the model gains Horror and its Charge Range rolls gain Maximised."
+    "Description": "One use only. Duration: One Phase. May be activated at the start of a friendly Charge Phase. When activated, the model gains <u><link=\"rulebook-horror\">Horror</link></u>, and its Charge Range rolls gain Maximised."
   },
   {
     "Id": "dl-venom_sacs",
     "Name": "Venom Sacs",
     "Type": "General",
-    "Description": "Poison Attacks (Melee & Shooting)."
+    "Description": "<u><link=\"rulebook-poison_attacks\">Poison Attacks (Melee & Shooting)</link></u>."
   },
   {
     "Id": "dl-charged_tendrils",
     "Name": "Charged Tendrils",
     "Type": "General",
-    "Description": "Lightning Attacks."
+    "Description": "<u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u>."
   },
   {
     "Id": "dl-piercing_spike",
@@ -4653,25 +4491,25 @@
     "Id": "dl-unhinging_jaw",
     "Name": "Unhinging Jaw",
     "Type": "General",
-    "Description": "Zeal(towards Height 3--5)."
+    "Description": "<u><link=\"rulebook-zeal\">Zeal(towards Height 3-5)</link></u>."
   },
   {
     "Id": "dl-digestive_vomit",
     "Name": "Digestive Vomit",
     "Type": "General",
-    "Description": "Duration: Permanent. If the model has previously been on the winning side of a Combat while having this Manifestation, it gains +1 Str and +1 AP."
+    "Description": "If a model with <u><link=\"dl-digestive_vomit\">Digestive Vomit</link></u> is on on the winning side of a Combat, it gains +1 Str and +1 AP.\nDuration: Permanent."
   },
   {
     "Id": "dl-unholy_appetite",
     "Name": "Unholy Appetite",
     "Type": "General",
-    "Description": "After a Round of Combat in which at least one Attack with this Manifestation caused an unsaved wound, all Attacks from models in the unit entirely with this Manifestation gain Hatred until the end of the next Player Turn."
+    "Description": "After a Round of Combat in which at least one attack with <u><link=\"dl-unholy_appetite\">Unholy Appetite</link></u> caused any HP loss, all attacks with <u><link=\"dl-unholy_appetite\">Unholy Appetite</link></u> gain <u><link=\"rulebook-hatred\">Hatred</link></u> until the end of the next Player Turn."
   },
   {
     "Id": "dl-smothering_coils",
     "Name": "Smothering Coils",
     "Type": "General",
-    "Description": "Zeal(towards Scoring)."
+    "Description": "<u><link=\"rulebook-zeal\">Zeal(towards Scoring)</link></u>."
   },
   {
     "Id": "dl-segmented_shell",
@@ -4683,13 +4521,13 @@
     "Id": "dl-hot_blood",
     "Name": "Hot Blood",
     "Type": "General",
-    "Description": "Devastating Charge(+2 Agi)."
+    "Description": "<u><link=\"rulebook-devastating_charge\">Devastating Charge(+2 Agi)</link></u>."
   },
   {
     "Id": "dl-mesmerising_plumage",
     "Name": "Mesmerising Plumage",
     "Type": "General",
-    "Description": "Afflict(1 Def, 1 Off)."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict(-1 Def, -1 Off)</link></u>."
   },
   {
     "Id": "dl-hidden_knives",
@@ -4701,7 +4539,7 @@
     "Id": "dl-horns_of_hubris",
     "Name": "Horns of Hubris",
     "Type": "General",
-    "Description": "Vanguard(3\")."
+    "Description": "<u><link=\"rulebook-vanguard\">Vanguard(3\")</link></u>."
   },
   {
     "Id": "dl-golden_helm",
@@ -4713,31 +4551,31 @@
     "Id": "dl-bronze_backbone",
     "Name": "Bronze Backbone",
     "Type": "General",
-    "Description": "First Strike(Hatred)."
+    "Description": "<u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>)."
   },
   {
     "Id": "dl-allseeing_eye",
     "Name": "All-Seeing Eye",
     "Type": "General",
-    "Description": "Accurate."
+    "Description": "<u><link=\"rulebook-accurate\">Accurate</link></u>."
   },
   {
     "Id": "dl-torporous_tendrils",
     "Name": "Torporous Tendrils",
     "Type": "General",
-    "Description": "Afflict(-2 Agi)."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict(-2 Agi)</link></u>."
   },
   {
     "Id": "dl-sorcerous_antennae",
     "Name": "Sorcerous Antennae",
     "Type": "General",
-    "Description": "During Siphon the Veil step of your Magic Phase, add one additional Magic Dice to your pool for each unit containing this Manifestation."
+    "Description": "During the \"Siphon the Veil\" step of your Magic Phase, gain one Magic Dice for each unit containing this Manifestation."
   },
   {
     "Id": "dl-incendiary_ichor",
     "Name": "Incendiary Ichor",
     "Type": "General",
-    "Description": "Aegis(3+, against Flaming Attacks) and Flaming Attacks(Melee & Shooting). The model automatically fails all Regeneration Saves."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>) and <u><link=\"rulebook-flaming_attacks\">Flaming Attacks (Melee & Shooting)</link></u>.\nThe model automatically fails all Regeneration Saves."
   },
   {
     "Id": "dl-whipcrack_tail",
@@ -4749,13 +4587,13 @@
     "Id": "dl-curved_tusks",
     "Name": "Curved Tusks",
     "Type": "General",
-    "Description": "The model parts Melee Attacks gain +1 Str and +1 AP. For each Melee Attack for which a natural ‘1’ is rolled to wound, this model suffers a hit that wounds automatically, with AP 10."
+    "Description": "The model part’s Melee Attacks gain +1 Str and +1 AP. For each Melee Attack where a ‘1’ is rolled to wound, the model with <u><link=\"dl-curved_tusks\">Curved Tusks</link></u> suffers a hit that wounds automatically, with AP 10"
   },
   {
     "Id": "dl-immortal_denizens",
     "Name": "Immortal Denizens",
     "Type": "General",
-    "Description": "Casting Rolls made by a model with Daemon in this army using two or three Magic Dice gain a +1 modifier. In games involving a Daemon Legions Army, add one additional Magic Dice to the Active Player's pool during Siphon the Veil in their Magic Phase (i.e. both players gain one additional Magic Dice in their Player Turn)."
+    "Description": "Casting Rolls made by a model with Daemon in this army using two or three Magic Dice gain a +1 modifier.\nIn games involving one or more Daemon Legions Army´s, the Active Player gains one additional Magic Dice, during the “Siphon the Veil” step in their Magic Phase (i.e. both players gain one additional Magic Dice in their Player Turn)."
   },
   {
     "Id": "dl-greater_dominion",
@@ -4773,7 +4611,7 @@
     "Id": "dl-segmented_shell_aura",
     "Name": "Segmented Shell",
     "Type": "General",
-    "Description": "/subsection{segmented_shell}"
+    "Description": "Attacks with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (X)</link></u> against the model reduce their \"X\" by 1, to a minimum of 1."
   },
   {
     "Id": "dl-abyssal_armour_aura",
@@ -5907,7 +5745,7 @@
     "Id": "sa-great_protector",
     "Name": "Great Protector",
     "Type": "General",
-    "Description": "The model gains Exclusive(Tegu Warriors), WarPlatform and it loses Stubborn. In addition, all Rank-and-File models in the model's unit gain Parry."
+    "Description": "The model gains Exclusive(Tegu Warriors), War Platform and it loses Stubborn. In addition, all Rank-and-File models in the model's unit gain Parry."
   },
   {
     "Id": "sa-venomous_fortress",
@@ -6016,12 +5854,6 @@
     "Name": "<span class=\"textbf\">Walking Mountain</span>",
     "Type": "General",
     "Description": "Enemy units do not gain any Combat Score bonus for Fighting in Flanks or Rear of this model, and the model can never be Surrounded. The model cannot benefit from Cover."
-  },
-  {
-    "Id": "sa-span_classtextbfpath_of_destructionspan",
-    "Name": "<span class=\"textbf\">Path of Destruction</span>",
-    "Type": "General",
-    "Description": "This model part can allocate Stomp Attack onto models of Height 4 or less (rather than 1 or less). If the model part's Stomp Attack is allocated onto a unit entirely with Height (3--4), the total number of hits is halved, rounding fractions up."
   },
   {
     "Id": "sa-monolith_of_vitalism",
@@ -6141,7 +5973,7 @@
     "Id": "se-clearing_spirits",
     "Name": "Clearing Spirits",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"hard_target\">Hard Target(1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"skirmisher\">Skirmisher</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target(1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "se-heath_hunters",
@@ -6171,7 +6003,7 @@
     "Id": "se-pathfinder",
     "Name": "Pathfinder",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"scout\">Scout</link></u>, <u><link=\"stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
+    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"scout\">Scout</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
   },
   {
     "Id": "se-forest_guardian",
@@ -6183,7 +6015,7 @@
     "Id": "se-blade_dancer",
     "Name": "Blade Dancer",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, <u><link=\"rulebook-devastating_charge\">Devastating Charge (Fly)</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, <u><link=\"rulebook-devastating_charge\">Devastating Charge (Fly)</link></u>."
   },
   {
     "Id": "se-scarred_bark",
@@ -6237,7 +6069,7 @@
     "Id": "se-spirit_arrows",
     "Name": "Spirit Arrows",
     "Type": "Description",
-    "Description": "When attacking with this weapon, before rolling to hit; choose one model with <u><link=\"channel\">Channel</link></u> in the target unit. The chosen model replaces its <u><link=\"channel\">Channel(X)</link></u> with <u><link=\"channel\">Channel(X-1)</link></u>, with Duration: One Turn."
+    "Description": "When attacking with this weapon, before rolling to hit; choose one model with <u><link=\"rulebook-channel\">Channel</link></u> in the target unit. The chosen model replaces its <u><link=\"rulebook-channel\">Channel(X)</link></u> with <u><link=\"rulebook-channel\">Channel(X-1)</link></u>, with Duration: One Turn."
   },
   {
     "Id": "se-bough_of_wyscan",
@@ -6267,7 +6099,7 @@
     "Id": "se-shielding_bark",
     "Name": "Shielding Bark",
     "Type": "Equipment",
-    "Description": "+1 HP, <u><link=\"aegis\">Aegis(5+)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"se-tree_singing\">Tree Singing</link></u>, <u><link=\"weakness\">Weakness(Flaming Attacks)</link></u>.\nThe Armour value is set to 4 and can never be improved beyond this."
+    "Description": "+1 HP, <u><link=\"rulebook-aegis\">Aegis(5+)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"se-tree_singing\">Tree Singing</link></u>, <u><link=\"weakness\">Weakness(Flaming Attacks)</link></u>.\nThe Armour value is set to 4 and can never be improved beyond this."
   },
   {
     "Id": "se-banner_of_deception",
@@ -10377,7 +10209,7 @@
     "Id": "rulebook-attachable_models",
     "Name": "Attachable Models",
     "Type": "General",
-    "Description": "Attachable models are models that have the flexibility to  join other units, as well as operate by themselves. The most common type of Attachable Models are Characters. All Characters are Attachable Models unless mentioned otherwise. In addition to Characters, a few models may be defined as being an Attachable Model, such as models with the Model Rule WarPlatform.\n\n/section{lone_attachable_models}/section{combined_units}"
+    "Description": "Attachable models are models that have the flexibility to  join other units, as well as operate by themselves. The most common type of Attachable Models are Characters. All Characters are Attachable Models unless mentioned otherwise. In addition to Characters, a few models may be defined as being an Attachable Model, such as models with the Model Rule War Platform.\n\n/section{lone_attachable_models}/section{combined_units}"
   },
   {
     "Id": "rulebook-lone_attachable_models",
