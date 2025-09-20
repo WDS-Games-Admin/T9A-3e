@@ -9,7 +9,7 @@
     "Id": "rulebook-strider",
     "Name": "Strider",
     "Type": "Global",
-    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"strider\">Strider</link></u> may (must if <u><link=\"shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
+    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-strider\">Strider</link></u> may (must if <u><link=\"rulebook-shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"rulebook-strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"rulebook-strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"rulebook-strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
   },
   {
     "Id": "rulebook-disciplined",
@@ -33,7 +33,7 @@
     "Id": "rulebook-exclusive",
     "Name": "Exclusive",
     "Type": "Global",
-    "Description": "This rule limits which Units an Attachable <u><link=\"model\">Model</link></u> is allowed to join.\n\n-   <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"exclusive\">Exclusive(X)</link></u> can only join Units containing X.\n-   Non-<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"exclusive\">Exclusive(X)</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with X.\n- \n-   If a unit has multiple instances of <u><link=\"exclusive\">Exclusive</link></u>, all criteria must be fullfilled.\nEx: a Goblin Chieftain with <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"exclusive\">Exclusive</link></u> (Orc) would not be able to join any units.\nIf it instead had <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Orc) it would only be able to join goblins.\nThe specific criteria for X can include but is not limited to\n: Unit names, <u><link=\"model\">Model</link></u> Rules, or upgrades.\nIf a <u><link=\"model\">model</link></u> has both <u><link=\"exclusive\">Exclusive</link></u> and <u><link=\"attached\">Attached</link></u>, apply all requirements from both rules. (Remember that a <u><link=\"model\">model</link></u> that cannot be Deployed is considered a casualty.)"
+    "Description": "This rule limits which Units an Attachable <u><link=\"model\">Model</link></u> is allowed to join.\n\n-   <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-exclusive\">Exclusive(X)</link></u> can only join Units containing X.\n-   Non-<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-exclusive\">Exclusive(X)</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with X.\n- \n-   If a unit has multiple instances of <u><link=\"rulebook-exclusive\">Exclusive</link></u>, all criteria must be fullfilled.\nEx: a Goblin Chieftain with <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Orc) would not be able to join any units.\nIf it instead had <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Goblin, Orc) it would only be able to join goblins.\nThe specific criteria for X can include but is not limited to\n: Unit names, <u><link=\"model\">Model</link></u> Rules, or upgrades.\nIf a <u><link=\"model\">model</link></u> has both <u><link=\"rulebook-exclusive\">Exclusive</link></u> and <u><link=\"rulebook-attached\">Attached</link></u>, apply all requirements from both rules. (Remember that a <u><link=\"model\">model</link></u> that cannot be Deployed is considered a casualty.)"
   },
   {
     "Id": "rulebook-hand_weapon",
@@ -99,7 +99,7 @@
     "Id": "rulebook-fearless",
     "Name": "Fearless",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"rulebook-fearless\">Fearless</link></u> automatically passes <u><link=\"panic_tests\">Panic Tests</link></u>, cannot choose Flee! as a Charge Reaction unless it is already <u><link=\"shaken\">Shaken</link></u>, or the entire unit has <u><link=\"feigned_flight\">Feigned Flight</link></u>, and ignores the effects of <u><link=\"rulebook-horror\">Horror</link></u>."
+    "Description": "A unit containing <u><link=\"rulebook-fearless\">Fearless</link></u> automatically passes <u><link=\"panic_tests\">Panic Tests</link></u>, cannot choose Flee! as a Charge Reaction unless it is already <u><link=\"rulebook-shaken\">Shaken</link></u>, or the entire unit has <u><link=\"feigned_flight\">Feigned Flight</link></u>, and ignores the effects of <u><link=\"rulebook-horror\">Horror</link></u>."
   },
   {
     "Id": "rulebook-frenzy",
@@ -141,7 +141,7 @@
     "Id": "rulebook-skirmisher",
     "Name": "Skirmisher",
     "Type": "Global",
-    "Description": "Units containing <u><link=\"skirmisher\">Skirmisher</link></u> adopt a unique formation, called a skirmish formation . Instead of being in contact with each other, these <u><link=\"model\">models</link></u> are placed 12.5mm apart (roughly half an inch, see the figure below). These gaps between the <u><link=\"model\">models</link></u> are considered part of the unit for <u><link=\"cover\">Cover</link></u> and <u><link=\"line_of_sight\">Line of Sight</link></u> purposes, and  have the same Height as the unit. Other than this gap between <u><link=\"model\">models</link></u>, units with <u><link=\"skirmisher\">Skirmisher</link></u> follow the normal rules for forming units and therefore have a Front, two Flanks, and a Rear Facing, can perform Supporting <u><link=\"attacks\">Attacks</link></u>, and so on.\nUnits in Skirmish formation can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> that have the same Height as the unit. Unless an Attachable <u><link=\"model\">Model</link></u> has the exact same base size as all Rank-and-File <u><link=\"model\">models</link></u> in the unit, it is considered Mismatched for the purpose of placement within the unit.\nThe unit ceases to be in Skirmish formation when all <u><link=\"model\">models</link></u> with <u><link=\"skirmisher\">Skirmisher</link></u> have been <u><link=\"removed\">removed</link></u>. When this happens, contract their skirmish formation into a normal formation when returning the unit into a legal formation, without moving the centre of the first rank. Nudge any unit as normal to maintain contact if <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nSee figure figure/skirmisher for an illustration of this rule.\nSkirmish formation.An example of a unit in Skirmish formation with a joined Mismatching Character. All <u><link=\"model\">models</link></u> are 12.5 mm away from each other.\\\nThe same unit <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>. Only darkened <u><link=\"model\">models</link></u> may attack. <u><link=\"model\">Models</link></u> with a dashed frame can attack a Character (either C1 or C2). <u><link=\"model\">Models</link></u> with a lighter shade cannot attack at all."
+    "Description": "Units containing <u><link=\"rulebook-skirmisher\">Skirmisher</link></u> adopt a unique formation, called a skirmish formation . Instead of being in contact with each other, these <u><link=\"model\">models</link></u> are placed 12.5mm apart (roughly half an inch, see the figure below). These gaps between the <u><link=\"model\">models</link></u> are considered part of the unit for <u><link=\"cover\">Cover</link></u> and <u><link=\"line_of_sight\">Line of Sight</link></u> purposes, and  have the same Height as the unit. Other than this gap between <u><link=\"model\">models</link></u>, units with <u><link=\"rulebook-skirmisher\">Skirmisher</link></u> follow the normal rules for forming units and therefore have a Front, two Flanks, and a Rear Facing, can perform Supporting <u><link=\"attacks\">Attacks</link></u>, and so on.\nUnits in Skirmish formation can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> that have the same Height as the unit. Unless an Attachable <u><link=\"model\">Model</link></u> has the exact same base size as all Rank-and-File <u><link=\"model\">models</link></u> in the unit, it is considered Mismatched for the purpose of placement within the unit.\nThe unit ceases to be in Skirmish formation when all <u><link=\"model\">models</link></u> with <u><link=\"rulebook-skirmisher\">Skirmisher</link></u> have been <u><link=\"removed\">removed</link></u>. When this happens, contract their skirmish formation into a normal formation when returning the unit into a legal formation, without moving the centre of the first rank. Nudge any unit as normal to maintain contact if <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nSee figure figure/skirmisher for an illustration of this rule.\nSkirmish formation.An example of a unit in Skirmish formation with a joined Mismatching Character. All <u><link=\"model\">models</link></u> are 12.5 mm away from each other.\\\nThe same unit <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>. Only darkened <u><link=\"model\">models</link></u> may attack. <u><link=\"model\">Models</link></u> with a dashed frame can attack a Character (either C1 or C2). <u><link=\"model\">Models</link></u> with a lighter shade cannot attack at all."
   },
   {
     "Id": "rulebook-hard_target",
@@ -171,13 +171,13 @@
     "Id": "rulebook-insignificant",
     "Name": "Insignificant",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"insignificant\">Insignificant</link></u> do not cause <u><link=\"panic_tests\">Panic Tests</link></u> on units not containing <u><link=\"insignificant\">Insignificant</link></u> when making <u><link=\"flee_move\">Flee Moves</link></u> through them."
+    "Description": "Units entirely with <u><link=\"rulebook-insignificant\">Insignificant</link></u> do not cause <u><link=\"panic_tests\">Panic Tests</link></u> on units not containing <u><link=\"rulebook-insignificant\">Insignificant</link></u> when making <u><link=\"flee_move\">Flee Moves</link></u> through them."
   },
   {
     "Id": "rulebook-ambush",
     "Name": "Ambush",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"rulebook-ambush\">Ambush</link></u> may choose to not be Deployed normally, but placed in <u><link=\"rulebook-ambush\">Ambush</link></u> by simply not placing it on the Battlefield during Deployment. A unit placed in <u><link=\"rulebook-ambush\">Ambush</link></u> will arrive at the Battlefield later during the game. From your Player Turn 2 and onwards, roll a D6 for each unit placed in <u><link=\"rulebook-ambush\">Ambush</link></u> at the start of the <u><link=\"movement_phase\">Movement Phase</link></u>. All units that rolled 3+ will arrive at the Battlefield if possible. During your Player Turn 5 and 6, this roll is always considered to have rolled a 3+.\nWhen a unit arrives at the Battlefield, choose a point as specified by (X). If no suitable point is available where the unit can be placed on the Battlefield, the unit cannot arrive at the Battlefield this turn.\nDeploy each unit arriving at the Battlefield with at least three of its four corners within 6\" from the chosen point in any legal formation following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. There must be no other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u> directly between any point on the unit’s Boundary and the chosen point. See the figure below for examples.\n<u><link=\"rulebook-ambush\">Ambush</link></u>ing units count as having performed an <u><link=\"advance_move\">Advance Move</link></u> when they arrive, and cannot perform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> in the same Phase.\nIf an <u><link=\"rulebook-ambush\">Ambush</link></u>ing unit does not arrive at the Battlefield by the end of the game, it is considered <u><link=\"removed\">removed</link></u> as a casualty.\nAn Attachable <u><link=\"model\">Model</link></u> placed in <u><link=\"rulebook-ambush\">Ambush</link></u> can be Deployed joined to a unit placed in <u><link=\"rulebook-ambush\">Ambush</link></u> with the same (X), following the usual restrictions. In each of its Turns, before rolling to see if it arrives, it may choose a unit to be joined to. Make a single <u><link=\"dice\">dice</link></u> roll for the Combined Unit. Note: <u><link=\"attached\">Attached</link></u> has no effect on this, and it may change unit each turn.\nA unit arriving at the Battlefield in Game Turn 6 loses Scoring.\nDeploying <u><link=\"rulebook-ambush\">Ambush</link></u>ing units.In these examples, the unit has <u><link=\"rulebook-ambush\">Ambush(Table Edge)</link></u>. The unit with the yellow check mark is placed in a legal position, while the two units with red crosses are not. The left one because there is an <u><link=\"impassable_terrain\">Impassable Terrain</link></u> Feature between its unit Boundary and the chosen point, and the right one because parts of the unit are more than 6\" away from the chosen point."
+    "Description": "Units entirely with <u><link=\"rulebook-ambush\">Ambush</link></u> may choose to not be Deployed normally, but placed in <u><link=\"rulebook-ambush\">Ambush</link></u> by simply not placing it on the Battlefield during Deployment. A unit placed in <u><link=\"rulebook-ambush\">Ambush</link></u> will arrive at the Battlefield later during the game. From your Player Turn 2 and onwards, roll a D6 for each unit placed in <u><link=\"rulebook-ambush\">Ambush</link></u> at the start of the <u><link=\"movement_phase\">Movement Phase</link></u>. All units that rolled 3+ will arrive at the Battlefield if possible. During your Player Turn 5 and 6, this roll is always considered to have rolled a 3+.\nWhen a unit arrives at the Battlefield, choose a point as specified by (X). If no suitable point is available where the unit can be placed on the Battlefield, the unit cannot arrive at the Battlefield this turn.\nDeploy each unit arriving at the Battlefield with at least three of its four corners within 6\" from the chosen point in any legal formation following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. There must be no other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u> directly between any point on the unit’s Boundary and the chosen point. See the figure below for examples.\n<u><link=\"rulebook-ambush\">Ambush</link></u>ing units count as having performed an <u><link=\"advance_move\">Advance Move</link></u> when they arrive, and cannot perform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> in the same Phase.\nIf an <u><link=\"rulebook-ambush\">Ambush</link></u>ing unit does not arrive at the Battlefield by the end of the game, it is considered <u><link=\"removed\">removed</link></u> as a casualty.\nAn Attachable <u><link=\"model\">Model</link></u> placed in <u><link=\"rulebook-ambush\">Ambush</link></u> can be Deployed joined to a unit placed in <u><link=\"rulebook-ambush\">Ambush</link></u> with the same (X), following the usual restrictions. In each of its Turns, before rolling to see if it arrives, it may choose a unit to be joined to. Make a single <u><link=\"dice\">dice</link></u> roll for the Combined Unit. Note: <u><link=\"rulebook-attached\">Attached</link></u> has no effect on this, and it may change unit each turn.\nA unit arriving at the Battlefield in Game Turn 6 loses Scoring.\nDeploying <u><link=\"rulebook-ambush\">Ambush</link></u>ing units.In these examples, the unit has <u><link=\"rulebook-ambush\">Ambush(Table Edge)</link></u>. The unit with the yellow check mark is placed in a legal position, while the two units with red crosses are not. The left one because there is an <u><link=\"impassable_terrain\">Impassable Terrain</link></u> Feature between its unit Boundary and the chosen point, and the right one because parts of the unit are more than 6\" away from the chosen point."
   },
   {
     "Id": "rulebook-vanguard",
@@ -189,7 +189,7 @@
     "Id": "rulebook-bodyguard",
     "Name": "Bodyguard",
     "Type": "Global",
-    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
+    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
   },
   {
     "Id": "rulebook-halberd",
@@ -219,13 +219,13 @@
     "Id": "rulebook-stubborn",
     "Name": "Stubborn",
     "Type": "Global",
-    "Description": "When a unit containing <u><link=\"stubborn\">Stubborn</link></u> loses a Round of Combat, the modifier to the Discipline from the Combat Score difference is halved, rounding fractions up (i.e. towards a larger modifier). Note that if the unit is also Steady, the modifier is first set to no smaller than 2 following the Steady rules, and then halved, rounding up, to 1.\nIf the unit is <u><link=\"unstable\">Unstable</link></u>, the Health Point losses due to <u><link=\"unstable\">Unstable</link></u> are halved, rounding fractions up (i.e. towards more Health Point losses)."
+    "Description": "When a unit containing <u><link=\"rulebook-stubborn\">Stubborn</link></u> loses a Round of Combat, the modifier to the Discipline from the Combat Score difference is halved, rounding fractions up (i.e. towards a larger modifier). Note that if the unit is also Steady, the modifier is first set to no smaller than 2 following the Steady rules, and then halved, rounding up, to 1.\nIf the unit is <u><link=\"rulebook-unstable\">Unstable</link></u>, the Health Point losses due to <u><link=\"rulebook-unstable\">Unstable</link></u> are halved, rounding fractions up (i.e. towards more Health Point losses)."
   },
   {
     "Id": "rulebook-unstable",
     "Name": "Unstable",
     "Type": "Global",
-    "Description": "When a unit entirely with <u><link=\"unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"unstable\">Unstable</link></u> can only join units containing <u><link=\"unstable\">Unstable</link></u>, and units containing <u><link=\"unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"unstable\">Unstable</link></u>."
+    "Description": "When a unit entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u> can only join units containing <u><link=\"rulebook-unstable\">Unstable</link></u>, and units containing <u><link=\"rulebook-unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "bh-sleeper",
@@ -315,7 +315,7 @@
     "Id": "bh-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"bh-drunkard\">Drunkard</link></u> and <u><link=\"strider\">Strider(Forest)</link></u>. At the end of a friendly Movement Phase, if the model is in contact with a Forest, it may lose all its current weapons and gain <u><link=\"bh-uprooted_tree\">Uprooted Tree</link></u>."
+    "Description": "The model gains <u><link=\"bh-drunkard\">Drunkard</link></u> and <u><link=\"rulebook-strider\">Strider(Forest)</link></u>. At the end of a friendly Movement Phase, if the model is in contact with a Forest, it may lose all its current weapons and gain <u><link=\"bh-uprooted_tree\">Uprooted Tree</link></u>."
   },
   {
     "Id": "rulebook-rage",
@@ -336,16 +336,10 @@
     "Description": "<u><link=\"model\">Model</link></u> Rule"
   },
   {
-    "Id": "strider",
-    "Name": "Strider",
-    "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"strider\">Strider</link></u> may (must if <u><link=\"shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
-  },
-  {
-    "Id": "shaken",
+    "Id": "rulebook-shaken",
     "Name": "Shaken",
     "Type": "General",
-    "Description": "When a unit fails a Panic Test or a Break Test or chooses Charge Reaction Flee!, it becomes <u><link=\"shaken\">Shaken</link></u>.\nA <u><link=\"shaken\">Shaken</link></u> unit is unable to perform voluntary actions. This includes <u><link=\"declaring_charges\">declaring Charges</link></u>, moving in any way other than a <u><link=\"flee_move\">Flee Move</link></u>, Shoot, Generate Magic <u><link=\"dice\">Dice</link></u>, cast <u><link=\"spells\">spells</link></u>, or activate Magic Items that require voluntary activation. However, there is an exception: the unit may still choose to Flee! or Hold! As a Charge Reaction.\nRemember that if unit is <u><link=\"shaken\">Shaken</link></u>, it temporarily stops being Scoring. This lasts until it is no longer <u><link=\"shaken\">Shaken</link></u>.\n<u><link=\"shaken\">Shaken</link></u> units that are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> are <u><link=\"removed\">removed</link></u> as <u><link=\"casualties\">casualties</link></u> at step 2.1 of the Round of Combat sequence.\nIn order to remember which units are <u><link=\"shaken\">Shaken</link></u>, we recommend that <u><link=\"shaken\">Shaken</link></u> units are clearly marked. This can either be done with specific markers or tokens to indicate a unit is <u><link=\"shaken\">Shaken</link></u>, or if you do not have such markers, a commonly used method for marking <u><link=\"shaken\">Shaken</link></u> units is to put one <u><link=\"model\">model</link></u> from the Front Rank of the <u><link=\"shaken\">Shaken</link></u> unit, and lie face down next to the unit."
+    "Description": "When a unit fails a Panic Test, a Break Test, or chooses the Flee! Charge Reaction, it becomes <u><link=\"rulebook-shaken\">Shaken</link></u>.\nA <u><link=\"rulebook-shaken\">Shaken</link></u> unit is unable to perform voluntary actions. This includes declaring Charges, moving in any way other than a Flee Move, shooting, generating Magic Dice, casting spells, or activating Magic Items that require a voluntary activation.\nThere is one exception: the unit may still choose to Flee! or Hold! as a Charge Reaction.\nRemember that if unit is <u><link=\"rulebook-shaken\">Shaken</link></u>, it temporarily stops being Scoring. This lasts until it is no longer <u><link=\"rulebook-shaken\">Shaken</link></u>"
   },
   {
     "Id": "terrain",
@@ -381,13 +375,13 @@
     "Id": "dangerous_terrain",
     "Name": "Dangerous Terrain",
     "Type": "General",
-    "Description": "A unit must take a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test at the end of the move, if it has been in contact with <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> during one the following moves: <u><link=\"march_move\">March Move</link></u>, <u><link=\"charge_move\">Charge Move</link></u>, <u><link=\"failed_charge_move\">Failed Charge Move</link></u>, <u><link=\"flee_move\">Flee Move</link></u>, or Pursue Move.\n<u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests are performed by rolling a number of D6. For each roll of ‘X+’, the unit suffers a hit that wounds automatically with AP 10.\nThe number of <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests a unit must roll is equal to half the number of <u><link=\"model\">models</link></u> in the unit, rounding fractions up, and multiplied by the <u><link=\"model\">models</link></u>’ Height. If ‘Y’ is written, only <u><link=\"model\">models</link></u> fulfilling these criteria take a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test. For example, a unit of 19 Height 1 Clan Warriors would roll 10 <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, while a unit of a single Height 5 Dragon would roll 5 <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests. (For units with <u><link=\"attached\">Attached</link></u> <u><link=\"model\">models</link></u> see the Reference Handbook.)\nIf one of the above-mentioned moves was performed by a unit, and it has been in contact with several <u><link=\"terrain\">Terrain</link></u> Features that are <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u>, all <u><link=\"health_pools\">Health Pools</link></u> in it must make a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, for each <u><link=\"terrain\">Terrain</link></u> Feature with <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> it has been in contact with, one at a time, removing any <u><link=\"casualties\">casualties</link></u> caused by the first tests before calculating the number of <u><link=\"dice\">dice</link></u> that must be rolled for the next test. If a type of <u><link=\"model\">model</link></u> is indicated in the brackets (X), any <u><link=\"model\">model</link></u> not fulfilling this criteria is considered Height 0 for <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test purposes.\n\nIf a unit has multiple <u><link=\"health_pools\">Health Pools</link></u>, treat each of these separately for <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u>. This means that:\n\n-   Only <u><link=\"health_pools\">Health Pools</link></u> that have been in contact with the <u><link=\"terrain\">Terrain</link></u> Feature need to roll <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests.\n-   Calculate the number of <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests to roll for each Health Pool that has been in contact with the <u><link=\"terrain\">Terrain</link></u> Feature, and roll the tests separately. Damage from these tests is allocated towards the Health Pool that the tests were rolled for.\nFor example, a unit of 10 Height 1 Rank-and-File <u><link=\"model\">models</link></u> is joined by two <u><link=\"characters\">Characters</link></u> of Height 2. If the unit moves through <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> in such way that one of the <u><link=\"characters\">Characters</link></u> never touches the <u><link=\"terrain\">Terrain</link></u> Features, <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests are rolled in the following way: 5 tests for the Rank-and-File Health Pool, 2 tests for the Character that touched the <u><link=\"terrain\">Terrain</link></u> Feature, and no tests for the other Character."
+    "Description": "A unit must take a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test at the end of the move, if it has been in contact with <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> during one the following moves: <u><link=\"march_move\">March Move</link></u>, <u><link=\"charge_move\">Charge Move</link></u>, <u><link=\"failed_charge_move\">Failed Charge Move</link></u>, <u><link=\"flee_move\">Flee Move</link></u>, or Pursue Move.\n<u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests are performed by rolling a number of D6. For each roll of ‘X+’, the unit suffers a hit that wounds automatically with AP 10.\nThe number of <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests a unit must roll is equal to half the number of <u><link=\"model\">models</link></u> in the unit, rounding fractions up, and multiplied by the <u><link=\"model\">models</link></u>’ Height. If ‘Y’ is written, only <u><link=\"model\">models</link></u> fulfilling these criteria take a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test. For example, a unit of 19 Height 1 Clan Warriors would roll 10 <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, while a unit of a single Height 5 Dragon would roll 5 <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests. (For units with <u><link=\"rulebook-attached\">Attached</link></u> <u><link=\"model\">models</link></u> see the Reference Handbook.)\nIf one of the above-mentioned moves was performed by a unit, and it has been in contact with several <u><link=\"terrain\">Terrain</link></u> Features that are <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u>, all <u><link=\"health_pools\">Health Pools</link></u> in it must make a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, for each <u><link=\"terrain\">Terrain</link></u> Feature with <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> it has been in contact with, one at a time, removing any <u><link=\"casualties\">casualties</link></u> caused by the first tests before calculating the number of <u><link=\"dice\">dice</link></u> that must be rolled for the next test. If a type of <u><link=\"model\">model</link></u> is indicated in the brackets (X), any <u><link=\"model\">model</link></u> not fulfilling this criteria is considered Height 0 for <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test purposes.\n\nIf a unit has multiple <u><link=\"health_pools\">Health Pools</link></u>, treat each of these separately for <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u>. This means that:\n\n-   Only <u><link=\"health_pools\">Health Pools</link></u> that have been in contact with the <u><link=\"terrain\">Terrain</link></u> Feature need to roll <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests.\n-   Calculate the number of <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests to roll for each Health Pool that has been in contact with the <u><link=\"terrain\">Terrain</link></u> Feature, and roll the tests separately. Damage from these tests is allocated towards the Health Pool that the tests were rolled for.\nFor example, a unit of 10 Height 1 Rank-and-File <u><link=\"model\">models</link></u> is joined by two <u><link=\"characters\">Characters</link></u> of Height 2. If the unit moves through <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> in such way that one of the <u><link=\"characters\">Characters</link></u> never touches the <u><link=\"terrain\">Terrain</link></u> Features, <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests are rolled in the following way: 5 tests for the Rank-and-File Health Pool, 2 tests for the Character that touched the <u><link=\"terrain\">Terrain</link></u> Feature, and no tests for the other Character."
   },
   {
     "Id": "flee_move",
     "Name": "Flee Move",
     "Type": "General",
-    "Description": "A <u><link=\"flee_move\">Flee Move</link></u> is a specific type of move performed in certain situations. The most common instances are failing a <u><link=\"rally_test\">Rally Test</link></u>, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a <u><link=\"flee_move\">Flee Move</link></u>, follow these steps:\n1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each <u><link=\"flee_move\">Flee Move</link></u> starts by <u><link=\"pivot\">Pivot</link></u>ing the unit to face a certain direction.\n-   Failed <u><link=\"rally_test\">Rally Test</link></u>: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the closest non-<u><link=\"shaken\">Shaken</link></u> enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n-   Charge Reaction Flee! and failed <u><link=\"rulebook-terror\">Terror</link></u> Tests: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the Charging enemy.\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n-   Failed Break Test: <u><link=\"pivot\">Pivot</link></u> the <u><link=\"shaken\">Shaken</link></u> unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n3 -  Move the <u><link=\"shaken\">Shaken</link></u> unit straight forward by the distance rolled.\n4 -  A <u><link=\"flee_move\">Flee Move</link></u>, including the initial <u><link=\"pivot\">Pivot</link></u>, ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, and can move through any obstructions. However, the move cannot end overlapping other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, which means it can be placed within 1\" of other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n-   If the obstruction  encountered at any point of the move was an enemy unit or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, treat these as <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n5 -  If the <u><link=\"flee_move\">Flee Move</link></u> takes the unit into contact with the <u><link=\"table_edge\">Table Edge</link></u>, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is <u><link=\"removed\">removed</link></u> as a casualty.\n"
+    "Description": "A <u><link=\"flee_move\">Flee Move</link></u> is a specific type of move performed in certain situations. The most common instances are failing a <u><link=\"rally_test\">Rally Test</link></u>, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a <u><link=\"flee_move\">Flee Move</link></u>, follow these steps:\n1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each <u><link=\"flee_move\">Flee Move</link></u> starts by <u><link=\"pivot\">Pivot</link></u>ing the unit to face a certain direction.\n-   Failed <u><link=\"rally_test\">Rally Test</link></u>: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the closest non-<u><link=\"rulebook-shaken\">Shaken</link></u> enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n-   Charge Reaction Flee! and failed <u><link=\"rulebook-terror\">Terror</link></u> Tests: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the Charging enemy.\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n-   Failed Break Test: <u><link=\"pivot\">Pivot</link></u> the <u><link=\"rulebook-shaken\">Shaken</link></u> unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n3 -  Move the <u><link=\"rulebook-shaken\">Shaken</link></u> unit straight forward by the distance rolled.\n4 -  A <u><link=\"flee_move\">Flee Move</link></u>, including the initial <u><link=\"pivot\">Pivot</link></u>, ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, and can move through any obstructions. However, the move cannot end overlapping other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, which means it can be placed within 1\" of other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n-   If the obstruction  encountered at any point of the move was an enemy unit or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, treat these as <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n5 -  If the <u><link=\"flee_move\">Flee Move</link></u> takes the unit into contact with the <u><link=\"table_edge\">Table Edge</link></u>, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is <u><link=\"removed\">removed</link></u> as a casualty.\n"
   },
   {
     "Id": "disruptive",
@@ -448,18 +442,6 @@
     "Name": "Charge Range",
     "Type": "General",
     "Description": "Roll D6+4 and add the unit's Charge Speed (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   If the <u><link=\"charge_range\">Charge Range</link></u> is equal to or greater than the distance between the Charging unit and its intended target (in inches), there is enough space to complete the <u><link=\"charge_move\">Charge Move</link></u> including the Align Move, the Charge is successful and the Charging unit performs a <u><link=\"charge_move\">Charge Move</link></u>.\n-   Otherwise, the Charge has failed and the Charging Unit performs a <u><link=\"failed_charge_move\">Failed Charge Move</link></u>.\nFront or Flank?a) The Charging unit B is Located in enemy A's Front Arc (since this is where the centre of its Front Facing is).\\\nb) The Charging unit must contact the charged unit's Front Facing.\nSome players prefer to know their odds when <u><link=\"declaring_charges\">declaring charges</link></u>.\\\nBelow are the probabilities for the most common charges.\nNeeded score to & 5\" & 6\" & 7\" & 8\" & 9\" & 10\"\nD6+4 & 100% & 83% & 67% & 50% & 33% & 17%\nMaximised*D6+4 & 100% & 97% & 89% & 75% & 56% & 31%\n*Maximised rolls are explained in the Definitions and Terminiology chapter."
-  },
-  {
-    "Id": "exclusive",
-    "Name": "Exclusive",
-    "Type": "General",
-    "Description": "This rule limits which Units an Attachable <u><link=\"model\">Model</link></u> is allowed to join.\n\n-   <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"exclusive\">Exclusive(X)</link></u> can only join Units containing X.\n-   Non-<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"exclusive\">Exclusive(X)</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with X.\n- \n-   If a unit has multiple instances of <u><link=\"exclusive\">Exclusive</link></u>, all criteria must be fullfilled.\nEx: a Goblin Chieftain with <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"exclusive\">Exclusive</link></u> (Orc) would not be able to join any units.\nIf it instead had <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Troll) and <u><link=\"exclusive\">Exclusive</link></u> (Goblin, Orc) it would only be able to join goblins.\nThe specific criteria for X can include but is not limited to\n: Unit names, <u><link=\"model\">Model</link></u> Rules, or upgrades.\nIf a <u><link=\"model\">model</link></u> has both <u><link=\"exclusive\">Exclusive</link></u> and <u><link=\"attached\">Attached</link></u>, apply all requirements from both rules. (Remember that a <u><link=\"model\">model</link></u> that cannot be Deployed is considered a casualty.)"
-  },
-  {
-    "Id": "attached",
-    "Name": "Attached",
-    "Type": "General",
-    "Description": "This <u><link=\"model\">model</link></u> must be Deployed inside a unit with at least one Rank-and-File <u><link=\"model\">model</link></u>, and it cannot voluntarily leave its unit."
   },
   {
     "Id": "hand_weapon",
@@ -537,19 +519,13 @@
     "Id": "panic_tests",
     "Name": "Panic Tests",
     "Type": "General",
-    "Description": "A Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly <u><link=\"shaken\">Shaken</link></u> unit performs a <u><link=\"flee_move\">Flee Move</link></u> through the unit.\n-   A <u><link=\"flee_move\">Flee Move</link></u> that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a <u><link=\"model\">model</link></u> containing <u><link=\"rulebook-terror\">Terror)</link></u>, and voluntary Breaking from Combat with a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u>. Note that a <u><link=\"flee_move\">Flee Move</link></u> due to a failed <u><link=\"rally_test\">Rally Test</link></u> is not considered a voluntary <u><link=\"flee_move\">Flee Move</link></u>, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the <u><link=\"flee_move\">Flee Move</link></u>.\n-   The unit suffered enough Health Point losses in a single phase from Ranged <u><link=\"attacks\">Attacks</link></u> originating from enemy <u><link=\"model\">models</link></u>, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible <u><link=\"casualties\">casualties</link></u> have been <u><link=\"removed\">removed</link></u>. Ignore Health Point losses suffered while <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\n-   An enemy unit entirely with <u><link=\"rulebook-terror\">Terror</link></u> declares a Charge against the unit in the <u><link=\"charge_phase\">Charge Phase</link></u>.\nUnits do not take <u><link=\"panic_tests\">Panic Tests</link></u> if\n-   they are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, or\n-   they are already <u><link=\"shaken\">Shaken</link></u>, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes <u><link=\"shaken\">Shaken</link></u>.\nNote that this normally does not mean the unit performs a <u><link=\"flee_move\">Flee Move</link></u>."
+    "Description": "A Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly <u><link=\"rulebook-shaken\">Shaken</link></u> unit performs a <u><link=\"flee_move\">Flee Move</link></u> through the unit.\n-   A <u><link=\"flee_move\">Flee Move</link></u> that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a <u><link=\"model\">model</link></u> containing <u><link=\"rulebook-terror\">Terror)</link></u>, and voluntary Breaking from Combat with a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u>. Note that a <u><link=\"flee_move\">Flee Move</link></u> due to a failed <u><link=\"rally_test\">Rally Test</link></u> is not considered a voluntary <u><link=\"flee_move\">Flee Move</link></u>, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the <u><link=\"flee_move\">Flee Move</link></u>.\n-   The unit suffered enough Health Point losses in a single phase from Ranged <u><link=\"attacks\">Attacks</link></u> originating from enemy <u><link=\"model\">models</link></u>, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible <u><link=\"casualties\">casualties</link></u> have been <u><link=\"removed\">removed</link></u>. Ignore Health Point losses suffered while <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\n-   An enemy unit entirely with <u><link=\"rulebook-terror\">Terror</link></u> declares a Charge against the unit in the <u><link=\"charge_phase\">Charge Phase</link></u>.\nUnits do not take <u><link=\"panic_tests\">Panic Tests</link></u> if\n-   they are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, or\n-   they are already <u><link=\"rulebook-shaken\">Shaken</link></u>, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes <u><link=\"rulebook-shaken\">Shaken</link></u>.\nNote that this normally does not mean the unit performs a <u><link=\"flee_move\">Flee Move</link></u>."
   },
   {
     "Id": "feigned_flight",
     "Name": "Feigned Flight",
     "Type": "General",
-    "Description": "At the end of a Round of Combat, if a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> is still Engaged with an enemy unit, before rolling any Break Tests, any unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> may choose to voluntarily break from the Combat. If so, the unit is considered to have failed a Break Test. If the unit was on the winning side of the Combat, the enemy cannot Pursue.\nIn addition, any <u><link=\"rally_test\">Rally Tests</link></u> taken by units entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> after voluntarily becoming <u><link=\"shaken\">Shaken</link></u>, are automatically passed. This cannot be used if the unit has performed another <u><link=\"flee_move\">Flee move</link></u> before rolling the <u><link=\"rally_test\">Rally Test</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"feigned_flight\">Feigned Flight</link></u> are not prevented from choosing Charge Reaction Flee! due to <u><link=\"rulebook-fearless\">Fearless</link></u>.\nRemember that a voluntary <u><link=\"flee_move\">Flee Move</link></u> does not cause a Panic Test in friendly units that the Fleeing unit moves through."
-  },
-  {
-    "Id": "skirmisher",
-    "Name": "Skirmisher",
-    "Type": "General",
-    "Description": "Units containing <u><link=\"skirmisher\">Skirmisher</link></u> adopt a unique formation, called a skirmish formation . Instead of being in contact with each other, these <u><link=\"model\">models</link></u> are placed 12.5mm apart (roughly half an inch, see the figure below). These gaps between the <u><link=\"model\">models</link></u> are considered part of the unit for <u><link=\"cover\">Cover</link></u> and <u><link=\"line_of_sight\">Line of Sight</link></u> purposes, and  have the same Height as the unit. Other than this gap between <u><link=\"model\">models</link></u>, units with <u><link=\"skirmisher\">Skirmisher</link></u> follow the normal rules for forming units and therefore have a Front, two Flanks, and a Rear Facing, can perform Supporting <u><link=\"attacks\">Attacks</link></u>, and so on.\nUnits in Skirmish formation can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> that have the same Height as the unit. Unless an Attachable <u><link=\"model\">Model</link></u> has the exact same base size as all Rank-and-File <u><link=\"model\">models</link></u> in the unit, it is considered Mismatched for the purpose of placement within the unit.\nThe unit ceases to be in Skirmish formation when all <u><link=\"model\">models</link></u> with <u><link=\"skirmisher\">Skirmisher</link></u> have been <u><link=\"removed\">removed</link></u>. When this happens, contract their skirmish formation into a normal formation when returning the unit into a legal formation, without moving the centre of the first rank. Nudge any unit as normal to maintain contact if <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nSee figure figure/skirmisher for an illustration of this rule.\nSkirmish formation.An example of a unit in Skirmish formation with a joined Mismatching Character. All <u><link=\"model\">models</link></u> are 12.5 mm away from each other.\\\nThe same unit <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>. Only darkened <u><link=\"model\">models</link></u> may attack. <u><link=\"model\">Models</link></u> with a dashed frame can attack a Character (either C1 or C2). <u><link=\"model\">Models</link></u> with a lighter shade cannot attack at all."
+    "Description": "At the end of a Round of Combat, if a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> is still Engaged with an enemy unit, before rolling any Break Tests, any unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> may choose to voluntarily break from the Combat. If so, the unit is considered to have failed a Break Test. If the unit was on the winning side of the Combat, the enemy cannot Pursue.\nIn addition, any <u><link=\"rally_test\">Rally Tests</link></u> taken by units entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> after voluntarily becoming <u><link=\"rulebook-shaken\">Shaken</link></u>, are automatically passed. This cannot be used if the unit has performed another <u><link=\"flee_move\">Flee move</link></u> before rolling the <u><link=\"rally_test\">Rally Test</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"feigned_flight\">Feigned Flight</link></u> are not prevented from choosing Charge Reaction Flee! due to <u><link=\"rulebook-fearless\">Fearless</link></u>.\nRemember that a voluntary <u><link=\"flee_move\">Flee Move</link></u> does not cause a Panic Test in friendly units that the Fleeing unit moves through."
   },
   {
     "Id": "removed",
@@ -588,12 +564,6 @@
     "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"parry\">Parry</link></u>"
   },
   {
-    "Id": "insignificant",
-    "Name": "Insignificant",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"insignificant\">Insignificant</link></u> do not cause <u><link=\"panic_tests\">Panic Tests</link></u> on units not containing <u><link=\"insignificant\">Insignificant</link></u> when making <u><link=\"flee_move\">Flee Moves</link></u> through them."
-  },
-  {
     "Id": "movement_phase",
     "Name": "Movement Phase",
     "Type": "General",
@@ -627,13 +597,7 @@
     "Id": "bodyguard",
     "Name": "Bodyguard",
     "Type": "General",
-    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
-  },
-  {
-    "Id": "stubborn",
-    "Name": "Stubborn",
-    "Type": "General",
-    "Description": "When a unit containing <u><link=\"stubborn\">Stubborn</link></u> loses a Round of Combat, the modifier to the Discipline from the Combat Score difference is halved, rounding fractions up (i.e. towards a larger modifier). Note that if the unit is also Steady, the modifier is first set to no smaller than 2 following the Steady rules, and then halved, rounding up, to 1.\nIf the unit is <u><link=\"unstable\">Unstable</link></u>, the Health Point losses due to <u><link=\"unstable\">Unstable</link></u> are halved, rounding fractions up (i.e. towards more Health Point losses)."
+    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
   },
   {
     "Id": "light_lance",
@@ -670,12 +634,6 @@
     "Name": "Magical Move",
     "Type": "General",
     "Description": "Some <u><link=\"spells\">spells</link></u> or abilities allow a unit to perform a <u><link=\"magical_move\">Magical Move</link></u>. This move is performed as if it were the <u><link=\"movement_phase\">Movement Phase</link></u>, following the same rules and restrictions. The unit can perform a Move Manoeuvre. <u><link=\"characters\">Characters</link></u> can join or leave units. Actions that are restricted during the <u><link=\"movement_phase\">Movement Phase</link></u>, such as units performing <u><link=\"flee_move\">Flee Moves</link></u>, or units <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, cannot be performed.\nThe distance that the <u><link=\"magical_move\">Magical Move</link></u> can be performed is specified in the spell or ability. The target’s Mobility is set to always equal to the distance of the <u><link=\"magical_move\">magical move</link></u>, for the duration of the move. For example, an effect could be: The target may perform a 6\" <u><link=\"magical_move\">Magical Move</link></u>. This means the target has a Mobility of 6\", and can perform its normal movement actions using this Mobility.\nA unit can only perform a single <u><link=\"magical_move\">Magical Move</link></u> per Phase."
-  },
-  {
-    "Id": "unstable",
-    "Name": "Unstable",
-    "Type": "General",
-    "Description": "When a unit entirely with <u><link=\"unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"unstable\">Unstable</link></u> can only join units containing <u><link=\"unstable\">Unstable</link></u>, and units containing <u><link=\"unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"unstable\">Unstable</link></u>."
   },
   {
     "Id": "saves",
@@ -789,7 +747,7 @@
     "Id": "rulebook-channel",
     "Name": "Channel",
     "Type": "Global",
-    "Description": "During <u><link=\"siphon_the_veil\">Siphon the Veil</link></u>, each of the Active Player’s <u><link=\"model\">models</link></u> with <u><link=\"rulebook-channel\">Channel</link></u> may gain ‘X’ Magic <u><link=\"dice\">Dice</link></u>.\nNote, <u><link=\"shaken\">Shaken</link></u> <u><link=\"model\">models</link></u> may not use <u><link=\"rulebook-channel\">Channel</link></u>."
+    "Description": "During <u><link=\"siphon_the_veil\">Siphon the Veil</link></u>, each of the Active Player’s <u><link=\"model\">models</link></u> with <u><link=\"rulebook-channel\">Channel</link></u> may gain ‘X’ Magic <u><link=\"dice\">Dice</link></u>.\nNote, <u><link=\"rulebook-shaken\">Shaken</link></u> <u><link=\"model\">models</link></u> may not use <u><link=\"rulebook-channel\">Channel</link></u>."
   },
   {
     "Id": "er-life_is_cheap",
@@ -927,13 +885,13 @@
     "Id": "rulebook-supernal",
     "Name": "Supernal",
     "Type": "Global",
-    "Description": "When a unit entirely with <u><link=\"rulebook-supernal\">Supernal</link></u> fails a Break Test, instead of being Broken and subsequently <u><link=\"shaken\">Shaken</link></u>, it suffers a number of Health Point losses equal to the amount by which the combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-supernal\">Supernal</link></u> can only join units containing <u><link=\"rulebook-supernal\">Supernal</link></u>, and units containing <u><link=\"rulebook-supernal\">Supernal</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-supernal\">Supernal</link></u>."
+    "Description": "When a unit entirely with <u><link=\"rulebook-supernal\">Supernal</link></u> fails a Break Test, instead of being Broken and subsequently <u><link=\"rulebook-shaken\">Shaken</link></u>, it suffers a number of Health Point losses equal to the amount by which the combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-supernal\">Supernal</link></u> can only join units containing <u><link=\"rulebook-supernal\">Supernal</link></u>, and units containing <u><link=\"rulebook-supernal\">Supernal</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-supernal\">Supernal</link></u>."
   },
   {
     "Id": "rulebook-feigned_flight",
     "Name": "Feigned Flight",
     "Type": "Global",
-    "Description": "At the end of a Round of Combat, if a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> is still Engaged with an enemy unit, before rolling any Break Tests, any unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> may choose to voluntarily break from the Combat. If so, the unit is considered to have failed a Break Test. If the unit was on the winning side of the Combat, the enemy cannot Pursue.\nIn addition, any <u><link=\"rally_test\">Rally Tests</link></u> taken by units entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> after voluntarily becoming <u><link=\"shaken\">Shaken</link></u>, are automatically passed. This cannot be used if the unit has performed another <u><link=\"flee_move\">Flee move</link></u> before rolling the <u><link=\"rally_test\">Rally Test</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"feigned_flight\">Feigned Flight</link></u> are not prevented from choosing Charge Reaction Flee! due to <u><link=\"rulebook-fearless\">Fearless</link></u>.\nRemember that a voluntary <u><link=\"flee_move\">Flee Move</link></u> does not cause a Panic Test in friendly units that the Fleeing unit moves through."
+    "Description": "At the end of a Round of Combat, if a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> is still Engaged with an enemy unit, before rolling any Break Tests, any unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> may choose to voluntarily break from the Combat. If so, the unit is considered to have failed a Break Test. If the unit was on the winning side of the Combat, the enemy cannot Pursue.\nIn addition, any <u><link=\"rally_test\">Rally Tests</link></u> taken by units entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> after voluntarily becoming <u><link=\"rulebook-shaken\">Shaken</link></u>, are automatically passed. This cannot be used if the unit has performed another <u><link=\"flee_move\">Flee move</link></u> before rolling the <u><link=\"rally_test\">Rally Test</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"feigned_flight\">Feigned Flight</link></u> are not prevented from choosing Charge Reaction Flee! due to <u><link=\"rulebook-fearless\">Fearless</link></u>.\nRemember that a voluntary <u><link=\"flee_move\">Flee Move</link></u> does not cause a Panic Test in friendly units that the Fleeing unit moves through."
   },
   {
     "Id": "rulebook-magical_attacks",
@@ -1113,7 +1071,7 @@
     "Id": "rally_test",
     "Name": "Rally Test",
     "Type": "General",
-    "Description": "During the <u><link=\"rally_phase\">Rally Phase</link></u>, the Active Player's <u><link=\"shaken\">Shaken</link></u> units must take a  <u><link=\"command_test\">Command Test</link></u>, called a <u><link=\"rally_test\">Rally Test</link></u>. Roll tests one by one in any order. Units <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> cannot take <u><link=\"rally_test\">Rally Tests</link></u>.\n-   If the <u><link=\"rally_test\">Rally Test</link></u> is passed, the unit stops being <u><link=\"shaken\">Shaken</link></u> and may immediately <u><link=\"pivot\">Pivot</link></u> (see <u><link=\"movement_phase\">Movement Phase</link></u> chapter).\n-   If the <u><link=\"rally_test\">Rally Test</link></u> is failed, the unit <u><link=\"pivot\">Pivots</link></u> to face directly away from the centre of the closest non-<u><link=\"shaken\">Shaken</link></u> enemy unit and then performs a <u><link=\"flee_move\">Flee Move</link></u> (see <u><link=\"psychology\">Psychology</link></u> chapter).\nRemember that <u><link=\"decimated\">Decimated</link></u> units that perform <u><link=\"flee_move\">Flee Moves</link></u> are <u><link=\"removed\">removed</link></u> as <u><link=\"casualties\">casualties</link></u>."
+    "Description": "During the <u><link=\"rally_phase\">Rally Phase</link></u>, the Active Player's <u><link=\"rulebook-shaken\">Shaken</link></u> units must take a  <u><link=\"command_test\">Command Test</link></u>, called a <u><link=\"rally_test\">Rally Test</link></u>. Roll tests one by one in any order. Units <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> cannot take <u><link=\"rally_test\">Rally Tests</link></u>.\n-   If the <u><link=\"rally_test\">Rally Test</link></u> is passed, the unit stops being <u><link=\"rulebook-shaken\">Shaken</link></u> and may immediately <u><link=\"pivot\">Pivot</link></u> (see <u><link=\"movement_phase\">Movement Phase</link></u> chapter).\n-   If the <u><link=\"rally_test\">Rally Test</link></u> is failed, the unit <u><link=\"pivot\">Pivots</link></u> to face directly away from the centre of the closest non-<u><link=\"rulebook-shaken\">Shaken</link></u> enemy unit and then performs a <u><link=\"flee_move\">Flee Move</link></u> (see <u><link=\"psychology\">Psychology</link></u> chapter).\nRemember that <u><link=\"decimated\">Decimated</link></u> units that perform <u><link=\"flee_move\">Flee Moves</link></u> are <u><link=\"removed\">removed</link></u> as <u><link=\"casualties\">casualties</link></u>."
   },
   {
     "Id": "towound_rolls",
@@ -1143,13 +1101,13 @@
     "Id": "de-scent_of_blood",
     "Name": "Scent of Blood",
     "Type": "Global",
-    "Description": "Charge Range rolls made by units entirely with <u><link=\"scent_of_blood\">Scent of Blood</link></u> gain Maximised if  the target of the Charge contains a Health Pool that has fewer Health Points than its starting value."
+    "Description": "Charge Range rolls made by units entirely with <u><link=\"de-scent_of_blood\">Scent of Blood</link></u> gain Maximised if  the target of the Charge contains a Health Pool that has fewer Health Points than its starting value."
   },
   {
     "Id": "de-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"scent_of_blood\">Scent of Blood</link></u> and treats all friendly models with Beast as Insignificant."
+    "Description": "The model gains <u><link=\"de-scent_of_blood\">Scent of Blood</link></u> and treats all friendly models with Beast as <u><link=\"rulebook-insignificant\">Insignificant</link></u>."
   },
   {
     "Id": "de-artistry_of_death",
@@ -1167,7 +1125,7 @@
     "Id": "rulebook-hidden",
     "Name": "Hidden",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
+    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
   },
   {
     "Id": "rulebook-zeal",
@@ -1179,19 +1137,19 @@
     "Id": "de-repeater_handbow",
     "Name": "Repeater Handbow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater HandbowX12\"231*Quick to Fire, Accurate, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
+    "Description": "Aim X+, Range 12\", Shots 2, Str 3, AP 1*, *Accurate, Quick to Fire, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "de-irresistible_will",
     "Name": "Irresistible Will",
     "Type": "Global",
-    "Description": "When casting a Learned spell , any Dispelling Roll made against the Casting Roll  suffers a -1 modifier."
+    "Description": "When casting a Learned spell, any Dispelling Roll made against the Casting Roll  suffers a -1 modifier."
   },
   {
     "Id": "de-daeb_warfare",
     "Name": "Daeb Warfare",
     "Type": "Global",
-    "Description": "When a unit containing <u><link=\"daeb_warfare\">Daeb Warfare</link></u> is part of a Combined Charge,  its Charge Range rolls gain Maximised. When multiple units containing <u><link=\"daeb_warfare\">Daeb Warfare</link></u> are Engaged in the same Combined Combat, each unit gains First Strike(Resolute(1))."
+    "Description": "When a unit containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> is part of a Combined Charge,  its Charge Range rolls gain Maximised. When multiple units containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> are Engaged in the same Combined Combat, each unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-resolute\">Resolute(1)</link></u>)."
   },
   {
     "Id": "rulebook-march_and_shoot",
@@ -1203,7 +1161,7 @@
     "Id": "de-repeater_crossbow",
     "Name": "Repeater Crossbow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater CrossbowX18\"231**Attacks made at  Long Range have their AP set to 0."
+    "Description": "Aim X+, Range 18\", Shots 2, Str 3, AP 1*, *Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "rulebook-afflict",
@@ -1215,13 +1173,13 @@
     "Id": "de-krakens_hide",
     "Name": "Kraken's Hide",
     "Type": "Defense",
-    "Description": "The wearer gains +1 Arm and Strider(Water Terrain)."
+    "Description": "The wearer gains +1 Arm and <u><link=\"rulebook-strider\">Strider(Water Terrain)</link></u>."
   },
   {
     "Id": "de-altar_of_tila",
     "Name": "Altar of Tila",
     "Type": "Global",
-    "Description": "The models Cha and Mob are always set to 0\". It gains Channel(2), Emplacement, Solitary, Fearless, Stubborn, Unstable.\nWhen another friendly unit within 18\"  of the model suffers one or more unsaved wounds from an enemy attack, the <u><link=\"altar_of_tila\">Altar of Tila</link></u> may choose to cause 3 hits with Str 4 and AP 2 onto the enemy unit which caused the wounds. This effect can only be used once per phase."
+    "Description": ": The model’s Charge Speed and Mobility are always 0\".\nIn addition, it gains <u><link=\"rulebook-channel\">Channel (2)</link></u>, <u><link=\"rulebook-emplacement\">Emplacement</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u>.\nWhen another friendly unit within 18\" of the model suffers one or more unsaved wounds from an enemy attack, the <u><link=\"de-altar_of_tila\">Altar of Tila</link></u> may cause 3 hits with Str 4, AP 2 and, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> towards the enemy unit that caused the wounds. This effect can only be used once per Phase."
   },
   {
     "Id": "rulebook-sweeping_attack",
@@ -1233,7 +1191,7 @@
     "Id": "de-petrifying_stare",
     "Name": "Petrifying Stare",
     "Type": "Equipment",
-    "Description": "At the model's Agility Step, each enemy unit in contact with the model suffers 2 hits that are set to-wound on 5+, and the hits always have AP 10 and Magical Attacks."
+    "Description": "At the model's Agility Step, each enemy unit in contact with the model suffers 2 hits that are set to-wound on 5+, and the hits always have AP 10 and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-elven_finesse",
@@ -1245,67 +1203,49 @@
     "Id": "de-temple_acolytes",
     "Name": "Temple Acolytes",
     "Type": "Global",
-    "Description": "The Dread Acolyte model part gains <u><link=\"artistry_of_death\">Artistry of Death</link></u>, Paired Weapons and Temple."
+    "Description": "The Dread Acolyte model part gains <u><link=\"de-artistry_of_death\">Artistry of Death</link></u>, Paired Weapons and Temple."
   },
   {
     "Id": "de-harpoon_launcher",
     "Name": "Harpoon Launcher",
     "Type": "Equipment",
-    "Description": "Units that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>318\"363Accurate, Quick to Fire, <u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\nUnits that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n"
+    "Description": "Aim 3+, Range 18\", Shots 3, Str 6, AP 3, Accurate, Quick to Fire\nUnits that suffer one or more hits from this weapon lose <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, until the start of the Active Player’s next Turn, and cannot gain it in any way"
   },
   {
     "Id": "rulebook-emplacement",
     "Name": "Emplacement",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"emplacement\">Emplacement</link></u> cannot Declare Charges, perform <u><link=\"march_move\">March Moves</link></u> or <u><link=\"pursue_moves\">Pursue Moves</link></u> (including Random Movement), or choose the Flee! Charge Reaction. If a unit entirely with <u><link=\"emplacement\">Emplacement</link></u> is about to perform a <u><link=\"flee_move\">Flee Move</link></u>, it is instead <u><link=\"removed\">removed</link></u> as a casualty. The <u><link=\"model\">model</link></u> cannot shoot in the same Player Turn that it performed a Move Manoeuvre.\nUnits entirely with <u><link=\"emplacement\">Emplacement</link></u> can draw <u><link=\"line_of_sight\">Line of Sight</link></u> in any direction from any points on their base (i.e. they are not limited by their Front Facing or Front Arc)."
+    "Description": "Units entirely with <u><link=\"rulebook-emplacement\">Emplacement</link></u> cannot Declare Charges, perform <u><link=\"march_move\">March Moves</link></u> or <u><link=\"pursue_moves\">Pursue Moves</link></u> (including Random Movement), or choose the Flee! Charge Reaction. If a unit entirely with <u><link=\"rulebook-emplacement\">Emplacement</link></u> is about to perform a <u><link=\"flee_move\">Flee Move</link></u>, it is instead <u><link=\"removed\">removed</link></u> as a casualty. The <u><link=\"model\">model</link></u> cannot shoot in the same Player Turn that it performed a Move Manoeuvre.\nUnits entirely with <u><link=\"rulebook-emplacement\">Emplacement</link></u> can draw <u><link=\"line_of_sight\">Line of Sight</link></u> in any direction from any points on their base (i.e. they are not limited by their Front Facing or Front Arc)."
   },
   {
     "Id": "de-daeb_bolt_thrower",
     "Name": "Daeb Bolt Thrower",
     "Type": "Equipment",
-    "Description": " - \nRange 24\", Shots 8, Str 5, AP 2.\nNote that the model can move and shoot.\n<u><link=\"daeb_bolt_thrower\">Daeb Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"daeb_bolt_thrower\">Daeb Bolt Thrower</link></u>324\"852 - \nRange 24\", Shots 8, Str 5, AP 2.\nNote that the model can move and shoot.\n"
+    "Description": "Aim 3+, Range 24\", Shots 8, Str 5, AP 2, Can shoot after Advance or Reform Move"
   },
   {
     "Id": "de-covert_operatives",
     "Name": "Covert Operatives",
     "Type": "Global",
-    "Description": "The unit gains Skirmisher, Hard Target(1)."
+    "Description": "The unit gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u> and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>"
   },
   {
     "Id": "de-coastal_predator",
     "Name": "Coastal Predator",
     "Type": "Defense",
-    "Description": "The model gains Hard Target(1) while in contact with a Water Terrain Feature."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u> while in contact with a Water Terrain Feature."
   },
   {
     "Id": "de-under_the_cover_of_mists",
     "Name": "Under the Cover of Mists",
     "Type": "Global",
-    "Description": "Enemy units within 8\" of one or more Mist Leviathans suffer -1 to hit with Shooting Attacks. During the first Game Turn, friendly Height 1 models gain Hard Target(1) while within 8\" of one or more Mist Leviathans."
-  },
-  {
-    "Id": "scent_of_blood",
-    "Name": "Scent of Blood",
-    "Type": "General",
-    "Description": "Charge Range rolls made by units entirely with <u><link=\"scent_of_blood\">Scent of Blood</link></u> gain Maximised if  the target of the Charge contains a Health Pool that has fewer Health Points than its starting value."
+    "Description": "Enemy units within 8\" of one or more Mist Leviathans suffer -1 to hit with Shooting Attacks.\nIn addition, during the first Game Turn, all models in friendly units containing Height 1 within 8\" of one or more Mist Leviathans gain <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>."
   },
   {
     "Id": "hidden",
     "Name": "Hidden",
     "Type": "General",
-    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
-  },
-  {
-    "Id": "daeb_warfare",
-    "Name": "Daeb Warfare",
-    "Type": "General",
-    "Description": "When a unit containing <u><link=\"daeb_warfare\">Daeb Warfare</link></u> is part of a Combined Charge,  its Charge Range rolls gain Maximised. When multiple units containing <u><link=\"daeb_warfare\">Daeb Warfare</link></u> are Engaged in the same Combined Combat, each unit gains First Strike(Resolute(1))."
-  },
-  {
-    "Id": "altar_of_tila",
-    "Name": "Altar of Tila",
-    "Type": "General",
-    "Description": "The models Cha and Mob are always set to 0\". It gains Channel(2), Emplacement, Solitary, Fearless, Stubborn, Unstable.\nWhen another friendly unit within 18\"  of the model suffers one or more unsaved wounds from an enemy attack, the <u><link=\"altar_of_tila\">Altar of Tila</link></u> may choose to cause 3 hits with Str 4 and AP 2 onto the enemy unit which caused the wounds. This effect can only be used once per phase."
+    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
   },
   {
     "Id": "sweeping_attack",
@@ -1318,30 +1258,6 @@
     "Name": "Great Weapon",
     "Type": "General",
     "Description": "+2 Str, +2 AP, always Agi*, Two-Handed\n*Always strike at Agility Step 0, regardless of the wielder’s Agility."
-  },
-  {
-    "Id": "artistry_of_death",
-    "Name": "Artistry of Death",
-    "Type": "General",
-    "Description": "Standard Melee Attacks gain +1 to wound. "
-  },
-  {
-    "Id": "harpoon_launcher",
-    "Name": "Harpoon Launcher",
-    "Type": "General",
-    "Description": "Units that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>318\"363Accurate, Quick to Fire, <u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\nUnits that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n"
-  },
-  {
-    "Id": "emplacement",
-    "Name": "Emplacement",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"emplacement\">Emplacement</link></u> cannot Declare Charges, perform <u><link=\"march_move\">March Moves</link></u> or <u><link=\"pursue_moves\">Pursue Moves</link></u> (including Random Movement), or choose the Flee! Charge Reaction. If a unit entirely with <u><link=\"emplacement\">Emplacement</link></u> is about to perform a <u><link=\"flee_move\">Flee Move</link></u>, it is instead <u><link=\"removed\">removed</link></u> as a casualty. The <u><link=\"model\">model</link></u> cannot shoot in the same Player Turn that it performed a Move Manoeuvre.\nUnits entirely with <u><link=\"emplacement\">Emplacement</link></u> can draw <u><link=\"line_of_sight\">Line of Sight</link></u> in any direction from any points on their base (i.e. they are not limited by their Front Facing or Front Arc)."
-  },
-  {
-    "Id": "daeb_bolt_thrower",
-    "Name": "Daeb Bolt Thrower",
-    "Type": "General",
-    "Description": " - \nRange 24\", Shots 8, Str 5, AP 2.\nNote that the model can move and shoot.\n<u><link=\"daeb_bolt_thrower\">Daeb Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"daeb_bolt_thrower\">Daeb Bolt Thrower</link></u>324\"852 - \nRange 24\", Shots 8, Str 5, AP 2.\nNote that the model can move and shoot.\n"
   },
   {
     "Id": "df-sea_serpents_hide",
@@ -1462,12 +1378,6 @@
     "Name": "Siren's Song",
     "Type": "Global",
     "Description": " - Universal Rule\nCombat Reform Tests and March Tests of enemy units within 8\" of one or more models with <u><link=\"sirens_song\">Siren's Song</link></u> suffer -2 Discipline.\nCombat Reform Tests and March Tests of enemy units within 8\" of one or more models with <u><link=\"sirens_song\">Siren's Song</link></u> suffer -2 Discipline."
-  },
-  {
-    "Id": "coastal_predator",
-    "Name": "Coastal Predator",
-    "Type": "General",
-    "Description": " - Universal Rule\nThe model gains Strider (Water Terrain). In addition, units gain Devastating Charge(+2\" Cha) and Hard Target (1) while both the following conditions are met:\n-   More than half of their models have <u><link=\"coastal_predator\">Coastal Predator</link></u>.\n-   More than half of their models have the centre of their base inside a Water Terrain Feature.\nCharacters without <u><link=\"coastal_predator\">Coastal Predator</link></u> that Charge out of a unit do not benefit from <u><link=\"coastal_predator\">Coastal Predator</link></u>.\nThe model gains Strider (Water Terrain). In addition, units gain Devastating Charge(+2\" Cha) and Hard Target (1) while both the following conditions are met:\n-   More than half of their models have <u><link=\"coastal_predator\">Coastal Predator</link></u>.\n-   More than half of their models have the centre of their base inside a Water Terrain Feature.\n\nCharacters without <u><link=\"coastal_predator\">Coastal Predator</link></u> that Charge out of a unit do not benefit from <u><link=\"coastal_predator\">Coastal Predator</link></u>."
   },
   {
     "Id": "terrors_of_the_deep",
@@ -2181,7 +2091,7 @@
     "Id": "properties",
     "Name": "Properties",
     "Type": "General",
-    "Description": "Behold, a rare and unique quality.\nUnits, <u><link=\"attacks\">attacks</link></u> and <u><link=\"spells\">spells</link></u> can have key words called <u><link=\"properties\">Properties</link></u> <u><link=\"attached\">attached</link></u> to them. <u><link=\"properties\">Properties</link></u> describe the unit’s origin, allegiance, elemental effects of its <u><link=\"attacks\">attacks</link></u>, or other defining attributes. <u><link=\"properties\">Properties</link></u> can always be identified by their names being displayed in grey and italics.\n<u><link=\"properties\">Properties</link></u> are rules that do not possess any innate or direct effects. Instead <u><link=\"properties\">properties</link></u> are only used as triggers for other rules. For example, a rule might restrict <u><link=\"characters\">characters</link></u> from joining a unit unless it possesses the right Clan Property."
+    "Description": "Behold, a rare and unique quality.\nUnits, <u><link=\"attacks\">attacks</link></u> and <u><link=\"spells\">spells</link></u> can have key words called <u><link=\"properties\">Properties</link></u> <u><link=\"rulebook-attached\">attached</link></u> to them. <u><link=\"properties\">Properties</link></u> describe the unit’s origin, allegiance, elemental effects of its <u><link=\"attacks\">attacks</link></u>, or other defining attributes. <u><link=\"properties\">Properties</link></u> can always be identified by their names being displayed in grey and italics.\n<u><link=\"properties\">Properties</link></u> are rules that do not possess any innate or direct effects. Instead <u><link=\"properties\">properties</link></u> are only used as triggers for other rules. For example, a rule might restrict <u><link=\"characters\">characters</link></u> from joining a unit unless it possesses the right Clan Property."
   },
   {
     "Id": "vassal_governor",
@@ -2907,13 +2817,13 @@
     "Id": "se-herald_of_sura",
     "Name": "Herald of Sura",
     "Type": "Global",
-    "Description": "The model's unit gains <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"strider\">Strider</link></u>."
+    "Description": "The model's unit gains <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-strider\">Strider</link></u>."
   },
   {
     "Id": "se-forest_dweller",
     "Name": "Forest Dweller",
     "Type": "Global",
-    "Description": "While the model's unit is within 3\" of a Forest, the model gains <u><link=\"stubborn\">Stubborn</link></u>. If the model's unit already contains <u><link=\"stubborn\">Stubborn</link></u>, the unit is considered Steady when rolling Break Tests."
+    "Description": "While the model's unit is within 3\" of a Forest, the model gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>. If the model's unit already contains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, the unit is considered Steady when rolling Break Tests."
   },
   {
     "Id": "se-impaling_roots",
@@ -3699,49 +3609,49 @@
     "Id": "de-altar_of_nabh",
     "Name": "Altar of Nabh",
     "Type": "General",
-    "Description": "The model gains Attached, Exclusive(Height 1), Frenzy, Fury, , War Platform, Unruly.\nModel parts with Elf in friendly units within 12\"  of the model gain Fury."
+    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Height 1)</link></u>, <u><link=\"rulebook-frenzy\">Frenzy</link></u>, <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-war_platform\">War Platform</link></u>.\nModel parts with Elf in friendly units within 12\" of the <u><link=\"de-altar_of_nabh\">Altar of Nabh</link></u> gain <u><link=\"rulebook-fury\">Fury</link></u>."
   },
   {
     "Id": "de-altar_of_yema",
     "Name": "Altar of Yema",
     "Type": "General",
-    "Description": "The model gains  Attached, , Exclusive(Height 1), , Petrifying Stare, , War Platform.  Whenever a friendly unit within 12\" is initiating a Move (see Definition and Terminology chapter in the Reference Handbook), the unit gains +1 Mob and Devastating Charge(Strider) for the duration of the Player Turn."
+    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Height 1)</link></u>, <u><link=\"rulebook-war_platform\">War Platform</link></u>, and a single “Attendant” model part gains <u><link=\"de-petrifying_stare\">Petrifying Stare</link></u>.\nWhenever a friendly unit within 12\" of the <u><link=\"de-altar_of_yema\">Altar of Yema</link></u> initiates any kind of move (see “Definition and Terminology” chapter in the Reference Handbook), the unit gains +1 Mobility and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (<u><link=\"rulebook-strider\">Strider</link></u>).\nDuration: End of Turn."
   },
   {
     "Id": "de-warlock_acolytes",
     "Name": "Warlock Acolytes",
     "Type": "General",
-    "Description": "The unit gains Wizard Conclave(2), Irresistible Will.  The Dread Acolyte model part gains Warlock. The unit selects its spells from:"
+    "Description": "The unit gains <u><link=\"de-irresistible_will\">Irresistible Will</link></u> and <u><link=\"rulebook-wizard_conclave\">Wizard Conclave (2)</link></u>.\nThe Dread Acolyte model parts gains Warlock.\nThe unit selects its spells from:\n   • Ice and Fire (Cosmology)\n   • Whispers of the Veil (Evocation)\n   • Illusory Paths (Witchcraft)\n   • Curse of the Phantom Queen (Hereditary Spell)"
   },
   {
     "Id": "de-academy_commander",
     "Name": "Academy Commander",
     "Type": "General",
-    "Description": "The model part gains Academy.  Models with Academy in the model's unit gain Artistry of Death."
+    "Description": "The model part gains Academy.\nModels with Academy in the model's unit gain <u><link=\"de-artistry_of_death\">Artistry of Death</link></u>."
   },
   {
     "Id": "de-beastmaster",
     "Name": "Beastmaster",
     "Type": "General",
-    "Description": "The model part gains Slaver. Apply the following effects to units within range of this model's Commanding Presence (friend or foe):\n  •  Friendly units containing Beast: Courage Tests gain Minimised.\n  •  Friendly units: Rolls for the number of hits from Stomp Attack gain Maximised.\n  •  Enemy units: Rolls for the number of hits from Stomp Attack gain Minimised."
+    "Description": "Apply the following effects to units within range of this model’s <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> (friend or foe):\n   • Friendly units containing Beast: Courage Tests gain Minimised.\n   • Friendly units: rolls for the number of hits from <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> gain Maximised.\n   • Enemy units: rolls for the number of hits from <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> gain Minimised."
   },
   {
     "Id": "de-colossal_kraken",
     "Name": "Colossal Kraken",
     "Type": "General",
-    "Description": "The model's base size is changed to 100×150 mm, its HP is set to 8, and the model gains 2 additional Lashmasters."
+    "Description": "The model’s base size is changed to 100×150 mm, the number of its HP is set to 8, and it gains 2 additional Lashmasters."
   },
   {
     "Id": "de-extraordinary_specimen",
     "Name": "Extraordinary Specimen",
     "Type": "General",
-    "Description": "The Manticore gains Stomp Attack(D3) and its base size is changed to 50×100 mm."
+    "Description": "The Manticore gains <u><link=\"rulebook-stomp_attack\">Stomp Attacks(D3)</link></u> and its base size is changed to 50×100 mm."
   },
   {
     "Id": "de-dancers_of_yema",
     "Name": "Dancers of Yema",
     "Type": "General",
-    "Description": "The unit's restriction is changed from Regular to Common. The model gains Aegis(5+, against Melee Attacks), First Strike(+1 Att), Elven Finesse, Weapon Master. It also gains Shield, Hand Weapon, Great Weapon, Halberd."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (5+, against Melee Attacks)</link></u>, <u><link=\"rulebook-elven_finesse\">Elven Finesse</link></u>, <u><link=\"rulebook-first_strike\">First Strike (+1 Att)</link></u>, and <u><link=\"rulebook-weapon_master\">Weapon Master</link></u>.\nIt also gains Great Weapon, Halberd, and Shield."
   },
   {
     "Id": "de-altar_of_urlain",
@@ -3768,58 +3678,52 @@
     "Description": "The attack gains +1 to wound during the First Round of Combat."
   },
   {
-    "Id": "de-curse_of_the_phantom_queen",
-    "Name": "Curse of the Phantom Queen",
-    "Type": "General",
-    "Description": "Attacks made by the target suffer -1 AP.\nAttacks made against the target gain +1 AP.\nAttacks from spells are not affected."
-  },
-  {
     "Id": "de-height_of_hubris",
     "Name": "Height of Hubris",
     "Type": "General",
-    "Description": "First Strike(Hatred, Multiple Wounds(2))."
+    "Description": "<u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds(2)</link></u>)."
   },
   {
     "Id": "de-transcendence",
     "Name": "Transcendence",
     "Type": "General",
-    "Description": "For each HP loss the wielder inflicts with this weapon on enemy models, the wielder gains +1 Str and +1 AP, up to a maximum of +2 each, with Duration: Permanent."
+    "Description": "For each HP loss the wielder inflicts with this weapon on enemy models, it gains +1 Str and +1 AP, up to a maximum of +2 each, with Duration: Permanent."
   },
   {
     "Id": "de-lacerating_touch",
     "Name": "Lacerating Touch",
     "Type": "General",
-    "Description": "+2 AP and +2 Att."
+    "Description": "+2 Att, +2 AP"
   },
   {
     "Id": "de-mastery_of_slaughter",
     "Name": "Mastery of Slaughter",
     "Type": "General",
-    "Description": "+1 Str and +1 AP. If the wielder causes one or more unsaved wounds with this weapon, then all attacks made by Rank-and-File models in its unit, gain +1 to hit until the end of the Round of Combat."
+    "Description": "+1 Str and +1 AP.\nIf the wielder causes one or more HP loss with this weapon, then all attacks made by Rank-and-File models in its unit gain +1 to hit. Duration: Round of Combat."
   },
   {
     "Id": "de-pride_of_gar_daecos",
     "Name": "Pride of Gar Daecos",
     "Type": "General",
-    "Description": "+1 Att and Divine Attacks."
+    "Description": "+1 Att, <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>."
   },
   {
     "Id": "de-seal_of_the_republic",
     "Name": "Seal of the Republic",
     "Type": "General",
-    "Description": "For each HP loss the wearer inflicts with Standard Melee Attacks  on enemy models, the wearer gains +1 Arm with Duration: Permanent."
+    "Description": "For each HP loss the wearer inflicts with Standard Melee Attacks  on enemy models, it gains +1 Arm, with Duration: Permanent."
   },
   {
     "Id": "de-moithirs_mirror",
     "Name": "Moithir's Mirror",
     "Type": "General",
-    "Description": "The bearer gains Aegis(5+, against Melee Attacks). If one or more Melee Attacks are allocated towards the bearer, the bearer gains Grind Attack(3, Str 4, AP 2, Magical Attacks, Unmodifiable) until the end of the Round of Combat. This Grind Attack is resolved with Agi 0.\n(Note that Attacks made at Agi step 0 can trigger this effect.)"
+    "Description": "The bearer gains <u><link=\"rulebook-aegis\">Aegis (5+, against Melee Attacks)</link></u>.\nIf one or more Melee Attacks are allocated against the bearer, it gains <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(3 hits, Str 4, AP 2, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>), with duration: Round of Combat.\nThis <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> is always resolved with Agi 0.\n(Note that Attacks made at Agi step 0 can trigger this effect.)"
   },
   {
     "Id": "de-beastmasters_vial",
     "Name": "Beastmaster's Vial",
     "Type": "General",
-    "Description": "May be activated at the start of any Round of Combat. A friendly unit entirely with Beast  within 12\" of the bearer gains Dying Blow until it is no longer Engaged in Combat."
+    "Description": "May be activated at the start of any Round of Combat. One friendly unit entirely with Beast within 12\" of the bearer gains Dying Blow. Duration: End of Combat."
   },
   {
     "Id": "de-ceinrans_scales",
@@ -3831,25 +3735,25 @@
     "Id": "de-ring_of_the_obsidian_thrones",
     "Name": "Ring of the Obsidian Thrones",
     "Type": "General",
-    "Description": "Unless the wearer is Shaken, Break Tests and Panic Tests taken by friendly units within 6\" of the wearer are Minimised."
+    "Description": "Unless the wearer is <u><link=\"rulebook-shaken\">Shaken)</link></u>, Break Tests and Panic Tests taken by friendly units within 6\" of the wearer gain Minimised."
   },
   {
     "Id": "de-banner_of_urlain",
     "Name": "Banner of Urlain",
     "Type": "General",
-    "Description": "Exclusive(Captain, Silent Assassin). The unit's maximum size is changed to 15 models for units entirely with Height 1, and to 6 models for units entirely with Height 2. Rank-and-File model parts with Elf in the bearer's unit gain Devastating Charge(+1 Att)."
+    "Description": "<u><link=\"rulebook-exclusive\">Exclusive (Captain, Silent Assassin)</link></u>. The unit’s maximum size is changed to 15 models for units entirely with Height 1, and to 6 models for units entirely with Height 2.\nRank-and-File model parts with Elf in the bearer’s unit gain <u><link=\"rulebook-devastating_charge\">Devastating Charge(+1 Att)</link></u>."
   },
   {
     "Id": "de-eye_of_the_gorgon",
     "Name": "Eye of the Gorgon",
     "Type": "General",
-    "Description": "The bearer's unit gains Horror. When Choosing Equipment and Abilities nominate one Rank-and-File model, or the Battle Standard Bearer, in the front rank of the bearer's unit. The nominated model gains Petrifying Stare."
+    "Description": "The bearer’s unit gains Horror.\nWhen Choosing Equipment and Abilities, nominate one Rank-and-File model part, or a model part on the bearer’s model, in the Front Rank of the bearer’s unit; the nominated model part gains <u><link=\"de-petrifying_stare\">Petrifying Stare</link></u>."
   },
   {
     "Id": "de-caedhrens_pennon",
     "Name": "Caedhren's Pennon",
     "Type": "General",
-    "Description": "While the bearer's unit is part of a Combined Charge, the unit and all other units part of this Combined Charge must reroll failed Charge Range rolls and gain Devastating Charge(Hard Target(1))."
+    "Description": "While the bearer’s unit is part of a Combined Charge, that unit, as well as all other units that are Charging the same target, must reroll failed Charge Range rolls, and gain <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(<u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>)."
   },
   {
     "Id": "de-mask_of_the_war_crow_aura",
@@ -4311,7 +4215,7 @@
     "Id": "dl-engine_of_damnation",
     "Name": "Engine of Damnation",
     "Type": "General",
-    "Description": "Extraordinary.\nThe model’s base size is changed to 150×100 mm, its Height is changed to 5, its Health Points are set to 9, its Charge Speed is set to 5.\nIn addition, it loses <u><link=\"attached\">Attached</link></u> and <u><link=\"rulebook-war_platform\">War Platform</link></u>, and it gains <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stomp_attack\">Stomp Attack (D6 hits)</link></u>, and <u><link=\"rulebook-terror\">Terror</link></u>."
+    "Description": "Extraordinary.\nThe model’s base size is changed to 150×100 mm, its Height is changed to 5, its Health Points are set to 9, its Charge Speed is set to 5.\nIn addition, it loses <u><link=\"rulebook-attached\">Attached</link></u> and <u><link=\"rulebook-war_platform\">War Platform</link></u>, and it gains <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stomp_attack\">Stomp Attack (D6 hits)</link></u>, and <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "dl-favoured_of_sloth",
@@ -4602,12 +4506,6 @@
     "Description": "At the beginning of your Player Turn, choose a unit entirely with Daemon within 18\" of the model. The chosen unit gains Disciplined, with Duration One Turn."
   },
   {
-    "Id": "dl-spear_of_infinity",
-    "Name": "Spear of Infinity",
-    "Type": "General",
-    "Description": "The target suffers 1 hit with Str 2, AP 2, Area Attack(1×5), Magical Attacks, Direct Hit(Str 4, AP 3, Multiple Wounds(2)).\nThe hits from Spear of Infinity gain +1 Str for each spell successfully cast before this spell in this Magic Phase (including other instances of Spear of Infinity)."
-  },
-  {
     "Id": "dl-segmented_shell_aura",
     "Name": "Segmented Shell",
     "Type": "General",
@@ -4672,12 +4570,6 @@
     "Name": "Hunting Call",
     "Type": "General",
     "Description": "If the Army List includes a model with <u><link=\"bh-hunting_call\">Hunting Call</link></u>, the owner may reroll <u><link=\"rulebook-ambush\">Ambush</link></u> rolls of ‘1’ and ‘2’. If the owner has the second Player Turn, any unit containing <u><link=\"bh-pack_tactics\">Pack Tactics</link></u> may choose to roll for its <u><link=\"rulebook-ambush\">Ambush</link></u> starting from Player Turn 1."
-  },
-  {
-    "Id": "bh-echoes_of_the_dark_forest",
-    "Name": "Echoes of the Dark Forest",
-    "Type": "General",
-    "Description": "The target gains Fearless.\nIn addition, it may immediately perform a  5\" Magical Move. This spell may target units in <u><link=\"rulebook-ambush\">Ambush</link></u>. If so, the target unit immediately enters the Battlefied following normal <u><link=\"rulebook-ambush\">Ambush</link></u> rules, instead of performing a Magical Move."
   },
   {
     "Id": "bh-hawthorne_curse",
@@ -5973,7 +5865,7 @@
     "Id": "se-clearing_spirits",
     "Name": "Clearing Spirits",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target(1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"skirmisher\">Skirmisher</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target(1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "se-heath_hunters",
@@ -6015,7 +5907,7 @@
     "Id": "se-blade_dancer",
     "Name": "Blade Dancer",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, <u><link=\"rulebook-devastating_charge\">Devastating Charge (Fly)</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"rulebook-exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, <u><link=\"rulebook-devastating_charge\">Devastating Charge (Fly)</link></u>."
   },
   {
     "Id": "se-scarred_bark",
@@ -6052,12 +5944,6 @@
     "Name": "Gnarled and Knotted",
     "Type": "General",
     "Description": "If the target is within 3\" of a Forest, use the Str and AP values in brackets."
-  },
-  {
-    "Id": "se-forest_embrace",
-    "Name": "Forest Embrace",
-    "Type": "General",
-    "Description": "Place a Forest* underneath the target until the last model in the unit is removed as a casualty. This Forest always extends up to the edges of the target’s Unit Boundary (even if the unit moves or changes formation).\n\n* You may place a marker next to the unit instead"
   },
   {
     "Id": "se-weapons",
@@ -6141,7 +6027,7 @@
     "Id": "se-song_of_cenyrn",
     "Name": "Song of Cenyrn",
     "Type": "Equipment",
-    "Description": "May be activated when the bearer’s unit Declares a Charge. The target of the Charge can only declare Hold! as its Charge Reaction, unless it is <u><link=\"shaken\">Shaken</link></u>.\nThe enemy unit may still declare Charge Reactions as normal if charged by other units."
+    "Description": "May be activated when the bearer’s unit Declares a Charge. The target of the Charge can only declare Hold! as its Charge Reaction, unless it is <u><link=\"rulebook-shaken\">Shaken</link></u>.\nThe enemy unit may still declare Charge Reactions as normal if charged by other units."
   },
   {
     "Id": "se-horn_of_the_wild_hunt",
@@ -9354,12 +9240,6 @@
     "Description": "|¨title¨: ¨¨, ¨def¨: ¨¨§,"
   },
   {
-    "Id": "rulebook-meetingofminds",
-    "Name": "Meeting of Minds",
-    "Type": "General",
-    "Description": "The model gains Scent of Blood and treats all friendly models with Beast as Insignificant."
-  },
-  {
     "Id": "rulebook-immune",
     "Name": "Immune",
     "Type": "General",
@@ -10408,12 +10288,6 @@
     "Name": "Decimated",
     "Type": "General",
     "Description": "A model is considered Decimated when its original* unit’s current Health Points is 25% or less of its starting Health Points, as listed in the Army List.\n\nDecimated Models are removed as casualties just before they would perform a Flee Move.\n\n* Original unit means the units as listed on the Army List. This means that the Rank-and-File part of a unit might be considered Decimated, while an Attachable Model joined to the unit is not, or vice versa. In this case, remove only Decimated models from the unit before performing a Flee Move, and leave models that are not Decimated on the Battlefield."
-  },
-  {
-    "Id": "rulebook-shaken",
-    "Name": "Shaken",
-    "Type": "General",
-    "Description": "When a unit fails a Panic Test or a Break Test or chooses Charge Reaction Flee!, it becomes Shaken.\n\nA Shaken unit is unable to perform voluntary actions. This includes declaring Charges, moving in any way other than a Flee Move, Shoot, Generate Magic Dice, cast spells, or activate Magic Items that require voluntary activation. However, there is an exception: the unit may still choose to Flee! or Hold! As a Charge Reaction.\n\nRemember that if unit is Shaken, it temporarily stops being Scoring. This lasts until it is no longer Shaken.\n\nShaken units that are Engaged in Combat are removed as casualties at step 2.1 of the Round of Combat sequence.\n\nIn order to remember which units are Shaken, we recommend that Shaken units are clearly marked. This can either be done with specific markers or tokens to indicate a unit is Shaken, or if you do not have such markers, a commonly used method for marking Shaken units is to put one model from the Front Rank of the Shaken unit, and lie face down next to the unit."
   },
   {
     "Id": "rulebook-flee_move",
