@@ -153,7 +153,7 @@
     "Id": "rulebook-scout",
     "Name": "Scout",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"scout\">Scout</link></u> are not required to be Deployed inside its Deployment Zone. They may be Deployed anywhere on the Battlefield that is at least 12\" away from the opponent’s Deployment Zone.\nA unit that starts the game outside their own Deployment Zone cannot declare a Charge in the first Player Turn of the first Game Turn."
+    "Description": "Units entirely with <u><link=\"rulebook-scout\">Scout</link></u> are not required to be Deployed inside its Deployment Zone. They may be Deployed anywhere on the Battlefield that is at least 12\" away from the opponent’s Deployment Zone.\nA unit that starts the game outside their own Deployment Zone cannot declare a Charge in the first Player Turn of the first Game Turn."
   },
   {
     "Id": "rulebook-bow",
@@ -273,7 +273,7 @@
     "Id": "rulebook-magic_resistance",
     "Name": "Magic Resistance",
     "Type": "Defense",
-    "Description": "When an enemy <u><link=\"model\">model</link></u> casts a spell that targets one or more units containing <u><link=\"magic_resistance\">Magic Resistance</link></u>, the Casting Roll of the spell is modified by X, where X is the highest <u><link=\"magic_resistance\">Magic Resistance</link></u> value across all targets ."
+    "Description": "When an enemy <u><link=\"model\">model</link></u> casts a spell that targets one or more units containing <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>, the Casting Roll of the spell is modified by X, where X is the highest <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u> value across all targets ."
   },
   {
     "Id": "rulebook-aegis",
@@ -309,7 +309,7 @@
     "Id": "rulebook-breath_attack",
     "Name": "Breath Attack",
     "Type": "Equipment",
-    "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"march_and_shoot\">March and Shoot</link></u>. Hits automatically (no to-hit roll required). The Strength, Armour Penetration, and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in brackets (X)."
+    "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>. Hits automatically (no to-hit roll required). The Strength, Armour Penetration, and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in brackets (X)."
   },
   {
     "Id": "bh-giant_see_giant_do",
@@ -423,7 +423,7 @@
     "Id": "reform_move",
     "Name": "Reform Move",
     "Type": "General",
-    "Description": "To do a <u><link=\"reform_move\">Reform Move</link></u>, pick the unit up from the battlefield and put it back with the following restrictions:\n-   The centre of the unit can not travel further than half the unit's Mobility (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   The formation of the unit may change only as long as the number of Files has not changed by more than 2 . Remember that the unit cannot voluntarily have more Ranks than Files unless the unit is wide enough to have a Proper Rank (see <u><link=\"model\">Models</link></u> and Units in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   Each <u><link=\"model\">model</link></u> is considered to have moved from its starting position to end position, around obstructions where needed, and no single <u><link=\"model\">model</link></u> can move further than twice its Mobility.\nWhen measuring each <u><link=\"model\">model's</link></u> move, it is considered to move independently of its unit, in any direction or combination of directions, including side- and back-stepping. The <u><link=\"model\">models</link></u> can ignore other <u><link=\"model\">models</link></u> from the same unit, but not from other units. No single <u><link=\"model\">model</link></u> can move further than twice its Mobility. Measure the centre of each <u><link=\"model\">model's</link></u> base, and measure the path the <u><link=\"model\">model</link></u> moves on the Battlefield, from starting to ending position, including the path winding around obstacles.\nTreat each <u><link=\"model\">model</link></u> as an individual unit following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. At the end of this move, all <u><link=\"model\">models</link></u> come back together again into a viable formation as described above.\nReferenceManualColorSimplified <u><link=\"reform_move\">Reform Move</link></u>\\\nIn practice, for the vast majority of Reform and <u><link=\"advance_move\">Advance Moves</link></u>, there is no  need to consider the movements of individual <u><link=\"model\">models</link></u>.\\\nThe Upper example shows the technical way to perform a <u><link=\"reform_move\">Reform Move;</link></u> moving <u><link=\"model\">models</link></u> one by one (grey dotted lines), and measuring distance the centre moved (black dotted line). \\\nThe Lower image show a simplified method to perform a <u><link=\"reform_move\">Reform Move:</link></u> Move the unit as a whole, potentially readjusting formation by adding or removing files. Measure the distance the centre travels, while making sure that no <u><link=\"model\">model</link></u> moves further than its Mobility * 2, typically by measuring the distance of the <u><link=\"model\">models</link></u> that have travelled the furthest.\\\nReferenceManualColorExample of <u><link=\"reform_move\">Reform Move</link></u>\n\nMid-<u><link=\"reform_move\">Reform Move</link></u> Actions\nIf, for any reasons, a <u><link=\"model\">model's</link></u> position is relevant during a mid-<u><link=\"reform_move\">Reform Move</link></u>, such as during a <u><link=\"sweeping_attack\">Sweeping Attack</link></u> or <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, the unit must be placed in a viable formation and following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule (0.5\") at the point where it becomes relevant, before continuing the move. If it cannot be placed, the move cannot be performed. When measuring the distance each <u><link=\"model\">model</link></u> moves, measure from starting position, to the position it is placed mid-move, and then finally to its ending position."
+    "Description": "To do a <u><link=\"reform_move\">Reform Move</link></u>, pick the unit up from the battlefield and put it back with the following restrictions:\n-   The centre of the unit can not travel further than half the unit's Mobility (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   The formation of the unit may change only as long as the number of Files has not changed by more than 2 . Remember that the unit cannot voluntarily have more Ranks than Files unless the unit is wide enough to have a Proper Rank (see <u><link=\"model\">Models</link></u> and Units in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   Each <u><link=\"model\">model</link></u> is considered to have moved from its starting position to end position, around obstructions where needed, and no single <u><link=\"model\">model</link></u> can move further than twice its Mobility.\nWhen measuring each <u><link=\"model\">model's</link></u> move, it is considered to move independently of its unit, in any direction or combination of directions, including side- and back-stepping. The <u><link=\"model\">models</link></u> can ignore other <u><link=\"model\">models</link></u> from the same unit, but not from other units. No single <u><link=\"model\">model</link></u> can move further than twice its Mobility. Measure the centre of each <u><link=\"model\">model's</link></u> base, and measure the path the <u><link=\"model\">model</link></u> moves on the Battlefield, from starting to ending position, including the path winding around obstacles.\nTreat each <u><link=\"model\">model</link></u> as an individual unit following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. At the end of this move, all <u><link=\"model\">models</link></u> come back together again into a viable formation as described above.\nReferenceManualColorSimplified <u><link=\"reform_move\">Reform Move</link></u>\\\nIn practice, for the vast majority of Reform and <u><link=\"advance_move\">Advance Moves</link></u>, there is no  need to consider the movements of individual <u><link=\"model\">models</link></u>.\\\nThe Upper example shows the technical way to perform a <u><link=\"reform_move\">Reform Move;</link></u> moving <u><link=\"model\">models</link></u> one by one (grey dotted lines), and measuring distance the centre moved (black dotted line). \\\nThe Lower image show a simplified method to perform a <u><link=\"reform_move\">Reform Move:</link></u> Move the unit as a whole, potentially readjusting formation by adding or removing files. Measure the distance the centre travels, while making sure that no <u><link=\"model\">model</link></u> moves further than its Mobility * 2, typically by measuring the distance of the <u><link=\"model\">models</link></u> that have travelled the furthest.\\\nReferenceManualColorExample of <u><link=\"reform_move\">Reform Move</link></u>\n\nMid-<u><link=\"reform_move\">Reform Move</link></u> Actions\nIf, for any reasons, a <u><link=\"model\">model's</link></u> position is relevant during a mid-<u><link=\"reform_move\">Reform Move</link></u>, such as during a <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> or <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, the unit must be placed in a viable formation and following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule (0.5\") at the point where it becomes relevant, before continuing the move. If it cannot be placed, the move cannot be performed. When measuring the distance each <u><link=\"model\">model</link></u> moves, measure from starting position, to the position it is placed mid-move, and then finally to its ending position."
   },
   {
     "Id": "musician",
@@ -540,12 +540,6 @@
     "Description": "Once a unit successfully completes a <u><link=\"charge_move\">Charge Move</link></u>, the Charging Unit and the target unit are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, and remain <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> as long as at least their Unit Boundaries are in contact with an enemy Unit Boundary."
   },
   {
-    "Id": "scout",
-    "Name": "Scout",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"scout\">Scout</link></u> are not required to be Deployed inside its Deployment Zone. They may be Deployed anywhere on the Battlefield that is at least 12\" away from the opponent’s Deployment Zone.\nA unit that starts the game outside their own Deployment Zone cannot declare a Charge in the first Player Turn of the first Game Turn."
-  },
-  {
     "Id": "shoot_in_extra_rank",
     "Name": "Shoot in Extra Rank",
     "Type": "General",
@@ -658,18 +652,6 @@
     "Name": "Charge Move",
     "Type": "General",
     "Description": "A <u><link=\"charge_move\">Charge Move</link></u> is divided into two moves, first a <u><link=\"snaking_forward_move\">Snaking Forward Move</link></u> to get into contact with the target unit, which is then followed by an Align Move.\nStart with establishing in what Arc of the target unit, that the centre of the Charging Unit’s Front Facing is located in (see figure above). The Facing that corresponds to this Arc is the Target Facing. See <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter for definitions of Arcs and Facings.\nA <u><link=\"charge_move\">Charge Move</link></u> is then resolved using a single <u><link=\"snaking_forward_move\">Snaking Forward Move</link></u> (see <u><link=\"movement_phase\">Movement Phase</link></u> chapter for details), with an unlimited distance. During this move, the Charging Unit must move contact with its intended target - The Charging Unit’s Front Facing against the Target Facing.\n<u><link=\"charge_moves\">Charge Moves</link></u> are allowed to end the move within 1\" of <u><link=\"impassable_terrain\">Impassable Terrain</link></u> or other units, but are not allowed to move into contact with any enemy unit, other than the target of the Charge.\nOnce the Charging Unit touches its Target Facing, it performs an Align Move. This is done by picking up the Charging Unit and placing it back on the board aligned with the target unit, in a way that keeps the initial point of contact on the charged unit still in contact, while maximising the number of <u><link=\"model\">models</link></u> in contact. See the Reference Handbook for details on how to prioritise the Align Move in complex situations.\nApply the rules below when performing Align Moves. The <u><link=\"charge_move\">Charge Move</link></u> must be made in such a way that the Charging Unit can satisfy the conditions below as best as possible, in decreasing order of priority:\n-   The initial point of contact* on the target unit, before the Align Move, must remain in contact* after the Align Move. Note that the charging <u><link=\"model\">model</link></u> that initially made contact is not required to remain in contact*.\n-   If there is no single initial point of contact*, e.g. because the initial contact*is made along a line, the owner of the Charging Unit declares where the initial point of contact* is, among the possible points of initial contact*. This choice must be made such that the conditions below are satisfied as best as possible.\n-   The Charging Unit is placed fully aligned with its Front Facing flush against the Target Facing.\n-   If this is not possible, apply the rules for <u><link=\"unaligned_charges\">Unaligned Charges</link></u> (see below).\n-   The number of <u><link=\"model\">models</link></u> in the target unit that are in contact* must be maximised. This includes Fighting Over Gaps.\n-   The number of <u><link=\"model\">models</link></u> in the Charging Unit that are in contact* must be maximised. This includes Fighting Over Gaps.\nIf it is unavoidable to break one or more of the above conditions, prioritise maintaining the higher priority conditions, even if it means breaking a greater number of conditions in total. The Charging Unit must, if able to, perform its <u><link=\"charge_move\">Charge Move</link></u> so that the <u><link=\"model\">models</link></u> involved in the initial contact* satisfies the conditions above as best as possible. As long as all the above conditions are satisfied to the best extent possible, the owner has the freedom to choose how to perform the Align Move.\nReferenceManualColorExample of a <u><link=\"charge_move\">Charge Move</link></u>. From left to right.1. Declare Charge: Unit A Declares a Charge towards unit B.\n2. Initial Forward: Unit A moves straight forward.\n3. Wheel: The unit is rotated forward around its front right corner.\n4. Concluding Forward: Unit A moves forward again, until it contacts unit B.\n5. Align: Unit A is picked up and put back down in contact and fully aligned with unit B.\nNow me and Fleabag, when we’re working a mark, our most reliable method is the old one-two. It’s a classic for a reason. Go straight in and try to pinch the goods on your lonesome, you’re asking for a pointed intryductshin to a boot or five. But if the hound creeps up one way, and Klepa sidles over from behind, I can often have a leeesurely peroosal of pockets and purses before they know a thing. Teamwork makes the dream work – or as we Warborn say, broodwork makes the mood work!"
-  },
-  {
-    "Id": "magic_resistance",
-    "Name": "Magic Resistance",
-    "Type": "General",
-    "Description": "When an enemy <u><link=\"model\">model</link></u> casts a spell that targets one or more units containing <u><link=\"magic_resistance\">Magic Resistance</link></u>, the Casting Roll of the spell is modified by X, where X is the highest <u><link=\"magic_resistance\">Magic Resistance</link></u> value across all targets ."
-  },
-  {
-    "Id": "march_and_shoot",
-    "Name": "March and Shoot",
-    "Type": "General",
-    "Description": "Performing a <u><link=\"march_move\">March Move</link></u> in the same Player Turn does not prevent shooting with <u><link=\"attacks\">attacks</link></u> or <u><link=\"model\">model</link></u> parts with <u><link=\"march_and_shoot\">March and Shoot</link></u>, but the attack can still suffer -1 to hit for Moving and Shooting."
   },
   {
     "Id": "er-callous",
@@ -1137,7 +1119,7 @@
     "Id": "de-repeater_handbow",
     "Name": "Repeater Handbow",
     "Type": "Equipment",
-    "Description": "Aim X+, Range 12\", Shots 2, Str 3, AP 1*, *Accurate, Quick to Fire, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
+    "Description": "Aim X+, Range 12\", Shots 2, Str 3, AP 1*, *<u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>\n*Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "de-irresistible_will",
@@ -1155,7 +1137,7 @@
     "Id": "rulebook-march_and_shoot",
     "Name": "March and Shoot",
     "Type": "Equipment",
-    "Description": "Performing a <u><link=\"march_move\">March Move</link></u> in the same Player Turn does not prevent shooting with <u><link=\"attacks\">attacks</link></u> or <u><link=\"model\">model</link></u> parts with <u><link=\"march_and_shoot\">March and Shoot</link></u>, but the attack can still suffer -1 to hit for Moving and Shooting."
+    "Description": "Performing a <u><link=\"march_move\">March Move</link></u> in the same Player Turn does not prevent shooting with <u><link=\"attacks\">attacks</link></u> or <u><link=\"model\">model</link></u> parts with <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, but the attack can still suffer -1 to hit for Moving and Shooting."
   },
   {
     "Id": "de-repeater_crossbow",
@@ -1179,13 +1161,13 @@
     "Id": "de-altar_of_tila",
     "Name": "Altar of Tila",
     "Type": "Global",
-    "Description": ": The model’s Charge Speed and Mobility are always 0\".\nIn addition, it gains <u><link=\"rulebook-channel\">Channel (2)</link></u>, <u><link=\"rulebook-emplacement\">Emplacement</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u>.\nWhen another friendly unit within 18\" of the model suffers one or more unsaved wounds from an enemy attack, the <u><link=\"de-altar_of_tila\">Altar of Tila</link></u> may cause 3 hits with Str 4, AP 2 and, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> towards the enemy unit that caused the wounds. This effect can only be used once per Phase."
+    "Description": "The model’s Charge Speed and Mobility are always 0\".\nIn addition, it gains <u><link=\"rulebook-channel\">Channel (2)</link></u>, <u><link=\"rulebook-emplacement\">Emplacement</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u>.\nWhen another friendly unit within 18\" of the model suffers one or more unsaved wounds from an enemy attack, the <u><link=\"de-altar_of_tila\">Altar of Tila</link></u> may cause 3 hits with Str 4, AP 2 and, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> towards the enemy unit that caused the wounds. This effect can only be used once per Phase."
   },
   {
     "Id": "rulebook-sweeping_attack",
     "Name": "Sweeping Attack",
     "Type": "Equipment",
-    "Description": "When a <u><link=\"model\">model</link></u> with <u><link=\"sweeping_attack\">Sweeping Attack</link></u> is within 1\" of an unengaged enemy unit during a Move Manoeuvre (even temporarily), the <u><link=\"model\">model’s</link></u> unit may perform a <u><link=\"sweeping_attack\">Sweeping Attack</link></u> against that enemy unit. This can only be used once per friendly Player Turn. Resolve the <u><link=\"sweeping_attack\">Sweeping Attack</link></u> when the Move Manoeuvre is completed.\nThe attack hits automatically, and counts as a Ranged Attack. Each <u><link=\"model\">model</link></u> in the unit with <u><link=\"sweeping_attack\">Sweeping Attack</link></u> must use its <u><link=\"sweeping_attack\">Sweeping Attack</link></u> against the same enemy unit. The <u><link=\"sweeping_attack\">Sweeping Attack</link></u> hits automatically, causing a number of hits as defined in the brackets (X hits). These hits are resolved with the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\nIf values for Strength, Armour Penetration and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in the bracket (Y), these are used instead. In this case, note that characteristics <u><link=\"modifiers\">modifiers</link></u> and <u><link=\"attack_attributes\">Attack Attributes</link></u> on the <u><link=\"model\">model</link></u> part itself do not affect this attack."
+    "Description": "When a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> is within 1\" of an unengaged enemy unit during a Move Manoeuvre (even temporarily), the <u><link=\"model\">model’s</link></u> unit may perform a <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> against that enemy unit. This can only be used once per friendly Player Turn. Resolve the <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> when the Move Manoeuvre is completed.\nThe attack hits automatically, and counts as a Ranged Attack. Each <u><link=\"model\">model</link></u> in the unit with <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> must use its <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> against the same enemy unit. The <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> hits automatically, causing a number of hits as defined in the brackets (X hits). These hits are resolved with the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\nIf values for Strength, Armour Penetration and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in the bracket (Y), these are used instead. In this case, note that characteristics <u><link=\"modifiers\">modifiers</link></u> and <u><link=\"attack_attributes\">Attack Attributes</link></u> on the <u><link=\"model\">model</link></u> part itself do not affect this attack."
   },
   {
     "Id": "de-petrifying_stare",
@@ -1209,7 +1191,7 @@
     "Id": "de-harpoon_launcher",
     "Name": "Harpoon Launcher",
     "Type": "Equipment",
-    "Description": "Aim 3+, Range 18\", Shots 3, Str 6, AP 3, Accurate, Quick to Fire\nUnits that suffer one or more hits from this weapon lose <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, until the start of the Active Player’s next Turn, and cannot gain it in any way"
+    "Description": "Aim 3+, Range 18\", Shots 3, Str 6, AP 3, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\nUnits that suffer one or more hits from this weapon lose <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, until the start of the Active Player’s next Turn, and cannot gain it in any way"
   },
   {
     "Id": "rulebook-emplacement",
@@ -1246,12 +1228,6 @@
     "Name": "Hidden",
     "Type": "General",
     "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
-  },
-  {
-    "Id": "sweeping_attack",
-    "Name": "Sweeping Attack",
-    "Type": "General",
-    "Description": "When a <u><link=\"model\">model</link></u> with <u><link=\"sweeping_attack\">Sweeping Attack</link></u> is within 1\" of an unengaged enemy unit during a Move Manoeuvre (even temporarily), the <u><link=\"model\">model’s</link></u> unit may perform a <u><link=\"sweeping_attack\">Sweeping Attack</link></u> against that enemy unit. This can only be used once per friendly Player Turn. Resolve the <u><link=\"sweeping_attack\">Sweeping Attack</link></u> when the Move Manoeuvre is completed.\nThe attack hits automatically, and counts as a Ranged Attack. Each <u><link=\"model\">model</link></u> in the unit with <u><link=\"sweeping_attack\">Sweeping Attack</link></u> must use its <u><link=\"sweeping_attack\">Sweeping Attack</link></u> against the same enemy unit. The <u><link=\"sweeping_attack\">Sweeping Attack</link></u> hits automatically, causing a number of hits as defined in the brackets (X hits). These hits are resolved with the <u><link=\"model\">model</link></u> part’s Strength, Armour Penetration and <u><link=\"attack_attributes\">Attack Attributes</link></u>, but not <u><link=\"weapons\">Weapons</link></u>.\nIf values for Strength, Armour Penetration and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in the bracket (Y), these are used instead. In this case, note that characteristics <u><link=\"modifiers\">modifiers</link></u> and <u><link=\"attack_attributes\">Attack Attributes</link></u> on the <u><link=\"model\">model</link></u> part itself do not affect this attack."
   },
   {
     "Id": "great_weapon",
@@ -1437,7 +1413,7 @@
     "Id": "dh-ancient_grudge",
     "Name": "Ancient Grudge",
     "Type": "Global",
-    "Description": "During Pre-game Selections, a Dwarven Holds army marks units on the opponent's Army List with Grudge Markers (note that Characters can be marked, too). The number of Grudge Markers placed is equal to the number of instances of <u><link=\"ancient_grudge\">Ancient Grudge</link></u> on units in your Army List.\nAll models with Dwarf in your army gain First Strike(Hatred(towards units with a Grudge Marker))."
+    "Description": "During Pre-game Selections, a Dwarven Holds army marks units on the opponent's Army List with Grudge Markers (note that Characters can be marked, too).\nThe number of Grudge Markers placed is equal to the number of instances of <u><link=\"dh-ancient_grudge\">Ancient Grudge</link></u> on units in your Army List.\nAll models with Dwarf in your army gain <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred (towards units with a Grudge Marker)</link></u>)."
   },
   {
     "Id": "rulebook-dying_blow",
@@ -1455,7 +1431,7 @@
     "Id": "dh-rune_craft_mastery",
     "Name": "Rune Craft Mastery",
     "Type": "Global",
-    "Description": "Melee Attacks from models in a unit containing <u><link=\"rune_craft_mastery\">Rune Craft Mastery</link></u> gain +1 AP."
+    "Description": "Melee Attacks from models in a unit containing <u><link=\"dh-rune_craft_mastery\">Rune Craft Mastery</link></u> gain +1 AP."
   },
   {
     "Id": "rulebook-engineer",
@@ -1467,7 +1443,7 @@
     "Id": "rulebook-crossbow",
     "Name": "Crossbow",
     "Type": "Equipment",
-    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"unwieldy\">Unwieldy</link></u>"
+    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
   },
   {
     "Id": "rulebook-resolute",
@@ -1479,55 +1455,49 @@
     "Id": "dh-runic_anvil",
     "Name": "Runic Anvil",
     "Type": "Global",
-    "Description": "The model must select three Battle Runes. Note which spells are selected on the Army List. The Range of these spells is set to 36\". The model cannot cast Bound Spells in the same Player Turn that it performed a Move Manoeuvre."
+    "Description": " The model must select three different Battle Runes. Note which spells are selected on the Army List.\nThe Range of these spells is set to 36\".\nThe model cannot cast Bound Spells in the same Player Turn that it performed a Move Manoeuvre."
   },
   {
     "Id": "dh-kingsoath",
     "Name": "Kingsoath",
     "Type": "Equipment",
-    "Description": "The model part gains +1 Att. The extra Melee Attack resulting from this bonus can only be allocated towards targets in a unit containing Grudge Marker."
+    "Description": "The model part gains +1 Att.\nThe extra Melee Attack resulting from <u><link=\"dh-kingsoath\">Kingsoath</link></u> can only be allocated towards targets in a unit containing a Grudge Marker."
   },
   {
     "Id": "dh-whirling_chains_of_doom",
     "Name": "Whirling Chains of Doom",
     "Type": "Equipment",
-    "Description": " - Melee Weapon\n\n+1 Str, +1 AP, always strike at Agility Step 10 (regardless of the wielder's Agility).\n"
+    "Description": "+1 Str, +1 AP, and always Agi 10."
   },
   {
     "Id": "dh-runic_engravings",
     "Name": "Runic Engravings",
     "Type": "Global",
-    "Description": "During Pre-game Selections, each Hold Guardians unit must choose one of the following effects, with Duration : Permanent.\n-   +1 Str and +1 AP\n-   +3 Agi and Vanguard"
+    "Description": "During Pre-game Selections, each Hold Guardians unit must choose one of the following effects, with Duration: Permanent.\n   • +1 Str, +1 AP.\n   • +3 Agi, <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
   },
   {
     "Id": "dh-forge_repeater",
     "Name": "Forge Repeater",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesForge Repeater418\"452Flaming Attacks, Quick to Fire"
+    "Description": "Aim 4+, Range 18\", Shots 4, Str 5, AP 2, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "dh-forge_gun",
-    "Name": "\n\t\tForge Gun",
+    "Name": "Forge Gun",
     "Type": "Equipment",
-    "Description": "<u><link=\"forge_gun\">Forge Gun</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"forge_gun\">Forge Gun</link></u>318\"140March and Shoot, Flaming Attacks, Stand and Shoot, Always hits on 3+\n"
+    "Description": "Aim 3+, Range 18\", Shots 1, Str 4, AP 0, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, Always hits on 3+\n"
   },
   {
     "Id": "dh-shrapnel_grenades",
     "Name": "Shrapnel Grenades",
     "Type": "Global",
-    "Description": "One use only. May be activated in the Movement Phase: when activated, the model gains Sweeping Attack(D3, Str 3, AP 1) until the end of the phase."
+    "Description": "One use only. Duration: One Phase. Can be activated in the Movement Phase: when activated, the model gains <u><link=\"rulebook-sweeping_attack\">Sweeping Attack (D3 hits, Str 3, AP 1)</link></u>."
   },
   {
-    "Id": "ancient_grudge",
-    "Name": "Ancient Grudge",
-    "Type": "General",
-    "Description": "During Pre-game Selections, a Dwarven Holds army marks units on the opponent's Army List with Grudge Markers (note that Characters can be marked, too). The number of Grudge Markers placed is equal to the number of instances of <u><link=\"ancient_grudge\">Ancient Grudge</link></u> on units in your Army List.\nAll models with Dwarf in your army gain First Strike(Hatred(towards units with a Grudge Marker))."
-  },
-  {
-    "Id": "rune_craft_mastery",
-    "Name": "Rune Craft Mastery",
-    "Type": "General",
-    "Description": "Melee Attacks from models in a unit containing <u><link=\"rune_craft_mastery\">Rune Craft Mastery</link></u> gain +1 AP."
+    "Id": "dh-wyrm_slayer_rocket",
+    "Name": "Wyrm-Slayer Rocket",
+    "Type": "Global",
+    "Description": "Aim 3+, Range 24\", Shots 1, Str 6, AP 3, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>"
   },
   {
     "Id": "shooting_phase",
@@ -1540,18 +1510,6 @@
     "Name": "Engineer",
     "Type": "General",
     "Description": "Once during each <u><link=\"shooting_phase\">Shooting Phase</link></u>, a non-Shaken and Unengaged <u><link=\"model\">model</link></u> with <u><link=\"engineer\">Engineer</link></u> can select a friendly <u><link=\"model\">model</link></u> with X in a unit within 6\" of it.\nThe chosen <u><link=\"model\">model</link></u> gains +1 to hit with Shooting <u><link=\"attacks\">Attacks</link></u>, to a maximum of 3+. No <u><link=\"model\">model</link></u> can be affected by more than one instance of this effect simultaneously.\nThe usage of this must be declared before shooting with the chosen <u><link=\"model\">model</link></u>."
-  },
-  {
-    "Id": "unwieldy",
-    "Name": "Unwieldy",
-    "Type": "General",
-    "Description": "If the <u><link=\"model\">model</link></u> performed a Move Manoeuvre in the current Player Turn, <u><link=\"attacks\">Attacks</link></u> with <u><link=\"unwieldy\">Unwieldy</link></u> suffer -X to Hit. This modifier can be combined with the -1 to-hit modifier from shooting in the same turn as performing a  Move Manoeuvre."
-  },
-  {
-    "Id": "forge_gun",
-    "Name": "\n\t\tForge Gun",
-    "Type": "General",
-    "Description": "<u><link=\"forge_gun\">Forge Gun</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"forge_gun\">Forge Gun</link></u>318\"140March and Shoot, Flaming Attacks, Stand and Shoot, Always hits on 3+\n"
   },
   {
     "Id": "eos-trained_ferocity",
@@ -1617,7 +1575,7 @@
     "Id": "rulebook-handgun",
     "Name": "Handgun",
     "Type": "Equipment",
-    "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"unwieldy\">Unwieldy</link></u>"
+    "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
   },
   {
     "Id": "rulebook-pistol",
@@ -2829,7 +2787,7 @@
     "Id": "se-impaling_roots",
     "Name": "Impaling Roots",
     "Type": "Equipment",
-    "Description": "Aim 3+, Range 12\", Shots D6+1, Str 4[5], AP 1[2], <u><link=\"se-gnarled_and_knotted\">Gnarled and Knotted</link></u>, <u><link=\"march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, ignores to-hit modifiers from Cover."
+    "Description": "Aim 3+, Range 12\", Shots D6+1, Str 4[5], AP 1[2], <u><link=\"se-gnarled_and_knotted\">Gnarled and Knotted</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, ignores to-hit modifiers from Cover."
   },
   {
     "Id": "se-sylvan_blades",
@@ -4551,7 +4509,7 @@
     "Id": "bh-beer_barrel",
     "Name": "Beer Barrel",
     "Type": "General",
-    "Description": "The model gains <u><link=\"bh-looted_booze\">Looted Booze</link></u>. One use only.\nThis weapon can be used as a Shooting Weapon with the following profile:\nAim 2+, Range 8\", Shots 1, Str 4, AP 0, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (3×3)</link></u>, <u><link=\"march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\nAfter this weapon has been used as a Shooting Weapon, the model loses <u><link=\"bh-looted_booze\">Looted Booze</link></u>."
+    "Description": "The model gains <u><link=\"bh-looted_booze\">Looted Booze</link></u>. One use only.\nThis weapon can be used as a Shooting Weapon with the following profile:\nAim 2+, Range 8\", Shots 1, Str 4, AP 0, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (3×3)</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\nAfter this weapon has been used as a Shooting Weapon, the model loses <u><link=\"bh-looted_booze\">Looted Booze</link></u>."
   },
   {
     "Id": "bh-sober",
@@ -5895,7 +5853,7 @@
     "Id": "se-pathfinder",
     "Name": "Pathfinder",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"scout\">Scout</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
+    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"rulebook-scout\">Scout</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
   },
   {
     "Id": "se-forest_guardian",
@@ -5907,7 +5865,7 @@
     "Id": "se-blade_dancer",
     "Name": "Blade Dancer",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"rulebook-exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, <u><link=\"rulebook-devastating_charge\">Devastating Charge (Fly)</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (6+)</link></u>, <u><link=\"se-dances_of_cenyrn\">Dances of Cenyrn</link></u> (see Blade Dancer unit), <u><link=\"rulebook-exclusive\">Exclusive(Blade Dancer Kindred, Blade Dancers)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-magic_resistance\">Magic Resistance(1)</link></u>. The model's unit gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, <u><link=\"rulebook-devastating_charge\">Devastating Charge (Fly)</link></u>."
   },
   {
     "Id": "se-scarred_bark",
@@ -5931,7 +5889,7 @@
     "Id": "se-oaken_crown",
     "Name": "Oaken Crown",
     "Type": "Equipment",
-    "Description": "The wearer gains <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"magic_resistance\">Magic Resistance(2)</link></u>."
+    "Description": "The wearer gains <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"rulebook-magic_resistance\">Magic Resistance(2)</link></u>."
   },
   {
     "Id": "se-verdant_rebirth",
@@ -5997,7 +5955,7 @@
     "Id": "se-banner_of_silent_mist",
     "Name": "Banner of Silent Mist",
     "Type": "Equipment",
-    "Description": "The bearer's unit gains <u><link=\"magic_resistance\">Magic Resistance(1)</link></u> and is always considered to be in Soft Cover."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-magic_resistance\">Magic Resistance(1)</link></u> and is always considered to be in Soft Cover."
   },
   {
     "Id": "se-predator_pennant",
@@ -6747,175 +6705,103 @@
     "Id": "dh-monster_seeker",
     "Name": "Monster Seeker",
     "Type": "General",
-    "Description": "The model gains Multiple Wounds(2, towards Height 3 or more).\nAdditionally, when a unit containing this rule charges a unit containing a model with Height 3-5, its Charge Range roll is Maximised."
+    "Description": "The model gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2, towards Height 3-5)</link></u>.\nIn addition, when a unit containing this rule charges a unit containing a model with Height 3-5, its Charge Range roll is Maximised."
   },
   {
     "Id": "dh-grim_resolve",
     "Name": "Grim Resolve",
     "Type": "General",
-    "Description": "The model gains +1 Att for each enemy model in contact with it.\nAdditionally, when a unit containing this rule charges a unit containing a model with Height 0-2, its Charge Range roll is Maximised."
+    "Description": "The model gains +1 Att for each enemy model in contact with it.\nIn addition, when a unit containing this rule charges a unit containing a model with Height 0-2, its Charge Range roll is Maximised."
   },
   {
     "Id": "dh-flaming_shot",
     "Name": "Flaming Shot",
     "Type": "General",
-    "Description": "- Attack Attribute -- Shooting\n\nThe model's Shooting Attacks become Flaming Attacks, Magical Attacks.\n\n\tThe model's Shooting Attacks become Flaming Attacks, Magical Attacks."
+    "Description": "The model’s Shooting Attacks become <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>."
   },
   {
     "Id": "dh-rune_crafted",
     "Name": "Rune Crafted(X)",
     "Type": "General",
-    "Description": "• Dwarf Ballista: +1 to hit towards Fly  • Flame Cannon: +1 AP  • Dwarf Catapult: +1 Str, +2 AP  • Dwarf Cannon: Direct Hit(Str 10, AP 4, Multiple Wounds(D3+2)) towards Height 5  • Organ Gun: +1 to wound"
+    "Description": "The model’s Shooting Weapon gains Magical Attacks and the effects within brackets:\n   • Dwarf Ballista: +1 to hit towards Fly\n   • Flame Cannon: +1 AP\n   • Dwarf Catapult: +1 Str, +2 AP\n   • Dwarf Cannon: <u><link=\"rulebook-direct_hit\">Direct Hit</link></u>(Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+2)</link></u>) towards Height 5\n   • Organ Gun: +1 to wound"
   },
   {
     "Id": "dh-crag_warden",
     "Name": "Crag Warden",
     "Type": "General",
-    "Description": "The model gains Hard Target(1), Light Troops, Skirmisher."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "dh-brothers_of_vengeance",
     "Name": "Brothers of Vengeance",
     "Type": "General",
-    "Description": "The model gains Hard Target(1), Light Troops, Skirmisher."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "dh-shrapnel_bombs",
     "Name": "Shrapnel Bombs",
     "Type": "General",
-    "Description": "The model gains Sweeping Attack(2D6, Str 3, AP 1)."
+    "Description": "The model gains <u><link=\"rulebook-sweeping_attack\">Sweeping Attack (2D6, Str 3, AP 1)</link></u>."
   },
   {
     "Id": "dh-shield_wall",
     "Name": "Shield Wall",
     "Type": "General",
-    "Description": "Models of Height 1--3 model using a Hand Weapon and a Shield simultaneously gain Aegis(6+, against Melee Attacks) against Melee Attacks from models Engaged in their Front Facing. This is improved to Aegis(5+, against Melee Attacks from Charging models)."
+    "Description": "Models of Height 1–3 using a Hand Weapon and a Shield simultaneously gain <u><link=\"rulebook-aegis\">Aegis (6+, against Melee Attacks from models Engaged in their Front Facing)</link></u>, as well as <u><link=\"rulebook-aegis\">Aegis  (5+, against Melee Attacks from Charging models Engaged in their Front Facing)</link></u>."
   },
   {
     "Id": "dh-guildcrafted_handgun",
     "Name": "Guild-Crafted Handgun",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesGuild-Crafted HandgunX24\"142Accurate, Stand and Shoot, Unwieldy(1)"
+    "Description": "Aim X+, Range 24\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, <u><link=\"rulebook-unwieldy\">Unwieldy(1)</link></u>"
   },
   {
-    "Id": "dh-entrench",
-    "Name": "Entrench",
+    "Id": "dh-dwarf_ballista",
+    "Name": "Dwarf Ballista",
     "Type": "General",
-    "Description": "Right before the battle (during step 7 of the Deployment Phase Sequence), the model may Entrench a single friendly War Machine. The War Machine counts as being in Hard Cover. The War Machine loses this instance of Hard Cover permanently if it performs an Advance or March Move or a Random Movement."
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, <u><link=\"rulebook-area_attack\">Area Attack (1×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6,<u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>)"
   },
   {
-    "Id": "dh-majesty_of_high_kings",
-    "Name": "Majesty of High Kings",
+    "Id": "dh-flame_cannon",
+    "Name": "Flame Cannon",
     "Type": "General",
-    "Description": "A General with War Throne gains Commanding Presence(18\")."
-  },
-  {
-    "Id": "dh-engineering_rune",
-    "Name": "Engineering Rune",
-    "Type": "General",
-    "Description": "Add +4 to the model's rolls on the Misfire Table."
+    "Description": "Aim 2+, Range 24\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (3×5)</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>"
   },
   {
     "Id": "dh-dwarf_catapult",
     "Name": "Dwarf Catapult",
     "Type": "General",
-    "Description": "The model's Height is changed to 3."
+    "Description": "The model's Height is changed to 3.\nAim 4+, Range 48\", Shots 1, Str 7, AP 3, <u><link=\"rulebook-area_attack\">Area Attack (2×2)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (<u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>)"
   },
   {
-    "Id": "dh-rune_of_revocation",
-    "Name": "Rune of Revocation",
+    "Id": "dh-dwarf_cannon",
+    "Name": "Dwarf Cannon",
     "Type": "General",
-    "Description": "Ignore all other spell effects on the target from spells with Duration: One Turn. The target unit gains Magic Resistance(2), which is also applied to friendly spells."
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, <u><link=\"rulebook-area_attack\">Area Attack (1×3)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>)"
   },
   {
-    "Id": "dh-rune_of_reckoning",
-    "Name": "Rune of Reckoning",
+    "Id": "dh-organ_gun",
+    "Name": "Organ gun",
     "Type": "General",
-    "Description": "Friendly models in the target unit gain Hatred(Melee). Melee Attacks by friendly models towards the target gain Hatred."
-  },
-  {
-    "Id": "dh-rune_of_oaths",
-    "Name": "Rune of Oaths",
-    "Type": "General",
-    "Description": "Friendly models in the target unit gain Zeal(Melee). Melee Attacks by friendly models towards the target gain Zeal."
-  },
-  {
-    "Id": "dh-rune_of_resolve",
-    "Name": "Rune of Resolve",
-    "Type": "General",
-    "Description": "The target gains Swiftstride, and until the end of the Player Turn it also gains Light Troops.\nIn addition, the target may perform a 4\" Magical Move"
-  },
-  {
-    "Id": "dh-rune_of_gleaming",
-    "Name": "Rune of Gleaming",
-    "Type": "General",
-    "Description": "The target gains Distracting(1), Hard Target(1)."
-  },
-  {
-    "Id": "dh-rune_of_resilience",
-    "Name": "Rune of Resilience",
-    "Type": "General",
-    "Description": "To-wound rolls against the target suffer a -1 modifier."
-  },
-  {
-    "Id": "dh-honour",
-    "Name": "Honour",
-    "Type": "General",
-    "Description": "The model's unit's Charge Range rolls are Maximised.  The model gains Devastating Charge(+2 Att)."
+    "Description": "Aim 4+, Range 30\", Shots 3D6, Str 5, AP 3"
   },
   {
     "Id": "dh-hewn_out_of_mountains",
     "Name": "Hewn Out of Mountains",
     "Type": "General",
-    "Description": "The player of this army has a +1 modifier on Dispel Rolls as long as at least one friendly model with Channel(X) from a Dwarven Holds army is on the Battlefield."
-  },
-  {
-    "Id": "dh-holdstone",
-    "Name": "Holdstone",
-    "Type": "General",
-    "Description": "One use only. May be activated at the start of any Round of Combat. Apply the following effects:\t\t\t\n  •  Enemy units cannot claim Combat Score bonuses for fighting the Flank or the Rear of the unit.\t\t\n  •  The unit cannot be Disrupted.\t\t\n  •  Parry, Shield Wall, and  can be used in any Facing.\t\t\n  •  For the purpose of Supporting Attacks, all Facings are considered to be the Front Facing (i.e. a model can perform Supporting Attacks also to the Flanks and Rear).\t\t\n  •  The unit cannot Pursue nor Overrun.\t\n\tThe effects last until the unit is no longer Engaged in Combat."
-  },
-  {
-    "Id": "dh-ancestral_memory",
-    "Name": "Ancestral Memory",
-    "Type": "General",
-    "Description": "A General with Ancestral Memory affects the number of Grudges held by a Dwarven Holds army (see \"Ancient Grudge\" above)."
-  },
-  {
-    "Id": "dh-the_bigger_they_are",
-    "Name": "The bigger they are",
-    "Type": "General",
-    "Description": "The model gains Devastating Charge(Swiftstride) for Charges against units that contain at least one Large or Gigantic model."
-  },
-  {
-    "Id": "dh-sturdy",
-    "Name": "Sturdy",
-    "Type": "General",
-    "Description": "The model part gains Devastating Charge (+1 Str, +1 AP) and ."
-  },
-  {
-    "Id": "dh-yer_comin_with_me",
-    "Name": "Yer comin' with me!",
-    "Type": "General",
-    "Description": "In order to use this Attack Attribute, the unit must be at least as wide as it is deep at the start of the Round of Combat.\n\tNatural to-wound rolls of '4', '5', and '6' with Close Combat Attacks made by models with this Attack Attribute are always considered successful. In addition, when a model with this Attack Attribute is removed as a casualty during the Melee Phase due to an enemy Melee Attack, it must immediately, before removal, perform a single Close Combat Attack with the following rules and restrictions:\t\t\t\n  •  The attack is always resolved with Strength 5 and Armour Penetration 2.\t\t\n  •  The owner must choose one of the following options:\t\t\t\t\t\n  •  The attack is allocated towards the model that caused the casualty.\t\t\t\n  •  The attack is allocated towards a Rank-and-File model in that model's unit. \t\t\n\t\tIn either case, the model with Yer comin' with me! is considered in contact with the attacked model, and the models count as Engaged in the same Facings as their units.\t\t\n  •  This Attack Attribute cannot be used for casualties caused by Impact Hits."
-  },
-  {
-    "Id": "dh-runic_weapon_enchantments",
-    "Name": "Runic Weapon Enchantments",
-    "Type": "General",
-    "Description": "Runic Weapon Enchantments follow the rules for Weapon Enchantments with the following differences:\t\t\t\n  •  All Runic Weapon Enchantments are enchantments for Hand Weapons and Paired Weapons.\t\t\n  •  Up to 3 Runic Weapon Enchantments can be applied to a single weapon.\t\t\n  •  Each combination of Runic Weapon Enchantments is  Legendary.\t\t\n  •  Multiple instances of the same Runic Weapon Enchantments are cumulative, unless mentioned otherwise.\t\t\n  •  When noting Runes on the Army List, use the following format: Runic Weapon (rune A, rune B, rune C)."
+    "Description": "The player of this army has a +1 modifier on Dispel Rolls as long as at least one friendly model with <u><link=\"rulebook-channel\">Channel (X)</link></u> from a Dwarven Holds army is on the Battlefield."
   },
   {
     "Id": "dh-rune_of_destruction",
     "Name": "Rune of Destruction",
     "Type": "General",
-    "Description": "Multiple Wounds(D3)."
+    "Description": "<u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>."
   },
   {
     "Id": "dh-rune_of_smashing",
     "Name": "Rune of Smashing",
     "Type": "General",
-    "Description": "Attacks allocated towards a model with Res 5 or more have their Str set to 10 and AP set to 10."
+    "Description": "Attacks allocated towards a model with Resilience 5 or more have both their Strength and their Armour Penetration set to 10"
   },
   {
     "Id": "dh-rune_of_penetration",
@@ -6933,7 +6819,7 @@
     "Id": "dh-rune_of_might",
     "Name": "Rune of Might",
     "Type": "General",
-    "Description": "+1 Str and +1 AP."
+    "Description": "+1 Str, +1 AP."
   },
   {
     "Id": "dh-rune_of_precision",
@@ -6945,7 +6831,7 @@
     "Id": "dh-rune_of_craftsmanship",
     "Name": "Rune of Craftsmanship",
     "Type": "General",
-    "Description": "The weapon follows the rules for Great Weapon instead of the original weapon's rules. This does not prevent the weapon from being engraved with additional Runic Weapon Enchantments."
+    "Description": "The weapon follows the rules for Great Weapon instead of its original Weapon Rules.\nThis does not prevent it from being engraved with additional Runic Weapon Enchantments."
   },
   {
     "Id": "dh-rune_of_anger",
@@ -6957,31 +6843,25 @@
     "Id": "dh-rune_of_lightning",
     "Name": "Rune of Lightning",
     "Type": "General",
-    "Description": "Grind Attack(D3, Str 4, AP 1, Lightning Attacks, Unmodifiable). A model with two or more instances of this Rune increases the number of hits to 2D3. Note that these hits are not affected by the effects of other Runic Weapon Enchantments."
+    "Description": "<u><link=\"rulebook-grind_attack\">Grind Attack</link></u> (D3 hits, Str 4, AP 1, <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>).\nA model with two instances of this Rune increases the number of hits to 2D3.\nNote that these hits are not affected by the effects of other Runic Weapon Enchantments."
   },
   {
     "Id": "dh-rune_of_returning",
     "Name": "Rune of Returning",
     "Type": "General",
-    "Description": "Can be used as a Shooting Weapon with the following profile: \tRange 8\", Shots 1, Str , AP , Quick to Fire, Accurate, \tThe effects of other Runic Weapon Enchantments apply to Shooting Attacks made with this weapon (even if the effects are normally restricted to Melee Attacks, including Special Attacks)."
+    "Description": "Can be used as a Shooting Weapon with the following profile:\nAim 2+, Range 8\", Shots 1, Str User, AP User, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-accurate\">Accurate</link></u>\nThe effects of other Runic Weapon Enchantments apply to Shooting Attacks made with this weapon (even if the effects are normally restricted to Melee Attacks, including Special Attacks)."
   },
   {
     "Id": "dh-rune_of_fire",
     "Name": "Rune of Fire",
     "Type": "General",
-    "Description": "When Choosing Equipment and Abilities, may gain Flaming Attacks until the end of the Round of Combat."
-  },
-  {
-    "Id": "dh-runic_armour_enchantments",
-    "Name": "Runic Armour Enchantments",
-    "Type": "General",
-    "Description": "Runic Armour Enchantments follow the rules for Armour Enchantments with the following differences:\t\t\t\n  •  Up to 3 Runic Armour Enchantments can be applied to a model.\t\t\n  •  Each combination of Runic Armour Enchantments is  Legendary.\t\t\n  •  Multiple instances of the same Runic Armour Enchantments are cumulative, unless specifically mentioned otherwise.\t\t\n  •  When noting Runes on the Army List, use the following format: Runic Armour (rune A, rune B, rune C)."
+    "Description": "When Choosing Equipment and Abilities, may gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>.\nDuration: Round of Combat"
   },
   {
     "Id": "dh-rune_of_resistance",
     "Name": "Rune of Resistance",
     "Type": "General",
-    "Description": "Resistance."
+    "Description": "<u><link=\"rulebook-resistance\">Resistance</link></u>."
   },
   {
     "Id": "dh-rune_of_steel",
@@ -6999,109 +6879,97 @@
     "Id": "dh-rune_of_retribution",
     "Name": "Rune of Retribution",
     "Type": "General",
-    "Description": "When rolling a successful Aegis Save from Shield Wall, the model inflicts a hit with the same Str and AP as the attack that was saved onto the Health Pool of the model that caused the wound. This occurs before any casualties are removed. These hits do not benefit from Weapon Rules or Runic Weapon Enchantments."
+    "Description": "When rolling a successful <u><link=\"rulebook-aegis\">Aegis</link></u> Save from <u><link=\"dh-shield_wall\">Shield Wall</link></u>, the model inflicts a hit with the same Strength and Armour Penetration as the attack that was saved, towards the Health Pool of the model that caused the wound (this occurs before any casualties are removed; these hits do not benefit from Weapon Rules or Runic Weapon Enchantments)."
   },
   {
     "Id": "dh-rune_of_the_forge",
     "Name": "Rune of the Forge",
     "Type": "General",
-    "Description": "Aegis(3+, against Flaming Attacks)."
-  },
-  {
-    "Id": "dh-runic_artefacts",
-    "Name": "Runic Artefacts",
-    "Type": "General",
-    "Description": "Runic Artefacts follow the rules for Artefacts with the following differences:\t\t\t\n  •  Up to 3 Runic Artefacts can be applied to a model.\t\t\n  •  Each combination of Runic Artefacts is  Legendary.\t\t\n  •  Multiple instances of the same Runic Artefacts are added together, unless specifically mentioned otherwise.\t\t\n  •  When noting Runes on the Army List, use the following format: Runic Artefact (rune A, rune B, rune C)."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "dh-rune_of_denial",
     "Name": "Rune of Denial",
     "Type": "General",
-    "Description": "One use only. The player may choose to use this Runic Artefact instead of performing a Dispelling Roll. The spell is automatically dispelled."
+    "Description": "One use only.\nThe player may choose to use this Rune instead of performing a Dispelling Roll. The spell is automatically dispelled."
   },
   {
     "Id": "dh-rune_of_devouring",
     "Name": "Rune of Devouring",
     "Type": "General",
-    "Description": "One use only. The player may choose to use this Runic Artefact instead of performing a Dispelling Roll. The spell is cast as normal, but the Caster may not cast it again for the rest of the game."
+    "Description": "One use only. The player may choose to use this Rune instead of performing a Dispelling Roll.\nThe spell is cast as normal, but the Caster may not cast it again for the rest of the game."
   },
   {
     "Id": "dh-rune_of_dragons_breath",
     "Name": "Rune of Dragon's Breath",
     "Type": "General",
-    "Description": "Breath Attack(Str 4, AP 1, Flaming Attacks, Magical Attacks)."
+    "Description": "<u><link=\"rulebook-breath_attack\">Breath Attack</link></u>(Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>)."
   },
   {
     "Id": "dh-rune_of_harnessing",
     "Name": "Rune of Harnessing",
     "Type": "General",
-    "Description": "In each of the opponent’s Magic Phases, immediately after Excess Magic, the opponent must discard 1 Magic Dice."
+    "Description": "In each of your opponent’s Magic Phases, immediately after Excess Magic, they must discard 1 Magic Dice."
   },
   {
     "Id": "dh-rune_of_the_courage",
     "Name": "Rune of the Courage",
     "Type": "General",
-    "Description": "One use only. May be activated when Choosing Equipment and Abilities. Until the end of the Round of Combat, the bearer gains Stubborn."
+    "Description": "One use only. Duration: Round of Combat.\nMay be activated when Choosing Equipment and Abilities. The bearer gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>."
   },
   {
     "Id": "dh-rune_of_grounding",
     "Name": "Rune of Grounding",
     "Type": "General",
-    "Description": "One use only. May be activated when Choosing Equipment and Abilities. All spells with Duration: One Turn that affect any of the following units come to an end:\t\t\t\n  •  The bearer's unit.\t\t\n  •  Enemy units in contact with the bearer's unit."
+    "Description": "One use only. May be activated when Choosing Equipment and Abilities.\nAll spells with Duration: One Turn that affect any of the following units come to an end:\n   • The bearer’s unit.\n   • Enemy units in contact with the bearer’s unit."
   },
   {
     "Id": "dh-rune_of_readiness",
     "Name": "Rune of Readiness",
     "Type": "General",
-    "Description": "One use only. May be activated at the end of the Charge Phase, immediately after all Charge Moves have been resolved. If the bearer's unit was successfully Charged during this phase, it may perform a Combat Reform (following the normal rules for Combat Reforms)."
+    "Description": "One use only. May be activated at the end of the Charge Phase, immediately after all Charge Moves have been resolved.\nIf the bearer’s unit was successfully charged during this Phase, it may perform a Combat Reform (following the normal rules for Combat Reforms)."
   },
   {
     "Id": "dh-rune_of_storms",
     "Name": "Rune of Storms",
     "Type": "General",
-    "Description": "One use only. May be activated at the start of the opponent's Player Turn. Choose a single enemy unit within 24\" of the bearer. Until the end of the Player Turn, the Cha and Mob of all models with Fly in that unit are halved, rounding fractions up."
+    "Description": "One use only. Duration: End of Turn.\nMay be activated at the start of the opponent’s Player Turn.\nChoose a single enemy unit within 24\" of the bearer.\nThe Charge Speed and Mobility of all models with Flyin that unit are halved, rounding fractions up."
   },
   {
     "Id": "dh-rune_of_shielding",
     "Name": "Rune of Shielding",
     "Type": "General",
-    "Description": "Aegis(+1, max. 4+). The Aegis from this Runic Artefact can only stack with itself and Shield Wall."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis (+1, max. 4+)</link></u>, which can only stack with itself and <u><link=\"dh-shield_wall\">Shield Wall</link></u>."
   },
   {
     "Id": "dh-rune_of_channelling",
     "Name": "Rune of Channelling",
     "Type": "General",
-    "Description": "Channel(1). This Runic Artefact can only be used if the model’s army total combined value for Channel is 3 or less (excluding Channel from this Runic Artefact)."
+    "Description": "<u><link=\"rulebook-channel\">Channel (1)</link></u>.\nThis Rune can only be used if the model’s army total combined value for <u><link=\"rulebook-channel\">Channel</link></u> is 3 or less (excluding <u><link=\"rulebook-channel\">Channel</link></u> from this Rune)."
   },
   {
     "Id": "dh-rune_of_mining",
     "Name": "Rune of Mining",
     "Type": "General",
-    "Description": "During Pre-game Selections, choose a Terrain Feature on the Battlefield. As long as the bearer is on the Battlefield, all friendly models may treat this Terrain Feature as Open Terrain when making a Move Maneuvre (Reform, Advance or March Move), but must still follow the Unit Spacing rule at the end of their move."
+    "Description": "During Pre-game Selections, choose a Terrain Feature on the Battlefield.\nAs long as the bearer is on the Battlefield, all friendly models may treat this Terrain Feature as Open Terrain when making a Move Manoeuvre (Reform, Advance or March Move), but must still follow the Unit Spacing rule at the end of their move."
   },
   {
     "Id": "dh-rune_of_kinship",
     "Name": "Rune of Kinship",
     "Type": "General",
-    "Description": "The bearer gains Ambush(Table Edge), Scout, Vanguard."
-  },
-  {
-    "Id": "dh-runic_banner_enchantments",
-    "Name": "Runic Banner Enchantments",
-    "Type": "General",
-    "Description": "Dwarven Holds armies may use Banner Enchantments from the list of Common Banner Enchantments as well as the Runic Banner Enchantments listed below."
+    "Description": "The bearer gains <u><link=\"rulebook-ambush\">Ambush (Table Edge)</link></u>, <u><link=\"rulebook-scout\">Scout</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
   },
   {
     "Id": "dh-runic_standard_of_grudges",
     "Name": "Runic Standard of Grudges",
     "Type": "General",
-    "Description": "Ancient Grudge(1)."
+    "Description": "<u><link=\"dh-ancient_grudge\">Ancient Grudge (1)</link></u>."
   },
   {
     "Id": "dh-runic_standard_of_swiftness",
     "Name": "Runic Standard of Swiftness",
     "Type": "General",
-    "Description": "The bearer's unit gains Vanguard."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
   },
   {
     "Id": "dh-runic_standard_of_dismay",
@@ -7113,49 +6981,25 @@
     "Id": "dh-runic_standard_of_steadiness",
     "Name": "Runic Standard of Steadiness",
     "Type": "General",
-    "Description": "One use only. May be activated at the start of any Movement Phase. The bearer's unit loses Unwieldy until the end of the Player Turn."
+    "Description": "One use only. Duration: End of Turn. May be activated at the start of any Movement Phase.\nThe bearer’s unit loses <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
   },
   {
     "Id": "dh-runic_standard_of_the_anvil",
     "Name": "Runic Standard of the Anvil",
     "Type": "General",
-    "Description": "Failed Charge Range rolls by other friendly units must be rerolled when directed against enemy units already Engaged in Combat with the bearer's unit."
+    "Description": "Whenever a friendly unit Charges an enemy unit already Engaged in Combat with the bearer’s unit and fails its Charge Range roll, it must reroll that roll."
   },
   {
     "Id": "dh-runic_standard_of_wisdom",
     "Name": "Runic Standard of Wisdom",
     "Type": "General",
-    "Description": "Select a single Battle Rune and note which one on the Army List. This Battle Rune can be cast by the bearer as a Bound Spell. It can only target the bearer's own unit."
+    "Description": "Select a single Battle Rune and write it on your Army List.\nThis Battle Rune can be cast by the bearer as a Bound Spell.\nIt can only target the bearer’s own unit."
   },
   {
     "Id": "dh-runic_standard_of_the_hold",
     "Name": "Runic Standard of the Hold",
     "Type": "General",
-    "Description": "The bearer's unit gains Resolute(1)."
-  },
-  {
-    "Id": "dh-ancient_grudge_mark",
-    "Name": "Ancient Grudge Mark",
-    "Type": "General",
-    "Description": "/subsection{ancient_grudge}"
-  },
-  {
-    "Id": "dh-runic_engravings_str",
-    "Name": "Runic Engravings (Str)",
-    "Type": "General",
-    "Description": "+1 Strength and +1 Armour Penetration"
-  },
-  {
-    "Id": "dh-runic_engravings_van",
-    "Name": "Runic Engravings (Vanguard)",
-    "Type": "General",
-    "Description": "Vanguard"
-  },
-  {
-    "Id": "dh-runic_engravings_agi",
-    "Name": "Runic Engravings (Agi)",
-    "Type": "General",
-    "Description": "+2 Agi"
+    "Description": "The bearer's unit gains <u><link=\"rulebook-resolute\">Resolute (1)</link></u>."
   },
   {
     "Id": "wdg-wings",
