@@ -1599,7 +1599,7 @@
     "Id": "eos-brace_of_pistols",
     "Name": "Brace of Pistols",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesBrace of PistolsX12\"242Stand and Shoot, Quick to Fire, Counts as Paired Weapons when Engaged in Combat\nCounts as Paired Weapons when Engaged in Combat"
+    "Description": "Aim X+, Range 12\", Shots 2, Str 4, AP 2, Quick to Fire, Stand and Shoot, Quick to Fire, Counts as Paired Weapons when Engaged in Combat"
   },
   {
     "Id": "eos-fire_on_impact",
@@ -1611,7 +1611,7 @@
     "Id": "eos-imperial_rocketeer",
     "Name": "Imperial Rocketeer",
     "Type": "Equipment",
-    "Description": " - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesImperial Rocketeer548\"363Artillery, Multiple Wounds(2)"
+    "Description": "Aim 5+, Range 48\", Shots 3, Str 6, AP 3, Artillery, Multiple Wounds(2)"
   },
   {
     "Id": "eos-steam_powered",
@@ -1623,7 +1623,7 @@
     "Id": "eos-steam_cannon",
     "Name": "Steam Cannon",
     "Type": "Equipment",
-    "Description": " - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesSteam Cannon336\"152Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1)), Unwieldy(1)"
+    "Description": "Aim 3+, Range 36\", Shots 1, Str 5, AP 2, Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1)), Unwieldy(1)"
   },
   {
     "Id": "parent_unit",
@@ -1749,7 +1749,7 @@
     "Id": "he-elven_bolt_thrower",
     "Name": "Elven Bolt Thrower",
     "Type": "Equipment",
-    "Description": "This Shooting Weapon can be fired in two ways:\n<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u>348\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\n<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u>348\"642\n"
+    "Description": "This Shooting Weapon can be fired in two ways:\nAim 3+, Range 48\", Shots 1, Str 3, AP 10, Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nAim 3+, Range 48\", Shots 6, Str 4, AP 2"
   },
   {
     "Id": "rulebook-flaming_attacks",
@@ -1761,7 +1761,7 @@
     "Id": "he-sky_reaper",
     "Name": "Sky Reaper",
     "Type": "Equipment",
-    "Description": "<u><link=\"sky_reaper\">Sky Reaper</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"sky_reaper\">Sky Reaper</link></u>324\"453Quick to Fire"
+    "Description": "Aim X+, Range 24\", Shots 4, Str 5, AP 3, Quick to Fire"
   },
   {
     "Id": "he-moonlight_arrows",
@@ -1917,7 +1917,7 @@
     "Id": "id-flintlock_axe",
     "Name": "Flintlock Axe",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesFlintlock AxeX18\"142Counts as Halberd when Engaged in Combat \nCounts as Halberd when Engaged in Combat "
+    "Description": "Aim X+, Range 18\", Shots 1, Str 4, AP 2, Counts as Halberd when Engaged in Combat "
   },
   {
     "Id": "id-vassal_governor",
@@ -2001,13 +2001,13 @@
     "Id": "id-vassal_slingshot",
     "Name": "Vassal Slingshot",
     "Type": "Equipment",
-    "Description": "<u><link=\"vassal_slingshot\">Vassal Slingshot</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"vassal_slingshot\">Vassal Slingshot</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), <u><link=\"oil_flasks\">Oil Flasks(4)</link></u>\n"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), <u><link=\"oil_flasks\">Oil Flasks(4)</link></u>\n"
   },
   {
     "Id": "id-naphtha_thrower",
     "Name": "Naphtha Thrower",
     "Type": "Offense",
-    "Description": "-1.\nRarity: Rare.\nNameAimRangeShotsStrAPAttack AttributesNaphtha Thrower212\"141Artillery, Accurate, Area Attack(3×5), Flaming Attacks, March and Shoot"
+    "Description": "Aim 2+, Range 12\", Shots 1, Str 4, AP 1, Artillery, Accurate, Area Attack(3×5), Flaming Attacks, March and Shoot"
   },
   {
     "Id": "rulebook-accurate",
@@ -2197,9 +2197,15 @@
   },
   {
     "Id": "koe-scorpion",
-    "Name": "\n    Scorpion",
+    "Name": "Scorpion",
     "Type": "Global",
-    "Description": "    <u><link=\"scorpion\">Scorpion</link></u>\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scorpion\">Scorpion</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nTrebuchet\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesTrebuchet448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))"
+  },
+  {
+    "Id": "koe-trebuchet",
+    "Name": "Trebuchet",
+    "Type": "Global",
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 7, AP 3, Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
   },
   {
     "Id": "koe-champion_of_the_green_knight",
@@ -2421,7 +2427,7 @@
     "Id": "ok-hunting_spear",
     "Name": "Hunting Spear",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesHunting SpearX12\"1User +1User +1Quick to Fire, March and Shoot, Multiple Wounds(D3, towards Height 5)"
+    "Description": "Aim X+, Range 12\", Shots 1, Str User+1, AP User+1, Quick to Fire, March and Shoot, Multiple Wounds(D3, towards Height 5)"
   },
   {
     "Id": "ok-touch_of_frost",
@@ -2439,31 +2445,31 @@
     "Id": "ok-brace_of_ogre_pistols",
     "Name": "Brace of Ogre Pistols",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesBrace of Ogre PistolsX24\"242Stand and Shoot, Quick to Fire. Counts as Paired Weapons in Combat"
+    "Description": "Aim X+, Range 24\", Shots 2, Str 4, AP 2, Stand and Shoot, Quick to Fire. Counts as Paired Weapons in Combat"
   },
   {
     "Id": "ok-thunder_cannon",
     "Name": "Thunder Cannon",
     "Type": "Equipment",
-    "Description": "<u><link=\"thunder_cannon\">Thunder Cannon</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"thunder_cannon\">Thunder Cannon</link></u>448\"152Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
   },
   {
     "Id": "ok-scratapult",
     "Name": "Scratapult",
     "Type": "Equipment",
-    "Description": "<u><link=\"scratapult\">Scratapult</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scratapult\">Scratapult</link></u>448\"141Artillery, Area Attack(3×3), Lethal Strike"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 4, AP 1, Artillery, Area Attack(3×3), Lethal Strike"
   },
   {
     "Id": "ok-hand_cannon",
     "Name": "Hand Cannon",
     "Type": "Equipment",
-    "Description": "<u><link=\"hand_cannon\">Hand Cannon</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"hand_cannon\">Hand Cannon</link></u>512\"353Accurate, March and Shoot, Stand and Shoot, Quick to Fire"
+    "Description": "Aim 5+, Range 12\", Shots 3, Str 5, AP 3, Accurate, March and Shoot, Stand and Shoot, Quick to Fire"
   },
   {
     "Id": "ok-ogre_crossbow",
     "Name": "Ogre Crossbow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesOgre CrossbowX30\"131Area Attack(1×5), Direct Hit(Str 6, AP 2)"
+    "Description": "Aim X+, Range 30\", Shots 1, Str 3, AP 1, Area Attack(1×5), Direct Hit(Str 6, AP 2)"
   },
   {
     "Id": "ok-mountain_hide",
@@ -2595,7 +2601,7 @@
     "Id": "ong-skewerer",
     "Name": "Skewerer",
     "Type": "Global",
-    "Description": "The model's base is changed to 60×60 mm."
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, Area Attack (1×5), Direct Hit (Str 6, Multiple Wounds (D3))\nThe model's base is changed to 60×60 mm."
   },
   {
     "Id": "ong-poisoned_spear",
@@ -2697,7 +2703,7 @@
     "Id": "sa-poisoned_javelin",
     "Name": "Poisoned Javelin",
     "Type": "Equipment",
-    "Description": "\nNameAimRangeShotsStrAPAttack AttributesPoisoned JavelinX12\"1UserUserStand and Shoot, Poison Attacks, Quick to Fire"
+    "Description": "Aim X+, Range 12\", Shots 1, Str User, AP User, Stand and Shoot, Poison Attacks, Quick to Fire"
   },
   {
     "Id": "sa-pack_hunter",
@@ -2913,19 +2919,19 @@
     "Id": "ud-great_aspis_bow",
     "Name": "Great Aspis Bow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesGreat Aspis BowX36\"152Aspis Arrows, Shoot in Extra Rank."
+    "Description": "Aim X+, Range 36\", Shots 1, Str 5, AP 2, Aspis Arrows, Shoot in Extra Rank."
   },
   {
     "Id": "ud-petrifying_gaze",
     "Name": "Petrifying Gaze",
     "Type": "Equipment",
-    "Description": "This attack hits automatically, and its to-wound rolls are set to 5+.\n<u><link=\"petrifying_gaze\">Petrifying Gaze</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"petrifying_gaze\">Petrifying Gaze</link></u>0*12\"2-*10Stand and Shoot\n*This attack hits automatically, and its to-wound rolls are set to 5+.\n"
+    "Description": "Aim Auto+, Range 12\", Shots 2, Str *, AP 10, Hits Automatically, Stand and Shoot, Unmodifiable,\n*To-wound rolls are set to 5+."
   },
   {
     "Id": "ud-charnel_catapult",
     "Name": "Charnel Catapult",
     "Type": "Equipment",
-    "Description": "If this weapon causes any HP loss, the target must immediately take a Panic Test.\n<u><link=\"charnel_catapult\">Charnel Catapult</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"charnel_catapult\">Charnel Catapult</link></u>448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2)).\nIf this weapon causes any HP loss, the target must immediately take a Panic Test.\n"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 7, AP 3, Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2)).\nIf this weapon causes any HP loss, the target must immediately take a Panic Test."
   },
   {
     "Id": "undying_will",
@@ -3009,7 +3015,7 @@
     "Id": "vc-chilling_howl",
     "Name": "Chilling Howl",
     "Type": "Equipment",
-    "Description": "The number of shots is equal to the model's current number of HP.\n<u><link=\"chilling_howl\">Chilling Howl</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"chilling_howl\">Chilling Howl</link></u>--8\"HP*910March and Shoot, Magical Attacks, Hits Automatically, Psychic Attacks\n*The number of shots is equal to the model's current number of HP."
+    "Description": "Aim Auto+, Range 8\", Shots HP*, Str 9, AP 10, Hits Automatically, Magical Attacks, March and Shoot, Psychic Attacks, Unmodifiable\n*The number of shots is equal to the model’s current number of HP."
   },
   {
     "Id": "vc-gates_of_the_netherworld",
@@ -3039,7 +3045,7 @@
     "Id": "vc-wail_of_woe",
     "Name": "Wail of Woe",
     "Type": "Equipment",
-    "Description": "<u><link=\"wail_of_woe\">Wail of Woe</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"wail_of_woe\">Wail of Woe</link></u>--8\"D6+241March and Shoot, Magical Attacks, Hits Automatically"
+    "Description": "Aim Auto, Range 8\", Shots D6+2, Str 4, AP 1, March and Shoot, Magical Attacks, Hits Automatically, Unmodifiable"
   },
   {
     "Id": "vc-ghostly_form",
@@ -3213,7 +3219,7 @@
     "Id": "vs-sling",
     "Name": "Sling",
     "Type": "Equipment",
-    "Description": "+1 Str when shooting not at Long Range.\n<u><link=\"sling\">Sling</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"sling\">Sling</link></u>418\"130+1 Str when shooting not at Long Range., Quick to Fire"
+    "Description": "Aim 4+, Range x\", Shots 1, Str 4, AP 0, Attacks made at Long Range have their Str set to 3, Quick to Fire"
   },
   {
     "Id": "vs-drill_down",
@@ -3225,13 +3231,13 @@
     "Id": "vs-darkstone_generator",
     "Name": "Darkstone Generator",
     "Type": "Equipment",
-    "Description": "Hits automatically.\n<u><link=\"darkstone_generator\">Darkstone Generator</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"darkstone_generator\">Darkstone Generator</link></u>Auto12\"D3+1D6+13March and Shoot, Lightning Attacks, <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm(To-wound roll)</link></u>, Automatic Hits"
+    "Description": "Aim Auto+, Range 12\", Shots D3+1, Str D6+1, AP 3, Automatic Hits, Lightning Attacks, Maniacal Enthusiasm (To-wound roll), March and Shoot, Unmodifiable"
   },
   {
     "Id": "vs-jezail",
     "Name": "Jezail",
     "Type": "Global",
-    "Description": "Max. 18 models/army.\nNameAimRangeShotsStrAPAttack AttributesJezailX36\"153Accurate, Unwieldy(1), <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm(To-hit roll)</link></u>"
+    "Description": "Aim X+, Range 36\", Shots 1, Str 5, AP 3, Accurate, Unwieldy(1), <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm(To-hit roll)</link></u>"
   },
   {
     "Id": "vs-unit_of_artillery",
@@ -3243,7 +3249,7 @@
     "Id": "vs-deepfire_grenades",
     "Name": "Deepfire Grenades",
     "Type": "Equipment",
-    "Description": "When shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>58\"262Accurate, Flaming Attacks, Quick to Fire,  <u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>\n<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>\nWhen shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n"
+    "Description": "Aim 5+, Range 8\", Shots 2, Str 6, AP 2, Accurate, Flaming Attacks, Quick to Fire, When shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n"
   },
   {
     "Id": "vs-tracking_telescope",
@@ -3252,10 +3258,16 @@
     "Description": "    The model gains +1 to hit towards targets with Hard Target that are at Long Range."
   },
   {
-    "Id": "vs-skorchit_ordnance",
-    "Name": "\n\t\tSkorchit Ordnance",
+    "Id": "vs-rakachit_mauss_rifle",
+    "Name": "Rakachit Mauss Rifle",
     "Type": "Global",
-    "Description": "<u><link=\"skorchit_ordnance\">Skorchit Ordnance</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"skorchit_ordnance\">Skorchit Ordnance</link></u>548\"141Artillery, Flaming Attacks, Area Attack(3×3)\nRakachit Mauss Rifle - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesRakachit Mauss Rifle548\"152Artillery, Lightning Attacks, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))\n"
+    "Description": "Aim 5+, Range 48\", Shots 1, Str 5, AP 2, Artillery, Lightning Attacks, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
+  },
+  {
+    "Id": "vs-skorchit_ordnance",
+    "Name": "Skorchit Ordnance",
+    "Type": "Global",
+    "Description": "Aim 5+, Range 48\", Shots 1, Str 4, AP 1, Artillery, Flaming Attacks, Area Attack(3×3)"
   },
   {
     "Id": "vs-maniacal_enthusiasm",
@@ -3765,7 +3777,7 @@
     "Id": "ong-git_launcher",
     "Name": "Git Launcher",
     "Type": "General",
-    "Description": "A unit hit by a Git Launcher suffers 2D6 hits with Str 4 and AP 2. However, on a natural to-hit roll of ‘6’, you may instead, place a Mad Git within 3\" of the target, following the rules for Summoned Units."
+    "Description": "Aim 4+, Range 48\", Shots 1, Str -, AP -, Artillery\nA unit hit by a Git Launcher suffers 2D6 hits with Str 4 and AP 2. On a to-hit roll of ‘6’, you may instead, place a Mad Git within 3″ of the target and more than 1″ away from any Impassable Terrain and other units, following the rules for Summoned Units."
   },
   {
     "Id": "ong-goblin_gardens",
@@ -3937,9 +3949,9 @@
   },
   {
     "Id": "ong-splatterer",
-    "Name": "\n\t\tSplatterer",
+    "Name": "Splatterer",
     "Type": "General",
-    "Description": "Splatterer - Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesSplatterer448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))\n\n\t\tGit Launcher - Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesGit Launcher448\"1--Artillery, Git Launcher\n\n\t\tSkewerer - Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesSkewerer448\"1310Direct Hit(Str 6, Multiple Wounds(D3)), Area Attack(1×5), Skewerer"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 7, AP 3, Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
   },
   {
     "Id": "ong-green_tide_aura",
@@ -4011,19 +4023,19 @@
     "Id": "id-blunderbuss",
     "Name": "Blunderbuss",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesBlunderbuss512\"153March and Shoot, Stand and Shoot, Accurate, Quick to Fire,"
+    "Description": "Aim 5+, Range 12\", Shots 1, Str 5, AP 3, March and Shoot, Stand and Shoot, Accurate, Quick to Fire,"
   },
   {
     "Id": "id-rocket_battery",
     "Name": "Rocket Battery",
     "Type": "General",
-    "Description": "-1.\nRarity: Rare.\n\n\t\tNameAimRangeShotsStrAPAttack AttributesRocket Battery418\"463Artillery, , Multiple Wounds(2)"
+    "Description": "Aim 4+, Range 18\", Shots 4, Str 6, AP 3, Artillery, Multiple Wounds(2)"
   },
   {
     "Id": "id-titan_mortar",
     "Name": "Titan Mortar",
     "Type": "General",
-    "Description": "-1.\nRarity: Rare.\n\n\t\tNameAimRangeShotsStrAPAttack AttributesTitan Mortar418\"152Artillery, , Area Attack(3×3)"
+    "Description": "Aim 4+, Range 18\", Shots 1, Str 5, AP 2, Artillery, Area Attack(3×3)"
   },
   {
     "Id": "id-incendiary",
@@ -4683,19 +4695,19 @@
     "Id": "eos-cannon",
     "Name": "Cannon",
     "Type": "General",
-    "Description": "- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesCannon448\"152Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
   },
   {
     "Id": "eos-volley_gun",
     "Name": "Volley Gun",
     "Type": "General",
-    "Description": "- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesVolley Gun424\"4D653"
+    "Description": "Aim 4+, Range 24\", Shots 4D6, Str 5, AP 3"
   },
   {
     "Id": "eos-mortar",
     "Name": "Mortar",
     "Type": "General",
-    "Description": "- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesMortar448\"141Artillery, Area Attack(3×3)"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 4, AP 1, Artillery, Area Attack(3×3)"
   },
   {
     "Id": "eos-irregulars",
@@ -4731,19 +4743,19 @@
     "Id": "eos-long_rifle",
     "Name": "Long Rifle",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesLong Rifle236\"153Multiple Wounds(2, towards Height 1--2), Unwieldy(2)\n\n\tRange 48\", 1, Str 5, AP 3, Multiple Wounds (2, contre taille Standard), Unwieldy."
+    "Description": "Aim 2+, Range 36\", Shots 1, Str 5, AP 3, Multiple Wounds(2, towards Height 1-2), Unwieldy(2)"
   },
   {
     "Id": "eos-repeater_gun",
     "Name": "Repeater Gun",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater Gun424\"342Unwieldy(1)"
+    "Description": "Aim 4+, Range 24\", Shots 3, Str 4, AP 2, Unwieldy(1)"
   },
   {
     "Id": "eos-repeater_pistol",
     "Name": "Repeater Pistol",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater Pistol312\"342Stand and Shoot, Quick to Fire"
+    "Description": "Aim 3+, Range 12\", Shots 3, Str 4, AP 2, Stand and Shoot, Quick to Fire"
   },
   {
     "Id": "eos-cavalry_pick",
@@ -5583,7 +5595,7 @@
     "Id": "sa-corrosive_spitter",
     "Name": "Corrosive Spitter",
     "Type": "General",
-    "Description": "One use only. Choose one of the effects below to apply for until the end of the Player Turn. All models in the unit must choose and activate the same effect simultaneously.\n  •  May be activated when Choosing Equipment and Abilities. The model gains Grind Attack(1, Str 2, AP 3, Unmodifiable). When in the second rank and not in contact with any enemy model, the model can make the Grind Attack across models in the first rank directly in front of it.\n  •  May be activated in the Shooting Phase. The model gains the following Shooting Weapon:\nNameAimRangeShotsStrAPAttack AttributesCorrosive Spit16\"223Accurate, March and Shoot"
+    "Description": "One use only. Choose one of the effects below to apply for until the end of the Player Turn. All models in the unit must choose and activate the same effect simultaneously.\n  •  May be activated when Choosing Equipment and Abilities. The model gains Grind Attack(1, Str 2, AP 3, Unmodifiable). When in the second rank and not in contact with any enemy model, the model can make the Grind Attack across models in the first rank directly in front of it.\n  •  May be activated in the Shooting Phase. The model gains the following Shooting Weapon:\nAim 1+, Range 6\", Shots 2, Str 2, AP 3, Accurate, March and Shoot"
   },
   {
     "Id": "sa-master_strategist",
@@ -5607,7 +5619,7 @@
     "Id": "sa-spearback",
     "Name": "Spearback",
     "Type": "General",
-    "Description": "The model gains First Strike(Hatred) and the following Shooting Weapon:NameAimRangeShotsStrAPAttack AttributesShoot Spikes312\"452Stand and Shoot, Quick to Fire"
+    "Description": "The model gains First Strike(Hatred) and the following Shooting Weapon:\nAim 3+, Range 12\", Shots 4, Str 5, AP 2, Stand and Shoot, Quick to Fire"
   },
   {
     "Id": "sa-chameleon",
@@ -5625,7 +5637,7 @@
     "Id": "sa-blowpipe",
     "Name": "Blowpipe",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesBlowpipeX12\"220Poison Attacks, Quick to Fire"
+    "Description": "Aim X+, Range 12\", Shots 2, Str 2, AP 0, Poison Attacks, Quick to Fire"
   },
   {
     "Id": "sa-farseeing_mastery",
@@ -5727,7 +5739,7 @@
     "Id": "sa-magnetic_great_bow",
     "Name": "Magnetic Great Bow",
     "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesMagnetic Great Bow418\"363Accurate, March and Shoot, Quick to Fire, +1 to hit against Metal Armour"
+    "Description": "Aim 4+, Range 18\", Shots 3, Str 6, AP 3, Accurate, March and Shoot, Quick to Fire, +1 to hit against Metal Armour"
   },
   {
     "Id": "sa-carved_wisdom",
@@ -6381,7 +6393,7 @@
     "Id": "ud-giant_aspis_bow",
     "Name": "Giant Aspis Bow",
     "Type": "General",
-    "Description": "Range 48\", Shots 1, Str 3 [6], AP 10, Area Attack (1×5), [Multiple Wounds(D3)].\nThis Artillery Weapon always hits on a roll equal to or greater than its Aim.\n\n\t\tGiant Aspis Bow - Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesGiant Aspis Bow448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), Aspis Arrows"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), Aspis Arrows"
   },
   {
     "Id": "ud-duty_is_eternal",
@@ -6549,19 +6561,19 @@
     "Id": "vs-canister_launcher",
     "Name": "Canister Launcher",
     "Type": "General",
-    "Description": "Max. 6 models/army.\n\n\t\tNameAimRangeShotsStrAPAttack AttributesCanister LauncherX18\"1310Artillery, Area Attack (3×3), Toxic Attacks, Maniacal Enthusiasm(To-hit roll), Quick to Fire\n\nCanister Launcher\n\t\t\t\tOnly one model per unit may use a Canister Launcher in any one Shooting Phase. Increase the Aim of the Canister Launcher by 1 for each other model in the unit armed with a Canister Launcher.\n\t\t\n\n\tOnly one model per unit may use a Canister Launcher in any one Shooting Phase. Increase the Aim of the Canister Launcher by 1 for each other model in the unit armed with a Canister Launcher."
+    "Description": "Aim X+, Range 18\", Shots 1, Str 3, AP 10, Artillery, Area Attack (3×3), Toxic Attacks, Maniacal Enthusiasm(To-hit roll), Quick to Fire\nOnly one model per unit may use a Canister Launcher in any one Shooting Phase.\nIncrease the Aim of the Canister Launcher by 1 for each other model in the unit armed with a Canister Launcher."
   },
   {
     "Id": "vs-deepfire_thrower",
     "Name": "Deepfire Thrower",
     "Type": "General",
-    "Description": "Max. 6 models/army.\n\n\t\t\n\t\tNameAimRangeShotsStrAPAttack AttributesDeepfire ThrowerX18\"141Artillery, Accurate, Area Attack (3×5), Flaming Attacks, Maniacal Enthusiasm(To-hit roll), Deepfire Thrower, Quick to Fire\n\nDeepfire Thrower\n\t\t\t\tThe model gains Weakness(Flaming Attacks). Only one model per unit may use a Deepfire Thrower in any one Shooting Phase. Increase the Aim of the Deepfire Thrower by 1 for each other model in the unit armed with a Deepfire Thrower.\n\t\t\n\n\tThe model gains Weakness(Flaming Attacks). Only one model per unit may use a Deepfire Thrower in any one Shooting Phase. Increase the Aim of the Deepfire Thrower by 1 for each other model in the unit armed with a Deepfire Thrower."
+    "Description": "Aim X+, Range 18\", Shots 1, Str 4, AP 1, Artillery, Accurate, Area Attack (3×5), Flaming Attacks, Maniacal Enthusiasm(To-hit roll), Quick to Fire\nThe model gains Weakness(Flaming Attacks).\nOnly one model per unit may use a Deepfire Thrower in any one Shooting Phase.\nIncrease the Aim of the Deepfire Thrower by 1 for each other model in the unit armed with a Deepfire Thrower."
   },
   {
     "Id": "vs-rotary_gun",
     "Name": "Rotary Gun",
     "Type": "General",
-    "Description": "Max. 12 models/army.\n\n\t\tNameAimRangeShotsStrAPAttack AttributesRotary GunX18\"D642Maniacal Enthusiasm(To-hit roll), Quick to Fire"
+    "Description": "Aim X+, Range 18\", Shots D6, Str 4, AP 2, Maniacal Enthusiasm(To-hit roll), Quick to Fire"
   },
   {
     "Id": "vs-plague_disciples",
