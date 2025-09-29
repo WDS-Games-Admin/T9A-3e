@@ -11,7 +11,8 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -50,6 +51,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -73,7 +75,9 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride"
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -89,7 +93,8 @@
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
           "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
@@ -112,6 +117,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -138,6 +144,7 @@
       "rulebook-hard_target": "Hard Target (1)",
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
     },
     "EquipmentIds": [],
@@ -174,11 +181,12 @@
         "Values": {
           "At": "2",
           "Of": "4",
-          "St": "4",
-          "AP": "1",
+          "St": "5",
+          "AP": "2",
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
         }
       }
@@ -206,7 +214,8 @@
       "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
       "de-scent_of_blood": "Scent of Blood",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -238,18 +247,6 @@
         "RuleIds": {}
       },
       {
-        "Name": "Raptor (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
-      },
-      {
         "Name": "Chassis",
         "Values": {
           "At": null,
@@ -260,6 +257,19 @@
         },
         "RuleIds": {
           "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      },
+      {
+        "Name": "Raptor (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -287,6 +297,7 @@
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-lethal_strike": "Lethal Strike",
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
@@ -330,6 +341,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-lethal_strike": "Lethal Strike",
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
@@ -359,6 +371,8 @@
       "rulebook-terror": "Terror",
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
@@ -379,7 +393,8 @@
           "de-meeting_of_minds": "Meeting of Minds",
           "rulebook-terror": "Terror",
           "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
@@ -402,6 +417,7 @@
           "Ag": "3"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
           "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
@@ -423,6 +439,7 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
       "de-artistry_of_death": "Artistry of Death"
     },
     "EquipmentIds": [],
@@ -461,6 +478,7 @@
           "Ag": "8"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "de-artistry_of_death": "Artistry of Death"
         }
       }
@@ -487,7 +505,8 @@
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -528,6 +547,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -553,7 +573,9 @@
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached"
+      "rulebook-attached": "Attached",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -571,7 +593,8 @@
           "de-scent_of_blood": "Scent of Blood",
           "rulebook-swiftstride": "Swiftstride",
           "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
@@ -594,6 +617,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -622,6 +646,7 @@
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
     },
     "EquipmentIds": [],
@@ -660,11 +685,12 @@
         "Values": {
           "At": "2",
           "Of": "4",
-          "St": "4",
-          "AP": "1",
+          "St": "5",
+          "AP": "2",
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
         }
       }
@@ -694,7 +720,8 @@
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -728,18 +755,6 @@
         "RuleIds": {}
       },
       {
-        "Name": "Raptor (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
-      },
-      {
         "Name": "Chassis",
         "Values": {
           "At": null,
@@ -750,6 +765,19 @@
         },
         "RuleIds": {
           "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      },
+      {
+        "Name": "Raptor (2)",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -779,6 +807,7 @@
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-lethal_strike": "Lethal Strike",
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
@@ -824,6 +853,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-lethal_strike": "Lethal Strike",
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
@@ -847,6 +877,7 @@
       "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)"
     },
     "EquipmentIds": [],
@@ -887,6 +918,7 @@
           "Ag": "7"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
@@ -909,6 +941,7 @@
       "rulebook-exclusive": "Exclusive (Unit without Silent Assassin)",
       "rulebook-hidden": "Hidden",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-poison_attacks": "Poison Attacks",
       "rulebook-zeal": "Zeal (towards Characters)",
@@ -956,6 +989,7 @@
           "Ag": "9"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-poison_attacks": "Poison Attacks",
           "rulebook-zeal": "Zeal (towards Characters)",
@@ -981,6 +1015,7 @@
       "rulebook-light_troops": "Light Troops",
       "de-irresistible_will": "Irresistible Will",
       "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-aegis": "Aegis (5+ against Melee Attacks)"
     },
@@ -1023,6 +1058,7 @@
           "Ag": "7"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
@@ -1048,7 +1084,8 @@
       "de-irresistible_will": "Irresistible Will",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept"
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1088,6 +1125,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -1112,7 +1150,9 @@
       "de-irresistible_will": "Irresistible Will",
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept"
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1129,6 +1169,7 @@
           "de-irresistible_will": "Irresistible Will",
           "de-scent_of_blood": "Scent of Blood",
           "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1152,6 +1193,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -1179,6 +1221,7 @@
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
     },
     "EquipmentIds": [],
@@ -1216,11 +1259,12 @@
         "Values": {
           "At": "2",
           "Of": "4",
-          "St": "4",
-          "AP": "1",
+          "St": "5",
+          "AP": "2",
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
         }
       }
@@ -1250,6 +1294,7 @@
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-lethal_strike": "Lethal Strike",
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
@@ -1294,6 +1339,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-lethal_strike": "Lethal Strike",
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
@@ -1323,7 +1369,9 @@
       "rulebook-terror": "Terror",
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",
       "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
@@ -1345,6 +1393,7 @@
           "rulebook-terror": "Terror",
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1368,6 +1417,7 @@
           "Ag": "3"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
           "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
@@ -1390,6 +1440,7 @@
       "de-irresistible_will": "Irresistible Will",
       "rulebook-light_troops": "Light Troops",
       "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)"
     },
     "EquipmentIds": [],
@@ -1429,9 +1480,176 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "b1c3d8a7e9f4c5a2b6d3e8f9a",
+    "Name": "Techainin and Blaishoi",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Battlefield Edge, Water Terrain)",
+      "de-a_watery_grave": "A Watery Grave",
+      "de-barbed_nets": "Barbed Nets",
+      "de-coastal-predator": "Coastal Predator",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-horror": "Horror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-soltary": "Solitary",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "de-blessed_by_harag": "Blessed by Harag",
+      "de-artistry_of_death": "Artistry of Death",
+      "rulebook-elven_finesse": "Elven Finesse",
+      "de-grim_harpoon": "Grim Harpoon",
+      "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1 hit)"
+  },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Techainin and Blaishoi",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "10",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Battlefield Edge, Water Terrain)",
+          "de-a_watery_grave": "A Watery Grave",
+          "de-barbed_nets": "Barbed Nets",
+          "de-coastal-predator": "Coastal Predator",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-horror": "Horror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-soltary": "Solitary",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
+      },
+      {
+        "Name": "Techainin",
+        "Values": {
+          "HP": "5",
+          "Df": "8",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "de-blessed_by_harag": "Blessed by Harag"
+        }
+      },
+      {
+        "Name": "Techainin",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "de-artistry_of_death": "Artistry of Death",
+          "rulebook-elven_finesse": "Elven Finesse",
+          "de-grim_harpoon": "Grim Harpoon"
+       }
+      },
+      {
+        "Name": "Blaishoi",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1 hit)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "b1d4e8a9237c5f2a9d8b1c3d4b",
+    "Name": "The Black Rose",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "de-aembeghen_s_blades": "Aembeghen's Blades",
+      "de-artistry_of_death": "Artistry of Death",
+      "rulebook-aegis": "Aegis (5+)",
+      "de-dance_of_the_rose": "Dance of the Rose",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "de-the_obsidian_thorns": "The Obsidian Thorns"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "The Black Rose",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "10",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops",
+          "de-the_obsidian_thorns": "The Obsidian Thorns"
+        }
+      },
+      {
+        "Name": "The Black Rose",
+        "Values": {
+          "HP": "3",
+          "Df": "8",
+          "Re": "3",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "The Black Rose",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "de-aembeghen_s_blades": "Aembeghen's Blades",
+          "de-artistry_of_death": "Artistry of Death",
+          "de-dance_of_the_rose": "Dance of the Rose"
+        }
+      }  
     ],
     "Base": {
       "Shape": "square",
@@ -1448,6 +1666,7 @@
     "AttributeLists": {},
     "RuleIds": {
       "de-daeb_warfare": "Daeb Warfare",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-spear": "Spear",
       "rulebook-shield": "Shield"
@@ -1489,6 +1708,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-spear": "Spear"
         }
@@ -1509,6 +1729,7 @@
     "AttributeLists": {},
     "RuleIds": {
       "de-daeb_warfare": "Daeb Warfare",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-march_and_shoot": "March and Shoot",
       "de-repeater_crossbow": "Repeater Crossbow (3+)",
@@ -1551,6 +1772,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-march_and_shoot": "March and Shoot",
           "de-repeater_crossbow": "Repeater Crossbow (3+)"
@@ -1574,6 +1796,7 @@
       "de-daeb_warfare": "Daeb Warfare",
       "rulebook-light_troops": "Light Troops",
       "rulebook-afflict": "Afflict (-1 Dis)",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-paired_weapons": "Paired Weapons",
       "de-krakens_hide": "Kraken's Hide"
@@ -1617,6 +1840,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-paired_weapons": "Paired Weapons"
         }
@@ -1638,6 +1862,7 @@
     "RuleIds": {
       "rulebook-afflict": "Afflict (-2 Def)",
       "de-daeb_warfare": "Daeb Warfare",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-paired_weapons": "Paired Weapons",
       "rulebook-aegis": "Aegis (6+ against Melee Attacks)"
@@ -1680,6 +1905,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-paired_weapons": "Paired Weapons"
         }
@@ -1704,6 +1930,7 @@
       "rulebook-light_troops": "Light Troops",
       "rulebook-vanguard": "Vanguard",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-light_lance": "Light Lance",
       "de-repeater_crossbow": "Repeater Crossbow (3+)",
@@ -1750,6 +1977,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-light_lance": "Light Lance",
           "de-repeater_crossbow": "Repeater Crossbow (3+)"
@@ -1765,6 +1993,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -1787,6 +2016,7 @@
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-halberd": "Halberd",
       "rulebook-impact_hits": "Impact Hits (D6+1)"
@@ -1830,6 +2060,7 @@
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-halberd": "Halberd"
         }
@@ -1844,6 +2075,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       },
       {
@@ -1876,6 +2108,7 @@
     "RuleIds": {
       "rulebook-terror": "Terror",
       "de-altar_of_tila": "Altar of Tila",
+      "rulebook-hand_weapon": "Hand Weapon",
       "de-artistry_of_death": "Artistry of Death",
       "rulebook-paired_weapons": "Paired Weapons",
       "rulebook-aegis": "Aegis (5+)"
@@ -1918,6 +2151,7 @@
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "de-artistry_of_death": "Artistry of Death",
           "rulebook-paired_weapons": "Paired Weapons"
         }
@@ -1952,6 +2186,7 @@
       "rulebook-disciplined": "Disciplined",
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-shield": "Shield"
     },
@@ -1995,6 +2230,7 @@
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       },
@@ -2008,6 +2244,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -2032,6 +2269,7 @@
       "rulebook-skirmisher": "Skirmisher",
       "rulebook-unruly": "Unruly",
       "de-scent_of_blood": "Scent of Blood",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
       "rulebook-sweeping_attack": "Sweeping Attack (1)",
       "rulebook-hard_target": "Hard Target (1)"
@@ -2079,6 +2317,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
           "rulebook-sweeping_attack": "Sweeping Attack (1)"
         }
@@ -2103,6 +2342,7 @@
       "rulebook-strider": "Strider",
       "rulebook-supernal": "Supernal",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-magical_attacks": "Magical Attacks",
       "de-petrifying_stare": "Petrifying Stare",
@@ -2149,6 +2389,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-magical_attacks": "Magical Attacks",
           "de-petrifying_stare": "Petrifying Stare"
@@ -2170,6 +2411,7 @@
     "AttributeLists": {},
     "RuleIds": {
       "de-daeb_warfare": "Daeb Warfare",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-elven_finesse": "Elven Finesse",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-lethal_strike": "Lethal Strike",
@@ -2211,6 +2453,7 @@
           "Agi": "0"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-elven_finesse": "Elven Finesse",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-lethal_strike": "Lethal Strike",
@@ -2235,6 +2478,7 @@
       "de-daeb_warfare": "Daeb Warfare",
       "rulebook-disciplined": "Disciplined",
       "rulebook-rally_around_the_flag": "Rally Around the Flag (6\")",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-halberd": "Halberd"
     },
@@ -2275,6 +2519,7 @@
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-halberd": "Halberd"
         }
@@ -2296,6 +2541,7 @@
     "RuleIds": {
       "de-scent_of_blood": "Scent of Blood",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Hatred)"
     },
     "EquipmentIds": [],
@@ -2334,6 +2580,7 @@
           "Ag": "3"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Hatred)"
         }
       },
@@ -2347,6 +2594,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
@@ -2368,6 +2616,7 @@
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
       "de-temple_acolytes": "Temple Acolytes",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-aegis": "Aegis (5+)"
     },
@@ -2410,6 +2659,7 @@
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       },
@@ -2423,6 +2673,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       }
     ],
@@ -2443,6 +2694,7 @@
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-light_lance": "Light Lance",
       "rulebook-impact_hits": "Impact Hits (D6)",
@@ -2485,6 +2737,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-light_lance": "Light Lance"
         }
@@ -2499,6 +2752,7 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon"
         }
       },
       {
@@ -2532,6 +2786,7 @@
     "RuleIds": {
       "rulebook-emplacement": "Emplacement",
       "rulebook-solitary": "Solitary",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "de-daeb_bolt_thrower": "Daeb Bolt Thrower (3+)"
     },
@@ -2571,6 +2826,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "de-daeb_bolt_thrower": "Daeb Bolt Thrower (3+)"
         }
@@ -2594,6 +2850,7 @@
       "rulebook-light_troops": "Light Troops",
       "rulebook-scout": "Scout",
       "rulebook-vanguard": "Vanguard",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-devastating_charge": "Devastating Charge (Distracting)",
       "rulebook-poison_attacks": "Poison Attacks (Melee)",
@@ -2637,6 +2894,7 @@
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)",
           "rulebook-devastating_charge": "Devastating Charge (Distracting)",
           "rulebook-poison_attacks": "Poison Attacks (Melee)",
@@ -2663,6 +2921,7 @@
       "rulebook-terror": "Terror",
       "rulebook-strider": "Strider (Water Terrain)",
       "de-scent_of_blood": "Scent of Blood",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-hatred": "Hatred (towards Height 3-5)",
       "rulebook-multiple_wounds": "Multiple Wounds (D3, towards Height 3-5)",
       "rulebook-stomp_attack": "Stomp Attack (D6)",
@@ -2715,6 +2974,7 @@
           "undefined": "0"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-hatred": "Hatred (towards Height 3-5)",
           "rulebook-multiple_wounds": "Multiple Wounds (D3, towards Height 3-5)",
           "rulebook-stomp_attack": "Stomp Attack (D6)"
@@ -2730,6 +2990,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
@@ -2752,6 +3013,7 @@
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-terror": "Terror",
       "de-scent_of_blood": "Scent of Blood",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-breath_attack": "Breath Attack (Str 3, AP 1)",
       "rulebook-poison_attacks": "Poison Attacks",
       "rulebook-rage": "Rage",
@@ -2799,6 +3061,7 @@
           "Ag": "2"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-breath_attack": "Breath Attack (Str 3, AP 1)",
           "rulebook-poison_attacks": "Poison Attacks",
           "rulebook-rage": "Rage",
@@ -2815,6 +3078,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
@@ -2840,6 +3104,7 @@
       "rulebook-terror": "Terror",
       "de-scent_of_blood": "Scent of Blood",
       "de-under_the_cover_of_mists": "Under the Cover of Mists",
+      "rulebook-hand_weapon": "Hand Weapon",
       "rulebook-stomp_attack": "Stomp Attack (D6)",
       "rulebook-first_strike": "First Strike (Artistry of Death)",
       "rulebook-distracting": "Distracting (1)"
@@ -2887,6 +3152,7 @@
           "Ag": "3"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
       },
@@ -2900,6 +3166,7 @@
           "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-hand_weapon": "Hand Weapon",
           "rulebook-first_strike": "First Strike (Artistry of Death)"
         }
       }
