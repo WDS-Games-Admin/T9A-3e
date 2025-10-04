@@ -390,6 +390,181 @@
     }
   },
   {
+    "Id": "e3d1f5b7a2c8d4f9a7c3e6b2d",
+    "Name": "Ganzorig, the Ironbond",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "ok-been_the_done_that": "Been There, Done That.",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-general": "General",
+      "ok-get_the_job_done": "Get the Job Done!",
+      "rulebook-light_troops": "Light Troops",
+      "ok-the_ironbond": "The Ironbond",
+      "ok-young_mercenaries" : "Young Mercenaries",
+      "rulebook-impact hits": "Impact Hits (D3 hits)",
+      "rulebook-stomp_attack": "Stomp Attack (1 hit)",
+      "rulebook-weapon_master": "Weapon Master",
+      "ok-brace_of_ogre_pistols": "Brace of Ogre Pistols (4+)",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-halberd": "Halberd",
+      "ok-hunting_spear": " Hunting Spear (3+)",
+      "ok-iron_fist": "Iron Fist",
+      "ok-ogre_crossbow": "Ogre Crossbow (3+)",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ganzorig, the Ironbond",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "ok-been_the_done_that": "Been There, Done That.",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-general": "General",
+          "ok-get_the_job_done": "Get the Job Done!",
+          "rulebook-light_troops": "Light Troops",
+          "ok-the_ironbond": "The Ironbond",
+          "ok-young_mercenaries" : "Young Mercenaries"
+       }
+      },
+      {
+        "Name": "Ganzorig, the Ironbond",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Ganzorig, the Ironbond",
+        "Values": {
+          "At": "5",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D3 hits)",
+          "rulebook-stomp_attack": "Stomp Attack (1 hit)",
+          "rulebook-weapon_master": "Weapon Master",
+          "ok-brace_of_ogre_pistols": "Brace of Ogre Pistols (4+)",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-halberd": "Halberd",
+          "ok-hunting_spear": " Hunting Spear (3+)",
+          "ok-iron_fist": "Iron Fist",
+          "ok-ogre_crossbow": "Ogre Crossbow (3+)",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "b2d8a3f6c1e7d9b5c4a2f8e9c",
+    "Name": "Valish, the Chefling",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "ok-erus_secret_recipes": "Eru's Secret Recipes",
+      "ok-ghost_pepper": "Ghost Pepper",
+      "ok-gone_but_not_forgotten": "Gone but not Forgotten",
+      "rulebook-warplatform": "War Platform",
+      "rulebook-grind_attack": "Grind Attack (1 hit)",
+      "rulebook-impact_hits": "Impact Hits (1 hit)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Valish, the Chefling",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "6",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "ok-erus_secret_recipes": "Eru's Secret Recipes",
+          "ok-ghost_pepper": "Ghost Pepper",
+          "ok-gone_but_not_forgotten": "Gone but not Forgotten",
+          "rulebook-warplatform": "War Platform"
+        }
+      },  
+      {
+        "Name": "Valish",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Valish",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Stir Master",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (1 hit)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "",
+          "Of": "",
+          "St": "4",
+          "AP": "1",
+          "Ag": ""
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (1 hit)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "40",
+        "length": "80"
+      }
+    }
+  },
+  {
     "Id": "68357f6b790d8280c4b242f6",
     "Name": "Tribesmen",
     "Attributes": {},

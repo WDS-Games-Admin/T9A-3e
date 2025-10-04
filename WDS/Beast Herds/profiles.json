@@ -728,6 +728,159 @@
     }
   },
   {
+    "Id": "b1d4e8a9237c5f2a9d8b1c3d4",
+    "Name": "Moohoarrgh, the Perpetuator of Heroes",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-channel": "Channel (1)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-musician": "Musician",
+      "bh-pack_tactics": "Pack Tactics",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-protean_magic": "Protean Magic (3)",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-strider": "Strider (Forest)",
+      "bh-tales_of_the_fallen": "Tales of the Fallen"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Moohoarrgh, the Perpetuator of Heroes",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-channel": "Channel (1)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-musician": "Musician",
+          "bh-pack_tactics": "Pack Tactics",
+          "rulebook-protean_magic": "Protean Magic (3)",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-strider": "Strider (Forest)",
+          "bh-tales_of_the_fallen": "Tales of the Fallen"
+        }
+      },
+      {
+        "Name": "Moohoarrgh, the Perpetuator of Heroes",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Moohoarrgh, the Perpetuator of Heroes",
+        "Values": {
+          "At": "1",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "bh-primal_instinct": "Primal Instinct"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "a7d8f9b2c4a1e3f9d6c8b0e5",
+    "Name": "Ghaa, THE Quiet Muzzle",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Battlefield Edge)",
+      "rulebook-exclusive": "Exclusive (Units withut other Character)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-fury": "Fury",
+      "rulebook-impact_hits": "Impact Hits (D3 hits)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-mMindless": "Mindless",
+      "bh-standing_in_wait": "Standing in Wait",
+      "bh-primal_instinct": "Primal Instinct",
+      "rulebook-resistance": "Resistance",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-Swiftstride": "Swiftstride",
+      "rulebook-zeal": "Zeal"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ghaa, THE Quiet Muzzle",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Battlefield Edge)",
+          "rulebook-exclusive": "Exclusive (Units withut other Character)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-mindless": "Mindless",
+          "bh-standing_in_wait": "Standing in Wait",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-Swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Ghaa, THE Quiet Muzzle",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-resistance": "Resistance"
+        }
+      },
+      {
+        "Name": "Ghaa, THE Quiet Muzzle",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-fury": "Fury",
+          "rulebook-impact_hits": "Impact Hits (D3 hits)",
+          "bh-primal_instinct": "Primal Instinct",
+          "rulebook-zeal": "Zeal"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
     "Id": "68357f26790d8280c4b1e597",
     "Name": "Wildhorn Herd",
     "Attributes": {},
@@ -1440,7 +1593,7 @@
       "rulebook-unstable": "Unstable",
       "rulebook-ambush": "Ambush (Field, Forest, or Water Terrain)",
       "bh-sleeper": "Sleeper",
-      "rulebook-sleeper": "Solitary"
+      "rulebook-solitary": "Solitary"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1462,7 +1615,7 @@
           "rulebook-unstable": "Unstable",
           "rulebook-ambush": "Ambush (Field, Forest, or Water Terrain)",
           "bh-sleeper": "Sleeper",
-          "rulebook-sleeper": "Solitary"
+          "rulebook-solitary": "Solitary"
         }
       },
       {

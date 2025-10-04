@@ -1740,6 +1740,168 @@
       }
     }
   },
+ {
+    "Id": "a7b4f3c1e8d9f6a2b7d3c9e5f",
+    "Name": "Lady Chryselie",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-autonomous": "Autonomous",
+      "rulebook-fearless": "Fearless",
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+      "rulebook-general": "General",
+      "vc-sangreal": "Sangreal",
+      "vc-the_dead_arise": "The Dead Arise",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-distracting": "Distracting (1)",
+      "vc-dance_of_death": "Dance of Death",
+      "vc-unholy_appetite": "Unholy Appetite",
+      "vc-thirsty_rapiers": "Thirsty Rapiers"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Lady Chryselie",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Rsr": "1",
+          "Hgt": "1"
+        },
+        "RuleIds": {      
+          "vc-autonomous": "Autonomous",
+          "rulebook-fearless": "Fearless",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+          "rulebook-general": "General",
+          "vc-sangreal": "Sangreal",
+          "vc-the_dead_arise": "The Dead Arise",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Lady Chryselie",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting (1)"
+        }
+      },
+      {
+        "Name": "Lady Chryselie",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "vc-dance_of_death": "Dance of Death",
+          "vc-unholy_appetite": "Unholy Appetite",
+          "vc-thirsty_rapiers": "Thirsty Rapiers"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "d3f7b1e9c4a2d8f6e5c9a0b3d",
+    "Name": "The Collective of Varyag",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Skeletons, Zombies)",
+      "vc-coven_of_skulls": "Coven of Skulls",
+      "vc-ever_growing": "Ever Growing",
+      "rulebook-fearless": "Fearless",
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+      "rulebook-horror": "Horror",
+      "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-wizard_master": "Wizard Master (Evocation)",
+      "rulebook-regeneration": "Regeneration (4+)",
+      "rulebook-stomp_attack": "Stomp Attack (D6 hits)",
+      "vc-cacophony_of_suffering": "Cacophony of Suffering"
+},
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "The Collective of Varyag",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Rsr": "1",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Skeletons, Zombies)",
+          "vc-coven_of_skulls": "Coven of Skulls",
+          "vc-ever_growing": "Ever Growing",
+          "rulebook-fearless": "Fearless",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+          "rulebook-horror": "Horror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
+          "rulebook-wizard_master": "Wizard Master (Evocation)"
+        }
+      },
+      {
+        "Name": "The Collective of Varyag",
+        "Values": {
+          "HP": "8",
+          "Df": "3",
+          "Re": "5",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (4+)"
+        }
+      },
+      {
+        "Name": "The Collective of Varyag",
+        "Values": {
+          "At": "",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {      
+          "rulebook-stomp_attack": "Stomp Attack (D6 hits)",
+          "vc-cacophony_of_suffering": "Cacophony of Suffering"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
   {
     "Id": "68357f8e790d8280c4b26edf",
     "Name": "Zombies",

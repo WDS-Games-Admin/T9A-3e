@@ -1442,6 +1442,172 @@
     }
   },
   {
+    "Id": "b1c3d8a7e9f4c5a2b6d3e8f9a",
+    "Name": "Techainin and Blaishoi",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Battlefield Edge, Water Terrain)",
+      "de-a_watery_grave": "A Watery Grave",
+      "de-barbed_nets": "Barbed Nets",
+      "de-coastal-predator": "Coastal Predator",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-horror": "Horror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-soltary": "Solitary",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "de-blessed_by_harag": "Blessed by Harag",
+      "de-artistry_of_death": "Artistry of Death",
+      "rulebook-elven_finesse": "Elven Finesse",
+      "de-grim_harpoon": "Grim Harpoon",
+      "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1 hit)"
+  },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Techainin and Blaishoi",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "10",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Battlefield Edge, Water Terrain)",
+          "de-a_watery_grave": "A Watery Grave",
+          "de-barbed_nets": "Barbed Nets",
+          "de-coastal-predator": "Coastal Predator",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-horror": "Horror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-soltary": "Solitary",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
+      },
+      {
+        "Name": "Techainin",
+        "Values": {
+          "HP": "5",
+          "Df": "8",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "de-blessed_by_harag": "Blessed by Harag"
+        }
+      },
+      {
+        "Name": "Techainin",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "de-artistry_of_death": "Artistry of Death",
+          "rulebook-elven_finesse": "Elven Finesse",
+          "de-grim_harpoon": "Grim Harpoon"
+       }
+      },
+      {
+        "Name": "Blaishoi",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (Distracting)",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1 hit)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "b1d4e8a9237c5f2a9d8b1c3d4b",
+    "Name": "The Black Rose",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "de-aembeghen_s_blades": "Aembeghen's Blades",
+      "de-artistry_of_death": "Artistry of Death",
+      "rulebook-aegis": "Aegis (5+)",
+      "de-dance_of_the_rose": "Dance of the Rose",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "de-the_obsidian_thorns": "The Obsidian Thorns"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "The Black Rose",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "10",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops",
+          "de-the_obsidian_thorns": "The Obsidian Thorns"
+        }
+      },
+      {
+        "Name": "The Black Rose",
+        "Values": {
+          "HP": "3",
+          "Df": "8",
+          "Re": "3",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "The Black Rose",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "de-aembeghen_s_blades": "Aembeghen's Blades",
+          "de-artistry_of_death": "Artistry of Death",
+          "de-dance_of_the_rose": "Dance of the Rose"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "68357f36790d8280c4b1fa7e",
     "Name": "Silexian Spears",
     "Attributes": {},

@@ -1804,6 +1804,231 @@
     }
   },
   {
+    "Id": "a2b4c9d5e7f8a3d6b2c9e4f7a",
+    "Name": "King Henry the Young",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "koe-a_worthy_foe" : "A Worthy Foe",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-general": "General",
+      "koe-new_guard" : "New Guard",
+      "rulebook-nobility": "Nobility",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-shield": "Shield",
+      "koe-feyforged_lance" : "Feyforged Lance"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "King Henry the Young",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "koe-a_worthy_foe" : "A Worthy Foe",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-general": "General",
+          "koe-new_guard" : "New Guard",
+          "rulebook-nobility": "Nobility"
+        }
+      },
+      {
+        "Name": "King Henry",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "King Henry",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "koe-feyforged_lance" : "Feyforged Lance"
+        }
+      },
+      {
+        "Name": "Grivaillant",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "a3b7c5d8e2f6a4d9b3e7f9a",
+    "Name": "Hernaut Le Rouquin",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "koe-borrowed_steed" : "'Borrowed' Steed",
+      "rulebook-hidden": "Hidden",
+      "koe-infuriating_wit": "Infuriating Wit",
+      "rulebook-wizard_adept": "Wizard Adept (Witchcraft)",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-afflict": "Afflict (Pursuit Distance is always 0″)",
+      "rulebook-commonfolk": "Commonfolk",
+      "koe-leprechaun_companion" : "Leprechaun Companion"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Hernaut Le Rouquin",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "koe-borrowed_steed" : "'Borrowed' Steed",
+          "rulebook-hidden": "Hidden",
+          "koe-infuriating_wit": "Infuriating Wit",
+          "rulebook-wizard_adept": "Wizard Adept (Witchcraft)"
+        }
+      },
+      {
+        "Name": "Hernaut Le Rouquin",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-afflict": "Afflict (Pursuit Distance is always 0″)",
+          "rulebook-commonfolk": "Commonfolk",
+          "koe-leprechaun_companion" : "Leprechaun Companion"
+        }
+      },
+      {
+        "Name": "Hernaut Le Rouquin",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "m1n2o3p4-q5r6s7t8-u9v0w1x2-y3z4a5b6c7d",
+    "Name": "Destrier",
+    "Attributes": {
+    "type": "",
+    "height": "Standard",
+    "totalcost": "280"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "koe-borrowed_steed" : "'Borrowed' Steed",
+      "rulebook-hidden": "Hidden",
+      "koe-infuriating_wit": "Infuriating Wit",
+      "rulebook-wizard_adept": "Wizard Adept (Witchcraft)",
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-afflict": "Afflict (Pursuit Distance is always 0″)",
+      "rulebook-commonfolk": "Commonfolk",
+      "koe-leprechaun_companion" : "Leprechaun Companion",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-swiftstride": "Swiftstride"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Destrier",
+        "Values": {
+        "Ad": "8",
+        "Ma": "8",
+        "Di": "8",
+        "Hgt": "2"
+        },
+        "RuleIds": {
+          "koe-borrowed_steed" : "'Borrowed' Steed",
+          "rulebook-hidden": "Hidden",
+          "koe-infuriating_wit": "Infuriating Wit",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_adept": "Wizard Adept (Witchcraft)"
+        }
+      },
+      {
+        "Name": "Destrier",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "rulebook-afflict": "Afflict (Pursuit Distance is always 0″)",
+          "rulebook-commonfolk": "Commonfolk",
+          "koe-leprechaun_companion" : "Leprechaun Companion"
+        }
+      },
+      {
+        "Name": "Destrier",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+       "Shape": "square",
+       "Size": {
+         "width": "25",
+         "length": "50"
+      }
+    }
+  },
+  {
     "Id": "68357f5e790d8280c4b23243",
     "Name": "Knights of the Realm",
     "Attributes": {},

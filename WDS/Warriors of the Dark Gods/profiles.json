@@ -1948,6 +1948,187 @@
     }
   },
   {
+    "Id": "b2d8a6f1c9e7a4f3b5c2d7e9",
+    "Name": "Klaas, the Giving",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "wdg-battle_fever": "Battle Fever",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-general": "General",
+      "wdg-legendary_beasts": "Legendary Beasts (3)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-supernal": "Supernal",
+      "wdg-the_fathers_gifts": "The Father's Gifts",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-magical_attacks": "Magical Attacks" ,
+      "wdg-memory_of_a_hoarded_blade": "Memory of a Hoarded Blade",      
+      "rulebook-impact_hits": "Impact Hits (2D3 hits)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Klaas, the Giving",
+        "Values": {
+          "Ad": "10",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "wdg-battle_fever": "Battle Fever",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-general": "General",
+          "wdg-legendary_beasts": "Legendary Beasts (3)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-strider": "Strider (Water Terrain)",
+          "rulebook-supernal": "Supernal",
+          "wdg-the_fathers_gifts": "The Father's Gifts"
+        }
+      },  
+      {
+        "Name": "Klaas, the Giving",
+        "Values": {
+          "HP": "6",
+          "Df": "8",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
+      },
+      {
+        "Name": "Klaas, the Giving",
+        "Values": {
+          "At": "6",
+          "Of": "9",
+          "St": "5",
+          "AP": "2",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "wdg-memory_of_a_hoarded_blade": "Memory of a Hoarded Blade" 
+        }
+      },
+      {
+        "Name": "Rupert and Co (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "",
+          "Of": "",
+          "St": "4",
+          "AP": "3",
+          "Ag": ""
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (2D3 hits)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "f5b2d7a4e9f0c6a1d3b8f2a7d",
+    "Name": "Ook, the Ape King",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "wdg-legendary_beasts": "Legendary Beasts (2)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unstable": "Unstable",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-stomp_attack": "Stomp Attack (D6 hits)", 
+      "wdg-protean_limbs": "Protean Limbs"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ook, the Ape King",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "wdg-legendary_beasts": "Legendary Beasts (2)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Ook, the Ape King",
+        "Values": {
+          "HP": "8",
+          "Df": "6",
+          "Re": "6",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Ook, the Ape King",
+        "Values": {
+          "At": "5",
+          "Of": "7",
+          "St": "6",
+          "AP": "2",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-stomp_attack": "Stomp Attack (D6 hits)", 
+          "wdg-protean_limbs": "Protean Limbs"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
     "Id": "68357f9e790d8280c4b27fe9",
     "Name": "Warriors",
     "Attributes": {},

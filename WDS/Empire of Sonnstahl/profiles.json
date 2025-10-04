@@ -1347,6 +1347,164 @@
     }
   },
   {
+    "Id": "d3a9f6b7c4e2d8a3c1f5b7a9c",
+    "Name": "Heinrich Falkenbach",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-aegis": "Aegis (4+)",
+      "eos-a_koelhunds_chase": "A Koelhund's chase",
+      "eos-divine_jurisdiction": "Divine Jurisdiction",
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "eos-gregors_holy_hammer": "Gregor's Holy Hammer",
+      "rulebook-imperial_authority,": "Imperial Authority",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-march_and_shoot": "March and Shoot",
+      "rulebook-shield": "Shield",
+      "eos-silver_shots": "Silver Shots",
+      "rulebook-repeater_pistol": "Repeater Pistol",
+      "rulebook-zeal": "Zeal"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Heinrich Falkenbach",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "eos-a_koelhunds_chase": "A Koelhund's chase",
+          "eos-divine_jurisdiction": "Divine Jurisdiction",
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "rulebook-imperial_authority,": "Imperial Authority",
+          "rulebook-light_troops": "Light Troops"
+       }
+      },
+      {
+        "Name": "Heinrich Falkenbach",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Heinrich Falkenbach",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "eos-gregors_holy_hammer": "Gregor's Holy Hammer",
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-march_and_shoot": "March and Shoot",
+          "eos-silver_shots": "Silver Shots",
+          "rulebook-repeater_pistol": "Repeater Pistol",
+          "rulebook-zeal": "Zeal"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "e4b8f2a7d9e1f6c3a4d5b8a7c",
+    "Name": "Brother Tomaz",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-attached": "Attached",
+      "rulebook-general": "Captain",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-exclusive": "Exclusive (Units without other Characters)",
+      "eos-fanatical_devotion": "Fanatical Devotion",      
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "eos-officially_not_a_miracle": "Officially Not A Miracle",
+      "eos-repent": "Repent!",
+      "rulebook-resistance": "Resistance",
+      "eos-shepherding_the_flock": "Shepherding the Flock"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Brother Tomaz",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
+          "rulebook-exclusive": "Exclusive (Units without other Characters)",
+          "eos-fanatical_devotion": "Fanatical Devotion",      
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "eos-officially_not_a_miracle": "Officially Not A Miracle",
+          "eos-shepherding_the_flock": "Shepherding the Flock"
+       }
+      },
+      {
+        "Name": "Brother Tomaz",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "rulebook-resistance": "Resistance"
+        }
+      },
+      {
+        "Name": "Brother Tomaz",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-divine_attacks": "Divine Attacks",
+          "eos-repent": "Repent!"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "68357f45790d8280c4b20bc5",
     "Name": "State Marksmen",
     "Attributes": {},

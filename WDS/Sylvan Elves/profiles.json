@@ -1266,6 +1266,210 @@
     }
   },
   {
+    "Id": "d2f7e1a8b3c9f4d6e2a1c9b7f",
+    "Name": "Dwatobel, The World-Wandering Tree",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "se-forest_dweller": "Forest Dweller",
+      "rulebook-solitary": "Solitary",
+      "rulebook-strider": "Strider (Forest)",
+      "rulebook-stubborn": "Stubborn",
+      "se-sylvan_beasts": "Sylvan Beasts (1)",
+      "rulebook-terror": "Terror",
+      "se-the_world_tree": "The World Tree",
+      "se-thickened_brush": "Thickened Brush",
+      "se-tree_singing": "Tree Singing",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-weakness": "Weakness (Flaming Attacks)",
+      "rulebook-crush_attack": "Crush Attack",
+      "se-impaling_roots": "Impaling Roots",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-afflict": "Afflict (-1 Combat Resolution)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6 hits)",
+      "rulebook-toxic_attacks": "Toxic Attacks"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Dwatobel, The World-Wandering Tree",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "se-forest_dweller": "Forest Dweller",
+          "rulebook-solitary": "Solitary",
+          "rulebook-strider": "Strider (Forest)",
+          "rulebook-stubborn": "Stubborn",
+          "se-sylvan_beasts": "Sylvan Beasts (1)",
+          "rulebook-terror": "Terror",
+          "se-the_world_tree": "The World Tree",
+          "se-thickened_brush": "Thickened Brush",
+          "se-tree_singing": "Tree Singing",
+          "rulebook-wizard_adept": "Wizard Adept"
+}
+      },
+      {
+        "Name": "Dwatobel, The World-Wandering Tree",
+        "Values": {
+          "HP": "6",
+          "Df": "4",
+          "Re": "7",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "rulebook-weakness": "Weakness (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Dwatobel",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-crush_attack": "Crush Attack",
+          "se-impaling_roots": "Impaling Roots",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6 hits)"
+        }
+      },
+      {
+        "Name": "Colony of Frogs (6)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-toxic_attacks": "Toxic Attacks"
+        }
+      },
+      {
+        "Name": "Murder of Crows (6)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-afflict": "Afflict (-1 Combat Resolution)"
+        }
+      },
+      {
+        "Name": "Nest of Vipers (6)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "2",
+          "AP": "0",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-poison_attacks": "Poison Attacks"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "a3b2e4d8f1c9e7a3b2d1c9a5b",
+    "Name": "Domethloc, The Unicorn Shapeshifter",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-strider": "Strider",
+      "se-the_unicornpath": "The Unicorn's Path",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-magic_resistance": "Magic Resistance (3)",
+      "rulebook-resistance": "Resistance (against Magical Attacks)",
+      "rulebook-weapon_master": "Weapon Master",
+      "se-the_unicorns_fury": "The Unicorn's Fury",
+      "se-the_unicorns_horn": "The Unicorn's Horn"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Domethloc, The Unicorn Shapeshifter",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+         "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-strider": "Strider",
+          "se-the_unicornpath": "The Unicorn's Path",
+          "rulebook-vanguard": "Vanguard"
+        }
+      },
+      {
+        "Name": "Domethloc, The Unicorn Shapeshifter",
+        "Values": {
+          "HP": "3",
+          "Df": "8",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "rulebook-magic_resistance": "Magic Resistance (3)",
+          "rulebook-resistance": "Resistance (against Magical Attacks)"
+        }
+      },
+      {
+        "Name": "Domethloc",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "rulebook-weapon_master": "Weapon Master",
+          "se-the_unicorns_fury": "The Unicorn's Fury",
+          "se-the_unicorns_horn": "The Unicorn's Horn"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "68357f80790d8280c4b25cb8",
     "Name": "Forest Guard",
     "Attributes": {},

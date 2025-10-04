@@ -1188,6 +1188,369 @@
     }
   },
   {
+    "Id": "d2a8f4b12d3c5e7a9f9b0c4d2",
+    "Name": "Tristitia",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-aegis": "Aegis (5+)",
+      "dl-abandon_all_hope": "Abandon All Hope",
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "dl-growing_despair": "Growing Despair",
+      "rulebook-Hard Target": "Hard Target (1)",
+      "rulebook-horror": "Horror",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-march_and_shoot": "March and Shoot",
+      "rulebook-psychic_attacks": "Psychic Attacks",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-stomp_attacks_attack": "Stomp Attacks (D6 hits)",
+      "rulebook-swiftstride": "Swiftride",
+      "rulebook-terror": "Terror",
+      "rulebook-wizard_master": "Wizard Master"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tristitia",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "dl-abandon_all_hope": "Abandon All Hope",
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "dl-growing_despair": "Growing Despair",
+          "rulebook-horror": "Horror",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftride",
+          "rulebook-terror": "Terror",
+          "rulebook-wizard_master": "Wizard Master (Evocation)"
+        }
+      },
+      {
+        "Name": "Tristitia",
+        "Values": {
+          "HP": "7",
+          "Df": "4",
+          "Re": "6",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Tristitia",
+        "Values": {
+          "At": "5",
+          "Of": "4",
+          "St": "9",
+          "AP": "10",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-march_and_shoot": "March and Shoot",
+          "rulebook-psychic_attacks": "Psychic Attacks",
+          "rulebook-stomp_attacks_attack": "Stomp Attacks (D6 hits)"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+{
+    "Id": "e2937d5b4f6a9c882ab9b1f70",
+    "Name": "Tergon Khan",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "dl-commander_of_the_steppes": "Commander of the Steppes",
+      "rulebook-disciplined": "Disciplined", 
+      "dl-divine_right": "Divine Right", 
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "dl-golden_helm": "Golden Helm",
+      "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_adept": "Wizard Adept (Divination)",
+      "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
+      "dl-bronze_backbone": "Bronze Backbone (Dominant)",
+      "rulebook-lethal_strike": "Lethal Strike (against Characters)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+      "rulebook-zeal": "Zeal (Dragons)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tergon Khan",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "10",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "dl-commander_of_the_steppes": "Commander of the Steppes",
+          "rulebook-disciplined": "Disciplined", 
+          "dl-divine_right": "Divine Right", 
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "dl-golden_helm": "Golden Helm",
+          "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_adept": "Wizard Adept (Divination)",
+          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
+          "dl-bronze_backbone": "Bronze Backbone (Dominant)",
+          "rulebook-lethal_strike": "Lethal Strike (against Characters)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+          "rulebook-zeal": "Zeal (Dragons)"
+        }
+      },
+      {
+        "Name": "Tergon Khan",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "2",
+          "Arm": "0",
+          "Aeg": "4"
+        },
+        "RuleIds": {          
+          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)"
+        }
+      },
+      {
+        "Name": "Tergon",
+        "Values": {
+          "At": "3D3+3",
+          "Of": "3D3+3",
+          "St": "6",
+          "AP": "3",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "dl-bronze_backbone": "Bronze Backbone (Dominant)",
+          "rulebook-lethal_strike": "Lethal Strike (against Characters)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+          "rulebook-zeal": "Zeal (Dragons)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+{
+    "Id": "f39d2ac4-5b99-42e1-b0f7-7b0adf5d6d9b",
+    "Name": "Hellsteed",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "160"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "dl-commander_of_the_steppes": "Commander of the Steppes",
+      "rulebook-disciplined": "Disciplined", 
+      "dl-divine_right": "Divine Right", 
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "dl-golden_helm": "Golden Helm",
+      "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_adept": "Wizard Adept (Divination)",
+      "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
+      "dl-bronze_backbone": "Bronze Backbone (Dominant)",
+      "rulebook-lethal_strike": "Lethal Strike (against Characters)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+      "rulebook-zeal": "Zeal (Dragons)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider",
+      "rulebook-vanguard": "Vanguard"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Hellsteed",
+        "Values": {
+          "Ad": "10",
+          "Ma": "10",
+          "Di": "10",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "dl-commander_of_the_steppes": "Commander of the Steppes",
+          "rulebook-disciplined": "Disciplined", 
+          "dl-divine_right": "Divine Right", 
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "dl-golden_helm": "Golden Helm",
+          "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_adept": "Wizard Adept (Divination)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-vanguard": "Vanguard"
+        }
+      },  
+      {
+        "Name": "Hellsteed",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "0",
+          "Aeg": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)"
+        }
+      },
+      {
+        "Name": "Hellsteed",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+{
+    "Id": "b39e2b7f-7a6c-49b0-b57a-3e6c79d8abf7",
+    "Name": "Great Beast",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "190"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "dl-commander_of_the_steppes": "Commander of the Steppes",
+      "rulebook-disciplined": "Disciplined", 
+      "dl-divine_right": "Divine Right", 
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "dl-golden_helm": "Golden Helm",
+      "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-wizard_adept": "Wizard Adept (Divination)",
+      "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
+      "dl-bronze_backbone": "Bronze Backbone (Dominant)",
+      "rulebook-lethal_strike": "Lethal Strike (against Characters)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+      "rulebook-zeal": "Zeal (Dragons)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (2 hits)",
+      "rulebook-stomp_attack": "Stomp Attack (1 hit)"
+      },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Beast",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "10",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "dl-commander_of_the_steppes": "Commander of the Steppes",
+          "rulebook-disciplined": "Disciplined", 
+          "dl-divine_right": "Divine Right", 
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "dl-golden_helm": "Golden Helm",
+          "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-wizard_adept": "Wizard Adept (Divination)"
+        }
+      },
+      {
+        "Name": "Great Beast",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "0",
+          "Aeg": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)"
+        }
+      },
+      {
+        "Name": "Great Beast",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-impact_hits": "Impact Hits (2 hits)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1 hit)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
     "Id": "68357f30790d8280c4b1efe2",
     "Name": "Imps",
     "Attributes": {},

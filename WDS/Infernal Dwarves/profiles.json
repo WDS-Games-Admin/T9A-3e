@@ -1353,6 +1353,198 @@
     }
   },
   {
+    "Id": "b4d2a7e3f9c1d6a5b9c4e7d3f",
+    "Name": "Abazzalem, the Mechanical Lamassu",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "id-full_steam_ahead" : "Full Steam Ahead!",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-terror": "Terror",
+      "id-the_riddle_of_peace" : "The Riddle of Peace",
+      "rulebook-unstable": "Unstable",
+      "rulebook-wizard_master": "Wizard Master",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+      "rulebook-grind_attack": "Grind Attack (3D3 hits)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Abazzalem, the Mechanical Lamassu",
+        "Values": {
+          "Ad": "4",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "id-full_steam_ahead" : "Full Steam Ahead!",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-terror": "Terror",
+          "id-the_riddle_of_peace" : "The Riddle of Peace",
+          "rulebook-unstable": "Unstable",
+          "rulebook-wizard_master": "Wizard Master"
+        }
+      },
+      {
+        "Name": "Abazzalem",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "8",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Abazzalem",
+        "Values": {
+          "At": "2",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "",
+          "Of": "",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+          "rulebook-grind_attack": "Grind Attack (3D3 hits)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "a3f9b7c2e6d1a4f5b8c2d9e7a",
+    "Name": "Ibat-Sokavum, the Flying Charioteer",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-general": "General",
+      "id-helm_of_kadim_command": "Helm of Kadim Command",
+      "rulebook-solitary": "Solitary",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (3+, against Flaming Attacks ; 4+)",
+      "id-burning_armour": "Burning Armour",
+      "id-infernal_armour" : "Infernal Armour",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "id-blivet_lance": "Blivet Lance",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-impact_hits": "Impact Hits (D6+2 hits)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ibat-Sokavum, the Flying Charioteer",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "10",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-general": "General",
+          "id-helm_of_kadim_command": "Helm of Kadim Command",
+          "rulebook-solitary": "Solitary",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },  
+      {
+        "Name": "Ibat-Sokavum, the Flying Charioteer",
+        "Values": {
+          "HP": "5",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (3+, against Flaming Attacks ; 4+)",
+          "id-burning_armour": "Burning Armour",
+          "id-infernal_armour": "Infernal Armour"
+        }
+      },
+      {
+        "Name": "Ibat-Sokavum",
+        "Values": {
+          "At": "4",
+          "Of": "7",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "id-blivet_lance" : "Blivet Lance"
+        }
+      },
+      {
+        "Name": "Winged Kadim (2)",
+        "Values": {
+          "At": "3",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Nezibrutash",
+        "Values": {
+          "At": "",
+          "Of": "",
+          "St": "5",
+          "AP": "2",
+          "Ag": ""
+        },
+        "RuleIds": {
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-impact_hits": "Impact Hits (D6+2 hits)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
     "Id": "68357f56790d8280c4b225eb",
     "Name": "Infernal Warriors",
     "Attributes": {},

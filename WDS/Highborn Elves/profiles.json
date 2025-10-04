@@ -1693,6 +1693,161 @@
     }
   },
   {
+    "Id": "e7d9f1b6a8c2d3a9f4e5b7a6d",
+    "Name": "Master Acadnath, the Asfad Scholar",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "he-asfada_headmaster": "Asfada Headmaster",
+      "he-asfad_scholar": "Asfad Scholar",
+      "he-commander_of_the_veil": "Commander of the Veil",
+      "rulebook-disciplined": "Disciplined",
+      "he-master_of_spellcrafting": "Master of Spellcrafting",
+      "he-shroud_seekers": "Shroud Seekers",
+      "rulebook-wizard_master": "Wizard Master"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Master Acadnath, the Asfad Scholar",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "he-asfada_headmaster": "Asfada Headmaster",
+          "he-asfad_scholar": "Asfad Scholar",
+          "he-commander_of_the_veil": "Commander of the Veil",
+          "rulebook-disciplined": "Disciplined",
+          "he-master_of_spellcrafting": "Master of Spellcrafting",
+          "he-shroud_seekers": "Shroud Seekers",
+          "rulebook-wizard_master": "Wizard Master"
+       }
+      },
+      {
+        "Name": "Master Acadnath, the Asfad Scholar",
+        "Values": {
+          "HP": "3",
+          "Df": "5",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Master Acadnath",
+        "Values": {
+          "At": "1",
+          "Of": "5",
+          "St": "3",
+          "AP": "0",
+          "Ag": "5"
+        },
+        "RuleIds": {}
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "e7d9f1b6a8c2d3a9f4e5b7a6d1",
+    "Name": "Tenacla and Baluruth",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "he-meeting_of_minds": "Meeting of Minds",
+      "he-queens_cavalier": "Queen's Cavalier",
+      "he-rogue_heroine": "Rogue Heroine",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "he-the_lance_of_tears": "The Lance of Tears",
+      "rulebook-breath_attack": "Breath Attack (Str4, AP1, Flaming Attacks)",
+      "he-scourge_of_fleets": "Scourge of Fleets",
+      "rulebook-stomp_attack": "Stomp Attack (D6 hits)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Tênacla and Balûruth",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "10",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "he-meeting_of_minds": "Meeting of Minds",
+          "he-queens_cavalier": "Queen's Cavalier",
+          "he-rogue_heroine": "Rogue Heroine",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Tênacla and Balûruth",
+        "Values": {
+          "HP": "8",
+          "Df": "6",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Tênacla",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "he-the_lance_of_tears": "The Lance of Tears"
+        }
+      },
+      {
+        "Name": "Balûruth",
+        "Values": {
+          "At": "6",
+          "Of": "6",
+          "St": "7",
+          "AP": "1",
+          "Ag": "3"
+         },
+        "RuleIds": {
+          "rulebook-breath_attack": "Breath Attack (Str4, AP1, Flaming Attacks)",
+          "he-scourge_of_fleets": "Scourge of Fleets",
+          "rulebook-stomp_attack": "Stomp Attack (D6 hits)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
     "Id": "68357f4b790d8280c4b218a3",
     "Name": "Citizen Spears",
     "Attributes": {},

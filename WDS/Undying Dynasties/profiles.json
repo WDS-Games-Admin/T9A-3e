@@ -982,6 +982,196 @@
     }
   },
   {
+    "Id": "a7d1c3f8b2e6d9a4c1f5e7d8b",
+    "Name": "Ashotet, Custodian of Souls",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {},
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Ashotet, Custodian of Souls",
+        "Values": {
+          "Ad": "4",
+          "Ma": "7",
+          "Di": "1",
+          "Rsr": "1",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "ud-assailed_sanity": "Assailed Sanity",
+          "rulebook-channel": "Channel (1)",
+          "ud-death_is_only_the_beginning": "Death is only the Beginning",
+          "rulebook-exclusive": "Exclusive (Tormented Souls)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops",
+          "ud-soul_conduit": "Soul Conduit",
+          "ud-the_lost_and_damned": "The Lost and Damned",
+          "ud-the_pyramidion": "The Pyramidion",
+          "ud-tormented_souls": "Tormented Souls",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
+          "rulebook-warplatform": "War Platform",
+          "rulebook-wizard_master": "Wizard Master",
+          "rulebook-aegis": "Aegis (5+, against Magical Attacks)",
+          "rulebook-hatred": "Hatred",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },  
+      {
+        "Name": "Ashotet, Custodian of Souls",
+        "Values": {
+          "HP": "5",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+, against Magical Attacks)"
+        }
+      },
+      {
+        "Name": "Ashotet",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hatred": "Hatred",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "  Spectral Guard (6)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-hatred": "Hatred",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "b4e2c8f7d1a5b9c3e6d7f2a1c",
+    "Name": "Rehnepeh, the Undying Sun",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "ud-staff_of_pi_ankh_khahiroth": "Staff of Pi-Ankh Khahiroth",
+      "ud-the_golden_chariot" : "The Golden Chariot",
+      "rulebook-unstable": "Unstable",
+      "rulebook-rRegeneration": "Regeneration (5+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-shield": "Shield",
+      "ud-charioteer_of_the_sun": "Charioteer of the Sun",
+      "rulebook-grind_attack": "Grind Attack (1 hit)",
+      "rulebook-impact_hits": "Impact Hits (2D3 + 3 hits)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Rehnepeh, the Undying Sun",
+        "Values": {
+          "Ad": "8",
+          "Ma": "5",
+          "Di": "9",
+          "Rsr": "1",
+          "Hgt": "4"
+        },
+        "RuleIds": {      
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "ud-staff_of_pi_ankh_khahiroth": "Staff of Pi-Ankh Khahiroth",
+          "ud-the_golden_chariot" : "The Golden Chariot",
+          "rulebook-unstable": "Unstable"
+        }
+      },  
+      {
+        "Name": "Rehnepeh, the Undying Sun",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-rRegeneration": "Regeneration (5+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Rehnepeh",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "ud-charioteer_of_the_sun": "Charioteer of the Sun"
+        }
+      },
+      {
+        "Name": " Skeletal Horse (4)",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (1 hit)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "",
+          "Of": "",
+          "St": "5"	,
+          "AP": "2",
+          "Ag": ""
+        },
+        "RuleIds": {
+          "rulebook-unstable": "Unstable"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "100",
+        "length": "100"
+      }
+    }
+  },
+  {
     "Id": "68357f86790d8280c4b26320",
     "Name": "Skeleton Warriors",
     "Attributes": {},

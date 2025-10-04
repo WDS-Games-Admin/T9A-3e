@@ -670,6 +670,173 @@
     }
   },
   {
+    "Id": "b7c2d4e9a3f6g1d5h8j9k7l3m",
+    "Name": "Anurarch Destined",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-communal_bond": "Communal Bond",
+      "sa-sa-eternal_mastery": "Eternal Mastery",
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "sa-greater_guiding_mastery": "Greater Guiding Mastery",
+      "rulebook-light_troops": "Light Troops",
+      "sa-like_the_tyrants_of_old": "Like the Tyrants of Old",
+      "rulebook-solitary": "Solitary",
+      "rulebook-strider": "Strider",
+      "sa-utterly_ruthless": "Utterly Ruthless",
+      "rulebook-wizard_master": "Wizard Master (Occultism)",
+      "sa-eternity_chamber": "Eternity Chamber",
+      "rulebook-grind_attack": "Grind Attack (D3+1 hits, Str 6, AP 2, Unmodifiable, Lightning Attacks)",
+      "sa-storm_crystal": "Storm Crystal"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Anurarch Destined",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {      
+          "sa-communal_bond": "Communal Bond",
+          "sa-sa-eternal_mastery": "Eternal Mastery",
+          "rulebook-fearless": "Fearless",
+          "rulebook-general": "General",
+          "sa-greater_guiding_mastery": "Greater Guiding Mastery",
+          "rulebook-light_troops": "Light Troops",
+          "sa-like_the_tyrants_of_old": "Like the Tyrants of Old",
+          "rulebook-solitary": "Solitary",
+          "rulebook-strider": "Strider",
+          "sa-utterly_ruthless": "Utterly Ruthless",
+          "rulebook-wizard_master": "Wizard Master (Occultism)"
+        }
+      },
+      {
+        "Name": "Anurarch Destined",
+        "Values": {
+          "HP": "4",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "sa-eternity_chamber": "Eternity Chamber"
+        }
+      },
+      {
+        "Name": "Anurarch Destined",
+        "Values": {
+          "At": "1",
+          "Of": "1",
+          "St": "1",
+          "AP": "0",
+          "Ag": ""
+        },
+        "RuleIds": {      
+          "rulebook-grind_attack": "Grind Attack (D3+1 hits, Str 6, AP 2, Unmodifiable, Lightning Attacks)",
+          "sa-storm_crystal": "Storm Crystal"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "a1b2c3d4e5f6a7b8c9d0e1f2a",
+    "Name": "Shade and Stone",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "sa-balance_of_nature": "Balance of Nature",
+      "sa-communal_bond": "Communal Bond",
+      "rulebook-disciplined": "Disciplined",
+      "sa-harmony_of_the_sun": "Harmony of the Sun",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-strider": "Strider (Water Terrain)",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "sa-violence_of_the_storm": "Violence of the Storm",
+      "sa-tooth_and_claw": "Tooth and Claw"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Shade and Stone",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "sa-balance_of_nature": "Balance of Nature",
+          "sa-communal_bond": "Communal Bond",
+          "rulebook-disciplined": "Disciplined",
+          "sa-harmony_of_the_sun": "Harmony of the Sun",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-strider": "Strider (Water Terrain)"
+        }
+      },
+      {
+        "Name": "Shade and Stone",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Shade",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "sa-violence_of_the_storm": "Violence of the Storm",
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
+      },
+      {
+        "Name": "Stone",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "1"
+        },
+        "RuleIds": {
+          "sa-tooth_and_claw": "Tooth and Claw"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+       "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "68357f78790d8280c4b2533a",
     "Name": "Tegu Veteran",
     "Attributes": {},

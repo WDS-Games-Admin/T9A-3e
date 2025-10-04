@@ -791,6 +791,175 @@
     }
   },
   {
+    "Id": "d4f8a2b7c3e1d9a0f5b6c4d3e",
+    "Name": "Professor Mauss",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "vs-inergon_injection": "Inergon injection!",
+      "rulebook-rally_around_the_flag": "Rally Around the Flag",
+      "rulebook-random_movement": "Random Movement (2D6)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "vs-superior_darkstone_power": "Superior Darkstone Power",
+      "rulebook-terror": "Terror",
+      "rulebook-unstable": "Unstable",
+      "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-Hit Roll)",
+      "vs-rotary_gun": "Rotary Gun (3+)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+      "rulebook-grind_attack": "Grind Attack (3D3 hits, Lightning Attacks)",
+      "vs-prototype_mauss_rifle": "Prototype Mauss Rifle"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Professor Mauss",
+        "Values": {
+          "Ad": "2D6",
+          "Ma": "2d6",
+          "Di": "7",
+          "Hgt": "5"
+        },
+        "RuleIds": {      
+          "rulebook-fearless": "Fearless",
+          "vs-inergon_injection": "Inergon injection!",
+          "rulebook-rally_around_the_flag": "Rally Around the Flag",
+          "rulebook-random_movement": "Random Movement (2D6)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "vs-superior_darkstone_power": "Superior Darkstone Power",
+          "rulebook-terror": "Terror",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Professor Mauss",
+        "Values": {
+          "HP": "8",
+          "Df": "1",
+          "Re": "8",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Professor Mauss",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-Hit Roll)",
+          "vs-rotary_gun": "Rotary Gun (3+)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": "",
+          "Of": "",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
+          "rulebook-grind_attack": "Grind Attack (3D3 hits, Lightning Attacks)",
+          "vs-prototype_mauss_rifle": "Prototype Mauss Rifle"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "d3f9e2b4a6d1f8c9b5a7d2c9b",
+    "Name": "The Shadowslice Stalker",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Tunnel Ambush)",
+      "vs-callous": "Callous",
+      "vs-disorienting_scent": "Disorienting Scent",
+      "rulebook-hidden": "Hidden",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-distracting": "Distracting",
+      "vs-mistress_of_smoke": "Mistress of Smoke",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-hatred": "Hatred (against Characters)",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "vs-shadowslices_panoply" : "Shadowslice's Panoply"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "The Shadowslice Stalker",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Tunnel Ambush)",
+          "vs-callous": "Callous",
+          "vs-disorienting_scent": "Disorienting Scent",
+          "rulebook-hidden": "Hidden",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "The Shadowslice Stalker",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-distracting": "Distracting",
+          "vs-mistress_of_smoke": "Mistress of Smoke"
+        }
+      },
+      {
+        "Name": "The Shadowslice Stalker",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "3",
+          "Ag": "8"
+        },
+        "RuleIds": {
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-hatred": "Hatred (against Characters)",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
+          "rulebook-poison_attacks": "Poison Attacks",
+          "vs-shadowslices_panoply" : "Shadowslice's Panoply"
+        }
+      }  
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "68357f95790d8280c4b27353",
     "Name": "Blackfur Veterans",
     "Attributes": {},

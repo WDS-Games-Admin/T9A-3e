@@ -72,6 +72,24 @@
     "Description": "During Choose Equipment and Abilities, each unit containing this Attack Attribute must take a Courage Test. If the test is passed, all model parts with <u><link=\"bh-primal_instinct\">Primal Instinct</link></u> in the unit gain Hatred during this Round of Combat."
   },
   {
+    "Id": "bh-tales_of_the_fallen",
+    "Name": "Tales of the Fallen",
+    "Type": "General",
+    "Description": "Moohoarrgh has the following Scrolls of Power:\n\n • Danse Macabre (Evocation)\n • UmbralMajesty (Occultism)\n • Dragon’s Roar (Pyromancy)\n • Wild Spikes (Shamanism)\n\nIf a friendly Character anywhere on the Battlefield is removed as a casualty or removes an enemy Character as a casualty whilst being Engaged in Combat, select one of Moohoarrgh’s used Scroll of Power: the selected Scroll can be used again."
+  },
+  {
+    "Id": "bh-standing_in_wait",
+    "Name": "Standing in Wait",
+    "Type": "General",
+    "Description": "During Pre-game Selections, select either:\n• <u><link=\"attached\">Attached</link></u> and <u><link=\"bh-teach_by_example\">Teach by Example</link></u>\n• <u><link=\"sleeper\">Sleeper</link></u>, <u><link=\"solitary\">Solitary</link></u> and <u><link=\"ambush\">Ambush</link></u> (Field, Forest, Water Terrain)"
+  },
+  {
+    "Id": "bh-teach_by_example",
+    "Name": "Teach by Example",
+    "Type": "General",
+    "Description": "Any unit containing Ghâá! benefits from <u><link=\"Mindless\">Mindless</link></u>, <u><link=\"stubborn\">Stubborn</link></u>, and <u><link=\"swiftstride\">Swiftstride</link></u>.\nIn addition, choose a single Minotaurs unit with a maximum of 5 models. The chosen unit gains <u><link=\"ambush\">Ambush</link></u>, and Ghâá must enter the Battlefield joined to it."
+  },    
+  {
     "Id": "rulebook-captain",
     "Name": "Captain",
     "Type": "Global",
@@ -909,8 +927,20 @@
     "Id": "dl-bribed_enchantments",
     "Name": "Bribed Enchantments",
     "Type": "Global",
-    "Description": "During Step 2.b of each Round of Combat (\"Calculate Static Combat Score\"), select a single enemy unit the model is in contact with, for each Magic Item in the selected unit, the bearer’s side add +1 to its Combat Score, to a maximum of +3."
+    "Description": "During Step 2.C Static Combat Score in a Round of Combat, select a single enemy unit the model is in contact with. For each Magic Item in the selected unit, the wearer's unit gains +1 Combat Score, to a maximum of +3."
   },
+  {
+    "Id": "dl-abandon_all_hope",
+    "Name": "Abandon All Hope",
+    "Type": "General",
+    "Description": "During Tristitia’s Shooting Phase, they can make a Shooting Attack that targets all enemy units within 12″ of Tristitia (including those Engaged in Combat and outside Front Arc and/or Line of Sight).\nEach target suffers 1 hit for each Rank it has, with Strength 9, Armour Penetration 10, <u><link=\"magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>."
+  },
+  {
+    "Id": "dl-growing_despair",
+    "Name": "Growing Despair",
+    "Type": "General",
+    "Description": "<u><link=\"afflict\">Afflict</link></u> (−1 Dis, −X Def, and −X Off), where ’X’ is equal to the number of the current Game Turn."
+  },  
   {
     "Id": "rulebook-resistance",
     "Name": "Resistance",
@@ -1097,6 +1127,48 @@
     "Type": "Equipment",
     "Description": "Standard Melee Attacks gain +1 to wound. "
   },
+  {
+    "Id": "de-a_watery_grave",
+    "Name": "A Watery Grave",
+    "Type": "General",
+    "Description": "Rolls for arrival on the Battlefield are always considered to have rolled a 3+ for Techainin. In addition, at the beginning of 'Post Combat' (Step 6 of a Round of Combat), if Techainin won the Round of Combat and an Enemy Character in that Combat was removed as a casualty, then Techainin may be placed in Ambush."
+  },
+  {
+    "Id": "de-barbed_nets",
+    "Name": "Barbed Nets",
+    "Type": "General",
+    "Description": "<u><link=\"afflict\">Afflict</link></u> (-1 Str, -1 AP)"
+  },
+  {
+    "Id": "de-blessed_by_harag",
+    "Name": "Blessed by Harag",
+    "Type": "General",
+    "Description": "Techainin's rags and strange hat never stop dripping water, even when out of water.\n<u><link=\"aegis\">Aegis</link></u> (5+), <u><link=\"resistance\">Resistance</link></u> (against Flaming Attacks)."
+  },
+  {
+    "Id": "de-grim_harpoon",
+    "Name": "Grim Harpoon",
+    "Type": "General",
+    "Description": "Shooting Weapon.\n\nAim: 3+\nRange: 18″\nShots: 1\nStr: 6\nAP: 3\nAttack Attributes: Accurate, Grim Harpoon, Quick to Fire\n\nCounts as a Great Weapon in Melee. +1 Att.\nAny unit that suffers one or more hits from this weapon loses <u><link=\"swiftstride\">Swiftstride</link></u>, and cannot regain it in any way, until the start of the Active Player’s next Turn."
+  },
+  {
+    "Id": "de-aembeghen_s_blades",
+    "Name": "Aembeghen's Blades",
+    "Type": "General",
+    "Description": "Paired Weapons.\nIf there are any Enemy Characters in Contact with the wielders Unit, The Black Rose gains +2 Att.\nIn addition, any Melee Attacks the Black Rose allocates against a Character gain +2 Str, +4 AP."
+  },
+  {
+    "Id": "de-dance_of_the_rose",
+    "Name": "Dance of the Rose",
+    "Type": "General",
+    "Description": "During Choose Equipment and Abilities, The Black Rose must choose one of the following Dances, with Duration: Round of Combat.\nThe Black Rose cannot select a specific Dance again until either or both of the following has occurred:\n\n• She is not Engaged in Combat.\n• She has selected all Dances.\n• She can only select Dance of Caedhren, and it is not possible to do the <u><link=\"make_way\">Make Way</link></u>.\n\n• “Dance of Caedhren” - The Black Rose can use <u><link=\"make_way\">Make Way</link></u>, even when in contact with enemy models, provided she moves into contact with an enemy Character in her Unit's front facing.\n\n• “Dance of Cenyrn” - Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either. At Agility Step 0 The Black Rose rolls D3 with <u><link=\"maximized\">Maximized</link></u> and the selected Character rolls D3. If either model rolls lower, it loses the difference number of Health Points.\n\n• “Dance of Nabh” - The Black Rose gains <u><link=\"hatred\">Hatred (against Characters)</link></u>, <u><link=\"Zeal\">Zeal (against Characters)</link></u>. Attacks against The Black Rose gain +1 To Hit."
+  },
+  {
+    "Id": "de-the_obsidian_thorns",
+    "Name": "The Obsidian Thorns",
+    "Type": "General",
+    "Description": "The Black Rose is <u><link=\"exclusive\">Exclusive (Obsidian Guard)</link></u>, has <u><link=\"magic_resistance\">Magic Resistance (1)</link></u> and all Models in a Unit containing her gain +1 Charge Speed.\nIn addition, Enemy Units are not allowed to choose the Flee! Charge Reaction when selected as a target by the Black Rose unless they are <u><link=\"shaken\">Shaken</link></u>.\nNote: This has no influence on Charge Reactions to against other Units."
+  },        
   {
     "Id": "rulebook-first_strike",
     "Name": "First Strike",
@@ -1572,6 +1644,60 @@
     "Description": "A unit containing a model with this rule is referred to as a: <u><link=\"support_unit\">Support Unit</link></u>. A <u><link=\"support_unit\">Support Unit</link></u> with at least one Proper Rank is considered to be Steady if a friendly <u><link=\"parent_unit\">Parent Unit</link></u> in the same Combat is Steady, and Solid if a friendly <u><link=\"parent_unit\">Parent Unit</link></u> in the same Combat is Solid.\nDuring the opponent's Charge Phase, <u><link=\"support_unit\">Support Units</link></u> may perform one of the following actions:\n\n-   The <u><link=\"support_unit\">Support Unit</link></u> may perform an out of sequence Shooting Attack against an enemy unit that has successfully performed a Charge Move into a friendly <u><link=\"parent_unit\">Parent Unit</link></u> within 8\". Apply the normal rules for Shooting Attacks, ignoring the <u><link=\"parent_unit\">Parent Unit</link></u> for Cover and Line of Sight purposes.\n-   After enemy units finish their Charge Moves, <u><link=\"support_unit\">Support Units</link></u> within 8\" of a successfully charged friendly <u><link=\"parent_unit\">Parent Unit</link></u> may Counter Charge: choose one enemy unit that Charged the <u><link=\"parent_unit\">Parent Unit</link></u> and declare a Charge with the <u><link=\"support_unit\">Support Unit</link></u>, applying the normal rules for Charging (such as Line of Sight, Front Arc, rolls for Charge Range, etc.). A <u><link=\"support_unit\">Support Unit</link></u> that performs a Counter Charge is considered to have 0 Proper Ranks for the purpose of afflicting Surrounded, until it is no longer Engaged in Combat."
   },
   {
+    "Id": "eos-a_koelhunds_chase",
+    "Name": "A Koelhund's chase",
+    "Type": "General",
+    "Description": "Model's unit gains <u><link=\"maximized\">Maximized</link></u> rolls for charge and pursuit."
+  },
+  {
+    "Id": "eos-gregors_holy_hammer",
+    "Name": "Gregor's Holy Hammer",
+    "Type": "Equipment",
+    "Description": "Hand weapon, +1 Str +1 AP, Multiple Wounds (2, against Models with <u><link=\"aegis\">Aegis</link></u> or <u><link=\"regeneration\">Regeneration</link></u>*).\n*Including against models with Aegis or Regeneration Saves with conditional applications."
+  },
+  {
+    "Id": "eos-divine_jurisdiction",
+    "Name": "Divine Jurisdiction",
+    "Type": "General",
+    "Description": "All Inquisitors may give Steady, Men! order to their own Units.\nIn addition, an Army List containing Heinrich Falkenbach changes the following Orders:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u> changes into: <u><link=\"eos-cut_the_head_of_the_snake\">Cut the head of the Snake!</link></u>: The target gains <u><link=\"fury\">Fury</link></u> (Units containing a Character) and <u><link=\"first_strike\">First Strike</link></u> (<u><link=\"hatred\">Hatred</link></u> (against Characters).\n\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u> changes into <u><link=\"eos-aim_for_the_weak_spot\">Aim for the Weak Spot!</link></u>: If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"aegis\">Aegis</link></u> nor <u><link=\"regeneration\">Regeneration</link></u> Saves can be taken against it."
+  },
+  {
+    "Id": "eos-cut_the_head_of_the_snake",
+    "Name": "Cut the head of the Snake!",
+    "Type": "General",
+    "Description": "The target gains <u><link=\"fury\">Fury</link></u> (Units containing a Character) and <u><link=\"first_strike\">First Strike</link></u> (<u><link=\"hatred\">Hatred</link></u> (against Characters)"
+  },
+  {
+    "Id": "eos-aim_for_the_weak_spot",
+    "Name": "Aim for the Weak Spot!",
+    "Type": "General",
+    "Description": "If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"aegis\">Aegis</link></u> nor <u><link=\"regeneration\">Regeneration</link></u> Saves can be taken against it."
+  },
+  {
+    "Id": "eos-fanatical_devotion",
+    "Name": "Fanatical Devotion",
+    "Type": "General",
+    "Description": "Models in a Unit containing Brother Tomaz benefit from <u><link=\"Regeneration\">Regeneration</link></u> (6+) and Model Parts without Mount benefit from <u><link=\"hatred\">Hatred</link></u>."
+  },
+  {
+    "Id": "eos-officially_not_a_miracle",
+    "Name": "Officially Not A Miracle",
+    "Type": "General",
+    "Description": "Brother Tomaz’s unit <u><link=\"raise\">Raises</link></u> 1 HP at the start of each friendly Magic Phase. Note: <u><link=\"attached\">Attached</link></u> models cannot be Raised unless specified."
+  },
+  {
+    "Id": "eos-repent",
+    "Name": "Repent!",
+    "Type": "General",
+    "Description": "+1 Attack, <u><link=\"crush_attack\">Crush Attack</link></u>."
+  },
+  {
+    "Id": "eos-shepherding_the_flock",
+    "Name": "Shepherding the Flock",
+    "Type": "General",
+    "Description": "Brother Tomaz can join Zealots as if <u><link=\"uUnstable\">Unstable</link></u>, and as long as he is joined to Zealots he is Unstable."
+  },          
+  {
     "Id": "rulebook-handgun",
     "Name": "Handgun",
     "Type": "Equipment",
@@ -1816,6 +1942,42 @@
     "Name": "Fae Miasma",
     "Type": "General",
     "Description": "Can only be used with Longbows and Paired Weapons.\nWhen a unit suffers one or more wounds from attacks with <u><link=\"fae_miasma\">Fae Miasma</link></u> (before any saves are taken), all models in the unit suffer a -1 to-hit modifier (both for Shooting Attacks and Melee Attacks) with Duration: One Turn."
+  },
+  {
+    "Id": "he-asfada_headmaster",
+    "Name": "Asfada Headmaster",
+    "Type": "General",
+    "Description": "Instead of selecting spells, the Asfada Headmaster knows Cosmology: #1, #2, #3, #5, and Divination: #1, #2, #3, #5. Note: he can still Hereditary Swap."
+  },
+  {
+    "Id": "he-commander_of_the_veil",
+    "Name": "Commander of the Veil",
+    "Type": "General",
+    "Description": "Acadnath gains the following Magic Items: Obsidian Rock, Potion of Power Preservation, and Scroll of Power. These Magic Items cannot be used by other Friendly Models. Duration: Permanent."
+  },
+  {
+    "Id": "he-shroud_seekers",
+    "Name": "Shroud Seekers",
+    "Type": "General",
+    "Description": "All Friendly units gain +1 Defensive Skill and +1 Offensive Skill, when in contact with an enemy unit containing a Magic Item."
+  },
+  {
+    "Id": "he-rogue_heroine",
+    "Name": "Rogue Heroine",
+    "Type": "General",
+    "Description": "The model gains <u><link=\"fearless\">Fearless</link></u> and <u><link=\"frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>."
+  },
+  {
+    "Id": "he-scourge_of_fleets",
+    "Name": "Scourge of Fleets",
+    "Type": "General",
+    "Description": "Balûruth gains <u><link=\"grind_attacks\">Grind Attacks</link></u> (D6 hits, Str 4, AP 1, <u><link=\"flaming_attacks\">Flaming Attacks</link></u>)."
+  },
+  {
+    "Id": "he-the_lance_of_tears",
+    "Name": "The Lance of Tears",
+    "Type": "General",
+    "Description": "Lance. The model gains <u><link=\"afflict\">Afflict</link></u> (-1 Dis), Tenacla gains +1 Att and <u><link=\"fury\">Fury</link></u> and <u><link=\"hatred\">Hatred</link></u>. In addition, she loses 1 Attack at the end of every Game Turn in which she was NOT Engaged in Combat. Duration: Permanent."
   },
   {
     "Id": "hg-hob_cohesion",
@@ -2178,6 +2340,42 @@
     "Description": "    Counts as a Hand Weapon with the following additional rules: +1 Str, Devastating Charge(+1 AP)."
   },
   {
+    "Id": "koe-a_worthy_foe",
+    "Name": "A Worthy Foe",
+    "Type": "",
+    "Description": "Knightly Principle. During Pre-game Selections, choose a Character or a single Height 4-5 Model containing <u><link=\"solitary\">Solitary</link></u>. King Henry gains <u><link=\"multiple_wounds\">(10) against the chosen model./link></u>."
+  },
+  {
+    "Id": "koe-feyforged_lance",
+    "Name": "Feyforged Lance",
+    "Type": "",
+    "Description": "Lance. AP 10."
+  },
+  {
+    "Id": "koe-new_guard",
+    "Name": "New Guard",
+    "Type": "",
+    "Description": "Dukes cannot be taken in an Army List containing King Henry the Young.\n In addition, while joined to a unit of Knights of the Court, King Henry benefits from <u><link=\"devastating_charge\">Devastating Charge</link></u> (+1Att, +1Off, +1 Agi)."
+  },
+  {
+    "Id": "koe-borrowed_steed",
+    "Name": "'Borrowed' Steed",
+    "Type": "",
+    "Description": "Immediately before choosing a unit to join using the Hidden rule, Hernaut may gain a “Destrier” mount for free, without any upgrades."
+  },
+  {
+    "Id": "koe-infuriating_wit",
+    "Name": "Infuriating Wit",
+    "Type": "",
+    "Description": "Maximised (Charge Range rolls) towards any unit containing Hernaut."
+  },
+  {
+    "Id": "koe-leprechaun_companion",
+    "Name": "Leprechaun Companion",
+    "Type": "",
+    "Description": "EachStandardMeleeAttackallocatedagainstHernautthatmisses, is instead allocated to the attacking model’s Health Pool with Automatic Hits."
+  },  
+  {
     "Id": "rulebook-handandahalf",
     "Name": "Hand-and-a-Half",
     "Type": "Equipment",
@@ -2520,6 +2718,48 @@
     "Description": "<u><link=\"hand_cannon\">Hand Cannon</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"hand_cannon\">Hand Cannon</link></u>512\"353Accurate, March and Shoot, Stand and Shoot, Quick to Fire"
   },
   {
+    "Id": "ok-been_the_done_that",
+    "Name": "Been There, Done That.",
+    "Type": "General",
+    "Description": "Every friendly unit of Mercenary Veterans and Mercenary Gunners gains <u><link=\"bodyguard\">Bodyguard (Ganzorig)</link></u>. In addition, Ganzorig benefits from any Extraordinary Model Rule upgrades the unit has."
+  },
+  {
+    "Id": "ok-get_the_job_done",
+    "Name": "Get the Job Done!",
+    "Type": "General",
+    "Description": "One use only. During ’Calculate Final Combat Score’ (Round of Combat, Step 4.B), Ganzorig may <u><link=\"recover\">Recover</link></u> up to 2 Health Points and adds +2 Combat Resolution to his side."
+  },
+  {
+    "Id": "ok-the_ironbond",
+    "Name": "The Ironbond",
+    "Type": "General",
+    "Description": "The model gains <u><link=\"resistance\">Resistance</link></u> and <u><link=\"stubborn\">Stubborn</link></u>."
+  },
+  {
+    "Id": "ok-young_mercenaries",
+    "Name": "Young Mercenaries",
+    "Type": "General",
+    "Description": "All Friendly Bruiser model parts in an army containing Ganzorig benefit from <u><link=\"first_strike\">First Strike (Fury)</link></u>, as long as he is on the Battlefield."
+  },
+  {
+    "Id": "ok-erus_secret_recipes",
+    "Name": "Eru's Secret Recipes",
+    "Type": "General",
+    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit. Duration: One Turn.\n\n * Bluehoove Goat Stew: Mobility +2, <u><link=\"strider\">Strider</link></u>.\n * Trollbear Goulash: <u><link=\"regeneration\">Regeneration (6+)</link></u>, <u><link=\"recover\">Recover</link></u> a single HP on a model in Valish's unit.\n   Note: Attached models cannot be <u><link=\"raise\">Raised</link></u> unless specified.\n * Stonecold Soup: <u><link=\"channel\">Channel (1)</link></u>, <u><link=\"disciplined\">Disciplined</link></u> and <u><link=\"rally_around the Flag\">Rally Around the Flag (0″)</link></u>."
+  },
+  {
+    "Id": "ok-ghost_pepper",
+    "Name": "Ghost Pepper",
+    "Type": "General",
+    "Description": "During each friendly Shooting Phase, select a single model part in the Chefling’s unit: it gains <u><link=\"breath_attack\">Breath Attack (Str 3, AP 0)</link></u>. Duration: One Phase."
+  },
+  {
+    "Id": "ok-gone_but_not_forgotten",
+    "Name": "Gone but not Forgotten",
+    "Type": "General",
+    "Description": "If Valish is removed as a casualty, all friendly model parts with Ogre gain <u><link=\"hatred\">Hatred (against the unit that caused Valish to be removed as a casualty*)</link></u>. Duration: Permanent. * This includes all models joined to it."
+  },
+  {
     "Id": "ong-goblin_cunning",
     "Name": "Goblin Cunning",
     "Type": "Global",
@@ -2668,6 +2908,12 @@
     "Name": "Guile and Fury",
     "Type": "General",
     "Description": "Can be cast in one of two versions:\nAugment:\nCannot be cast by a Goblin.\nThe target gains +1 to hit, and its Charge Range, Flee Distance, and Pursuit Distance are increased by 1\".\nHex:\nCannot be cast by an Orc.\nThe target suffers -1 to hit, and its Charge Range, Flee Distance, and Pursuit Distance are reduced by 1\"."
+  },
+  {
+    "Id": "ong-still_kickin",
+    "Name": "Still Kickin",
+    "Type": "General",
+    "Description": "At the beginning of any Player Turn when the Splendid Leader is not on the Battlefield (i.e. because he has been removed as a casualty), you can <u><link=\"summon\">Summon</link></u> a new Splendid Leader using the <u><link=\"hidden\">Hidden</link></u> rule, with the following exceptions: you can select whether the new Splendid Leader will be mounted on a Beastie, the Splendid Palanquin or a Beastie Chariot before choosing the unit he appears in.\nIf the Splendid Palanquin is selected, ignore the Base Size limitation and select six Rank-and-File models in the unit to be joined instead of a single model. After choosing an eligible unit, remove the six Rank-and-File models so that the Splendid Leader is placed in the Front Rank, where the removed models were positioned."
   },
   {
     "Id": "sa-communal_bond",
@@ -3966,6 +4212,54 @@
     "Description": "/subsection{omen_of_the_apocalypse}"
   },
   {
+    "Id": "ong-born_in_fire",
+    "Name": "Born in Fire",
+    "Type": "General",
+    "Description": "Amokek gains Resistance (Flaming Attacks).\n\nIn addition, when Choosing Equipment and Abilities, he may gain Flaming Attacks.\nDuration: Round of Combat."
+  },
+    {
+    "Id": "ong-the_bigger_the_axe",
+    "Name": "The bigger the Axe…",
+    "Type": "General",
+    "Description": "Great Weapon.\nWhen Choosing Equipment and Abilities, Amokek may choose to gain either Hatred or Multiple Wounds (2).\nDuration: Round of Combat."
+  },
+  {
+    "Id": "ong-the_only_king",
+    "Name": "The Only King",
+    "Type": "General",
+    "Description": "All models in the Only King’s unit benefit from Dying Blow.\nIn addition, if The Only King is removed as a casualty, all friendly units lose Brood Rivalry.\nThis effect persists for the Duration of One Turn after Amokek is removed as a casualty.\nThis is an exception to the rule 4.C of the “Attacks” chapter: “Losing the Last Health Point”."
+  },
+  {
+    "Id": "ong-tis_but_a_scratch",
+    "Name": "Tis but a scratch",
+    "Type": "General",
+    "Description": "Amokek gains Aegis (5+)."
+  },
+  {
+    "Id": "ong-higher_standards",
+    "Name": "Higher Standards",
+    "Type": "General",
+    "Description": "Rank and File units containing Troll in an Army List containing Lerrgog are upgraded with a Standard Bearer. This affects Battle Preparations.\nDuration: Permanent. "
+  },
+  {
+    "Id": "ong-ironmaul_limb",
+    "Name": "Ironmaul Limb",
+    "Type": "General",
+    "Description": "Each time <u><link=\"ong-troll_toll\">Troll Toll</link></u>’s effect is triggered, Lerrgog performs two Standard Melee Attacks instead of a single one."
+  },
+  {
+    "Id": "ong-troll_s_bellow",
+    "Name": "Troll’s Bellow",
+    "Type": "General",
+    "Description": "When you activate the <u><link=\"ong-war_cry\">War Cry!</link></u>, all friendly units entirely with Troll gain <Fury>.\nDuration: One Turn."
+  },
+  {
+    "Id": "ong-still_kickin",
+    "Name": "Still Kickin'",
+    "Type": "General",
+    "Description": "At the beginning of any Player Turn when the Splendid Leader is not on the Battlefield (i.e. because he has been removed as a casualty), you can <u><link=\"summon\">Summon</link></u> a new Splendid Leader using the <u><link=\"hidden\">Hidden</link></u> rule, with the following exceptions: you can select whether the new Splendid Leader will be mounted on a Beastie, the Splendid Palanquin or a Beastie Chariot before choosing the unit he appears in.\n\nIf the Splendid Palanquin is selected, ignore the Base Size limitation and select six Rank-and-File models in the unit to be joined instead of a single model. After choosing an eligible unit, remove the six Rank-and-File models so that the Splendid Leader is placed in the Front Rank, where the removed models were positioned."
+  },
+  {
     "Id": "id-big_brother",
     "Name": "Big Brother",
     "Type": "General",
@@ -4156,6 +4450,36 @@
     "Name": "Unflame",
     "Type": "General",
     "Description": "/subsection{unflame}"
+  },
+  {
+    "Id": "id-full_steam_ahead",
+    "Name": "Full Steam Ahead!",
+    "Type": "General",
+    "Description": "Abazzalem cannot choose to Pursue, unless he is Charging –– in which case he must Pursue (including Overrun)."
+  },
+  {
+    "Id": "id-the_riddle_of_peace",
+    "Name": "The Riddle of Peace",
+    "Type": "General",
+    "Description": "During Pre-game Selections, select a single Character on the opponent’s Army List. Any unit containing the selected Character suffers from <u><link=\"minimised\">Minimised (Charge Range Roll)</link></u>."
+  },
+  {
+    "Id": "id-blivet_lance",
+    "Name": "Blivet Lance",
+    "Type": "General",
+    "Description": "Lance. Devastating Charge (+5 Agi). Attacks with the Blivet Lance ignore negative modifiers to to-hit rolls."
+  },
+  {
+    "Id": "id-burning_armour",
+    "Name": "Burning Armour",
+    "Type": "General",
+    "Description": "For each Standard Melee Attack allocated against Ibat-Sokavum that rolls a ‘1’ to-hit, the attacking model’s Health Pool suffers a hit with Str 4, AP 0 and Flaming Attacks."
+  },
+  {
+    "Id": "id-helm_of_kadim_command",
+    "Name": "Helm of Kadim Command",
+    "Type": "General",
+    "Description": "Model parts with Kadim in friendly units within 12″ of Ibat-Sokavum gain First Strike (Hatred (against Weakness (Flaming Attacks)))."
   },
   {
     "Id": "dl-favoured_of_pride",
@@ -4498,6 +4822,18 @@
     "Name": "Devour Buff",
     "Type": "General",
     "Description": "/subsection{devour}"
+  },
+  {
+    "Id": "dl-commander_of_the_steppes",
+    "Name": "Commander of the Steppes",
+    "Type": "General",
+    "Description": "At the Beginning of ’Moving Vanguarding Units’ (Battle Setup, Step 3.F), choose two units within 12″ of Tergon Khan entirely with Mount or entirely with Height 2: they gain <u><link=\"vanguard\">Vanguard</link></u> (3″)"
+  },
+  {
+    "Id": "dl-revoke_the_mandate_of_heaven",
+    "Name": "Revoke the Mandate of Heaven",
+    "Type": "General",
+    "Description": "One use only.\nMaybe activated at the start of the opponent's Player Turn.\nChoose a single enemy unit within 24″ of Tergon Khan.\nThe Mobility of all models with <u><link=\"fly\">Fly</link></u> in that unit is halved, rounding fractions up. Duration: End of Turn."
   },
   {
     "Id": "bh-big_brother",
@@ -5832,6 +6168,54 @@
     "Description": "Carved Wisdom (see Howdah Devices)."
   },
   {
+    "Id": "sa-eternity_chamber",
+    "Name": "Eternity Chamber",
+    "Type": "General",
+    "Description": "Anurarch Destined gains +2 HP, +3 Arm, and <u><link=\"regeneration\">Regeneration (4+)</link></u>."
+  },
+  {
+    "Id": "sa-greater_guiding_mastery",
+    "Name": "Greater Guiding Mastery",
+    "Type": "General",
+    "Description": "Friendly Models containing Magnasaur in nits within 12″ of Anurarch Destined benefit from <u><link=\"pack_hunter\">Pack Hunter</link></u>."
+  },
+  {
+    "Id": "sa-like_the_tyrants_of_old",
+    "Name": "Like the Tyrants of Old",
+    "Type": "General",
+    "Description": "Anurarch Destined is both <u><link=\"general\">General</link></u> and <u><link=\"battle_standard_bearer\">Battle Standard Bearer</link></u>.\nIn addition, an Army List containing Anurarch Destined can not include any other Character, neither the Monolith of Vitalism nor a Koru Stone."
+  },
+  {
+    "Id": "sa-utterly_ruthless",
+    "Name": "Utterly Ruthless",
+    "Type": "General",
+    "Description": "The first time each turn Anurarch Destined performs The <u><link=\"the_sacrifice\">The Sacrifice</link></u> and inflicts Health Point losses with it, she <u><link=\"recover\">Recovers</link></u> 1 HP."
+  },
+  {
+    "Id": "sa-storm_crystal",
+    "Name": "Storm Crystal",
+    "Type": "Equipment",
+    "Description": "Shooting Weapon:\n\nAim: Auto\nRange: 12\nShots: D3+1\nStr: 6\nAP: 2\n\nAattack Attributes: Automatic Hits, Lightning Attacks, March and Shoot, and Unmodifiable"
+  },
+  {
+    "Id": "sa-balance_of_nature",
+    "Name": "Balance of Nature",
+    "Type": "General",
+    "Description": "<u><link=\"wizard_conclave\">Wizard Conclave (3)</link></u>. Instead of the usual Spell Selection (including Spell Swapping), Shade and Stone must select one spell from Druidism Apprentice and Adept spells, one spell from Shamanism Apprentice and Adept spells, and must always select the Hereditary Spell."
+  },
+  {
+    "Id": "sa-harmony_of_the_sun",
+    "Name": "Harmony of the Sun",
+    "Type": "General",
+    "Description": "All other friendly models in units within 8″ of Shade and Stone benefit from <u><link=\"regeneration\">General</link></u>."
+  },
+  {
+    "Id": "sa-violence_of_the_storm",
+    "Name": "Violence of the Storm",
+    "Type": "General",
+    "Description": "The Conjuring Shade model part is always considered affected by Awaken the Beast (Shamanism)."
+  },
+  {
     "Id": "se-clearing_spirits",
     "Name": "Clearing Spirits",
     "Type": "Equipment",
@@ -6046,6 +6430,36 @@
     "Name": "Dance of Whirling Blades",
     "Type": "General",
     "Description": "+1 Attack Value."
+  },
+  {
+    "Id": "se-the_world_tree",
+    "Name": "The World Tree",
+    "Type": "General",
+    "Description": "Instead of the usual Spell Selection (including Spell Swapping), Dwatobel knows the following spells:\n\n • Chance of Redemption (Divination)\n • Veil of Mist (Druidism)\n • Illusory Paths (Witchcraft)\n • Forest Embrace (Hereditary Spell)"
+  },
+  {
+    "Id": "se-thickened_brush",
+    "Name": "Thickened Brush",
+    "Type": "General",
+    "Description": "One use only. Can be activated at the beginning of the enemy’s turn.\nFor each friendly unit within 12″and entirely with Sylvan Spirit, any enemy unit in contact with it loses <u><link=\"devastating_charge\">Devastating Charge</link></u>. Duration: One Turn."
+  },
+  {
+    "Id": "se-the_unicorns_fury",
+    "Name": "The Unicorn’s Fury",
+    "Type": "General",
+    "Description": "Melee Weapon. HandWeapon.\n<u><link=\"devastating\">Devastating Charge (+1 Str, +1 AP, and+ X Att, where “X” is equal to the number of Ranks in a single enemy unit in contact, up to a maximum of 4)</link></u> and <u><link=\"divine_attacks\">Divine Attacks</link></u>."
+  },
+  {
+    "Id": "se-the_unicorns_horn",
+    "Name": "The Unicorn’s Horn",
+    "Type": "General",
+    "Description": "Melee Weapon. Spear. +1 Str, +1 AP."
+  },
+  {
+    "Id": "se-the_unicornpath",
+    "Name": "The Unicorn’s Path",
+    "Type": "General",
+    "Description": "One use only. When initiating or ending a Move Manoeuvre in a friendly Movement Phase, Domethloc can change a Fields, Ruins, or Water Terrain Feature he is in contact with to a Forest of the same size."
   },
   {
     "Id": "vc-extended_chassis",
@@ -6294,6 +6708,36 @@
     "Description": "Devastating Charge (+1 Att) and Plate Armour"
   },
   {
+    "Id": "vc-dance_of_death",
+    "Name": "Dance of Death",
+    "Type": "General",
+    "Description": "For every Health Point Lady Chryselie inflicts with a Standard Melee Attack:\n\n • Immediately roll another Standard Melee Attack allocated at the same Health Pool as the initial attack.\n • Resolve these attacks before removing any casualties.\n • These newattacks do not generate any further attacks."
+  },
+  {
+    "Id": "vc-coven_of_skulls",
+    "Name": "Coven of Skulls",
+    "Type": "General",
+    "Description": "When the Collective of Varyag casts Arise! (Hereditary Spell), they may choose to set the spell’s Range to 6″ and give it the Type: Aura. This choice is declared when choosing targets."
+  },
+  {
+    "Id": "vc-ever_growing",
+    "Name": "Ever Growing",
+    "Type": "General",
+    "Description": "Whenever the Collective of Varyag is the target of Arise! (Hereditary Spell), they can Raise Health Points above their number of starting Health Points, to a maximum of twice their starting Health Points."
+  },
+  {
+    "Id": "vc-cacophony_of_suffering",
+    "Name": "Cacophony of Suffering",
+    "Type": "General",
+    "Description": "Shooting Weapon.\n\nAim: Automatic Hits\nRange: 12\nShots: HP/2 ; Half of Varyag’s HP, rounded up\nStr: To-wound-rolls are set to 5+\nAP: 10\nAttack Attributes: March and Shoot, Stand and Shoot, Unmodifiable"
+  },
+  {
+    "Id": "vc-thirsty_rapiers",
+    "Name": "Thirsty Rapiers",
+    "Type": "Equipment",
+    "Description": "Paired Weapons.\nLethal Strike.\nFor every Health Point loss dealt with this Weapon, immediately roll a D6: on 5+, Lady Chrysélie Recovers a single Health Point. However, all Vampiric rolls she makes automatically fail."
+  },
+  {
     "Id": "ud-scales_of_destiny",
     "Name": "Scales of Destiny",
     "Type": "General",
@@ -6496,6 +6940,48 @@
     "Name": "Master of Stone",
     "Type": "General",
     "Description": "/subsection{master_of_stone}"
+  },
+  {
+    "Id": "ud-assailed_sanity",
+    "Name": "Assailed Sanity",
+    "Type": "General",
+    "Description": "The Custodian of Souls knows all spells from Evocation and cannot Hereditary Swap.\n In addition, once per turn, when she fails a Casting Roll using three or more Magic Dice, she can reroll the dice. If she does, she suffer a Miscast equal to the Casting Roll."
+  },
+  {
+    "Id": "ud-the_lost_and_damned",
+    "Name": "The Lost and Damned",
+    "Type": "General",
+    "Description": "In an Army List containing Ashotet, Skeleton Warriors and Skeleton Cavalry gain TormentedSouls.\n In addition, neither of the following unit entries may be included: Death Cult Hierarch, Casket of Phatep, Rehnepeh the Undying Sun, nor any model with <u><link=\"ud-undying_will\">Undying Will</link></u>."
+  },
+  {
+    "Id": "ud-the_pyramidion",
+    "Name": "The Pyramidion",
+    "Type": "General",
+    "Description": "Spells cast by Ashotet gain +6″ Range.\n In addition, Ashotet can cast a unique Bound Spell (6+): Surge of MadSpirits:\n\n  Range: 24\n  Type: Hex\n  Damage\n  Duration: Instant.\n The target must take a Courage Test rolling an additional D6. If failed, it suffers a number of hits equal to the amount by which the test was failed. Those hits wound automatically and have Armour Penetration 10."
+  },
+  {
+    "Id": "ud-tormented_souls",
+    "Name": "Tormented Souls",
+    "Type": "General",
+    "Description": "The model gains Aegis (5+, against non-<u><link=\"magical_attacks\">Magical Attacks</link></u>, <u><link=\"exclusive\">Exclusive (Tormented Souls)</link></u>, <u><link=\"ghost_step\">Ghost Step</link></u>, <u><link=\"horror\">Horror</link></u>, <u><link=\"unruly\">Unruly</link></u> and Spirit.\nThe model’s Armour is set to 0, it loses Shield, and Skeleton and its Resurrection value is halved.\n All model parts gain +1 AP, <u><link=\"hatred\">Hatred</link></u> and <u><link=\"magical_attacks\">Magical Attacks</link></u>, lose all their Weapons, and gain Innate Weapons."
+  },
+  {
+    "Id": "ud-charioteer_of_the_sun",
+    "Name": "Charioteer of the Sun",
+    "Type": "General",
+    "Description": "During ’Check Combat Formations’ (Round of Combat, 2.A), the Rehnepeh model part gains a bonus to its Att, Off, Str, AP, and gi equal to half the number of Rank-and-File Skeleton Chariot models in his unit, rounding fractions up."
+  },
+  {
+    "Id": "ud-staff_of_pi_ankh_khahiroth",
+    "Name": "Staff of Pi-Ankh Khahiroth",
+    "Type": "General",
+    "Description": "A unit containing the Staff of Pi-Ankh Khahiroth benefits from <u><link=\"ghost_step\">Ghost Step</link></u> and <u><link=\"strider\">Strider</link></u>.\nIn addition, all attacks made by model parts with Mount benefit from <u><link=\"flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"magical_attacks\">Magical Attacks</link></u>."
+  },
+  {
+    "Id": "ud-the_golden_chariot",
+    "Name": "The Golden Chariot",
+    "Type": "General",
+    "Description": "Rehnepeh gains +2 HP, <u><link=\"distracting\">Distracting</link></u> and <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
   },
   {
     "Id": "vs-underworld_beast",
@@ -6713,6 +7199,42 @@
     "Type": "General",
     "Description": "/subsection{razor_whip}"
   },
+  {
+    "Id": "vs-inergon_injection",
+    "Name": "Inergon injection!",
+    "Type": "General",
+    "Description": "One use only.\nIn the Movement Phase, before moving, Professor Mauss can gain <link=\"random_movement\">Random Movement (3D6″)</link></u>.\nDuration: One Phase."
+  },
+  {
+    "Id": "vs-superior_darkstone_power",
+    "Name": "Superior Darkstone Power",
+    "Type": "General",
+    "Description": "Professor Mauss can choose not to move despite having <link=\"random_movement\">Random Movement</link></u>.\nIn addition, Professor Mauss cannot choose to Pursue, unless he is Charging – in which case he must Pursue (including Overrun)."
+  },
+  {
+    "Id": "vs-prototype_mauss_rifle",
+    "Name": "Prototype Mauss Rifle",
+    "Type": "Equipment",
+    "Description": "Shooting Weapon.\n\nAim: 4+\nRange: 36\nShots: 1\nStr: 5\nAP: 2\nAttack Attributes:\n<link=\"area_attack\">Area Attack (1×3)</link></u>, <link=\"artillery\">Artillery</link></u>, <link=\"direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <link=\"multiple_wounds\">Multiple Wounds (D3+1)</link></u>), <link=\"lightning_attacks\">Lightning Attacks</link></u>, <link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm (To-Hit Roll)</link></u>."
+  },
+  {
+    "Id": "vs-disorienting_scent",
+    "Name": "Disorienting Scent",
+    "Type": "General",
+    "Description": "<u><link=\"afflict\">Afflict</link></u> (-2 Off), against model parts with Beast or Magnasaur"
+  },
+  {
+    "Id": "vs-mistress_of_smoke",
+    "Name": "Mistress of Smoke",
+    "Type": "General",
+    "Description": "One use only.\nWhen the Shadowslice Stalker would be removed as a casualty or flee while joined to a unit, remove her from the Battlefield: she becomes <u><link=\"hidden\">Hidden</link></u> again. If she uses this ability and hasn’t been removed as acasualty at the end of the game, the opponent still receives Victory Points as if she had been removed as acasualty."
+  },
+  {
+    "Id": "vs-shadowslices_panoply",
+    "Name": "Shadowslice’s Panoply",
+    "Type": "General",
+    "Description": "The Shadowslice Stalker is equipped with the most advanced selection of murderous weaponry known to any species.\nEach time the Stalker is Deployed from <u><link=\"ambush\">Ambush</link></u> or using Hidden, she gains one of the following Magic Items. Duration: Permanent.\n\n • Countless Daggers: <u><link=\"first_strike\">First Strike (+2 Att)</link></u>, Paired Weapons and Throwing Weapons (2+).\n • Darkstone Rod: +2 Str, <u><link=\"lightning_attacks\"></link>Lightning Attacks</u> and <u><link=\"multiple_wounds\">Multiple Wounds (2)</link></u>\n • Senator’s Toga: +2 Dis, <u><link=\"commanding_presence\">Commanding Presence (6″)</link></u>."
+  },  
   {
     "Id": "dh-monster_seeker",
     "Name": "Monster Seeker",
@@ -7011,7 +7533,55 @@
     "Id": "dh-runic_standard_of_the_hold",
     "Name": "Runic Standard of the Hold",
     "Type": "General",
-    "Description": "The bearer's unit gains <u><link=\"rulebook-resolute\">Resolute (1)</link></u>."
+    "Description": "The bearer's unit gains Resolute(1)."
+  },
+  {
+    "Id": "dh-ancient_grudge_mark",
+    "Name": "Ancient Grudge Mark",
+    "Type": "General",
+    "Description": "/subsection{ancient_grudge}"
+  },
+  {
+    "Id": "dh-runic_engravings_str",
+    "Name": "Runic Engravings (Str)",
+    "Type": "General",
+    "Description": "+1 Strength and +1 Armour Penetration"
+  },
+  {
+    "Id": "dh-runic_engravings_van",
+    "Name": "Runic Engravings (Vanguard)",
+    "Type": "General",
+    "Description": "Vanguard"
+  },
+  {
+    "Id": "dh-runic_engravings_agi",
+    "Name": "Runic Engravings (Agi)",
+    "Type": "General",
+    "Description": "+2 Agi"
+  },
+  {
+    "Id": "dh-the_living_law",
+    "Name": "The Living Law",
+    "Type": "General",
+    "Description": "At the beginning of each friendly Melee Phase, select an enemy unit (as appearing on the Army List).\nThe selected unit becomes marked for the purpose of <u><link=\"dh-ancient_grudge\">Ancient Grudge</link></u>. Duration: Permanent."
+  },          
+  {
+    "Id": "dh-wonders_of_the_age",
+    "Name": "Wonders of the Age",
+    "Type": "General",
+    "Description": "Dinaz Betegoz’s Paired Weapons have the following Runic Enchantments: Rune of Anger, Rune of Might, Rune of Precision.\nIn addition, Dinaz Betegoz has the following Runic Artefacts: Rune of Denial, Rune of Devouring, and Rune of Grounding. This is in addition to the usual limitation of Runic Items, however the Rune of Denial, Rune of Devouring, and Rune of Grounding cannot be activated by other friendly models."
+  },
+  {
+    "Id": "dh-master_brewer",
+    "Name": "Master Brewer",
+    "Type": "General",
+    "Description": "During each friendly Magic Phase, before Casting Spells ('Step 5 of Magic Phase'), the Master Brewer may select a single of the following Ales to affect his unit. Duration: One Turn.\n\n * Stout Ale: <u><link=\"fearless\">Fearless</link></u>, <u><link=\"stubborn\">Stubborn</link></u> and <u><link=\"unruly\">Unruly</link></u>.\n * Bitter Ale: <u><link=\"fury\">Fury</link></u>, <u><link=\"hatred\">Hatred</link></u>, and <u><link=\"unruly\">Unruly</link></u>.\n * Red Ale: <u><link=\"lethal_strike\">Lethal Strike</link></u>, <u><link=\"unruly\">Unruly</link></u>, and <u><link=\"zeal\">Zeal</link></u>."
+  },          
+  {
+    "Id": "dh-the_aleward_crew",
+    "Name": "The Aleward Crew",
+    "Type": "General",
+    "Description": "When Tador Berafrig is Deployed, Tador and all Rank-and-File models in his unit gains +1 Armour and <u><link=\"aegis\">Aegis</link></u> (3+, against <u><link=\"flaming_attacks\">Flaming Attacks</link></u>). Duration: Permanent."
   },
   {
     "Id": "wdg-wings",
@@ -7276,6 +7846,30 @@
     "Name": "Flaming Attacks",
     "Type": "General",
     "Description": "/subsection{immortal_gauntlets}"
+  },
+  {
+    "Id": "wdg-memory_of_a_hoarded_blade",
+    "Name": "Memory of a Hoarded Blade",
+    "Type": "General",
+    "Description": "If included in an Army List not containing <link=\"wdg-favour_of_greed\"></link>Favour of Greed</u>, Klaas gains +2 Str, +2AP and Always strikes at Agility Step 0."
+  },
+  {
+    "Id": "wdg-legendary_beasts",
+    "Name": "Legendary Beasts",
+    "Type": "General",
+    "Description": "WDG Army Organisation Category\n\n1 per 700 Army Points (round fractions up)\n\nThe following models contribute to this limit:\n • Chimera (mount and unit), Marauding Giant, Wasteland Behemoth, Wasteland Dragon, at a rate of 1:1.\n • Feldrak Ancestor, Feldrak Elder, Forsaken One, at a rate of 1:2.\n • Exalted Herald, at a rate of 1:3.\n\nFor example, at 4000 Army Points, the Army List is restricted to Legendary Beasts (6).Note that a Feldrak Ancestor with General increases the limit by 1."
+  },
+  {
+    "Id": "wdg-the_fathers_gifts",
+    "Name": "The Father’s Gifts",
+    "Type": "General",
+    "Description": "At the beginning of each friendly Player Turn, Klaas can choose a single friendly unit within 12″ to gain one of the following abilities, with Duration : One Turn.\n\n • Supernal Shield: the chosen unit suffers -3 Arm and gains <link=\"aegis\"></link>Aegis (5+)</u>.\n • Unholy Edge: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n • The Eight-Point Crown: the chosen unit suffers -1 Str and -1 AP, and gains <link=\"stubborn\">Stubborn</link></u> and <link=\"unstable\">Unstable</link></u>."
+  },
+  {
+    "Id": "wdg-protean_limbs",
+    "Name": "Protean Limbs",
+    "Type": "General",
+    "Description": "Ook gains +D6 Att. Note: roll each time he is about to allocate attacks, as described on p. 45 of the Reference Handbook."
   },
   {
     "Id": "mh-wings",
