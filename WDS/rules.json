@@ -963,7 +963,7 @@
     "Id": "dl-divine_right",
     "Name": "Divine Right",
     "Type": "Global",
-    "Description": "While there is an enemy Character in contact with the model's unit, the model gains Distracting(1)."
+    "Description": "While there is an enemy Character in contact with the model's unit, the model gains <u><link=\"rulebook-distracting\">Distracting(1)</link></u>."
   },
   {
     "Id": "rulebook-multiple_wounds",
@@ -981,7 +981,6 @@
     "Id": "dl-omniscience",
     "Name": "Omniscience",
     "Type": "Global",
-    "Description": "    If one or more models with <u><link=\"omniscience\">Omniscience</link></u> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
     "Description": "If one or more models with <u><link=\"dl-omniscience\">Omniscience</link></u> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
   },
   {
@@ -1030,7 +1029,6 @@
     "Id": "dl-legion_thresher",
     "Name": "Legion Thresher",
     "Type": "Global",
-    "Description": "Changes to the model's profile:\n-   Base size changed to 100×150mm.\n-   HP set to 8.\n-   Number of Tillers and Hellsteeds is set to (4).\n-   Tillers lose <u><link=\"smother\">Smother(1)</link></u> and gain <u><link=\"smother\">Smother(2)</link></u>.\n-   Chassis gains Impact Hits(4D3).\n-   Max. 2 models/army.\n-   Single model."
     "Description": "Changes to the model's profile:\n   • Base size changed to 100×150mm.\n   • HP set to 8.\n   • Number of Tillers and Hellsteeds is set to (4).\n   • Tillers lose <u><link=\"dl-smother\">Smother(1)</link></u> and gain <u><link=\"dl-smother\">Smother(2)</link></u>.\n   • Chassis gains Impact Hits(4D3).\n   • Max. 2 models/army.\n   • Single model."
   },
   {
@@ -1079,8 +1077,7 @@
     "Id": "dl-acid_blood",
     "Name": "Acid Blood",
     "Type": "Equipment",
-    "Description": "Whenever this model fails a Regeneration Save against enemy Melee Attacks, it inflicts 1 hit with Toxic Attacks on the Health Pool of the attacking model, before any casualties are removed."
-    "Description": "When a unit entirely with <u><link=\"supernal\">Supernal</link></u> fails a Break Test, instead of being Broken and subsequently <u><link=\"shaken\">Shaken</link></u>, it suffers a number of Health Point losses equal to the amount by which the combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"supernal\">Supernal</link></u> can only join units containing <u><link=\"supernal\">Supernal</link></u>, and units containing <u><link=\"supernal\">Supernal</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"supernal\">Supernal</link></u>."
+    "Description": "Each time a model with <u><link=\"dl-acid_blood\">Acid Blood</link></u> fails a Regeneration Save against an enemy Melee Attack, it immediately inflicts 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> towards the Health Pool of the attacking model, before any casualties are removed."
   },
   {
     "Id": "rally_test",
@@ -1094,27 +1091,17 @@
     "Type": "General",
     "Description": "When making an attack it is necessary to wound the target in order to potentially cause harm.\nTo determine if a hit successfully wounds the target, roll a D6 for each hit. The required roll to wound depends on the difference between the <u><link=\"attacks\">attack’s</link></u> Strength and the defender’s Resilience, as indicated in the tables below. Both tables present the same relation, visualised in different ways.\nA natural roll of ‘6’ always succeeds, while a natural roll of ‘1’ always fails. The player who made the attack rolls to determine if each hit wounds the target. A successful to-wound roll results in a wound.\nIf the attack does not have a Strength, refer to the specific rules provided for that particular attack.\n\n\nDifference\nStr - Res    Required roll to wound\n2 or more    2+\n1    3+\n0    4+\n-1    5+\n-2 or less    6+  \n\n\nStr 1    Str 2    Str 3    Str 4    Str 5    Str 6    Str 7    Str 8    Str 9    Str 10\nRes 1    4+    3+    2+    2+    2+    2+    2+    2+    2+    2+\nRes 2    5+    4+    3+    2+    2+    2+    2+    2+    2+    2+\nRes 3    6+    5+    4+    3+    2+    2+    2+    2+    2+    2+\nRes 4    6+    6+    5+    4+    3+    2+    2+    2+    2+    2+\nRes 5    6+    6+    6+    5+    4+    3+    2+    2+    2+    2+\nRes 6    6+    6+    6+    6+    5+    4+    3+    2+    2+    2+\nRes 7    6+    6+    6+    6+    6+    5+    4+    3+    2+    2+\nRes 8    6+    6+    6+    6+    6+    6+    5+    4+    3+    2+\nRes 9    6+    6+    6+    6+    6+    6+    6+    5+    4+    3+\nRes 10    6+    6+    6+    6+    6+    6+    6+    6+    5+    4+  \n"
   },
-    "Name": "Stand and Shoot",
-    "Type": "General",
-    "Type": "General",
-    "Description": "Armour Save rolls of ‘1’, ‘2’, ‘3’, and ‘4’ are always considered failed when saving wounds caused by <u><link=\"dark_fire\">Dark Fire</link></u>."
   {
     "Id": "charge_reactions",
     "Name": "Charge Reactions",
     "Type": "General",
-  {
-    "Id": "smother",
-    "Name": "Smother",
-    "Type": "General",
-    "Description": "If the attack is allocated towards a model that has the same Height as the attacker, it gains +1 to hit and +1 to wound."
+    "Description": "When a unit has a Charge declared against it must immediately perform a Charge Reaction. The owner of the charged unit declares which Charge Reaction, and resolve the effects immediately. There are two <u><link=\"charge_reactions\">Charge Reactions</link></u> to choose from:\n-   Hold!: This is the default Charge Reaction. Choosing the Hold! Charge Reaction means the unit stands its ground and makes no further action.\n-   Flee!: A unit can select this Charge Reaction only once per phase, and only if not already <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>. The unit is pivoted to face directly away from the Centre of the charging unit, it then performs a <u><link=\"flee_move\">Flee Move</link></u> (see <u><link=\"psychology\">Psychology</link></u> section).\n-   If this <u><link=\"flee_move\">Flee Move</link></u> brings the fleeing unit into contact with a unit that declared a Charge against it this phase, the fleeing unit is immediately <u><link=\"removed\">removed</link></u> as a casualty.\n-   Remember <u><link=\"flee_move\">Flee Moves</link></u> due to Charge Reaction Flee! do not cause a Panic Test in friendly units that the Fleeing unit moves through (unless caused by a failed Panic Test when charged by a unit containing <u><link=\"rulebook-terror\">Terror)</link></u>."
   },
   {
     "Id": "manifestation",
     "Name": "Manifestation",
     "Type": "General",
     "Description": "During Pre-game Selections, each Exalted Herald must choose two different <u><link=\"manifestation\">Manifestations</link></u> from the list below and apply the effects during the game. The model must select two spells out of those indicated for the chosen <u><link=\"manifestation\">Manifestations</link></u>, Wrath of God (Thaumaturgy), and Hellfire (Hereditary Spell). This replaces the normal rules for Spell Selection connected to being a Wizard Adept."
-  },
-  {
   },
   {
     "Id": "torporous_tendrils",
@@ -1204,20 +1191,19 @@
     "Id": "de-repeater_handbow",
     "Name": "Repeater Handbow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater HandbowX12\"231*Quick to Fire, Accurate, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
     "Description": "Aim X+, Range 12\", Shots 2, Str 3, AP 1*, *<u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>\n*Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "de-irresistible_will",
     "Name": "Irresistible Will",
     "Type": "Global",
-    "Description": "When casting a Learned spell , any Dispelling Roll made against the Casting Roll  suffers a -1 modifier."
     "Description": "When casting a Learned spell, any Dispelling Roll made against the Casting Roll  suffers a -1 modifier."
   },
   {
     "Id": "de-daeb_warfare",
     "Name": "Daeb Warfare",
     "Type": "Global",
+    "Description": "When a unit containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> is part of a Combined Charge,  its Charge Range rolls gain Maximised. When multiple units containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> are Engaged in the same Combined Combat, each unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-resolute\">Resolute(1)</link></u>)."
   },
   {
     "Id": "rulebook-march_and_shoot",
@@ -1313,8 +1299,6 @@
     "Id": "hidden",
     "Name": "Hidden",
     "Type": "General",
-    "Description": "An attack with <u><link=\"zeal\">Zeal</link></u> must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
-  },
     "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
   },
   {
@@ -1323,7 +1307,6 @@
     "Type": "General",
     "Description": "+2 Str, +2 AP, always Agi*, Two-Handed\n*Always strike at Agility Step 0, regardless of the wielder’s Agility."
   },
-    "Description": "Units that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>318\"363Accurate, Quick to Fire, <u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\n<u><link=\"harpoon_launcher\">Harpoon Launcher</link></u>\nUnits that suffer one or more hits from this weapon lose Swiftstride(if they had it), and cannot gain it in any way. Duration: until the start of the Active  Player's next Turn.\n"
   {
     "Id": "df-sea_serpents_hide",
     "Name": "Sea Serpent's Hide",
@@ -1583,7 +1566,6 @@
     "Description": "One use only. Duration: One Phase. Can be activated in the Movement Phase: when activated, the model gains <u><link=\"rulebook-sweeping_attack\">Sweeping Attack (D3 hits, Str 3, AP 1)</link></u>."
   },
   {
-    "Name": "Rune Craft Mastery",
     "Id": "dh-wyrm_slayer_rocket",
     "Name": "Wyrm-Slayer Rocket",
     "Type": "Global",
