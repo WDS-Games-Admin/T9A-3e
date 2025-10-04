@@ -9,7 +9,7 @@
     "Id": "rulebook-strider",
     "Name": "Strider",
     "Type": "Global",
-    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-strider\">Strider</link></u> may (must if <u><link=\"rulebook-shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"rulebook-strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"rulebook-strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"rulebook-strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
+    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-strider\">Strider</link></u> may (must if <u><link=\"rulebook-shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"rulebook-weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"rulebook-strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"rulebook-strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"rulebook-strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
   },
   {
     "Id": "rulebook-disciplined",
@@ -75,25 +75,25 @@
     "Id": "bh-tales_of_the_fallen",
     "Name": "Tales of the Fallen",
     "Type": "General",
-    "Description": "Moohoarrgh has the following Scrolls of Power:\n\n • Danse Macabre (Evocation)\n • UmbralMajesty (Occultism)\n • Dragon’s Roar (Pyromancy)\n • Wild Spikes (Shamanism)\n\nIf a friendly Character anywhere on the Battlefield is removed as a casualty or removes an enemy Character as a casualty whilst being Engaged in Combat, select one of Moohoarrgh’s used Scroll of Power: the selected Scroll can be used again."
+    "Description": "Moohoarrgh has the following Scrolls of Power:\n\n • Danse Macabre (Evocation)\n • Umbral Majesty (Occultism)\n • Dragon’s Roar (Pyromancy)\n • Wild Spikes (Shamanism)\n\nIf a friendly Character anywhere on the Battlefield is removed as a casualty or removes an enemy Character as a casualty whilst being Engaged in Combat, select one of Moohoarrgh’s used Scroll of Power: the selected Scroll can be used again."
   },
   {
     "Id": "bh-standing_in_wait",
     "Name": "Standing in Wait",
     "Type": "General",
-    "Description": "During Pre-game Selections, select either:\n• <u><link=\"attached\">Attached</link></u> and <u><link=\"bh-teach_by_example\">Teach by Example</link></u>\n• <u><link=\"sleeper\">Sleeper</link></u>, <u><link=\"solitary\">Solitary</link></u> and <u><link=\"ambush\">Ambush</link></u> (Field, Forest, Water Terrain)"
+    "Description": "During Pre-game Selections, select either:\n• <u><link=\"rulebook-attached\">Attached</link></u> and <u><link=\"bh-teach_by_example\">Teach by Example</link></u>\n• <u><link=\"bh-sleeper\">Sleeper</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u> and <u><link=\"rulebook-ambush\">Ambush</link></u> (Field, Forest, Water Terrain)"
   },
   {
     "Id": "bh-teach_by_example",
     "Name": "Teach by Example",
     "Type": "General",
-    "Description": "Any unit containing Ghâá! benefits from <u><link=\"Mindless\">Mindless</link></u>, <u><link=\"stubborn\">Stubborn</link></u>, and <u><link=\"swiftstride\">Swiftstride</link></u>.\nIn addition, choose a single Minotaurs unit with a maximum of 5 models. The chosen unit gains <u><link=\"ambush\">Ambush</link></u>, and Ghâá must enter the Battlefield joined to it."
+    "Description": "Any unit containing Ghâá! benefits from <u><link=\"rulebook-mindless\">Mindless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>.\nIn addition, choose a single Minotaurs unit with a maximum of 5 models. The chosen unit gains <u><link=\"rulebook-ambush\">Ambush</link></u>, and Ghâá must enter the Battlefield joined to it."
   },    
   {
     "Id": "rulebook-captain",
     "Name": "Captain",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
+    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "rulebook-attached",
@@ -243,7 +243,7 @@
     "Id": "rulebook-unstable",
     "Name": "Unstable",
     "Type": "Global",
-    "Description": "When a unit entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u> can only join units containing <u><link=\"rulebook-unstable\">Unstable</link></u>, and units containing <u><link=\"rulebook-unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u>."
+    "Description": "When a unit entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u> can only join units containing <u><link=\"rulebook-unstable\">Unstable</link></u>, and units containing <u><link=\"rulebook-unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "bh-sleeper",
@@ -378,12 +378,6 @@
     "Description": "For each <u><link=\"model\">model</link></u> that is shooting, check if the target benefits from <u><link=\"cover\">Cover</link></u> by drawing three straight lines from the shooting <u><link=\"model\">model</link></u> to the target. These lines should all start from the same point on the shooting <u><link=\"model\">model’s</link></u> base as was used checking <u><link=\"line_of_sight\">Line of Sight</link></u> to the target.\n-   One line is drawn to the right corner of the Target Facing.\n-   One line is drawn to the left corner of the Target Facing.\n-   One line is drawn to the centre of the Target Facing.\nIf two or more of these lines pass through Obstructions that Contribute to <u><link=\"cover\">Cover</link></u> (both Soft or Hard), the target benefits from Soft <u><link=\"cover\">Cover</link></u>. If at least 2 of these lines pass through Obstructions that contribute to Hard <u><link=\"cover\">Cover</link></u>, instead apply the rules for Hard <u><link=\"cover\">Cover</link></u>.\nExample of <u><link=\"cover\">Cover</link></u> in the <u><link=\"terrain\">Terrain</link></u> Feature.The blue unit is located in the red unit’s Flank Arc, so the Flank Facing is the Target Facing.\nTwo of three of the drawn lines pass through the Forest, so the red unit benefits from <u><link=\"cover\">Cover</link></u>.\n\nObstructions that Contribute to <u><link=\"cover\">Cover</link></u>\nThere are two types of <u><link=\"cover\">Cover:</link></u> Soft <u><link=\"cover\">Cover</link></u> and Hard <u><link=\"cover\">Cover</link></u>. The most common reason for applying <u><link=\"cover\">Cover</link></u> is the target being obscured by <u><link=\"terrain\">Terrain</link></u> or other <u><link=\"model\">models</link></u>, or the target being inside a <u><link=\"terrain\">Terrain</link></u> Feature.\nThe following obstructions contribute to cover:\nSoft <u><link=\"cover\">Cover</link></u>\\\n-   <u><link=\"terrain\">Terrain</link></u> that is <u><link=\"covering_terrain\">Covering Terrain*</link></u> and that contributes to Soft <u><link=\"cover\">Cover</link></u>.\n-   <u><link=\"model\">Models</link></u> that have equal or larger Height than either the shooter or the target.\nHard <u><link=\"cover\">Cover</link></u>\\\n-   <u><link=\"terrain\">Terrain</link></u> that is <u><link=\"opaque_terrain\">Opaque Terrain</link></u>\n-   <u><link=\"terrain\">Terrain</link></u> that is <u><link=\"covering_terrain\">Covering Terrain*</link></u> and that contributes to Hard <u><link=\"cover\">Cover</link></u>.\n-   <u><link=\"model\">Models</link></u> that have equal or larger Height than both the shooter and the target.\n*See <u><link=\"terrain\">Terrain</link></u> chapter for details.\nNote that <u><link=\"model\">Models</link></u> that have smaller Height than both the shooter and target do not affect <u><link=\"cover\">Cover</link></u>."
   },
   {
-    "Id": "weakness",
-    "Name": "Weakness",
-    "Type": "General",
-    "Description": "<u><link=\"attacks\">Attacks</link></u> allocated against the <u><link=\"model\">model’s</link></u> Health Pool must reroll failed <u><link=\"towound_rolls\">to-wound rolls</link></u>."
-  },
-  {
     "Id": "impassable_terrain",
     "Name": "Impassable Terrain",
     "Type": "General",
@@ -411,7 +405,7 @@
     "Id": "command_test",
     "Name": "Command Test",
     "Type": "General",
-    "Description": "<u><link=\"command_test\">Command Tests</link></u> represent warriors' ability to perform orderly battlefield manoeuvres and rally after a rout has begun.\nCommon situations where <u><link=\"command_test\">Command Tests</link></u> are taken are:\n-   When attempting to Redirect a Charge. Remember that this can only be attempted once per phase, per unit.\n-   When on the losing side, and/or when Engaged in the Flank and Rear and attempting to perform a Combat Reform.\nWhen taking a <u><link=\"rally_test\">Rally Test</link></u>. See <u><link=\"rally_phase\">Rally Phase</link></u> chapter for details.\nCommon <u><link=\"model\">Model</link></u> Rules that affect <u><link=\"command_test\">Command Tests</link></u>: <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"mindless\">Mindless</link></u>, , <u><link=\"rulebook-unruly\">Unruly</link></u>. See <u><link=\"model\">Model</link></u> Rules for details.\n\nPanic? Klepa is always cool as coocumber. What’s the secret to staying calm? Just remember: you are an honest goblin with a pure heart, nothing to hide, and lots of eemaculit alibis.\n"
+    "Description": "<u><link=\"command_test\">Command Tests</link></u> represent warriors' ability to perform orderly battlefield manoeuvres and rally after a rout has begun.\nCommon situations where <u><link=\"command_test\">Command Tests</link></u> are taken are:\n-   When attempting to Redirect a Charge. Remember that this can only be attempted once per phase, per unit.\n-   When on the losing side, and/or when Engaged in the Flank and Rear and attempting to perform a Combat Reform.\nWhen taking a <u><link=\"rally_test\">Rally Test</link></u>. See <u><link=\"rally_phase\">Rally Phase</link></u> chapter for details.\nCommon <u><link=\"model\">Model</link></u> Rules that affect <u><link=\"command_test\">Command Tests</link></u>: <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"rulebook-mindless\">Mindless</link></u>, , <u><link=\"rulebook-unruly\">Unruly</link></u>. See <u><link=\"model\">Model</link></u> Rules for details.\n\nPanic? Klepa is always cool as coocumber. What’s the secret to staying calm? Just remember: you are an honest goblin with a pure heart, nothing to hide, and lots of eemaculit alibis.\n"
   },
   {
     "Id": "disciplined",
@@ -507,19 +501,13 @@
     "Id": "captain",
     "Name": "Captain",
     "Type": "General",
-    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
+    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "standard_bearer",
     "Name": "Standard Bearer",
     "Type": "General",
     "Description": "<u><link=\"standard_bearer\">Standard Bearer</link></u> is a unit-wide upgrade, normally represented by the presence of a <u><link=\"model\">model</link></u> carrying the unit standard, icon, military insignia, totem, or other similar symbol. A unit containing a <u><link=\"standard_bearer\">Standard Bearer</link></u> adds +1 to the Combat Score of its side."
-  },
-  {
-    "Id": "rally_around_the_flag",
-    "Name": "Rally Around the Flag",
-    "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> within 12\" of a friendly non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> must reroll failed <u><link=\"courage_tests\">Courage Tests</link></u>."
   },
   {
     "Id": "spells",
@@ -693,7 +681,7 @@
     "Id": "rulebook-war_platform",
     "Name": "War Platform",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> follows the rules for <u><link=\"attachable_models\">Attachable Models</link></u>, with the following exceptions:\n\n-   If can never perform <u><link=\"make_way\">Make Way</link></u> moves, not even if it is also a Character.\n-   For the purpose of allocating Ranged <u><link=\"attacks\">Attacks</link></u> onto a unit with a <u><link=\"rulebook-war_platform\">War Platform</link></u> joined to it, the <u><link=\"model\">model</link></u> with <u><link=\"rulebook-war_platform\">War Platform</link></u> is considered to be the same Height as the Rank-and-File <u><link=\"model\">models</link></u> in the same unit. If there are no Rank-and-File <u><link=\"model\">models</link></u> in the unit, ignore this rule.\n-   Only a single <u><link=\"model\">model</link></u> with <u><link=\"rulebook-war_platform\">War Platform</link></u> can be joined to the same unit.\nWhen the <u><link=\"model\">model</link></u> is joined to a unit, its Mobility and Charge Speed is set to that of its unit, applying the following restrictions:\n\n-   If there are no Rank-and-File <u><link=\"model\">models</link></u> from the unit in contact with the <u><link=\"rulebook-war_platform\">War Platform’s</link></u> flank Facings (right and left side), the <u><link=\"model\">model</link></u> must use its own Mobility and Charge Speed instead Meaning that, if slower than the unit, the unit’s Mobility and Charge Speed are set to those of the <u><link=\"rulebook-war_platform\">War Platform</link></u>.\n-   The <u><link=\"rulebook-war_platform\">War Platform</link></u> cannot use the unit’s Mobility and Charge Speed values when leaving the unit, including charging out of it. Instead, it uses its own Mobility and Charge Speed."
+    "Description": "The <u><link=\"model\">model</link></u> follows the rules for <u><link=\"attachable_models\">Attachable Models</link></u>, with the following exceptions:\n\n-   If can never perform <u><link=\"rulebook-make_way\">Make Way</link></u> moves, not even if it is also a Character.\n-   For the purpose of allocating Ranged <u><link=\"attacks\">Attacks</link></u> onto a unit with a <u><link=\"rulebook-war_platform\">War Platform</link></u> joined to it, the <u><link=\"model\">model</link></u> with <u><link=\"rulebook-war_platform\">War Platform</link></u> is considered to be the same Height as the Rank-and-File <u><link=\"model\">models</link></u> in the same unit. If there are no Rank-and-File <u><link=\"model\">models</link></u> in the unit, ignore this rule.\n-   Only a single <u><link=\"model\">model</link></u> with <u><link=\"rulebook-war_platform\">War Platform</link></u> can be joined to the same unit.\nWhen the <u><link=\"model\">model</link></u> is joined to a unit, its Mobility and Charge Speed is set to that of its unit, applying the following restrictions:\n\n-   If there are no Rank-and-File <u><link=\"model\">models</link></u> from the unit in contact with the <u><link=\"rulebook-war_platform\">War Platform’s</link></u> flank Facings (right and left side), the <u><link=\"model\">model</link></u> must use its own Mobility and Charge Speed instead Meaning that, if slower than the unit, the unit’s Mobility and Charge Speed are set to those of the <u><link=\"rulebook-war_platform\">War Platform</link></u>.\n-   The <u><link=\"rulebook-war_platform\">War Platform</link></u> cannot use the unit’s Mobility and Charge Speed values when leaving the unit, including charging out of it. Instead, it uses its own Mobility and Charge Speed."
   },
   {
     "Id": "er-virulent_fumes",
@@ -705,7 +693,7 @@
     "Id": "rulebook-rally_around_the_flag",
     "Name": "Rally Around the Flag",
     "Type": "Global",
-    "Description": "<u><link=\"model\">Models</link></u> within 12\" of a friendly non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u> must reroll failed <u><link=\"courage_tests\">Courage Tests</link></u>."
+    "Description": "<u><link=\"model\">Models</link></u> within 12\" of a friendly non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u> must reroll failed <u><link=\"courage_tests\">Courage Tests</link></u>."
   },
   {
     "Id": "er-bloodpox_blades",
@@ -814,12 +802,6 @@
     "Name": null,
     "Type": "General",
     "Description": null
-  },
-  {
-    "Id": "make_way",
-    "Name": "Make Way",
-    "Type": "General",
-    "Description": "Sometimes <u><link=\"characters\">characters</link></u> find themselves <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, but not in contact with any enemy <u><link=\"model\">models</link></u>. When this happens, the Character may be eligible for a <u><link=\"make_way\">Make Way</link></u> move.\nTo be able to perform a <u><link=\"make_way\">Make Way</link></u> move, the Character:\n-   Must be in the First Rank of its unit.\n-   Must not be in contact with any enemy <u><link=\"model\">models</link></u>.\n-   Must not have a <u><link=\"mismatching_bases\">Mismatching Bases</link></u>.\n<u><link=\"make_way\">Make Way</link></u> moves are performed when Choosing Equipment and Abilities. The Character switches positions with a Rank-and-File <u><link=\"model\">model</link></u> or <u><link=\"model\">models</link></u> in its unit that is in contact with an enemy. The <u><link=\"characters\">Characters</link></u> must end up in a legal position. Normally this means that the Character can only swap positions with <u><link=\"model\">models</link></u> in the Front Rank.  "
   },
   {
     "Id": "courage_tests",
@@ -933,13 +915,13 @@
     "Id": "dl-abandon_all_hope",
     "Name": "Abandon All Hope",
     "Type": "General",
-    "Description": "During Tristitia’s Shooting Phase, they can make a Shooting Attack that targets all enemy units within 12″ of Tristitia (including those Engaged in Combat and outside Front Arc and/or Line of Sight).\nEach target suffers 1 hit for each Rank it has, with Strength 9, Armour Penetration 10, <u><link=\"magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>."
+    "Description": "During Tristitia’s Shooting Phase, they can make a Shooting Attack that targets all enemy units within 12″ of Tristitia (including those Engaged in Combat and outside Front Arc and/or Line of Sight).\nEach target suffers 1 hit for each Rank it has, with Strength 9, Armour Penetration 10, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>."
   },
   {
     "Id": "dl-growing_despair",
     "Name": "Growing Despair",
     "Type": "General",
-    "Description": "<u><link=\"afflict\">Afflict</link></u> (−1 Dis, −X Def, and −X Off), where ’X’ is equal to the number of the current Game Turn."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u> (−1 Dis, −X Def, and −X Off), where ’X’ is equal to the number of the current Game Turn."
   },  
   {
     "Id": "rulebook-resistance",
@@ -1137,13 +1119,13 @@
     "Id": "de-barbed_nets",
     "Name": "Barbed Nets",
     "Type": "General",
-    "Description": "<u><link=\"afflict\">Afflict</link></u> (-1 Str, -1 AP)"
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u> (-1 Str, -1 AP)"
   },
   {
     "Id": "de-blessed_by_harag",
     "Name": "Blessed by Harag",
     "Type": "General",
-    "Description": "Techainin's rags and strange hat never stop dripping water, even when out of water.\n<u><link=\"aegis\">Aegis</link></u> (5+), <u><link=\"resistance\">Resistance</link></u> (against Flaming Attacks)."
+    "Description": "Techainin's rags and strange hat never stop dripping water, even when out of water.\n<u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-resistance\">Resistance</link></u> (against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "de-grim_harpoon",
@@ -1161,13 +1143,13 @@
     "Id": "de-dance_of_the_rose",
     "Name": "Dance of the Rose",
     "Type": "General",
-    "Description": "During Choose Equipment and Abilities, The Black Rose must choose one of the following Dances, with Duration: Round of Combat.\nThe Black Rose cannot select a specific Dance again until either or both of the following has occurred:\n\n• She is not Engaged in Combat.\n• She has selected all Dances.\n• She can only select Dance of Caedhren, and it is not possible to do the <u><link=\"make_way\">Make Way</link></u>.\n\n• “Dance of Caedhren” - The Black Rose can use <u><link=\"make_way\">Make Way</link></u>, even when in contact with enemy models, provided she moves into contact with an enemy Character in her Unit's front facing.\n\n• “Dance of Cenyrn” - Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either. At Agility Step 0 The Black Rose rolls D3 with <u><link=\"maximized\">Maximized</link></u> and the selected Character rolls D3. If either model rolls lower, it loses the difference number of Health Points.\n\n• “Dance of Nabh” - The Black Rose gains <u><link=\"hatred\">Hatred (against Characters)</link></u>, <u><link=\"Zeal\">Zeal (against Characters)</link></u>. Attacks against The Black Rose gain +1 To Hit."
+    "Description": "During Choose Equipment and Abilities, The Black Rose must choose one of the following Dances, with Duration: Round of Combat.\nThe Black Rose cannot select a specific Dance again until either or both of the following has occurred:\n\n• She is not Engaged in Combat.\n• She has selected all Dances.\n• She can only select Dance of Caedhren, and it is not possible to do the <u><link=\"rulebook-make_way\">Make Way</link></u>.\n\n• “Dance of Caedhren” - The Black Rose can use <u><link=\"rulebook-make_way\">Make Way</link></u>, even when in contact with enemy models, provided she moves into contact with an enemy Character in her Unit's front facing.\n\n• “Dance of Cenyrn” - Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either. At Agility Step 0 The Black Rose rolls D3 with Maximized and the selected Character rolls D3. If either model rolls lower, it loses the difference number of Health Points.\n\n• “Dance of Nabh” - The Black Rose gains <u><link=\"rulebook-hatred\">Hatred (against Characters)</link></u>, <u><link=\"rulebook-zeal\">Zeal (against Characters)</link></u>. Attacks against The Black Rose gain +1 To Hit."
   },
   {
     "Id": "de-the_obsidian_thorns",
     "Name": "The Obsidian Thorns",
     "Type": "General",
-    "Description": "The Black Rose is <u><link=\"exclusive\">Exclusive (Obsidian Guard)</link></u>, has <u><link=\"magic_resistance\">Magic Resistance (1)</link></u> and all Models in a Unit containing her gain +1 Charge Speed.\nIn addition, Enemy Units are not allowed to choose the Flee! Charge Reaction when selected as a target by the Black Rose unless they are <u><link=\"shaken\">Shaken</link></u>.\nNote: This has no influence on Charge Reactions to against other Units."
+    "Description": "The Black Rose is <u><link=\"rulebook-exclusive\">Exclusive (Obsidian Guard)</link></u>, has <u><link=\"rulebook-magic_resistance\">Magic Resistance (1)</link></u> and all Models in a Unit containing her gain +1 Charge Speed.\nIn addition, Enemy Units are not allowed to choose the Flee! Charge Reaction when selected as a target by the Black Rose unless they are <u><link=\"rulebook-shaken\">Shaken</link></u>.\nNote: This has no influence on Charge Reactions to against other Units."
   },        
   {
     "Id": "rulebook-first_strike",
@@ -1179,7 +1161,7 @@
     "Id": "rulebook-hidden",
     "Name": "Hidden",
     "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
+    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"rulebook-hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"rulebook-hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"rulebook-hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"rulebook-hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"rulebook-hidden\">Hidden</link></u> can still be Deployed using <u><link=\"rulebook-hidden\">Hidden</link></u> rules"
   },
   {
     "Id": "rulebook-zeal",
@@ -1294,12 +1276,6 @@
     "Name": "Under the Cover of Mists",
     "Type": "Global",
     "Description": "Enemy units within 8\" of one or more Mist Leviathans suffer -1 to hit with Shooting Attacks.\nIn addition, during the first Game Turn, all models in friendly units containing Height 1 within 8\" of one or more Mist Leviathans gain <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>."
-  },
-  {
-    "Id": "hidden",
-    "Name": "Hidden",
-    "Type": "General",
-    "Description": "The <u><link=\"model\">model</link></u> is not Deployed as normal. Instead, at the start of any Player Turn, the owner can choose a friendly unit containing Rank-and-File <u><link=\"model\">models</link></u>, which satisfy the following:\n\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> could normally have joined the unit.\n-   The <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> has an identical Base Size and Height as the Rank-and-File <u><link=\"model\">models</link></u> in the unit.\n-   The unit is not <u><link=\"rulebook-shaken\">Shaken</link></u>,  is not a Summoned unit, but it can be <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>.\nAfter choosing an eligible unit, follow these steps:\n\n-   Remove a Rank-and-File <u><link=\"model\">model</link></u>, with the same base size as the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u>, from the front rank of the chosen unit as a casualty.\n-   Deploy the <u><link=\"model\">model</link></u> with <u><link=\"hidden\">Hidden</link></u> where the <u><link=\"removed\">removed</link></u> <u><link=\"model\">model</link></u> was positioned.\nNote: <u><link=\"attachable_models\">Attachable models</link></u> with <u><link=\"hidden\">Hidden</link></u> can still be Deployed using <u><link=\"hidden\">Hidden</link></u> rules"
   },
   {
     "Id": "great_weapon",
@@ -1467,7 +1443,7 @@
     "Id": "spell_selection",
     "Name": "Spell Selection",
     "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
+    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"rulebook-general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
   },
   {
     "Id": "universal",
@@ -1653,49 +1629,49 @@
     "Id": "eos-gregors_holy_hammer",
     "Name": "Gregor's Holy Hammer",
     "Type": "Equipment",
-    "Description": "Hand weapon, +1 Str +1 AP, Multiple Wounds (2, against Models with <u><link=\"aegis\">Aegis</link></u> or <u><link=\"regeneration\">Regeneration</link></u>*).\n*Including against models with Aegis or Regeneration Saves with conditional applications."
+    "Description": "Hand weapon, +1 Str +1 AP, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, against Models with <u><link=\"rulebook-aegis\">Aegis</link></u> or <u><link=\"rulebook-regeneration\">Regeneration</link></u>*).\n*Including against models with <u><link=\"rulebook-aegis\">Aegis</link></u> or <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves with conditional applications."
   },
   {
     "Id": "eos-divine_jurisdiction",
     "Name": "Divine Jurisdiction",
     "Type": "General",
-    "Description": "All Inquisitors may give Steady, Men! order to their own Units.\nIn addition, an Army List containing Heinrich Falkenbach changes the following Orders:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u> changes into: <u><link=\"eos-cut_the_head_of_the_snake\">Cut the head of the Snake!</link></u>: The target gains <u><link=\"fury\">Fury</link></u> (Units containing a Character) and <u><link=\"first_strike\">First Strike</link></u> (<u><link=\"hatred\">Hatred</link></u> (against Characters).\n\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u> changes into <u><link=\"eos-aim_for_the_weak_spot\">Aim for the Weak Spot!</link></u>: If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"aegis\">Aegis</link></u> nor <u><link=\"regeneration\">Regeneration</link></u> Saves can be taken against it."
+    "Description": "All Inquisitors may give Steady, Men! order to their own Units.\nIn addition, an Army List containing Heinrich Falkenbach changes the following Orders:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u> changes into: <u><link=\"eos-cut_the_head_of_the_snake\">Cut the head of the Snake!</link></u>: The target gains <u><link=\"rulebook-fury\">Fury</link></u> (Units containing a Character) and <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against Characters).\n\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u> changes into <u><link=\"eos-aim_for_the_weak_spot\">Aim for the Weak Spot!</link></u>: If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"rulebook-aegis\">Aegis</link></u> nor <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves can be taken against it."
   },
   {
     "Id": "eos-cut_the_head_of_the_snake",
     "Name": "Cut the head of the Snake!",
     "Type": "General",
-    "Description": "The target gains <u><link=\"fury\">Fury</link></u> (Units containing a Character) and <u><link=\"first_strike\">First Strike</link></u> (<u><link=\"hatred\">Hatred</link></u> (against Characters)"
+    "Description": "The target gains <u><link=\"rulebook-fury\">Fury</link></u> (Units containing a Character) and <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against Characters)"
   },
   {
     "Id": "eos-aim_for_the_weak_spot",
     "Name": "Aim for the Weak Spot!",
     "Type": "General",
-    "Description": "If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"aegis\">Aegis</link></u> nor <u><link=\"regeneration\">Regeneration</link></u> Saves can be taken against it."
+    "Description": "If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"rulebook-aegis\">Aegis</link></u> nor <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves can be taken against it."
   },
   {
     "Id": "eos-fanatical_devotion",
     "Name": "Fanatical Devotion",
     "Type": "General",
-    "Description": "Models in a Unit containing Brother Tomaz benefit from <u><link=\"Regeneration\">Regeneration</link></u> (6+) and Model Parts without Mount benefit from <u><link=\"hatred\">Hatred</link></u>."
+    "Description": "Models in a Unit containing Brother Tomaz benefit from <u><link=\"rulebook-regeneration\">Regeneration</link></u> (6+) and Model Parts without Mount benefit from <u><link=\"rulebook-hatred\">Hatred</link></u>."
   },
   {
     "Id": "eos-officially_not_a_miracle",
     "Name": "Officially Not A Miracle",
     "Type": "General",
-    "Description": "Brother Tomaz’s unit <u><link=\"raise\">Raises</link></u> 1 HP at the start of each friendly Magic Phase. Note: <u><link=\"attached\">Attached</link></u> models cannot be Raised unless specified."
+    "Description": "Brother Tomaz’s unit <u><link=\"rulebook-raise\">Raises</link></u> 1 HP at the start of each friendly Magic Phase. Note: <u><link=\"rulebook-attached\">Attached</link></u> models cannot be Raised unless specified."
   },
   {
     "Id": "eos-repent",
     "Name": "Repent!",
     "Type": "General",
-    "Description": "+1 Attack, <u><link=\"crush_attack\">Crush Attack</link></u>."
+    "Description": "+1 Attack, <u><link=\"rulebook-crush_attack\">Crush Attack</link></u>."
   },
   {
     "Id": "eos-shepherding_the_flock",
     "Name": "Shepherding the Flock",
     "Type": "General",
-    "Description": "Brother Tomaz can join Zealots as if <u><link=\"uUnstable\">Unstable</link></u>, and as long as he is joined to Zealots he is Unstable."
+    "Description": "Brother Tomaz can join Zealots as if <u><link=\"rulebook-unstable\">Unstable</link></u>, and as long as he is joined to Zealots he is <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },          
   {
     "Id": "rulebook-handgun",
@@ -1965,19 +1941,19 @@
     "Id": "he-rogue_heroine",
     "Name": "Rogue Heroine",
     "Type": "General",
-    "Description": "The model gains <u><link=\"fearless\">Fearless</link></u> and <u><link=\"frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"rulebook-frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>."
   },
   {
     "Id": "he-scourge_of_fleets",
     "Name": "Scourge of Fleets",
     "Type": "General",
-    "Description": "Balûruth gains <u><link=\"grind_attacks\">Grind Attacks</link></u> (D6 hits, Str 4, AP 1, <u><link=\"flaming_attacks\">Flaming Attacks</link></u>)."
+    "Description": "Balûruth gains <u><link=\"rulebook-grind_attacks\">Grind Attacks</link></u> (D6 hits, Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "he-the_lance_of_tears",
     "Name": "The Lance of Tears",
     "Type": "General",
-    "Description": "Lance. The model gains <u><link=\"afflict\">Afflict</link></u> (-1 Dis), Tenacla gains +1 Att and <u><link=\"fury\">Fury</link></u> and <u><link=\"hatred\">Hatred</link></u>. In addition, she loses 1 Attack at the end of every Game Turn in which she was NOT Engaged in Combat. Duration: Permanent."
+    "Description": "Lance. The model gains <u><link=\"rulebook-afflict\">Afflict</link></u> (-1 Dis), Tenacla gains +1 Att and <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"hatred\">Hatred</link></u>. In addition, she loses 1 Attack at the end of every Game Turn in which she was NOT Engaged in Combat. Duration: Permanent."
   },
   {
     "Id": "hg-hob_cohesion",
@@ -2343,7 +2319,7 @@
     "Id": "koe-a_worthy_foe",
     "Name": "A Worthy Foe",
     "Type": "",
-    "Description": "Knightly Principle. During Pre-game Selections, choose a Character or a single Height 4-5 Model containing <u><link=\"solitary\">Solitary</link></u>. King Henry gains <u><link=\"multiple_wounds\">(10) against the chosen model./link></u>."
+    "Description": "Knightly Principle. During Pre-game Selections, choose a Character or a single Height 4-5 Model containing <u><link=\"rulebook-solitary\">Solitary</link></u>. King Henry gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (10)</link></u> against the chosen model."
   },
   {
     "Id": "koe-feyforged_lance",
@@ -2355,13 +2331,13 @@
     "Id": "koe-new_guard",
     "Name": "New Guard",
     "Type": "",
-    "Description": "Dukes cannot be taken in an Army List containing King Henry the Young.\n In addition, while joined to a unit of Knights of the Court, King Henry benefits from <u><link=\"devastating_charge\">Devastating Charge</link></u> (+1Att, +1Off, +1 Agi)."
+    "Description": "Dukes cannot be taken in an Army List containing King Henry the Young.\n In addition, while joined to a unit of Knights of the Court, King Henry benefits from <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1Att, +1Off, +1 Agi)."
   },
   {
     "Id": "koe-borrowed_steed",
     "Name": "'Borrowed' Steed",
     "Type": "",
-    "Description": "Immediately before choosing a unit to join using the Hidden rule, Hernaut may gain a “Destrier” mount for free, without any upgrades."
+    "Description": "Immediately before choosing a unit to join using the <u><link=\"rulebook-hidden\">Hidden</link></u> rule, Hernaut may gain a “Destrier” mount for free, without any upgrades."
   },
   {
     "Id": "koe-infuriating_wit",
@@ -2373,7 +2349,7 @@
     "Id": "koe-leprechaun_companion",
     "Name": "Leprechaun Companion",
     "Type": "",
-    "Description": "EachStandardMeleeAttackallocatedagainstHernautthatmisses, is instead allocated to the attacking model’s Health Pool with Automatic Hits."
+    "Description": "Each Standard Melee Attack allocated against Hernaut that misses, is instead allocated to the attacking model’s Health Pool with <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>."
   },  
   {
     "Id": "rulebook-handandahalf",
@@ -2721,43 +2697,43 @@
     "Id": "ok-been_the_done_that",
     "Name": "Been There, Done That.",
     "Type": "General",
-    "Description": "Every friendly unit of Mercenary Veterans and Mercenary Gunners gains <u><link=\"bodyguard\">Bodyguard (Ganzorig)</link></u>. In addition, Ganzorig benefits from any Extraordinary Model Rule upgrades the unit has."
+    "Description": "Every friendly unit of Mercenary Veterans and Mercenary Gunners gains <u><link=\"rulebook-bodyguard\">Bodyguard (Ganzorig)</link></u>. In addition, Ganzorig benefits from any Extraordinary Model Rule upgrades the unit has."
   },
   {
     "Id": "ok-get_the_job_done",
     "Name": "Get the Job Done!",
     "Type": "General",
-    "Description": "One use only. During ’Calculate Final Combat Score’ (Round of Combat, Step 4.B), Ganzorig may <u><link=\"recover\">Recover</link></u> up to 2 Health Points and adds +2 Combat Resolution to his side."
+    "Description": "One use only. During ’Calculate Final Combat Score’ (Round of Combat, Step 4.B), Ganzorig may <u><link=\"rulebook-recover\">Recover</link></u> up to 2 Health Points and adds +2 Combat Resolution to his side."
   },
   {
     "Id": "ok-the_ironbond",
     "Name": "The Ironbond",
     "Type": "General",
-    "Description": "The model gains <u><link=\"resistance\">Resistance</link></u> and <u><link=\"stubborn\">Stubborn</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-resistance\">Resistance</link></u> and <u><link=\"rulebook-stubborn\">Stubborn</link></u>."
   },
   {
     "Id": "ok-young_mercenaries",
     "Name": "Young Mercenaries",
     "Type": "General",
-    "Description": "All Friendly Bruiser model parts in an army containing Ganzorig benefit from <u><link=\"first_strike\">First Strike (Fury)</link></u>, as long as he is on the Battlefield."
+    "Description": "All Friendly Bruiser model parts in an army containing Ganzorig benefit from <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-fury\">Fury</link></u>), as long as he is on the Battlefield."
   },
   {
     "Id": "ok-erus_secret_recipes",
     "Name": "Eru's Secret Recipes",
     "Type": "General",
-    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit. Duration: One Turn.\n\n * Bluehoove Goat Stew: Mobility +2, <u><link=\"strider\">Strider</link></u>.\n * Trollbear Goulash: <u><link=\"regeneration\">Regeneration (6+)</link></u>, <u><link=\"recover\">Recover</link></u> a single HP on a model in Valish's unit.\n   Note: Attached models cannot be <u><link=\"raise\">Raised</link></u> unless specified.\n * Stonecold Soup: <u><link=\"channel\">Channel (1)</link></u>, <u><link=\"disciplined\">Disciplined</link></u> and <u><link=\"rally_around the Flag\">Rally Around the Flag (0″)</link></u>."
+    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit. Duration: One Turn.\n\n * Bluehoove Goat Stew: Mobility +2, <u><link=\"rulebook-strider\">Strider</link></u>.\n * Trollbear Goulash: <u><link=\"rulebook-regeneration\">Regeneration (6+)</link></u>, <u><link=\"rulebook-recover\">Recover</link></u> a single HP on a model in Valish's unit.\n   Note: Attached models cannot be <u><link=\"raise\">Raised</link></u> unless specified.\n * Stonecold Soup: <u><link=\"rulebook-channel\">Channel (1)</link></u>, <u><link=\"rulebook-disciplined\">Disciplined</link></u> and <u><link=\"rulebook-rally_around the Flag\">Rally Around the Flag (0″)</link></u>."
   },
   {
     "Id": "ok-ghost_pepper",
     "Name": "Ghost Pepper",
     "Type": "General",
-    "Description": "During each friendly Shooting Phase, select a single model part in the Chefling’s unit: it gains <u><link=\"breath_attack\">Breath Attack (Str 3, AP 0)</link></u>. Duration: One Phase."
+    "Description": "During each friendly Shooting Phase, select a single model part in the Chefling’s unit: it gains <u><link=\"rulebook-breath_attack\">Breath Attack (Str 3, AP 0)</link></u>. Duration: One Phase."
   },
   {
     "Id": "ok-gone_but_not_forgotten",
     "Name": "Gone but not Forgotten",
     "Type": "General",
-    "Description": "If Valish is removed as a casualty, all friendly model parts with Ogre gain <u><link=\"hatred\">Hatred (against the unit that caused Valish to be removed as a casualty*)</link></u>. Duration: Permanent. * This includes all models joined to it."
+    "Description": "If Valish is removed as a casualty, all friendly model parts with Ogre gain <u><link=\"rulebook-hatred\">Hatred (against the unit that caused Valish to be removed as a casualty*)</link></u>. Duration: Permanent. * This includes all models joined to it."
   },
   {
     "Id": "ong-goblin_cunning",
@@ -2823,7 +2799,7 @@
     "Id": "rulebook-general",
     "Name": "General",
     "Type": "Global",
-    "Description": "An army may include a <u><link=\"general\">General</link></u>, and this upgrade is One of a Kind. A <u><link=\"general\">General</link></u> gains <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>."
+    "Description": "An army may include a <u><link=\"rulebook-general\">General</link></u>, and this upgrade is One of a Kind. A <u><link=\"rulebook-general\">General</link></u> gains <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>."
   },
   {
     "Id": "ong-crude_weapons",
@@ -2835,7 +2811,7 @@
     "Id": "ong-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"brood_rivalry\">Brood Rivalry</link></u>, Unruly, and gains Orc."
+    "Description": "The model gains <u><link=\"ong-brood_rivalry\">Brood Rivalry</link></u>, Unruly, and gains Orc."
   },
   {
     "Id": "ong-skewerer",
@@ -2892,18 +2868,6 @@
     "Description": "The model must perform a move in the Movement Phase if able to, and cannot declare any Charges; other units cannot Declare any Charges against the model. The model and other units ignore each other regarding the Unit Spacing rule for all movement and can touch and move through one another during any movement (excluding Ambush).\nWhen the model touches another unit, the model is immediately removed as a casualty, and the other unit immediately suffers X hits with the model's Str and AP. If several units are touched simultaneously, the owner of the model with <u><link=\"force_of_destruction\">Force of Destruction</link></u> chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it, that unit suffers an additional D6 hits.\n\nHealth Point losses caused by <u><link=\"force_of_destruction\">Force of Destruction</link></u> in the Charge Phase do not cause Panic Test."
   },
   {
-    "Id": "general",
-    "Name": "General",
-    "Type": "General",
-    "Description": "An army may include a <u><link=\"general\">General</link></u>, and this upgrade is One of a Kind. A <u><link=\"general\">General</link></u> gains <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>."
-  },
-  {
-    "Id": "brood_rivalry",
-    "Name": "Brood Rivalry",
-    "Type": "General",
-    "Description": "The model part gains +1 Att while another friendly unit is Engaged in Combat, anywhere on the Battlefield. Units composed entirely of Characters cannot benefit from this rule."
-  },
-  {
     "Id": "guile_and_fury",
     "Name": "Guile and Fury",
     "Type": "General",
@@ -2913,7 +2877,7 @@
     "Id": "ong-still_kickin",
     "Name": "Still Kickin",
     "Type": "General",
-    "Description": "At the beginning of any Player Turn when the Splendid Leader is not on the Battlefield (i.e. because he has been removed as a casualty), you can <u><link=\"summon\">Summon</link></u> a new Splendid Leader using the <u><link=\"hidden\">Hidden</link></u> rule, with the following exceptions: you can select whether the new Splendid Leader will be mounted on a Beastie, the Splendid Palanquin or a Beastie Chariot before choosing the unit he appears in.\nIf the Splendid Palanquin is selected, ignore the Base Size limitation and select six Rank-and-File models in the unit to be joined instead of a single model. After choosing an eligible unit, remove the six Rank-and-File models so that the Splendid Leader is placed in the Front Rank, where the removed models were positioned."
+    "Description": "At the beginning of any Player Turn when the Splendid Leader is not on the Battlefield (i.e. because he has been removed as a casualty), you can <u><link=\"summon\">Summon</link></u> a new Splendid Leader using the <u><link=\"rulebook-hidden\">Hidden</link></u> rule, with the following exceptions: you can select whether the new Splendid Leader will be mounted on a Beastie, the Splendid Palanquin or a Beastie Chariot before choosing the unit he appears in.\nIf the Splendid Palanquin is selected, ignore the Base Size limitation and select six Rank-and-File models in the unit to be joined instead of a single model. After choosing an eligible unit, remove the six Rank-and-File models so that the Splendid Leader is placed in the Front Rank, where the removed models were positioned."
   },
   {
     "Id": "sa-communal_bond",
@@ -4215,25 +4179,25 @@
     "Id": "ong-born_in_fire",
     "Name": "Born in Fire",
     "Type": "General",
-    "Description": "Amokek gains Resistance (Flaming Attacks).\n\nIn addition, when Choosing Equipment and Abilities, he may gain Flaming Attacks.\nDuration: Round of Combat."
+    "Description": "Amokek gains <u><link=\"resistance\">Resistance</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>).\n\nIn addition, when Choosing Equipment and Abilities, he may gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>.\nDuration: Round of Combat."
   },
     {
     "Id": "ong-the_bigger_the_axe",
     "Name": "The bigger the Axe…",
     "Type": "General",
-    "Description": "Great Weapon.\nWhen Choosing Equipment and Abilities, Amokek may choose to gain either Hatred or Multiple Wounds (2).\nDuration: Round of Combat."
+    "Description": "Great Weapon.\nWhen Choosing Equipment and Abilities, Amokek may choose to gain either <u><link=\"rulebook-hatred\">Hatred</link></u> or <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>.\nDuration: Round of Combat."
   },
   {
     "Id": "ong-the_only_king",
     "Name": "The Only King",
     "Type": "General",
-    "Description": "All models in the Only King’s unit benefit from Dying Blow.\nIn addition, if The Only King is removed as a casualty, all friendly units lose Brood Rivalry.\nThis effect persists for the Duration of One Turn after Amokek is removed as a casualty.\nThis is an exception to the rule 4.C of the “Attacks” chapter: “Losing the Last Health Point”."
+    "Description": "All models in the Only King’s unit benefit from <u><link=\"rulebook-dying_blow\">Dying Blow</link></u>.\nIn addition, if The Only King is removed as a casualty, all friendly units lose <u><link=\"ong-brood_rivalry\">Brood Rivalry</link></u>.\nThis effect persists for the Duration of One Turn after Amokek is removed as a casualty.\nThis is an exception to the rule 4.C of the “Attacks” chapter: “Losing the Last Health Point”."
   },
   {
     "Id": "ong-tis_but_a_scratch",
     "Name": "Tis but a scratch",
     "Type": "General",
-    "Description": "Amokek gains Aegis (5+)."
+    "Description": "Amokek gains <u><link=\"rulebook-aegis\">Aegis (5+)</link></u>."
   },
   {
     "Id": "ong-higher_standards",
@@ -4251,13 +4215,7 @@
     "Id": "ong-troll_s_bellow",
     "Name": "Troll’s Bellow",
     "Type": "General",
-    "Description": "When you activate the <u><link=\"ong-war_cry\">War Cry!</link></u>, all friendly units entirely with Troll gain <Fury>.\nDuration: One Turn."
-  },
-  {
-    "Id": "ong-still_kickin",
-    "Name": "Still Kickin'",
-    "Type": "General",
-    "Description": "At the beginning of any Player Turn when the Splendid Leader is not on the Battlefield (i.e. because he has been removed as a casualty), you can <u><link=\"summon\">Summon</link></u> a new Splendid Leader using the <u><link=\"hidden\">Hidden</link></u> rule, with the following exceptions: you can select whether the new Splendid Leader will be mounted on a Beastie, the Splendid Palanquin or a Beastie Chariot before choosing the unit he appears in.\n\nIf the Splendid Palanquin is selected, ignore the Base Size limitation and select six Rank-and-File models in the unit to be joined instead of a single model. After choosing an eligible unit, remove the six Rank-and-File models so that the Splendid Leader is placed in the Front Rank, where the removed models were positioned."
+    "Description": "When you activate the <u><link=\"ong-war_cry\">War Cry!</link></u>, all friendly units entirely with Troll gain <u><link=\"rulebook-fury\">Fury</link></u>.\nDuration: One Turn."
   },
   {
     "Id": "id-big_brother",
@@ -4467,19 +4425,19 @@
     "Id": "id-blivet_lance",
     "Name": "Blivet Lance",
     "Type": "General",
-    "Description": "Lance. Devastating Charge (+5 Agi). Attacks with the Blivet Lance ignore negative modifiers to to-hit rolls."
+    "Description": "Lance. <u><link=\"rulebook-devastating_charge\">Devastating Charge (+5 Agi)</link></u>. Attacks with the Blivet Lance ignore negative modifiers to to-hit rolls."
   },
   {
     "Id": "id-burning_armour",
     "Name": "Burning Armour",
     "Type": "General",
-    "Description": "For each Standard Melee Attack allocated against Ibat-Sokavum that rolls a ‘1’ to-hit, the attacking model’s Health Pool suffers a hit with Str 4, AP 0 and Flaming Attacks."
+    "Description": "For each Standard Melee Attack allocated against Ibat-Sokavum that rolls a ‘1’ to-hit, the attacking model’s Health Pool suffers a hit with Str 4, AP 0 and <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>."
   },
   {
     "Id": "id-helm_of_kadim_command",
     "Name": "Helm of Kadim Command",
     "Type": "General",
-    "Description": "Model parts with Kadim in friendly units within 12″ of Ibat-Sokavum gain First Strike (Hatred (against Weakness (Flaming Attacks)))."
+    "Description": "Model parts with Kadim in friendly units within 12″ of Ibat-Sokavum gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against <u><link=\"rulebook-weakness\">Weakness</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)))."
   },
   {
     "Id": "dl-favoured_of_pride",
@@ -4827,13 +4785,13 @@
     "Id": "dl-commander_of_the_steppes",
     "Name": "Commander of the Steppes",
     "Type": "General",
-    "Description": "At the Beginning of ’Moving Vanguarding Units’ (Battle Setup, Step 3.F), choose two units within 12″ of Tergon Khan entirely with Mount or entirely with Height 2: they gain <u><link=\"vanguard\">Vanguard</link></u> (3″)"
+    "Description": "At the Beginning of ’Moving Vanguarding Units’ (Battle Setup, Step 3.F), choose two units within 12″ of Tergon Khan entirely with Mount or entirely with Height 2: they gain <u><link=\"rulebook-vanguard\">Vanguard</link></u> (3″)"
   },
   {
     "Id": "dl-revoke_the_mandate_of_heaven",
     "Name": "Revoke the Mandate of Heaven",
     "Type": "General",
-    "Description": "One use only.\nMaybe activated at the start of the opponent's Player Turn.\nChoose a single enemy unit within 24″ of Tergon Khan.\nThe Mobility of all models with <u><link=\"fly\">Fly</link></u> in that unit is halved, rounding fractions up. Duration: End of Turn."
+    "Description": "One use only.\nMaybe activated at the start of the opponent's Player Turn.\nChoose a single enemy unit within 24″ of Tergon Khan.\nThe Mobility of all models with <u><link=\"rulebook-fly\">Fly</link></u> in that unit is halved, rounding fractions up. Duration: End of Turn."
   },
   {
     "Id": "bh-big_brother",
@@ -6171,25 +6129,25 @@
     "Id": "sa-eternity_chamber",
     "Name": "Eternity Chamber",
     "Type": "General",
-    "Description": "Anurarch Destined gains +2 HP, +3 Arm, and <u><link=\"regeneration\">Regeneration (4+)</link></u>."
+    "Description": "Anurarch Destined gains +2 HP, +3 Arm, and <u><link=\"rulebook-regeneration\">Regeneration (4+)</link></u>."
   },
   {
     "Id": "sa-greater_guiding_mastery",
     "Name": "Greater Guiding Mastery",
     "Type": "General",
-    "Description": "Friendly Models containing Magnasaur in nits within 12″ of Anurarch Destined benefit from <u><link=\"pack_hunter\">Pack Hunter</link></u>."
+    "Description": "Friendly Models containing Magnasaur in nits within 12″ of Anurarch Destined benefit from <u><link=\"sa-pack_hunter\">Pack Hunter</link></u>."
   },
   {
     "Id": "sa-like_the_tyrants_of_old",
     "Name": "Like the Tyrants of Old",
     "Type": "General",
-    "Description": "Anurarch Destined is both <u><link=\"general\">General</link></u> and <u><link=\"battle_standard_bearer\">Battle Standard Bearer</link></u>.\nIn addition, an Army List containing Anurarch Destined can not include any other Character, neither the Monolith of Vitalism nor a Koru Stone."
+    "Description": "Anurarch Destined is both <u><link=\"rulebook-general\">General</link></u> and <u><link=\"rulebook-battle_standard_bearer\">Battle Standard Bearer</link></u>.\nIn addition, an Army List containing Anurarch Destined can not include any other Character, neither the Monolith of Vitalism nor a Koru Stone."
   },
   {
     "Id": "sa-utterly_ruthless",
     "Name": "Utterly Ruthless",
     "Type": "General",
-    "Description": "The first time each turn Anurarch Destined performs The <u><link=\"the_sacrifice\">The Sacrifice</link></u> and inflicts Health Point losses with it, she <u><link=\"recover\">Recovers</link></u> 1 HP."
+    "Description": "The first time each turn Anurarch Destined performs The Sacrifice and inflicts Health Point losses with it, she <u><link=\"rulebook-recover\">Recovers</link></u> 1 HP."
   },
   {
     "Id": "sa-storm_crystal",
@@ -6201,13 +6159,13 @@
     "Id": "sa-balance_of_nature",
     "Name": "Balance of Nature",
     "Type": "General",
-    "Description": "<u><link=\"wizard_conclave\">Wizard Conclave (3)</link></u>. Instead of the usual Spell Selection (including Spell Swapping), Shade and Stone must select one spell from Druidism Apprentice and Adept spells, one spell from Shamanism Apprentice and Adept spells, and must always select the Hereditary Spell."
+    "Description": "<u><link=\"rulebook-wizard_conclave\">Wizard Conclave (3)</link></u>. Instead of the usual Spell Selection (including Spell Swapping), Shade and Stone must select one spell from Druidism Apprentice and Adept spells, one spell from Shamanism Apprentice and Adept spells, and must always select the Hereditary Spell."
   },
   {
     "Id": "sa-harmony_of_the_sun",
     "Name": "Harmony of the Sun",
     "Type": "General",
-    "Description": "All other friendly models in units within 8″ of Shade and Stone benefit from <u><link=\"regeneration\">General</link></u>."
+    "Description": "All other friendly models in units within 8″ of Shade and Stone benefit from <u><link=\"rulebook-regeneration\">General</link></u>."
   },
   {
     "Id": "sa-violence_of_the_storm",
@@ -6339,7 +6297,7 @@
     "Id": "se-shielding_bark",
     "Name": "Shielding Bark",
     "Type": "Equipment",
-    "Description": "+1 HP, <u><link=\"rulebook-aegis\">Aegis(5+)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"se-tree_singing\">Tree Singing</link></u>, <u><link=\"weakness\">Weakness(Flaming Attacks)</link></u>.\nThe Armour value is set to 4 and can never be improved beyond this."
+    "Description": "+1 HP, <u><link=\"rulebook-aegis\">Aegis(5+)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"se-tree_singing\">Tree Singing</link></u>, <u><link=\"rulebook-weakness\">Weakness(Flaming Attacks)</link></u>.\nThe Armour value is set to 4 and can never be improved beyond this."
   },
   {
     "Id": "se-banner_of_deception",
@@ -6441,13 +6399,13 @@
     "Id": "se-thickened_brush",
     "Name": "Thickened Brush",
     "Type": "General",
-    "Description": "One use only. Can be activated at the beginning of the enemy’s turn.\nFor each friendly unit within 12″and entirely with Sylvan Spirit, any enemy unit in contact with it loses <u><link=\"devastating_charge\">Devastating Charge</link></u>. Duration: One Turn."
+    "Description": "One use only. Can be activated at the beginning of the enemy’s turn.\nFor each friendly unit within 12″and entirely with Sylvan Spirit, any enemy unit in contact with it loses <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>. Duration: One Turn."
   },
   {
     "Id": "se-the_unicorns_fury",
     "Name": "The Unicorn’s Fury",
     "Type": "General",
-    "Description": "Melee Weapon. HandWeapon.\n<u><link=\"devastating\">Devastating Charge (+1 Str, +1 AP, and+ X Att, where “X” is equal to the number of Ranks in a single enemy unit in contact, up to a maximum of 4)</link></u> and <u><link=\"divine_attacks\">Divine Attacks</link></u>."
+    "Description": "Melee Weapon. HandWeapon.\n<u><link=\"rulebook-devastating_charge\">Devastating Charge (+1 Str, +1 AP, and+ X Att, where “X” is equal to the number of Ranks in a single enemy unit in contact, up to a maximum of 4)</link></u> and <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>."
   },
   {
     "Id": "se-the_unicorns_horn",
@@ -6735,7 +6693,7 @@
     "Id": "vc-thirsty_rapiers",
     "Name": "Thirsty Rapiers",
     "Type": "Equipment",
-    "Description": "Paired Weapons.\nLethal Strike.\nFor every Health Point loss dealt with this Weapon, immediately roll a D6: on 5+, Lady Chrysélie Recovers a single Health Point. However, all Vampiric rolls she makes automatically fail."
+    "Description": "Paired Weapons.\n<u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>.\nFor every Health Point loss dealt with this Weapon, immediately roll a D6: on 5+, Lady Chrysélie Recovers a single Health Point. However, all Vampiric rolls she makes automatically fail."
   },
   {
     "Id": "ud-scales_of_destiny",
@@ -6951,7 +6909,7 @@
     "Id": "ud-the_lost_and_damned",
     "Name": "The Lost and Damned",
     "Type": "General",
-    "Description": "In an Army List containing Ashotet, Skeleton Warriors and Skeleton Cavalry gain TormentedSouls.\n In addition, neither of the following unit entries may be included: Death Cult Hierarch, Casket of Phatep, Rehnepeh the Undying Sun, nor any model with <u><link=\"ud-undying_will\">Undying Will</link></u>."
+    "Description": "In an Army List containing Ashotet, Skeleton Warriors and Skeleton Cavalry gain <u><link=\"ud-tormented_souls\">Tormented Souls</link></u>.\n In addition, neither of the following unit entries may be included: Death Cult Hierarch, Casket of Phatep, Rehnepeh the Undying Sun, nor any model with <u><link=\"ud-undying_will\">Undying Will</link></u>."
   },
   {
     "Id": "ud-the_pyramidion",
@@ -6963,7 +6921,7 @@
     "Id": "ud-tormented_souls",
     "Name": "Tormented Souls",
     "Type": "General",
-    "Description": "The model gains Aegis (5+, against non-<u><link=\"magical_attacks\">Magical Attacks</link></u>, <u><link=\"exclusive\">Exclusive (Tormented Souls)</link></u>, <u><link=\"ghost_step\">Ghost Step</link></u>, <u><link=\"horror\">Horror</link></u>, <u><link=\"unruly\">Unruly</link></u> and Spirit.\nThe model’s Armour is set to 0, it loses Shield, and Skeleton and its Resurrection value is halved.\n All model parts gain +1 AP, <u><link=\"hatred\">Hatred</link></u> and <u><link=\"magical_attacks\">Magical Attacks</link></u>, lose all their Weapons, and gain Innate Weapons."
+    "Description": "The model gains Aegis (5+, against non-<u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Tormented Souls)</link></u>, <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>, <u><link=\"rulebook-horror\">Horror</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u> and Spirit.\nThe model’s Armour is set to 0, it loses Shield, and Skeleton and its Resurrection value is halved.\n All model parts gain +1 AP, <u><link=\"rulebook-hatred\">Hatred</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, lose all their Weapons, and gain Innate Weapons."
   },
   {
     "Id": "ud-charioteer_of_the_sun",
@@ -6975,13 +6933,13 @@
     "Id": "ud-staff_of_pi_ankh_khahiroth",
     "Name": "Staff of Pi-Ankh Khahiroth",
     "Type": "General",
-    "Description": "A unit containing the Staff of Pi-Ankh Khahiroth benefits from <u><link=\"ghost_step\">Ghost Step</link></u> and <u><link=\"strider\">Strider</link></u>.\nIn addition, all attacks made by model parts with Mount benefit from <u><link=\"flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"magical_attacks\">Magical Attacks</link></u>."
+    "Description": "A unit containing the Staff of Pi-Ankh Khahiroth benefits from <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> and <u><link=\"rulebook-strider\">Strider</link></u>.\nIn addition, all attacks made by model parts with Mount benefit from <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "ud-the_golden_chariot",
     "Name": "The Golden Chariot",
     "Type": "General",
-    "Description": "Rehnepeh gains +2 HP, <u><link=\"distracting\">Distracting</link></u> and <u><link=\"rally_around_the_flag\">Rally Around the Flag</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
+    "Description": "Rehnepeh gains +2 HP, <u><link=\"rulebook-distracting\">Distracting</link></u> and <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
   },
   {
     "Id": "vs-underworld_beast",
@@ -7203,13 +7161,13 @@
     "Id": "vs-inergon_injection",
     "Name": "Inergon injection!",
     "Type": "General",
-    "Description": "One use only.\nIn the Movement Phase, before moving, Professor Mauss can gain <link=\"random_movement\">Random Movement (3D6″)</link></u>.\nDuration: One Phase."
+    "Description": "One use only.\nIn the Movement Phase, before moving, Professor Mauss can gain <link=\"rulebook-random_movement\">Random Movement (3D6″)</link></u>.\nDuration: One Phase."
   },
   {
     "Id": "vs-superior_darkstone_power",
     "Name": "Superior Darkstone Power",
     "Type": "General",
-    "Description": "Professor Mauss can choose not to move despite having <link=\"random_movement\">Random Movement</link></u>.\nIn addition, Professor Mauss cannot choose to Pursue, unless he is Charging – in which case he must Pursue (including Overrun)."
+    "Description": "Professor Mauss can choose not to move despite having <link=\"rulebook-random_movement\">Random Movement</link></u>.\nIn addition, Professor Mauss cannot choose to Pursue, unless he is Charging – in which case he must Pursue (including Overrun)."
   },
   {
     "Id": "vs-prototype_mauss_rifle",
@@ -7221,19 +7179,19 @@
     "Id": "vs-disorienting_scent",
     "Name": "Disorienting Scent",
     "Type": "General",
-    "Description": "<u><link=\"afflict\">Afflict</link></u> (-2 Off), against model parts with Beast or Magnasaur"
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u> (-2 Off), against model parts with Beast or Magnasaur"
   },
   {
     "Id": "vs-mistress_of_smoke",
     "Name": "Mistress of Smoke",
     "Type": "General",
-    "Description": "One use only.\nWhen the Shadowslice Stalker would be removed as a casualty or flee while joined to a unit, remove her from the Battlefield: she becomes <u><link=\"hidden\">Hidden</link></u> again. If she uses this ability and hasn’t been removed as acasualty at the end of the game, the opponent still receives Victory Points as if she had been removed as acasualty."
+    "Description": "One use only.\nWhen the Shadowslice Stalker would be removed as a casualty or flee while joined to a unit, remove her from the Battlefield: she becomes <u><link=\"rulebook-hidden\">Hidden</link></u> again. If she uses this ability and hasn’t been removed as acasualty at the end of the game, the opponent still receives Victory Points as if she had been removed as acasualty."
   },
   {
     "Id": "vs-shadowslices_panoply",
     "Name": "Shadowslice’s Panoply",
     "Type": "General",
-    "Description": "The Shadowslice Stalker is equipped with the most advanced selection of murderous weaponry known to any species.\nEach time the Stalker is Deployed from <u><link=\"ambush\">Ambush</link></u> or using Hidden, she gains one of the following Magic Items. Duration: Permanent.\n\n • Countless Daggers: <u><link=\"first_strike\">First Strike (+2 Att)</link></u>, Paired Weapons and Throwing Weapons (2+).\n • Darkstone Rod: +2 Str, <u><link=\"lightning_attacks\"></link>Lightning Attacks</u> and <u><link=\"multiple_wounds\">Multiple Wounds (2)</link></u>\n • Senator’s Toga: +2 Dis, <u><link=\"commanding_presence\">Commanding Presence (6″)</link></u>."
+    "Description": "The Shadowslice Stalker is equipped with the most advanced selection of murderous weaponry known to any species.\nEach time the Stalker is Deployed from <u><link=\"rulebook-ambush\">Ambush</link></u> or using Hidden, she gains one of the following Magic Items. Duration: Permanent.\n\n • Countless Daggers: <u><link=\"rulebook-first_strike\">First Strike (+2 Att)</link></u>, Paired Weapons and Throwing Weapons (2+).\n • Darkstone Rod: +2 Str, <u><link=\"rulebook-lightning_attacks\"></link>Lightning Attacks</u> and <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>\n • Senator’s Toga: +2 Dis, <u><link=\"rulebook-commanding_presence\">Commanding Presence (6″)</link></u>."
   },  
   {
     "Id": "dh-monster_seeker",
@@ -7533,31 +7491,7 @@
     "Id": "dh-runic_standard_of_the_hold",
     "Name": "Runic Standard of the Hold",
     "Type": "General",
-    "Description": "The bearer's unit gains Resolute(1)."
-  },
-  {
-    "Id": "dh-ancient_grudge_mark",
-    "Name": "Ancient Grudge Mark",
-    "Type": "General",
-    "Description": "/subsection{ancient_grudge}"
-  },
-  {
-    "Id": "dh-runic_engravings_str",
-    "Name": "Runic Engravings (Str)",
-    "Type": "General",
-    "Description": "+1 Strength and +1 Armour Penetration"
-  },
-  {
-    "Id": "dh-runic_engravings_van",
-    "Name": "Runic Engravings (Vanguard)",
-    "Type": "General",
-    "Description": "Vanguard"
-  },
-  {
-    "Id": "dh-runic_engravings_agi",
-    "Name": "Runic Engravings (Agi)",
-    "Type": "General",
-    "Description": "+2 Agi"
+    "Description": "The bearer's unit gains <u><link=\"rulebook-resolute\">Resolute(1)</link></u>."
   },
   {
     "Id": "dh-the_living_law",
@@ -7575,13 +7509,13 @@
     "Id": "dh-master_brewer",
     "Name": "Master Brewer",
     "Type": "General",
-    "Description": "During each friendly Magic Phase, before Casting Spells ('Step 5 of Magic Phase'), the Master Brewer may select a single of the following Ales to affect his unit. Duration: One Turn.\n\n * Stout Ale: <u><link=\"fearless\">Fearless</link></u>, <u><link=\"stubborn\">Stubborn</link></u> and <u><link=\"unruly\">Unruly</link></u>.\n * Bitter Ale: <u><link=\"fury\">Fury</link></u>, <u><link=\"hatred\">Hatred</link></u>, and <u><link=\"unruly\">Unruly</link></u>.\n * Red Ale: <u><link=\"lethal_strike\">Lethal Strike</link></u>, <u><link=\"unruly\">Unruly</link></u>, and <u><link=\"zeal\">Zeal</link></u>."
+    "Description": "During each friendly Magic Phase, before Casting Spells ('Step 5 of Magic Phase'), the Master Brewer may select a single of the following Ales to affect his unit. Duration: One Turn.\n\n * Stout Ale: <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n * Bitter Ale: <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n * Red Ale: <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
   },          
   {
     "Id": "dh-the_aleward_crew",
     "Name": "The Aleward Crew",
     "Type": "General",
-    "Description": "When Tador Berafrig is Deployed, Tador and all Rank-and-File models in his unit gains +1 Armour and <u><link=\"aegis\">Aegis</link></u> (3+, against <u><link=\"flaming_attacks\">Flaming Attacks</link></u>). Duration: Permanent."
+    "Description": "When Tador Berafrig is Deployed, Tador and all Rank-and-File models in his unit gains +1 Armour and <u><link=\"rulebook-aegis\">Aegis</link></u> (3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>). Duration: Permanent."
   },
   {
     "Id": "wdg-wings",
@@ -7863,7 +7797,7 @@
     "Id": "wdg-the_fathers_gifts",
     "Name": "The Father’s Gifts",
     "Type": "General",
-    "Description": "At the beginning of each friendly Player Turn, Klaas can choose a single friendly unit within 12″ to gain one of the following abilities, with Duration : One Turn.\n\n • Supernal Shield: the chosen unit suffers -3 Arm and gains <link=\"aegis\"></link>Aegis (5+)</u>.\n • Unholy Edge: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n • The Eight-Point Crown: the chosen unit suffers -1 Str and -1 AP, and gains <link=\"stubborn\">Stubborn</link></u> and <link=\"unstable\">Unstable</link></u>."
+    "Description": "At the beginning of each friendly Player Turn, Klaas can choose a single friendly unit within 12″ to gain one of the following abilities, with Duration : One Turn.\n\n • Supernal Shield: the chosen unit suffers -3 Arm and gains <link=\"rulebook-aegis\"></link>Aegis (5+)</u>.\n • Unholy Edge: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n • The Eight-Point Crown: the chosen unit suffers -1 Str and -1 AP, and gains <link=\"rulebook-stubborn\">Stubborn</link></u> and <link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "wdg-protean_limbs",
@@ -10758,13 +10692,13 @@
     "Description": "Some spells or abilities allow a unit to perform a Magical Move. This move is performed as if it were the Movement Phase, following the same rules and restrictions. The unit can perform a Move Manoeuvre. Characters can join or leave units. Actions that are restricted during the Movement Phase, such as units performing Flee Moves, or units Engaged in Combat, cannot be performed.\n\nThe distance that the Magical Move can be performed is specified in the spell or ability. The target’s Mobility is set to always equal to the distance of the magical move, for the duration of the move. For example, an effect could be: The target may perform a 6\" Magical Move. This means the target has a Mobility of 6\", and can perform its normal movement actions using this Mobility.\n\nA unit can only perform a single Magical Move per Phase."
   },
   {
-    "Id": "rulebook-recover_health_points",
+    "Id": "rulebook-recover",
     "Name": "Recover Health Points",
     "Type": "General",
     "Description": "Some spells or abilities have the ability to recover lost Health Points during the battle. The amount of Health Points that can be recovered is specified in the ability.\n\nRecovering Health Points cannot bring back models that have been removed as casualties, and it cannot increase a model’s Health Points above its starting value (excess health Points  are lost).\n\nAttachable Models inside a combined unit cannot Recover Health Points from spells or abilities that allow a unit to recover Health Points. Such models can only recover Health Points when it is the direct target of the spell or ability.\n\nSometimes people say to Klepa, hey Klepa, you sold me this iron kettle that sploded first time it boiled. Or Klepa, you promised this magic amulet would fix my toenails and now all I got is nubs for feet. Or Mr Klepa, you’re under arrest for sale of rabid gnasher-dasher disguised as fluffy pet gerbil. And I say, I told you – Klepa products always work. Just sometimes they work too much. That’s traditional goblin method, you can’t per-see-coot me for my culture!\nSo yes, when we see foolish wizards whose spells work too much, we admire that enthusiasticity. Better to go big and learn something exciting than to be tame, boring, careful, sucks-ex-full all your life, that’s common sense.\nWizards don’t mind too much about common sense, seems like. Magic comes at a cost, they say – like Klepa merch and dice. ’Cept Klepa costs are lowest this side of Wasteland, but magic costs very high. Cast a spell wrong, it’ll turn you into a pile of cinders, or suck your soul out your nostrils. That’s what I call steep!"
   },
   {
-    "Id": "rulebook-raise_health_points",
+    "Id": "rulebook-raise",
     "Name": "Raise Health Points",
     "Type": "General",
     "Description": "Raise Health Points is similar to Recover Health Points, but with the exception that it can bring back models that have been removed as casualties.\n\n\tWhen raising Health Points, lost Health Points on models in the unit, excluding Attachable Models, are recovered first, followed by bringing back models. Each raised model must be fully recovered before another model can be raised. The total number of models in the unit cannot exceed its starting number, and any excess raised Health Points are lost.\n\tRaised models are placed in the rear rank if incomplete, or in a new rear rank if the current rear rank is complete. In units with only one rank, a raised model can either be placed in the first rank, or the player can declare the first rank complete and create a new rank (remember that you need at least a Proper Rank of models in the first rank before creating a second rank). Any models that cannot be placed in a legal position following the Unit Spacing rule are lost. Any used one-use-only effects or destroyed equipment are not regained. Raised models are subject to the same ongoing effects as their unit."
