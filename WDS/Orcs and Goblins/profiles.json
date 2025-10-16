@@ -1213,238 +1213,14 @@
     }
   },
   {
-    "Id": "448796cf-fb67-4790-9c70-577601870c16",
-    "Name": "Grunter",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "300"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc, Troll)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Grunter",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc, Troll)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
-      },
-      {
-        "Name": "Grunter",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Grunter",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "da0ac3f9-980f-4b35-8743-9f1376c8d4af",
-    "Name": "Grunter (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "320"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc, Troll)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-impact_hits": "Impact Hits (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Grunter (2)",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc, Troll)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
-      },
-      {
-        "Name": "Grunter (2)",
-        "Values": {
-          "HP": "4",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Grunter (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
-      },
-      {
-        "Name": "Chassis",
-        "Values": {
-          "At": "1",
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "52169ece-81c0-4e20-affc-f88e9b98e335",
-    "Name": "Wyvern",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "420"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc, Troll)",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Wyvern",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc, Troll)",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
-      },
-      {
-        "Name": "Wyvern",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Wyvern",
-        "Values": {
-          "At": "5",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "68357f71790d8280c4b24936",
+    "Id": "c1b49d82e7a05f7d917ad8b5f",
     "Name": "Orc Shaman",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
       "rulebook-exclusive": "Exclusive (Orc, Troll)",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
       "rulebook-wizard_adept": "Wizard Adept",
       "ong-brood_rivalry": "Brood Rivalry"
     },
@@ -1460,9 +1236,9 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
           "rulebook-exclusive": "Exclusive (Orc, Troll)",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1499,7 +1275,7 @@
     }
   },
   {
-    "Id": "b3ec713e-3a07-4956-90cf-d56f18ee64f1",
+    "Id": "448796cf-fb67-4790-9c70-577601870c16",
     "Name": "Grunter",
     "Attributes": {
       "type": "",
@@ -1508,12 +1284,11 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
       "rulebook-exclusive": "Exclusive (Orc)",
-      "rulebook-disciplined": "Disciplined",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-general": "General",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
+      "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
     },
     "EquipmentIds": [],
@@ -1528,12 +1303,11 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
           "rulebook-exclusive": "Exclusive (Orc)",
-          "rulebook-disciplined": "Disciplined",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-general": "General",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly",
+          "rulebook-wizard_adept": "Wizard Adept"          
         }
       },
       {
@@ -1542,17 +1316,17 @@
           "HP": "3",
           "Df": "6",
           "Re": "5",
-          "Arm": "5"
+          "Arm": "3"
         },
         "RuleIds": {}
       },
       {
         "Name": "Grunter",
         "Values": {
-          "At": "2",
+          "At": "1",
           "Of": "3",
-          "St": "5",
-          "AP": "2",
+          "St": "4",
+          "AP": "1",
           "Ag": "2"
         },
         "RuleIds": {
@@ -1569,7 +1343,7 @@
     }
   },
   {
-    "Id": "51621983-2aff-4aca-84ab-e6c0b96ae03e",
+    "Id": "da0ac3f9-980f-4b35-8743-9f1376c8d4af",
     "Name": "Grunter (2)",
     "Attributes": {
       "type": "",
@@ -1578,12 +1352,11 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc)",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-general": "General",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
       "rulebook-impact_hits": "Impact Hits (D6)"
     },
@@ -1599,12 +1372,11 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc)",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-general": "General"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly",
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
@@ -1622,8 +1394,8 @@
         "Values": {
           "At": "2",
           "Of": "3",
-          "St": "5",
-          "AP": "2",
+          "St": "4",
+          "AP": "1",
           "Ag": "2"
         },
         "RuleIds": {
@@ -1633,7 +1405,7 @@
       {
         "Name": "Chassis",
         "Values": {
-          "At": "1",
+          "At": null,
           "Of": null,
           "St": "5",
           "AP": "2",
@@ -1653,7 +1425,7 @@
     }
   },
   {
-    "Id": "aff0a0fa-571d-40fb-b877-8a567ac77b81",
+    "Id": "52169ece-81c0-4e20-affc-f88e9b98e335",
     "Name": "Wyvern",
     "Attributes": {
       "type": "",
@@ -1662,14 +1434,13 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
       "rulebook-exclusive": "Exclusive (Orc)",
-      "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-solitary": "Solitary",
-      "rulebook-general": "General",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-poison_attacks": "Poison Attacks",
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
@@ -1685,14 +1456,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc)",
-          "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-solitary": "Solitary",
-          "rulebook-general": "General"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly",
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
@@ -1729,16 +1498,88 @@
     }
   },
   {
-    "Id": "68357f71790d8280c4b24a62",
+    "Id": "6c3a7e9d-2f14-42b1-bd2e-12a1e02d890c",
+    "Name": "Wyvern (Big Wing)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "360"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wyvern (Big Wing)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly",
+          "rulebook-wizard_adept": "Wizard Adept"          
+        }
+      },
+      {
+        "Name": "Wyvern (Big Wing)",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wyvern (Big Wing)",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "9b3d7eac257f1a4836c9a4d12",
     "Name": "Orc Warlord",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc)",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Orc)",
       "rulebook-general": "General",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-unruly": "Unruly",
       "ong-brood_rivalry": "Brood Rivalry",
       "cl-fury": "Fury"
     },
@@ -1754,11 +1595,11 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc)",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Orc)",
           "rulebook-general": "General",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-unruly": "Unruly"
         }
       },
       {
@@ -1795,7 +1636,7 @@
     }
   },
   {
-    "Id": "d69c60ee-d25b-4d63-968f-727e25bcf3f2",
+    "Id": "b3ec713e-3a07-4956-90cf-d56f18ee64f1",
     "Name": "Grunter",
     "Attributes": {
       "type": "",
@@ -1804,15 +1645,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Orc)",
+      "rulebook-general": "General",
       "rulebook-unruly": "Unruly",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-handandahalf": "Hand-and-a-Half",
+      "ong-brood_rivalry": "Brood Rivalry",
+      "cl-fury": "Fury",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
+      "rulebook-swiftstride": "Swiftstride"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1826,13 +1666,11 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Orc)",
+          "rulebook-general": "General",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-handandahalf": "Hand-and-a-Half"
+          "rulebook-unruly": "Unruly"
         }
       },
       {
@@ -1843,6 +1681,387 @@
           "Re": "5",
           "Arm": "5"
         },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "51621983-2aff-4aca-84ab-e6c0b96ae03e",
+    "Name": "Grunter (2)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "370"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
+      "rulebook-general": "General",            
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "5"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Grunter (2)",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "aff0a0fa-571d-40fb-b877-8a567ac77b81",
+    "Name": "Wyvern",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",      
+      "rulebook-fly": "Fly",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+        "rulebook-disciplined": "Disciplined",      
+        "rulebook-fly": "Fly",
+        "rulebook-general": "General",
+        "rulebook-light_troops": "Light Troops",
+        "rulebook-solitary": "Solitary",
+        "rulebook-swiftstride": "Swiftstride",
+        "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wyvern",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+    {
+    "Id": "f29d6f7b-4a6b-420b-a973-00d0a7e7b0d6",
+    "Name": "Wyvern (Big Wing)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "410"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",      
+      "rulebook-fly": "Fly",
+      "rulebook-general": "General",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D3+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Wyvern (Big Wing)",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",      
+          "rulebook-fly": "Fly",
+          "rulebook-general": "General",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Wyvern (Big Wing)",
+        "Values": {
+          "HP": "5",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Wyvern (Big Wing)",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "9a347d2f30f5a8b6c9b09fdf2",
+    "Name": "Iron Orc Loner",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-unruly": "Unruly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-weapon_master": "Weapon Master",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-lance": "Lance",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Iron Orc Loner",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-unruly": "Unruly"          
+        }
+      },
+      {
+        "Name": "Iron Orc Loner",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Iron Orc Loner",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-weapon_master": "Weapon Master",
+          "rulebook-great_weapon": "Great Weapon",
+          "rulebook-lance": "Lance",
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "25"
+      }
+    }
+  },
+  {
+    "Id": "d69c60ee-d25b-4d63-968f-727e25bcf3f2",
+    "Name": "Grunter",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "75"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-light_troops": "Light Troops",  
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-shield": "Shield",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Grunter",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-light_troops": "Light Troops",  
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Grunter",
+        "Values": {
+          "HP": "3",
+          "Df": "6",
+          "Re": "5",
+          "Arm": "4"
+        },
         "RuleIds": {
           "rulebook-shield": "Shield"
         }
@@ -1852,8 +2071,8 @@
         "Values": {
           "At": "1",
           "Of": "3",
-          "St": "5",
-          "AP": "2",
+          "St": "4",
+          "AP": "1",
           "Ag": "2"
         },
         "RuleIds": {
@@ -1875,21 +2094,20 @@
     "Attributes": {
       "type": "",
       "height": "Large",
-      "totalcost": "370"
+      "totalcost": "140"
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
       "rulebook-fearless": "Fearless",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-light_troops": "Light Troops",  
       "rulebook-solitary": "Solitary",
       "rulebook-stubborn": "Stubborn",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
-      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-unruly": "Unruly",
+      "rulebook-shield": "Shield",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "rulebook-shield": "Shield"
+      "rulebook-impact_hits": "Impact Hits (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1899,27 +2117,26 @@
         "Values": {
           "Ad": "7",
           "Ma": "4",
-          "Di": "9",
+          "Di": "8",
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
           "rulebook-fearless": "Fearless",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-light_troops": "Light Troops",  
           "rulebook-solitary": "Solitary",
           "rulebook-stubborn": "Stubborn",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-exclusive": "Exclusive (Grunter Chariot, Iron Orc Chariots)",
-          "rulebook-handandahalf": "Hand-and-a-Half"
+          "rulebook-unruly": "Unruly"
         }
       },
       {
         "Name": "Grunter (2)",
         "Values": {
           "HP": "4",
-          "Df": "6",
+          "Df": "5",
           "Re": "5",
-          "Arm": "5"
+          "Arm": "4"
         },
         "RuleIds": {
           "rulebook-shield": "Shield"
@@ -1930,8 +2147,8 @@
         "Values": {
           "At": "1",
           "Of": "3",
-          "St": "5",
-          "AP": "2",
+          "St": "4",
+          "AP": "1",
           "Ag": "2"
         },
         "RuleIds": {
@@ -1970,14 +2187,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
       "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn": "Stubborn",
+      "rulebook-handandahalf": "Hand-and-a-Half",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-unruly": "Unruly",
       "rulebook-poison_attacks": "Poison Attacks",
       "rulebook-stomp_attack": "Stomp Attack (1)",
       "rulebook-shield": "Shield"
@@ -1994,14 +2211,14 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
           "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn",
+          "rulebook-handandahalf": "Hand-and-a-Half",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-handandahalf": "Hand-and-a-Half"
+          "rulebook-unruly": "Unruly"
         }
       },
       {
@@ -2040,231 +2257,80 @@
     }
   },
   {
-    "Id": "68357f71790d8280c4b24bba",
-    "Name": "Iron Orc Loner",
-    "Attributes": {},
+    "Id": "f97b2c7e-56a9-4739-bf7d-8c2d4e5a7f03",
+    "Name": "Wyvern (Big Wing)",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "410"
+    },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-unruly": "Unruly",
       "rulebook-fearless": "Fearless",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
       "rulebook-stubborn": "Stubborn",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-handandahalf": "Hand-and-a-Half",
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-lance": "Lance",
-      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",
+      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
       "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Iron Orc Loner",
+        "Name": "Wyvern (Big Wing)",
         "Values": {
-          "Ad": "4",
-          "Ma": "4",
+          "Ad": "8",
+          "Ma": "8",
           "Di": "9",
-          "Hgt": "1"
+          "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-unruly": "Unruly",
           "rulebook-fearless": "Fearless",
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
           "rulebook-stubborn": "Stubborn",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-handandahalf": "Hand-and-a-Half"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
         }
       },
       {
-        "Name": "Iron Orc Loner",
+        "Name": "Wyvern (Big Wing)",
         "Values": {
-          "HP": "3",
+          "HP": "5",
           "Df": "6",
           "Re": "5",
-          "Arm": "3"
+          "Arm": "4"
         },
         "RuleIds": {
           "rulebook-shield": "Shield"
         }
       },
       {
-        "Name": null,
+        "Name": "Wyvern (Big Wing)",
         "Values": {
           "At": "4",
-          "Of": "6",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4",
-          "Agi": "0"
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "4"
         },
         "RuleIds": {
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-great_weapon": "Great Weapon",
-          "rulebook-lance": "Lance",
-          "rulebook-paired_weapons": "Paired Weapons"
+          "rulebook-poison_attacks": "Poison Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D3+1)"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
-  },
-  {
-    "Id": "25e05584-7de5-4f90-a232-7c6a8e185181",
-    "Name": "Grunter",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "75"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Grunter",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
-        }
-      },
-      {
-        "Name": "Grunter",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Grunter",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "6bce2036-c47c-49eb-b380-24454acf7173",
-    "Name": "Grunter (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "140"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-exclusive": "Exclusive (Orc)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-impact_hits": "Impact Hits (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Grunter (2)",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-unruly": "Unruly",
-          "rulebook-exclusive": "Exclusive (Orc)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
-        }
-      },
-      {
-        "Name": "Grunter (2)",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Grunter (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
-      },
-      {
-        "Name": "Chassis",
-        "Values": {
-          "At": "1",
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
+        "width": "75",
         "length": "100"
       }
     }
