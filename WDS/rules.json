@@ -15,7 +15,7 @@
     "Id": "rulebook-disciplined",
     "Name": "Disciplined",
     "Type": "Global",
-    "Description": "<u><link=\"command_test\">Command Tests</link></u> taken by a unit containing <u><link=\"disciplined\">Disciplined</link></u> gain Minimized ."
+    "Description": "<u><link=\"command_test\">Command Tests</link></u> taken by a unit containing <u><link=\"rulebook-disciplined\">Disciplined</link></u> gain Minimized ."
   },
   {
     "Id": "rulebook-light_troops",
@@ -231,7 +231,7 @@
     "Id": "rulebook-random_movement",
     "Name": "Random Movement",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
+    "Description": "Units entirely with <u><link=\"rulebook-random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"rulebook-random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
   },
   {
     "Id": "rulebook-stubborn",
@@ -405,13 +405,7 @@
     "Id": "command_test",
     "Name": "Command Test",
     "Type": "General",
-    "Description": "<u><link=\"command_test\">Command Tests</link></u> represent warriors' ability to perform orderly battlefield manoeuvres and rally after a rout has begun.\nCommon situations where <u><link=\"command_test\">Command Tests</link></u> are taken are:\n-   When attempting to Redirect a Charge. Remember that this can only be attempted once per phase, per unit.\n-   When on the losing side, and/or when Engaged in the Flank and Rear and attempting to perform a Combat Reform.\nWhen taking a <u><link=\"rally_test\">Rally Test</link></u>. See <u><link=\"rally_phase\">Rally Phase</link></u> chapter for details.\nCommon <u><link=\"model\">Model</link></u> Rules that affect <u><link=\"command_test\">Command Tests</link></u>: <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"rulebook-mindless\">Mindless</link></u>, , <u><link=\"rulebook-unruly\">Unruly</link></u>. See <u><link=\"model\">Model</link></u> Rules for details.\n\nPanic? Klepa is always cool as coocumber. What’s the secret to staying calm? Just remember: you are an honest goblin with a pure heart, nothing to hide, and lots of eemaculit alibis.\n"
-  },
-  {
-    "Id": "disciplined",
-    "Name": "Disciplined",
-    "Type": "General",
-    "Description": "<u><link=\"command_test\">Command Tests</link></u> taken by a unit containing <u><link=\"disciplined\">Disciplined</link></u> gain Minimized ."
+    "Description": "<u><link=\"command_test\">Command Tests</link></u> represent warriors' ability to perform orderly battlefield manoeuvres and rally after a rout has begun.\nCommon situations where <u><link=\"command_test\">Command Tests</link></u> are taken are:\n-   When attempting to Redirect a Charge. Remember that this can only be attempted once per phase, per unit.\n-   When on the losing side, and/or when Engaged in the Flank and Rear and attempting to perform a Combat Reform.\nWhen taking a <u><link=\"rally_test\">Rally Test</link></u>. See <u><link=\"rally_phase\">Rally Phase</link></u> chapter for details.\nCommon <u><link=\"model\">Model</link></u> Rules that affect <u><link=\"command_test\">Command Tests</link></u>: <u><link=\"rulebook-disciplined\">Disciplined</link></u>, <u><link=\"rulebook-mindless\">Mindless</link></u>, , <u><link=\"rulebook-unruly\">Unruly</link></u>. See <u><link=\"model\">Model</link></u> Rules for details.\n\nPanic? Klepa is always cool as coocumber. What’s the secret to staying calm? Just remember: you are an honest goblin with a pure heart, nothing to hide, and lots of eemaculit alibis.\n"
   },
   {
     "Id": "move_manoeuvres",
@@ -573,7 +567,7 @@
     "Id": "unit_spacing",
     "Name": "Unit Spacing",
     "Type": "General",
-    "Description": "Normally, units must maintain a distance of more than 1\" from <u><link=\"impassable_terrain\">Impassable Terrain</link></u> and other units, both friends and enemies. However, during ongoing moves, the <u><link=\"unit_spacing\">Unit Spacing</link></u> requirement is temporarily lowered to 0.5\", but 1\" must be maintained at the end of the move (i.e. units are allowed to be within 1\", but outside 0, 5\" of other units and <u><link=\"impassable_terrain\">Impassable Terrain</link></u> during a move, but they are not allowed: to come into base contact, overlap with their bases, nor to voluntarily end the move within 1\" of either <u><link=\"impassable_terrain\">Impassable Terrain</link></u> nor other units).\nDuring moves where the owning player of the unit does not have full control of the unit, including <u><link=\"charge_moves\">Charge Moves</link></u>, <u><link=\"failed_charge_move\">Failed Charge Moves</link></u>, <u><link=\"flee_move\">Flee Moves</link></u>, and <u><link=\"pursue_moves\">Pursue Moves</link></u>, the unit is allowed to approach, and end the move, closer than 0.5\" of units and <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, but it is not allowed to come into contact or overlap with their bases (except <u><link=\"charge_moves\">Charge Moves</link></u>, which can move into contact with the target of the charge).\nIf a unit moves closer than 1\" as a result of an uncontrolled move, such as during a <u><link=\"charge_move\">Charge Move</link></u>, the unit is allowed to end the move closer than 1\" away and is allowed to stay within 1\" until the point at which it is outside 1\" again.\nUnits are only allowed to move into base contact with another unit during specific circumstances, the most common  being a <u><link=\"charge_move\">Charge Move</link></u>, where units are allowed to move into contact with other units, except enemy units that were not the target of the charge. This includes uncontrolled move, such as when moving a random distance (e.g. <u><link=\"model\">models</link></u> with <u><link=\"random_movement\">Random Movement</link></u> or when performing a <u><link=\"failed_charge_move\">Failed Charge Move)</link></u>. Unless explicitly noted, units are not allowed to move into base contact with other units, not even temporarily.\nWhen units end up within 1\" of each as a result of unintended circumstances, or uncontrolled moves, these units are allowed to remain within 1\" until the units are separated by more than 1\", at which point the normal <u><link=\"unit_spacing\">Unit Spacing</link></u> rules apply again. Removing a unit from the battlefield, such as during a Reform, does not count as moving the unit farther away for this purpose, unless the unit is actually placed back further away than 1\"."
+    "Description": "Normally, units must maintain a distance of more than 1\" from <u><link=\"impassable_terrain\">Impassable Terrain</link></u> and other units, both friends and enemies. However, during ongoing moves, the <u><link=\"unit_spacing\">Unit Spacing</link></u> requirement is temporarily lowered to 0.5\", but 1\" must be maintained at the end of the move (i.e. units are allowed to be within 1\", but outside 0, 5\" of other units and <u><link=\"impassable_terrain\">Impassable Terrain</link></u> during a move, but they are not allowed: to come into base contact, overlap with their bases, nor to voluntarily end the move within 1\" of either <u><link=\"impassable_terrain\">Impassable Terrain</link></u> nor other units).\nDuring moves where the owning player of the unit does not have full control of the unit, including <u><link=\"charge_moves\">Charge Moves</link></u>, <u><link=\"failed_charge_move\">Failed Charge Moves</link></u>, <u><link=\"flee_move\">Flee Moves</link></u>, and <u><link=\"pursue_moves\">Pursue Moves</link></u>, the unit is allowed to approach, and end the move, closer than 0.5\" of units and <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, but it is not allowed to come into contact or overlap with their bases (except <u><link=\"charge_moves\">Charge Moves</link></u>, which can move into contact with the target of the charge).\nIf a unit moves closer than 1\" as a result of an uncontrolled move, such as during a <u><link=\"charge_move\">Charge Move</link></u>, the unit is allowed to end the move closer than 1\" away and is allowed to stay within 1\" until the point at which it is outside 1\" again.\nUnits are only allowed to move into base contact with another unit during specific circumstances, the most common  being a <u><link=\"charge_move\">Charge Move</link></u>, where units are allowed to move into contact with other units, except enemy units that were not the target of the charge. This includes uncontrolled move, such as when moving a random distance (e.g. <u><link=\"model\">models</link></u> with <u><link=\"rulebook-random_movement\">Random Movement</link></u> or when performing a <u><link=\"failed_charge_move\">Failed Charge Move)</link></u>. Unless explicitly noted, units are not allowed to move into base contact with other units, not even temporarily.\nWhen units end up within 1\" of each as a result of unintended circumstances, or uncontrolled moves, these units are allowed to remain within 1\" until the units are separated by more than 1\", at which point the normal <u><link=\"unit_spacing\">Unit Spacing</link></u> rules apply again. Removing a unit from the battlefield, such as during a Reform, does not count as moving the unit farther away for this purpose, unless the unit is actually placed back further away than 1\"."
   },
   {
     "Id": "advance_move",
@@ -604,12 +598,6 @@
     "Name": "Light Lance",
     "Type": "General",
     "Description": "<u><link=\"model\">Models</link></u> on foot cannot use <u><link=\"light_lance\">Light Lances</link></u>. Devastating Charge(+1 Str, +1 AP)"
-  },
-  {
-    "Id": "random_movement",
-    "Name": "Random Movement",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
   },
   {
     "Id": "pursue_moves",
@@ -747,7 +735,7 @@
     "Id": "rulebook-spear",
     "Name": "Spear",
     "Type": "Equipment",
-    "Description": "+1 Agi, +1 AP, +1 additional AP against <u><link=\"mount\">Mount</link></u> or Centauroid <u><link=\"fight_in_extra_rank\">Fight in Extra Rank</link></u>"
+    "Description": "+1 Agi, +1 AP, +1 additional AP against <u><link=\"mount\">Mount</link></u> or Centauroid <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>"
   },
   {
     "Id": "er-fear_no_evil",
@@ -759,7 +747,7 @@
     "Id": "rulebook-fight_in_extra_rank",
     "Name": "Fight in Extra Rank",
     "Type": "Equipment",
-    "Description": "<u><link=\"model\">Model</link></u> parts with <u><link=\"fight_in_extra_rank\">Fight in Extra Rank</link></u>, or using a weapon with <u><link=\"fight_in_extra_rank\">Fight in Extra Rank</link></u>, can make Supporting <u><link=\"attacks\">Attacks</link></u> from an additional rank."
+    "Description": "<u><link=\"model\">Model</link></u> parts with <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>, or using a weapon with <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>, can make Supporting <u><link=\"attacks\">Attacks</link></u> from an additional rank."
   },
   {
     "Id": "er-bubonic_brew",
@@ -838,12 +826,6 @@
     "Name": "Mount",
     "Type": "General",
     "Description": "The <u><link=\"model\">model</link></u> is mounted"
-  },
-  {
-    "Id": "fight_in_extra_rank",
-    "Name": "Fight in Extra Rank",
-    "Type": "General",
-    "Description": "<u><link=\"model\">Model</link></u> parts with <u><link=\"fight_in_extra_rank\">Fight in Extra Rank</link></u>, or using a weapon with <u><link=\"fight_in_extra_rank\">Fight in Extra Rank</link></u>, can make Supporting <u><link=\"attacks\">Attacks</link></u> from an additional rank."
   },
   {
     "Id": "dread_rot",
@@ -1563,7 +1545,7 @@
     "Id": "eos-trained_ferocity",
     "Name": "Trained Ferocity",
     "Type": "Equipment",
-    "Description": "While Engaged in the same Combined Combat as another friendly unit, the model part gains +1 Att and First Strike(Hatred)."
+    "Description": "While Engaged in the same Combined Combat as another friendly unit, the model part gains +1 Att and <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>)."
   },
   {
     "Id": "eos-meeting_of_minds",
@@ -1575,25 +1557,25 @@
     "Id": "eos-first_knight",
     "Name": "First Knight",
     "Type": "Global",
-    "Description": "While the model is joined to a unit of Knightly Orders, the unit gains the following rules:\n-   Fearless.\n-   If the model is the General, the Rank-and-File models also gain <u><link=\"parent_unit\">Parent Unit</link></u>."
+    "Description": "While the model is joined to a unit of Knightly Orders, the unit gains the following rules:\n- <u><link=\"rulebook-fearless\">Fearless</link></u>.\n- If the model is the General, the Rank-and-File models also gain <u><link=\"eos-parent_unit\">Parent Unit</link></u>."
   },
   {
     "Id": "eos-blessings",
     "Name": "Blessings",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"blessings\">Blessings</link></u> gains First Strike(Hatred). Model parts with Mount are not affected. The model can cast the following three Bound Spells(3+), these spells have Type: Caster, and Duration: One Turn.ullorUllor's BlessingThe target's unit gains Aegis(5+, against Melee Attacks).sunnaSunna's BlessingThe target's unit gains Flaming Attacks. Each enemy unit in contact with the target's unit when the spell is cast, suffers D6 hits with Str 4, AP 0, Flaming Attacks, Magical Attacks.volundVolund's BlessingThe target's unit gains Zeal(Melee)."
+    "Description": "A unit containing <u><link=\"eos-blessings\">Blessings</link></u> gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>). Model parts with Mount are not affected. The model can cast the following three Bound Spells(3+), with Type: Caster, and Duration: One Turn.\nUllor's Blessing: The target's unit gains <u><link=\"rulebook-aegis\">Aegis (5+, against Melee Attacks)</link></u>.\nSunna's Blessing: The target's unit gains <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>. Each enemy unit in contact with the target's unit when the spell is cast, suffers D6 hits with Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>.\nVolund's Blessing: The target's unit gains <u><link=\"rulebook-zeal\">Zeal (melee)</link></u>."
   },
   {
     "Id": "eos-holy_relic",
     "Name": "Holy Relic",
     "Type": "Global",
-    "Description": "Friendly units within 8\" of the model gain First Strike(Hatred). Model parts with Mount are not affected. Bound Spells from <u><link=\"blessings\">Blessings</link></u> cast by the rider change their Type to: Range 8\", Aura. The model can cast Fate's Judgement (Divination) as a Bound Spell(3+)."
+    "Description": "Friendly units within 8\" of the model gain <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>). Model parts with Mount are not affected. Bound Spells from <u><link=\"eos-blessings\">Blessings</link></u> cast by the rider change their Type to: Range 8\", Aura. The model can cast Fate's Judgement (Divination) as a Bound Spell(3+)."
   },
   {
     "Id": "eos-aura_of_power",
     "Name": "Aura of Power",
     "Type": "Global",
-    "Description": "Units within 8\" of one or more friendly models with <u><link=\"aura_of_power\">Aura of Power</link></u> gain +2 Def and +2 Off. Model parts with Mount are not affected. The model can cast its chosen spell as a Bound Spell(5+)."
+    "Description": "Units within 8\" of one or more friendly models with <u><link=\"eos-aura_of_power\">Aura of Power</link></u> gain +2 Def and +2 Off. Model parts with Mount are not affected. The model can cast its chosen spell as a Bound Spell(5+)."
   },
   {
     "Id": "rulebook-ice_and_fire",
@@ -1605,19 +1587,19 @@
     "Id": "eos-master_artificer",
     "Name": "Master Artificer",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"imperial_authority\">Imperial Authority</link></u>, but is limited to the Order Ready! Aim! Fire!. In addition, for the purpose of this rule, any unit of Reiters the model has joined is considered to be a <u><link=\"parent_unit\">Parent Unit</link></u>."
+    "Description": "The model gains <u><link=\"eos-imperial_authority\">Imperial Authority</link></u>, but is limited to the Order <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u>. In addition, for the purpose of this rule, any unit of Reiters the model has joined is considered to be a <u><link=\"eos-parent_unit\">Parent Unit</link></u>."
   },
   {
     "Id": "eos-silver_shots",
     "Name": "Silver Shots",
     "Type": "Equipment",
-    "Description": "Shooting Attacks made with a Crossbow, <u><link=\"brace_of_pistols\">Brace of Pistols</link></u>, <u><link=\"repeater_pistol\">Repeater Pistol</link></u> by the model part gain Lethal Strike, Zeal."
+    "Description": "Shooting Attacks made by the model part with a <u><link=\"rulebook-crossbow\">Crossbow</link></u>, <u><link=\"eos-brace_of_pistols\">Brace of Pistols</link></u> or <u><link=\"eos-repeater_pistol\">Repeater Pistol</link></u> gain <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> and <u><link=\"rulebook-zeal\">Zeal</link></u>."
   },
   {
     "Id": "eos-support_unit",
     "Name": "Support Unit",
     "Type": "Global",
-    "Description": "A unit containing a model with this rule is referred to as a: <u><link=\"support_unit\">Support Unit</link></u>. A <u><link=\"support_unit\">Support Unit</link></u> with at least one Proper Rank is considered to be Steady if a friendly <u><link=\"parent_unit\">Parent Unit</link></u> in the same Combat is Steady, and Solid if a friendly <u><link=\"parent_unit\">Parent Unit</link></u> in the same Combat is Solid.\nDuring the opponent's Charge Phase, <u><link=\"support_unit\">Support Units</link></u> may perform one of the following actions:\n\n-   The <u><link=\"support_unit\">Support Unit</link></u> may perform an out of sequence Shooting Attack against an enemy unit that has successfully performed a Charge Move into a friendly <u><link=\"parent_unit\">Parent Unit</link></u> within 8\". Apply the normal rules for Shooting Attacks, ignoring the <u><link=\"parent_unit\">Parent Unit</link></u> for Cover and Line of Sight purposes.\n-   After enemy units finish their Charge Moves, <u><link=\"support_unit\">Support Units</link></u> within 8\" of a successfully charged friendly <u><link=\"parent_unit\">Parent Unit</link></u> may Counter Charge: choose one enemy unit that Charged the <u><link=\"parent_unit\">Parent Unit</link></u> and declare a Charge with the <u><link=\"support_unit\">Support Unit</link></u>, applying the normal rules for Charging (such as Line of Sight, Front Arc, rolls for Charge Range, etc.). A <u><link=\"support_unit\">Support Unit</link></u> that performs a Counter Charge is considered to have 0 Proper Ranks for the purpose of afflicting Surrounded, until it is no longer Engaged in Combat."
+    "Description": "A unit containing a model with this rule is referred to as a <u><link=\"eos-support_unit\">Support Unit</link></u>.\nA <u><link=\"eos-support_unit\">Support Unit</link></u> with at least one Proper Rank is considered to be <u><link=\"rulebook-combat_formations\">Steady</link></u>  if a friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> in the same Combat is <u><link=\"rulebook-combat_formations\">Steady</link></u>, and <u><link=\"rulebook-combat_formations\">Solid</link></u> if a friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> in the same Combat is <u><link=\"rulebook-combat_formations\">Solid</link></u>.\nDuring the opponent's Charge Phase, <u><link=\"eos-support_unit\">Support Units</link></u> may perform one of the following actions:\n\n1.- Supporting Fire: the <u><link=\"eos-support_unit\">Support Unit</link></u> may perform an out of sequence Shooting Attack against an enemy unit that has successfully performed a Charge Move into a friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> within 8\". Apply the normal rules for Shooting Attacks, ignoring the <u><link=\"eos-parent_unit\">Parent Unit</link></u> for Cover and Line of Sight purposes.\n2.- Counter Charge: after enemy units finish their Charge Moves, <u><link=\"eos-support_unit\">Support Units</link></u> within 8\" of a successfully charged friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> may choose one enemy unit that Charged the <u><link=\"eos-parent_unit\">Parent Unit</link></u> and declare a Charge with the <u><link=\"eos-support_unit\">Support Unit</link></u>, applying the normal rules for Charging (such as Line of Sight, Front Arc, rolls for Charge Range, etc.). A <u><link=\"eos-support_unit\">Support Unit</link></u> that performs a Counter Charge is considered to have 0 Proper Ranks for the purpose of afflicting <u><link=\"rulebook-combat_formations\">Surrounded</link></u>, until it is no longer Engaged in Combat."
   },
   {
     "Id": "eos-a_koelhunds_chase",
@@ -1635,7 +1617,7 @@
     "Id": "eos-divine_jurisdiction",
     "Name": "Divine Jurisdiction",
     "Type": "General",
-    "Description": "All Inquisitors may give Steady, Men! order to their own Units.\nIn addition, an Army List containing Heinrich Falkenbach changes the following Orders:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u> changes into: <u><link=\"eos-cut_the_head_of_the_snake\">Cut the head of the Snake!</link></u>: The target gains <u><link=\"rulebook-fury\">Fury</link></u> (Units containing a Character) and <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against Characters).\n\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u> changes into <u><link=\"eos-aim_for_the_weak_spot\">Aim for the Weak Spot!</link></u>: If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"rulebook-aegis\">Aegis</link></u> nor <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves can be taken against it."
+    "Description": "All Inquisitors may give <u><link=\"eos-steady_men\">Steady, Men!</link></u> order to their own Units.\nIn addition, an Army List containing Heinrich Falkenbach changes the following Orders:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u> changes into: <u><link=\"eos-cut_the_head_of_the_snake\">Cut the head of the Snake!</link></u>: The target gains <u><link=\"rulebook-fury\">Fury</link></u> (Units containing a Character) and <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against Characters).\n\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u> changes into <u><link=\"eos-aim_for_the_weak_spot\">Aim for the Weak Spot!</link></u>: If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither <u><link=\"rulebook-aegis\">Aegis</link></u> nor <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves can be taken against it."
   },
   {
     "Id": "eos-cut_the_head_of_the_snake",
@@ -1689,13 +1671,13 @@
     "Id": "eos-parent_unit",
     "Name": "Parent Unit",
     "Type": "Global",
-    "Description": "A unit containing a model with this rule is referred to as a <u><link=\"parent_unit\">Parent Unit</link></u>. <u><link=\"parent_unit\">Parent Units</link></u> treat <u><link=\"support_unit\">Support Units</link></u> as Insignificant."
+    "Description": "A unit containing a model with this rule is referred to as a <u><link=\"eos-parent_unit\">Parent Unit</link></u>. <u><link=\"eos-parent_unit\">Parent Units</link></u> treat <u><link=\"eos-support_unit\">Support Units</link></u> as <u><link=\"rulebook-insignificant\">Insignificant</link></u>."
   },
   {
     "Id": "eos-wilderness_guides",
     "Name": "Wilderness Guides",
     "Type": "Global",
-    "Description": "At the beginning of step 3.5 of the Battle Setup, Move Vanguarding Units, choose one friendly Parent or <u><link=\"support_unit\">Support Unit</link></u> within 8\" of a unit containing this rule. The chosen unit gains Vanguard(3\")."
+    "Description": "At the beginning of step 3.6 of the Battle Setup, ‘Move Vanguarding Units’, choose one friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> or =\"eos-support_unit\">Support Unit</link></u> within 8″ of a unit containing <u><link=\"eos-wilderness_guides\">Wilderness Guides</link></u>: the chosen unit gains Vanguard (3\")."
   },
   {
     "Id": "eos-brace_of_pistols",
@@ -1707,7 +1689,7 @@
     "Id": "eos-fire_on_impact",
     "Name": "Fire on Impact!",
     "Type": "Equipment",
-    "Description": " - Attack Attribute\n\nThe model part gains Devastating Charge(always Str 4, always AP 2, always Agi 10)."
+    "Description": "The model part gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(always Str 4, always AP 2, always Agi 10)."
   },
   {
     "Id": "eos-imperial_rocketeer",
@@ -1719,7 +1701,7 @@
     "Id": "eos-steam_powered",
     "Name": "Steam Powered",
     "Type": "Global",
-    "Description": "The model may choose not to move despite having Random Movement. The model  cannot choose to Pursue, unless it is  Charging, in which case it must Pursue (including Overrun). The model's rolls for Random Movement gain Maximised."
+    "Description": "The model’s rolls for <u><link=\"rulebook-random_movement\">Random Movement</link></u> gain Maximised. The model may choose not to move despite having <u><link=\"rulebook-random_movement\">Random Movement</link></u>. The model cannot choose to Pursue –– unless it is Charging, in which case it must Pursue (including Overrun)."
   },
   {
     "Id": "eos-steam_cannon",
@@ -1728,52 +1710,10 @@
     "Description": "Aim 3+, Range 36\", Shots 1, Str 5, AP 2, Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1)), Unwieldy(1)"
   },
   {
-    "Id": "parent_unit",
-    "Name": "Parent Unit",
-    "Type": "General",
-    "Description": "A unit containing a model with this rule is referred to as a <u><link=\"parent_unit\">Parent Unit</link></u>. <u><link=\"parent_unit\">Parent Units</link></u> treat <u><link=\"support_unit\">Support Units</link></u> as Insignificant."
-  },
-  {
-    "Id": "blessings",
-    "Name": "Blessings",
-    "Type": "General",
-    "Description": "A unit containing <u><link=\"blessings\">Blessings</link></u> gains First Strike(Hatred). Model parts with Mount are not affected. The model can cast the following three Bound Spells(3+), these spells have Type: Caster, and Duration: One Turn.ullorUllor's BlessingThe target's unit gains Aegis(5+, against Melee Attacks).sunnaSunna's BlessingThe target's unit gains Flaming Attacks. Each enemy unit in contact with the target's unit when the spell is cast, suffers D6 hits with Str 4, AP 0, Flaming Attacks, Magical Attacks.volundVolund's BlessingThe target's unit gains Zeal(Melee)."
-  },
-  {
-    "Id": "aura_of_power",
-    "Name": "Aura of Power",
-    "Type": "General",
-    "Description": "Units within 8\" of one or more friendly models with <u><link=\"aura_of_power\">Aura of Power</link></u> gain +2 Def and +2 Off. Model parts with Mount are not affected. The model can cast its chosen spell as a Bound Spell(5+)."
-  },
-  {
     "Id": "armour_saves",
     "Name": "Armour Saves",
     "Type": "General",
     "Description": "The defender rolls <u><link=\"armour_saves\">Armour Saves</link></u>, by rolling a D6 for each wound, and comparing the result with the <u><link=\"model\">model’s</link></u> Armour Value, reduced by the <u><link=\"attacks\">Attack's</link></u> Armour Penetration.\nThe modified Armour Value describes the number of sides on a D6, counting down from the highest value, that will result in a successful roll, see tables below. If the Armor Save is successful, the wound is ignored. However, a natural roll of ‘1’ is considered a failure.\nArm - AP    Armour Save Roll\n5 or above    2+\n4    3+\n3    4+\n2    5+\n1    6+\n0    Cannot be passed  \n\nAP 0    AP 1    AP 2    AP 3    AP 4    AP 5    AP 6\nArm 0    N/A    N/A    N/A    N/A    N/A    N/A    N/A\nArm 1    6+    N/A    N/A    N/A    N/A    N/A    N/A\nArm 2    5+    6+    N/A    N/A    N/A    N/A    N/A\nArm 3    4+    5+    6+    N/A    N/A    N/A    N/A\nArm 4    3+    4+    5+    6+    N/A    N/A    N/A\nArm 5    2+    3+    4+    5+    6+    N/A    N/A\nArm 6    2+    2+    3+    4+    5+    6+    N/A  \n\nFor example, Armour 3, means that ‘6’, ‘5’, and ‘4’ would be successful Armour Save rolls. If the <u><link=\"model\">model</link></u> is attacked by Armour Penetration 1, its Armour is reduced to Armour 2, which now means that ‘6’ and ‘5’ are successful Armour Save rolls. \nThis is equivalent with using the formula below to determine the required roll to negate the wound:\n7 - (Defender’s Armor)\n+ (Attacker’s Armour Penetration)\n\nCombined Armour\nEach <u><link=\"model\">model</link></u> has a base Armour value in its profile, and some <u><link=\"model\">models</link></u> may have additional equipment, rules, or are under the effect of <u><link=\"spells\">spells</link></u> that modify the Armour values. Different sources of Armour can be combined, adding up to the total combined Armour.\nFor example, a <u><link=\"model\">model</link></u> with a base Armour of 3 that is under the effect of a spell that grants +1 Armour, has a combined Armour of 4. When wounded by an attack with Armour Penetration 1, the Armour Save roll would be ‘4’, ‘5’, or ‘6’ (or 4+)."
-  },
-  {
-    "Id": "imperial_authority",
-    "Name": "Imperial Authority",
-    "Type": "General",
-    "Description": " At the start of each friendly Player Turn, each model with <u><link=\"imperial_authority\">Imperial Authority</link></u> may select one Order and apply it to a single unit. Duration: One Turn. The target unit must:\n\n-   Be a Parent or <u><link=\"support_unit\">Support Unit</link></u>.\n-   Be the model's own unit or be within Range of the model's Commanding Presence or Rally Around the Flag.\n-   The chosen target cannot already be under the effect of an Order.\n\n<u><link=\"on_the_double\">On The Double</link></u>!The target gains +1\" Cha and +2\" Mob.\nSteady, Men! The target gains Disciplined, and its Courage Tests are Minimised.\nReady! Aim! Fire!The target gains Accurate.<u><link=\"brace_for_impact\">Brace For Impact</link></u>!The target gains Fight in Extra Rank."
-  },
-  {
-    "Id": "brace_of_pistols",
-    "Name": "Brace of Pistols",
-    "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesBrace of PistolsX12\"242Stand and Shoot, Quick to Fire, Counts as Paired Weapons when Engaged in Combat\nCounts as Paired Weapons when Engaged in Combat"
-  },
-  {
-    "Id": "repeater_pistol",
-    "Name": "Repeater Pistol",
-    "Type": "General",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater Pistol312\"342Stand and Shoot, Quick to Fire"
-  },
-  {
-    "Id": "support_unit",
-    "Name": "Support Unit",
-    "Type": "General",
-    "Description": "A unit containing a model with this rule is referred to as a: <u><link=\"support_unit\">Support Unit</link></u>. A <u><link=\"support_unit\">Support Unit</link></u> with at least one Proper Rank is considered to be Steady if a friendly <u><link=\"parent_unit\">Parent Unit</link></u> in the same Combat is Steady, and Solid if a friendly <u><link=\"parent_unit\">Parent Unit</link></u> in the same Combat is Solid.\nDuring the opponent's Charge Phase, <u><link=\"support_unit\">Support Units</link></u> may perform one of the following actions:\n\n-   The <u><link=\"support_unit\">Support Unit</link></u> may perform an out of sequence Shooting Attack against an enemy unit that has successfully performed a Charge Move into a friendly <u><link=\"parent_unit\">Parent Unit</link></u> within 8\". Apply the normal rules for Shooting Attacks, ignoring the <u><link=\"parent_unit\">Parent Unit</link></u> for Cover and Line of Sight purposes.\n-   After enemy units finish their Charge Moves, <u><link=\"support_unit\">Support Units</link></u> within 8\" of a successfully charged friendly <u><link=\"parent_unit\">Parent Unit</link></u> may Counter Charge: choose one enemy unit that Charged the <u><link=\"parent_unit\">Parent Unit</link></u> and declare a Charge with the <u><link=\"support_unit\">Support Unit</link></u>, applying the normal rules for Charging (such as Line of Sight, Front Arc, rolls for Charge Range, etc.). A <u><link=\"support_unit\">Support Unit</link></u> that performs a Counter Charge is considered to have 0 Proper Ranks for the purpose of afflicting Surrounded, until it is no longer Engaged in Combat."
   },
   {
     "Id": "he-ancient_allies",
@@ -5007,7 +4947,7 @@
     "Id": "eos-irregulars",
     "Name": "Irregulars",
     "Type": "General",
-    "Description": "The model gains Hard Target(1), Skirmisher."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>, <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "eos-great_tactician",
@@ -5019,19 +4959,19 @@
     "Id": "eos-imperial_prince",
     "Name": "Imperial Prince",
     "Type": "General",
-    "Description": "The model part is equipped with a Hand Weapon enchanted with The Light of Sonnstahl, and may only take up to 50 pts of Magic Items."
+    "Description": "The model part is equipped with a Hand Weapon enchanted with <u><link=\"eos-the_light_of_sonnstahl\">The Light of Sonnstahl</link></u>, and may only take up to 50 pts of Magic Items."
   },
   {
     "Id": "eos-zealot",
     "Name": "Zealot",
     "Type": "General",
-    "Description": "The model gains Exclusive(Flagellants), Fearless, Dying Blow, Unstable."
+    "Description": "The model gains <u><link=\"rulebook-exclusive\">Exclusive</link></u>(Flagellants), <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-dying_blow\">Dying Blow</link></u>, <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "eos-imperial_authority",
     "Name": "Imperial Authority",
     "Type": "General",
-    "Description": "At the start of each friendly Player Turn, each model with Imperial Authority may select one Order and apply it to a single unit. Duration: One Turn. The target unit must:\n\t\n\t\t\n  •  Be a Parent or Support Unit.\n\t\t\n  •  Be the model's own unit or be within Range of the model's Commanding Presence or Rally Around the Flag.\n\t\t\n  •  The chosen target cannot already be under the effect of an Order.\n\t\n\n\t\t\t\t\tOn The Double!The target gains +1\" Cha and +2\" Mob.\n\t\t\tSteady, Men!\t\t\t\t The target gains Disciplined, and its Courage Tests are Minimised.\n\t\t\t\t\t\tReady! Aim! Fire!The target gains Accurate.\t\t\tBrace For Impact!The target gains Fight in Extra Rank."
+    "Description": "At the start of each friendly Player Turn, each model with Imperial Authority may select one of the following effects, called ‘Orders’, and apply it to a single unit, with Duration: One Turn. The target unit must:\n• Be a <u><link=\"eos-parent_unit\">Parent Unit</link></u> or <u><link=\"eos-support_unit\">Support Units</link></u>.\n• Be the model’s own unit, or be within range of the model’s Commanding Presence or Rally Around the Flag (if it has one of these rules).\n• The chosen target cannot already be under the effect of an Order\n\n<u><link=\"eos-on_the_double\">On The Double!</link></u>: The target gains +1\" Cha and +2\" Mob.\n<u><link=\"eos-steady_men\">Steady, Men!</link></u>: The target gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>, and its Courage Tests are Minimised.\n<u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u>: The target gains <u><link=\"rulebook-accurate\">Accurate</link></u>.\n<u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u>: The target gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>."
   },
   {
     "Id": "eos-long_rifle",
@@ -5079,7 +5019,7 @@
     "Id": "eos-liberal_magics",
     "Name": "Liberal Magics",
     "Type": "General",
-    "Description": "During step 3.C Pre-game Selections, Spell Swapping, if a Caster from the Empire of Sonnstahl either selects the Hereditary Spell or gains it by any other means, it must instead choose a single Path of Magic from the ones available to it other than its own chosen Path. The Caster gains the Apprentice Spell(#1) from that Path as a Learned Spell."
+    "Description": "During Pre-game Selections, if a Caster from the Empire of Sonnstahl either selects the Hereditary Spell or gains it by any other means, it must instead choose a single Path of Magic from the ones available to it other than its chosen Path. The Caster gains the Apprentice Spell(#1) from that Path as a Learned Spell."
   },
   {
     "Id": "eos-the_light_of_sonnstahl",
@@ -5091,67 +5031,67 @@
     "Id": "eos-death_warrant",
     "Name": "Death Warrant",
     "Type": "General",
-    "Description": "+X Att, +X Str, and +X AP, where X is the number of friendly Parent Units and Support Units of Height 1 (including the bearer's unit if applicable) Engaged in the same Combat as the wielder."
+    "Description": "+X Att, +X Str, and +X AP, where X is the number of friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> and <u><link=\"eos-support_unit\">Support Unit</link></u> of Height 1 (including the bearer's unit if applicable) Engaged in the same Combat as the wielder."
   },
   {
     "Id": "eos-hammer_of_witches",
     "Name": "Hammer of Witches",
     "Type": "General",
-    "Description": "Afflict(-1 Channel). After determining the number of hits, one single hit chosen by the attacker, has its Str and AP multiplied by two, and gains Multiple Wounds(2)."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u>(-1 <u><link=\"rulebook-channel\">channel</link></u>). After determining the number of hits, a single hit (chosen by the attacker) has its Strength and Armour Penetration multiplied by two, and gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>."
   },
   {
     "Id": "eos-imperial_seal",
     "Name": "Imperial Seal",
     "Type": "General",
-    "Description": "Arm is set to 6. +1 Dis. Fearless."
+    "Description": "+1 Dis; Arm is set to 6. <u><link=\"rulebook-fearless\">Fearless</link></u>."
   },
   {
     "Id": "eos-blacksteel",
     "Name": "Blacksteel",
     "Type": "General",
-    "Description": "Immune(Flaming Attacks). +1 Arm.\tIf the wearer is without Mount, it gains an additional +1 Arm."
+    "Description": "+1 Arm, and if the wearer is without Mount, it gains an additional +1 Arm. <u><link=\"rulebook-immune\">Immune</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)"
   },
   {
     "Id": "eos-witchfire_guard",
     "Name": "Witchfire Guard",
     "Type": "General",
-    "Description": "Aegis(4+, against Magical Attacks)."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(4+, against <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>)."
   },
   {
     "Id": "eos-shield_of_volund",
     "Name": "Shield of Volund",
     "Type": "General",
-    "Description": "Immune(Fury, Lethal Strike)."
+    "Description": "<u><link=\"rulebook-immune\">Immune</link></u> (<u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>)."
   },
   {
     "Id": "eos-war_college_banner",
     "Name": "War College Banner",
     "Type": "General",
-    "Description": "The bearer gains Imperial Authority."
+    "Description": "The bearer gains <u><link=\"eos-imperial_authority\">Imperial Authority</link></u>."
   },
   {
     "Id": "eos-banner_of_unity",
     "Name": "Banner of Unity",
     "Type": "General",
-    "Description": "Whenever the bearer's unit is targeted by an Order, it may immediately give that same Order (for free) to up to two Support Units within 8\" of the its unit."
+    "Description": "Whenever the bearer's unit is targeted by an Order, it may immediately give that same Order (for free) to up to two <u><link=\"eos-support_unit\">Support Unit</link></u> within 8\" (of itself)."
   },
   {
     "Id": "eos-marksmans_pennant",
     "Name": "Marksman's Pennant",
     "Type": "General",
-    "Description": "The bearer's unit gains Stand and Shoot."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "eos-locket_of_sunna",
     "Name": "Locket of Sunna",
     "Type": "General",
-    "Description": "When , choose one enemy Character model part in base contact with the wearer's unit. During this Round of Combat the chosen model part suffers: -2 Att, -2 Off, -2 Str, and -2 AP."
+    "Description": "When Choosing Equipment and Abilities, choose one enemy Character in contact with the wearer’s unit. Choose a model part on the chosen Character, it suffers: −2 Att, −2 Off, −2 Str, and −2 AP. Duration: Round of Combat."
   },
   {
     "Id": "eos-winter_cloak",
     "Name": "Winter Cloak",
     "Type": "General",
-    "Description": "The bearer gains Aegis(3+, against Flaming Attacks), Aegis(5+), Distracting(1). The wearer automatically fails all Regeneration Saves."
+    "Description": "The bearer gains <u><link=\"rulebook-aegis\">Aegis</link></u>(3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), <u><link=\"rulebook-aegis\">Aegis (5+)</link></u>, <u><link=\"rulebook-distracting\">Distracting (1)</link></u>. The wearer automatically fails all <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves."
   },
   {
     "Id": "eos-exemplars_flame",
@@ -6243,7 +6183,7 @@
     "Id": "se-oaken_crown",
     "Name": "Oaken Crown",
     "Type": "Equipment",
-    "Description": "The wearer gains <u><link=\"disciplined\">Disciplined</link></u>, <u><link=\"rulebook-magic_resistance\">Magic Resistance(2)</link></u>."
+    "Description": "The wearer gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>, <u><link=\"rulebook-magic_resistance\">Magic Resistance(2)</link></u>."
   },
   {
     "Id": "se-verdant_rebirth",
