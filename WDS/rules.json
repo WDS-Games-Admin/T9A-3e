@@ -39,7 +39,7 @@
     "Id": "rulebook-hand_weapon",
     "Name": "Hand Weapon",
     "Type": "Equipment",
-    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
+    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"rulebook-parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
   },
   {
     "Id": "rulebook-devastating_charge",
@@ -183,7 +183,7 @@
     "Id": "rulebook-paired_weapons",
     "Name": "Paired Weapons",
     "Type": "Equipment",
-    "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"parry\">Parry</link></u>"
+    "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"rulebook-parry\">Parry</link></u>"
   },
   {
     "Id": "rulebook-insignificant",
@@ -453,13 +453,7 @@
     "Id": "hand_weapon",
     "Name": "Hand Weapon",
     "Type": "General",
-    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
-  },
-  {
-    "Id": "parry",
-    "Name": "Parry",
-    "Type": "General",
-    "Description": "Against <u><link=\"melee_attacks\">Melee Attacks</link></u> made by an attacker Engaged in the <u><link=\"model\">models</link></u> Front Facing the Defensive Skill of a <u><link=\"model\">model</link></u> with <u><link=\"parry\">Parry</link></u> is always at least equal to the Offensive Skill of the attacker.\nRemember that since <u><link=\"parry\">Parry</link></u> provides a modifier to a Defensive Characteristic, this is not applicable to a Character with a <u><link=\"mount\">mount</link></u> with its own Defensive Skill."
+    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"rulebook-parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
   },
   {
     "Id": "modifiers",
@@ -555,7 +549,7 @@
     "Id": "paired_weapons",
     "Name": "Paired Weapons",
     "Type": "General",
-    "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"parry\">Parry</link></u>"
+    "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"rulebook-parry\">Parry</link></u>"
   },
   {
     "Id": "movement_phase",
@@ -1017,7 +1011,7 @@
     "Id": "rulebook-parry",
     "Name": "Parry",
     "Type": "Defense",
-    "Description": "Against <u><link=\"melee_attacks\">Melee Attacks</link></u> made by an attacker Engaged in the <u><link=\"model\">models</link></u> Front Facing the Defensive Skill of a <u><link=\"model\">model</link></u> with <u><link=\"parry\">Parry</link></u> is always at least equal to the Offensive Skill of the attacker.\nRemember that since <u><link=\"parry\">Parry</link></u> provides a modifier to a Defensive Characteristic, this is not applicable to a Character with a <u><link=\"mount\">mount</link></u> with its own Defensive Skill."
+    "Description": "Against <u><link=\"melee_attacks\">Melee Attacks</link></u> made by an attacker Engaged in the <u><link=\"model\">models</link></u> Front Facing the Defensive Skill of a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-parry\">Parry</link></u> is always at least equal to the Offensive Skill of the attacker.\nRemember that since <u><link=\"rulebook-parry\">Parry</link></u> provides a modifier to a Defensive Characteristic, this is not applicable to a Character with a <u><link=\"mount\">mount</link></u> with its own Defensive Skill."
   },
   {
     "Id": "dl-falling_star",
@@ -1425,7 +1419,7 @@
     "Id": "spell_selection",
     "Name": "Spell Selection",
     "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"rulebook-general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
+    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"rulebook-general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"rulebook-protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
   },
   {
     "Id": "universal",
@@ -1725,7 +1719,7 @@
     "Id": "he-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "The  model  gains  Resistance(Flaming Attacks)."
+    "Description": "The  model  gains  <u><link=\"rulebook-resistance\">Resistance</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "he-master_of_spellcrafting",
@@ -1749,31 +1743,31 @@
     "Id": "he-frost_phoenix",
     "Name": "Frost Phoenix",
     "Type": "Global",
-    "Description": "The model gains Supernal, Fearless, Magical Attacks, Afflict(-2 Def, -2 Off and -2 Agi)."
+    "Description": "The model gains <u><link=\"rulebook-afflict\">Afflict</link></u> (−2 Def, −2 Off, and −2 Agi), <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and <u><link=\"rulebook-supernal\">Supernal</link></u>."
   },
   {
     "Id": "he-fire_phoenix",
     "Name": "Fire Phoenix",
     "Type": "Global",
-    "Description": "The Phoenix model part gains Flaming Attacks, Grind Attack(D6, Str 4, AP 1, Flaming Attacks, Unmodifiable), Sweeping Attack(XD3* + 1, Str 4, AP 1, Flaming Attacks).\n* Where X is the number of Ranks of the targeted unit."
+    "Description": "The Phoenix model part gains <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> (D6 hits, Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>), and <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> (XD3*+1 hits, Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>).\n* ‘X’ is the number of Ranks in the targeted unit."
   },
   {
     "Id": "he-rebirth",
     "Name": "Rebirth",
     "Type": "Global",
-    "Description": "When the model loses its last Health Point, unless it is a Summoned model, the owner must roll a D6. The roll is successful on a roll of 5+ (or 3+ if the model has <u><link=\"warden\">Warden's</link></u> Bond):\n-   Before removing the model as a casualty, mark the centre of its final position.\n-   At the start of the next friendly Movement Phase, Summon a new Phoenix within 3\" of the marked point. The Summoned model has the same upgrades as the original Phoenix. Immediately after being deployed, the model loses 4 Health Points, which cannot be prevented or Recovered in any way.\nIf the roll fails, the model is removed as a casualty as normal."
+    "Description": "When the model loses its last Health Point, unless it is a Summoned model, the owner must roll a D6. It succeeds on 5+:\n• Before removing the model as a casualty, mark the centre of its final position.\n• At the start of the next friendly Movement Phase, Summon a new Phoenix within 3\" of the marked point. The Summoned model has the same upgrades as the original Phoenix. Immediately after being Deployed, the model loses 4 Health Points, which cannot be prevented or Recovered in any way.\nIf the roll fails, the model is removed as a casualty as normal."
   },
   {
     "Id": "he-sword_sworn",
     "Name": "Sword Sworn",
     "Type": "Equipment",
-    "Description": "Melee Attacks with a Great Weapon ignore Distracting and Parry."
+    "Description": "Standard Melee Attacks with a Great Weapon ignore <u><link=\"rulebook-distracting\">Distracting</link></u> and <u><link=\"rulebook-parry\">Parry</link></u>."
   },
   {
     "Id": "he-valiant",
     "Name": "Valiant",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"valiant\">Valiant</link></u> automatically passes Panic Tests caused by Terror."
+    "Description": "A unit containing <u><link=\"he-valiant\">Valiant</link></u> automatically passes Panic Tests caused by <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "he-lions_fur",
@@ -1785,7 +1779,7 @@
     "Id": "he-dragonforged_armour",
     "Name": "Dragonforged Armour",
     "Type": "Defense",
-    "Description": "Cannot be taken by models with Height 5.\nThe wearer gains  Resistance(Flaming Attacks), Aegis(6+)."
+    "Description": "The wearer gains <u><link=\"rulebook-aegis\">Aegis (6+)</link></u> and <u><link=\"rulebook-resistance\">Resistance</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)"
   },
   {
     "Id": "he-elven_bolt_thrower",
@@ -1809,55 +1803,19 @@
     "Id": "he-moonlight_arrows",
     "Name": "Moonlight Arrows",
     "Type": "Equipment",
-    "Description": "Can only be used with Longbows without Weapon Enchantments.\nThe attack gains Flaming Attacks, Magical Attacks, and its Str is set to 4."
+    "Description": "Can only be used with Longbows without Weapon Enchantments.\nThe attack gains <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and its Str is set to 4."
   },
   {
     "Id": "he-fae_miasma",
     "Name": "Fae Miasma",
     "Type": "Equipment",
-    "Description": "Can only be used with Longbows and Paired Weapons.\nWhen a unit suffers one or more wounds from attacks with <u><link=\"fae_miasma\">Fae Miasma</link></u> (before any saves are taken), all models in the unit suffer a -1 to-hit modifier (both for Shooting Attacks and Melee Attacks) with Duration: One Turn."
-  },
-  {
-    "Id": "ancient_allies",
-    "Name": "Ancient Allies",
-    "Type": "General",
-    "Description": "Units marked <u><link=\"ancient_allies\">Ancient Allies</link></u> count toward this category.The sum of the 1 per 1500 Army Points (round fractions up)\nFor example, at 4000 Army Points the Army List is restricted to <u><link=\"ancient_allies\">Ancient Allies(3)</link></u>.\nvalues stated in brackets of all models in the army is restricted to ."
+    "Description": "Can only be used with Longbows and Paired Weapons.\nWhen a unit suffers one or more wounds from attacks with <u><link=\"he-fae_miasma\">Fae Miasma</link></u> (before any saves are taken), all models in the unit suffer a -1 to-hit modifier (both for Shooting Attacks and Melee Attacks) with Duration: One Turn."
   },
   {
     "Id": "lance",
     "Name": "Lance",
     "Type": "General",
     "Description": "<u><link=\"model\">Models</link></u> on foot cannot use <u><link=\"lance\">Lances</link></u>. Devastating Charge(+2 Str, +2 AP, +1 Agi)"
-  },
-  {
-    "Id": "warden",
-    "Name": "Warden",
-    "Type": "General",
-    "Description": "<u><link=\"warden\">Warden</link></u>"
-  },
-  {
-    "Id": "valiant",
-    "Name": "Valiant",
-    "Type": "General",
-    "Description": "A unit containing <u><link=\"valiant\">Valiant</link></u> automatically passes Panic Tests caused by Terror."
-  },
-  {
-    "Id": "elven_bolt_thrower",
-    "Name": "Elven Bolt Thrower",
-    "Type": "General",
-    "Description": "This Shooting Weapon can be fired in two ways:\n<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u>348\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\n<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"elven_bolt_thrower\">Elven Bolt Thrower</link></u>348\"642\n"
-  },
-  {
-    "Id": "sky_reaper",
-    "Name": "Sky Reaper",
-    "Type": "General",
-    "Description": "<u><link=\"sky_reaper\">Sky Reaper</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"sky_reaper\">Sky Reaper</link></u>324\"453Quick to Fire"
-  },
-  {
-    "Id": "fae_miasma",
-    "Name": "Fae Miasma",
-    "Type": "General",
-    "Description": "Can only be used with Longbows and Paired Weapons.\nWhen a unit suffers one or more wounds from attacks with <u><link=\"fae_miasma\">Fae Miasma</link></u> (before any saves are taken), all models in the unit suffer a -1 to-hit modifier (both for Shooting Attacks and Melee Attacks) with Duration: One Turn."
   },
   {
     "Id": "he-asfada_headmaster",
@@ -5163,13 +5121,7 @@
     "Id": "he-wardens_bond",
     "Name": "Warden's Bond",
     "Type": "General",
-    "Description": "The model gains +1 Discipline, Disciplined, and passes its Rebirth roll on 3+ instead of 5+. The Phoenix model part gains Mount. The model gains an additional model part:"
-  },
-  {
-    "Id": "he-warden",
-    "Name": "Warden",
-    "Type": "General",
-    "Description": "Warden"
+    "Description": "The model gains +1 Discipline, <u><link=\"rulebook-disciplined\">Disciplined</link></u>, and passes its <u><link=\"he-rebirth\">Rebirth</link></u> roll on 3+ instead of 5+. The Phoenix model part gains Mount. The model gains an additional model part: 1 Att, 6 Off, 4 Str, 1 AP 6 Agi Halberd, Elf"
   },
   {
     "Id": "he-honour",
@@ -5181,73 +5133,67 @@
     "Id": "he-master_of_canreig_tower",
     "Name": "Master of Canreig Tower",
     "Type": "General",
-    "Description": "The model gains Master of Spellcrafting, Protean Magic(3), Wizard Apprentice.\t\n\n\tThe model has these Paths of Magic available: Alchemy, Cosmology, Druidism, Evocation, Shamanism, Witchcraft."
+    "Description": "The model gains <u><link=\"he-master_of_spellcrafting\">Master of Spellcrafting</link></u>, <u><link=\"rulebook-protean_magic\">Protean Magic (3)</link></u>, <u><link=\"rulebook-wizard_apprentice\">Wizard Apprentice</link></u>.\nThe model has these Paths of Magic available: Alchemy, Cosmology, Druidism, Evocation, Shamanism, Witchcraft."
   },
   {
     "Id": "he-queens_cavalier",
     "Name": "Queen's Cavalier",
     "Type": "General",
-    "Description": "The model part gains First Strike(+1 Att, +1 Off) and the model's unit may reroll failed Charge Range rolls.\t\n\n\tIf the model has Height 5,  Dragons (both Regal and Ancient) replace their Ancient Allies value with Ancient Allies(1), and Phoenixes replace it with  Ancient Allies(2)."
+    "Description": "The model part gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (+1 Att, +1 Off) and the model’s unit may reroll failed Charge Range rolls.\n\nIf the model has Height 5, Regal Dragon and Ancient Dragon replace their Ancient Allies (2) with Ancient Allies (1), and Phoenix replace Ancient Allies (1) with Ancient Allies (2)."
   },
   {
     "Id": "he-fleet_officer",
     "Name": "Fleet Officer",
     "Type": "General",
-    "Description": "The model gains Strider(Water), , , Resolute(1). The model part also gains Lightning Attacks  and, if using a Longbow, Stand and Shoot.\t\n\n\tUnless the model is Shaken, Panic Tests taken by friendly units containing Elf within 12\" of this model are Minimised."
+    "Description": "The model gains <u><link=\"rulebook-resolute\">Resolute(+1)</link></u> and <u><link=\"rulebook-strider\">Strider</link></u> (Water). The model part also gains <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u> and, if using a Longbow, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>.\n\nnUnless the model is Shaken, Panic Tests taken by friendly units containing Elf within 12\" of this model are Minimised"
   },
   {
     "Id": "he-grandmaster_of_the_sword",
     "Name": "Grandmaster of the Sword",
     "Type": "General",
-    "Description": "The model gains , Lethal Strike, First Strike(+1 Def, +1 Off), Sword Sworn."
+    "Description": "The model gains <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-first_strike\">First Strike</link></u>(+1 Def, +1 Off) and <u><link=\"rulebook-resistance\">Sword Sworn</link></u>."
   },
   {
     "Id": "he-high_warden_of_the_flame",
     "Name": "High Warden of the Flame",
     "Type": "General",
-    "Description": "The model gains Aegis(4+), Fearless, , Stubborn."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis (4+)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"he-sword_sworn\">Stubborn</link></u>."
   },
   {
     "Id": "he-queens_companion",
     "Name": "Queen's Companion",
     "Type": "General",
-    "Description": "The model's Longbow Shots  are set to 3 and the model's unit gains Accurate.\t\n\n\tMust choose (one option only):\t\n •Fae Miasma, Scout, \n\t\nExclusive(Grey Watchers): free\n\t\n •Moonlight Arrows: 10"
+    "Description": "The model’s Longbow Shots are set to 3, and the model’s unit gains <u><link=\"rulebook-accurate\">Accurate</link></u>."
   },
   {
     "Id": "he-royal_huntsman",
     "Name": "Royal Huntsman",
     "Type": "General",
-    "Description": "The model must take Great Weapon and cannot take Shield. The model gains Lion's Fur, Valiant, and the model part gains Multiple Wounds(2, towards Height 4--5)."
+    "Description": "The model must take Great Weapon and cannot take Shield.\nThe model gains <u><link=\"he-lions_fur\">Lion's Fur</link></u>, <u><link=\"he-valiant\">Valiant</link></u>, and the model part gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2, towards Height 4-5)."
   },
   {
     "Id": "he-asfad_scholar",
     "Name": "Asfad Scholar",
     "Type": "General",
-    "Description": "The model gains Channel(1). The Range of the Wizard's Learned Spells is increased by 6\". Aura spells gain +3\" Range instead, and spells with type Caster are unaffected."
+    "Description": "The model gains <u><link=\"rulebook-channel\">Channel</link></u>(1).\nThe Range of the Wizard's Learned Spells is increased by 6\". Aura spells gain +3\" Range instead, and spells with type Caster are unaffected."
   },
   {
     "Id": "he-order_of_the_fiery_heart",
     "Name": "Order of the Fiery Heart",
     "Type": "General",
-    "Description": "The model gains Flaming Attacks, Metal Armour, and the model part's Arm is set to 2.\t\n\n\tThe model replaces its available Paths of Magic with Alchemy, Pyromancy, and ignores the Missile, Damage spell types for Learned Spells when targeting units that are Engaged in Combat with the model."
-  },
-  {
-    "Id": "he-favour_of_meladys",
-    "Name": "Favour of Meladys",
-    "Type": "General",
-    "Description": "=1pt\nThe target  gains 2 Protection Tokens which are removed when the spell ends.\nWhen a friendly unit within 18\" of the target suffers a wound, after Armour Saves have been taken, before any Special Saves are taken, the target may discard a Protection Token and ignore the wound applying the following rules:\n\n  •  Rank-and-File models of Height 1 ignore up to 2 wounds per token, provided they are suffered simultaneously.\n  •  Characters, and models of Height 4 or 5, can each only ignore a single wound per Phase.\n  •  Wounds from attacks with Multiple Wounds are not ignored, they inflict one less wound instead."
+    "Description": "The model gains <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, Metal Armour, and the model part's Arm is set to 2.\nThe model replaces its available Paths of Magic with Alchemy, Pyromancy, and ignores the Missile, Damage spell types for Learned Spells when targeting units that are Engaged in Combat with the model."
   },
   {
     "Id": "he-nova_flare",
     "Name": "Nova Flare",
     "Type": "General",
-    "Description": "Devastating Charge(+1 Att), Lethal Strike, Divine Attacks.\t\n\n\tOne use only. May be activated when Choosing Equipment and Abilities in the Melee Phase. The wielder counts as Charging for the purpose of Devastating Charge."
+    "Description": "<u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 Att), <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>.\nOne use only. May be used when Choosing Equipment and Abilities: the wielder counts as Charging for the purpose of <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> with duration: Round of Combat"
   },
   {
     "Id": "he-sliver_of_the_blazing_dawn",
     "Name": "Sliver of the Blazing Dawn",
     "Type": "General",
-    "Description": "+1 Str and +2 AP. Each successful to-hit roll with this weapon causes two hits instead of one."
+    "Description": "+1 Str and +2 AP.\nEach successful to-hit roll with this weapon causes two hits instead of one."
   },
   {
     "Id": "he-cadarons_heartwood",
@@ -5259,37 +5205,37 @@
     "Id": "he-elemental_blade",
     "Name": "Elemental Blade",
     "Type": "General",
-    "Description": "+1 Att, +1 Str. When Choosing Equipment and Abilities, choose to gain either Flaming Attacks, Lightning Attacks. The effects last until the end of the Round of Combat."
+    "Description": "+1 Att, +1 Str.\nWhen Choosing Equipment and Abilities, choose to gain either <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> or <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u>. Duration: Round of Combat."
   },
   {
     "Id": "he-gleaming_robe",
     "Name": "Gleaming Robe",
     "Type": "General",
-    "Description": "Aegis(3+). Armour is set to 1 and can never be improved beyond this. If the wearer Miscasts and rolls Witchfire, the number of hits is halved (rounding fractions up) for the wearer and its unit."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(3+).\nArmour is set to 1 and can never be improved beyond this.\nIf the wearer Miscasts and rolls Witchfire, the number of hits is halved (rounding fractions up) for the wearer and its unit."
   },
   {
     "Id": "he-protection_of_dorac",
     "Name": "Protection of Dorac",
     "Type": "General",
-    "Description": "+3 Arm, +3 Def, and Attached. Arm can never be improved beyond 5."
+    "Description": "+3 Arm, +3 Def, and <u><link=\"rulebook-attached\">Attached</link></u>.\nArm can never be improved beyond 5."
   },
   {
     "Id": "he-star_metal_alloy",
     "Name": "Star Metal Alloy",
     "Type": "General",
-    "Description": "+1 Arm, which is improved to +2 Arm for models without Mount. The bearer can never be wounded on a roll better than 3+."
+    "Description": "+1 Arm, which is improved to +2 Arm for models without Mount.\nThe bearer can never be wounded on a roll better than 3+."
   },
   {
     "Id": "he-daemons_bane",
     "Name": "Daemon's Bane",
     "Type": "General",
-    "Description": "+2 Arm against Magical Attacks."
+    "Description": "+2 Arm against <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "he-navigators_banner",
     "Name": "Navigator's Banner",
     "Type": "General",
-    "Description": "The bearer's unit gains First Strike(Aegis(5+))."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-aegis\">Aegis</link></u>(5+))."
   },
   {
     "Id": "he-banner_of_becalming",
@@ -5301,7 +5247,7 @@
     "Id": "he-war_banner_of_rym",
     "Name": "War Banner of Rymâ",
     "Type": "General",
-    "Description": "A unit with one or more War Banners of Rymâ gains +1\" Cha and Rank-and-File model parts with Elf in the bearer's unit gain Devastating Charge(+1 Str)."
+    "Description": "A unit with one or more War Banners of Rymâ gains +1\" Cha. \nIn addition, Rank-and-File model parts with Elf in the unit gain <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1 Str)."
   },
   {
     "Id": "he-book_of_meladys",
@@ -5313,19 +5259,19 @@
     "Id": "he-scroll_of_the_pearl_throne",
     "Name": "Scroll of the Pearl Throne",
     "Type": "General",
-    "Description": "Choose a Magic Item from an enemy unit that is in contact with the bearer. This Magic Item is ignored.\t\t\n\n\tIf it was an Enchanted Weapon or Shield, the mundane effects of the Weapon or Shield can still be used."
+    "Description": "Choose a Magic Item from an enemy unit that is in contact with the bearer. This Magic Item is ignored and ceases to be an Enchanted item. Duration:Permanent.\nNote: it still provides its mundane effects."
   },
   {
     "Id": "he-diadem_of_protection",
     "Name": "Diadem of Protection",
     "Type": "General",
-    "Description": "Aegis(+2, max 4+)."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(+2, max 4+)."
   },
   {
     "Id": "he-amethyst_crystal",
     "Name": "Amethyst Crystal",
     "Type": "General",
-    "Description": "Unless Shaken: Dispelling Rolls made by the bearer's army gain a +1 modifier. If the target of an enemy spell is within 18\" of the bearer, the modifier is increased to +2."
+    "Description": "Unless the bearer is <u><link=\"rulebook-shaken\">Shaken)</link></u>, Dispelling Rolls made by the bearer’s army gain a +1 modifier; if the target of an enemy spell is within 18″ of the bearer, that modifier is increased to +2."
   },
   {
     "Id": "he-fae_miasma_aura",
