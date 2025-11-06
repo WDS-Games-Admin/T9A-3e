@@ -177,7 +177,7 @@
     "Id": "rulebook-bow",
     "Name": "Bow",
     "Type": "Equipment",
-    "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"shoot_in_extra_rank\">Shoot in Extra Rank</link></u>"
+    "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>"
   },
   {
     "Id": "rulebook-paired_weapons",
@@ -532,12 +532,6 @@
     "Name": "Engaged in Combat",
     "Type": "General",
     "Description": "Once a unit successfully completes a <u><link=\"charge_move\">Charge Move</link></u>, the Charging Unit and the target unit are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, and remain <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> as long as at least their Unit Boundaries are in contact with an enemy Unit Boundary."
-  },
-  {
-    "Id": "shoot_in_extra_rank",
-    "Name": "Shoot in Extra Rank",
-    "Type": "General",
-    "Description": "The <u><link=\"model\">model</link></u> part may use Shooting <u><link=\"attacks\">Attacks</link></u> from one additional rank. Normally, this means that <u><link=\"model\">model</link></u> parts with <u><link=\"shoot_in_extra_rank\">Shoot in Extra Rank</link></u>, will be able to make Shooting <u><link=\"attacks\">Attacks</link></u> from the third rank."
   },
   {
     "Id": "twohanded",
@@ -1461,7 +1455,7 @@
     "Id": "rulebook-engineer",
     "Name": "Engineer",
     "Type": "Global",
-    "Description": "Once during each <u><link=\"shooting_phase\">Shooting Phase</link></u>, a non-Shaken and Unengaged <u><link=\"model\">model</link></u> with <u><link=\"engineer\">Engineer</link></u> can select a friendly <u><link=\"model\">model</link></u> with X in a unit within 6\" of it.\nThe chosen <u><link=\"model\">model</link></u> gains +1 to hit with Shooting <u><link=\"attacks\">Attacks</link></u>, to a maximum of 3+. No <u><link=\"model\">model</link></u> can be affected by more than one instance of this effect simultaneously.\nThe usage of this must be declared before shooting with the chosen <u><link=\"model\">model</link></u>."
+    "Description": "Once during each <u><link=\"shooting_phase\">Shooting Phase</link></u>, a non-Shaken and Unengaged <u><link=\"model\">model</link></u> with <u><link=\"rulebook-engineer\">Engineer</link></u> can select a friendly <u><link=\"model\">model</link></u> with X in a unit within 6\" of it.\nThe chosen <u><link=\"model\">model</link></u> gains +1 to hit with Shooting <u><link=\"attacks\">Attacks</link></u>, to a maximum of 3+. No <u><link=\"model\">model</link></u> can be affected by more than one instance of this effect simultaneously.\nThe usage of this must be declared before shooting with the chosen <u><link=\"model\">model</link></u>."
   },
   {
     "Id": "rulebook-crossbow",
@@ -1528,12 +1522,6 @@
     "Name": "Shooting Phase",
     "Type": "General",
     "Description": "There are many kinds of shooting used by the armies of the 9th Age, from bows, guns and thrown weapons to arcane devices and grand artillery machines. With the exception of magical spells, the Shooting Phase is your chance to unleash all of your ranged attacks at the foe, thinning their forces without the risks of close melee. But of course the enemy may not make it easy, taking cover behind any battlefield shelter they can find to foil your attempts at a clear shot.\nThe Shooting Phase consists of the following steps:\n1 -     Choose one of your units and perform a Shooting Attack with it.\n2 -     Select the target of the attack and which models in the unit will shoot. Each model must have Line of Sight to at least one model in the target unit and be within its effective range.\n3 -     Resolve the shooting attack.\n4 -     Repeat steps 1 to 3 with a different unit that has not yet performed a Shooting Attack during this phase, if desired.\nWhen all units that can and want to shoot have done so, the Shooting Phase ends.\n/section{choose_a_unit_and_a_target}/section{who_can_shoot}/section{shots_and_aim}"
-  },
-  {
-    "Id": "engineer",
-    "Name": "Engineer",
-    "Type": "General",
-    "Description": "Once during each <u><link=\"shooting_phase\">Shooting Phase</link></u>, a non-Shaken and Unengaged <u><link=\"model\">model</link></u> with <u><link=\"engineer\">Engineer</link></u> can select a friendly <u><link=\"model\">model</link></u> with X in a unit within 6\" of it.\nThe chosen <u><link=\"model\">model</link></u> gains +1 to hit with Shooting <u><link=\"attacks\">Attacks</link></u>, to a maximum of 3+. No <u><link=\"model\">model</link></u> can be affected by more than one instance of this effect simultaneously.\nThe usage of this must be declared before shooting with the chosen <u><link=\"model\">model</link></u>."
   },
   {
     "Id": "eos-trained_ferocity",
@@ -1935,13 +1923,13 @@
     "Id": "id-keys_to_the_citadel",
     "Name": "Keys to the Citadel",
     "Type": "Global",
-    "Description": "The model must buy Weapon Enchantments for two of its mundane weapons. The Point Cost of one of the Weapon Enchantments (the cheapest if applicable) is halved, rounding fractions up."
+    "Description": "The model must buy Weapon Enchantments for two of its mundane weapons.\nThe Point Cost of one of the Weapon Enchantments (the cheapest if applicable) is halved, rounding fractions up."
   },
   {
     "Id": "id-infernal_armour",
     "Name": "Infernal Armour",
     "Type": "Defense",
-    "Description": "The model gains Resistance(Flaming Attacks)."
+    "Description": "The model gains <u><link=\"rulebook-resistance\">Resistance</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "id-infernal_weapon",
@@ -1959,19 +1947,19 @@
     "Id": "id-vassal_governor",
     "Name": "Vassal Governor",
     "Type": "Global",
-    "Description": "Friendly units  with Vassal within 12\" of one or more models with <u><link=\"vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
+    "Description": "Friendly units  with Vassal within 12\" of one or more models with <u><link=\"id-vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
   },
   {
     "Id": "id-prophet_of_shamut",
     "Name": "Prophet of Shamut",
     "Type": "Global",
-    "Description": "The model gains access to the options below."
+    "Description": ""
   },
   {
     "Id": "id-firing_platform",
     "Name": "Firing Platform",
     "Type": "Global",
-    "Description": "Shooting Attacks against the model's unit are all resolved against the Infernal Bastion. In addition, models in the Infernal Bastions unit may draw Line of Sight as if they were Height 5, and from any point of the Infernal Bastion's Front Facing when shooting or casting spells. If so, as long as the unit has at least one Proper Rank:\n-   A maximum of 20 models can shoot from the unit. These models can shoot regardless of the rank they are positioned in.\n-   Measure their range from the Infernal Bastion.\n*See Infernal Bastion unit entry."
+    "Description": "Firing Platform: Shooting Attacks against the model’s unit are all resolved against the Infernal Bastion. In addition, when shooting or casting spells, models in the Infernal Bastion’s unit may draw Line of Sight as if they were Height 5, and from any point of the Infernal Bastion’s Front Facing, as long as the unit has at least one Proper Rank:\n   • A maximum of 20 models can shoot from the unit. These models can shoot regardless of the rank they are positioned in.\n   • Measure their range from the Infernal Bastion."
   },
   {
     "Id": "rulebook-crush_attack",
@@ -1983,13 +1971,13 @@
     "Id": "id-unbranded",
     "Name": "Unbranded",
     "Type": "Global",
-    "Description": "The model cannot take any Army specific Magic Items, and can never learn, or swap to <u><link=\"curse_of_nezibkesh\">Curse of Nezibkesh</link></u>."
+    "Description": "The model cannot take any Army specific Magic Items, and can never learn, or swap to <u><link=\"id-curse_of_nezibkesh\">Curse of Nezibkesh</link></u>."
   },
   {
     "Id": "id-riddle_of_the_lamassu",
     "Name": "Riddle of the Lamassu",
     "Type": "Global",
-    "Description": "During enemy Pre-game Selections, the opponent must choose Power or Wisdom.\n-   Power: the model gains Channel(1).\n-   Wisdom: Immediately choose up to two units from the opponent's Army List. The chosen units begin the game with an <u><link=\"incendiary\">Incendiary</link></u> Marker."
+    "Description": "During enemy Pre-game Selections, the opponent must choose Power or Wisdom.\n-   Power: the model gains <u><link=\"rulebook-channel\">Channel</link></u>(1).\n-   Wisdom: Immediately choose up to two units from the opponent's Army List. The chosen units begin the game with an <u><link=\"id-incendiary\">Incendiary</link></u> Marker."
   },
   {
     "Id": "rulebook-weakness",
@@ -2001,7 +1989,7 @@
     "Id": "id-oil_flasks",
     "Name": "Oil Flasks",
     "Type": "Equipment",
-    "Description": "A Health Pool can use <u><link=\"oil_flasks\">Oil Flasks</link></u> X times. Each use reduces X by 1, and when X is 0, the rule cannot be used. Before rolling to hit with an attack using <u><link=\"oil_flasks\">Oil Flasks</link></u>, you may declare that the rule is used.\nWhen using <u><link=\"oil_flasks\">Oil Flasks</link></u>, apply the following rules:\nAfter resolving all simultaneous attacks, any unit hit by at least one attack with <u><link=\"oil_flasks\">Oil Flasks</link></u> gains <u><link=\"incendiary\">Incendiary</link></u>."
+    "Description": "A Health Pool can use <u><link=\"id-oil_flasks\">Oil Flasks</link></u> X times. Each use reduces X by 1, and when X is 0, the rule cannot be used. Before rolling to hit with an attack using <u><link=\"id-oil_flasks\">Oil Flasks</link></u>, you may declare that the rule is used.\nWhen using <u><link=\"id-oil_flasks\">Oil Flasks</link></u>, apply the following rules:\nAfter resolving all simultaneous attacks, any unit hit by at least one attack with <u><link=\"id-oil_flasks\">Oil Flasks</link></u> gains <u><link=\"id-incendiary\">Incendiary</link></u>."
   },
   {
     "Id": "id-chained_together",
@@ -2019,25 +2007,25 @@
     "Id": "rulebook-ghost_step",
     "Name": "Ghost Step",
     "Type": "Global",
-    "Description": "A unit entirely with <u><link=\"ghost_step\">Ghost Step</link></u> ignores <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> when moving. The unit must however follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its move.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"ghost_step\">Ghost Step</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIf the unit ends a move inside <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, backtrack the move to the unit’s last legal position, unless as part of a <u><link=\"flee_move\">Flee Move</link></u>, in which case the standard <u><link=\"flee_move\">Flee Moves</link></u> rules apply."
+    "Description": "A unit entirely with <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> ignores <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> when moving. The unit must however follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its move.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIf the unit ends a move inside <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, backtrack the move to the unit’s last legal position, unless as part of a <u><link=\"flee_move\">Flee Move</link></u>, in which case the standard <u><link=\"flee_move\">Flee Moves</link></u> rules apply."
   },
   {
     "Id": "id-theocratic_litigators",
     "Name": "Theocratic Litigators",
     "Type": "Global",
-    "Description": "The model's unit and enemy units in contact with the model's unit gain Magic Resistance(2), which is also applied to friendly spells. This Magic Resistance value cannot be increased."
+    "Description": "The model's unit and enemy units in contact with the model's unit gain <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>(2), which is also applied to friendly spells. This <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u> value cannot be increased."
   },
   {
     "Id": "id-volcanic_embrace",
     "Name": "Volcanic Embrace",
     "Type": "Equipment",
-    "Description": "The model part gains Grind Attack(X* hits, AP 4, Flaming Attacks, Magical Attacks, Unmodifiable, Zeal(against Metal Armour)).\n*These hits always wound on a 4+."
+    "Description": "The model part gains <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(X* hits, AP 4, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>, <u><link=\"rulebook-zeal\">Zeal</link></u>(against Metal Armour)).\n*These hits always wound on a 4+."
   },
   {
     "Id": "id-vassal_slingshot",
     "Name": "Vassal Slingshot",
     "Type": "Equipment",
-    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), <u><link=\"oil_flasks\">Oil Flasks(4)</link></u>\n"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), <u><link=\"id-oil_flasks\">Oil Flasks(4)</link></u>\n"
   },
   {
     "Id": "id-naphtha_thrower",
@@ -2055,7 +2043,7 @@
     "Id": "id-higher_calibre",
     "Name": "Higher Calibre",
     "Type": "Equipment",
-    "Description": " The Range of the model's Shooting Weapon is doubled. Enemy units hit by the weapon suffer -1\" Cha and -1\" Mob, both to a minimum of 3\" Duration: One Turn."
+    "Description": " The Range of the model's Shooting Weapon is doubled.\nEnemy units hit by the weapon suffer -1\" Cha and -1\" Mob, both to a minimum of 3\" Duration: One Turn."
   },
   {
     "Id": "id-rock_crusher",
@@ -2067,19 +2055,19 @@
     "Id": "id-full_steam_ahead",
     "Name": "Full Steam Ahead!",
     "Type": "Global",
-    "Description": "The model  cannot choose to Pursue, unless it is the first Round of Combat and it is is Charging, in which case it must Pursue (including Overrun)."
+    "Description": "The model cannot choose to Pursue, unless it is the first Round of Combat and it is is Charging, in which case it must Pursue (including Overrun)."
   },
   {
     "Id": "id-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"infernal_armour\">Infernal Armour</link></u>, Commanding Presence(12\", Insignificant), First Strike(Stubborn)."
+    "Description": "The model gains <u><link=\"id-infernal_armour\">Infernal Armour</link></u>, Commanding Presence(12\", Insignificant), First Strike(Stubborn)."
   },
   {
     "Id": "id-infernal_lash",
     "Name": "Infernal Lash",
     "Type": "Equipment",
-    "Description": " - Melee Weapon\n+2 Agi. Once per Melee Phase, when Choosing Equipment and Abilities in a Combat within 6\" of the wielder, you may activate the following ability:\nChoose a single friendly unit within 6\" of the wielder (which can be the wielder itself). The chosen unit gains Flaming Attacks(Melee), Magical Attacks(Melee) until the end of the Melee Phase.\n+2 Agi. Once per Melee Phase, when Choosing Equipment and Abilities in a Combat within 6\" of the wielder, you may activate the following ability:\nChoose a single friendly unit within 6\" of the wielder (which can be the wielder itself). The chosen unit gains Flaming Attacks(Melee), Magical Attacks(Melee) until the end of the Melee Phase."
+    "Description": "+2 Agi.\nOnce per Melee Phase, when Choosing Equipment and Abilities in a Combat within 6\" of the wielder, you may activate the following ability:\nChoose a single friendly unit within 6\" of the wielder (which can be the wielder itself).\nThe chosen unit gains <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. Duration: One Phase."
   },
   {
     "Id": "properties",
@@ -2088,52 +2076,10 @@
     "Description": "Behold, a rare and unique quality.\nUnits, <u><link=\"attacks\">attacks</link></u> and <u><link=\"spells\">spells</link></u> can have key words called <u><link=\"properties\">Properties</link></u> <u><link=\"rulebook-attached\">attached</link></u> to them. <u><link=\"properties\">Properties</link></u> describe the unit’s origin, allegiance, elemental effects of its <u><link=\"attacks\">attacks</link></u>, or other defining attributes. <u><link=\"properties\">Properties</link></u> can always be identified by their names being displayed in grey and italics.\n<u><link=\"properties\">Properties</link></u> are rules that do not possess any innate or direct effects. Instead <u><link=\"properties\">properties</link></u> are only used as triggers for other rules. For example, a rule might restrict <u><link=\"characters\">characters</link></u> from joining a unit unless it possesses the right Clan Property."
   },
   {
-    "Id": "vassal_governor",
-    "Name": "Vassal Governor",
-    "Type": "General",
-    "Description": "Friendly units  with Vassal within 12\" of one or more models with <u><link=\"vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
-  },
-  {
     "Id": "standard_melee_attacks",
     "Name": "Standard Melee Attacks",
     "Type": "General",
     "Description": "<u><link=\"standard_melee_attacks\">Standard Melee Attacks</link></u>\nThe most common type of attack in the <u><link=\"melee_phase\">Melee Phase</link></u> is the Standard Melee Attack, which all <u><link=\"model\">models</link></u> can perform provided they have an Attack Value on their profile (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter). To resolve these <u><link=\"attacks\">attacks</link></u>, roll a number of D6 equal to the Attack Value of the attacking <u><link=\"model\">model</link></u> part. This roll is called a to-hit roll.\nCompare the attacking <u><link=\"model\">model</link></u> part's Offensive Skill with the target <u><link=\"model\">model's</link></u> Defensive Skill and consult the table below for the needed <u><link=\"dice\">dice</link></u> roll to score a successful hit. A natural roll of ‘1’ is always a failure, and a natural roll of ‘6’ is always a success. Both tables present the same relation, visualised in different ways.\nOffensive Skill -\nDefensive Skill    Needed roll to hit\n4 or more    2+\n1 to 3    3+\n-3 to 0    4+\n-4 or less    5+  \nOnce you have determined the number of hits, follow the <u><link=\"attack_sequence\">Attack Sequence</link></u>, using the Strength, Armour Penetration, and on the profile of the attacking <u><link=\"model\">model</link></u> part, potentially modified by things like Weapon, <u><link=\"spells\">Spells</link></u> and <u><link=\"model\">Model</link></u> Rules.\n\nNon-<u><link=\"standard_melee_attacks\">Standard Melee Attacks</link></u>\nAttacks that do not fall under the category of <u><link=\"standard_melee_attacks\">Standard Melee Attacks</link></u>, have their own specific rules for <u><link=\"determining_the_number_of_hits\">determining the number of hits</link></u>, as well as the Strength, Armour Penetration, and additional rules to use.\nOff 1    Off 2    Off 3    Off 4    Off 5    Off 6    Off 7    Off 8    Off 9    Off 10\nDef 1    4+    3+    3+    3+    2+    2+    2+    2+    2+    2+\nDef 2    4+    4+    3+    3+    3+    2+    2+    2+    2+    2+\nDef 3    4+    4+    4+    3+    3+    3+    2+    2+    2+    2+\nDef 4    4+    4+    4+    4+    3+    3+    3+    2+    2+    2+\nDef 5    5+    4+    4+    4+    4+    3+    3+    3+    2+    2+\nDef 6    5+    5+    4+    4+    4+    4+    3+    3+    3+    2+\nDef 7    5+    5+    5+    4+    4+    4+    4+    3+    3+    3+\nDef 8    5+    5+    5+    5+    4+    4+    4+    4+    3+    3+\nDef 9    5+    5+    5+    5+    5+    4+    4+    4+    4+    3+\nDef 10    5+    5+    5+    5+    5+    5+    4+    4+    4+    4+  "
-  },
-  {
-    "Id": "curse_of_nezibkesh",
-    "Name": "Curse of Nezibkesh",
-    "Type": "General",
-    "Description": "The target gains <u><link=\"incendiary\">Incendiary</link></u>. In addition, the target suffers -1 Def and -1 Off, and an additional -1 Def and -1 Off, as long as it has 1 or more <u><link=\"incendiary\">Incendiary</link></u> Markers on it."
-  },
-  {
-    "Id": "incendiary",
-    "Name": "Incendiary",
-    "Type": "General",
-    "Description": "Give one <u><link=\"incendiary\">Incendiary</link></u> Marker, with Duration: Permanent,  to the unit. A unit with one or more <u><link=\"incendiary\">Incendiary</link></u> Markers gains Weakness(Flaming Attacks). Remove one <u><link=\"incendiary\">Incendiary</link></u> Marker:\n-   Immediately when the unit suffers one or more wounds (before saves are performed) from Ranged Attacks with  Flaming Attacks.\n-   At the end of a Round of Combat in which the unit suffers one or more wounds (before saves are performed) from Melee Attacks with  Flaming Attacks.\nA Character leaving a unit affected by <u><link=\"incendiary\">Incendiary</link></u> is no longer affected, unless the Character was a single model unit when it gained <u><link=\"incendiary\">Incendiary</link></u>. In that case, the Character keeps those <u><link=\"incendiary\">Incendiary</link></u> Markers."
-  },
-  {
-    "Id": "oil_flasks",
-    "Name": "Oil Flasks",
-    "Type": "General",
-    "Description": "A Health Pool can use <u><link=\"oil_flasks\">Oil Flasks</link></u> X times. Each use reduces X by 1, and when X is 0, the rule cannot be used. Before rolling to hit with an attack using <u><link=\"oil_flasks\">Oil Flasks</link></u>, you may declare that the rule is used.\nWhen using <u><link=\"oil_flasks\">Oil Flasks</link></u>, apply the following rules:\nAfter resolving all simultaneous attacks, any unit hit by at least one attack with <u><link=\"oil_flasks\">Oil Flasks</link></u> gains <u><link=\"incendiary\">Incendiary</link></u>."
-  },
-  {
-    "Id": "ghost_step",
-    "Name": "Ghost Step",
-    "Type": "General",
-    "Description": "A unit entirely with <u><link=\"ghost_step\">Ghost Step</link></u> ignores <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> when moving. The unit must however follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its move.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"ghost_step\">Ghost Step</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIf the unit ends a move inside <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, backtrack the move to the unit’s last legal position, unless as part of a <u><link=\"flee_move\">Flee Move</link></u>, in which case the standard <u><link=\"flee_move\">Flee Moves</link></u> rules apply."
-  },
-  {
-    "Id": "vassal_slingshot",
-    "Name": "Vassal Slingshot",
-    "Type": "General",
-    "Description": "<u><link=\"vassal_slingshot\">Vassal Slingshot</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"vassal_slingshot\">Vassal Slingshot</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3)), <u><link=\"oil_flasks\">Oil Flasks(4)</link></u>\n"
-  },
-  {
-    "Id": "infernal_armour",
-    "Name": "Infernal Armour",
-    "Type": "General",
-    "Description": "Plate Armour. The wearer gains Aegis(5+, against Flaming Attacks)."
   },
   {
     "Id": "koe-clergy",
@@ -4119,55 +4065,55 @@
     "Id": "id-big_brother",
     "Name": "Big Brother",
     "Type": "General",
-    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and the roll for the number of hits it does with its Stomp Attack is Maximised."
+    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and the roll for the number of hits it does with its <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is Maximised."
   },
   {
     "Id": "id-giant_club",
     "Name": "Giant Club",
     "Type": "General",
-    "Description": "- Melee Weapon\n\n+1 Str and +1 AP.\n\n\t+1 Str and +1 AP."
+    "Description": "+1 Str and +1 AP."
   },
   {
     "Id": "id-tower_shield",
     "Name": "Tower Shield",
     "Type": "General",
-    "Description": "- Personal Protection\n\nThe model gains +1 Arm, Parry, Hard Target(1).\n\n\tThe model gains +1 Arm, Parry, Hard Target(1)."
+    "Description": "The model gains +1 Arm, <u><link=\"rulebook-parry\">Parry</link></u>, <u><link=\"rulebook-hard_target\">Hard Target</link></u>(1)."
   },
   {
     "Id": "id-walking_earthquake",
     "Name": "Walking Earthquake",
     "Type": "General",
-    "Description": "The model gains Swiftstride, Volcanic Embrace(D3+1),  and its Mob is set to 7\"."
+    "Description": "The model Mobility is set to 7\" and it gains <u><link=\"rulebook-swiftstride\">Swiftstride</link></u> and <u><link=\"id-volcanic_embrace\">Volcanic Embrace</link></u>(D3+1)."
   },
   {
     "Id": "id-walking_volcano",
     "Name": "Walking Volcano",
     "Type": "General",
-    "Description": "The model gains Volcanic Embrace(2)."
+    "Description": "The model gains <u><link=\"id-volcanic_embrace\">Volcanic Embrace</link></u>(2)."
   },
   {
     "Id": "id-prophet_of_ashuruk",
     "Name": "Prophet of Ashuruk",
     "Type": "General",
-    "Description": "During Pre-game Selections, regardless of its chosen Path of Magic, the model may exchange one of its spells for the Apprentice Spell  (#1) of either Alchemy, Pyromancy, Occultism.\n\t The model gains access to the options below."
+    "Description": "During Pre-game Selections, regardless of its chosen Path of Magic, the model may exchange one of its spells for the Apprentice Spell  (#1) of either Alchemy, Pyromancy, Occultism."
   },
   {
     "Id": "id-prophet_of_lugar",
     "Name": "Prophet of Lugar",
     "Type": "General",
-    "Description": "The model gains Aegis(4+), Aegis(3+, against Flaming Attacks), and -3 Arm, and loses Metal Armour and Infernal Armour. The model part gains Flaming Attacks, Magical Attacks. . The model gains access to the options below."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(4+), <u><link=\"rulebook-aegis\">Aegis</link></u>(3+, against u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), and -3 Arm, and loses Metal Armour and <u><link=\"id-infernal_armour\">Infernal Armour</link></u>.\nThe model part gains u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "id-prophet_of_nezibkesh",
     "Name": "Prophet of Nezibkesh",
     "Type": "General",
-    "Description": "The model gains Engineer(Gunnery Team, Infernal Artillery or Infernal Engine). The model gains access to the options below."
+    "Description": "The model gains <u><link=\"rulebook-engineer\">Engineer</link></u>(Gunnery Team, Infernal Artillery or Infernal Engine)."
   },
   {
     "Id": "id-taurukh_ritual",
     "Name": "Taurukh Ritual",
     "Type": "General",
-    "Description": "Max. 2 models/army.\n\n\tApply the following to the model:\t\t\t\n  •  It gains Impact Hits(1), Swiftstride, Centauroid, and its Height is set to 2.\n\t\t\n  •  Its Cha and Mob are both set to 7\".\n\t\t\n  •  Its base size is changed to 25×50mm.\n\t\n\n\tApply the following to the model:\t\t\t\n  •  It gains Impact Hits(1), Swiftstride, Centauroid, and its Height is set to 2.\n\t\t\n  •  Its Cha and Mob are both set to 7\".\n\t\t\n  •  Its base size is changed to 25×50mm."
+    "Description": "Apply the following to the model:\n   • It gains <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> (1 hit), <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, Centauroid, and its Height is set to 2.\n   • Its Charge Speed and Mobility are both set to 7\".\n   • Its base size is changed to 25×50 mm."
   },
   {
     "Id": "id-blunderbuss",
@@ -4191,7 +4137,7 @@
     "Id": "id-incendiary",
     "Name": "Incendiary",
     "Type": "General",
-    "Description": "Give one Incendiary Marker, with Duration: Permanent,  to the unit. A unit with one or more Incendiary Markers gains Weakness(Flaming Attacks). Remove one Incendiary Marker:\t\t\t\n  •  Immediately when the unit suffers one or more wounds (before saves are performed) from Ranged Attacks with  Flaming Attacks.\t\t\n  •  At the end of a Round of Combat in which the unit suffers one or more wounds (before saves are performed) from Melee Attacks with  Flaming Attacks.\t\n\tA Character leaving a unit affected by Incendiary is no longer affected, unless the Character was a single model unit when it gained Incendiary. In that case, the Character keeps those Incendiary Markers."
+    "Description": "Give one <u><link=\"id-incendiary\">Incendiary</link></u> Marker, with Duration: Permanent,  to the unit. A unit with one or more <u><link=\"id-incendiary\">Incendiary</link></u> Markers gains <u><link=\"rulebook-weakness\">Weakness</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>). Remove one <u><link=\"id-incendiary\">Incendiary</link></u> Marker:\t\t\t\n  •  Immediately when the unit suffers one or more wounds (before saves are performed) from Ranged Attacks with  <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>.\t\t\n  •  At the end of a Round of Combat in which the unit suffers one or more wounds (before saves are performed) from Melee Attacks with  <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>.\t\n\tA Character leaving a unit affected by <u><link=\"id-incendiary\">Incendiary</link></u> is no longer affected, unless the Character was a single model unit when it gained <u><link=\"id-incendiary\">Incendiary</link></u>. In that case, the Character keeps those <u><link=\"id-incendiary\">Incendiary</link></u> Markers."
   },
   {
     "Id": "id-airborne_legends",
@@ -4209,61 +4155,61 @@
     "Id": "id-onyx_core",
     "Name": "Onyx Core",
     "Type": "General",
-    "Description": "Str is always 6. Flaming Attacks, Multiple Wounds(D3, towards Weakness(Flaming Attacks))."
+    "Description": "Str is always 6. <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(D3, towards <u><link=\"rulebook-weakness\">Weakness</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>))."
   },
   {
     "Id": "id-flame_of_the_east",
     "Name": "Flame of the East",
     "Type": "General",
-    "Description": "Flaming Attacks, Volcanic Embrace(D3+1)."
+    "Description": "<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"id-volcanic_embrace\">Volcanic Embrace</link></u>(D3+1)."
   },
   {
     "Id": "id-eye_of_the_bull",
     "Name": "Eye of the Bull",
     "Type": "General",
-    "Description": "Affects both Shooting and Standard Melee Attacks. Att is always 1, Str is always 5, and AP is always 10. Hits automatically (no to-hit roll required). Multiple Wounds(2, Melee)."
+    "Description": "Affects both Shooting and Standard Melee Attacks. Att is always 1, Str is always 5, and AP is always 10. <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u> and <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2, Melee)."
   },
   {
     "Id": "id-kadim_binding",
     "Name": "Kadim Binding",
     "Type": "General",
-    "Description": "Aegis(+1, against Flaming Attacks, max. 3+), , Hand-and-a-Half."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(+1, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, max. 3+), , <u><link=\"rulebook-handandahalf\">Hand-and-a-Half</link></u>."
   },
   {
     "Id": "id-blaze_of_protection",
     "Name": "Blaze of Protection",
     "Type": "General",
-    "Description": "Arm is set to 6. At the end of Agility Step 0, each  enemy model in contact with the bearer's model that could have allocated attacks towards it, but chose not to, suffers 1 hit with Str 4, AP 0, Magical Attacks, and Flaming Attacks."
+    "Description": "The bearer’s Armour value is set to 6. At the end of Agility Step 0, each enemy model in contact with the bearer’s model that could have allocated attacks towards it, but chose not to, suffers 1 hit with Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>."
   },
   {
     "Id": "id-banner_of_the_twicebranded",
     "Name": "Banner of the Twice-Branded",
     "Type": "General",
-    "Description": "Models in the bearer's unit gain Shoot in Extra Rank."
+    "Description": "Models in the bearer's unit gain <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>."
   },
   {
     "Id": "id-banner_of_shamut",
     "Name": "Banner of Shamut",
     "Type": "General",
-    "Description": "Models in the bearer's unit gain +1 Off.  In addition, a unit containing a Banner of Shamut adds +1 to the Combat Score of its side."
+    "Description": "Models in the bearer's unit gain +1 Off.\nIn addition, a unit containing a Banner of Shamut adds +1 to the Combat Score of its side."
   },
   {
     "Id": "id-their_masters_banner",
     "Name": "Their Master's Banner",
     "Type": "General",
-    "Description": "Apply the following effects while the bearer's unit is within range of a friendly model's Commanding Presence:\t\t\t\t\t\n  •  Model parts with Vassal gain Fury.\t\t\t\n  •  The bearer's unit must reroll failed Charge Range rolls in the Charge Phase."
+    "Description": "Apply the following effects while the bearer's unit is within range of a friendly model's <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>:\n   •  Model parts with Vassal gain <u><link=\"rulebook-fury\">Fury</link></u>.\n   •  The bearer's unit must reroll failed Charge Range rolls in the Charge Phase."
   },
   {
     "Id": "id-mask_of_ages",
     "Name": "Mask of Ages",
     "Type": "General",
-    "Description": "The wearer gains Aegis(5+, against Grind Attack, Impact Hits, Magical Attacks, and Stomp Attack), Terror, Hatred."
+    "Description": "The wearer gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>, <u><link=\"rulebook-impact_hits\">Impact Hits</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>), <u><link=\"rulebook-terror\">Terror</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>."
   },
   {
     "Id": "id-golden_idol_of_shamut",
     "Name": "Golden Idol of Shamut",
     "Type": "General",
-    "Description": "If the bearer's model is Height 1 it gains Ghost Step, its Cha is set to 4\" and its Mob is set to 6\". In addition, the bearer can cast Flaming Swords (Pyromancy) as a Bound Spell(3+)."
+    "Description": "The bearer can cast Flaming Swords (Pyromancy) as a Bound Spell (3+).\nIn addition, if the bearer’s model is Height 1, its Charge Speed is set to 4″, its Mobility is set to 6″, and it gains <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>."
   },
   {
     "Id": "id-tablet_of_vezodinezh",
@@ -4275,19 +4221,19 @@
     "Id": "id-lugars_dice",
     "Name": "Lugar's Dice",
     "Type": "General",
-    "Description": "A single model part of the bearer's model can reroll a single failed to-hit, to-wound, or Armour Save roll per Player Turn. This cannot be used for Crush Attacks."
+    "Description": "A single model part of the bearer's model can reroll a single failed to-hit, to-wound, or Armour Save roll per Player Turn.\nThis cannot be used for <u><link=\"rulebook-crush_attack\">Crush Attack</link></u>."
   },
   {
     "Id": "id-breath_of_the_brass_bull",
     "Name": "Breath of the Brass Bull",
     "Type": "General",
-    "Description": "The bearer's model gains +1 HP and First Strike(Grind Attack(X, Magical Attacks, Toxic Attacks)). X is equal to the number of models in contact with the bearer's unit's Front Facing."
+    "Description": "The bearer's model gains +1 HP and <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(X, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>)).\nX is equal to the number of models in contact with the bearer's unit's Front Facing."
   },
   {
     "Id": "id-ring_of_desiccation",
     "Name": "Ring of Desiccation",
     "Type": "General",
-    "Description": "When Choosing Equipment and Abilities, each enemy unit in contact with the wearer's model gains Incendiary."
+    "Description": "When Choosing Equipment and Abilities, each enemy unit in contact with the wearer's model gains an <u><link=\"id-incendiary\">Incendiary</link></u> Token."
   },
   {
     "Id": "id-bound_or_broken_effect",
@@ -4296,22 +4242,10 @@
     "Description": "/subsection{bound_or_broken}"
   },
   {
-    "Id": "id-volcanic_embrace_attack",
-    "Name": "Volcanic Embrace Attack",
-    "Type": "General",
-    "Description": ""
-  },
-  {
     "Id": "id-unflame_aura",
     "Name": "Unflame",
     "Type": "General",
     "Description": "/subsection{unflame}"
-  },
-  {
-    "Id": "id-full_steam_ahead",
-    "Name": "Full Steam Ahead!",
-    "Type": "General",
-    "Description": "Abazzalem cannot choose to Pursue, unless he is Charging –– in which case he must Pursue (including Overrun)."
   },
   {
     "Id": "id-the_riddle_of_peace",
