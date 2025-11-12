@@ -1584,92 +1584,92 @@
     "PathName": "Hereditary"
   },
   {
-    "Id": "brace for impact!/orders",
+    "Id": "brace for impact!/eos - orders",
     "Name": "Brace for Impact!",
-    "Type": "augment",
+    "Type": "Order",
     "Attributes": {},
     "Description": "The target gains Fight in Extra Rank",
     "CastingValue": "",
-    "Range": "8",
+    "Range": "",
     "Duration": "1 Turn",
     "Level": "1",
-    "PathName": "Orders"
+    "PathName": "EoS - Orders"
   },
   {
-    "Id": "on the double!/orders",
+    "Id": "on the double!/eos - orders",
     "Name": "On The Double!",
-    "Type": "augment",
+    "Type": "Order",
     "Attributes": {},
-    "Description": "The target gains +1″ Advance Rate and +4″ March Rate",
+    "Description": "The target gains +1″ Cha and +2″ Mob.",
     "CastingValue": "",
-    "Range": "8",
+    "Range": "",
     "Duration": "1 Turn",
     "Level": "2",
-    "PathName": "Orders"
+    "PathName": "EoS - Orders"
   },
   {
-    "Id": "ready! aim! fire!/orders",
+    "Id": "ready! aim! fire!/eos - orders",
     "Name": "Ready! Aim! Fire!",
-    "Type": "augment",
+    "Type": "Order",
     "Attributes": {},
     "Description": "The target gains Accurate",
     "CastingValue": "",
-    "Range": "8",
+    "Range": "",
     "Duration": "1 Turn",
     "Level": "3",
-    "PathName": "Orders"
+    "PathName": "EoS - Orders"
   },
   {
-    "Id": "steady, men!/orders",
+    "Id": "steady, men!/eos - orders",
     "Name": "Steady, Men!",
-    "Type": "augment",
+    "Type": "Order",
     "Attributes": {},
-    "Description": "Discipline Tests taken by the target are subject to MinimisedRoll. A unit that receives this Order and passes a Rally Test doesn't become Shaken, and the Reform that is made after Rallying doesn't prevent the unit from moving and/or shooting (but it still counts as having moved for shooting purposes).",
+    "Description": "The target gains Disciplined, and its Courage Tests gain Minimised",
     "CastingValue": "",
-    "Range": "8",
+    "Range": "",
     "Duration": "1 Turn",
     "Level": "4",
-    "PathName": "Orders"
+    "PathName": "EoS - Orders"
   },
   {
-    "Id": "ullor's blessing/blessings",
+    "Id": "ullor's blessing/eos - blessings",
     "Name": "Ullor's Blessing",
-    "Type": "caster, caster_unit, augment",
+    "Type": "Caster",
     "Attributes": {},
     "Description": "The target gains Aegis (5+, against Melee Attacks).",
-    "CastingValue": "5",
-    "Range": "0",
+    "CastingValue": "3",
+    "Range": "",
     "Duration": "1 Turn",
     "Level": "1",
-    "PathName": "Blessings"
+    "PathName": "EoS - Blessings"
   },
   {
-    "Id": "sunna's blessing/blessings",
+    "Id": "sunna's blessing/eos - blessings",
     "Name": "Sunna's Blessing",
-    "Type": "caster, caster_unit, augment",
+    "Type": "Caster",
     "Attributes": {},
-    "Description": "The target gains Flaming Attacks. All enemy units in base contact with one or more targets of this spell when the spell is cast suffer D6 hits with Strength 4, Armour Penetration 1, Flaming Attacks, and Magical Attacks.",
-    "CastingValue": "5",
-    "Range": "0",
+    "Description": "The target's unit gains Flaming Attacks. Each enemy unit in contact with the target's unit when the spell is cast, suffers D6 hits with Str 4, AP 0, Flaming Attacks and Magical Attacks.",
+    "CastingValue": "3",
+    "Range": "",
     "Duration": "1 Turn",
     "Level": "2",
-    "PathName": "Blessings"
+    "PathName": "EoS - Blessings"
   },
   {
-    "Id": "volund's blessing/blessings",
+    "Id": "volund's blessing/eos - blessings",
     "Name": "Volund's Blessing",
-    "Type": "caster, caster_unit, augment",
+    "Type": "Caster",
     "Attributes": {},
-    "Description": "The target's failed to-wound rolls with Melee Attacks must be rerolled.",
-    "CastingValue": "5",
-    "Range": "0",
-    "Duration": "1 Turn",
+    "Description": "The target's unit gains Zeal.",
+    "CastingValue": "3",
+    "Range": "",
+    "Duration": "One Turn",
     "Level": "3",
-    "PathName": "Blessings"
+    "PathName": "EoS - Blessings"
   },
-{
-    "Id": "orison of shielding/koe - blessing tokens",
-    "Name": "Orison of Shielding",
+  {
+    "Id": "orison of s h ielding/koe - blessing tokens",
+    "Name": "Orison of S h ielding",
     "Type": "Blessing",
     "Attributes": {},
     "Description": "The target gains Aegis (5+).",
@@ -1680,8 +1680,8 @@
     "PathName": "KoE - Blessing Tokens"
   },
 {
-    "Id": "orison of striking/koe - blessing tokens",
-    "Name": "Orison of Striking",
+    "Id": "orison of s t riking/koe - blessing tokens",
+    "Name": "Orison of S t riking",
     "Type": "Blessing",
     "Attributes": {},
     "Description": "The target gains +2 Off, Magical Attacks, and ignore Parry. Model parts with Mount are not affected.",
