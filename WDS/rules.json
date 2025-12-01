@@ -183,7 +183,7 @@
     "Id": "rulebook-bow",
     "Name": "Bow",
     "Type": "Equipment",
-    "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>"
+    "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>."
   },
   {
     "Id": "rulebook-paired_weapons",
@@ -333,7 +333,7 @@
     "Id": "rulebook-breath_attack",
     "Name": "Breath Attack",
     "Type": "Equipment",
-    "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>. Hits automatically (no to-hit roll required). The Strength, Armour Penetration, and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in brackets (X)."
+    "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>. The Strength, Armour Penetration, and additional <u><link=\"ryulebook-attack_attributes\">Attack Attributes</link></u> are defined in brackets ('X')."
   },
   {
     "Id": "bh-giant_see_giant_do",
@@ -1275,7 +1275,7 @@
     "Id": "df-repeater_handbow",
     "Name": "Repeater Handbow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater HandbowX12\"231*Quick to Fire, Accurate, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
+    "Description": "Aim X+, Range 12\", Shots 2, Str 3, AP 1*, *<u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>\n*Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "df-mist_weaver",
@@ -1437,7 +1437,7 @@
     "Id": "rulebook-crossbow",
     "Name": "Crossbow",
     "Type": "Equipment",
-    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
+    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-unwieldy\">Unwieldy (1)</link></u>."
   },
   {
     "Id": "rulebook-resolute",
@@ -1617,13 +1617,13 @@
     "Id": "rulebook-handgun",
     "Name": "Handgun",
     "Type": "Equipment",
-    "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
+    "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-unwieldy\">Unwieldy (1)</link></u>."
   },
   {
     "Id": "rulebook-pistol",
     "Name": "Pistol",
     "Type": "Equipment",
-    "Description": "Range 12\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>"
+    "Description": "Range 12\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "eos-parent_unit",
@@ -1701,7 +1701,7 @@
     "Id": "rulebook-longbow",
     "Name": "Longbow",
     "Type": "Equipment",
-    "Description": "Range 30\", Shots 1, Str 3, AP 0, "
+    "Description": "Range 30\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>."
   },
   {
     "Id": "he-frost_phoenix",
@@ -2115,7 +2115,7 @@
     "Id": "rulebook-throwing_weapons",
     "Name": "Throwing Weapons",
     "Type": "Equipment",
-    "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>"
+    "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "koe-the_quest",
