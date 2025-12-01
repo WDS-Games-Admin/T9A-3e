@@ -39,7 +39,13 @@
     "Id": "rulebook-hand_weapon",
     "Name": "Hand Weapon",
     "Type": "Equipment",
-    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"rulebook-parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
+    "Description": "Description: All model parts without Innate Weapons come equipped with Hand Weapon as their default equipment and cannot lose it.\n\nModel Rules: When Choosing Equipment and Abilities, a model part can only choose Hand Weapon if it has no other options. Models with a <u><link=\"rulebook-shield\">Shield</link></u> using a Hand Weapon gain <u><link=\"rulebook-parry\">Parry</link></u>."
+  },
+  {
+    "Id": "rulebook-innate_weapons",
+    "Name": "Innate Weapons",
+    "Type": "Equipment",
+    "Description": "Description: All model parts with Beast, Construct, or Mount come equipped with Innate Weapons as their default equipment and cannot lose them.\n\nModel Rules: When Choosing Equipmentand Abilities, a model part can only choose Innate Weapons if it has no other options."
   },
   {
     "Id": "rulebook-devastating_charge",
@@ -177,13 +183,13 @@
     "Id": "rulebook-bow",
     "Name": "Bow",
     "Type": "Equipment",
-    "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>"
+    "Description": "Range 24\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>."
   },
   {
     "Id": "rulebook-paired_weapons",
     "Name": "Paired Weapons",
     "Type": "Equipment",
-    "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"rulebook-parry\">Parry</link></u>"
+    "Description": "Characteristics Modifiers: +1 Att, +1 Off.\n\nModel Rules: <u><link=\"rulebook-twohanded\">Two-Handed</link></u>. <u><link=\"rulebook-attacks\">Attacks</link></u> made with <u><link=\"rulebook-paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"rulebook-parry\">Parry</link></u>"
   },
   {
     "Id": "rulebook-insignificant",
@@ -213,19 +219,19 @@
     "Id": "rulebook-halberd",
     "Name": "Halberd",
     "Type": "Equipment",
-    "Description": "+1 Str, +1 AP, <u><link=\"twohanded\">Two-Handed</link></u>."
+    "Description": "Characteristics Modifiers: +1 Str, +1 AP.\n\nModel Rules: <u><link=\"rulebook-twohanded\">Two-Handed</link></u>."
   },
   {
     "Id": "rulebook-light_lance",
     "Name": "Light Lance",
     "Type": "Equipment",
-    "Description": "<u><link=\"model\">Models</link></u> on foot cannot use <u><link=\"light_lance\">Light Lances</link></u>. Devastating Charge(+1 Str, +1 AP)"
+    "Description": "Description: Only models with <u><link=\"rulebook-centauroid\">Centauroid</link></u> or <u><link=\"rulebook-mount\">Mount</link></u> can use a Light Lance.\n\nCharacteristics Modifiers: <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1 Str, +1 AP)"
   },
   {
     "Id": "rulebook-great_weapon",
     "Name": "Great Weapon",
     "Type": "Equipment",
-    "Description": "+2 Str, +2 AP, always Agi*, Two-Handed\n*Always strike at Agility Step 0, regardless of the wielder’s Agility."
+    "Description": "Characteristics Modifiers: +2 Str, +2 AP, always Agi 0.\n\nModel Rules: <u><link=\"rulebook-twohanded\">Two-Handed</link></u>."
   },
   {
     "Id": "rulebook-random_movement",
@@ -327,7 +333,7 @@
     "Id": "rulebook-breath_attack",
     "Name": "Breath Attack",
     "Type": "Equipment",
-    "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>. Hits automatically (no to-hit roll required). The Strength, Armour Penetration, and additional <u><link=\"attack_attributes\">Attack Attributes</link></u> are defined in brackets (X)."
+    "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>. The Strength, Armour Penetration, and additional <u><link=\"ryulebook-attack_attributes\">Attack Attributes</link></u> are defined in brackets ('X')."
   },
   {
     "Id": "bh-giant_see_giant_do",
@@ -450,12 +456,6 @@
     "Description": "Roll D6+4 and add the unit's Charge Speed (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   If the <u><link=\"charge_range\">Charge Range</link></u> is equal to or greater than the distance between the Charging unit and its intended target (in inches), there is enough space to complete the <u><link=\"charge_move\">Charge Move</link></u> including the Align Move, the Charge is successful and the Charging unit performs a <u><link=\"charge_move\">Charge Move</link></u>.\n-   Otherwise, the Charge has failed and the Charging Unit performs a <u><link=\"failed_charge_move\">Failed Charge Move</link></u>.\nFront or Flank?a) The Charging unit B is Located in enemy A's Front Arc (since this is where the centre of its Front Facing is).\\\nb) The Charging unit must contact the charged unit's Front Facing.\nSome players prefer to know their odds when <u><link=\"declaring_charges\">declaring charges</link></u>.\\\nBelow are the probabilities for the most common charges.\nNeeded score to & 5\" & 6\" & 7\" & 8\" & 9\" & 10\"\nD6+4 & 100% & 83% & 67% & 50% & 33% & 17%\nMaximised*D6+4 & 100% & 97% & 89% & 75% & 56% & 31%\n*Maximised rolls are explained in the Definitions and Terminiology chapter."
   },
   {
-    "Id": "hand_weapon",
-    "Name": "Hand Weapon",
-    "Type": "General",
-    "Description": "All <u><link=\"model\">models</link></u> come equipped with a <u><link=\"hand_weapon\">Hand Weapon</link></u> as their default equipment and cannot lose it. & -- & <u><link=\"model\">Models</link></u> using a <u><link=\"hand_weapon\">Hand Weapon</link></u> alongside a <u><link=\"rulebook-shield\">Shield</link></u> gain <u><link=\"rulebook-parry\">Parry</link></u>. A <u><link=\"model\">model</link></u> equipped with another Melee Weapon must use this, and cannot use its <u><link=\"hand_weapon\">Hand Weapon</link></u>."
-  },
-  {
     "Id": "modifiers",
     "Name": "Modifiers",
     "Type": "General",
@@ -534,18 +534,6 @@
     "Description": "Once a unit successfully completes a <u><link=\"charge_move\">Charge Move</link></u>, the Charging Unit and the target unit are <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, and remain <u><link=\"engaged_in_combat\">Engaged in Combat</link></u> as long as at least their Unit Boundaries are in contact with an enemy Unit Boundary."
   },
   {
-    "Id": "twohanded",
-    "Name": "Two-Handed",
-    "Type": "General",
-    "Description": "A <u><link=\"model\">model</link></u> using a <u><link=\"twohanded\">Two-Handed</link></u> Melee Weapon can not simultaneously use a <u><link=\"rulebook-shield\">Shield</link></u> against <u><link=\"melee_attacks\">Melee Attacks</link></u>."
-  },
-  {
-    "Id": "paired_weapons",
-    "Name": "Paired Weapons",
-    "Type": "General",
-    "Description": "+1 Att, +1 Off, <u><link=\"twohanded\">Two-Handed</link></u>. <u><link=\"attacks\">Attacks</link></u> made with <u><link=\"paired_weapons\">Paired Weapons</link></u> ignore <u><link=\"rulebook-parry\">Parry</link></u>"
-  },
-  {
     "Id": "movement_phase",
     "Name": "Movement Phase",
     "Type": "General",
@@ -580,12 +568,6 @@
     "Name": "Bodyguard",
     "Type": "General",
     "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
-  },
-  {
-    "Id": "light_lance",
-    "Name": "Light Lance",
-    "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> on foot cannot use <u><link=\"light_lance\">Light Lances</link></u>. Devastating Charge(+1 Str, +1 AP)"
   },
   {
     "Id": "pursue_moves",
@@ -723,7 +705,7 @@
     "Id": "rulebook-spear",
     "Name": "Spear",
     "Type": "Equipment",
-    "Description": "+1 Agi, +1 AP, +1 additional AP against <u><link=\"mount\">Mount</link></u> or Centauroid <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>"
+    "Description": "Description: Models with <u><link=\"rulebook-centaurod\">Centauroid</link></u> or <u><link=\"rulebook-mount\">Mount</link></u> cannot use a Spear.\n\nCharacteristics Modifiers: +1 Agi, +1 AP, +1 additional AP towards <u><link=\"rulebook-centaurod\">Centauroid</link></u> or <u><link=\"rulebook-mount\">Mount</link></u>\n\nModel Rules: <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>"
   },
   {
     "Id": "er-fear_no_evil",
@@ -1203,7 +1185,7 @@
     "Id": "rulebook-elven_finesse",
     "Name": "Elven Finesse",
     "Type": "Equipment",
-    "Description": "<u><link=\"model\">Model</link></u> parts with this Attack Attribute Attacking with <u><link=\"great_weapon\">Great Weapons</link></u> strike at -1 Agility instead of always at Agility 0."
+    "Description": "A model part with this Attack Attribute attacking with a <u><link=\"rulebook-great_weapon\">Great Weapon</link></u> strikes at -1 Agility instead of always at Agility 0."
   },
   {
     "Id": "de-temple_acolytes",
@@ -1246,12 +1228,6 @@
     "Name": "Under the Cover of Mists",
     "Type": "Global",
     "Description": "Enemy units within 8\" of one or more Mist Leviathans suffer -1 to hit with Shooting Attacks.\nIn addition, during the first Game Turn, all models in friendly units containing Height 1 within 8\" of one or more Mist Leviathans gain <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>."
-  },
-  {
-    "Id": "great_weapon",
-    "Name": "Great Weapon",
-    "Type": "General",
-    "Description": "+2 Str, +2 AP, always Agi*, Two-Handed\n*Always strike at Agility Step 0, regardless of the wielder’s Agility."
   },
   {
     "Id": "df-sea_serpents_hide",
@@ -1299,7 +1275,7 @@
     "Id": "df-repeater_handbow",
     "Name": "Repeater Handbow",
     "Type": "Equipment",
-    "Description": "NameAimRangeShotsStrAPAttack AttributesRepeater HandbowX12\"231*Quick to Fire, Accurate, Stand and Shoot\n*Attacks made at  Long Range have their AP set to 0."
+    "Description": "Aim X+, Range 12\", Shots 2, Str 3, AP 1*, *<u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>\n*Attacks made at  Long Range have their AP set to 0."
   },
   {
     "Id": "df-mist_weaver",
@@ -1443,7 +1419,7 @@
     "Id": "rulebook-weapon_master",
     "Name": "Weapon Master",
     "Type": "Equipment",
-    "Description": "The <u><link=\"model\">model</link></u> part may choose what Melee Weapon to use in each Round of Combat, instead of only in the first. The <u><link=\"model\">model</link></u> part may also choose to use a <u><link=\"hand_weapon\">Hand Weapon</link></u>, or Innate <u><link=\"weapons\">Weapons</link></u> even if it has another Melee Weapon. If armed with an Enchanted Weapon, the <u><link=\"model\">model</link></u> part must still use it, and all Rank-and-File <u><link=\"model\">models</link></u> still need to choose the same. I. e. the <u><link=\"model\">model</link></u> part only need to follow priority step 1 and 2 of weapon choices."
+    "Description": "The model part may choose what Melee Weapon to use in each Round of Combat, instead of only in the First Round of Combat.\nIn addition, it may choose to use a Hand Weapon or Innate Weapons even if it has other Melee Weapons. If armed with an Enchanted Weapon, it must still use it. (i.e. it only needs to conform to the Priority 1 of weapon choice).\nAll Rank-and-File models in a unit still need to choose the same weapon."
   },
   {
     "Id": "dh-rune_craft_mastery",
@@ -1461,7 +1437,7 @@
     "Id": "rulebook-crossbow",
     "Name": "Crossbow",
     "Type": "Equipment",
-    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
+    "Description": "Range 30\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-unwieldy\">Unwieldy (1)</link></u>."
   },
   {
     "Id": "rulebook-resolute",
@@ -1641,13 +1617,13 @@
     "Id": "rulebook-handgun",
     "Name": "Handgun",
     "Type": "Equipment",
-    "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-unwieldy\">Unwieldy</link></u>"
+    "Description": "Range 24\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-unwieldy\">Unwieldy (1)</link></u>."
   },
   {
     "Id": "rulebook-pistol",
     "Name": "Pistol",
     "Type": "Equipment",
-    "Description": "Range 12\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>"
+    "Description": "Range 12\", Shots 1, Str 4, AP 2, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "eos-parent_unit",
@@ -1719,13 +1695,13 @@
     "Id": "rulebook-lance",
     "Name": "Lance",
     "Type": "Equipment",
-    "Description": "<u><link=\"model\">Models</link></u> on foot cannot use <u><link=\"lance\">Lances</link></u>. Devastating Charge(+2 Str, +2 AP, +1 Agi)"
+    "Description": "Description: Only models with <u><link=\"rulebook-centauroid\">Centauroid</link></u> or <u><link=\"rulebook-mount\">Mount</link></u> can use a Lance.\n\nCharacteristics Modifiers: <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+2 Str, +2 AP, +1 Agi)"
   },
   {
     "Id": "rulebook-longbow",
     "Name": "Longbow",
     "Type": "Equipment",
-    "Description": "Range 30\", Shots 1, Str 3, AP 0, "
+    "Description": "Range 30\", Shots 1, Str 3, AP 0, <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>."
   },
   {
     "Id": "he-frost_phoenix",
@@ -1798,12 +1774,6 @@
     "Name": "Fae Miasma",
     "Type": "Equipment",
     "Description": "Can only be used with Longbows and Paired Weapons.\nWhen a unit suffers one or more wounds from attacks with <u><link=\"he-fae_miasma\">Fae Miasma</link></u> (before any saves are taken), all models in the unit suffer a -1 to-hit modifier (both for Shooting Attacks and Melee Attacks) with Duration: One Turn."
-  },
-  {
-    "Id": "lance",
-    "Name": "Lance",
-    "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> on foot cannot use <u><link=\"lance\">Lances</link></u>. Devastating Charge(+2 Str, +2 AP, +1 Agi)"
   },
   {
     "Id": "he-asfada_headmaster",
@@ -2145,7 +2115,7 @@
     "Id": "rulebook-throwing_weapons",
     "Name": "Throwing Weapons",
     "Type": "Equipment",
-    "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>"
+    "Description": "Range 8\", Shots 2, Str as user, AP as user, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "koe-the_quest",
@@ -2853,7 +2823,7 @@
     "Id": "se-sylvan_blades",
     "Name": "Sylvan Blades",
     "Type": "Equipment",
-    "Description": "<u><link=\"paired_weapons\">Paired Weapons</link></u>, +1 AP."
+    "Description": "<u><link=\"rulebook-paired_weapons\">Paired Weapons</link></u>, +1 AP."
   },
   {
     "Id": "se-elven_cloak",
@@ -9507,7 +9477,7 @@
     "Id": "rulebook-twohanded",
     "Name": "Two-Handed",
     "Type": "General",
-    "Description": "A model using a Two-Handed Melee Weapon can not simultaneously use a Shield against Melee Attacks."
+    "Description": "A model using a Two-Handed Melee Weapon can not simultaneously use a Shield against Melee Attacks (unless it has Hand-and-a-Half)."
   },
   {
     "Id": "rulebook-unwieldy",
