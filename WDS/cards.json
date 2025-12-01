@@ -1486,7 +1486,43 @@
     "Duration": "1 Turn",
     "Level": "4",
     "PathName": "BH - Totems"
-  }, 
+  },
+  {
+    "Id": "dance of c a edhren/de - the black rose's dances",
+    "Name": "Dance of C a edhren",
+    "Type": "",
+    "Attributes": {},
+    "Description": "The Black Rose can use Make Way, even if she is already in contact with an enemy model, provided she moves into contact with an enemy Character in her unit’s Front Facing.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Round of Combat",
+    "Level": "1",
+    "PathName": "DE - The Black Rose's Dances"
+  },
+  {
+    "Id": "dance of c e inran/de - the black rose's dances",
+    "Name": "Dance of C e inran",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either.\nAt Agility Step 0, The Black Rose rolls 1D3, Maximized, and the selected Character rolls 1D3.\nIf either model rolls lower, it loses a number of Health Points equal to the difference between the two rolls.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Round of Combat",
+    "Level": "2",
+    "PathName": "DE - The Black Rose's Dances"
+  },
+  {
+    "Id": "dance of nabh/de - the black rose's dances",
+    "Name": "Dance of Nabh",
+    "Type": "",
+    "Attributes": {},
+    "Description": "The Black Rose gains Hatred (against Characters) and Zeal (against Characters). Attacks against the Black Rose gain +1 to hit.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Round of Combat",
+    "Level": "3",
+    "PathName": "DE - The Black Rose's Dances"
+  },
   {
     "Id": "rune of r e vocation/dh - battle runes",
     "Name": "Rune of R e vocation",
@@ -1559,6 +1595,75 @@
     "Level": "6",
     "PathName": "DH - Battle Runes"
   },
+    {
+    "Id": "stout ale/dh - tador berafrig's ales",
+    "Name": "Stout Ale",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Tador Berafrig's unit gains Fearless, Stubborn, and Unruly.",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "1",
+    "PathName": "DH - Tador Berafrig's Ales"
+  },
+ {
+    "Id": "bitter ale/dh - tador berafrig's ales",
+    "Name": "Bitter Ale",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Tador Berafrig's unit gains Fury, Hatred, and Unruly.",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "2",
+    "PathName": "DH - Tador Berafrig's Ales"
+  },
+  {
+    "Id": "red ale/dh - tador berafrig's ales",
+    "Name": "",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Tador Berafrig's unit gains Lethal Strike, Unruly, and Zeal.",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "3",
+    "PathName": "DH - Tador Berafrig's Ales"
+  },
+  {
+    "Id": "ullor's blessing/eos - blessings",
+    "Name": "Ullor's Blessing",
+    "Type": "Caster",
+    "Attributes": {},
+    "Description": "The target gains Aegis (5+, against Melee Attacks).",
+    "CastingValue": "3",
+    "Range": "",
+    "Duration": "1 Turn",
+    "Level": "1",
+    "PathName": "EoS - Blessings"
+  },
+  {
+    "Id": "sunna's blessing/eos - blessings",
+    "Name": "Sunna's Blessing",
+    "Type": "Caster",
+    "Attributes": {},
+    "Description": "The target's unit gains Flaming Attacks. Each enemy unit in contact with the target's unit when the spell is cast, suffers D6 hits with Str 4, AP 0, Flaming Attacks and Magical Attacks.",
+    "CastingValue": "3",
+    "Range": "",
+    "Duration": "1 Turn",
+    "Level": "2",
+    "PathName": "EoS - Blessings"
+  },
+  {
+    "Id": "volund's blessing/eos - blessings",
+    "Name": "Volund's Blessing",
+    "Type": "Caster",
+    "Attributes": {},
+    "Description": "The target's unit gains Zeal.",
+    "CastingValue": "3",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "3",
+    "PathName": "EoS - Blessings"
+  },
   {
     "Id": "brace for impact!/eos - orders",
     "Name": "Brace for Impact!",
@@ -1608,40 +1713,26 @@
     "PathName": "EoS - Orders"
   },
   {
-    "Id": "ullor's blessing/eos - blessings",
-    "Name": "Ullor's Blessing",
-    "Type": "Caster",
+    "Id": "cut the head of the snake!/eos - heinrich falkenbach - divine jurisdiction",
+    "Name": "Cut the head of the Snake!",
+    "Type": "Order",
     "Attributes": {},
-    "Description": "The target gains Aegis (5+, against Melee Attacks).",
-    "CastingValue": "3",
+    "Description": "The target gains First Strike (Hatred (against Characters)) and Fury (Units containing a Character).",
     "Range": "",
     "Duration": "1 Turn",
-    "Level": "1",
-    "PathName": "EoS - Blessings"
+    "Level": "4",
+    "PathName": "EoS - Heinrich Falkenbach - Divine Jurisdiction"
   },
   {
-    "Id": "sunna's blessing/eos - blessings",
-    "Name": "Sunna's Blessing",
-    "Type": "Caster",
+    "Id": "aim for the weak spot!/eos - heinrich falkenbach - divine jurisdiction",
+    "Name": "Aim for the Weak Spot!",
+    "Type": "Order",
     "Attributes": {},
-    "Description": "The target's unit gains Flaming Attacks. Each enemy unit in contact with the target's unit when the spell is cast, suffers D6 hits with Str 4, AP 0, Flaming Attacks and Magical Attacks.",
-    "CastingValue": "3",
+    "Description": "If an attack with Aim for the Weak Spot! wounds with a to-wound roll of ‘6’, neither Aegis nor Regeneration Saves can be taken against it, including against models with Aegis or Regeneration Saves with conditional applications.",
     "Range": "",
     "Duration": "1 Turn",
-    "Level": "2",
-    "PathName": "EoS - Blessings"
-  },
-  {
-    "Id": "volund's blessing/eos - blessings",
-    "Name": "Volund's Blessing",
-    "Type": "Caster",
-    "Attributes": {},
-    "Description": "The target's unit gains Zeal.",
-    "CastingValue": "3",
-    "Range": "",
-    "Duration": "One Turn",
-    "Level": "3",
-    "PathName": "EoS - Blessings"
+    "Level": "5",
+    "PathName": "EoS - Heinrich Falkenbach - Divine Jurisdiction"
   },
   {
     "Id": "orison of s h ielding/koe - blessing tokens",
@@ -1678,6 +1769,39 @@
     "Duration": "1 Turn",
     "Level": "3",
     "PathName": "KoE - Blessing Tokens"
+  },
+  {
+    "Id": "bluehoove goat stew/ok - valish's eru's secret recipes",
+    "Name": "Bluehoove Goat Stew",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Valish's unit gains +2 Mob, Strider",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "1",
+    "PathName": "OK - Valish's Eru's Secret Recipes"
+  },
+  {
+    "Id": "trollbear goulash/ok - valish's eru's secret recipes",
+    "Name": "Trollbear Goulash",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Valish's unit gains Regeneration (6+), Recovers a single HP on a model in the Chefling's unit.\nNote: Attached models cannot be Raised unless specified.",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "2",
+    "PathName": "OK - Valish's Eru's Secret Recipes"
+  },
+  {
+    "Id": "stonecold soup/ok - valish's eru's secret recipes",
+    "Name": "Stonecold Soup",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Valish's unit gains Channel (1), Disciplined, and Rally Around the Flag (0″)",
+    "Range": "",
+    "Duration": "One Turn",
+    "Level": "3",
+    "PathName": "OK - Valish's Eru's Secret Recipes"
   },
   {
     "Id": "dance of bedevilments/se - dances of cenyrn",
@@ -1726,5 +1850,131 @@
     "Duration": "Round of Combat",
     "Level": "4",
     "PathName": "SE - Dances of Cenyrn"
-  }
+  },
+  {
+      "Id": "countless daggers/vs - the shadowslice stalker's panoply",
+      "Name": "Countless Daggers",
+      "Type": "Permanent",
+      "Attributes": {},
+      "Description": "The Shadowslice Stalker gains First Strike (+2 Att), Paired Weapons and Throwing Weapons (2+).",
+      "Range": "",
+      "Duration": "",
+      "Level": "1",
+      "PathName": "VS - The Shadowslice Stalker's Panoply"
+  },
+  {
+      "Id": "Darkstone Rod/vs - the shadowslice stalker's panoply",
+      "Name": "Darkstone Rod",
+      "Type": "Permanent",
+      "Attributes": {},
+      "Description": "The Shadowslice Stalker gains +2 Str, Lightning Attacks and Multiple Wounds (2)",
+      "Range": "",
+      "Duration": "",
+      "Level": "2",
+      "PathName": "VS - The Shadowslice Stalker's Panoply"
+  },
+  {
+      "Id": "senator's toga/vs - the shadowslice stalker's panoply",
+      "Name": "Senator's Toga",
+      "Type": "Permanent",
+      "Attributes": {},
+      "Description": "The Shadowslice Stalker gains +2 Dis, Commanding Presence (6″)",
+      "Range": "",
+      "Duration": "",
+      "Level": "3",
+      "PathName": "VS - The Shadowslice Stalker's Panoply"
+  },
+  {
+    "Id": "abiding spirit/wdg - exalted herald manifestations",
+    "Name": "Abiding Spirit",
+    "Type": "Manifestation",
+    "Attributes": {},
+    "Description": "The Exalted Herald gains Hard Target (1).\n\nIt has access to Hand of Glory (Occultism).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "1",
+    "PathName": "WDG - Exalted Herald Manifestations"
+  },
+  {
+    "Id": "brand of the dragon/wdg - exalted herald manifestations",
+    "Name": "Brand of the Dragon",
+    "Type": "Manifestation",
+    "Attributes": {},
+    "Description": "The Exalted Herald gains Breath Attack (Str4, AP1, Flaming Attacks), Fly, and Swiftstride.\n\nIt has access to The Devouring Dark (Occultism).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "2",
+    "PathName": "WDG - Exalted Herald Manifestations"
+  },
+  {
+    "Id": "emissary of chaos/wdg - exalted herald manifestations",
+    "Name": "Emissary of Chaos",
+    "Type": "Manifestation",
+    "Attributes": {},
+    "Description": "The Exalted Herald gains Battle Fever and Stomp Attack (D6 hits).\n\nIt has access to Pentagram of Pain (Occultism).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "3",
+    "PathName": "WDG - Exalted Herald Manifestations"
+  },
+  {
+    "Id": "sorcerer immortal/wdg - exalted herald manifestations",
+    "Name": "Sorcerer Immortal",
+    "Type": "Manifestation",
+    "Attributes": {},
+    "Description": "The Exalted Herald gains Veil Walker.\n\nIt has access to Umbra Majesty (Occultism) and The Grave Calls (Occultism).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "4",
+    "PathName": "WDG - Exalted Herald Manifestations"
+  },
+  {
+    "Id": "unholy avatar/wdg - exalted herald manifestations",
+    "Name": "Unholy Avatar",
+    "Type": "Manifestation",
+    "Attributes": {},
+    "Description": "The Exalted Herald gains +1Str,+1AP, and Divine Attacks.\n\nIt has access to Blood Curse (Occultism).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "",
+    "Level": "5",
+    "PathName": "WDG - Exalted Herald Manifestations"
+  },
+  {
+      "Id": "supernal shield/wdg - klaas's father's gifts",
+      "Name": "Supernal Shield",
+      "Type": "",
+      "Attributes": {},
+      "Description": "The chosen unit suffers -3 Arm and gains Aegis (5+).",
+      "Range": "12",
+      "Duration": "1 Turn",
+      "Level": "1",
+      "PathName": "WDG - Klaas's Father's Gifts"
+  },
+  {
+      "Id": "unholy edge/wdg - klaas's father's gifts",
+      "Name": "Unholy Edge",
+      "Type": "",
+      "Attributes": {},
+      "Description": "The chosen unit always strikes at Agility Step 0 and gains +1 AP.",
+      "Range": "12",
+      "Duration": "1 Turn",
+      "Level": "2",
+      "PathName": "WDG - Klaas's Father's Gifts"
+  },
+  {
+      "Id": "the eight-point crown/wdg - klaas's father's gifts",
+      "Name": "The Eight-Point Crown",
+      "Type": "",
+      "Attributes": {},
+      "Description": "The chosen unit suffers -1 Str and -1 AP, and gains Stubborn and Unstable.",
+      "Range": "12",
+      "Duration": "1 Turn",
+      "Level": "3",
+      "PathName": "WDG - Klaas's Father's Gifts"
+  }    
 ]
