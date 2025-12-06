@@ -2379,13 +2379,13 @@
     "Id": "ok-touch_of_frost",
     "Name": "Touch of Frost",
     "Type": "Global",
-    "Description": "Enemy units suffer -1 Agi, to a minimum of 1, for each unit containing this rule it is in contact with."
+    "Description": "An enemy unit suffers −1 Agi (to a minimum of 1) for each unit containing <u><link=\"ok-touch_of_frost\">Touch of Frost</link></u> it is in contact with."
   },
   {
     "Id": "ok-its_a_trap",
     "Name": "It's a Trap!",
     "Type": "Global",
-    "Description": " - Universal Rule\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!).\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!)."
+    "Description": "When an enemy unit performs any of the following actions, it suffers 2D6 hits with Strength 4, Armour Penetration 1, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>:\n   • The enemy unit successfully Charges a unit containing <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u> in contact with a Terrain Feature.\n   • The enemy unit comes in contact (after not being in contact) with a Terrain Feature that is in contact with a unit containing <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u>.\nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u> more than once in each Player Turn (including from different units containing <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u>)."
   },
   {
     "Id": "ok-brace_of_ogre_pistols",
@@ -2421,13 +2421,13 @@
     "Id": "ok-mountain_hide",
     "Name": "Mountain Hide",
     "Type": "Defense",
-    "Description": "Attacks with Multiple Wounds (X) against the model halve their X value, rounding fractions up."
+    "Description": "Attacks with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (X) against the model halve their X value (rounding fractions up)."
   },
   {
     "Id": "ok-freezing_aura",
     "Name": "Freezing Aura",
     "Type": "Global",
-    "Description": "Enemy units within 12\" of one or more Frost Mammoths suffer -3 Agi, to a minimum of 1."
+    "Description": "Enemy units within 12\" of one or more Frost Mammoths suffer -3 Agi (to a minimum of 1)."
   },
   {
     "Id": "ok-dengrais_ice_storm",
@@ -2439,13 +2439,7 @@
     "Id": "ok-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": " - Universal Rule\nDuring 1.B Build an army: choose one of the following model rules, and write it on the Army List:\n-   First Strike(Fury)\n-   Lethal Strike\n-   Devastating Charge(+1 Str, +1 AP)"
-  },
-  {
-    "Id": "its_a_trap",
-    "Name": "It's a Trap!",
-    "Type": "General",
-    "Description": " - Universal Rule\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!).\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!)."
+    "Description": "During step 1.2 of Pregame Planning (“Build an Army”), choose one of the following model rules, and write your choice on the Army List:\n   • First Strike (Fury)\n   • Lethal Strike\n   • Devastating Charge (+1 Str, +1 AP)"
   },
   {
     "Id": "thunder_cannon",
@@ -5445,37 +5439,37 @@
     "Id": "ok-leader_of_the_pack",
     "Name": "Leader of the Pack",
     "Type": "General",
-    "Description": "The Mammoth Hunter's base size is changed to 50×50 mm.\nThe model replaces Exclusive(Yetis) with Exclusive(Sabretooth Tigers). While joined to a unit of Sabretooth Tigers, the unit gains Vanguard, loses Unruly, and the Mammoth Hunter counts as being  of the same Height as the unit for the purposes of allocating Ranged Attacks."
+    "Description": "The Mammoth Hunter’s base size is changed to 50×50 mm.\nThe model replaces <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Yetis) with <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Sabretooth Tigers).\nWhile joined to a unit of Sabretooth Tigers, the unit gains <u><link=\"rulebook-vanguard\">Vanguard</link></u>, loses <u><link=\"rulebook-unruly\">Unruly</link></u>, and the Mammoth Hunter counts as being of the same Height as the unit for the purposes of allocating Ranged Attacks."
   },
   {
     "Id": "ok-big_brother",
     "Name": "Big Brother",
     "Type": "General",
-    "Description": "- Universal Rule\n\nThe model's HP are set to 9, its base size is changed to 75×100 mm, and its roll for the number of hits for Stomp Attack is Maximised.\n\n\tThe model's HP are set to 9, its base size is changed to 75×100 mm, and its roll for the number of hits for Stomp Attack is Maximised."
+    "Description": "The model’s HP are set to 9, its base size is changed to 75×100 mm, and the roll for the number of hits it does with its <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is Maximised."
   },
   {
     "Id": "ok-giant_club",
     "Name": "Giant Club",
     "Type": "General",
-    "Description": "- Melee Weapon\n\n+1 Str and +1 AP.\n\n\t+1 Str and +1 AP."
+    "Description": "+1 Str, +1 AP."
   },
   {
     "Id": "ok-iron_fist",
     "Name": "Iron Fist",
     "Type": "General",
-    "Description": "+1 Arm against Melee Attacks, +1 Att, and Parry."
+    "Description": "+1 Arm against Melee Attacks, +1 Att, and <u><link=\"rulebook-parry\">Parry</link></u>."
   },
   {
     "Id": "ok-trolleater",
     "Name": "Trolleater",
     "Type": "General",
-    "Description": "Regeneration(5+), Multiple Wounds(2, towards Height 3)."
+    "Description": "<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, towards Height 3) and <u><link=\"rulebook-regeneration\">Regeneration</link></u> (5+)."
   },
   {
     "Id": "ok-hoardmaster",
     "Name": "Hoardmaster",
     "Type": "General",
-    "Description": "+1 Arm and Weapon Master. The model is considered equipped with: Great Weapon, Halberd, Paired Weapons, Iron Fist. It may not take Weapon Enchantments."
+    "Description": "+1 Arm, <u><link=\"rulebook-weapon_master\">Weapon Master</link></u>, and may not take Weapon Enchantments.\nIn addition, the bearer gains the following weapons: Great Weapon, Halberd, <u><link=\"ok-iron_fist\">Iron Fist</link></u>, and Paired Weapons"
   },
   {
     "Id": "ok-headhunter",
@@ -5487,37 +5481,37 @@
     "Id": "ok-godspeaker",
     "Name": "Godspeaker",
     "Type": "General",
-    "Description": "Attached, Fearless. The model's unit gains Unstable. Despite being Unstable, the bearer may join units without Unstable during Deployment."
+    "Description": "<u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>.\nThe bearer’s unit gains <u><link=\"rulebook-unstable\">Unstable</link></u> (the model may join units without <u><link=\"rulebook-unstable\">Unstable</link></u> during Deployment despite having <u><link=\"rulebook-unstable\">Unstable</link></u>)"
   },
   {
     "Id": "ok-firebrand",
     "Name": "Firebrand",
     "Type": "General",
-    "Description": "Breath Attack(Str 4, AP 0, Flaming Attacks), Flaming Attacks, Resistance(Flaming Attacks). The model can cast Fireball (Pyromancy) as a Bound Spell(3+) and automatically fails all Regeneration Saves."
+    "Description": "<u><link=\"rulebook-breath_attack\">Breath Attack</link></u>(Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-resistance\">Resistance</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>). The model can cast Fireball (Pyromancy) as a Bound Spell(3+) and automatically fails all <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves."
   },
   {
     "Id": "ok-gut_roarer",
     "Name": "Gut Roarer",
     "Type": "General",
-    "Description": "Channel (1), Horror."
+    "Description": "<u><link=\"rulebook-channel\">Channel</link></u> (1), <u><link=\"rulebook-horror\">Horror</link></u>."
   },
   {
     "Id": "ok-spinesplitter",
     "Name": "Spinesplitter",
     "Type": "General",
-    "Description": "The model part gains Devastating Charge(+1 Att, +1 Str, +1 AP)."
+    "Description": "The model part gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 Att, +1 Str, +1 AP)."
   },
   {
     "Id": "ok-rottenjaw",
     "Name": "Rottenjaw",
     "Type": "General",
-    "Description": "Poison Attacks, Immune(Poison Attacks). Friendly Kin-Eater units may reroll failed Ambush rolls while the model is on the Battlefield."
+    "Description": "<u><link=\"rulebook-immune\">Immune</link></u> (<u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>) and <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>.\nFriendly Kin-Eater units may reroll failed <u><link=\"rulebook-ambush\">Ambush</link></u> rolls while the bearer is on the Battlefield."
   },
   {
     "Id": "ok-scraplord",
     "Name": "Scraplord",
     "Type": "General",
-    "Description": "Commanding Presence (12\", Scrapling). As long as the model is joined to a unit of Scraplings, the model counts as being of the same Height as its unit for the purposes of allocating Ranged Attacks (this includes Special Attacks)."
+    "Description": "<u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> (12\", Scrapling).\nAs long as the model is joined to a unit of Scraplings, its model counts as being of the same Height as its unit for the purposes of allocating Ranged Attack."
   },
   {
     "Id": "ok-children_of_umi",
@@ -5529,55 +5523,55 @@
     "Id": "ok-khagadais_legacy",
     "Name": "Khagadai's Legacy",
     "Type": "General",
-    "Description": "Multiple Wounds (D3)."
+    "Description": "<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (D3)."
   },
   {
     "Id": "ok-vipers_curse",
     "Name": "Viper's Curse",
     "Type": "General",
-    "Description": "Poison Attacks (Melee & Shooting).\n\tShots set to 4, Str 4, AP 2 and always hits on 4+. It cannot benefit from Area Attack, Direct Hit."
+    "Description": "<u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u> (Melee & Shooting).\nShots set to 4, Str 4, AP 2 and always hits on 4+. It cannot benefit from <u><link=\"rulebook-area_attack\">Area Attack</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u>."
   },
   {
     "Id": "ok-heartripper",
     "Name": "Heart-Ripper",
     "Type": "General",
-    "Description": "+1 AP, Lethal Strike and always hits at least on 3+."
+    "Description": "+1 AP, <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> and always hits at least on 3+."
   },
   {
     "Id": "ok-ritual_bloodletter",
     "Name": "Ritual Bloodletter",
     "Type": "General",
-    "Description": "+1 Att. While the wielder's unit is Engaged in Combat, the wielder must reroll Magic Dice that rolled ‘1’ for its casting attempts."
+    "Description": "+1 Att.\nWhile the wielder's unit is Engaged in Combat, the wielder must reroll Magic Dice that rolled ‘1’ for its casting attempts."
   },
   {
     "Id": "ok-wrestlers_belt",
     "Name": "Wrestler's Belt",
     "Type": "General",
-    "Description": "+1 Arm, +1 Str and Devastating Charge(+1 Arm)."
+    "Description": "+1 Arm, +1 Str and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 Arm)."
   },
   {
     "Id": "ok-mammothhide_cloak",
     "Name": "Mammoth-Hide Cloak",
     "Type": "General",
-    "Description": "+1 Arm. Attacks against the wearer can never have Str above 5."
+    "Description": "+1 Arm. Attacks against the wearer can never have more than Str 5."
   },
   {
     "Id": "ok-aurochs_resilience",
     "Name": "Aurochs Resilience",
     "Type": "General",
-    "Description": "+1 Res, Mountain Hide. The model automatically fails all Special Saves."
+    "Description": "+1 Res and <u><link=\"ok-mountain_hide\">Mountain Hide</link></u>.\nThe model automatically fails all Special Saves."
   },
   {
     "Id": "ok-yeti_furs",
     "Name": "Yeti Furs",
     "Type": "General",
-    "Description": "Touch of Frost, Strider."
+    "Description": "<u><link=\"ok-touch_of_frost\">Touch of Frost</link></u> and <u><link=\"rulebook-strider\">Strider</link></u>."
   },
   {
     "Id": "ok-banner_of_the_gyengget",
     "Name": "Banner of the Gyengget",
     "Type": "General",
-    "Description": "The bearer's unit gains First Strike(re-roll natural to-hit and to-wound rolls of ‘1’)."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(re-roll natural to-hit and to-wound rolls of ‘1’)."
   },
   {
     "Id": "ok-pennant_of_the_great_grass_sky",
@@ -5589,19 +5583,19 @@
     "Id": "ok-skull_of_qenghet",
     "Name": "Skull of Qenghet",
     "Type": "General",
-    "Description": "The bearer's unit gains Terror."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "ok-lygurs_tongue",
     "Name": "Lygur's Tongue",
     "Type": "General",
-    "Description": "Afflict(-2 Off)."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u>(-2 Off)."
   },
   {
     "Id": "ok-rampagers_chain",
     "Name": "Rampager's Chain",
     "Type": "General",
-    "Description": "The bearer gains Stomp Attack(D3+1), and all models in the bearer's unit must reroll failed to-wound rolls with Stomp Attack."
+    "Description": "The bearer gains <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>(D3+1), and all models in the bearer's unit must reroll failed to-wound rolls with <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>."
   },
   {
     "Id": "ok-freezing_aura_aura",
