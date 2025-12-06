@@ -21,7 +21,7 @@
     "Id": "rulebook-light_troops",
     "Name": "Light Troops",
     "Type": "Global",
-    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
+    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"rulebook-musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
   },
   {
     "Id": "rulebook-swiftstride",
@@ -99,7 +99,7 @@
     "Id": "rulebook-captain",
     "Name": "Captain",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
+    "Description": "A unit containing <u><link=\"rulebook-captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"rulebook-musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"rulebook-captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "rulebook-attached",
@@ -438,12 +438,6 @@
     "Description": "To do a <u><link=\"reform_move\">Reform Move</link></u>, pick the unit up from the battlefield and put it back with the following restrictions:\n-   The centre of the unit can not travel further than half the unit's Mobility (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   The formation of the unit may change only as long as the number of Files has not changed by more than 2 . Remember that the unit cannot voluntarily have more Ranks than Files unless the unit is wide enough to have a Proper Rank (see <u><link=\"model\">Models</link></u> and Units in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   Each <u><link=\"model\">model</link></u> is considered to have moved from its starting position to end position, around obstructions where needed, and no single <u><link=\"model\">model</link></u> can move further than twice its Mobility.\nWhen measuring each <u><link=\"model\">model's</link></u> move, it is considered to move independently of its unit, in any direction or combination of directions, including side- and back-stepping. The <u><link=\"model\">models</link></u> can ignore other <u><link=\"model\">models</link></u> from the same unit, but not from other units. No single <u><link=\"model\">model</link></u> can move further than twice its Mobility. Measure the centre of each <u><link=\"model\">model's</link></u> base, and measure the path the <u><link=\"model\">model</link></u> moves on the Battlefield, from starting to ending position, including the path winding around obstacles.\nTreat each <u><link=\"model\">model</link></u> as an individual unit following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. At the end of this move, all <u><link=\"model\">models</link></u> come back together again into a viable formation as described above.\nReferenceManualColorSimplified <u><link=\"reform_move\">Reform Move</link></u>\\\nIn practice, for the vast majority of Reform and <u><link=\"advance_move\">Advance Moves</link></u>, there is no  need to consider the movements of individual <u><link=\"model\">models</link></u>.\\\nThe Upper example shows the technical way to perform a <u><link=\"reform_move\">Reform Move;</link></u> moving <u><link=\"model\">models</link></u> one by one (grey dotted lines), and measuring distance the centre moved (black dotted line). \\\nThe Lower image show a simplified method to perform a <u><link=\"reform_move\">Reform Move:</link></u> Move the unit as a whole, potentially readjusting formation by adding or removing files. Measure the distance the centre travels, while making sure that no <u><link=\"model\">model</link></u> moves further than its Mobility * 2, typically by measuring the distance of the <u><link=\"model\">models</link></u> that have travelled the furthest.\\\nReferenceManualColorExample of <u><link=\"reform_move\">Reform Move</link></u>\n\nMid-<u><link=\"reform_move\">Reform Move</link></u> Actions\nIf, for any reasons, a <u><link=\"model\">model's</link></u> position is relevant during a mid-<u><link=\"reform_move\">Reform Move</link></u>, such as during a <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> or <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, the unit must be placed in a viable formation and following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule (0.5\") at the point where it becomes relevant, before continuing the move. If it cannot be placed, the move cannot be performed. When measuring the distance each <u><link=\"model\">model</link></u> moves, measure from starting position, to the position it is placed mid-move, and then finally to its ending position."
   },
   {
-    "Id": "musician",
-    "Name": "Musician",
-    "Type": "General",
-    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
-  },
-  {
     "Id": "attachable_models",
     "Name": "Attachable Models",
     "Type": "General",
@@ -484,12 +478,6 @@
     "Name": "Hunting Horn",
     "Type": "General",
     "Description": "While within 6\" of one or more models with <u><link=\"hunting_horn\">Hunting Horn</link></u>, friendly units gain +1\" Cha."
-  },
-  {
-    "Id": "captain",
-    "Name": "Captain",
-    "Type": "General",
-    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "standard_bearer",
@@ -885,7 +873,7 @@
     "Id": "rulebook-musician",
     "Name": "Musician",
     "Type": "Global",
-    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
+    "Description": "<u><link=\"rulebook-musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"rulebook-musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"rulebook-musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
   },
   {
     "Id": "dl-razor_tentacles",
@@ -2055,7 +2043,7 @@
     "Id": "koe-clergy",
     "Name": "Clergy",
     "Type": "Global",
-    "Description": "The model gains Aegis(5+, against Magical Attacks)."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against Magical Attacks)."
   },
   {
     "Id": "rulebook-stand_behind",
@@ -2067,19 +2055,19 @@
     "Id": "koe-lance_formation",
     "Name": "Lance Formation",
     "Type": "Global",
-    "Description": "  A unit entirely with <u><link=\"lance_formation\">Lance Formation</link></u> only needs to have three Files to form Proper Ranks. However, the unit is never considered to have more than one Proper Rank for Rank Bonus purposes.\nEach model part on a model with <u><link=\"lance_formation\">Lance Formation</link></u> gain two instances of Fight in Extra Rank when in a unit that has exactly three Files."
+    "Description": "  A unit entirely with <u><link=\"koe-lance_formation\">Lance Formation</link></u> only needs to have three Files to form Proper Ranks.\n However, the unit is never considered to have more than one Proper Rank for the purpose of Rank Bonus. Moreover, when in a unit that has exactly three files, each model part on a model with <u><link=\"koe-lance_formation\">Lance Formation</link></u> gains two instances of <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>"
   },
   {
     "Id": "koe-forest_guide",
     "Name": "Forest Guide",
     "Type": "Global",
-    "Description": "The model's unit gains Magical Attacks and Strider(Forest)."
+    "Description": "The model's unit gains <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-strider\">Strider</link></u>(Forest)."
   },
   {
     "Id": "koe-nobility",
     "Name": "Nobility",
     "Type": "Defense",
-    "Description": "  The model gains Aegis(5+, against no Armour Save*).\n*The Aegis can only be used against Attacks where the model cannot take or would automatically fail its Armour Saves."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against no Armour Save*).\n*This <u><link=\"rulebook-aegis\">Aegis</link></u> save can only be used against attacks where the model cannot take an Armour Save, or would automatically fail it."
   },
   {
     "Id": "koe-traits_of_a_hero",
@@ -2091,25 +2079,25 @@
     "Id": "koe-quin",
     "Name": "Quin",
     "Type": "Global",
-    "Description": "  The model is a Wizard Adept that chooses Witchcraft as its Path of Magic.\nIf without Mount, the model gains Scout."
+    "Description": "The model is a Wizard Adept that chooses Witchcraft as its Path of Magic.\nIf without Mount, the model gains <u><link=\"rulebook-scout\">Scout</link></u>."
   },
   {
     "Id": "koe-commonfolk",
     "Name": "Commonfolk",
     "Type": "Defense",
-    "Description": "  The model gains Aegis(5+) while Engaged in the same Combined Combat as other friendly units."
+    "Description": "  The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+) while Engaged in the same Combined Combat as other friendly units."
   },
   {
     "Id": "koe-braziers",
     "Name": "Braziers",
     "Type": "Global",
-    "Description": "In each Shooting Phase before selecting the target, the unit may choose to gain Flaming Attacks for the duration of that Shooting Phase."
+    "Description": "In each Shooting Phase, before selecting the target,  a unit containing Braziers may choose to gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> (Shooting). Duration: One Phase."
   },
   {
     "Id": "koe-ordo_minister",
     "Name": "Ordo Minister",
     "Type": "Global",
-    "Description": "  At the start of each friendly Magic Phase, each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u>  may choose one:\n-   Raise 1 HP on a Rank-and-File Health Pool in the unit.\n-   Discard 1 Blessing Token and Recover 1 HP on an Character model in the unit."
+    "Description": "In each friendly Magic Phase before ‘Casting and Dispelling Spells’ (Magic Phase, Step 5) each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u> may gain one of the following effects:\n   • Raise 1 HP on a Rank-and-File Health Pool in the unit.\n   • Discard 1 Blessing Token and Recover 1 HP on any model in the unit."
   },
   {
     "Id": "rulebook-throwing_weapons",
@@ -2121,13 +2109,13 @@
     "Id": "koe-the_quest",
     "Name": "The Quest",
     "Type": "Equipment",
-    "Description": "During Pre-game Selections, choose a unit entry from the opponent’s Army Book, which cannot be a Character mount (but can be a Character entry). All examples of the chosen unit entry in the opponent's Army List are marked with a Quest Marker.\nModel parts with <u><link=\"the_quest\">The Quest</link></u> gain Lethal Strike(towards units containing a model marked by Quest Marker) and Zeal(towards units containing a model marked by Quest Marker)."
+    "Description": " During Pre-game Selections, an army containing <u><link=\"koe-the_quest\">The Quest</link></u> selects a unit entry from the opponent’s Army Book, which cannot be a Character mount (but can be a Character Entry).\nAll instances of the selected Unit Entry in the opponent’s Army List are marked with a Quest Marker.\nModel parts with <u><link=\"koe-the_quest\">The Quest</link></u> benefit from <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> (against units containing a Quest Marker) and <u><link=\"rulebook-zeal\">Zeal</link></u> (against units containing a Quest Marker)."
   },
   {
     "Id": "koe-bastard_sword",
     "Name": "Bastard Sword",
     "Type": "Equipment",
-    "Description": "    Counts as a Hand Weapon with the following additional rules: +1 Str, Devastating Charge(+1 AP)."
+    "Description": "Counts as a Hand Weapon with the following additional rules: +1 Str, <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 AP)."
   },
   {
     "Id": "koe-a_worthy_foe",
@@ -2181,7 +2169,7 @@
     "Id": "koe-sacred_relic",
     "Name": "Sacred Relic",
     "Type": "Global",
-    "Description": "  A unit containing <u><link=\"sacred_relic\">Sacred Relic</link></u> gains Fight in Extra Rank, and when the unit is the target of an Orison while Engaged in Combat, add one Blessing Token to the your pool.Ignore this effect if a Character with the <u><link=\"faith\">Faith</link></u> Knightly Principle is part of the model’s unit.The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it has joined."
+    "Description": "  A unit containing <u><link=\"koe-sacred_relic\">Sacred Relic</link></u> gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>.\nIn addition, when the unit is the target of an <u><link=\"koe-orisons\">Orison</link></u> while Engaged in Combat, add one Blessing Token to your pool. Ignore this effect if a Character with the Faith Knightly Principle is part of the model’s unit. The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it is joined to with duration: Permanent"
   },
   {
     "Id": "koe-scorpion",
@@ -2199,7 +2187,7 @@
     "Id": "koe-champion_of_the_green_knight",
     "Name": "Champion of the Green Knight",
     "Type": "Global",
-    "Description": "Legendary.\nThe Fey Rider gains a <u><link=\"bastard_sword\">Bastard Sword</link></u>.  The model's Unit Boundary is always considered to be within a Forest Terrain Feature."
+    "Description": "The Fey Rider gains a <u><link=\"bastard_sword\">Bastard Sword</link></u>.\nPlace a Forest* underneath the model until the model is removed as a casualty.\n This Forest always extends up to the edges of the model’s Unit Boundary (and no further), even if the unit moves or changes formation.\n* You may place a marker next to the unit instead."
   },
   {
     "Id": "rulebook-mindless",
@@ -2211,7 +2199,7 @@
     "Id": "koe-courtier_of_the_dawn",
     "Name": "Courtier of the Dawn",
     "Type": "Global",
-    "Description": "Gallantry(2)\nThe model gains Fly, Wizard Apprentice. It uses Shamanism as its Path of Magic, and cannot select the Hereditary Spell."
+    "Description": "The model gains <u><link=\"rulebook-fly\">Fly</link></u> and <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u> (1)\nThe unit selects its spells from the following:\n   • Predator’s Instinct (Shamanism)"
   },
   {
     "Id": "stand_behind",
@@ -2220,34 +2208,10 @@
     "Description": "<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"stand_behind\">Stand Behind</link></u> are not required to have their Front Facing as far forward as possible within their unit. Essentially this means that the <u><link=\"model\">model</link></u> can be positioned anywhere within its unit. This rule cannot be used while the <u><link=\"model\">model</link></u> has a mismatching base to its unit."
   },
   {
-    "Id": "lance_formation",
-    "Name": "Lance Formation",
-    "Type": "General",
-    "Description": "  A unit entirely with <u><link=\"lance_formation\">Lance Formation</link></u> only needs to have three Files to form Proper Ranks. However, the unit is never considered to have more than one Proper Rank for Rank Bonus purposes.\nEach model part on a model with <u><link=\"lance_formation\">Lance Formation</link></u> gain two instances of Fight in Extra Rank when in a unit that has exactly three Files."
-  },
-  {
-    "Id": "ordo_minister",
-    "Name": "Ordo Minister",
-    "Type": "General",
-    "Description": "  At the start of each friendly Magic Phase, each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u>  may choose one:\n-   Raise 1 HP on a Rank-and-File Health Pool in the unit.\n-   Discard 1 Blessing Token and Recover 1 HP on an Character model in the unit."
-  },
-  {
-    "Id": "the_quest",
-    "Name": "The Quest",
-    "Type": "General",
-    "Description": "During Pre-game Selections, choose a unit entry from the opponent’s Army Book, which cannot be a Character mount (but can be a Character entry). All examples of the chosen unit entry in the opponent's Army List are marked with a Quest Marker.\nModel parts with <u><link=\"the_quest\">The Quest</link></u> gain Lethal Strike(towards units containing a model marked by Quest Marker) and Zeal(towards units containing a model marked by Quest Marker)."
-  },
-  {
     "Id": "stalwart_defense",
     "Name": "Stalwart Defense",
     "Type": "General",
     "Description": "  Enemy units in base contact with a unit containing <u><link=\"stalwart_defense\">Stalwart Defense</link></u> lose Devastating Charge."
-  },
-  {
-    "Id": "sacred_relic",
-    "Name": "Sacred Relic",
-    "Type": "General",
-    "Description": "  A unit containing <u><link=\"sacred_relic\">Sacred Relic</link></u> gains Fight in Extra Rank, and when the unit is the target of an Orison while Engaged in Combat, add one Blessing Token to the your pool.Ignore this effect if a Character with the <u><link=\"faith\">Faith</link></u> Knightly Principle is part of the model’s unit.The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it has joined."
   },
   {
     "Id": "faith",
@@ -2260,12 +2224,6 @@
     "Name": "\n    Scorpion",
     "Type": "General",
     "Description": "    <u><link=\"scorpion\">Scorpion</link></u>\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scorpion\">Scorpion</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nTrebuchet\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesTrebuchet448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
-  },
-  {
-    "Id": "bastard_sword",
-    "Name": "Bastard Sword",
-    "Type": "General",
-    "Description": "    Counts as a Hand Weapon with the following additional rules: +1 Str, Devastating Charge(+1 AP)."
   },
   {
     "Id": "ls-descent_into_sin",
@@ -5199,61 +5157,61 @@
     "Id": "koe-chosen_of_the_snow_childe",
     "Name": "Chosen of the Snow Childe",
     "Type": "General",
-    "Description": "- Attack Attribute\n\nLegendary.\n\nWhen performing its Standard Melee Attacks, the Fey Rider gains +1 Att for each enemy model in contact with it. The Fey Rider’s Standard Melee Attacks ignore Parry.\n\n\tLegendary.\n\nWhen performing its Standard Melee Attacks, the Fey Rider gains +1 Att for each enemy model in contact with it. The Fey Rider’s Standard Melee Attacks ignore Parry."
+    "Description": "When performing its Standard Melee Attacks, the ‘Fey Rider’ model part gains +1 Att for each enemy model in contact with it; moreover, its Standard Melee Attacks ignore <u><link=\"rulebook-parry\">Parry</link></u>."
   },
   {
     "Id": "koe-warden_of_the_hooded_man",
     "Name": "Warden of the Hooded Man",
     "Type": "General",
-    "Description": "Legendary.\n\nThe model gains Terror. The Fey Rider gains a Lance and its Standard Melee Attacks gain Multiple Wounds(2, towards Height 4-5)."
+    "Description": "The model gains <u><link=\"rulebook-terror\">Terror</link></u>.\nThe ‘Fey Rider’ model part gains a Lance, and its Standard Melee Attacks gain <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, against Height 4–5)."
   },
   {
     "Id": "koe-solemn_oath",
     "Name": "Solemn Oath",
     "Type": "General",
-    "Description": "The restriction on the maximum number of Proper Ranks for Rank Bonus purposes from Lance Formation is increased to four for the bearer´s unit."
+    "Description": "The restriction on the maximum number of Proper Ranks for Rank Bonus purposes from <u><link=\"koe-lance_formation\">Lance Formation</link></u> is increased to four for the bearer´s unit."
   },
   {
     "Id": "koe-knights_forlorn",
     "Name": "Knights Forlorn",
     "Type": "General",
-    "Description": "The model gains Nobility and Bastard Sword."
+    "Description": "The model gains <u><link=\"koe-nobility\">Nobility</link></u> and Bastard Sword."
   },
   {
     "Id": "koe-ordo_wardens",
     "Name": "Ordo Wardens",
     "Type": "General",
-    "Description": "The model gains Clergy and Great Weapon."
+    "Description": "The model gains <u><link=\"koe-clergy\">Clergy</link></u> and Great Weapon."
   },
   {
     "Id": "koe-castle_guard",
     "Name": "Castle Guard",
     "Type": "General",
-    "Description": "The model gains Commonfolk and Spear."
+    "Description": "The model gains <u><link=\"koe-commonfolk\">Commonfolk</link></u> and Spear."
   },
   {
     "Id": "koe-courtier_of_the_dusk",
     "Name": "Courtier of the Dusk",
     "Type": "General",
-    "Description": "Gallantry(1)\nThe model gains Wizard Conclave(2).\nThe unit selects its spells from the following:"
+    "Description": "The model gains <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u>(2).\nThe unit selects its spells from the following:\n   • Fountain of Youth (Druidism)\n   • Stone Skin (Druidism)\n   • Evil Eye (Witchcraft)\n   • Soured Luck (Witchcraft)"
   },
   {
     "Id": "koe-knight_banneret",
     "Name": "Knight Banneret",
     "Type": "General",
-    "Description": "Uncommon\n\n\nA unit containing a Knight Banneret adds +1 to the Combat Score of its side. It can take a single Banner Enchantment and can only do so from the list of Army Specific Magic Items.\n\nA unit containing a Knight Banneret adds +1 to the Combat Score of its side. It can take a single Banner Enchantment and can only do so from the list of Army Specific Magic Items."
+    "Description": "A unit containing a Knight Banneret adds +1 to the Combat Score of its side.\nIn addition, it can take a single Banner Enchantment from the list of Army Specific Magic Items."
   },
   {
     "Id": "koe-prepared_position",
     "Name": "Prepared Position",
     "Type": "General",
-    "Description": "Uncommon\n\nWhen Deploying the unit, you may place a Wall fully within 1\" of the unit’s Front Facing but not in contact with any other Terrain Features. This Wall cannot be wider than 8\". It follows the normal rules for Walls, with the exception that it is Covering Terrain (Height 1) instead of (Height 3).\n\nWhen Deploying the unit, you may place a Wall fully within 1\" of the unit’s Front Facing but not in contact with any other Terrain Features. This Wall cannot be wider than 8\". It follows the normal rules for Walls, with the exception that it is Covering Terrain (Height 1) instead of (Height 3)."
+    "Description": "When Deploying the unit, you may place a Wall fully within 1\" of the unit’s Front Facing, and not in contact with any other Terrain Features.\nThis Wall cannot be wider than 1\", nor longer than 8\". It follows the normal rules for Walls, with the exception that it is Covering Terrain (Height 1) instead of Height 3."
   },
   {
     "Id": "koe-sainted",
     "Name": "Sainted",
     "Type": "General",
-    "Description": "Legendary. Cannot be taken by the Battle Standard Bearer.\n\nThe model gains Fearless and the model part gains +1 Att. The model is always considered to be under the effect of all Orisons (i.e. Aegis(5+), Magical Attacks, +2 Off, Dis 9). This does not prevent the model’s unit from being the target of an Orison, although the model itself does not benefit from this additional Orison.\n\nThe model gains Fearless and the model part gains +1 Att. The model is always considered to be under the effect of all Orisons (i.e. Aegis(5+), Magical Attacks, +2 Off, Dis 9). This does not prevent the model’s unit from being the target of an Orison, although the model itself does not benefit from this additional Orison."
+    "Description": "The model part gains +1 Att, and the model gains Fearless.\nThe model is always considered to be under the effect of all <u><link=\"koe-orisons\">Orisons</link></u> at the same time (i.e. Discipline set to 9, +2 Off, Aegis (5+), <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, ignore <u><link=\"rulebook-parry\">Parry</link></u>).\nThis does not prevent the model’s unit from being the target of an <u><link=\"koe-orisons\">Orison</link></u>, although the model itself does not benefit from this additional <u><link=\"koe-orisons\">Orison</link></u>."
   },
   {
     "Id": "koe-beloved",
@@ -5289,73 +5247,73 @@
     "Id": "koe-minstrel",
     "Name": "Minstrel",
     "Type": "General",
-    "Description": "The model gains Musician and is a Wizard Apprentice that uses Divination as its Path of Magic."
+    "Description": "The model gains <u><link=\"rulebook-musician\">Musician</link></u> and is a Wizard Apprentice that uses Divination as its Path of Magic."
   },
   {
     "Id": "koe-cleric",
     "Name": "Cleric",
     "Type": "General",
-    "Description": "The model gains Holy Vows, Clergy, Ordo Minister, and loses Commonfolk."
+    "Description": "The model gains Holy Vows, <u><link=\"koe-clergy\">Clergy</link></u>, <u><link=\"koe-ordo_minister\">Ordo Minister</link></u>, and loses <u><link=\"koe-commonfolk\">Commonfolk</link></u>."
   },
   {
     "Id": "koe-castellan",
     "Name": "Castellan",
     "Type": "General",
-    "Description": "The model part gains Captain and Commanding Presence(6\", Commonfolk)."
+    "Description": "The bearer gains <u><link=\"rulebook-captain\">Captain</link></u> and <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>(6\", <u><link=\"koe-commonfolk\">Commonfolk</link></u>)."
   },
   {
     "Id": "koe-excellence",
     "Name": "Excellence",
     "Type": "General",
-    "Description": "The model part gains Zeal and its Melee Attacks allocated towards a Character gain +2 AP."
+    "Description": "The bearer gains <u><link=\"rulebook-zeal\">Zeal</link></u>, and any Melee Attacks it allocates towards a Character gains +2 AP."
   },
   {
     "Id": "koe-forbearance",
     "Name": "Forbearance",
     "Type": "General",
-    "Description": "When using a Shield, the model gains Distracting(1)."
+    "Description": "When using a Shield, the model gains <u><link=\"rulebook-distracting\">Distracting</link></u>(1)."
   },
   {
     "Id": "koe-generosity",
     "Name": "Generosity",
     "Type": "General",
-    "Description": "The model gains Attached, Exclusive(Rank-and-File).\\\nRank-and-File models with Nobility in the unit that the bearer is deployed in gain a Bastard Sword and Weapon Master until the end of the game."
+    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u> and <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Rank-andFile).\nIn addition, Rank-and-File models with <u><link=\"koe-nobility\">Nobility</link></u> in the unit that the bearer is Deployed in gain a <u><link=\"koe-bastard_sword\">Bastard Sword</link></u> and Weapon Master. Duration: Permanent."
   },
   {
     "Id": "koe-justice",
     "Name": "Justice",
     "Type": "General",
-    "Description": "At Agility Step 0, the model performs X additional Standard Melee Attacks, where X is equal to the number of HP losses suffered in the Round of Combat by Rank-and-File models in the bearer’s unit. X can never be greater than 3.\\\nNote that HP losses suffered at Agility step 0 also apply. If the model is unable to perform the additional Attacks granted by Justice, these Attacks are lost."
+    "Description": "At the end of Agility Step 0, the model performs X additional Standard Melee Attacks, where ‘X’ is equal to the number of HP losses suffered in the Round of Combat by Rank-and-File models in the bearer’s unit.\n‘X’ can never be greater than 3.\nIf the model is unable to perform the additional attacks granted by Justice, those attacks are lost."
   },
   {
     "Id": "koe-valour",
     "Name": "Valour",
     "Type": "General",
-    "Description": "The bearer gains Fearless and its Standard Melee Attacks gain Multiple Wounds(2, towards Res 5 or more)."
+    "Description": "The bearer gains <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, towards Res 5 or more)."
   },
   {
     "Id": "koe-honour",
     "Name": "Honour",
     "Type": "General",
-    "Description": "The model's unit's Charge Range rolls are Maximised.  The model gains Devastating Charge(+2 Att)."
+    "Description": "The model part gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+2 Att), and its unit’s Charge Range rolls gain Maximised."
   },
   {
     "Id": "koe-faith",
     "Name": "Faith",
     "Type": "General",
-    "Description": "The bearer gains Holy Vows and Fearless. If the bearer’s unit is the target of an Orison while Engaged in Combat, add one Blessing Token to your pool."
+    "Description": "The bearer gains <u><link=\"rulebook-fearless\">Fearless</link></u> and Holy Vows.\nMoreover, if its unit is the target of an <u><link=\"koe-orisons\">Orison</link></u> while Engaged in Combat, add one Blessing Token to your pool."
   },
   {
     "Id": "koe-the_blessing",
     "Name": "The Blessing",
     "Type": "General",
-    "Description": "Unit profiles in this Army Book contain an additional Characteristic: Aegis(Aeg). This gives the unit rule Aegis(X+), where X is the Aeg value. Lack of an Aeg value does not prevent a unit from being affected by Aegis modifiers."
+    "Description": "Unit profiles in this Army Book contain an additional Characteristic: Aegis(Aeg). This gives the unit rule <u><link=\"rulebook-aegis\">Aegis</link></u>(X+), where X is the Aeg value. Lack of an Aeg value does not prevent a unit from being affected by Aegis modifiers."
   },
   {
     "Id": "koe-orisons",
     "Name": "Orisons",
     "Type": "General",
-    "Description": "During Pre-game Selections, a Kingdom of Equitaine army creates a pool of Blessing Tokens: one Blessing Token for each unit in your Army List with Holy Vows. There can never be more than 6 tokens in the pool.\nIn each Magic Phase, immediately after Siphon the Veil, Blessing Tokens can be used, spent as follows: discard a Token, choose a friendly unit, and apply one of the following Orisons to it. All effects have Duration : One Turn.\n\n  •  Orison of Shielding: Aegis(5+).\n\n  •  Orison of Striking: Magical Attacks, ignore Parry, and +2 Off. Model parts with Mount are not affected.\n\n  •  Orison of Discipline: Discipline is set to 9.\n\nNo unit or model can be affected by more than one of the above effects simultaneously unless specifically stated otherwise. Applying an Orison to a unit or model cancels any Orisons previously applied to it."
+    "Description": "During Pre-game Selections, a Kingdom of Equitaine army creates a pool of Blessing Tokens: one Blessing Token for each unit in your Army List with Holy Vows. There can never be more than 6 tokens in the pool.\nIn each Magic Phase, before ‘Casting and Dispelling Spells’ (Magic Phase, Step 5), Blessing Tokens can be used, spent as follows: discard a Token, choose a friendly unit, and apply one of the following <u><link=\"koe-orisons\">Orisons</link></u> to it. All effects have Duration : One Turn.\n\n  •  Orison of Shielding: Aegis(5+).\n\n  •  Orison of Striking: Magical Attacks, ignore Parry, and +2 Off. Model parts with Mount are not affected.\n\n  •  Orison of Discipline: Discipline is set to 9.\n\nNo unit or model can be affected by more than one of the above effects simultaneously unless specifically stated otherwise. Applying an Orison to a unit or model cancels any <u><link=\"koe-orisons\">Orisons</link></u> previously applied to it."
   },
   {
     "Id": "koe-breath_of_the_lady",
@@ -5367,31 +5325,31 @@
     "Id": "koe-divine_judgement",
     "Name": "Divine Judgement",
     "Type": "General",
-    "Description": "After the wielder successfully completes a Charge, apply the following until the wielder is no longer Engaged in Combat: +2 Str and +2 AP."
+    "Description": "If the wielder successfully completes a Charge, apply the following: +2 Str, +2 AP, with Duration: End of Combat."
   },
   {
     "Id": "koe-tristans_resolve",
     "Name": "Tristan's Resolve",
     "Type": "General",
-    "Description": "+1 Att and +1 AP. After a successful to-hit roll, the attacker may discard one of the hits with this weapon and choose an Enchanted Weapon carried by the model the Attack was allocated towards. This Weapon Enchantment is ignored for the rest of the game."
+    "Description": "+1 Att, +1 AP.\nAfter a successful to-hit roll, the bearer may discard one of the hits made with this weapon and choose an Enchanted Weapon carried by the model the attack was allocated against: at the end of the Agility Step all Weapon Enchantments on it are ignored and the weapon ceases to be an Enchanted Weapon. Duration: Permanent"
   },
   {
     "Id": "koe-uthers_mettle",
     "Name": "Uther's Mettle",
     "Type": "General",
-    "Description": "+X Att, where X is equal to the number of ranks of a single enemy unit in contact with the wielder, up to a maximum of 4. If multiple units, use the unit with the most ranks. These extra Attacks can only be allocated towards Rank-and-File models. If the Attacks cannot be allocated towards Rank-and-File models the Attacks are lost."
+    "Description": "+X Att, where ‘X’ is equal to the number of ranks in a single enemy unit in contact with the wielder, up to a maximum of 4 (if in contact with multiple units, use the one with the most ranks).\nThese extra attacks can only be allocated against Rankand-File models (if the attacks cannot be allocated against Rank-and-File models, they are lost)"
   },
   {
     "Id": "koe-mortal_reminder",
     "Name": "Mortal Reminder",
     "Type": "General",
-    "Description": "+1 Str, +1 AP, and Terror."
+    "Description": "+1 Str, +1 AP, and <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "koe-prayer_etched",
     "Name": "Prayer Etched",
     "Type": "General",
-    "Description": "+1 Arm and Aegis(+1, max. 4+)."
+    "Description": "+1 Arm and <u><link=\"rulebook-aegis\">Aegis</link></u>(+1, max. 4+)."
   },
   {
     "Id": "koe-percivals_panoply",
@@ -5409,25 +5367,25 @@
     "Id": "koe-oriflamme",
     "Name": "Oriflamme",
     "Type": "General",
-    "Description": "The bearer's unit gains Afflict(-1 Dis) and Horror."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-afflict\">Afflict</link></u>(-1 Dis) and <u><link=\"rulebook-horror\">Horror</link></u>."
   },
   {
     "Id": "koe-banner_of_roland",
     "Name": "Banner of Roland",
     "Type": "General",
-    "Description": "The bearer’s unit gains Aegis(5+, against Ranged Attacks). In addition, enemy units with Stand and Shoot cannot use this rule against the bearer’s unit."
+    "Description": "The bearer’s unit gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against Ranged Attacks). In addition, enemy units with Stand and Shoot cannot use this rule against the bearer’s unit."
   },
   {
     "Id": "koe-lords_arms",
     "Name": "Lord's Arms",
     "Type": "General",
-    "Description": "The restriction on the maximum number of Proper Ranks  from Lance Formation is increased to three for the bearer's unit."
+    "Description": "The restriction on the maximum number of Proper Ranks  from <u><link=\"koe-lance_formation\">Lance Formation</link></u> is increased to three for the bearer's unit."
   },
   {
     "Id": "koe-castellans_crest",
     "Name": "Castellan's Crest",
     "Type": "General",
-    "Description": "One use only. May be activated immediately after failing a Charge Range roll with the bearer or the bearer’s unit in the Charge Phase. Failed Charge Range rolls of the bearer or the bearer’s unit must be rerolled until the end of the Phase: other Characters Charging out of the bearer’s unit are not affected."
+    "Description": "One use only. May be activated immediately after failing a Charge Range roll with the bearer or the bearer’s unit in the Charge Phase: the bearer or bearer’s unit must reroll its failed Charge Range roll.\nOther Characters Charging out of the bearer’s unit are not affected"
   },
   {
     "Id": "koe-relic_shroud",
@@ -5439,19 +5397,19 @@
     "Id": "koe-ladys_favour",
     "Name": "Lady's Favour",
     "Type": "General",
-    "Description": "One use only. Duration: One turn. May be activated when the bearer's unit is chosen as the target of an Orison. The bearer's unit is considered to be under the effects of all Orisons  (i.e Aegis(5+), Magical Attacks, +2 Off and ignore Parry, Dis set to 9)."
+    "Description": "One use only. May be activated when the bearer’s unit is chosen as the target of an <u><link=\"koe-orisons\">Orison</link></u>.\nThe bearer’s unit gains the effects of all <u><link=\"koe-orisons\">Orisons</link></u>s (i.e Discipline set to 9, +2 Off, <u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and ignore <u><link=\"rulebook-parry\">Parry</link></u>), with Duration: One Turn."
   },
   {
     "Id": "koe-sacred_chalice",
     "Name": "Sacred Chalice",
     "Type": "General",
-    "Description": "The bearer gains Magic Resistance(1). Whenever the bearer’s unit is the target of an enemy Spell the bearer gains Channel(1) until the end of following Magic Phase."
+    "Description": "The bearer gains <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>(1). Whenever the bearer’s unit is the target of an enemy Spell the bearer gains <u><link=\"rulebook-channel\">Channel</link></u>(1) until the end of following Magic Phase."
   },
   {
     "Id": "koe-black_knights_tonic",
     "Name": "Black Knight's Tonic",
     "Type": "General",
-    "Description": "The first time the bearer’s model suffers an unsaved wound from an attack with Multiple Wounds(X), the model gains Immune(Multiple Wounds) until the end of the phase."
+    "Description": "The first time the bearer’s model suffers an unsaved wound from an attack with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(X), the model gains <u><link=\"rulebook-immune\">Immune</link></u>(<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>) until the end of the phase."
   },
   {
     "Id": "koe-orison_of_discipline",
