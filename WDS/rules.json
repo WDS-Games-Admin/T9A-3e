@@ -9,7 +9,7 @@
     "Id": "rulebook-strider",
     "Name": "Strider",
     "Type": "Global",
-    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-strider\">Strider</link></u> may (must if <u><link=\"rulebook-shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"rulebook-weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"rulebook-strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"rulebook-strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"rulebook-strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
+    "Description": "<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-strider\">Strider</link></u> may (must if <u><link=\"rulebook-shaken\">Shaken)</link></u> ignore rules associated with <u><link=\"terrain\">Terrain</link></u> Features, with the following exceptions:\n\n-   Any rule affecting <u><link=\"line_of_sight\">Line of Sight</link></u> or <u><link=\"cover\">Cover</link></u>.\n-   Any rule associated with <u><link=\"rulebook-weakness\">Weakness</link></u>.\n-   Impassable (see <u><link=\"impassable_terrain\">Impassable Terrain)</link></u>.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-strider\">Strider</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIn addition, if a Rank-and-File <u><link=\"model\">model</link></u> has <u><link=\"rulebook-strider\">Strider</link></u>, the unit ignores <u><link=\"disruptive\">Disruptive</link></u>, when the Rank-and-File <u><link=\"model\">model</link></u> does.\nOccasionally, <u><link=\"rulebook-strider\">Strider</link></u> is associated with a specific type of <u><link=\"terrain\">Terrain</link></u>, which would be indicated in brackets (X). In such cases, <u><link=\"rulebook-strider\">Strider</link></u> only affects this  <u><link=\"terrain\">Terrain</link></u> Feature."
   },
   {
     "Id": "rulebook-disciplined",
@@ -21,7 +21,7 @@
     "Id": "rulebook-light_troops",
     "Name": "Light Troops",
     "Type": "Global",
-    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"rulebook-musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
+    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
   },
   {
     "Id": "rulebook-swiftstride",
@@ -99,7 +99,7 @@
     "Id": "rulebook-captain",
     "Name": "Captain",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"rulebook-captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"rulebook-musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"rulebook-captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
+    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "rulebook-attached",
@@ -213,7 +213,7 @@
     "Id": "rulebook-bodyguard",
     "Name": "Bodyguard",
     "Type": "Global",
-    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
+    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"rulebook-bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
   },
   {
     "Id": "rulebook-halberd",
@@ -237,7 +237,7 @@
     "Id": "rulebook-random_movement",
     "Name": "Random Movement",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"rulebook-random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"rulebook-random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
+    "Description": "Units entirely with <u><link=\"rulebook-random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"rulebook-random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
   },
   {
     "Id": "rulebook-stubborn",
@@ -387,19 +387,13 @@
     "Id": "impassable_terrain",
     "Name": "Impassable Terrain",
     "Type": "General",
-    "Description": "<u><link=\"impassable_terrain\">Impassable Terrain</link></u> can be represented for example by monoliths, cliffs, massive boulders, or buildings.\n<u><link=\"impassable_terrain\">Impassable Terrain</link></u> has the following rules:\n-   <u><link=\"opaque_terrain\">Opaque Terrain</link></u>.\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (4+) for units making <u><link=\"flee_move\">Flee Moves</link></u> through <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-    Impassable: <u><link=\"model\">Models</link></u> cannot move into or through <u><link=\"impassable_terrain\">Impassable Terrain</link></u> (except as part of a <u><link=\"flee_move\">Flee Move)</link></u>.\n\n\n"
-  },
-  {
-    "Id": "dangerous_terrain",
-    "Name": "Dangerous Terrain",
-    "Type": "General",
-    "Description": "A unit must take a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test at the end of the move, if it has been in contact with <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> during one the following moves: <u><link=\"march_move\">March Move</link></u>, <u><link=\"charge_move\">Charge Move</link></u>, <u><link=\"failed_charge_move\">Failed Charge Move</link></u>, <u><link=\"flee_move\">Flee Move</link></u>, or Pursue Move.\n<u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests are performed by rolling a number of D6. For each roll of ‘X+’, the unit suffers a hit that wounds automatically with AP 10.\nThe number of <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests a unit must roll is equal to half the number of <u><link=\"model\">models</link></u> in the unit, rounding fractions up, and multiplied by the <u><link=\"model\">models</link></u>’ Height. If ‘Y’ is written, only <u><link=\"model\">models</link></u> fulfilling these criteria take a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test. For example, a unit of 19 Height 1 Clan Warriors would roll 10 <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, while a unit of a single Height 5 Dragon would roll 5 <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests. (For units with <u><link=\"rulebook-attached\">Attached</link></u> <u><link=\"model\">models</link></u> see the Reference Handbook.)\nIf one of the above-mentioned moves was performed by a unit, and it has been in contact with several <u><link=\"terrain\">Terrain</link></u> Features that are <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u>, all <u><link=\"health_pools\">Health Pools</link></u> in it must make a <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, for each <u><link=\"terrain\">Terrain</link></u> Feature with <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> it has been in contact with, one at a time, removing any <u><link=\"casualties\">casualties</link></u> caused by the first tests before calculating the number of <u><link=\"dice\">dice</link></u> that must be rolled for the next test. If a type of <u><link=\"model\">model</link></u> is indicated in the brackets (X), any <u><link=\"model\">model</link></u> not fulfilling this criteria is considered Height 0 for <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test purposes.\n\nIf a unit has multiple <u><link=\"health_pools\">Health Pools</link></u>, treat each of these separately for <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u>. This means that:\n\n-   Only <u><link=\"health_pools\">Health Pools</link></u> that have been in contact with the <u><link=\"terrain\">Terrain</link></u> Feature need to roll <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests.\n-   Calculate the number of <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests to roll for each Health Pool that has been in contact with the <u><link=\"terrain\">Terrain</link></u> Feature, and roll the tests separately. Damage from these tests is allocated towards the Health Pool that the tests were rolled for.\nFor example, a unit of 10 Height 1 Rank-and-File <u><link=\"model\">models</link></u> is joined by two <u><link=\"characters\">Characters</link></u> of Height 2. If the unit moves through <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> in such way that one of the <u><link=\"characters\">Characters</link></u> never touches the <u><link=\"terrain\">Terrain</link></u> Features, <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests are rolled in the following way: 5 tests for the Rank-and-File Health Pool, 2 tests for the Character that touched the <u><link=\"terrain\">Terrain</link></u> Feature, and no tests for the other Character."
+    "Description": "<u><link=\"impassable_terrain\">Impassable Terrain</link></u> can be represented for example by monoliths, cliffs, massive boulders, or buildings.\n<u><link=\"impassable_terrain\">Impassable Terrain</link></u> has the following rules:\n-   <u><link=\"opaque_terrain\">Opaque Terrain</link></u>.\n-   <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (4+) for units making <u><link=\"flee_move\">Flee Moves</link></u> through <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-    Impassable: <u><link=\"model\">Models</link></u> cannot move into or through <u><link=\"impassable_terrain\">Impassable Terrain</link></u> (except as part of a <u><link=\"flee_move\">Flee Move)</link></u>.\n\n\n"
   },
   {
     "Id": "flee_move",
     "Name": "Flee Move",
     "Type": "General",
-    "Description": "A <u><link=\"flee_move\">Flee Move</link></u> is a specific type of move performed in certain situations. The most common instances are failing a <u><link=\"rally_test\">Rally Test</link></u>, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a <u><link=\"flee_move\">Flee Move</link></u>, follow these steps:\n1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each <u><link=\"flee_move\">Flee Move</link></u> starts by <u><link=\"pivot\">Pivot</link></u>ing the unit to face a certain direction.\n-   Failed <u><link=\"rally_test\">Rally Test</link></u>: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the closest non-<u><link=\"rulebook-shaken\">Shaken</link></u> enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n-   Charge Reaction Flee! and failed <u><link=\"rulebook-terror\">Terror</link></u> Tests: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the Charging enemy.\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n-   Failed Break Test: <u><link=\"pivot\">Pivot</link></u> the <u><link=\"rulebook-shaken\">Shaken</link></u> unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n3 -  Move the <u><link=\"rulebook-shaken\">Shaken</link></u> unit straight forward by the distance rolled.\n4 -  A <u><link=\"flee_move\">Flee Move</link></u>, including the initial <u><link=\"pivot\">Pivot</link></u>, ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, and can move through any obstructions. However, the move cannot end overlapping other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, which means it can be placed within 1\" of other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n-   If the obstruction  encountered at any point of the move was an enemy unit or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, treat these as <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n5 -  If the <u><link=\"flee_move\">Flee Move</link></u> takes the unit into contact with the <u><link=\"table_edge\">Table Edge</link></u>, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is <u><link=\"removed\">removed</link></u> as a casualty.\n"
+    "Description": "A <u><link=\"flee_move\">Flee Move</link></u> is a specific type of move performed in certain situations. The most common instances are failing a <u><link=\"rally_test\">Rally Test</link></u>, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a <u><link=\"flee_move\">Flee Move</link></u>, follow these steps:\n1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each <u><link=\"flee_move\">Flee Move</link></u> starts by <u><link=\"pivot\">Pivot</link></u>ing the unit to face a certain direction.\n-   Failed <u><link=\"rally_test\">Rally Test</link></u>: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the closest non-<u><link=\"rulebook-shaken\">Shaken</link></u> enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n-   Charge Reaction Flee! and failed <u><link=\"rulebook-terror\">Terror</link></u> Tests: <u><link=\"pivot\">Pivot</link></u> the unit to face directly away from the Charging enemy.\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n-   Failed Break Test: <u><link=\"pivot\">Pivot</link></u> the <u><link=\"rulebook-shaken\">Shaken</link></u> unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n3 -  Move the <u><link=\"rulebook-shaken\">Shaken</link></u> unit straight forward by the distance rolled.\n4 -  A <u><link=\"flee_move\">Flee Move</link></u>, including the initial <u><link=\"pivot\">Pivot</link></u>, ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, and can move through any obstructions. However, the move cannot end overlapping other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule, which means it can be placed within 1\" of other units or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n-   If the obstruction  encountered at any point of the move was an enemy unit or <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, treat these as <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n5 -  If the <u><link=\"flee_move\">Flee Move</link></u> takes the unit into contact with the <u><link=\"table_edge\">Table Edge</link></u>, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is <u><link=\"removed\">removed</link></u> as a casualty.\n"
   },
   {
     "Id": "disruptive",
@@ -435,7 +429,13 @@
     "Id": "reform_move",
     "Name": "Reform Move",
     "Type": "General",
-    "Description": "To do a <u><link=\"reform_move\">Reform Move</link></u>, pick the unit up from the battlefield and put it back with the following restrictions:\n-   The centre of the unit can not travel further than half the unit's Mobility (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   The formation of the unit may change only as long as the number of Files has not changed by more than 2 . Remember that the unit cannot voluntarily have more Ranks than Files unless the unit is wide enough to have a Proper Rank (see <u><link=\"model\">Models</link></u> and Units in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   Each <u><link=\"model\">model</link></u> is considered to have moved from its starting position to end position, around obstructions where needed, and no single <u><link=\"model\">model</link></u> can move further than twice its Mobility.\nWhen measuring each <u><link=\"model\">model's</link></u> move, it is considered to move independently of its unit, in any direction or combination of directions, including side- and back-stepping. The <u><link=\"model\">models</link></u> can ignore other <u><link=\"model\">models</link></u> from the same unit, but not from other units. No single <u><link=\"model\">model</link></u> can move further than twice its Mobility. Measure the centre of each <u><link=\"model\">model's</link></u> base, and measure the path the <u><link=\"model\">model</link></u> moves on the Battlefield, from starting to ending position, including the path winding around obstacles.\nTreat each <u><link=\"model\">model</link></u> as an individual unit following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. At the end of this move, all <u><link=\"model\">models</link></u> come back together again into a viable formation as described above.\nReferenceManualColorSimplified <u><link=\"reform_move\">Reform Move</link></u>\\\nIn practice, for the vast majority of Reform and <u><link=\"advance_move\">Advance Moves</link></u>, there is no  need to consider the movements of individual <u><link=\"model\">models</link></u>.\\\nThe Upper example shows the technical way to perform a <u><link=\"reform_move\">Reform Move;</link></u> moving <u><link=\"model\">models</link></u> one by one (grey dotted lines), and measuring distance the centre moved (black dotted line). \\\nThe Lower image show a simplified method to perform a <u><link=\"reform_move\">Reform Move:</link></u> Move the unit as a whole, potentially readjusting formation by adding or removing files. Measure the distance the centre travels, while making sure that no <u><link=\"model\">model</link></u> moves further than its Mobility * 2, typically by measuring the distance of the <u><link=\"model\">models</link></u> that have travelled the furthest.\\\nReferenceManualColorExample of <u><link=\"reform_move\">Reform Move</link></u>\n\nMid-<u><link=\"reform_move\">Reform Move</link></u> Actions\nIf, for any reasons, a <u><link=\"model\">model's</link></u> position is relevant during a mid-<u><link=\"reform_move\">Reform Move</link></u>, such as during a <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> or <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests, the unit must be placed in a viable formation and following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule (0.5\") at the point where it becomes relevant, before continuing the move. If it cannot be placed, the move cannot be performed. When measuring the distance each <u><link=\"model\">model</link></u> moves, measure from starting position, to the position it is placed mid-move, and then finally to its ending position."
+    "Description": "To do a <u><link=\"reform_move\">Reform Move</link></u>, pick the unit up from the battlefield and put it back with the following restrictions:\n-   The centre of the unit can not travel further than half the unit's Mobility (see <u><link=\"characteristic_profiles\">Characteristic Profiles</link></u> in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   The formation of the unit may change only as long as the number of Files has not changed by more than 2 . Remember that the unit cannot voluntarily have more Ranks than Files unless the unit is wide enough to have a Proper Rank (see <u><link=\"model\">Models</link></u> and Units in the <u><link=\"definitions_and_terminology\">Definitions and Terminology</link></u> chapter).\n-   Each <u><link=\"model\">model</link></u> is considered to have moved from its starting position to end position, around obstructions where needed, and no single <u><link=\"model\">model</link></u> can move further than twice its Mobility.\nWhen measuring each <u><link=\"model\">model's</link></u> move, it is considered to move independently of its unit, in any direction or combination of directions, including side- and back-stepping. The <u><link=\"model\">models</link></u> can ignore other <u><link=\"model\">models</link></u> from the same unit, but not from other units. No single <u><link=\"model\">model</link></u> can move further than twice its Mobility. Measure the centre of each <u><link=\"model\">model's</link></u> base, and measure the path the <u><link=\"model\">model</link></u> moves on the Battlefield, from starting to ending position, including the path winding around obstacles.\nTreat each <u><link=\"model\">model</link></u> as an individual unit following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule. At the end of this move, all <u><link=\"model\">models</link></u> come back together again into a viable formation as described above.\nReferenceManualColorSimplified <u><link=\"reform_move\">Reform Move</link></u>\\\nIn practice, for the vast majority of Reform and <u><link=\"advance_move\">Advance Moves</link></u>, there is no  need to consider the movements of individual <u><link=\"model\">models</link></u>.\\\nThe Upper example shows the technical way to perform a <u><link=\"reform_move\">Reform Move;</link></u> moving <u><link=\"model\">models</link></u> one by one (grey dotted lines), and measuring distance the centre moved (black dotted line). \\\nThe Lower image show a simplified method to perform a <u><link=\"reform_move\">Reform Move:</link></u> Move the unit as a whole, potentially readjusting formation by adding or removing files. Measure the distance the centre travels, while making sure that no <u><link=\"model\">model</link></u> moves further than its Mobility * 2, typically by measuring the distance of the <u><link=\"model\">models</link></u> that have travelled the furthest.\\\nReferenceManualColorExample of <u><link=\"reform_move\">Reform Move</link></u>\n\nMid-<u><link=\"reform_move\">Reform Move</link></u> Actions\nIf, for any reasons, a <u><link=\"model\">model's</link></u> position is relevant during a mid-<u><link=\"reform_move\">Reform Move</link></u>, such as during a <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> or <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests, the unit must be placed in a viable formation and following the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule (0.5\") at the point where it becomes relevant, before continuing the move. If it cannot be placed, the move cannot be performed. When measuring the distance each <u><link=\"model\">model</link></u> moves, measure from starting position, to the position it is placed mid-move, and then finally to its ending position."
+  },
+  {
+    "Id": "musician",
+    "Name": "Musician",
+    "Type": "General",
+    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
   },
   {
     "Id": "attachable_models",
@@ -478,6 +478,12 @@
     "Name": "Hunting Horn",
     "Type": "General",
     "Description": "While within 6\" of one or more models with <u><link=\"hunting_horn\">Hunting Horn</link></u>, friendly units gain +1\" Cha."
+  },
+  {
+    "Id": "captain",
+    "Name": "Captain",
+    "Type": "General",
+    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "standard_bearer",
@@ -550,12 +556,6 @@
     "Name": "Defender's Advantage",
     "Type": "General",
     "Description": "The Defender must choose a single of its Deployed units to gain <u><link=\"rulebook-vanguard\">Vanguard(3\")</link></u>. This unit cannot contain any <u><link=\"characters\">Characters</link></u>. Remember a unit that already has <u><link=\"rulebook-vanguard\">Vanguard</link></u> may still be chosen, the effects are just not cumulative."
-  },
-  {
-    "Id": "bodyguard",
-    "Name": "Bodyguard",
-    "Type": "General",
-    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
   },
   {
     "Id": "pursue_moves",
@@ -873,7 +873,7 @@
     "Id": "rulebook-musician",
     "Name": "Musician",
     "Type": "Global",
-    "Description": "<u><link=\"rulebook-musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"rulebook-musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"rulebook-musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
+    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
   },
   {
     "Id": "dl-razor_tentacles",
@@ -1311,7 +1311,7 @@
     "Id": "rulebook-water_terrain",
     "Name": "Water Terrain",
     "Type": "Global",
-    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"rulebook-immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
+    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"rulebook-immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
   },
   {
     "Id": "df-toxic_scum",
@@ -1365,7 +1365,7 @@
     "Id": "water_terrain",
     "Name": "Water Terrain",
     "Type": "General",
-    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"rulebook-immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
+    "Description": "<u><link=\"water_terrain\">Water Terrain</link></u> can be represented in the game for example by ponds, swamps, or rivers.\n<u><link=\"water_terrain\">Water Terrain</link></u> has the following rules:\n-   <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (6+, Metal Armour).\n-   <u><link=\"disruptive\">Disruptive</link></u>.\n-   Soaked: Units in contact with <u><link=\"water_terrain\">Water Terrain</link></u> gain <u><link=\"rulebook-immune\">Immune</link></u> (Flaming <u><link=\"attacks\">Attacks)</link></u>.\n-   Unsure Footing: <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> and <u><link=\"rulebook-impact_hits\">Impact Hits</link></u> cannot be used by <u><link=\"model\">models</link></u> that are in contact with <u><link=\"water_terrain\">Water Terrain</link></u>."
   },
   {
     "Id": "shrouded_by_mist",
@@ -1965,7 +1965,7 @@
     "Id": "rulebook-ghost_step",
     "Name": "Ghost Step",
     "Type": "Global",
-    "Description": "A unit entirely with <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> ignores <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> when moving. The unit must however follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its move.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIf the unit ends a move inside <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, backtrack the move to the unit’s last legal position, unless as part of a <u><link=\"flee_move\">Flee Move</link></u>, in which case the standard <u><link=\"flee_move\">Flee Moves</link></u> rules apply."
+    "Description": "A unit entirely with <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> ignores <u><link=\"terrain\">Terrain</link></u> Features and <u><link=\"open_terrain\">Open Terrain</link></u> when moving. The unit must however follow the <u><link=\"unit_spacing\">Unit Spacing</link></u> rule at the end of its move.\nIn <u><link=\"terrain\">Terrain</link></u> Features, a Health Pool with <u><link=\"rulebook-ghost_step\">Ghost Step</link></u> never fulfills the criteria for which <u><link=\"model\">models</link></u> must take <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests (I.e. <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests from a <u><link=\"flee_move\">Flee Move</link></u> through an enemy unit must still be taken).\nIf the unit ends a move inside <u><link=\"impassable_terrain\">Impassable Terrain</link></u>, backtrack the move to the unit’s last legal position, unless as part of a <u><link=\"flee_move\">Flee Move</link></u>, in which case the standard <u><link=\"flee_move\">Flee Moves</link></u> rules apply."
   },
   {
     "Id": "id-theocratic_litigators",
@@ -2043,7 +2043,7 @@
     "Id": "koe-clergy",
     "Name": "Clergy",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against Magical Attacks)."
+    "Description": "The model gains Aegis(5+, against Magical Attacks)."
   },
   {
     "Id": "rulebook-stand_behind",
@@ -2055,19 +2055,19 @@
     "Id": "koe-lance_formation",
     "Name": "Lance Formation",
     "Type": "Global",
-    "Description": "  A unit entirely with <u><link=\"koe-lance_formation\">Lance Formation</link></u> only needs to have three Files to form Proper Ranks.\n However, the unit is never considered to have more than one Proper Rank for the purpose of Rank Bonus. Moreover, when in a unit that has exactly three files, each model part on a model with <u><link=\"koe-lance_formation\">Lance Formation</link></u> gains two instances of <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>"
+    "Description": "  A unit entirely with <u><link=\"lance_formation\">Lance Formation</link></u> only needs to have three Files to form Proper Ranks. However, the unit is never considered to have more than one Proper Rank for Rank Bonus purposes.\nEach model part on a model with <u><link=\"lance_formation\">Lance Formation</link></u> gain two instances of Fight in Extra Rank when in a unit that has exactly three Files."
   },
   {
     "Id": "koe-forest_guide",
     "Name": "Forest Guide",
     "Type": "Global",
-    "Description": "The model's unit gains <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-strider\">Strider</link></u>(Forest)."
+    "Description": "The model's unit gains Magical Attacks and Strider(Forest)."
   },
   {
     "Id": "koe-nobility",
     "Name": "Nobility",
     "Type": "Defense",
-    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against no Armour Save*).\n*This <u><link=\"rulebook-aegis\">Aegis</link></u> save can only be used against attacks where the model cannot take an Armour Save, or would automatically fail it."
+    "Description": "  The model gains Aegis(5+, against no Armour Save*).\n*The Aegis can only be used against Attacks where the model cannot take or would automatically fail its Armour Saves."
   },
   {
     "Id": "koe-traits_of_a_hero",
@@ -2079,25 +2079,25 @@
     "Id": "koe-quin",
     "Name": "Quin",
     "Type": "Global",
-    "Description": "The model is a Wizard Adept that chooses Witchcraft as its Path of Magic.\nIf without Mount, the model gains <u><link=\"rulebook-scout\">Scout</link></u>."
+    "Description": "  The model is a Wizard Adept that chooses Witchcraft as its Path of Magic.\nIf without Mount, the model gains Scout."
   },
   {
     "Id": "koe-commonfolk",
     "Name": "Commonfolk",
     "Type": "Defense",
-    "Description": "  The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+) while Engaged in the same Combined Combat as other friendly units."
+    "Description": "  The model gains Aegis(5+) while Engaged in the same Combined Combat as other friendly units."
   },
   {
     "Id": "koe-braziers",
     "Name": "Braziers",
     "Type": "Global",
-    "Description": "In each Shooting Phase, before selecting the target,  a unit containing Braziers may choose to gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> (Shooting). Duration: One Phase."
+    "Description": "In each Shooting Phase before selecting the target, the unit may choose to gain Flaming Attacks for the duration of that Shooting Phase."
   },
   {
     "Id": "koe-ordo_minister",
     "Name": "Ordo Minister",
     "Type": "Global",
-    "Description": "In each friendly Magic Phase before ‘Casting and Dispelling Spells’ (Magic Phase, Step 5) each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u> may gain one of the following effects:\n   • Raise 1 HP on a Rank-and-File Health Pool in the unit.\n   • Discard 1 Blessing Token and Recover 1 HP on any model in the unit."
+    "Description": "  At the start of each friendly Magic Phase, each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u>  may choose one:\n-   Raise 1 HP on a Rank-and-File Health Pool in the unit.\n-   Discard 1 Blessing Token and Recover 1 HP on an Character model in the unit."
   },
   {
     "Id": "rulebook-throwing_weapons",
@@ -2109,13 +2109,13 @@
     "Id": "koe-the_quest",
     "Name": "The Quest",
     "Type": "Equipment",
-    "Description": " During Pre-game Selections, an army containing <u><link=\"koe-the_quest\">The Quest</link></u> selects a unit entry from the opponent’s Army Book, which cannot be a Character mount (but can be a Character Entry).\nAll instances of the selected Unit Entry in the opponent’s Army List are marked with a Quest Marker.\nModel parts with <u><link=\"koe-the_quest\">The Quest</link></u> benefit from <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> (against units containing a Quest Marker) and <u><link=\"rulebook-zeal\">Zeal</link></u> (against units containing a Quest Marker)."
+    "Description": "During Pre-game Selections, choose a unit entry from the opponent’s Army Book, which cannot be a Character mount (but can be a Character entry). All examples of the chosen unit entry in the opponent's Army List are marked with a Quest Marker.\nModel parts with <u><link=\"the_quest\">The Quest</link></u> gain Lethal Strike(towards units containing a model marked by Quest Marker) and Zeal(towards units containing a model marked by Quest Marker)."
   },
   {
     "Id": "koe-bastard_sword",
     "Name": "Bastard Sword",
     "Type": "Equipment",
-    "Description": "Counts as a Hand Weapon with the following additional rules: +1 Str, <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 AP)."
+    "Description": "    Counts as a Hand Weapon with the following additional rules: +1 Str, Devastating Charge(+1 AP)."
   },
   {
     "Id": "koe-a_worthy_foe",
@@ -2169,7 +2169,7 @@
     "Id": "koe-sacred_relic",
     "Name": "Sacred Relic",
     "Type": "Global",
-    "Description": "  A unit containing <u><link=\"koe-sacred_relic\">Sacred Relic</link></u> gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>.\nIn addition, when the unit is the target of an <u><link=\"koe-orisons\">Orison</link></u> while Engaged in Combat, add one Blessing Token to your pool. Ignore this effect if a Character with the Faith Knightly Principle is part of the model’s unit. The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it is joined to with duration: Permanent"
+    "Description": "  A unit containing <u><link=\"sacred_relic\">Sacred Relic</link></u> gains Fight in Extra Rank, and when the unit is the target of an Orison while Engaged in Combat, add one Blessing Token to the your pool.Ignore this effect if a Character with the <u><link=\"faith\">Faith</link></u> Knightly Principle is part of the model’s unit.The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it has joined."
   },
   {
     "Id": "koe-scorpion",
@@ -2187,7 +2187,7 @@
     "Id": "koe-champion_of_the_green_knight",
     "Name": "Champion of the Green Knight",
     "Type": "Global",
-    "Description": "The Fey Rider gains a <u><link=\"bastard_sword\">Bastard Sword</link></u>.\nPlace a Forest* underneath the model until the model is removed as a casualty.\n This Forest always extends up to the edges of the model’s Unit Boundary (and no further), even if the unit moves or changes formation.\n* You may place a marker next to the unit instead."
+    "Description": "Legendary.\nThe Fey Rider gains a <u><link=\"bastard_sword\">Bastard Sword</link></u>.  The model's Unit Boundary is always considered to be within a Forest Terrain Feature."
   },
   {
     "Id": "rulebook-mindless",
@@ -2199,7 +2199,7 @@
     "Id": "koe-courtier_of_the_dawn",
     "Name": "Courtier of the Dawn",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"rulebook-fly\">Fly</link></u> and <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u> (1)\nThe unit selects its spells from the following:\n   • Predator’s Instinct (Shamanism)"
+    "Description": "Gallantry(2)\nThe model gains Fly, Wizard Apprentice. It uses Shamanism as its Path of Magic, and cannot select the Hereditary Spell."
   },
   {
     "Id": "stand_behind",
@@ -2208,10 +2208,34 @@
     "Description": "<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"stand_behind\">Stand Behind</link></u> are not required to have their Front Facing as far forward as possible within their unit. Essentially this means that the <u><link=\"model\">model</link></u> can be positioned anywhere within its unit. This rule cannot be used while the <u><link=\"model\">model</link></u> has a mismatching base to its unit."
   },
   {
+    "Id": "lance_formation",
+    "Name": "Lance Formation",
+    "Type": "General",
+    "Description": "  A unit entirely with <u><link=\"lance_formation\">Lance Formation</link></u> only needs to have three Files to form Proper Ranks. However, the unit is never considered to have more than one Proper Rank for Rank Bonus purposes.\nEach model part on a model with <u><link=\"lance_formation\">Lance Formation</link></u> gain two instances of Fight in Extra Rank when in a unit that has exactly three Files."
+  },
+  {
+    "Id": "ordo_minister",
+    "Name": "Ordo Minister",
+    "Type": "General",
+    "Description": "  At the start of each friendly Magic Phase, each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u>  may choose one:\n-   Raise 1 HP on a Rank-and-File Health Pool in the unit.\n-   Discard 1 Blessing Token and Recover 1 HP on an Character model in the unit."
+  },
+  {
+    "Id": "the_quest",
+    "Name": "The Quest",
+    "Type": "General",
+    "Description": "During Pre-game Selections, choose a unit entry from the opponent’s Army Book, which cannot be a Character mount (but can be a Character entry). All examples of the chosen unit entry in the opponent's Army List are marked with a Quest Marker.\nModel parts with <u><link=\"the_quest\">The Quest</link></u> gain Lethal Strike(towards units containing a model marked by Quest Marker) and Zeal(towards units containing a model marked by Quest Marker)."
+  },
+  {
     "Id": "stalwart_defense",
     "Name": "Stalwart Defense",
     "Type": "General",
     "Description": "  Enemy units in base contact with a unit containing <u><link=\"stalwart_defense\">Stalwart Defense</link></u> lose Devastating Charge."
+  },
+  {
+    "Id": "sacred_relic",
+    "Name": "Sacred Relic",
+    "Type": "General",
+    "Description": "  A unit containing <u><link=\"sacred_relic\">Sacred Relic</link></u> gains Fight in Extra Rank, and when the unit is the target of an Orison while Engaged in Combat, add one Blessing Token to the your pool.Ignore this effect if a Character with the <u><link=\"faith\">Faith</link></u> Knightly Principle is part of the model’s unit.The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it has joined."
   },
   {
     "Id": "faith",
@@ -2224,6 +2248,12 @@
     "Name": "\n    Scorpion",
     "Type": "General",
     "Description": "    <u><link=\"scorpion\">Scorpion</link></u>\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scorpion\">Scorpion</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nTrebuchet\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesTrebuchet448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
+  },
+  {
+    "Id": "bastard_sword",
+    "Name": "Bastard Sword",
+    "Type": "General",
+    "Description": "    Counts as a Hand Weapon with the following additional rules: +1 Str, Devastating Charge(+1 AP)."
   },
   {
     "Id": "ls-descent_into_sin",
@@ -2379,13 +2409,13 @@
     "Id": "ok-touch_of_frost",
     "Name": "Touch of Frost",
     "Type": "Global",
-    "Description": "An enemy unit suffers −1 Agi (to a minimum of 1) for each unit containing <u><link=\"ok-touch_of_frost\">Touch of Frost</link></u> it is in contact with."
+    "Description": "Enemy units suffer -1 Agi, to a minimum of 1, for each unit containing this rule it is in contact with."
   },
   {
     "Id": "ok-its_a_trap",
     "Name": "It's a Trap!",
     "Type": "Global",
-    "Description": "When an enemy unit performs any of the following actions, it suffers 2D6 hits with Strength 4, Armour Penetration 1, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>:\n   • The enemy unit successfully Charges a unit containing <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u> in contact with a Terrain Feature.\n   • The enemy unit comes in contact (after not being in contact) with a Terrain Feature that is in contact with a unit containing <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u>.\nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u> more than once in each Player Turn (including from different units containing <u><link=\"ok-its_a_trap\">It’s a Trap!</link></u>)."
+    "Description": " - Universal Rule\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!).\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!)."
   },
   {
     "Id": "ok-brace_of_ogre_pistols",
@@ -2421,13 +2451,13 @@
     "Id": "ok-mountain_hide",
     "Name": "Mountain Hide",
     "Type": "Defense",
-    "Description": "Attacks with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (X) against the model halve their X value (rounding fractions up)."
+    "Description": "Attacks with Multiple Wounds (X) against the model halve their X value, rounding fractions up."
   },
   {
     "Id": "ok-freezing_aura",
     "Name": "Freezing Aura",
     "Type": "Global",
-    "Description": "Enemy units within 12\" of one or more Frost Mammoths suffer -3 Agi (to a minimum of 1)."
+    "Description": "Enemy units within 12\" of one or more Frost Mammoths suffer -3 Agi, to a minimum of 1."
   },
   {
     "Id": "ok-dengrais_ice_storm",
@@ -2439,7 +2469,13 @@
     "Id": "ok-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "During step 1.2 of Pregame Planning (“Build an Army”), choose one of the following model rules, and write your choice on the Army List:\n   • First Strike (Fury)\n   • Lethal Strike\n   • Devastating Charge (+1 Str, +1 AP)"
+    "Description": " - Universal Rule\nDuring 1.B Build an army: choose one of the following model rules, and write it on the Army List:\n-   First Strike(Fury)\n-   Lethal Strike\n-   Devastating Charge(+1 Str, +1 AP)"
+  },
+  {
+    "Id": "its_a_trap",
+    "Name": "It's a Trap!",
+    "Type": "General",
+    "Description": " - Universal Rule\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!).\nWhen an enemy unit performs any of the following actions, it suffers 2D6 hits with Str  4 and AP 1:\n- \n- \nResolve the hits at the end of the action that triggered them. No unit can be affected by <u><link=\"its_a_trap\">It's a Trap</link></u>! more than once in each Player Turn (including from different units containing <u><link=\"its_a_trap\">It's a Trap</link></u>!)."
   },
   {
     "Id": "thunder_cannon",
@@ -2505,61 +2541,61 @@
     "Id": "ong-goblin_cunning",
     "Name": "Goblin Cunning",
     "Type": "Global",
-    "Description": "Immediately before taking any Courage Test, which is not automatically passed; units consisting entirely of models with <u><link=\"goblin_cunning\">Goblin Cunning</link></u>, may choose to fail the Courage Test, instead of rolling for it."
+    "Description": "Immediately before taking any Courage Test, which is not automatically passed; units consisting entirely of models with <u><link=\"ong-goblin_cunning\">Goblin Cunning</link></u>, may choose to fail the Courage Test, instead of rolling for it."
   },
   {
     "Id": "ong-creepycrawlies",
     "Name": "Creepy-Crawlies",
     "Type": "Global",
-    "Description": "The model gains Ghost Step, and model parts with Mount gain Poison Attacks."
+    "Description": "The model gains <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>, and model parts with Mount gain <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>."
   },
   {
     "Id": "ong-beastie_whisperer",
     "Name": "Beastie Whisperer",
     "Type": "Global",
-    "Description": "Immediately before choosing a unit to join using the Hidden rule, the model may gain a Beastie mount without any upgrade for free. If the model joins a unit with at least one Rank-and-File model with <u><link=\"creepycrawlies\">Creepy-Crawlies</link></u>, the model's mount gains <u><link=\"creepycrawlies\">Creepy-Crawlies</link></u>."
+    "Description": "Immediately before choosing a unit to join using the <u><link=\"rulebook-hidden\">Hidden</link></u> rule, the model may gain a Beastie mount without any upgrade for free. If the model joins a unit with at least one Rank-and-File model with <u><link=\"ong-creepycrawlies\">Creepy-Crawlies</link></u>, the model's mount gains <u><link=\"ong-creepycrawlies\">Creepy-Crawlies</link></u>."
   },
   {
     "Id": "ong-unprofessional_courtesy",
     "Name": "Unprofessional Courtesy",
     "Type": "Global",
-    "Description": "Each unit can only be chosen up to three times per Player Turn for the deployment of models with Hidden, <u><link=\"surprise\">Surprise</link></u>."
+    "Description": "Each unit can only be chosen up to three times per Player Turn for the Deployment of models with <u><link=\"rulebook-hidden\">Hidden</link></u> or <u><link=\"ong-surprise\">Surprise</link></u>."
   },
   {
     "Id": "ong-netter",
     "Name": "Netter",
     "Type": "Global",
-    "Description": "Afflict(-3 Off)"
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u>(-3 Off)"
   },
   {
     "Id": "ong-headhunter",
     "Name": "Headhunter",
     "Type": "Global",
-    "Description": "The model part with Goblin gains March and Shoot, Poison Attacks (Melee and Shooting), and gains Throwing Weapons (4+) with Shots 3."
+    "Description": "The model part with Goblin gains <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u> (Melee and Shooting), and gains Throwing Weapons (4+) with Shots 3."
   },
   {
     "Id": "ong-mauler",
     "Name": "Mauler",
     "Type": "Global",
-    "Description": "The model part with Goblin gains Fury, First Strike(Hatred), and gains a Great Weapon."
+    "Description": "The model part with Goblin gains <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>), and gains a Great Weapon."
   },
   {
     "Id": "ong-surprise",
     "Name": "Surprise",
     "Type": "Global",
-    "Description": "The model cannot be deployed normally. Instead, at the start of any Player Turn, the owner may choose a friendly non-Shaken  Unengaged unit of Goblin Rabble or Gogtuk Neophytes. Any unit can be chosen up to three times per Player Turn. Deploy the model with <u><link=\"surprise\">Surprise</link></u> within 3\" of the chosen unit and more than 1\" away from any Impassable Terrain and other units. If the model is not deployed by the end of Game Turn 4, it is Destroyed and is removed as a casualty."
+    "Description": "The model cannot be Deployed normally.\nInstead, at the start of any Player Turn, the owner may choose a friendly non-Shaken Unengaged unit of Goblin Rabble or Gogtuk Neophytes:\n Deploy the model with Surprise within 3\" of the chosen unit and more than 1\" away from any Impassable Terrain and other units.\nIf the model is not Deployed by the end of Game Turn 4, it is removed as a casualty."
   },
   {
     "Id": "ong-force_of_destruction",
     "Name": "Force of Destruction",
     "Type": "Equipment",
-    "Description": "The model must perform a move in the Movement Phase if able to, and cannot declare any Charges; other units cannot Declare any Charges against the model. The model and other units ignore each other regarding the Unit Spacing rule for all movement and can touch and move through one another during any movement (excluding Ambush).\nWhen the model touches another unit, the model is immediately removed as a casualty, and the other unit immediately suffers X hits with the model's Str and AP. If several units are touched simultaneously, the owner of the model with <u><link=\"force_of_destruction\">Force of Destruction</link></u> chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it, that unit suffers an additional D6 hits.\n\nHealth Point losses caused by <u><link=\"force_of_destruction\">Force of Destruction</link></u> in the Charge Phase do not cause Panic Test."
+    "Description": "Charges cannot be declared against the model with <u><link=\"ong-force_of_destruction\">Force of Destruction</link></u>.\nThis model is ignored by other units and ignores them for the purpose of Unit Spacing. It may contact and move through other units, and other units may contact and move through it (excluding <u><link=\"rulebook-ambush\">Ambush</link></u>). When this model comes into contact with another unit, it is immediately removed as a casualty, and the other unitimmediately suffers X hits with the model’s Strength and Armour Penetration, and it is immediately removed as a casualty.\nIf several units come into contact simultaneously, the owner of the model with <u><link=\"ong-force_of_destruction\">Force of Destruction</link></u> chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it, that unit suffers an additional D6 hits. Health Point losses caused by <u><link=\"ong-force_of_destruction\">Force of Destruction</link></u> in the Charge Phase do not cause Panic Test."
   },
   {
     "Id": "ong-brood_rivalry",
     "Name": "Brood Rivalry",
     "Type": "Equipment",
-    "Description": "The model part gains +1 Att while another friendly unit is Engaged in Combat, anywhere on the Battlefield. Units composed entirely of Characters cannot benefit from this rule."
+    "Description": "The model part gains +1 Att while another friendly unit is Engaged in Combat anywhere on the Battlefield.\nOnly Rank-and-File units can benefit from this rule.\nNote: when Engaged in Combat, any non-Rank-and-File unit still counts as a unit Engaged in Combat for other units."
   },
   {
     "Id": "rulebook-general",
@@ -2571,13 +2607,13 @@
     "Id": "ong-crude_weapons",
     "Name": "Crude Weapons",
     "Type": "Equipment",
-    "Description": "The model cannot benefit from Parry. After the First Round of Combat, and until the model is no longer Engaged in Combat, all its Melee Weapons count as Hand Weapon for all rules purposes."
+    "Description": "The model can never benefit from <u><link=\"rulebook-parry\">Parry</link></u>.\nAfter the First Round of Combat, all the model parts Melee Weapons count as a Hand Weapon for all rules purposes. Duration: End of Combat."
   },
   {
     "Id": "ong-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"ong-brood_rivalry\">Brood Rivalry</link></u>, Unruly, and gains Orc."
+    "Description": "The model gains <u><link=\"ong-brood_rivalry\">Brood Rivalry</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and gains Orc."
   },
   {
     "Id": "ong-skewerer",
@@ -2589,55 +2625,25 @@
     "Id": "ong-poisoned_spear",
     "Name": "Poisoned Spear",
     "Type": "Equipment",
-    "Description": "Spear. Poison Attacks."
+    "Description": "Spear. <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>."
   },
   {
     "Id": "ong-green_tide",
     "Name": "Green Tide",
     "Type": "Global",
-    "Description": "Natural to-wound rolls of ‘1’ with Melee Attacks from friendly units within 8\" must be rerolled."
+    "Description": "To-wound rolls of ‘1’ with Melee Attacks from friendly units within 8″ must be rerolled."
   },
   {
     "Id": "ong-symbol_of_the_warborn_alliance",
     "Name": "Symbol of the Warborn Alliance",
     "Type": "Global",
-    "Description": "The model can cast <u><link=\"guile_and_fury\">Guile and Fury</link></u> (Hereditary Spell) as a Bound Spell(5+). Each time the model attempts to cast the Bound Spell, the owner must choose which version to cast."
+    "Description": "The model can cast Guile and Fury (Hereditary Spell) as a Bound Spell(5+). Each time the model attempts to cast the Bound Spell, the owner must choose which version to cast."
   },
   {
     "Id": "ong-troll_toll",
     "Name": "Troll Toll",
     "Type": "Equipment",
-    "Description": " - Attack Attribute -- Close Combat\nFor each Regeneration Save the model fails against enemy Melee Attacks, the model immediately performs a Standard Melee Attack against the unit that caused the wound, before any casualties are removed, that is allocated onto the attacking model's Health Pool.\nFor each Regeneration Save the model fails against enemy Melee Attacks, the model immediately performs a Standard Melee Attack against the unit that caused the wound, before any casualties are removed, that is allocated onto the attacking model's Health Pool."
-  },
-  {
-    "Id": "goblin_cunning",
-    "Name": "Goblin Cunning",
-    "Type": "General",
-    "Description": "Immediately before taking any Courage Test, which is not automatically passed; units consisting entirely of models with <u><link=\"goblin_cunning\">Goblin Cunning</link></u>, may choose to fail the Courage Test, instead of rolling for it."
-  },
-  {
-    "Id": "creepycrawlies",
-    "Name": "Creepy-Crawlies",
-    "Type": "General",
-    "Description": "The model gains Ghost Step, and model parts with Mount gain Poison Attacks."
-  },
-  {
-    "Id": "surprise",
-    "Name": "Surprise",
-    "Type": "General",
-    "Description": "The model cannot be deployed normally. Instead, at the start of any Player Turn, the owner may choose a friendly non-Shaken  Unengaged unit of Goblin Rabble or Gogtuk Neophytes. Any unit can be chosen up to three times per Player Turn. Deploy the model with <u><link=\"surprise\">Surprise</link></u> within 3\" of the chosen unit and more than 1\" away from any Impassable Terrain and other units. If the model is not deployed by the end of Game Turn 4, it is Destroyed and is removed as a casualty."
-  },
-  {
-    "Id": "force_of_destruction",
-    "Name": "Force of Destruction",
-    "Type": "General",
-    "Description": "The model must perform a move in the Movement Phase if able to, and cannot declare any Charges; other units cannot Declare any Charges against the model. The model and other units ignore each other regarding the Unit Spacing rule for all movement and can touch and move through one another during any movement (excluding Ambush).\nWhen the model touches another unit, the model is immediately removed as a casualty, and the other unit immediately suffers X hits with the model's Str and AP. If several units are touched simultaneously, the owner of the model with <u><link=\"force_of_destruction\">Force of Destruction</link></u> chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it, that unit suffers an additional D6 hits.\n\nHealth Point losses caused by <u><link=\"force_of_destruction\">Force of Destruction</link></u> in the Charge Phase do not cause Panic Test."
-  },
-  {
-    "Id": "guile_and_fury",
-    "Name": "Guile and Fury",
-    "Type": "General",
-    "Description": "Can be cast in one of two versions:\nAugment:\nCannot be cast by a Goblin.\nThe target gains +1 to hit, and its Charge Range, Flee Distance, and Pursuit Distance are increased by 1\".\nHex:\nCannot be cast by an Orc.\nThe target suffers -1 to hit, and its Charge Range, Flee Distance, and Pursuit Distance are reduced by 1\"."
+    "Description": "For each Regeneration Save the model with this rule fails against an enemy Melee Attack, it may immediately perform a Standard Melee Attack towards the unit that caused the wound, before any casualties are removed.\nThis attack is allocated onto the attacking model’s Health Pool, and is not taken into account when determining the amount of attacks the model with Troll Toll can make due to Restricted Attacks."
   },
   {
     "Id": "ong-still_kickin",
@@ -3723,31 +3729,31 @@
     "Id": "ong-big_brother",
     "Name": "Big Brother",
     "Type": "General",
-    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for Stomp Attack is Maximised."
+    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is Maximised."
   },
   {
     "Id": "ong-beloved_mascot",
     "Name": "Beloved Mascot",
     "Type": "General",
-    "Description": "Afflict(-2 Def)."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u>(-2 Def)."
   },
   {
     "Id": "ong-giant_club",
     "Name": "Giant Club",
     "Type": "General",
-    "Description": "- Melee Weapon\n\n+1 Str and +1 AP.\n\n\t+1 Str and +1 AP."
+    "Description": "+1 Str and +1 AP."
   },
   {
     "Id": "ong-armed_to_the_teeth",
     "Name": "Armed to the Teeth",
     "Type": "General",
-    "Description": "- Melee Weapon\n\nThe model gains Weapon Master and its Arm is set to 2.\nAt the start of each Round of Combat that the model is fighting, if the model is within 12\" of one or more friendly models that are equipped with a Great Weapon, Paired Weapons, and/or Shield, the model gains the corresponding equipment until the end of the Round of Combat.\n\n\tThe model gains Weapon Master and its Arm is set to 2.\n\tAt the start of each Round of Combat that the model is fighting, if the model is within 12\" of one or more friendly models that are equipped with a Great Weapon, Paired Weapons, and/or Shield, the model gains the corresponding equipment until the end of the Round of Combat."
+    "Description": "The model gains <u><link=\"rulebook-weapon_master\">Weapon Master</link></u> and its Armour value is set to 2.\nAt the start of each Round of Combat that the model is fighting, if the model is within 12\" of one or more friendly models that are equipped with a Great Weapon, Paired Weapons, and/or Shield, the model gains the corresponding equipment, with Duration: Round of Combat ."
   },
   {
     "Id": "ong-gnasher_dashers",
     "Name": "Gnasher Dashers",
     "Type": "General",
-    "Description": "The model gains Fly, Hard Target(1), Light Troops, Skirmisher, Extra Support(2)."
+    "Description": "The model gains <u><link=\"rulebook-fly\">Fly</link></u>, <u><link=\"rulebook-hard_target\">Hard Target</link></u>(1), <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>, <u><link=\"rulebook-extra_support\">Extra Support</link></u>(2)."
   },
   {
     "Id": "ong-git_launcher",
@@ -3759,19 +3765,19 @@
     "Id": "ong-goblin_gardens",
     "Name": "Goblin Gardens",
     "Type": "General",
-    "Description": "During Pre-game Selections, you may choose a Terrain Type from: Field, Forest, Ruins, Water Terrain. All models (friend and foe) treat Terrain Features of the chosen Terrain Type as Dangerous Terrain(6+). In addition, friendly models with Goblin gain Strider(X), where X is the chosen Terrain."
+    "Description": "During Pre-game Selections, you may choose a Terrain Type from: Field, Forest, Ruins, Water Terrain.\nAll models (friend and foe) treat Terrain Features of the chosen Terrain Type as <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u>(6+).\nIn addition, friendly models with Goblin gain <u><link=\"rulebook-strider\">Strider</link></u>(X), where X is the chosen Terrain."
   },
   {
     "Id": "ong-spies",
     "Name": "Spies",
     "Type": "General",
-    "Description": "The model gains , Light Troops, Vanguard."
+    "Description": "The model gains <u><link=\"rulebook-light_troops\">Light Troops</link></u> and <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
   },
   {
     "Id": "ong-creepers",
     "Name": "Creepers",
     "Type": "General",
-    "Description": "The model gains Hard Target(1), Light Troops, Scout, Skirmisher, Strider."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target</link></u>(1), <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-scout\">Scout</link></u>, <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>, <u><link=\"rulebook-strider\">Strider</link></u>."
   },
   {
     "Id": "ong-immense_bulk",
@@ -3783,7 +3789,7 @@
     "Id": "ong-slithering_frame",
     "Name": "Slithering Frame",
     "Type": "General",
-    "Description": "The model gains Regeneration(5+), Random Movement(3D6\")."
+    "Description": "The model gains <u><link=\"rulebook-regeneration\">Regeneration</link></u>(5+), <u><link=\"rulebook-random_movement\">Random Movement</link></u>(3D6\")."
   },
   {
     "Id": "ong-scarred_carapace",
@@ -3795,79 +3801,73 @@
     "Id": "ong-wicked_horns",
     "Name": "Wicked Horns",
     "Type": "General",
-    "Description": "The model gains Frenzy, Impact Hits(D6), Unruly."
+    "Description": "The model gains <u><link=\"rulebook-frenzy\">Frenzy</link></u>, <u><link=\"rulebook-impact_hits\">Impact Hits</link></u>(D6), <u><link=\"rulebook-unruly\">Unruly</link></u>."
   },
   {
     "Id": "ong-orc_horde",
     "Name": "Orc Horde",
     "Type": "General",
-    "Description": "The model gains Fearless."
+    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u>."
   },
   {
     "Id": "ong-huntsman_spider",
     "Name": "Huntsman Spider",
     "Type": "General",
-    "Description": "The model gains Creepy-Crawlies, and its base size is changed to 50×50 mm.\n\n\tThe model gains\\ Creepy-Crawlies, and its base size is changed to 50×50 mm."
+    "Description": "The model gains <u><link=\"ong-creepycrawlies\">Creepy-Crawlies</link></u>, and its base size is changed to 50×50 mm."
   },
   {
     "Id": "ong-cave_troll",
     "Name": "Cave Troll",
     "Type": "General",
-    "Description": "The model's Arm is set to 3 and it gains Strider(Ruins)."
+    "Description": "The model's Arm is set to 3 and it gains <u><link=\"rulebook-strider\">Strider</link></u>(Ruins)."
   },
   {
     "Id": "ong-bridge_troll",
     "Name": "Bridge Troll",
     "Type": "General",
-    "Description": "The model gains Distracting(1), Strider(Water Terrain)."
+    "Description": "The model gains <u><link=\"rulebook-distracting\">Distracting</link></u>(1), <u><link=\"rulebook-strider\">Strider</link></u>(Water Terrain)."
   },
   {
     "Id": "ong-forest_troll",
     "Name": "Forest Troll",
     "Type": "General",
-    "Description": "The model gains Magic Resistance(3), Strider(Forest)."
+    "Description": "The model gains <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>(3), <u><link=\"rulebook-strider\">Strider</link></u>(Forest)."
   },
   {
     "Id": "ong-big_wing",
     "Name": "Big Wing",
     "Type": "General",
-    "Description": "The model gains Stomp Attack(D3+1) and its base size is changed to 75×100 mm.\n\n\tThe model gains\\ Stomp Attack(D3+1) and its base size is changed to 75×100 mm."
+    "Description": "The model gains <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>(D3+1) and its base size is changed to 75×100 mm."
   },
   {
     "Id": "ong-tribe_leader",
     "Name": "Tribe Leader",
     "Type": "General",
-    "Description": "If the General is a Tribe Leader, apply the following changes to Army List creation:\n\t\n\t\t\n  •  Max. 10% of the Army Points may be spent on units entirely with Goblin.\n\t\t\n  •  The Duplication Limits Max. X items/army (i.e. Max. X units/army, Max. X models/army, and ) and Rarity in the unit profiles of certain units entirely with Orc are modified, as indicated by TL X.\nFor example, Max. 1  units/army means that if the General is a Tribe Leader, the Duplication Limit becomes Max. 2 units/army and Uncommon (TL Regular) means that if the General is a Tribe Leader, Rarity becomes Regular."
+    "Description": "If the General is a Tribe Leader, apply the following changes to Army List creation:\n   • Max. 10% of the Army Points may be spent on units entirely with Goblin.\n   • The Rarity and Duplication Limits ‘Max. X items/army’ (i.e. ‘max. X units/army’, ‘max. X models/army’, and ‘max. X per army’) in the unit profiles of certain units entirely with Orc are modified, as indicated by ‘TL X’. For example, Uncommon (TL Regular) means that if the General is a Tribe Leader, the Rarity becomes Regular,whereas ‘max. 1 (TL 2) units/army’ means that if the General is a Tribe Leader, the Duplication Limit becomes ‘max. 2 units/army’."
   },
   {
     "Id": "ong-darrmu",
     "Name": "Darrmu",
     "Type": "General",
-    "Description": "If the General is a Darrmu, apply the following changes to Army List creation:\n\t\n\t\t\n  •  Max. 10% of the Army Points may be spent on units entirely with Orc.\n\t\t\n  •  The Duplication Limits Max. X items/army (i.e. Max. X units/army, Max. X models/army, and ) and Rarity in the unit profiles of certain units entirely with Goblin are modified, as indicated by D X.\nFor example, Max. 1  units/army means that if the General is a Darrmu, the Duplication Limit becomes Max. 2 units/army and Uncommon (D Regular) means that if the General is a Darrmu, Rarity becomes Regular."
+    "Description": "If the General is a Darrmu, apply the following changes to Army List creation:\n   • Max. 10% of the Army Points may be spent on units entirely with Orc.\n   • The Rarity and Duplication Limits ‘Max. X items/army’ (i.e. ‘max. X units/army’, ‘max. X models/army’, and ‘max. X per army’) in the unit profiles of certain units entirely with Goblin are modified, as indicated by ‘D X’. For example, Uncommon (D Regular) means that if the General is a Darrmu, the Rarity becomes Regular, whereas ‘max. 1 (D 2) units/army’ means that if the General is a Darrmu, the Duplication Limit becomes ‘max. 2 units/army’"
   },
   {
     "Id": "ong-headbashers",
     "Name": "Headbashers",
     "Type": "General",
-    "Description": "Legendary.\nUnits containing Headbashers gain Bodyguard(General), and Rank-and-File model parts with Orc in the unit gain Lethal Strike. Additionally, units entirely with Headbashers that count towards Core count towards Special instead."
+    "Description": "Units containing Headbashers gain <u><link=\"rulebook-bodyguard\">Bodyguard</link></u>(General), and Rank-and-File model parts with Orc in the unit gain <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>. Additionally, units entirely with Headbashers that count towards Core count towards Special instead."
   },
   {
     "Id": "ong-war_cry",
     "Name": "War Cry!",
     "Type": "General",
-    "Description": "One use only. Duration: One Turn. May be activated at the start of any friendly Player Turn, provided the General is on the Battlefield and not Shaken. Apply the following effects:\t\n\t\t\n  •  Friendly units gain +1\" Cha and +1\" Mob.\n\t\t\n  •  If the General is a Goblin Demagogue or a Goblin Witch,  friendly units entirely with Goblin, while not Engaged in Combat, gain Light Troops.\n\t\t\n  •  If the General is an Orc Warlord or an Orc Shaman, friendly units entirely with Orc have their Charge Range rolls Maximised."
-  },
-  {
-    "Id": "ong-guile_and_fury",
-    "Name": "Guile and Fury",
-    "Type": "General",
-    "Description": "Can be cast in one of two versions:\nAugment:\n\tCannot be cast by a Goblin.\n\tThe target gains +1 to hit, and its Charge Range, Flee Distance, and Pursuit Distance are increased by 1\".\n\nHex:\n\tCannot be cast by an Orc.\nThe target suffers -1 to hit, and its Charge Range, Flee Distance, and Pursuit Distance are reduced by 1\"."
+    "Description": "One use only. May be activated at the start of any friendly Player Turn, provided the General is on the Battlefield and not Shaken: apply the following effects, with Duration: One Turn.\n   • Friendly units gain +1\" Charge Speed and +1\" Mobility.\n   • If the General is a Goblin Demagogue or a Goblin Witch, friendly units entirely with Goblin gain Light Troops as long as they are not Engaged in Combat.\n   • If the General is an Orc Warlord or an Orc Shaman, friendly units entirely with Orc have their Charge Range rolls Maximised."
   },
   {
     "Id": "ong-omen_of_the_apocalypse",
     "Name": "Omen of the Apocalypse",
     "Type": "General",
-    "Description": "+X Att, +X Str, and +X AP. X is equal to the number of friendly units containing Orc that are Engaged in Combat anywhere on the Battlefield, up to a maximum of +3."
+    "Description": "+X Att, +X Str, and +X AP.\nX is equal to the number of friendly units containing Orc that are Engaged in Combat anywhere on the Battlefield, up to a maximum of +3."
   },
   {
     "Id": "ong-attack_gnasher",
@@ -3885,19 +3885,19 @@
     "Id": "ong-troll_hide",
     "Name": "Troll Hide",
     "Type": "General",
-    "Description": "Mob is set to 6\". The model's base is changed to 40×40 mm and its Height is set to 3. The model's base change cannot be ignored."
+    "Description": "Mob is set to 6\".\nThe model's base is changed to 40×40 mm and its Height is set to 3. The model's base change cannot be ignored."
   },
   {
     "Id": "ong-goga_cauldron",
     "Name": "Goga Cauldron",
     "Type": "General",
-    "Description": "One use only. May be activated at the start of any Phase. Until the end of the Player Turn, the bearer’s unit gains Fearless, Unstable, Dying Blow."
+    "Description": "One use only. May be activated at the start of any Phase, or when Choosing Equipment and Abilities.\nThe bearer’s unit gains <u><link=\"rulebook-dying_blow\">Dying Blow</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u> Duration: End of Turn ."
   },
   {
     "Id": "ong-skull_fetish",
     "Name": "Skull Fetish",
     "Type": "General",
-    "Description": "During the Siphon the Veil step of your Magic Phase, the  wearer may gain Channel(D3) with Duration: One Turn. If a ‘3’ is rolled for this, all units within 6\" of the wearer, suffer the Witchfire Miscast effect, where X is equal to 5."
+    "Description": "During the Siphon the Veil step of your Magic Phase, the  wearer may gain <u><link=\"rulebook-channel\">Channel</link></u>(D3) with Duration: One Phase.\nIf a ‘3’ is rolled for this, all units within 6\" of the wearer, suffer the Witchfire Miscast effect, where X is equal to 5."
   },
   {
     "Id": "ong-monster_munch",
@@ -3909,37 +3909,25 @@
     "Id": "ong-pan_of_protection_pinchin",
     "Name": "Pan of Protection Pinchin'",
     "Type": "General",
-    "Description": "When successfully wounded, the bearer may choose to use the attacker's Arm and/or its Special Save:\t\t\t\n  •  Use the Arm that the attacking model would have against the Attack that inflicted the wound (including Conditional Application, modifiers, etc.). If so, the bearer cannot use its own Arm (including any modifiers), if available.\t\t\n  •  Use the Special Save that the attacking model would have against the Attack that inflicted the wound (including Conditional Application, modifiers, etc.). If so, the bearer cannot use its own Special Save (including any modifiers), if available."
+    "Description": "When successfully wounded, the wearer may choose to use the attacker’s Armour value and/or Special Save:\n   • Use the total Armour value that the attacking model would have against the attack that inflicted the wound (including conditional application, modifiers, etc.). If so, the wearer cannot use its own Armour value (including any modifiers), if available.\n   • Use the Special Save that the attacking model would have against the attack that inflicted the wound (including conditional application, modifiers, etc.). If so, the bearer cannot use its own Special Save (including any modifiers), if available."
   },
   {
     "Id": "ong-gnasher_bait",
     "Name": "Gnasher Bait",
     "Type": "General",
-    "Description": "Friendly Gnashers units within 18\" gain Frenzy, Fury, and their Charge Range rolls are Maximised."
+    "Description": "Friendly Gnashers units within 18\" gain <u><link=\"rulebook-frenzy\">Frenzy</link></u>, <u><link=\"rulebook-fury\">Fury</link></u>, and their Charge Range rolls are Maximised."
   },
   {
     "Id": "ong-moon_shrooms",
     "Name": "Moon Shrooms",
     "Type": "General",
-    "Description": "Cannot be activated at the same turn as War Cry! The bearer's unit acts as if the General had used War Cry! this turn."
+    "Description": "Cannot be activated at the same turn as <u><link=\"ong-war_cry\">War Cry!</link></u> The bearer's unit acts as if the General had used <u><link=\"ong-war_cry\">War Cry!</link></u> this turn."
   },
   {
     "Id": "ong-splatterer",
     "Name": "Splatterer",
     "Type": "General",
     "Description": "Aim 4+, Range 48\", Shots 1, Str 7, AP 3, Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
-  },
-  {
-    "Id": "ong-green_tide_aura",
-    "Name": "Green Tide",
-    "Type": "General",
-    "Description": "/subsection{green_tide}"
-  },
-  {
-    "Id": "ong-omen_of_the_apocalypse_aura",
-    "Name": "Omen of the Apocalypse",
-    "Type": "General",
-    "Description": "/subsection{omen_of_the_apocalypse}"
   },
   {
     "Id": "ong-born_in_fire",
@@ -5151,61 +5139,61 @@
     "Id": "koe-chosen_of_the_snow_childe",
     "Name": "Chosen of the Snow Childe",
     "Type": "General",
-    "Description": "When performing its Standard Melee Attacks, the ‘Fey Rider’ model part gains +1 Att for each enemy model in contact with it; moreover, its Standard Melee Attacks ignore <u><link=\"rulebook-parry\">Parry</link></u>."
+    "Description": "- Attack Attribute\n\nLegendary.\n\nWhen performing its Standard Melee Attacks, the Fey Rider gains +1 Att for each enemy model in contact with it. The Fey Rider’s Standard Melee Attacks ignore Parry.\n\n\tLegendary.\n\nWhen performing its Standard Melee Attacks, the Fey Rider gains +1 Att for each enemy model in contact with it. The Fey Rider’s Standard Melee Attacks ignore Parry."
   },
   {
     "Id": "koe-warden_of_the_hooded_man",
     "Name": "Warden of the Hooded Man",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-terror\">Terror</link></u>.\nThe ‘Fey Rider’ model part gains a Lance, and its Standard Melee Attacks gain <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, against Height 4–5)."
+    "Description": "Legendary.\n\nThe model gains Terror. The Fey Rider gains a Lance and its Standard Melee Attacks gain Multiple Wounds(2, towards Height 4-5)."
   },
   {
     "Id": "koe-solemn_oath",
     "Name": "Solemn Oath",
     "Type": "General",
-    "Description": "The restriction on the maximum number of Proper Ranks for Rank Bonus purposes from <u><link=\"koe-lance_formation\">Lance Formation</link></u> is increased to four for the bearer´s unit."
+    "Description": "The restriction on the maximum number of Proper Ranks for Rank Bonus purposes from Lance Formation is increased to four for the bearer´s unit."
   },
   {
     "Id": "koe-knights_forlorn",
     "Name": "Knights Forlorn",
     "Type": "General",
-    "Description": "The model gains <u><link=\"koe-nobility\">Nobility</link></u> and Bastard Sword."
+    "Description": "The model gains Nobility and Bastard Sword."
   },
   {
     "Id": "koe-ordo_wardens",
     "Name": "Ordo Wardens",
     "Type": "General",
-    "Description": "The model gains <u><link=\"koe-clergy\">Clergy</link></u> and Great Weapon."
+    "Description": "The model gains Clergy and Great Weapon."
   },
   {
     "Id": "koe-castle_guard",
     "Name": "Castle Guard",
     "Type": "General",
-    "Description": "The model gains <u><link=\"koe-commonfolk\">Commonfolk</link></u> and Spear."
+    "Description": "The model gains Commonfolk and Spear."
   },
   {
     "Id": "koe-courtier_of_the_dusk",
     "Name": "Courtier of the Dusk",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u>(2).\nThe unit selects its spells from the following:\n   • Fountain of Youth (Druidism)\n   • Stone Skin (Druidism)\n   • Evil Eye (Witchcraft)\n   • Soured Luck (Witchcraft)"
+    "Description": "Gallantry(1)\nThe model gains Wizard Conclave(2).\nThe unit selects its spells from the following:"
   },
   {
     "Id": "koe-knight_banneret",
     "Name": "Knight Banneret",
     "Type": "General",
-    "Description": "A unit containing a Knight Banneret adds +1 to the Combat Score of its side.\nIn addition, it can take a single Banner Enchantment from the list of Army Specific Magic Items."
+    "Description": "Uncommon\n\n\nA unit containing a Knight Banneret adds +1 to the Combat Score of its side. It can take a single Banner Enchantment and can only do so from the list of Army Specific Magic Items.\n\nA unit containing a Knight Banneret adds +1 to the Combat Score of its side. It can take a single Banner Enchantment and can only do so from the list of Army Specific Magic Items."
   },
   {
     "Id": "koe-prepared_position",
     "Name": "Prepared Position",
     "Type": "General",
-    "Description": "When Deploying the unit, you may place a Wall fully within 1\" of the unit’s Front Facing, and not in contact with any other Terrain Features.\nThis Wall cannot be wider than 1\", nor longer than 8\". It follows the normal rules for Walls, with the exception that it is Covering Terrain (Height 1) instead of Height 3."
+    "Description": "Uncommon\n\nWhen Deploying the unit, you may place a Wall fully within 1\" of the unit’s Front Facing but not in contact with any other Terrain Features. This Wall cannot be wider than 8\". It follows the normal rules for Walls, with the exception that it is Covering Terrain (Height 1) instead of (Height 3).\n\nWhen Deploying the unit, you may place a Wall fully within 1\" of the unit’s Front Facing but not in contact with any other Terrain Features. This Wall cannot be wider than 8\". It follows the normal rules for Walls, with the exception that it is Covering Terrain (Height 1) instead of (Height 3)."
   },
   {
     "Id": "koe-sainted",
     "Name": "Sainted",
     "Type": "General",
-    "Description": "The model part gains +1 Att, and the model gains Fearless.\nThe model is always considered to be under the effect of all <u><link=\"koe-orisons\">Orisons</link></u> at the same time (i.e. Discipline set to 9, +2 Off, Aegis (5+), <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, ignore <u><link=\"rulebook-parry\">Parry</link></u>).\nThis does not prevent the model’s unit from being the target of an <u><link=\"koe-orisons\">Orison</link></u>, although the model itself does not benefit from this additional <u><link=\"koe-orisons\">Orison</link></u>."
+    "Description": "Legendary. Cannot be taken by the Battle Standard Bearer.\n\nThe model gains Fearless and the model part gains +1 Att. The model is always considered to be under the effect of all Orisons (i.e. Aegis(5+), Magical Attacks, +2 Off, Dis 9). This does not prevent the model’s unit from being the target of an Orison, although the model itself does not benefit from this additional Orison.\n\nThe model gains Fearless and the model part gains +1 Att. The model is always considered to be under the effect of all Orisons (i.e. Aegis(5+), Magical Attacks, +2 Off, Dis 9). This does not prevent the model’s unit from being the target of an Orison, although the model itself does not benefit from this additional Orison."
   },
   {
     "Id": "koe-beloved",
@@ -5241,73 +5229,73 @@
     "Id": "koe-minstrel",
     "Name": "Minstrel",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-musician\">Musician</link></u> and is a Wizard Apprentice that uses Divination as its Path of Magic."
+    "Description": "The model gains Musician and is a Wizard Apprentice that uses Divination as its Path of Magic."
   },
   {
     "Id": "koe-cleric",
     "Name": "Cleric",
     "Type": "General",
-    "Description": "The model gains Holy Vows, <u><link=\"koe-clergy\">Clergy</link></u>, <u><link=\"koe-ordo_minister\">Ordo Minister</link></u>, and loses <u><link=\"koe-commonfolk\">Commonfolk</link></u>."
+    "Description": "The model gains Holy Vows, Clergy, Ordo Minister, and loses Commonfolk."
   },
   {
     "Id": "koe-castellan",
     "Name": "Castellan",
     "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-captain\">Captain</link></u> and <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>(6\", <u><link=\"koe-commonfolk\">Commonfolk</link></u>)."
+    "Description": "The model part gains Captain and Commanding Presence(6\", Commonfolk)."
   },
   {
     "Id": "koe-excellence",
     "Name": "Excellence",
     "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-zeal\">Zeal</link></u>, and any Melee Attacks it allocates towards a Character gains +2 AP."
+    "Description": "The model part gains Zeal and its Melee Attacks allocated towards a Character gain +2 AP."
   },
   {
     "Id": "koe-forbearance",
     "Name": "Forbearance",
     "Type": "General",
-    "Description": "When using a Shield, the model gains <u><link=\"rulebook-distracting\">Distracting</link></u>(1)."
+    "Description": "When using a Shield, the model gains Distracting(1)."
   },
   {
     "Id": "koe-generosity",
     "Name": "Generosity",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u> and <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Rank-andFile).\nIn addition, Rank-and-File models with <u><link=\"koe-nobility\">Nobility</link></u> in the unit that the bearer is Deployed in gain a <u><link=\"koe-bastard_sword\">Bastard Sword</link></u> and Weapon Master. Duration: Permanent."
+    "Description": "The model gains Attached, Exclusive(Rank-and-File).\\\nRank-and-File models with Nobility in the unit that the bearer is deployed in gain a Bastard Sword and Weapon Master until the end of the game."
   },
   {
     "Id": "koe-justice",
     "Name": "Justice",
     "Type": "General",
-    "Description": "At the end of Agility Step 0, the model performs X additional Standard Melee Attacks, where ‘X’ is equal to the number of HP losses suffered in the Round of Combat by Rank-and-File models in the bearer’s unit.\n‘X’ can never be greater than 3.\nIf the model is unable to perform the additional attacks granted by Justice, those attacks are lost."
+    "Description": "At Agility Step 0, the model performs X additional Standard Melee Attacks, where X is equal to the number of HP losses suffered in the Round of Combat by Rank-and-File models in the bearer’s unit. X can never be greater than 3.\\\nNote that HP losses suffered at Agility step 0 also apply. If the model is unable to perform the additional Attacks granted by Justice, these Attacks are lost."
   },
   {
     "Id": "koe-valour",
     "Name": "Valour",
     "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, towards Res 5 or more)."
+    "Description": "The bearer gains Fearless and its Standard Melee Attacks gain Multiple Wounds(2, towards Res 5 or more)."
   },
   {
     "Id": "koe-honour",
     "Name": "Honour",
     "Type": "General",
-    "Description": "The model part gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+2 Att), and its unit’s Charge Range rolls gain Maximised."
+    "Description": "The model's unit's Charge Range rolls are Maximised.  The model gains Devastating Charge(+2 Att)."
   },
   {
     "Id": "koe-faith",
     "Name": "Faith",
     "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-fearless\">Fearless</link></u> and Holy Vows.\nMoreover, if its unit is the target of an <u><link=\"koe-orisons\">Orison</link></u> while Engaged in Combat, add one Blessing Token to your pool."
+    "Description": "The bearer gains Holy Vows and Fearless. If the bearer’s unit is the target of an Orison while Engaged in Combat, add one Blessing Token to your pool."
   },
   {
     "Id": "koe-the_blessing",
     "Name": "The Blessing",
     "Type": "General",
-    "Description": "Unit profiles in this Army Book contain an additional Characteristic: Aegis(Aeg). This gives the unit rule <u><link=\"rulebook-aegis\">Aegis</link></u>(X+), where X is the Aeg value. Lack of an Aeg value does not prevent a unit from being affected by Aegis modifiers."
+    "Description": "Unit profiles in this Army Book contain an additional Characteristic: Aegis(Aeg). This gives the unit rule Aegis(X+), where X is the Aeg value. Lack of an Aeg value does not prevent a unit from being affected by Aegis modifiers."
   },
   {
     "Id": "koe-orisons",
     "Name": "Orisons",
     "Type": "General",
-    "Description": "During Pre-game Selections, a Kingdom of Equitaine army creates a pool of Blessing Tokens: one Blessing Token for each unit in your Army List with Holy Vows. There can never be more than 6 tokens in the pool.\nIn each Magic Phase, before ‘Casting and Dispelling Spells’ (Magic Phase, Step 5), Blessing Tokens can be used, spent as follows: discard a Token, choose a friendly unit, and apply one of the following <u><link=\"koe-orisons\">Orisons</link></u> to it. All effects have Duration : One Turn.\n\n  •  Orison of Shielding: Aegis(5+).\n\n  •  Orison of Striking: Magical Attacks, ignore Parry, and +2 Off. Model parts with Mount are not affected.\n\n  •  Orison of Discipline: Discipline is set to 9.\n\nNo unit or model can be affected by more than one of the above effects simultaneously unless specifically stated otherwise. Applying an Orison to a unit or model cancels any <u><link=\"koe-orisons\">Orisons</link></u> previously applied to it."
+    "Description": "During Pre-game Selections, a Kingdom of Equitaine army creates a pool of Blessing Tokens: one Blessing Token for each unit in your Army List with Holy Vows. There can never be more than 6 tokens in the pool.\nIn each Magic Phase, immediately after Siphon the Veil, Blessing Tokens can be used, spent as follows: discard a Token, choose a friendly unit, and apply one of the following Orisons to it. All effects have Duration : One Turn.\n\n  •  Orison of Shielding: Aegis(5+).\n\n  •  Orison of Striking: Magical Attacks, ignore Parry, and +2 Off. Model parts with Mount are not affected.\n\n  •  Orison of Discipline: Discipline is set to 9.\n\nNo unit or model can be affected by more than one of the above effects simultaneously unless specifically stated otherwise. Applying an Orison to a unit or model cancels any Orisons previously applied to it."
   },
   {
     "Id": "koe-breath_of_the_lady",
@@ -5319,31 +5307,31 @@
     "Id": "koe-divine_judgement",
     "Name": "Divine Judgement",
     "Type": "General",
-    "Description": "If the wielder successfully completes a Charge, apply the following: +2 Str, +2 AP, with Duration: End of Combat."
+    "Description": "After the wielder successfully completes a Charge, apply the following until the wielder is no longer Engaged in Combat: +2 Str and +2 AP."
   },
   {
     "Id": "koe-tristans_resolve",
     "Name": "Tristan's Resolve",
     "Type": "General",
-    "Description": "+1 Att, +1 AP.\nAfter a successful to-hit roll, the bearer may discard one of the hits made with this weapon and choose an Enchanted Weapon carried by the model the attack was allocated against: at the end of the Agility Step all Weapon Enchantments on it are ignored and the weapon ceases to be an Enchanted Weapon. Duration: Permanent"
+    "Description": "+1 Att and +1 AP. After a successful to-hit roll, the attacker may discard one of the hits with this weapon and choose an Enchanted Weapon carried by the model the Attack was allocated towards. This Weapon Enchantment is ignored for the rest of the game."
   },
   {
     "Id": "koe-uthers_mettle",
     "Name": "Uther's Mettle",
     "Type": "General",
-    "Description": "+X Att, where ‘X’ is equal to the number of ranks in a single enemy unit in contact with the wielder, up to a maximum of 4 (if in contact with multiple units, use the one with the most ranks).\nThese extra attacks can only be allocated against Rankand-File models (if the attacks cannot be allocated against Rank-and-File models, they are lost)"
+    "Description": "+X Att, where X is equal to the number of ranks of a single enemy unit in contact with the wielder, up to a maximum of 4. If multiple units, use the unit with the most ranks. These extra Attacks can only be allocated towards Rank-and-File models. If the Attacks cannot be allocated towards Rank-and-File models the Attacks are lost."
   },
   {
     "Id": "koe-mortal_reminder",
     "Name": "Mortal Reminder",
     "Type": "General",
-    "Description": "+1 Str, +1 AP, and <u><link=\"rulebook-terror\">Terror</link></u>."
+    "Description": "+1 Str, +1 AP, and Terror."
   },
   {
     "Id": "koe-prayer_etched",
     "Name": "Prayer Etched",
     "Type": "General",
-    "Description": "+1 Arm and <u><link=\"rulebook-aegis\">Aegis</link></u>(+1, max. 4+)."
+    "Description": "+1 Arm and Aegis(+1, max. 4+)."
   },
   {
     "Id": "koe-percivals_panoply",
@@ -5361,25 +5349,25 @@
     "Id": "koe-oriflamme",
     "Name": "Oriflamme",
     "Type": "General",
-    "Description": "The bearer's unit gains <u><link=\"rulebook-afflict\">Afflict</link></u>(-1 Dis) and <u><link=\"rulebook-horror\">Horror</link></u>."
+    "Description": "The bearer's unit gains Afflict(-1 Dis) and Horror."
   },
   {
     "Id": "koe-banner_of_roland",
     "Name": "Banner of Roland",
     "Type": "General",
-    "Description": "The bearer’s unit gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+, against Ranged Attacks). In addition, enemy units with Stand and Shoot cannot use this rule against the bearer’s unit."
+    "Description": "The bearer’s unit gains Aegis(5+, against Ranged Attacks). In addition, enemy units with Stand and Shoot cannot use this rule against the bearer’s unit."
   },
   {
     "Id": "koe-lords_arms",
     "Name": "Lord's Arms",
     "Type": "General",
-    "Description": "The restriction on the maximum number of Proper Ranks  from <u><link=\"koe-lance_formation\">Lance Formation</link></u> is increased to three for the bearer's unit."
+    "Description": "The restriction on the maximum number of Proper Ranks  from Lance Formation is increased to three for the bearer's unit."
   },
   {
     "Id": "koe-castellans_crest",
     "Name": "Castellan's Crest",
     "Type": "General",
-    "Description": "One use only. May be activated immediately after failing a Charge Range roll with the bearer or the bearer’s unit in the Charge Phase: the bearer or bearer’s unit must reroll its failed Charge Range roll.\nOther Characters Charging out of the bearer’s unit are not affected"
+    "Description": "One use only. May be activated immediately after failing a Charge Range roll with the bearer or the bearer’s unit in the Charge Phase. Failed Charge Range rolls of the bearer or the bearer’s unit must be rerolled until the end of the Phase: other Characters Charging out of the bearer’s unit are not affected."
   },
   {
     "Id": "koe-relic_shroud",
@@ -5391,19 +5379,19 @@
     "Id": "koe-ladys_favour",
     "Name": "Lady's Favour",
     "Type": "General",
-    "Description": "One use only. May be activated when the bearer’s unit is chosen as the target of an <u><link=\"koe-orisons\">Orison</link></u>.\nThe bearer’s unit gains the effects of all <u><link=\"koe-orisons\">Orisons</link></u>s (i.e Discipline set to 9, +2 Off, <u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and ignore <u><link=\"rulebook-parry\">Parry</link></u>), with Duration: One Turn."
+    "Description": "One use only. Duration: One turn. May be activated when the bearer's unit is chosen as the target of an Orison. The bearer's unit is considered to be under the effects of all Orisons  (i.e Aegis(5+), Magical Attacks, +2 Off and ignore Parry, Dis set to 9)."
   },
   {
     "Id": "koe-sacred_chalice",
     "Name": "Sacred Chalice",
     "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>(1). Whenever the bearer’s unit is the target of an enemy Spell the bearer gains <u><link=\"rulebook-channel\">Channel</link></u>(1) until the end of following Magic Phase."
+    "Description": "The bearer gains Magic Resistance(1). Whenever the bearer’s unit is the target of an enemy Spell the bearer gains Channel(1) until the end of following Magic Phase."
   },
   {
     "Id": "koe-black_knights_tonic",
     "Name": "Black Knight's Tonic",
     "Type": "General",
-    "Description": "The first time the bearer’s model suffers an unsaved wound from an attack with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(X), the model gains <u><link=\"rulebook-immune\">Immune</link></u>(<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>) until the end of the phase."
+    "Description": "The first time the bearer’s model suffers an unsaved wound from an attack with Multiple Wounds(X), the model gains Immune(Multiple Wounds) until the end of the phase."
   },
   {
     "Id": "koe-orison_of_discipline",
@@ -5439,37 +5427,37 @@
     "Id": "ok-leader_of_the_pack",
     "Name": "Leader of the Pack",
     "Type": "General",
-    "Description": "The Mammoth Hunter’s base size is changed to 50×50 mm.\nThe model replaces <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Yetis) with <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Sabretooth Tigers).\nWhile joined to a unit of Sabretooth Tigers, the unit gains <u><link=\"rulebook-vanguard\">Vanguard</link></u>, loses <u><link=\"rulebook-unruly\">Unruly</link></u>, and the Mammoth Hunter counts as being of the same Height as the unit for the purposes of allocating Ranged Attacks."
+    "Description": "The Mammoth Hunter's base size is changed to 50×50 mm.\nThe model replaces Exclusive(Yetis) with Exclusive(Sabretooth Tigers). While joined to a unit of Sabretooth Tigers, the unit gains Vanguard, loses Unruly, and the Mammoth Hunter counts as being  of the same Height as the unit for the purposes of allocating Ranged Attacks."
   },
   {
     "Id": "ok-big_brother",
     "Name": "Big Brother",
     "Type": "General",
-    "Description": "The model’s HP are set to 9, its base size is changed to 75×100 mm, and the roll for the number of hits it does with its <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is Maximised."
+    "Description": "- Universal Rule\n\nThe model's HP are set to 9, its base size is changed to 75×100 mm, and its roll for the number of hits for Stomp Attack is Maximised.\n\n\tThe model's HP are set to 9, its base size is changed to 75×100 mm, and its roll for the number of hits for Stomp Attack is Maximised."
   },
   {
     "Id": "ok-giant_club",
     "Name": "Giant Club",
     "Type": "General",
-    "Description": "+1 Str, +1 AP."
+    "Description": "- Melee Weapon\n\n+1 Str and +1 AP.\n\n\t+1 Str and +1 AP."
   },
   {
     "Id": "ok-iron_fist",
     "Name": "Iron Fist",
     "Type": "General",
-    "Description": "+1 Arm against Melee Attacks, +1 Att, and <u><link=\"rulebook-parry\">Parry</link></u>."
+    "Description": "+1 Arm against Melee Attacks, +1 Att, and Parry."
   },
   {
     "Id": "ok-trolleater",
     "Name": "Trolleater",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (2, towards Height 3) and <u><link=\"rulebook-regeneration\">Regeneration</link></u> (5+)."
+    "Description": "Regeneration(5+), Multiple Wounds(2, towards Height 3)."
   },
   {
     "Id": "ok-hoardmaster",
     "Name": "Hoardmaster",
     "Type": "General",
-    "Description": "+1 Arm, <u><link=\"rulebook-weapon_master\">Weapon Master</link></u>, and may not take Weapon Enchantments.\nIn addition, the bearer gains the following weapons: Great Weapon, Halberd, <u><link=\"ok-iron_fist\">Iron Fist</link></u>, and Paired Weapons"
+    "Description": "+1 Arm and Weapon Master. The model is considered equipped with: Great Weapon, Halberd, Paired Weapons, Iron Fist. It may not take Weapon Enchantments."
   },
   {
     "Id": "ok-headhunter",
@@ -5481,37 +5469,37 @@
     "Id": "ok-godspeaker",
     "Name": "Godspeaker",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>.\nThe bearer’s unit gains <u><link=\"rulebook-unstable\">Unstable</link></u> (the model may join units without <u><link=\"rulebook-unstable\">Unstable</link></u> during Deployment despite having <u><link=\"rulebook-unstable\">Unstable</link></u>)"
+    "Description": "Attached, Fearless. The model's unit gains Unstable. Despite being Unstable, the bearer may join units without Unstable during Deployment."
   },
   {
     "Id": "ok-firebrand",
     "Name": "Firebrand",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-breath_attack\">Breath Attack</link></u>(Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-resistance\">Resistance</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>). The model can cast Fireball (Pyromancy) as a Bound Spell(3+) and automatically fails all <u><link=\"rulebook-regeneration\">Regeneration</link></u> Saves."
+    "Description": "Breath Attack(Str 4, AP 0, Flaming Attacks), Flaming Attacks, Resistance(Flaming Attacks). The model can cast Fireball (Pyromancy) as a Bound Spell(3+) and automatically fails all Regeneration Saves."
   },
   {
     "Id": "ok-gut_roarer",
     "Name": "Gut Roarer",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-channel\">Channel</link></u> (1), <u><link=\"rulebook-horror\">Horror</link></u>."
+    "Description": "Channel (1), Horror."
   },
   {
     "Id": "ok-spinesplitter",
     "Name": "Spinesplitter",
     "Type": "General",
-    "Description": "The model part gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 Att, +1 Str, +1 AP)."
+    "Description": "The model part gains Devastating Charge(+1 Att, +1 Str, +1 AP)."
   },
   {
     "Id": "ok-rottenjaw",
     "Name": "Rottenjaw",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-immune\">Immune</link></u> (<u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>) and <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>.\nFriendly Kin-Eater units may reroll failed <u><link=\"rulebook-ambush\">Ambush</link></u> rolls while the bearer is on the Battlefield."
+    "Description": "Poison Attacks, Immune(Poison Attacks). Friendly Kin-Eater units may reroll failed Ambush rolls while the model is on the Battlefield."
   },
   {
     "Id": "ok-scraplord",
     "Name": "Scraplord",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> (12\", Scrapling).\nAs long as the model is joined to a unit of Scraplings, its model counts as being of the same Height as its unit for the purposes of allocating Ranged Attack."
+    "Description": "Commanding Presence (12\", Scrapling). As long as the model is joined to a unit of Scraplings, the model counts as being of the same Height as its unit for the purposes of allocating Ranged Attacks (this includes Special Attacks)."
   },
   {
     "Id": "ok-children_of_umi",
@@ -5523,55 +5511,55 @@
     "Id": "ok-khagadais_legacy",
     "Name": "Khagadai's Legacy",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (D3)."
+    "Description": "Multiple Wounds (D3)."
   },
   {
     "Id": "ok-vipers_curse",
     "Name": "Viper's Curse",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u> (Melee & Shooting).\nShots set to 4, Str 4, AP 2 and always hits on 4+. It cannot benefit from <u><link=\"rulebook-area_attack\">Area Attack</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u>."
+    "Description": "Poison Attacks (Melee & Shooting).\n\tShots set to 4, Str 4, AP 2 and always hits on 4+. It cannot benefit from Area Attack, Direct Hit."
   },
   {
     "Id": "ok-heartripper",
     "Name": "Heart-Ripper",
     "Type": "General",
-    "Description": "+1 AP, <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u> and always hits at least on 3+."
+    "Description": "+1 AP, Lethal Strike and always hits at least on 3+."
   },
   {
     "Id": "ok-ritual_bloodletter",
     "Name": "Ritual Bloodletter",
     "Type": "General",
-    "Description": "+1 Att.\nWhile the wielder's unit is Engaged in Combat, the wielder must reroll Magic Dice that rolled ‘1’ for its casting attempts."
+    "Description": "+1 Att. While the wielder's unit is Engaged in Combat, the wielder must reroll Magic Dice that rolled ‘1’ for its casting attempts."
   },
   {
     "Id": "ok-wrestlers_belt",
     "Name": "Wrestler's Belt",
     "Type": "General",
-    "Description": "+1 Arm, +1 Str and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(+1 Arm)."
+    "Description": "+1 Arm, +1 Str and Devastating Charge(+1 Arm)."
   },
   {
     "Id": "ok-mammothhide_cloak",
     "Name": "Mammoth-Hide Cloak",
     "Type": "General",
-    "Description": "+1 Arm. Attacks against the wearer can never have more than Str 5."
+    "Description": "+1 Arm. Attacks against the wearer can never have Str above 5."
   },
   {
     "Id": "ok-aurochs_resilience",
     "Name": "Aurochs Resilience",
     "Type": "General",
-    "Description": "+1 Res and <u><link=\"ok-mountain_hide\">Mountain Hide</link></u>.\nThe model automatically fails all Special Saves."
+    "Description": "+1 Res, Mountain Hide. The model automatically fails all Special Saves."
   },
   {
     "Id": "ok-yeti_furs",
     "Name": "Yeti Furs",
     "Type": "General",
-    "Description": "<u><link=\"ok-touch_of_frost\">Touch of Frost</link></u> and <u><link=\"rulebook-strider\">Strider</link></u>."
+    "Description": "Touch of Frost, Strider."
   },
   {
     "Id": "ok-banner_of_the_gyengget",
     "Name": "Banner of the Gyengget",
     "Type": "General",
-    "Description": "The bearer's unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(re-roll natural to-hit and to-wound rolls of ‘1’)."
+    "Description": "The bearer's unit gains First Strike(re-roll natural to-hit and to-wound rolls of ‘1’)."
   },
   {
     "Id": "ok-pennant_of_the_great_grass_sky",
@@ -5583,19 +5571,19 @@
     "Id": "ok-skull_of_qenghet",
     "Name": "Skull of Qenghet",
     "Type": "General",
-    "Description": "The bearer's unit gains <u><link=\"rulebook-terror\">Terror</link></u>."
+    "Description": "The bearer's unit gains Terror."
   },
   {
     "Id": "ok-lygurs_tongue",
     "Name": "Lygur's Tongue",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u>(-2 Off)."
+    "Description": "Afflict(-2 Off)."
   },
   {
     "Id": "ok-rampagers_chain",
     "Name": "Rampager's Chain",
     "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>(D3+1), and all models in the bearer's unit must reroll failed to-wound rolls with <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>."
+    "Description": "The bearer gains Stomp Attack(D3+1), and all models in the bearer's unit must reroll failed to-wound rolls with Stomp Attack."
   },
   {
     "Id": "ok-freezing_aura_aura",
@@ -6075,7 +6063,7 @@
     "Id": "se-sacred_seeds",
     "Name": "Sacred Seeds",
     "Type": "Equipment",
-    "Description": "May be activated at the end of any friendly Movement Phase, if the bearer is Unengaged. Duration: Permanent.\nPlace a Forest, in contact with the bearer and at least 1\" away from enemy units and other Terrain Features. This Forest has the dimensions of a 10\"×6\" rectangle. It follows the normal Forest rules, except it is <u><link=\"dangerous_terrain\">Dangerous Terrain (6+)</link></u> instead of any other instance of Dangerous Terrain."
+    "Description": "May be activated at the end of any friendly Movement Phase, if the bearer is Unengaged. Duration: Permanent.\nPlace a Forest, in contact with the bearer and at least 1\" away from enemy units and other Terrain Features. This Forest has the dimensions of a 10\"×6\" rectangle. It follows the normal Forest rules, except it is <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain (6+)</link></u> instead of any other instance of Dangerous Terrain."
   },
   {
     "Id": "se-song_of_cenyrn",
