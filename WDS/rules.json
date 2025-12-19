@@ -21,7 +21,7 @@
     "Id": "rulebook-light_troops",
     "Name": "Light Troops",
     "Type": "Global",
-    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
+    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"rulebook-undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"rulebook-musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
   },
   {
     "Id": "rulebook-swiftstride",
@@ -424,12 +424,6 @@
     "Name": "March Move",
     "Type": "General",
     "Description": "When performing a <u><link=\"march_move\">March Move</link></u>, execute the following actions in the order given below:\n1 -  <u><link=\"snaking_forward_move\">Snaking Forward Move</link></u> (2xMob): The unit may do any number of <u><link=\"snaking_forward_move\">Snaking Forward Moves</link></u>, with a total distance no more than equal to twice its Mobility (in inches). While performing these <u><link=\"snaking_forward_move\">Snaking Forward Moves</link></u>, the direction the unit is facing must stay within 90 degrees (in either direction) from the direction the unit was facing before the <u><link=\"march_move\">March Move</link></u>.\\\n2 -  Reorder: <u><link=\"model\">Models</link></u> may be repositioned within the unit, as long as the number of files does not change. \\\n"
-  },
-  {
-    "Id": "undead",
-    "Name": "Undead",
-    "Type": "General",
-    "Description": "Units containing <u><link=\"undead\">Undead</link></u> can perform <u><link=\"march_move\">March Moves</link></u> only if they benefit from a friendly <u><link=\"model\">model’s</link></u> <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>. For this purpose, <u><link=\"reform_move\">Reform Moves</link></u> exceeding a unit's Mob count as a <u><link=\"march_move\">March Move</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"undead\">Undead</link></u> have an additional characteristic called Resurrect (Rsr) on their statline."
   },
   {
     "Id": "reform_move",
@@ -2877,37 +2871,43 @@
     "Id": "rulebook-undead",
     "Name": "Undead",
     "Type": "Global",
-    "Description": "Units containing <u><link=\"undead\">Undead</link></u> can perform <u><link=\"march_move\">March Moves</link></u> only if they benefit from a friendly <u><link=\"model\">model’s</link></u> <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>. For this purpose, <u><link=\"reform_move\">Reform Moves</link></u> exceeding a unit's Mob count as a <u><link=\"march_move\">March Move</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"undead\">Undead</link></u> have an additional characteristic called Resurrect (Rsr) on their statline."
+    "Description": "Units containing <u><link=\"rulebook-undead\">Undead</link></u> can perform <u><link=\"march_move\">March Moves</link></u> only if they benefit from a friendly <u><link=\"model\">model’s</link></u> <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>. For this purpose, <u><link=\"reform_move\">Reform Moves</link></u> exceeding a unit's Mob count as a <u><link=\"march_move\">March Move</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-undead\">Undead</link></u> have an additional characteristic called Resurrect (Rsr) on their statline."
   },
   {
     "Id": "ud-undying_will",
     "Name": "Undying Will",
     "Type": "Global",
-    "Description": "Rank-and-File model parts with Skeleton in units  containing <u><link=\"undying_will\">Undying Will</link></u> gain +2 Def, +2 Off, Magical Attacks, Lethal Strike, and replace their Shooting Weapons' Aim with (4+). Model parts with Mount are not affected by <u><link=\"undying_will\">Undying Will</link></u>."
+    "Description": "Rank-and-File model parts with Skeleton in units containing <u><link=\"ud-undying_will\">Undying Will</link></u> gain +2 Def, +2 Off, <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and replace their Shooting Weapons’ Aim with (4+).\nModel parts with Mount are not affected by <u><link=\"ud-undying_will\">Undying Will</link></u>."
   },
   {
     "Id": "ud-autonomous",
     "Name": "Autonomous",
     "Type": "Global",
-    "Description": "Units with <u><link=\"autonomous\">Autonomous</link></u> may perform March Moves as normal despite being Undead, even when outside the range of the Commanding Presence of any friendly models."
+    "Description": "Units entirely with <u><link=\"ud-autonomous\">Autonomous</link></u> may perform March Moves as normal despite being <u><link=\"rulebook-undead\">Undead</link></u>, even when outside the range of the <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> of any friendly models."
   },
   {
     "Id": "ud-ensouled_statue",
     "Name": "Ensouled Statue",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"ensouled_statue\">Ensouled Statue</link></u> reduce the number of HP lost due to <u><link=\"dust_to_dust\">Dust to Dust</link></u>, Unstable by 1."
+    "Description": "Units entirely with <u><link=\"ud-ensouled_statue\">Ensouled Statue</link></u> reduce by 1 the number of HP lost due to <u><link=\"ud-dust_to_dust\">Dust to Dust</link></u> and <u><link=\"rulebook-unstable\">Unstable</link></u>."
+  },
+  {
+    "Id": "ud-hierophant",
+    "Name": "Hierophant",
+    "Type": "Global",
+    "Description": "An Undying Dynasties army must include at least a single model with <u><link=\"ud-hierophant\">Hierophant</link></u>."
   },
   {
     "Id": "ud-eternal_guardian",
     "Name": "Eternal Guardian",
     "Type": "Defense",
-    "Description": "Attacks with Multiple Wounds(X) against the model halve the number of wounds they inflict, rounding fractions up."
+    "Description": "Attacks with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(X) against the model halve the number of wounds they inflict, rounding fractions up."
   },
   {
     "Id": "ud-tomb_harbinger",
     "Name": "Tomb Harbinger",
     "Type": "Global",
-    "Description": "The model part gains Fury, Lethal Strike, . The model counts as a Rank-and-File model for the purposes of <u><link=\"undying_will\">Undying Will</link></u>."
+    "Description": "The model part gains <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>.\nIn addition, it counts as a Rank-and-File model for the purposes of u><link=\"ud-undying_will\">Undying Will</link></u>."
   },
   {
     "Id": "ud-aspis_arrows",
@@ -2919,19 +2919,19 @@
     "Id": "ud-death_is_only_the_beginning",
     "Name": "Death is Only the Beginning",
     "Type": "Global",
-    "Description": "Each time this model successfully casts a Learned Spell of Type Augment or Universal; choose one of the following effects, for one targeted friendly unit:\n-   The Rank-and-File part of the target Raises HP equal to its Rsr value.\n-   One Attachable Model in the target Recovers HP equal to its Rsr value.\nNo Health Pool can be chosen for this effect more than twice in each Magic Phase."
+    "Description": " Each time this model successfully casts a Learned Spell of Type Augment or Universal, choose one of the following effects, for a single targeted friendly unit:\n   • The Rank-and-File part of the target Raises a number of HP equal to its <u><link=\"rulebook-resurrect\">Resurrected</link></u> value.\n   • A single model in the target Recovers a number of HP equal to its <u><link=\"rulebook-resurrect\">Resurrected</link></u> value.\nThis effect cannot be applied more than twice on the same Health Pool in each Magic Phase."
   },
   {
     "Id": "ud-sacred_ark",
     "Name": "Sacred Ark",
     "Type": "Global",
-    "Description": "Learned Spells cast by friendly Wizards within 12\" of one or more models with <u><link=\"sacred_ark\">Sacred Ark</link></u> gain +6\" Range. Aura spells gain +3\" Range instead."
+    "Description": "Learned Spells cast by friendly Wizards within 12\" of one or more models with <u><link=\"ud-sacred_ark\">Sacred Ark</link></u> gain +6\" Range. Aura spells gain +3\" Range instead."
   },
   {
     "Id": "ud-dust_to_dust",
     "Name": "Dust to Dust",
     "Type": "Global",
-    "Description": "An Undying Dynasties army must include at least 1 Hierophant.\nAt the end of each of your Player Turns, if there are no friendly models with Hierophant on the Battlefield, each unit containing <u><link=\"dust_to_dust\">Dust to Dust</link></u> loses X HP, where X is equal to half their Resurrected value, fractions rounded up. These hits can only be allocated onto models with <u><link=\"dust_to_dust\">Dust to Dust</link></u>."
+    "Description": "At the end of each of your Player Turns, if there are no friendly models with <u><link=\"ud-hierophant\">Hierophant</link></u> on the Battlefield, each unit containing <u><link=\"ud-dust_to_dust\">Dust to Dust</link></u> loses X HP, where ‘X’ is equal to half their <u><link=\"rulebook-resurrect\">Resurrected</link></u> value (rounding fractions up).\nThese hits can only be allocated onto models with <u><link=\"ud-dust_to_dust\">Dust to Dust</link></u>."
   },
   {
     "Id": "ud-curse_of_phatep",
@@ -2961,31 +2961,7 @@
     "Id": "undying_will",
     "Name": "Undying Will",
     "Type": "General",
-    "Description": "Rank-and-File model parts with Skeleton in units  containing <u><link=\"undying_will\">Undying Will</link></u> gain +2 Def, +2 Off, Magical Attacks, Lethal Strike, and replace their Shooting Weapons' Aim with (4+). Model parts with Mount are not affected by <u><link=\"undying_will\">Undying Will</link></u>."
-  },
-  {
-    "Id": "autonomous",
-    "Name": "Autonomous",
-    "Type": "General",
-    "Description": "Units with <u><link=\"autonomous\">Autonomous</link></u> may perform March Moves as normal despite being Undead, even when outside the range of the Commanding Presence of any friendly models."
-  },
-  {
-    "Id": "ensouled_statue",
-    "Name": "Ensouled Statue",
-    "Type": "General",
-    "Description": "Units entirely with <u><link=\"ensouled_statue\">Ensouled Statue</link></u> reduce the number of HP lost due to <u><link=\"dust_to_dust\">Dust to Dust</link></u>, Unstable by 1."
-  },
-  {
-    "Id": "dust_to_dust",
-    "Name": "Dust to Dust",
-    "Type": "General",
-    "Description": "An Undying Dynasties army must include at least 1 Hierophant.\nAt the end of each of your Player Turns, if there are no friendly models with Hierophant on the Battlefield, each unit containing <u><link=\"dust_to_dust\">Dust to Dust</link></u> loses X HP, where X is equal to half their Resurrected value, fractions rounded up. These hits can only be allocated onto models with <u><link=\"dust_to_dust\">Dust to Dust</link></u>."
-  },
-  {
-    "Id": "sacred_ark",
-    "Name": "Sacred Ark",
-    "Type": "General",
-    "Description": "Learned Spells cast by friendly Wizards within 12\" of one or more models with <u><link=\"sacred_ark\">Sacred Ark</link></u> gain +6\" Range. Aura spells gain +3\" Range instead."
+    "Description": "Rank-and-File model parts with Skeleton in units  containing <u><link=\"ud-undying_will\">Undying Will</link></u> gain +2 Def, +2 Off, Magical Attacks, Lethal Strike, and replace their Shooting Weapons' Aim with (4+). Model parts with Mount are not affected by <u><link=\"ud-undying_will\">Undying Will</link></u>."
   },
   {
     "Id": "petrifying_gaze",
@@ -3081,7 +3057,7 @@
     "Id": "vc-ashes_to_ashes",
     "Name": "Ashes to Ashes",
     "Type": "Global",
-    "Description": "At the end of each of your Player Turns, if there are no friendly models with <u><link=\"gates_of_the_netherworld\">Gates of the Netherworld</link></u> on the Battlefield, each unit containing <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u> loses X HP, where X is equal to half the Resurrected value (roll any dice when needed), fractions rounded up. These hits can only be allocated onto models with <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u>."
+    "Description": "At the end of each of your Player Turns, if there are no friendly models with <u><link=\"gates_of_the_netherworld\">Gates of the Netherworld</link></u> on the Battlefield, each unit containing <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u> loses X HP, where X is equal to half the <u><link=\"rulebook-resurrect\">Resurrected</link></u> value (roll any dice when needed), fractions rounded up. These hits can only be allocated onto models with <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u>."
   },
   {
     "Id": "vc-unholy_appetite",
@@ -3130,12 +3106,6 @@
     "Name": "Chilling Howl",
     "Type": "General",
     "Description": "The number of shots is equal to the model's current number of HP.\n<u><link=\"chilling_howl\">Chilling Howl</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"chilling_howl\">Chilling Howl</link></u>--8\"HP*910March and Shoot, Magical Attacks, Hits Automatically, Psychic Attacks\n*The number of shots is equal to the model's current number of HP."
-  },
-  {
-    "Id": "ashes_to_ashes",
-    "Name": "Ashes to Ashes",
-    "Type": "General",
-    "Description": "At the end of each of your Player Turns, if there are no friendly models with <u><link=\"gates_of_the_netherworld\">Gates of the Netherworld</link></u> on the Battlefield, each unit containing <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u> loses X HP, where X is equal to half the Resurrected value (roll any dice when needed), fractions rounded up. These hits can only be allocated onto models with <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u>."
   },
   {
     "Id": "arise",
@@ -6489,67 +6459,67 @@
     "Id": "ud-scales_of_destiny",
     "Name": "Scales of Destiny",
     "Type": "General",
-    "Description": "- \n\n\n\nThe model gains Hierophant and Wizard Apprentice with access to Cosmology, Divination, Evocation."
+    "Description": "The model gains <u><link=\"ud-hierophant\">Hierophant</link></u> and <u><link=\"rulebook-wizard_apprentice\">Wizard Apprentice</link></u> with access to Cosmology, Divination, and Evocation."
   },
   {
     "Id": "ud-soul_conduit",
     "Name": "Soul Conduit",
     "Type": "General",
-    "Description": "The model gains Hierophant. In addition, if the model's chosen Path of Magic is:\n  •  Evocation: Whenever the model casts a Spell of Type Augment or Universal on a friendly unit, you may activate Death is Only the Beginning on any friendly unit within 18\" of the model instead of one of the units the spell was cast on.\n  •  Any other Path of Magic: The model knows Whispers of the Veil (Evocation) in addition to its other spells."
+    "Description": "If the Death Cult Hierarch’s chosen Path of Magic is:\n   • Evocation: whenever the model casts a Spell of Type Augment or Universal on a friendly unit, you may activate <u><link=\"ud-death_is_only_the_beginning\">Death is Only the Beginning</link></u> on any friendly unit within 18\" of the model instead of one of the units the spell was cast on.\n   • Any other Path of Magic: the model knows Whispers of the Veil (Evocation) in addition to its other spells"
   },
   {
     "Id": "ud-deathless_noble",
     "Name": "Deathless Noble",
     "Type": "General",
-    "Description": "The model gains Undying Will, Disciplined."
+    "Description": "The model gains <u><link=\"ud-undying_will\">Undying Will</link></u> and <u><link=\"rulebook-disciplined\">Disciplined</link></u>."
   },
   {
     "Id": "ud-tomb_architect",
     "Name": "Tomb Architect",
     "Type": "General",
-    "Description": "During Pre-game Selections, and at the start of each friendly Player Turn, choose a friendly unit entirely with Ensouled Statue within 18\". This unit gains Regeneration(5+) with Duration: One Turn."
+    "Description": "At the beginning of ‘Defender’s Advantage’ (‘Battle Setup, step 3.5’), and at the start of each friendly Player Turn, choose a friendly unit containing Statue within 18\": all models with Statue gains <u><link=\"rulebook-regeneration\">Regeneration</link></u> (5+). Duration: One Turn."
   },
   {
     "Id": "ud-commander_of_the_terracotta_army",
     "Name": "Commander of the Terracotta Army",
     "Type": "General",
-    "Description": "The model gains Terracotta Army. Other units in the Army List must be upgraded with Terracotta Army. A Pharaoh must be selected as the General."
+    "Description": "The model gains <u><link=\"ud-terracotta_army\">Terracotta Army</link></u>, and a Pharaoh must be the General. Other units in the Army List must be upgraded with <u><link=\"ud-terracotta_army\">Terracotta Army</link></u>."
   },
   {
     "Id": "ud-lord_of_the_barrow_legion",
     "Name": "Lord of the Barrow Legion",
     "Type": "General",
-    "Description": "The model gains Barrow Legion. Other units in the Army List must be upgraded with Barrow Legion. A Pharaoh must be selected as the General."
+    "Description": "The model gains <u><link=\"ud-barrow_legion\">Barrow Legion</link></u>, and a Pharaoh must be the General. Other units in the Army List must be upgraded with <u><link=\"ud-barrow_legion\">Barrow Legion</link></u>."
   },
   {
     "Id": "ud-ghastly_swarm",
     "Name": "Ghastly Swarm",
     "Type": "General",
-    "Description": "The model's Rsr value is set to 1, and gains Spirit, and Aegis(3+), which is reduced to Aegis(5+) against Magical Attacks.\nThe model also gains Ghost Step, Magical Attacks and loses Skirmisher, Hard Target(1)."
+    "Description": " The model’s <u><link=\"rulebook-resurrect\">Resurrected</link></u> value is set to 1, and it gains <u><link=\"rulebook-aegis\">Aegis</link></u> (3+ against non-<u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>), <u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, Spirit, and loses <u><link=\"rulebook-hard_target\">Hard Target</link></u> (1) and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
   },
   {
     "Id": "ud-chariot_of_nephetr",
     "Name": "Chariot of Nephet-Râ",
     "Type": "General",
-    "Description": "The model's base size is changed to 100×100 mm, it gains two additional Skeletal Horse model parts, and the model gains Solitary, Fly."
+    "Description": "The model’s base size is changed to 100×100 mm, it gains two additional ‘Skeletal Horse’ model parts, <u><link=\"rulebook-fly\">Fly</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u> and loses <u><link=\"rulebook-exclusive\">Exclusive</link></u>."
   },
   {
     "Id": "ud-legion_charioteers",
     "Name": "Legion Charioteers",
     "Type": "General",
-    "Description": "The model loses Light Troops."
+    "Description": "The model loses <u><link=\"rulebook-light_troops\">Light Troops</link></u>."
   },
   {
     "Id": "ud-barrow_legion",
     "Name": "Barrow Legion",
     "Type": "General",
-    "Description": "/subsection{lord_of_the_barrow_legion}"
+    "Description": "Unless the model has Height 5, or only has model parts with Beast and/or Statue, it gains +1 Arm, Metal Armour, and loses Light Armour (if it has it).\nA model with Mount cannot benefit from this +1 Arm more than once.\nIf an army includes any model with <u><link=\"ud-barrow_legion\">Barrow Legion</link></u>, then all models in the Army List must have <u><link=\"ud-barrow_legion\">Barrow Legion</link></u>"
   },
   {
     "Id": "ud-terracotta_army",
     "Name": "Terracotta Army",
     "Type": "General",
-    "Description": "•  Models without Statue gain +1 Res.\n\t\t\n  •  Unless the model already has Statue, it gains Statue, Ensouled Statue, and  its Rsr is set to 1.\n\t\n\n\tIf an army includes any model with Terracotta Army, then all models in the Army List must have Terracotta Army."
+    "Description": "Models without Statue have their <u><link=\"rulebook-resurrect\">Rsr</link></u> set to 1, gain +1 Res, Statue, Ensouled Statue, and lose <u><link=\"ud-dust_to_dust\">Dust to Dust</link></u>.\nIf an army includes any model with <u><link=\"ud-terracotta_army\">Terracotta Army</link></u>, then all models in the Army List must have <u><link=\"ud-terracotta_army\">Terracotta Army</link></u>."
   },
   {
     "Id": "ud-divine_light",
@@ -6597,37 +6567,37 @@
     "Id": "ud-godslayer",
     "Name": "Godslayer",
     "Type": "General",
-    "Description": "+1 Att, Divine Attacks, Multiple Wounds(2, towards Aegis(X+)*).\n\n*Note that the latter also applies against models with Aegis Saves with Conditional Applications."
+    "Description": "+1 Att, <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2, towards <u><link=\"rulebook-aegis\">Aegis</link></u>(X+)*).\n*Note that the latter also applies against models with <u><link=\"rulebook-aegis\">Aegis</link></u> Saves with Conditional Applications."
   },
   {
     "Id": "ud-scourge_of_kings",
     "Name": "Scourge of Kings",
     "Type": "General",
-    "Description": "Att is set to 6. Zeal(towards Characters)."
+    "Description": "Att is set to 6. <u><link=\"rulebook-zeal\">Zeal</link></u>(towards Characters)."
   },
   {
     "Id": "ud-jackals_blessing",
     "Name": "Jackal's Blessing",
     "Type": "General",
-    "Description": "+2 HP and Regeneration(5+)."
+    "Description": "+2 HP and <u><link=\"rulebook-regeneration\">Regeneration</link></u>(5+)."
   },
   {
     "Id": "ud-suns_embrace",
     "Name": "Sun's Embrace",
     "Type": "General",
-    "Description": "Distracting(1)."
+    "Description": "<u><link=\"rulebook-distracting\">Distracting</link></u>(1)."
   },
   {
     "Id": "ud-banner_of_the_entombed",
     "Name": "Banner of the Entombed",
     "Type": "General",
-    "Description": "-1.            The bearer count towards Entombed.\n\nIf taken by a Character, the bearer gains  Ambush(Open Terrain). If taken by a Rank-and-File model, the bearer’s unit gains Ambush(Open Terrain) and additional models cannot be added to the unit during Army List creation."
+    "Description": "If taken by a Character, the bearer gains <u><link=\"rulebook-ambush\">Ambush</link></u> (Open Terrain).\nIf taken by a Rank-and-File model, the bearer’s unit gains <u><link=\"rulebook-ambush\">Ambush</link></u> (Open Terrain), and additional models cannot be added to the unit during Army List creation."
   },
   {
     "Id": "ud-crown_of_the_pharaohs",
     "Name": "Crown of the Pharaohs",
     "Type": "General",
-    "Description": "Duration: One Turn. At the start of all friendly Player Turns, the wearer may lose Undying Will. If it does, choose a friendly unit within 12\": this unit gains Undying Will."
+    "Description": "At the start of every friendly Player Turn, the wearer may lose <u><link=\"ud-undying_will\">Undying Will</link></u>.\nIf so, choose a friendly unit within 12\": this unit gains <u><link=\"ud-undying_will\">Undying Will</link></u>, with Duration: One Turn."
   },
   {
     "Id": "ud-sacred_hourglass",
@@ -6639,49 +6609,49 @@
     "Id": "ud-book_of_the_dead",
     "Name": "Book of the Dead",
     "Type": "General",
-    "Description": "The bearer can cast a unique Bound Spell called Unfinished Duty: Casting Value (4+), Range 12\", Aura and Augment. Duration: Instant.\nChoose one of the following effects for each target:\t\t\t\n  •  The Rank-and-File part of the target Raises HP equal to its Rsr value.\n\t\t\n  •  One Attachable Model in the target Recovers HP equal to its Rsr value."
+    "Description": "The bearer can cast a unique Bound Spell:\nUnfinished Duty: Casting Value (4+), Range 12\", Augment and Aura. Duration: Instant.\nChoose one of the following effects for each target:\n   • The Rank-and-File part of the target Raises a number of HP equal to its Resurrected value.\n   • One model in the target Recovers a number of HP equal to its Resurrected value"
   },
   {
     "Id": "ud-kherp_sceptre",
     "Name": "Kherp Sceptre",
     "Type": "General",
-    "Description": "The wielder gains Hierophant. In addition, the wielder can cast Danse Macabre (Evocation) as a Bound Spell(5+)."
+    "Description": "The wielder gains <u><link=\"ud-hierophant\">Hierophant</link></u>.\nIn addition, the wielder can cast Danse Macabre (Evocation) as a Bound Spell(5+)."
   },
   {
     "Id": "ud-blessed_wrappings",
     "Name": "Blessed Wrappings",
     "Type": "General",
-    "Description": "The bearer gains +1 HP and loses one instance of Weakness(Flaming Attacks)."
+    "Description": "The bearer gains +1 HP and loses one instance of <u><link=\"rulebook-weakness\">Weakness</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "ud-icon_of_reflection",
     "Name": "Icon of Reflection",
     "Type": "General",
-    "Description": "One use only. When a spell is successfully cast on the bearer's unit, you may use this Banner Enchantment. Immediately resolve the effects of the spell on another friendly unit within 6\" of the bearer's unit, following the spell's normal targeting restrictions, except Range. Note that this does not trigger Death is Only the Beginning on the second unit."
+    "Description": "One use only. You may activate this Banner Enchantment when a spell is successfully cast on the bearer’s unit: immediately duplicate the effect of the spell on another friendly unit within 6\" of the bearer’s unit, as it had also been successfully cast on this unit following the spells normal targeting restrictions, except Range. This does not trigger <u><link=\"ud-death_is_only_the_beginning\">Death is Only the Beginning</link></u> on the second unit."
   },
   {
     "Id": "ud-sigil_of_the_closed_gates",
     "Name": "Sigil of the Closed Gates",
     "Type": "General",
-    "Description": "The bearer’s unit gains +1 Mob and Ghost Step."
+    "Description": "The bearer’s unit gains +1 Mob and <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>."
   },
   {
     "Id": "ud-sandstorm_cloak",
     "Name": "Sandstorm Cloak",
     "Type": "General",
-    "Description": "The wearer's Mob is set to 8, and it gains Autonomous, Fly, Sweeping Attack(2D6, Str 2, AP 1)."
+    "Description": "The wearer’s Mobility is set to 8, and gains <u><link=\"ud-autonomous\">Autonomous</link></u>, <u><link=\"rulebook-fly\">Fly</link></u>, and <u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u> (2D6 hits, Str 2, AP 1), ."
   },
   {
     "Id": "ud-death_mask_of_teput",
     "Name": "Death Mask of Teput",
     "Type": "General",
-    "Description": "Aegis(5+), Horror."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(5+), <u><link=\"rulebook-horror\">Horror</link></u>."
   },
   {
     "Id": "ud-scroll_of_desiccation",
     "Name": "Scroll of Desiccation",
     "Type": "General",
-    "Description": "During Pre-game Selections, choose a Field, Forest, or Water Terrain Feature. This Terrain Feature ceases to be the Terrain Feature it used to be and loses all its rules. It is treated as Dangerous Terrain(6+) for all enemy units."
+    "Description": "During Pre-game Selections, choose a Field, Forest, or Water Terrain, that has not been placed during Pregame selections: it ceases to be the Terrain Feature it used to be and loses its Terrain Rules.\nIt becomes a Desert Terrain Feature with <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (6+) for all enemy units."
   },
   {
     "Id": "ud-master_of_stone_aura",
@@ -11142,18 +11112,6 @@
     "Description": "Endless Plain"
   },
   {
-    "Id": "custom-terracotta",
-    "Name": "Terracotta",
-    "Type": "General",
-    "Description": "Commander of the Terracotta Army"
-  },
-  {
-    "Id": "custom-barrow_legion",
-    "Name": "Barrow Legion",
-    "Type": "General",
-    "Description": "/subsection{lord_of_the_barrow_legion}"
-  },
-  {
     "Id": "custom-clipped_wings",
     "Name": "Clipped Wings",
     "Type": "General",
@@ -11284,5 +11242,11 @@
     "Name": "+1 Armour; -1 Adv; -2 Ma",
     "Type": "General",
     "Description": "+1 Armour, -1 Adv, -2 Ma"
+  },
+  {
+    "Id": "rulebook-resurrect",
+    "Name": "Resurrect",
+    "Type": "General",
+    "Description": "Additional characteristic on their statline which can interact with some other game effects"
   }
 ]
