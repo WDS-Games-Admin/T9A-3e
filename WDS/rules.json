@@ -2233,12 +2233,6 @@
     "Description": null
   },
   {
-    "Id": "envy",
-    "Name": "Envy",
-    "Type": "General",
-    "Description": "Charge Range and Pursue Distance rolls by units containing this Favour are Maximised."
-  },
-  {
     "Id": "objects_of_envy",
     "Name": null,
     "Type": "General",
@@ -3190,37 +3184,31 @@
     "Id": "wdg-primal_legend",
     "Name": "Primal Legend",
     "Type": "Global",
-    "Description": " While the model is on the Battlefield, friendly units cannot use Fly for Move Manoeuvres or Charge Moves. In addition, if the model is the General, the maximum sum of Legendary Beasts values in the army is increased by 1."
-  },
-  {
-    "Id": "wdg-battle_fever",
-    "Name": "Battle Fever",
-    "Type": "Global",
-    "Description": "Units containing a model with <u><link=\"battle_fever\">Battle Fever</link></u> must reroll failed Courage Tests."
+    "Description": " While the model is on the Battlefield, friendly units cannot use <u><link=\"rulebook-fly\">Fly</link></u> for Move Manoeuvres or Charge Moves. In addition, if the model is the General, the maximum sum of Legendary Beasts values in the army is increased by 1."
   },
   {
     "Id": "wdg-dying_embers",
     "Name": "Dying Embers",
     "Type": "Equipment",
-    "Description": " - Attack Attribute\n\nAfter using the Breath Attack, the model loses a Health Point with no saves of any kind allowed."
+    "Description": "After using the <u><link=\"rulebook-breath_attack\">Breath Attack</link></u>, the model loses a Health Point with no saves of any kind allowed."
   },
   {
     "Id": "wdg-gluttony",
     "Name": "Gluttony",
     "Type": "Global",
-    "Description": "The first time a model with this Favour is on the winning side of a combat, its model parts with <u><link=\"path_of_the_favoured\">Path of the Favoured</link></u> gain +1 Str with Duration: Permanent."
+    "Description": "The first time a model with this Favour is on the winning side of a combat, its model parts with Path of the Favoured gain +1 Str with Duration: Permanent."
   },
   {
     "Id": "wdg-hellforged_armour",
     "Name": "Hell-Forged Armour",
     "Type": "Defense",
-    "Description": "The wearer's model gains Resistance(Toxic Attacks)."
+    "Description": "The wearer's model gains <u><link=\"rulebook-resistance\">Resistance</link></u>(<u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>)."
   },
   {
     "Id": "wdg-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "At any time during the Movement Phase, the model can choose to lose Fly and gain +2 Mob. This lasts until the end of the Movement Phase."
+    "Description": "When initiating a Move Manoeuvre, the model can choose to lose <u><link=\"rulebook-fly\">Fly</link></u> and gain +2 Mobility. Duration: One Phase."
   },
   {
     "Id": "wdg-veil_walker",
@@ -3232,13 +3220,13 @@
     "Id": "wdg-beacon_of_the_dark_gods",
     "Name": "Beacon of the Dark Gods",
     "Type": "Global",
-    "Description": "the Wizard knows one additional spell, chosen from:Whispers of the Veil=free, Danse Macabre=free, Molten Copper=free, <u><link=\"wrath\">Wrath</link></u> of God*=free*only if Wizard Master"
+    "Description": "The Wizard knows one additional spell, chosen from:\n   • Molten Copper Silver Spike (Alchemy)\n   • Whispers of the Veil (Evocation)\n   • Danse Macabre (Evocation)\n   • Wrath of God* (Thaumaturgy)\n*only if Wizard Master"
   },
   {
     "Id": "wdg-deeds_not_words",
     "Name": "Deeds not Words",
     "Type": "Equipment",
-    "Description": " - Attack Attribute\nThe model part gains Fury, Hatred while joined to one or more Rank-and-File models with Human.\nThe model part gains Fury, Hatred while joined to one or more Rank-and-File models with Human."
+    "Description": "The model part benefits from <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"rulebook-hatred\">Hatred</link></u> while joined to one or more Rank-and-File models with Human."
   },
   {
     "Id": "wdg-envy",
@@ -3250,31 +3238,31 @@
     "Id": "wdg-writhing_mass",
     "Name": "Writhing Mass",
     "Type": "Global",
-    "Description": "When in the second rank and not in contact with any enemy model, the model can make Grind Attack across models in the first rank directly in front of it."
+    "Description": "When in the second rank and not in contact with any enemy model, the model can make <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> across models in the first rank directly in front of it."
   },
   {
     "Id": "wdg-release_the_hounds",
     "Name": "Release the Hounds",
     "Type": "Global",
-    "Description": "One use only, Duration: Until end of turn. The unit may activate this, at the start of a friendly Player Turn , it gains +2 Mobility and Devastating Charge(+1 Att, +1 Str) ."
+    "Description": "One use only. Duration: End of Turn.\nCan be activated at the start of any friendly Player Turn: the unit gains +2 Mob and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1 Att, +1 Str)."
   },
   {
     "Id": "wdg-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"battle_fever\">Battle Fever</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-courageous\">Courageous</link></u>."
   },
   {
     "Id": "wdg-giant_club",
     "Name": "Giant Club",
     "Type": "Equipment",
-    "Description": " - Melee Weapon\n+1 Str and +1 AP.\n+1 Str and +1 AP."
+    "Description": "+1 Str and +1 AP."
   },
   {
     "Id": "wdg-gateway",
     "Name": "Gateway",
     "Type": "Global",
-    "Description": "During Pre-game Selection, mark a point on the Battlefield within 24\" of your Deployment Zone and outside the opponent's Deployment Zone  with a <u><link=\"gateway\">Gateway</link></u> Marker.\nThere can never be more than 4 friendly <u><link=\"gateway\">Gateway</link></u> Markers on the Battlefield.\nIf a <u><link=\"gateway\">Gateway</link></u> Marker is removed, then all units within 3\" of the marker suffer 3D3 hits with Toxic Attacks.\nRemove all friendly <u><link=\"gateway\">Gateway</link></u> Markers if there are no friendly Hellmaws on the Battlefield.\nAt the start of each friendly Magic Phase (before drawing a Flux Card), if this model  was allowed to move in the prior Movement Phase (is not Shaken, Unengaged etc.), you can   apply one of the following effects:\n-   Mark a single point on the Battlefield within 24\" of the model with a <u><link=\"gateway\">Gateway</link></u> Marker. Before doing so, you may remove a friendly <u><link=\"gateway\">Gateway</link></u> Marker, from the Battlefield, that was not placed  this Player Turn.\n-   Target a single  friendly unit  within 9\" of the model, not containing any models of Height 5, and that was allowed to move in the prior Movement Phase (is not shaken, did not Ambush, Fail Charge, unengaged etc.) . Remove the unit from the Battlefield and immediately place it back on the Battlefield, in the same formation, with Ambush( friendly <u><link=\"gateway\">Gateway</link></u> Marker, that was not placed during this Player Turn)."
+    "Description": "During Pre-game Selections, mark a point on the Battlefield with a <u><link=\"wdg-gateway\">Gateway</link></u> Marker: it must be within 24\" of your Deployment Zone , outside the opponent’s Deployment Zone , and more than 1\" from Impassible Terrain.\nThere can never be more than 4 friendly <u><link=\"wdg-gateway\">Gateway</link></u> Markers on the Battlefield.\nIf a <u><link=\"wdg-gateway\">Gateway</link></u> Marker is removed, then all units within 3\" of the marker suffer 3D3 hits with Toxic Attacks.\nRemove all friendly <u><link=\"wdg-gateway\">Gateway</link></u> Markers if there are no friendly Hellmaws or friendly models with a Veilgate Orb on the Battlefield ,at the end of any phase.\n\nAt the start of each friendly Magic Phase, if this model was allowed to move during the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.), you can apply one of the following effects:\n   • Mark a single point on the Battlefield within 24\" of the model with a <u><link=\"wdg-gateway\">Gateway</link></u> Marker, and more than 1\" from Impassible Terrain. Before doing so, you may remove from the Battlefield a friendly <u><link=\"wdg-gateway\">Gateway</link></u> Marker that was not placed during this Player Turn.\n   • Target a single friendly unit within 9\" of the model, not containing any model of Height 5, and that was allowed to move in the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.).Remove the unit from the Battlefield and immediately place it back on the Battlefield, in the same formation, with Ambush (friendly <u><link=\"wdg-gateway\">Gateway</link></u> Marker, that was not placed during this Player Turn)"
   },
   {
     "Id": "wrath",
@@ -3287,12 +3275,6 @@
     "Name": "Hellfire",
     "Type": "General",
     "Description": "    The target suffers 2D6 hits with Strength 6, Armour Penetration 0, and Magical Attacks.\n*This spell can target units Engaged in Combat and in contact with the Caster's Front Facing."
-  },
-  {
-    "Id": "battle_fever",
-    "Name": "Battle Fever",
-    "Type": "General",
-    "Description": "Units containing a model with <u><link=\"battle_fever\">Battle Fever</link></u> must reroll failed Courage Tests."
   },
   {
     "Id": "gateway",
@@ -3389,12 +3371,6 @@
     "Name": "Berserker's Bear Pelt",
     "Type": "General",
     "Description": "Light Armour. The bearer gains Swiftstride and Unstable.\nIn addition, at the start of any of your Player Turns, all models with <u><link=\"berserkers_bear_pelt\">Berserker's Bear Pelt</link></u> in a unit may choose to lose their Shield and gain +1 Strength, Fury, Fearless, Frenzy, and . The effects last for the remainder of the game."
-  },
-  {
-    "Id": "spiked_shield",
-    "Name": "Spiked Shield",
-    "Type": "General",
-    "Description": " - Armour Equipment\nModels without Mount only.\nShield. For each successful Armour Save roll of 4+ made by the bearer against a Melee Attack while using a <u><link=\"spiked_shield\">Spiked Shield</link></u>, the bearer immediately inflicts 1 hit with the bearer's Strength and Armour Penetration against the model that caused the wound, before any casualties are removed, distributed onto the model's Health Pool. This is considered a Special Attack.\nModels without Mount only.\nShield. For each successful Armour Save roll of 4+ made by the bearer against a Melee Attack while using a <u><link=\"spiked_shield\">Spiked Shield</link></u>, the bearer immediately inflicts 1 hit with the bearer's Strength and Armour Penetration against the model that caused the wound, before any casualties are removed, distributed onto the model's Health Pool. This is considered a Special Attack."
   },
   {
     "Id": "stupid",
@@ -7102,37 +7078,37 @@
     "Id": "wdg-wings",
     "Name": "Wings",
     "Type": "General",
-    "Description": "The model's Mob is set to 8\" and it gains Fly."
+    "Description": "The model's Mob is set to 8\" and it gains <u><link=\"rulebook-fly\">Fly</link></u>."
   },
   {
     "Id": "wdg-skinning_lash",
     "Name": "Skinning Lash",
     "Type": "General",
-    "Description": "Sweeping Attack(1)."
+    "Description": "<u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u>(1)."
   },
   {
     "Id": "wdg-damnation",
     "Name": "Damnation",
     "Type": "General",
-    "Description": "The unit gains Solitary. When the unit fails a Break Test, replace each model of the unit with a Wretched One model, after taking Panic Tests:\n  •  The unit entirely with Damnation is considered destroyed and its models are considered to be removed as casualties.\n  •  Each Wretched One model is placed in the same position and facing the same direction as the replaced model, even if the replaced model was in contact with an enemy unit. In this case, the Wretched One model is placed in contact with the enemy unit too.\n  •  The Wretched One models form a new unit.\n  •  The Wretched One unit follows the rules for Summoned Units, except that it ignores the Unit Spacing rule when placed on the Battlefield.\n  •  The Wretched One unit cannot perform any Combat Reforms during that Round of Combat, however the enemy units can do so as normal.\n  •  Note that the following Round of Combat is not considered the First Round of Combat for the Wretched One unit nor the enemy units it is Engaged with."
+    "Description": "The unit gains <u><link=\"rulebook-solitary\">Solitary</link></u>.\nIf it fails a Break Test, replace each model of the unit with a Wretched One model:\n   • The unit and its models are considered removed as a casualties.\n   • Each Wretched One model is placed in the same position and facing the same direction as the model it replaces (even if the replaced model was in contact with an enemy unit: in this case, the Wretched One model is placed in contact with the enemy unit, too).\n   • The Wretched One models form a new unit.\n   • The Wretched One unit follows the rules for Summoned Units, except that it ignores the Unit Spacing rule when placed on the Battlefield, but can still not overlap other units or Impassible Terrain.\n   • The Wretched One unit cannot perform any Combat Reforms in the Round of Combat during which it is Summoned. Enemy units can do so as normal.\n   • Note that the following Round of Combat is not considered the First Round of Combat for the Wretched One unit, nor for the enemy units it is Engaged with."
   },
   {
     "Id": "wdg-big_brother",
     "Name": "Big Brother",
     "Type": "General",
-    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for Stomp Attack is Maximised."
+    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is Maximised."
   },
   {
     "Id": "wdg-monstrous_familiar",
     "Name": "Monstrous Familiar",
     "Type": "General",
-    "Description": "The model gains Wizard Conclave(1), and chooses its spells from the following spells:Living Steel=free, Corruption of Tin=free, Hellfire=free"
+    "Description": "The model gains <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (1), and chooses its spells from the following spells:\n   • Living Steel (Alchemy)\n   • Corruption of Tin (Alchemy)\n   • Hellfire (Hereditary Spell)"
   },
   {
     "Id": "wdg-tribal_warspear",
     "Name": "Tribal Warspear",
     "Type": "General",
-    "Description": "- Melee Weapon\n\n+1 Str and Multiple Wounds(D3, against Height 4, 5). The wielder is an Attachable Model and gains Exclusive(Barbarians). Max. 1 Giant may join a single Barbarians unit.\n\n\t+1 Str and Multiple Wounds(D3, against Height 4, 5). The wielder is an Attachable Model and gains Exclusive(Barbarians). Max. 1 Giant may join a single Barbarians unit."
+    "Description": "+1 Str, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (D3, towards Height 4–5).\nThe wielder is an Attachable Model and gains <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Barbarians).\nNo more than a single model with Tribal Warspear can ever be joined to the same unit."
   },
   {
     "Id": "wdg-additional_limbs",
@@ -7144,61 +7120,67 @@
     "Id": "wdg-trophy_rack",
     "Name": "Trophy Rack",
     "Type": "General",
-    "Description": "The model may take a single Banner Enchantment (using the bearer's Special Item allowance as normal). In addition,  once per Round of Combat, when an enemy unit that is Engaged with the model's unit is Destroyed in Combat or Destroyed in the Melee Phase, the bearer gains Resolute(1)."
+    "Description": "The model may take a single Banner Enchantment (using the bearer’s Special Item allowance as normal).\nIn addition, the first time an Enemy unit engaged with the bearer’s unit is removed as a casualty, including all <u><link=\"rulebook-attached\">Attached</link></u> Models, the bearer gains <u><link=\"rulebook-resolute\">Resolute</link></u>."
   },
   {
     "Id": "wdg-spiked_shield",
     "Name": "Spiked Shield",
     "Type": "General",
-    "Description": "Shield. When a Height 1--3 model uses a Hand Weapon and a Spiked Shield simultaneously, and the bearer successfully passes an Armour Save roll on a 4+ against an enemy Melee Attack from a model engaged in its Front Facing, the model part immediately inflicts 1 hit with its Str and AP towards the model that caused the wound (before any casualties are removed)."
+    "Description": "Shield. When a Height 1–3 model is using a Hand Weapon and isUsing a Spiked Shield simultaneously, and the bearer successfully passes an Armour Save roll of 4+ against a Melee Attack from an enemy model Engaged in its Front Facing, the bearer immediately inflicts 1 hit with the bearers Str and AP and <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u> towards the Health Pool of the model that caused the wound, before any casualties are removed."
   },
   {
     "Id": "wdg-abiding_spirit",
     "Name": "Abiding Spirit",
     "Type": "General",
-    "Description": "Hard Target (1)."
+    "Description": "<u><link=\"rulebook-hard_target\">Hard Target</link></u> (1)."
   },
   {
     "Id": "wdg-brand_of_the_dragon",
     "Name": "Brand of the Dragon",
     "Type": "General",
-    "Description": "Fly(7\", 14\"), Light Troops, Swiftstride, Breath Attack(Str 4, AP 1, Flaming Attacks)"
+    "Description": "<u><link=\"rulebook-breath_attack\">Breath Attack</link></u> (Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), <u><link=\"rulebook-fly\">Fly</link></u>, and <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>"
   },
   {
     "Id": "wdg-emissary_of_chaos",
     "Name": "Emissary of Chaos",
     "Type": "General",
-    "Description": "(D6), Stubborn, , Terror"
+    "Description": "<u><link=\"rulebook-courageous\">Courageous</link></u> and <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> (D6 hits)."
+  },
+  {
+    "Id": "rulebook-courageous",
+    "Name": "Courageous",
+    "Type": "General",
+    "Description": "A unit containing Courageous must reroll failed Courage Tests."
   },
   {
     "Id": "wdg-sorcerer_immortal",
     "Name": "Sorcerer Immortal",
     "Type": "General",
-    "Description": "Veil Walker, Channel(1)"
+    "Description": "<u><link=\"wdg-veil_walker\">Veil Walker</link></u>"
   },
   {
     "Id": "wdg-unholy_avatar",
     "Name": "Unholy Avatar",
     "Type": "General",
-    "Description": "+1 Strength, +1 Armour Penetration, and Divine Attacks"
+    "Description": "+1 Str, +1 APn, and <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>"
   },
   {
     "Id": "wdg-daemonic_wings",
     "Name": "Daemonic Wings",
     "Type": "General",
-    "Description": "The bearer gains +3 Cha, +3 Mob, Fly, , Swiftstride."
+    "Description": "The bearer gains +3 Cha, +3 Mob, <u><link=\"rulebook-fly\">Fly</link></u>, <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>."
   },
   {
     "Id": "wdg-entropic_aura",
     "Name": "Entropic Aura",
     "Type": "General",
-    "Description": "Weapon Enchantments and Armour Enchantments carried by the bearer, models in the bearer's unit, and models in units that are in contact with the bearer are ignored."
+    "Description": "Ignore all the Weapon Enchantments, Armour Enchantments and Shield Enchantments in units that are in contact with the bearer , including his own, for as long as the units remain in contact with the bearer."
   },
   {
     "Id": "wdg-luck_of_the_dark_gods",
     "Name": "Luck of the Dark Gods",
     "Type": "General",
-    "Description": "The bearer's model gains Aegis(+1, max. 4+)."
+    "Description": "The bearer's model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(+1, max. 4+)."
   },
   {
     "Id": "wdg-idol_of_spite",
@@ -7234,31 +7216,31 @@
     "Id": "wdg-greed",
     "Name": "Greed",
     "Type": "General",
-    "Description": "The model part with Path of the Favoured gains Great Weapon, Halberd, Paired Weapons, and Weapon Master. A Chosen Lord with this Favour may take a second item from either the Artefacts category or the Potions and Scrolls category (but cannot take a second item from both categories)."
+    "Description": "The model part with Path of the Favoured gains Great Weapon, Halberd, Paired Weapons, and <u><link=\"rulebook-weapon_master\">Weapon Master</link></u>. A Chosen Lord with this Favour may take a second item from either the Artefacts category or the Potions and Scrolls category (but cannot take a second item from both categories)."
   },
   {
     "Id": "wdg-lust",
     "Name": "Lust",
     "Type": "General",
-    "Description": "The model gains Feigned Flight, Strider."
+    "Description": "The model gains <u><link=\"rulebook-feigned_flight\">Feigned Flight</link></u> and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (<u><link=\"rulebook-strider\">Strider</link></u>)."
   },
   {
     "Id": "wdg-pride",
     "Name": "Pride",
     "Type": "General",
-    "Description": "The model gains Disciplined. Discipline Tests taken by units containing this Favour are Minimised."
+    "Description": "The model gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>. Discipline Tests taken by units containing this Favour are Minimised."
   },
   {
     "Id": "wdg-sloth",
     "Name": "Sloth",
     "Type": "General",
-    "Description": "Model gains Aegis(6+), and if the model is Height 1-4, Aegis(+1, max. 4+, against no armor save*).\n\n\t*Can only be used for attacks against which the model cannot take or would automatically fail its Armour Saves."
+    "Description": "Model gains <u><link=\"rulebook-aegis\">Aegis</link></u> (6+).\nIn addition, if the model is Height 1–4 it gains <u><link=\"rulebook-aegis\">Aegis</link></u> (+1, max. 4+, against no Armour Save*).\n*Can only be used for attacks against which the model cannot take or would automatically fail its Armour Saves."
   },
   {
     "Id": "wdg-wrath",
     "Name": "Wrath",
     "Type": "General",
-    "Description": "The model part gains First Strike(Hatred)."
+    "Description": "Model parts with Path of the Favoured gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>)."
   },
   {
     "Id": "wdg-hellfire",
@@ -7270,7 +7252,7 @@
     "Id": "wdg-burning_portent",
     "Name": "Burning Portent",
     "Type": "General",
-    "Description": "Flaming Attacks, Multiple Wounds(D3), AP set to 10."
+    "Description": "<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(D3), AP set to 10."
   },
   {
     "Id": "wdg-symbol_of_slaughter",
@@ -7288,49 +7270,49 @@
     "Id": "wdg-gladiators_spirit",
     "Name": "Gladiator's Spirit",
     "Type": "General",
-    "Description": "+1 Arm and Parry."
+    "Description": "+1 Arm and <u><link=\"rulebook-parry\">Parry</link></u>."
   },
   {
     "Id": "wdg-icon_of_the_infinite",
     "Name": "Icon of the Infinite",
     "Type": "General",
-    "Description": "The bearer can cast Hellfire (Hereditary Spell) as a Bound Spell(6+)."
+    "Description": "The bearer can cast Hellfire (Hereditary Spell) as a Bound Spell(5+)."
   },
   {
     "Id": "wdg-zealots_banner",
     "Name": "Zealots' Banner",
     "Type": "General",
-    "Description": "Models in the  bearer's unit gain Extra Support (3)."
+    "Description": "Models in the  bearer's unit gain Extra Support (2)."
   },
   {
     "Id": "wdg-wasteland_torch",
     "Name": "Wasteland Torch",
     "Type": "General",
-    "Description": "The bearer's unit gains Strider (Ruins) and First Strike(Flaming Attacks).\n\nDuring Pre-game Selections you may choose a single Field Terrain Feature or Forest Terrain Feature. The chosen Terrain Feature is changed to a Ruins Terrain Feature without changing size."
+    "Description": "The bearer’s unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>) and <u><link=\"rulebook-strider\">Strider</link></u> (Ruins).\nIn addition, during Pre-game Selections, you may choose a single Field or Forest: the chosen Terrain Feature is changed to a Ruins, without changing size with Duration: Permanent."
   },
   {
     "Id": "wdg-veilgate_orb",
     "Name": "Veilgate Orb",
     "Type": "General",
-    "Description": "During Pre-game Selection: Mark a point on the Battlefield within 24\" of your Deployment Zone, and outside the opponent's Deployment Zone, with a Gateway Marker. Once per game, at the start of a friendly Magic Phase (before drawing a Flux Card), if the bearer's unit was allowed to move in the prior Movement Phase (is not Shaken, did not Ambush, Failed Charge, Unengaged etc.), remove the unit from the Battlefield and immediately place it back on the Battlefield with Ambush(friendly Gateway Marker, that was not placed during this Player Turn)."
+    "Description": "During Pre-game Selections, mark a point on the Battlefield with a Gateway Marker: it must be within 24\" of your Deployment Zone, outside the opponent’s Deployment Zone, and more than 1\" from Impassible Terrain.\nOne use only. At the start of a friendly Magic Phase, if the bearer’s unit was allowed to move in the preceding Movement Phase (ie. it is not Shaken, did not Ambush, did not fail a Charge, is Unengaged, etc.), you may remove it from the Battlefield and immediately place it back on the Battlefield with <u><link=\"rulebook-ambush\">Ambush</link></u> (friendly Gateway Marker, that was not placed during this Player Turn)."
   },
   {
     "Id": "wdg-immortal_gauntlets",
     "Name": "Immortal Gauntlets",
     "Type": "General",
-    "Description": "When Choosing Weapons and Equipment choose one of the following Attack Attributes for the wearer's Melee Attacks, with Duration: Round of Combat: Divine Attacks, Flaming Attacks, Magical Attacks."
+    "Description": "When Choosing Equipment and Abilities, choose one of the following Attack Attributes for the wearer’s Melee Attacks: <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, or <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. Duration: Round of Combat."
   },
   {
     "Id": "wdg-lord_of_the_damned",
     "Name": "Lord of the Damned",
     "Type": "General",
-    "Description": "Friendly units entirely with Irredeemable within 18\" of the bearer, before rolling the Random Movement distance in the Movement Phase, may choose to apply either Minimised or Maximised to the roll."
+    "Description": "Before rolling the <u><link=\"rulebook-random_movement\">Random Movement</link></u> distance in the Movement Phase, friendly units entirely with Irredeemable within 18\" of the bearer may choose to apply either Minimised or Maximised to the roll."
   },
   {
     "Id": "wdg-wyrd_stone",
     "Name": "Wyrd Stone",
     "Type": "General",
-    "Description": "The bearer’s model gets Hard Target(2)."
+    "Description": "One use only. Duration: One Phase.\nThe bearer’s model gains <u><link=\"rulebook-hard_target\">Hard Target</link></u> (2)."
   },
   {
     "Id": "wdg-dark_familiar",
