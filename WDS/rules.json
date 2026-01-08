@@ -237,7 +237,7 @@
     "Id": "rulebook-random_movement",
     "Name": "Random Movement",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"rulebook-random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"rulebook-random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-random_movement\">Random Movement</link></u> cannot perform <u><link=\"magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
+    "Description": "Units entirely with <u><link=\"rulebook-random_movement\">Random Movement</link></u> do not follow normal rules for Charging, <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, <u><link=\"pursue_moves\">Pursue Moves</link></u> or <u><link=\"flee_move\">Flee Moves</link></u>. Instead, apply the following:\n\n-   During the <u><link=\"charge_phase\">Charge Phase</link></u>, the <u><link=\"model\">model</link></u> cannot Declare any Charges.\n-   At any time the <u><link=\"model\">model</link></u> would perform a Move Manoeuvre, the unit performs a Pursue Move (see Melee chapter) with the following exceptions:\n-   It must move in the <u><link=\"movement_phase\">Movement Phase</link></u> if allowed to do so, and it must do so before any units without <u><link=\"rulebook-random_movement\">Random Movement</link></u> have performed their <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>.\n-   It moves the distance stated in brackets (X).\n-   It can choose which direction it will move in. The owning player must choose which direction before rolling the Pursuit Distance.\n-   It does not take <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Tests unless Charging.\n-   It treats the <u><link=\"table_edge\">Table Edge</link></u> as <u><link=\"impassable_terrain\">Impassable Terrain</link></u>.\n-   It counts as an <u><link=\"advance_move\">Advance Move</link></u> for the purpose of Moving and Shooting.\n\n-   The <u><link=\"model\">model’s</link></u> Pursue and <u><link=\"flee_move\">Flee moves</link></u> use the distance stated in brackets (X), instead of the normal distance.\nWhenever a rule requires the Mobility or Charge Speed of the <u><link=\"model\">model</link></u>, use the potential maximum value of X.\nNote that this means a <u><link=\"model\">model</link></u> with <u><link=\"rulebook-random_movement\">Random Movement</link></u> cannot perform <u><link=\"rulebook-magical_move\">Magical Moves</link></u> or use <u><link=\"rulebook-vanguard\">Vanguard</link></u>. It also means that modification to Pursue distances such as Maximized and Minimized affect its moves."
   },
   {
     "Id": "rulebook-stubborn",
@@ -582,12 +582,6 @@
     "Description": "The <u><link=\"table_edge\">Table Edge</link></u> represents the boundaries of the game. A unit is allowed to temporarily and partially move off the board during a Movement Manoeuvre or <u><link=\"charge_move\">Charge move</link></u> with the following restrictions:\n-   The unit's Front Facing must remain entirely on the board at all times except during align moves.\n-   The unit must finish any movement with its Unit Boundary entirely on the board."
   },
   {
-    "Id": "magical_move",
-    "Name": "Magical Move",
-    "Type": "General",
-    "Description": "Some <u><link=\"spells\">spells</link></u> or abilities allow a unit to perform a <u><link=\"magical_move\">Magical Move</link></u>. This move is performed as if it were the <u><link=\"movement_phase\">Movement Phase</link></u>, following the same rules and restrictions. The unit can perform a Move Manoeuvre. <u><link=\"characters\">Characters</link></u> can join or leave units. Actions that are restricted during the <u><link=\"movement_phase\">Movement Phase</link></u>, such as units performing <u><link=\"flee_move\">Flee Moves</link></u>, or units <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, cannot be performed.\nThe distance that the <u><link=\"magical_move\">Magical Move</link></u> can be performed is specified in the spell or ability. The target’s Mobility is set to always equal to the distance of the <u><link=\"magical_move\">magical move</link></u>, for the duration of the move. For example, an effect could be: The target may perform a 6\" <u><link=\"magical_move\">Magical Move</link></u>. This means the target has a Mobility of 6\", and can perform its normal movement actions using this Mobility.\nA unit can only perform a single <u><link=\"magical_move\">Magical Move</link></u> per Phase."
-  },
-  {
     "Id": "saves",
     "Name": "Saves",
     "Type": "General",
@@ -651,7 +645,7 @@
     "Id": "er-bloodpox_blades",
     "Name": "Bloodpox Blades",
     "Type": "Equipment",
-    "Description": "Paired Weapons. Attacks made with <u><link=\"bloodpox_blades\">Bloodpox Blades</link></u> become Poison Attacks."
+    "Description": "Paired Weapons. Attacks made with <u><link=\"vs-bloodpox_blades\">Bloodpox Blades</link></u> become Poison Attacks."
   },
   {
     "Id": "rulebook-regeneration",
@@ -693,7 +687,7 @@
     "Id": "er-life_is_cheap",
     "Name": "Life is Cheap",
     "Type": "Global",
-    "Description": "When calculating Combat Score, halve the first 10 Health Point losses of models with <u><link=\"life_is_cheap\">Life is Cheap</link></u> per unit, rounding fractions up. This does not affect Combat Score bonuses from Overkill."
+    "Description": "When calculating Combat Score, halve the first 10 Health Point losses of models with <u><link=\"vs-life_is_cheap\">Life is Cheap</link></u> per unit, rounding fractions up. This does not affect Combat Score bonuses from Overkill."
   },
   {
     "Id": "rulebook-spear",
@@ -762,12 +756,6 @@
     "Description": "Courage Test represent warriors ability to hold their position in the face of adversity.\nThere are two primary types of Courage Tests:\n-   Panic Tests: Panic Test are taken immediately whenever a unit is called upon to take a Panic Tests, see below for the most common situations. A failed Panic Test puts a unit in the Shaken state.\n- \nBreak Tests: Taken by units on the losing side of a Combat. See Melee Phase chapter for details.\nCommon Model Rules that affect Courage Tests: Rally Around the Flag, Commanding Presence. See Model Rules for details.\nat (current page.south east)\n-1\n;\n\nPanic Tests\nA Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly Shaken unit performs a Flee Move through the unit.\n-   A Flee Move that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a model containing Terror), and voluntary Breaking from Combat with a unit entirely with Feigned Flight. Note that a Flee Move due to a failed Rally Test is not considered a voluntary Flee Move, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the Flee Move.\n-   The unit suffered enough Health Point losses in a single phase from Ranged Attacks originating from enemy models, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible casualties have been removed. Ignore Health Point losses suffered while Engaged in Combat.\n-   An enemy unit entirely with Terror declares a Charge against the unit in the Charge Phase.\nUnits do not take Panic Tests if\n-   they are Engaged in Combat, or\n-   they are already Shaken, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes Shaken.\nNote that this normally does not mean the unit performs a Flee Move."
   },
   {
-    "Id": "bloodpox_blades",
-    "Name": "Bloodpox Blades",
-    "Type": "General",
-    "Description": "Paired Weapons. Poison Attacks."
-  },
-  {
     "Id": "cult_of_errahman",
     "Name": "Cult of Errahman",
     "Type": "General",
@@ -777,13 +765,7 @@
     "Id": "siphon_the_veil",
     "Name": "Siphon the Veil",
     "Type": "General",
-    "Description": "The Active Player gains additional Magic <u><link=\"dice\">Dice</link></u>  from the following sources:\n\n-   A free additional Magic <u><link=\"dice\">Dice</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> from <u><link=\"model\">models</link></u> with <u><link=\"rulebook-channel\">Channel</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> stored from the previous phase (see <u><link=\"storing_magic\">Storing Magic)</link></u>.\nNote: Each non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rulebook-channel\">Channel(X)</link></u> adds X Magic <u><link=\"dice\">Dice</link></u>, the most common source of <u><link=\"rulebook-channel\">Channel</link></u> are Wizards:\n-   <u><link=\"wizard_master\">Wizard Masters</link></u> have <u><link=\"rulebook-channel\">Channel(2)</link></u>.\n-   <u><link=\"wizard_adept\">Wizard Adepts</link></u> have <u><link=\"rulebook-channel\">Channel(1)</link></u>.\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u> have <u><link=\"rulebook-channel\">Channel(1)</link></u>, unless it is a <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (1).\n\n-10.80vampire_MadAt.pngMad Hat\n\nI hope you haven’t been listening to any criminal goblins. That would be almost as inadvisable as talking to an undergraduate!\nHerr Sigmund Selig here, Professor Emeritus; you may call me The Sage. Forgive my tardiness, but I’d just seen a paper by that buffoon of a provost from Eichtal, claiming that the Flux responds to the seniority of the mage who calls upon it. Naturally I had to write a treatise in response – the Flux is simply the vulgar term for the flow of magic into and around our Realm, and all proper experiments demonstrate that though a wizard might draw more of this substance to themselves by “channelling”, they cannot increase the total magical resources in the vicinity, which is entirely random. Thank goodness I was in time to correct you on that!"
-  },
-  {
-    "Id": "life_is_cheap",
-    "Name": "Life is Cheap",
-    "Type": "General",
-    "Description": "When calculating Combat Score, ignore the first two Health Point losses of Health Pools with <u><link=\"life_is_cheap\">Life is Cheap</link></u> in each Combat. Note, the number of ignored Health Point losses is not affected by the amount of Health Pools. Units containing <u><link=\"life_is_cheap\">Life is Cheap</link></u> that are Steady and Solid get +2 Dis while taking Break Tests."
+    "Description": "The Active Player gains additional Magic <u><link=\"dice\">Dice</link></u>  from the following sources:\n\n-   A free additional Magic <u><link=\"dice\">Dice</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> from <u><link=\"model\">models</link></u> with <u><link=\"rulebook-channel\">Channel</link></u>.\n-   Magic <u><link=\"dice\">Dice</link></u> stored from the previous phase (see <u><link=\"storing_magic\">Storing Magic)</link></u>.\nNote: Each non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rulebook-channel\">Channel(X)</link></u> adds X Magic <u><link=\"dice\">Dice</link></u>, the most common source of <u><link=\"rulebook-channel\">Channel</link></u> are Wizards:\n-   <u><link=\"wizard_master\">Wizard Masters</link></u> have <u><link=\"rulebook-channel\">Channel(2)</link></u>.\n-   <u><link=\"rulebook-wizard_adept\">Wizard Adepts</link></u> have <u><link=\"rulebook-channel\">Channel(1)</link></u>.\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclaves</link></u> have <u><link=\"rulebook-channel\">Channel(1)</link></u>, unless it is a <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (1).\n\n-10.80vampire_MadAt.pngMad Hat\n\nI hope you haven’t been listening to any criminal goblins. That would be almost as inadvisable as talking to an undergraduate!\nHerr Sigmund Selig here, Professor Emeritus; you may call me The Sage. Forgive my tardiness, but I’d just seen a paper by that buffoon of a provost from Eichtal, claiming that the Flux responds to the seniority of the mage who calls upon it. Naturally I had to write a treatise in response – the Flux is simply the vulgar term for the flow of magic into and around our Realm, and all proper experiments demonstrate that though a wizard might draw more of this substance to themselves by “channelling”, they cannot increase the total magical resources in the vicinity, which is entirely random. Thank goodness I was in time to correct you on that!"
   },
   {
     "Id": "mount",
@@ -802,12 +784,6 @@
     "Name": "Melee Attacks",
     "Type": "General",
     "Description": "<u><link=\"melee_attacks\">Melee Attacks</link></u>"
-  },
-  {
-    "Id": "plague_flail",
-    "Name": "Plague Flail",
-    "Type": "General",
-    "Description": " - Melee Weapon\nHalberd. The wielder gains Devastating Charge(Lethal Strike), Afflict(-1 Def)\nHalberd. The wielder gains Devastating Charge(Lethal Strike), Afflict(-1 Def)"
   },
   {
     "Id": "rulebook-supernal",
@@ -1383,7 +1359,7 @@
     "Id": "spell_selection",
     "Name": "Spell Selection",
     "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"rulebook-general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"rulebook-protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
+    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"rulebook-general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"rulebook-wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"rulebook-protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"rulebook-wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
   },
   {
     "Id": "universal",
@@ -2292,12 +2268,6 @@
     "Description": null
   },
   {
-    "Id": "envy",
-    "Name": "Envy",
-    "Type": "General",
-    "Description": "Charge Range and Pursue Distance rolls by units containing this Favour are Maximised."
-  },
-  {
     "Id": "objects_of_envy",
     "Name": null,
     "Type": "General",
@@ -3135,13 +3105,13 @@
     "Id": "vs-callous",
     "Name": "Callous",
     "Type": "Global",
-    "Description": "The model may use Shooting Attacks against enemy units Engaged in Combat, with the following rules and restrictions:\n-   Friendly units Engaged in this Combat are ignored for Cover purposes (but not for drawing Line of Sight).\n-   Roll to-hit as normal against the intended target. Immediately after determining the number of hits, roll a D6 for each hit. On a roll of 4+, the hit is distributed onto a randomly chosen friendly unit Engaged with the original target. Otherwise, proceed as normal."
+    "Description": "The model may use Shooting Attacks against enemy units Engaged in Combat, with the following rules and restrictions:\n   - Friendly units Engaged in this Combat are ignored for Cover purposes (but not for drawing Line of Sight).\n   - Roll to-hit as normal against the intended target. Immediately after determining the number of hits, roll a D6 for each hit. On a roll of 4+, the hit is distributed onto a randomly chosen friendly unit Engaged with the original target. Otherwise, proceed as normal."
   },
   {
     "Id": "vs-imperator",
     "Name": "Imperator",
     "Type": "Global",
-    "Description": "While within range of the model's Commanding Presence, other friendly units gain Fearless, Unstable and lose <u><link=\"life_is_cheap\">Life is Cheap</link></u>, <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm</link></u>."
+    "Description": " Other friendly within units range of the model’s <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> gain <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "vs-pontifex_maximus",
@@ -3159,7 +3129,7 @@
     "Id": "vs-fetthis_fleshmaster",
     "Name": "Fetthis Fleshmaster",
     "Type": "Global",
-    "Description": "The Charge Range rolls of units entirely with Mutant within 12\" of at leaste one <u><link=\"fetthis_fleshmaster\">Fetthis Fleshmaster</link></u> are Maximised."
+    "Description": "The Charge Range rolls of units entirely with Mutant within 12\" of at leaste one <u><link=\"vs-fetthis_fleshmaster\">Fetthis Fleshmaster</link></u> are Maximised."
   },
   {
     "Id": "vs-cutting_corners",
@@ -3171,43 +3141,49 @@
     "Id": "vs-whispering_bell",
     "Name": "Whispering Bell",
     "Type": "Equipment",
-    "Description": "The model gains Musician, Exclusive(Blackfur Veterans, <u><link=\"bloodfur_praetorians\">Bloodfur Praetorians</link></u>, Vermin Legionaries), Impact Hits(D3+1).\nIncrease the ignored Health Points due to <u><link=\"life_is_cheap\">Life is Cheap</link></u> by two in Combats where at least one friendly Unit, with <u><link=\"life_is_cheap\">Life is Cheap</link></u> is within 12\" of the <u><link=\"whispering_bell\">Whispering Bell</link></u>.\nRemember that Unit Boundaries are frozen until after taking Break Tests."
+    "Description": "The model gains <u><link=\"rulebook-musician\">Musician</link></u>, <u><link=\"rulebook-exclusive\">Exclusive</link></u>(Blackfur Veterans, Bloodfur Praetorians, Vermin Legionaries), <u><link=\"rulebook-impact_hits\">Impact Hits</link></u>(D3+1).\nIncrease the ignored Health Points due to <u><link=\"vs-life_is_cheap\">Life is Cheap</link></u> by two in Combats where at least one friendly Unit, with <u><link=\"vs-life_is_cheap\">Life is Cheap</link></u> is within 12\" of the <u><link=\"vs-whispering_bell\">Whispering Bell</link></u>.\nRemember that Unit Boundaries are frozen until after taking Break Tests."
   },
   {
     "Id": "vs-life_is_cheap",
     "Name": "Life is Cheap",
     "Type": "Global",
-    "Description": "When calculating Combat Score, ignore the first two Health Point losses of Health Pools with <u><link=\"life_is_cheap\">Life is Cheap</link></u> in each Combat. Note, the number of ignored Health Point losses is not affected by the amount of Health Pools. Units containing <u><link=\"life_is_cheap\">Life is Cheap</link></u> that are Steady and Solid get +2 Dis while taking Break Tests."
+    "Description": "When calculating Combat Score, ignore the first two Health Point losses of Health Pools with <u><link=\"vs-life_is_cheap\">Life is Cheap</link></u> in each Combat. Note, the number of ignored Health Point losses is not affected by the amount of Health Pools. Units containing <u><link=\"vs-life_is_cheap\">Life is Cheap</link></u> that are <u><link=\"rulebook-combat_formations\">Steady</link></u> and <u><link=\"rulebook-combat_formations\">Solid</link></u> get +2 Dis while taking Break Tests."
   },
   {
     "Id": "vs-cohort_coordination",
     "Name": "Cohort Coordination",
     "Type": "Equipment",
-    "Description": "While the unit has a Standard Bearer and the General is on the Battlefield, it:\n\n-   Gains Fight in Extra Rank.\n-   May reroll a failed Command Test. If it chooses to do this, and still fails the test, the unit loses its Standard Bearer, and you must remove one Rank-and-File model from the unit as a casualty (no saves allowed).\n"
+    "Description": "While the unit has a Standard Bearer and the General is on the Battlefield, it:\n   - Gains Fight in Extra Rank.\n   - May reroll a failed Command Test. If it chooses to do this, and still fails the test, the unit loses its Standard Bearer, and you must remove one Rank-and-File model from the unit as a casualty (no saves allowed)"
   },
   {
     "Id": "vs-gladius",
     "Name": "Gladius",
     "Type": "Equipment",
-    "Description": " - Attack Attribute\nThe model gains +1 Str when using a Hand Weapon.\nThe model gains +1 Str when using a Hand Weapon."
+    "Description": "The model gains +1 Str when using a Hand Weapon."
+  },
+  {
+    "Id": "vs-furs_on_fire",
+    "Name": "Furs on Fire!",
+    "Type": "Equipment",
+    "Description": "Immediately before the model is removed as a casualty as a result of an enemy Melee Attack, it inflicts 1 hit with Str 3, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> towards the Health Pool of the model that caused the wound."
   },
   {
     "Id": "vs-diseased",
     "Name": "Diseased",
     "Type": "Equipment",
-    "Description": "Whenever a natural ‘1’ is rolled to hit for an enemy Melee Attack allocated towards a model with <u><link=\"diseased\">Diseased</link></u>, the model part inflicts 1 hit with Toxic Attacks on the attacking model's unit in the same Agility Step, before any casualties are removed. This attack cannot benefit from Zeal, Press of Ranks."
+    "Description": "Whenever a natural ‘1’ is rolled to hit for an enemy Melee Attack allocated towards a model with <u><link=\"vs-diseased\">Diseased</link></u>, the model part inflicts 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> on the attacking model's unit in the same Agility Step, before any casualties are removed. This attack cannot benefit from <u><link=\"rulebook-zeal\">Zeal</link></u>, <u><link=\"rulebook-press_of_ranks\">Press of Ranks</link></u>."
   },
   {
     "Id": "vs-bloodpox_blades",
     "Name": "Bloodpox Blades",
     "Type": "Equipment",
-    "Description": "Paired Weapons. Poison Attacks."
+    "Description": "<u><link=\"rulebook-paired_weapons\">Paired Weapons</link></u>. <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>."
   },
   {
     "Id": "vs-cannon_fodder",
     "Name": "Cannon Fodder",
     "Type": "Global",
-    "Description": "Shooting Attacks against enemy units in contact with one or more models with <u><link=\"cannon_fodder\">Cannon Fodder</link></u> gain +1 to hit."
+    "Description": "Shooting Attacks against enemy units in contact with one or more models with <u><link=\"vs-cannon_fodder\">Cannon Fodder</link></u> gain +1 to hit."
   },
   {
     "Id": "vs-sling",
@@ -3219,7 +3195,7 @@
     "Id": "vs-drill_down",
     "Name": "Drill Down!",
     "Type": "Global",
-    "Description": "One use only. May be activated at the end of a friendly Movement Phase, if:\n-   The model's unit, with the exception of the model itself, consists entirely of Height 1 models.\n-   The model's unit  was allowed to move in the current Phase. (is not Shaken, Fail Charged, Unengaged etc.).\nEffect:\n-   Remove the model's unit from the Battlefield.\n-   The model's unit gains Ambush(Terrain Feature with a friendly Tunnel Marker). It automatically passes any Ambush Rolls.\nsee Legionary Drill Team."
+    "Description": "One use only.\nAt the beginning of ‘Vanguard Units’ (Battle Setup, step 3.F), a unit including <u><link=\"vs-drill_down\">Drill Down!</link></u> may choose to be removed from the Battlefield. If so, the unit gains <u><link=\"rulebook-ambush\">Ambush</link></u> (Terrain Feature with a friendly Tunnel Marker).\nIt automatically passes any <u><link=\"rulebook-ambush\">Ambush</link></u> Rolls."
   },
   {
     "Id": "vs-darkstone_generator",
@@ -3231,25 +3207,25 @@
     "Id": "vs-jezail",
     "Name": "Jezail",
     "Type": "Global",
-    "Description": "Aim X+, Range 36\", Shots 1, Str 5, AP 3, Accurate, Unwieldy(1), <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm(To-hit roll)</link></u>"
+    "Description": "Aim X+, Range 36\", Shots 1, Str 5, AP 3, Accurate, Unwieldy(1), <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm(To-hit roll)</link></u>"
   },
   {
     "Id": "vs-unit_of_artillery",
     "Name": "Unit of Artillery",
     "Type": "Global",
-    "Description": "    If one model in this unit is affected by an Engineer, all models in this unit are affected by the Engineer."
+    "Description": "If one model in this unit is affected by an <u><link=\"rulebook-engineer\">Engineer</link></u>, all Rank-and-File models in this unit are affected by the <u><link=\"rulebook-engineer\">Engineer</link></u>."
   },
   {
     "Id": "vs-deepfire_grenades",
     "Name": "Deepfire Grenades",
     "Type": "Equipment",
-    "Description": "Aim 5+, Range 8\", Shots 2, Str 6, AP 2, Accurate, Flaming Attacks, Quick to Fire, When shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n"
+    "Description": "Aim 5+, Range 8\", Shots 2, Str 6, AP 2, Accurate, Flaming Attacks, Quick to Fire, When shooting at an enemy unit Engaged in Combat (using the <u><link=\"vs-callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n"
   },
   {
     "Id": "vs-tracking_telescope",
     "Name": "Tracking Telescope",
     "Type": "Global",
-    "Description": "    The model gains +1 to hit towards targets with Hard Target that are at Long Range."
+    "Description": "The model gains +1 to hit towards targets with <u><link=\"rulebook-hard_target\">Hard Target</link></u> that are at Long Range."
   },
   {
     "Id": "vs-rakachit_mauss_rifle",
@@ -3267,73 +3243,19 @@
     "Id": "vs-maniacal_enthusiasm",
     "Name": "Maniacal Enthusiasm",
     "Type": "Equipment",
-    "Description": "When models in a unit make a dice roll of the type defined in brackets (X), after seeing the result(s) of all simultaneous rolls for X, and rolling eventual re-rolls, you may choose to add 2 to X for all simultaneous rolls with this attribute.\nIf this modifier is used, immediately roll a D6 and consult the table below:\n-   1--2 Oops: Change the target of all simultaneous Attacks or a spell with <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> to a friendly unit within Range chosen by the controlling player. The model’s own unit is always an eligible target.\n-   3--4 Room for Improvement: After fully resolving the simultaneous Attacks or a spell that triggered the roll on this table, the model’s unit suffers 3 hits with Str 4 and AP 10.\n-   5--6 Glorious Success!: No additional effect.\n"
+    "Description": "When models in a unit make a dice roll of the type defined in brackets (X), after seeing the result(s) of all simultaneous rolls for X, and rolling eventual re-rolls, you may choose to add 2 to X for all simultaneous rolls with this attribute.\nIf this modifier is used, immediately roll a D6 and consult the table below:\n   - 1--2 Oops: Change the target of all simultaneous Attacks or a spell with <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> to a friendly unit within Range chosen by the controlling player. The model’s own unit is always an eligible target.\n   - 3--4 Room for Improvement: After fully resolving the simultaneous Attacks or a spell that triggered the roll on this table, the model’s unit suffers 3 hits with Str 4 and AP 10.\n   - 5--6 Glorious Success!: No additional effect."
   },
   {
     "Id": "vs-unstable_engines",
     "Name": "Unstable Engines",
     "Type": "Global",
-    "Description": "Immediately before the model is removed as a casualty, it inflicts D6 hits with Str 4, AP 0 and Flaming Attacks on all units, other than it's own, within 6\" of the model's unit."
-  },
-  {
-    "Id": "maniacal_enthusiasm",
-    "Name": "Maniacal Enthusiasm",
-    "Type": "General",
-    "Description": "When models in a unit make a dice roll of the type defined in brackets (X), after seeing the result(s) of all simultaneous rolls for X, and rolling eventual re-rolls, you may choose to add 2 to X for all simultaneous rolls with this attribute.\nIf this modifier is used, immediately roll a D6 and consult the table below:\n-   1--2 Oops: Change the target of all simultaneous Attacks or a spell with <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> to a friendly unit within Range chosen by the controlling player. The model’s own unit is always an eligible target.\n-   3--4 Room for Improvement: After fully resolving the simultaneous Attacks or a spell that triggered the roll on this table, the model’s unit suffers 3 hits with Str 4 and AP 10.\n-   5--6 Glorious Success!: No additional effect.\n"
-  },
-  {
-    "Id": "fetthis_fleshmaster",
-    "Name": "Fetthis Fleshmaster",
-    "Type": "General",
-    "Description": "The Charge Range rolls of units entirely with Mutant within 12\" of at leaste one <u><link=\"fetthis_fleshmaster\">Fetthis Fleshmaster</link></u> are Maximised."
-  },
-  {
-    "Id": "bloodfur_praetorians",
-    "Name": "Bloodfur Praetorians",
-    "Type": "General",
-    "Description": "The model gains Bodyguard (General) and Great Weapon, and loses Halberd.The model does not count towards the army's model cap of max. 120 Blackfur Veterans."
-  },
-  {
-    "Id": "whispering_bell",
-    "Name": "Whispering Bell",
-    "Type": "General",
-    "Description": "The model gains Musician, Exclusive(Blackfur Veterans, <u><link=\"bloodfur_praetorians\">Bloodfur Praetorians</link></u>, Vermin Legionaries), Impact Hits(D3+1).\nIncrease the ignored Health Points due to <u><link=\"life_is_cheap\">Life is Cheap</link></u> by two in Combats where at least one friendly Unit, with <u><link=\"life_is_cheap\">Life is Cheap</link></u> is within 12\" of the <u><link=\"whispering_bell\">Whispering Bell</link></u>.\nRemember that Unit Boundaries are frozen until after taking Break Tests."
-  },
-  {
-    "Id": "diseased",
-    "Name": "Diseased",
-    "Type": "General",
-    "Description": "Whenever a natural ‘1’ is rolled to hit for an enemy Melee Attack allocated towards a model with <u><link=\"diseased\">Diseased</link></u>, the model part inflicts 1 hit with Toxic Attacks on the attacking model's unit in the same Agility Step, before any casualties are removed. This attack cannot benefit from Zeal, Press of Ranks."
-  },
-  {
-    "Id": "cannon_fodder",
-    "Name": "Cannon Fodder",
-    "Type": "General",
-    "Description": "Shooting Attacks against enemy units in contact with one or more models with <u><link=\"cannon_fodder\">Cannon Fodder</link></u> gain +1 to hit."
+    "Description": " Immediately before the model is removed as a casualty, it inflicts D6 hits with Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> on all units, other than its own, within 6\" of the model’s unit."
   },
   {
     "Id": "darkstone_generator",
     "Name": "Darkstone Generator",
     "Type": "General",
-    "Description": "Hits automatically.\n<u><link=\"darkstone_generator\">Darkstone Generator</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"darkstone_generator\">Darkstone Generator</link></u>Auto12\"D3+1D6+13March and Shoot, Lightning Attacks, <u><link=\"maniacal_enthusiasm\">Maniacal Enthusiasm(To-wound roll)</link></u>, Automatic Hits"
-  },
-  {
-    "Id": "callous",
-    "Name": "Callous",
-    "Type": "General",
-    "Description": "The model may use Shooting Attacks against enemy units Engaged in Combat, with the following rules and restrictions:\n-   Friendly units Engaged in this Combat are ignored for Cover purposes (but not for drawing Line of Sight).\n-   Roll to-hit as normal against the intended target. Immediately after determining the number of hits, roll a D6 for each hit. On a roll of 4+, the hit is distributed onto a randomly chosen friendly unit Engaged with the original target. Otherwise, proceed as normal."
-  },
-  {
-    "Id": "deepfire_grenades",
-    "Name": "Deepfire Grenades",
-    "Type": "General",
-    "Description": "When shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>58\"262Accurate, Flaming Attacks, Quick to Fire,  <u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>\n<u><link=\"deepfire_grenades\">Deepfire Grenades</link></u>\nWhen shooting at an enemy unit Engaged in Combat (using the <u><link=\"callous\">Callous</link></u> rule), hits are distributed onto a randomly chosen friendly unit Engaged with the original target on a roll of 5+ instead of 4+.\n"
-  },
-  {
-    "Id": "skorchit_ordnance",
-    "Name": "\n\t\tSkorchit Ordnance",
-    "Type": "General",
-    "Description": "<u><link=\"skorchit_ordnance\">Skorchit Ordnance</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"skorchit_ordnance\">Skorchit Ordnance</link></u>548\"141Artillery, Flaming Attacks, Area Attack(3×3)\nRakachit Mauss Rifle - Shooting Weapon\nNameAimRangeShotsStrAPAttack AttributesRakachit Mauss Rifle548\"152Artillery, Lightning Attacks, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))\n"
+    "Description": "Hits automatically.\n<u><link=\"darkstone_generator\">Darkstone Generator</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"darkstone_generator\">Darkstone Generator</link></u>Auto12\"D3+1D6+13March and Shoot, Lightning Attacks, <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm(To-wound roll)</link></u>, Automatic Hits"
   },
   {
     "Id": "wdg-manifestation",
@@ -3345,37 +3267,31 @@
     "Id": "wdg-primal_legend",
     "Name": "Primal Legend",
     "Type": "Global",
-    "Description": " While the model is on the Battlefield, friendly units cannot use Fly for Move Manoeuvres or Charge Moves. In addition, if the model is the General, the maximum sum of Legendary Beasts values in the army is increased by 1."
-  },
-  {
-    "Id": "wdg-battle_fever",
-    "Name": "Battle Fever",
-    "Type": "Global",
-    "Description": "Units containing a model with <u><link=\"battle_fever\">Battle Fever</link></u> must reroll failed Courage Tests."
+    "Description": " While the model is on the Battlefield, friendly units cannot use <u><link=\"rulebook-fly\">Fly</link></u> for Move Manoeuvres or Charge Moves. In addition, if the model is the General, the maximum sum of Legendary Beasts values in the army is increased by 1."
   },
   {
     "Id": "wdg-dying_embers",
     "Name": "Dying Embers",
     "Type": "Equipment",
-    "Description": " - Attack Attribute\n\nAfter using the Breath Attack, the model loses a Health Point with no saves of any kind allowed."
+    "Description": "After using the <u><link=\"rulebook-breath_attack\">Breath Attack</link></u>, the model loses a Health Point with no saves of any kind allowed."
   },
   {
     "Id": "wdg-gluttony",
     "Name": "Gluttony",
     "Type": "Global",
-    "Description": "The first time a model with this Favour is on the winning side of a combat, its model parts with <u><link=\"path_of_the_favoured\">Path of the Favoured</link></u> gain +1 Str with Duration: Permanent."
+    "Description": "The first time a model with this Favour is on the winning side of a combat, its model parts with Path of the Favoured gain +1 Str with Duration: Permanent."
   },
   {
     "Id": "wdg-hellforged_armour",
     "Name": "Hell-Forged Armour",
     "Type": "Defense",
-    "Description": "The wearer's model gains Resistance(Toxic Attacks)."
+    "Description": "The wearer's model gains <u><link=\"rulebook-resistance\">Resistance</link></u>(<u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>)."
   },
   {
     "Id": "wdg-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "At any time during the Movement Phase, the model can choose to lose Fly and gain +2 Mob. This lasts until the end of the Movement Phase."
+    "Description": "When initiating a Move Manoeuvre, the model can choose to lose <u><link=\"rulebook-fly\">Fly</link></u> and gain +2 Mobility. Duration: One Phase."
   },
   {
     "Id": "wdg-veil_walker",
@@ -3387,13 +3303,13 @@
     "Id": "wdg-beacon_of_the_dark_gods",
     "Name": "Beacon of the Dark Gods",
     "Type": "Global",
-    "Description": "the Wizard knows one additional spell, chosen from:Whispers of the Veil=free, Danse Macabre=free, Molten Copper=free, <u><link=\"wrath\">Wrath</link></u> of God*=free*only if Wizard Master"
+    "Description": "The Wizard knows one additional spell, chosen from:\n   • Molten Copper Silver Spike (Alchemy)\n   • Whispers of the Veil (Evocation)\n   • Danse Macabre (Evocation)\n   • Wrath of God* (Thaumaturgy)\n*only if Wizard Master"
   },
   {
     "Id": "wdg-deeds_not_words",
     "Name": "Deeds not Words",
     "Type": "Equipment",
-    "Description": " - Attack Attribute\nThe model part gains Fury, Hatred while joined to one or more Rank-and-File models with Human.\nThe model part gains Fury, Hatred while joined to one or more Rank-and-File models with Human."
+    "Description": "The model part benefits from <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"rulebook-hatred\">Hatred</link></u> while joined to one or more Rank-and-File models with Human."
   },
   {
     "Id": "wdg-envy",
@@ -3405,31 +3321,31 @@
     "Id": "wdg-writhing_mass",
     "Name": "Writhing Mass",
     "Type": "Global",
-    "Description": "When in the second rank and not in contact with any enemy model, the model can make Grind Attack across models in the first rank directly in front of it."
+    "Description": "When in the second rank and not in contact with any enemy model, the model can make <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> across models in the first rank directly in front of it."
   },
   {
     "Id": "wdg-release_the_hounds",
     "Name": "Release the Hounds",
     "Type": "Global",
-    "Description": "One use only, Duration: Until end of turn. The unit may activate this, at the start of a friendly Player Turn , it gains +2 Mobility and Devastating Charge(+1 Att, +1 Str) ."
+    "Description": "One use only. Duration: End of Turn.\nCan be activated at the start of any friendly Player Turn: the unit gains +2 Mob and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1 Att, +1 Str)."
   },
   {
     "Id": "wdg-giant_see_giant_do",
     "Name": "Giant See, Giant Do",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"battle_fever\">Battle Fever</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-courageous\">Courageous</link></u>."
   },
   {
     "Id": "wdg-giant_club",
     "Name": "Giant Club",
     "Type": "Equipment",
-    "Description": " - Melee Weapon\n+1 Str and +1 AP.\n+1 Str and +1 AP."
+    "Description": "+1 Str and +1 AP."
   },
   {
     "Id": "wdg-gateway",
     "Name": "Gateway",
     "Type": "Global",
-    "Description": "During Pre-game Selection, mark a point on the Battlefield within 24\" of your Deployment Zone and outside the opponent's Deployment Zone  with a <u><link=\"gateway\">Gateway</link></u> Marker.\nThere can never be more than 4 friendly <u><link=\"gateway\">Gateway</link></u> Markers on the Battlefield.\nIf a <u><link=\"gateway\">Gateway</link></u> Marker is removed, then all units within 3\" of the marker suffer 3D3 hits with Toxic Attacks.\nRemove all friendly <u><link=\"gateway\">Gateway</link></u> Markers if there are no friendly Hellmaws on the Battlefield.\nAt the start of each friendly Magic Phase (before drawing a Flux Card), if this model  was allowed to move in the prior Movement Phase (is not Shaken, Unengaged etc.), you can   apply one of the following effects:\n-   Mark a single point on the Battlefield within 24\" of the model with a <u><link=\"gateway\">Gateway</link></u> Marker. Before doing so, you may remove a friendly <u><link=\"gateway\">Gateway</link></u> Marker, from the Battlefield, that was not placed  this Player Turn.\n-   Target a single  friendly unit  within 9\" of the model, not containing any models of Height 5, and that was allowed to move in the prior Movement Phase (is not shaken, did not Ambush, Fail Charge, unengaged etc.) . Remove the unit from the Battlefield and immediately place it back on the Battlefield, in the same formation, with Ambush( friendly <u><link=\"gateway\">Gateway</link></u> Marker, that was not placed during this Player Turn)."
+    "Description": "During Pre-game Selections, mark a point on the Battlefield with a <u><link=\"wdg-gateway\">Gateway</link></u> Marker: it must be within 24\" of your Deployment Zone , outside the opponent’s Deployment Zone , and more than 1\" from Impassible Terrain.\nThere can never be more than 4 friendly <u><link=\"wdg-gateway\">Gateway</link></u> Markers on the Battlefield.\nIf a <u><link=\"wdg-gateway\">Gateway</link></u> Marker is removed, then all units within 3\" of the marker suffer 3D3 hits with Toxic Attacks.\nRemove all friendly <u><link=\"wdg-gateway\">Gateway</link></u> Markers if there are no friendly Hellmaws or friendly models with a Veilgate Orb on the Battlefield ,at the end of any phase.\n\nAt the start of each friendly Magic Phase, if this model was allowed to move during the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.), you can apply one of the following effects:\n   • Mark a single point on the Battlefield within 24\" of the model with a <u><link=\"wdg-gateway\">Gateway</link></u> Marker, and more than 1\" from Impassible Terrain. Before doing so, you may remove from the Battlefield a friendly <u><link=\"wdg-gateway\">Gateway</link></u> Marker that was not placed during this Player Turn.\n   • Target a single friendly unit within 9\" of the model, not containing any model of Height 5, and that was allowed to move in the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.).Remove the unit from the Battlefield and immediately place it back on the Battlefield, in the same formation, with Ambush (friendly <u><link=\"wdg-gateway\">Gateway</link></u> Marker, that was not placed during this Player Turn)"
   },
   {
     "Id": "wrath",
@@ -3442,12 +3358,6 @@
     "Name": "Hellfire",
     "Type": "General",
     "Description": "    The target suffers 2D6 hits with Strength 6, Armour Penetration 0, and Magical Attacks.\n*This spell can target units Engaged in Combat and in contact with the Caster's Front Facing."
-  },
-  {
-    "Id": "battle_fever",
-    "Name": "Battle Fever",
-    "Type": "General",
-    "Description": "Units containing a model with <u><link=\"battle_fever\">Battle Fever</link></u> must reroll failed Courage Tests."
   },
   {
     "Id": "gateway",
@@ -3544,12 +3454,6 @@
     "Name": "Berserker's Bear Pelt",
     "Type": "General",
     "Description": "Light Armour. The bearer gains Swiftstride and Unstable.\nIn addition, at the start of any of your Player Turns, all models with <u><link=\"berserkers_bear_pelt\">Berserker's Bear Pelt</link></u> in a unit may choose to lose their Shield and gain +1 Strength, Fury, Fearless, Frenzy, and . The effects last for the remainder of the game."
-  },
-  {
-    "Id": "spiked_shield",
-    "Name": "Spiked Shield",
-    "Type": "General",
-    "Description": " - Armour Equipment\nModels without Mount only.\nShield. For each successful Armour Save roll of 4+ made by the bearer against a Melee Attack while using a <u><link=\"spiked_shield\">Spiked Shield</link></u>, the bearer immediately inflicts 1 hit with the bearer's Strength and Armour Penetration against the model that caused the wound, before any casualties are removed, distributed onto the model's Health Pool. This is considered a Special Attack.\nModels without Mount only.\nShield. For each successful Armour Save roll of 4+ made by the bearer against a Melee Attack while using a <u><link=\"spiked_shield\">Spiked Shield</link></u>, the bearer immediately inflicts 1 hit with the bearer's Strength and Armour Penetration against the model that caused the wound, before any casualties are removed, distributed onto the model's Health Pool. This is considered a Special Attack."
   },
   {
     "Id": "stupid",
@@ -6705,13 +6609,7 @@
     "Id": "vs-underworld_beast",
     "Name": "Underworld Beast",
     "Type": "General",
-    "Description": "The model gains Random Movement(3D6\") and its Attack Value is set to 4D3. It loses the Pitmaster model part, and its base size is changed to 60×100 mm."
-  },
-  {
-    "Id": "vs-bloodfur_praetorians",
-    "Name": "Bloodfur Praetorians",
-    "Type": "General",
-    "Description": "The model gains Bodyguard (General) and Great Weapon, and loses Halberd.The model does not count towards the army's model cap of max. 120 Blackfur Veterans."
+    "Description": "The model gains <u><link=\"rulebook-random_movement\">Random Movement</link></u>(3D6\") and its Attack Value is set to 4D3. It loses the Pitmaster model part, and its base size is changed to 60×100 mm."
   },
   {
     "Id": "vs-fire_rats",
@@ -6723,43 +6621,49 @@
     "Id": "vs-stygian_overseer",
     "Name": "Stygian Overseer",
     "Type": "General",
-    "Description": "Ambush(Terrain Feature with a friendly Tunnel Marker), Tunnel Digger.\nIn addition, each Stygian Overseer on the Army List increases the duplication limit of Legionary Drill Teams by 1."
+    "Description": "<u><link=\"rulebook-ambush\">Ambush</link></u>(Terrain Feature with a friendly Tunnel Marker), <u><link=\"vs-tunnel_digger\">Tunnel Digger</link></u>.\nIn addition, each Stygian Overseer on the Army List increases the duplication limit of Legionary Drill Teams by 1."
+  },
+  {
+    "Id": "vs-tunnel_digger",
+    "Name": "Tunnel Digger",
+    "Type": "General",
+    "Description": "Each Vermin Swarm army gains one Tunnel Marker, and an additional Tunnel Marker for each unit on the Army List with Tunnel Digger.\nDuring Pre-game Selections, for each of your army’s Tunnel Markers, mark a Terrain Feature with a Tunnel Marker.\nOnly Terrain Features that are not in contact with the opponent’s Deployment Zone can be marked. Note: Impassable Terrain can be chosen."
   },
   {
     "Id": "vs-rakachit_technocrat",
     "Name": "Rakachit Technocrat",
     "Type": "General",
-    "Description": "The model gains Engineer(Experimental Weapon Teams, Vermin Artillery)."
+    "Description": "The model gains <u><link=\"rulebook-engineer\">Engineer</link></u>(Experimental Weapon Teams, Vermin Artillery)."
   },
   {
     "Id": "vs-skorchit_alchemist",
     "Name": "Skorchit Alchemist",
     "Type": "General",
-    "Description": "Height 1 Rank-and-File models in the bearer's unit gain First Strike(Zeal, Flaming Attacks)"
+    "Description": "Shooting Attacks from the model with a Pistol gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>.\nIn addition, Height 1 Rank-and-File models in the bearer’s unit benefits from <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-zeal\">Zeal</link></u>)."
   },
   {
     "Id": "vs-plague_flail",
     "Name": "Plague Flail",
     "Type": "General",
-    "Description": "- Melee Weapon\n\nHalberd. The wielder gains Devastating Charge(Lethal Strike), Afflict(-1 Def)\n\n\tHalberd. The wielder gains Devastating Charge(Lethal Strike), Afflict(-1 Def)"
+    "Description": "Halberd, <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(1, <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>)"
   },
   {
     "Id": "vs-enlightened_by_favana",
     "Name": "Enlightened by Favana",
     "Type": "General",
-    "Description": "The model replaces Wizard Apprentice with Wizard Adept and can choose Witchcraft, Thaumaturgy instead of Occultism. The model cannot take Paired Weapons, Halberd, Great Weapon."
+    "Description": "The model replaces <u><link=\"rulebook-wizard_apprentice\">Wizard Apprentice</link></u> with <u><link=\"rulebook-wizard_adept\">Wizard Adept</link></u> and can choose Witchcraft, Thaumaturgy instead of Occultism.\nThe model cannot take Paired Weapons, Halberd, Great Weapon."
   },
   {
     "Id": "vs-fortified_by_udius",
     "Name": "Fortified by Udius",
     "Type": "General",
-    "Description": "The model gains Regeneration(4+), Hard Target(1)."
+    "Description": "The model gains <u><link=\"rulebook-regeneration\">Regeneration</link></u>(4+), <u><link=\"rulebook-hard_target\">Hard Target</link></u>(1)."
   },
   {
     "Id": "vs-pestilent_pulpit",
     "Name": "Pestilent Pulpit",
     "Type": "General",
-    "Description": "The model gains Diseased and Exclusive(Plague Cultists, Plague Disciples). The Chassis model part's Agi is set to 4. It gains Grind Attack(D3+1) and Devastating Charge(+10 Agi).\nThe model's unit gains Poison Attacks."
+    "Description": "The model gains <u><link=\"vs-diseased\">Diseased</link></u> and <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Plague Cultists).\nThe model’s unit gains <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>.\nThe Chassis model part’s Agility is set to 4 and it gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+10 Agi) and <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> (D3+1 hits)."
   },
   {
     "Id": "vs-canister_launcher",
@@ -6783,7 +6687,7 @@
     "Id": "vs-plague_disciples",
     "Name": "Plague Disciples",
     "Type": "General",
-    "Description": "The unit replaces its Bloodpox Blades with Plague Flail."
+    "Description": "The unit replaces its <u><link=\"vs-bloodpox_blades\">Bloodpox Blades</link></u> with Plague Flail."
   },
   {
     "Id": "vs-i_am_the_senate",
@@ -6795,7 +6699,7 @@
     "Id": "vs-lord_of_the_legions",
     "Name": "Lord of the Legions",
     "Type": "General",
-    "Description": "The model's Standard Melee Attacks gains Multiple Wounds(D3)."
+    "Description": "The model's Standard Melee Attacks gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(D3)."
   },
   {
     "Id": "vs-vox_populi",
@@ -6810,52 +6714,46 @@
     "Description": "Whenever a natural ‘1’ is rolled to hit for an enemy Close Combat Attack allocated towards a model with Cult of Errahman, the model part inflicts 1 hit with Toxic Attacks on the attacking model's unit in the same Initiative Step, before any casualties are removed.\n\t models with Cult of Errahman cannot be joined by models without Cult of Errahman."
   },
   {
-    "Id": "vs-iovanis_thunder",
-    "Name": "Iovanis' Thunder",
-    "Type": "General",
-    "Description": "The target suffers 2D3 hits with Str 4, AP 1, Lightning Attacks, Magical Attacks, Maniacal Enthusiasm(To-wound roll)."
-  },
-  {
     "Id": "vs-swarm_master",
     "Name": "Swarm Master",
     "Type": "General",
-    "Description": "While using this weapon, the wielder gains Grind Attack(X, Str 3, AP 1, Unmodifiable), where X is the number of Proper Ranks in the wielder's unit, up to a maximum of 10."
+    "Description": "While using this weapon, the wielder gains <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(X, Str 3, AP 1, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>), where X is the number of Proper Ranks in the wielder's unit, up to a maximum of 10."
   },
   {
     "Id": "vs-rodentium_bullets",
     "Name": "Rodentium Bullets",
     "Type": "General",
-    "Description": "The weapon's Range is set to 18\". The weapon gains +2 Shots, +1 AP, and Accurate."
+    "Description": "Range 18\", Shots 3, AP 3, <u><link=\"rulebook-accurate\">Accurate</link></u>."
   },
   {
     "Id": "vs-secrets_of_the_doom_blade",
     "Name": "Secrets of the Doom Blade",
     "Type": "General",
-    "Description": "+1 Att, +2 AP. Maniacal Enthusiasm(To-wound roll), Multiple Wounds(D3). Rolls this model makes on the Maniacal Enthusiasm chart gain a +2 modifier."
+    "Description": "+1 Att, +2 AP. <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm</link></u>(To-wound roll), <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(D3). Rolls this model makes on the <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> chart gain a +2 modifier."
   },
   {
     "Id": "vs-storm_rocket",
     "Name": "Storm Rocket",
     "Type": "General",
-    "Description": "Aim 3+. Range is set to 24\", Str is set to 5 and AP is set to 2. The weapon gains Flaming Attacks, Maniacal Enthusiasm(To-hit roll). If the weapon hits, it causes D6 hits instead of 1."
+    "Description": "Aim 3+, Range 24\", Str 5, AP 2, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm</link></u>(To-hit roll).\nIf the weapon hits, it causes D6 hits instead of 1."
   },
   {
     "Id": "vs-bell_of_the_deep_roads",
     "Name": "Bell of the Deep Roads",
     "Type": "General",
-    "Description": "The bearer's unit gains Ambush(Terrain Feature with a friendly Tunnel Marker)."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-ambush\">Ambush</link></u>(Terrain Feature with a friendly Tunnel Marker)."
   },
   {
     "Id": "vs-sacred_aquila",
     "Name": "Sacred Aquila",
     "Type": "General",
-    "Description": "The bearer and Rank-and-File models in the bearer's unit gain Fury; in addition, for each natural to-hit roll of ‘1’ with a Melee Attack made by  the bearer or a Rank-and-File model in its unit, the bearer's unit suffers 1 hit with Str 3 and AP 0 at the same Agility Step."
+    "Description": "The bearer and Rank-and-File models in the bearer’s unit gain <u><link=\"rulebook-fury\">Fury</link></u>.\nIn addition, for each to-hit roll of ‘1’ with a Melee Attack made by the bearer or a Rank-and-File model in its unit, the bearer’s unit suffers 1 hit with Str 3, AP 0 and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> at the end of the Agility Step in which this effect is triggered."
   },
   {
     "Id": "vs-plaguehermits_blessing",
     "Name": "Plague-Hermit's Blessing",
     "Type": "General",
-    "Description": "The number of HP is set to 6. Model gains the Cult of Errahman property. The model automatically fails all its Armour Saves rolls."
+    "Description": "The model’s number of HP is set to 6, it gains the Cult of Errahman property, and automatically fails all its Armour Saves rolls."
   },
   {
     "Id": "vs-orators_toga",
@@ -6867,43 +6765,43 @@
     "Id": "vs-scepter_of_the_usurper",
     "Name": "Scepter of the Usurper",
     "Type": "General",
-    "Description": "The bearer's unit gains Fearless. If the General is removed as a casualty, the bearer becomes the General."
+    "Description": "The bearer’s unit gains <u><link=\"rulebook-fearless\">Fearless</link></u>.\nIf the General is removed as a casualty, the bearer becomes the General.\nIf the slain General was a Ruinous Dictator, the bearer also sets their Discipline to 9. Duration: Permanent."
   },
   {
     "Id": "vs-tome_of_the_ratking",
     "Name": "Tome of the Ratking",
     "Type": "General",
-    "Description": "The bearer's unit gains Unstable."
+    "Description": "The bearer's unit gains <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "vs-crown_of_hubris",
     "Name": "Crown of Hubris",
     "Type": "General",
-    "Description": "At the start of any friendly Magic Phase, the bearer may choose to inflict 3 HP losses on its unit. If this is used, the model gains Channel(2) with Duration: One Turn."
+    "Description": "At the start of any friendly Magic Phase, the bearer may choose to inflict 3 HP losses on its unit.\nIf so done, the bearer gains <u><link=\"rulebook-channel\">Channel</link></u> (2) Duration: One Phase."
   },
   {
     "Id": "vs-tarinas_lyre",
     "Name": "Tarina's Lyre",
     "Type": "General",
-    "Description": "Stomp Attack made by enemy units within 8\" of the bearer suffer a -2 to-wound modifier."
+    "Description": "<u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> made by enemy units within 8\" of the bearer suffer a -2 to-wound modifier."
   },
   {
     "Id": "vs-darkstone_detonator",
     "Name": "Darkstone Detonator",
     "Type": "General",
-    "Description": "At the end of any friendly Movement Phase after the first, the bearer may remove all friendly Tunnel Markers placed on a single Terrain Feature within 24\" of the bearer.\n\tIf so, \n\tone unengaged unit in contact with that Terrain Feature suffers 2D6 hits with Str 4 and AP 1."
+    "Description": "At the end of any friendly Movement Phase after the first, the bearer may remove all friendly Tunnel Markers placed on a single Terrain Feature within 24\" of the bearer. If so, one Unengaged unit in contact with that Terrain Feature suffers 2D6 hits with Str 4, AP 1, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>."
   },
   {
     "Id": "vs-favanite_powder",
     "Name": "Favanite Powder",
     "Type": "General",
-    "Description": "When casting a Hex spell, after seeing the result of the roll, the bearer can choose to gain Maniacal Enthusiasm(Casting Roll)."
+    "Description": "One use only. Duration: One Phase.\nWhen casting a Hex spell, after seeing the result of the roll, the bearer can choose to gain <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> (Casting Roll)."
   },
   {
     "Id": "vs-potion_of_rat_form",
     "Name": "Potion of Rat Form",
     "Type": "General",
-    "Description": "During any friendly Magic Phase, the bearer can choose to lose Attached (if they have it) and make a 6\" Magical Move. They must end this move by joining another friendly unit (following the normal rules for joining units)."
+    "Description": "One use only. Duration: One Phase.\nDuring any friendly Magic Phase, the bearer can choose to lose Attached (if they had it) and perform a <u><link=\"rulebook-magical_move\">Magical Moves</link></u> (6 Mob).\nIt must end this move by joining another friendly unit (following the normal rules for joining units)."
   },
   {
     "Id": "vs-cohort_coordination_aura",
@@ -7281,37 +7179,37 @@
     "Id": "wdg-wings",
     "Name": "Wings",
     "Type": "General",
-    "Description": "The model's Mob is set to 8\" and it gains Fly."
+    "Description": "The model's Mob is set to 8\" and it gains <u><link=\"rulebook-fly\">Fly</link></u>."
   },
   {
     "Id": "wdg-skinning_lash",
     "Name": "Skinning Lash",
     "Type": "General",
-    "Description": "Sweeping Attack(1)."
+    "Description": "<u><link=\"rulebook-sweeping_attack\">Sweeping Attack</link></u>(1)."
   },
   {
     "Id": "wdg-damnation",
     "Name": "Damnation",
     "Type": "General",
-    "Description": "The unit gains Solitary. When the unit fails a Break Test, replace each model of the unit with a Wretched One model, after taking Panic Tests:\n  •  The unit entirely with Damnation is considered destroyed and its models are considered to be removed as casualties.\n  •  Each Wretched One model is placed in the same position and facing the same direction as the replaced model, even if the replaced model was in contact with an enemy unit. In this case, the Wretched One model is placed in contact with the enemy unit too.\n  •  The Wretched One models form a new unit.\n  •  The Wretched One unit follows the rules for Summoned Units, except that it ignores the Unit Spacing rule when placed on the Battlefield.\n  •  The Wretched One unit cannot perform any Combat Reforms during that Round of Combat, however the enemy units can do so as normal.\n  •  Note that the following Round of Combat is not considered the First Round of Combat for the Wretched One unit nor the enemy units it is Engaged with."
+    "Description": "The unit gains <u><link=\"rulebook-solitary\">Solitary</link></u>.\nIf it fails a Break Test, replace each model of the unit with a Wretched One model:\n   • The unit and its models are considered removed as a casualties.\n   • Each Wretched One model is placed in the same position and facing the same direction as the model it replaces (even if the replaced model was in contact with an enemy unit: in this case, the Wretched One model is placed in contact with the enemy unit, too).\n   • The Wretched One models form a new unit.\n   • The Wretched One unit follows the rules for Summoned Units, except that it ignores the Unit Spacing rule when placed on the Battlefield, but can still not overlap other units or Impassible Terrain.\n   • The Wretched One unit cannot perform any Combat Reforms in the Round of Combat during which it is Summoned. Enemy units can do so as normal.\n   • Note that the following Round of Combat is not considered the First Round of Combat for the Wretched One unit, nor for the enemy units it is Engaged with."
   },
   {
     "Id": "wdg-big_brother",
     "Name": "Big Brother",
     "Type": "General",
-    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for Stomp Attack is Maximised."
+    "Description": "The model's HP are set to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is Maximised."
   },
   {
     "Id": "wdg-monstrous_familiar",
     "Name": "Monstrous Familiar",
     "Type": "General",
-    "Description": "The model gains Wizard Conclave(1), and chooses its spells from the following spells:Living Steel=free, Corruption of Tin=free, Hellfire=free"
+    "Description": "The model gains <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (1), and chooses its spells from the following spells:\n   • Living Steel (Alchemy)\n   • Corruption of Tin (Alchemy)\n   • Hellfire (Hereditary Spell)"
   },
   {
     "Id": "wdg-tribal_warspear",
     "Name": "Tribal Warspear",
     "Type": "General",
-    "Description": "- Melee Weapon\n\n+1 Str and Multiple Wounds(D3, against Height 4, 5). The wielder is an Attachable Model and gains Exclusive(Barbarians). Max. 1 Giant may join a single Barbarians unit.\n\n\t+1 Str and Multiple Wounds(D3, against Height 4, 5). The wielder is an Attachable Model and gains Exclusive(Barbarians). Max. 1 Giant may join a single Barbarians unit."
+    "Description": "+1 Str, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u> (D3, towards Height 4–5).\nThe wielder is an Attachable Model and gains <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Barbarians).\nNo more than a single model with Tribal Warspear can ever be joined to the same unit."
   },
   {
     "Id": "wdg-additional_limbs",
@@ -7323,61 +7221,67 @@
     "Id": "wdg-trophy_rack",
     "Name": "Trophy Rack",
     "Type": "General",
-    "Description": "The model may take a single Banner Enchantment (using the bearer's Special Item allowance as normal). In addition,  once per Round of Combat, when an enemy unit that is Engaged with the model's unit is Destroyed in Combat or Destroyed in the Melee Phase, the bearer gains Resolute(1)."
+    "Description": "The model may take a single Banner Enchantment (using the bearer’s Special Item allowance as normal).\nIn addition, the first time an Enemy unit engaged with the bearer’s unit is removed as a casualty, including all <u><link=\"rulebook-attached\">Attached</link></u> Models, the bearer gains <u><link=\"rulebook-resolute\">Resolute</link></u>."
   },
   {
     "Id": "wdg-spiked_shield",
     "Name": "Spiked Shield",
     "Type": "General",
-    "Description": "Shield. When a Height 1--3 model uses a Hand Weapon and a Spiked Shield simultaneously, and the bearer successfully passes an Armour Save roll on a 4+ against an enemy Melee Attack from a model engaged in its Front Facing, the model part immediately inflicts 1 hit with its Str and AP towards the model that caused the wound (before any casualties are removed)."
+    "Description": "Shield. When a Height 1–3 model is using a Hand Weapon and isUsing a Spiked Shield simultaneously, and the bearer successfully passes an Armour Save roll of 4+ against a Melee Attack from an enemy model Engaged in its Front Facing, the bearer immediately inflicts 1 hit with the bearers Str and AP and <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u> towards the Health Pool of the model that caused the wound, before any casualties are removed."
   },
   {
     "Id": "wdg-abiding_spirit",
     "Name": "Abiding Spirit",
     "Type": "General",
-    "Description": "Hard Target (1)."
+    "Description": "<u><link=\"rulebook-hard_target\">Hard Target</link></u> (1)."
   },
   {
     "Id": "wdg-brand_of_the_dragon",
     "Name": "Brand of the Dragon",
     "Type": "General",
-    "Description": "Fly(7\", 14\"), Light Troops, Swiftstride, Breath Attack(Str 4, AP 1, Flaming Attacks)"
+    "Description": "<u><link=\"rulebook-breath_attack\">Breath Attack</link></u> (Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), <u><link=\"rulebook-fly\">Fly</link></u>, and <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>"
   },
   {
     "Id": "wdg-emissary_of_chaos",
     "Name": "Emissary of Chaos",
     "Type": "General",
-    "Description": "(D6), Stubborn, , Terror"
+    "Description": "<u><link=\"rulebook-courageous\">Courageous</link></u> and <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> (D6 hits)."
+  },
+  {
+    "Id": "rulebook-courageous",
+    "Name": "Courageous",
+    "Type": "General",
+    "Description": "A unit containing Courageous must reroll failed Courage Tests."
   },
   {
     "Id": "wdg-sorcerer_immortal",
     "Name": "Sorcerer Immortal",
     "Type": "General",
-    "Description": "Veil Walker, Channel(1)"
+    "Description": "<u><link=\"wdg-veil_walker\">Veil Walker</link></u>"
   },
   {
     "Id": "wdg-unholy_avatar",
     "Name": "Unholy Avatar",
     "Type": "General",
-    "Description": "+1 Strength, +1 Armour Penetration, and Divine Attacks"
+    "Description": "+1 Str, +1 APn, and <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>"
   },
   {
     "Id": "wdg-daemonic_wings",
     "Name": "Daemonic Wings",
     "Type": "General",
-    "Description": "The bearer gains +3 Cha, +3 Mob, Fly, , Swiftstride."
+    "Description": "The bearer gains +3 Cha, +3 Mob, <u><link=\"rulebook-fly\">Fly</link></u>, <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>."
   },
   {
     "Id": "wdg-entropic_aura",
     "Name": "Entropic Aura",
     "Type": "General",
-    "Description": "Weapon Enchantments and Armour Enchantments carried by the bearer, models in the bearer's unit, and models in units that are in contact with the bearer are ignored."
+    "Description": "Ignore all the Weapon Enchantments, Armour Enchantments and Shield Enchantments in units that are in contact with the bearer , including his own, for as long as the units remain in contact with the bearer."
   },
   {
     "Id": "wdg-luck_of_the_dark_gods",
     "Name": "Luck of the Dark Gods",
     "Type": "General",
-    "Description": "The bearer's model gains Aegis(+1, max. 4+)."
+    "Description": "The bearer's model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(+1, max. 4+)."
   },
   {
     "Id": "wdg-idol_of_spite",
@@ -7413,31 +7317,31 @@
     "Id": "wdg-greed",
     "Name": "Greed",
     "Type": "General",
-    "Description": "The model part with Path of the Favoured gains Great Weapon, Halberd, Paired Weapons, and Weapon Master. A Chosen Lord with this Favour may take a second item from either the Artefacts category or the Potions and Scrolls category (but cannot take a second item from both categories)."
+    "Description": "The model part with Path of the Favoured gains Great Weapon, Halberd, Paired Weapons, and <u><link=\"rulebook-weapon_master\">Weapon Master</link></u>. A Chosen Lord with this Favour may take a second item from either the Artefacts category or the Potions and Scrolls category (but cannot take a second item from both categories)."
   },
   {
     "Id": "wdg-lust",
     "Name": "Lust",
     "Type": "General",
-    "Description": "The model gains Feigned Flight, Strider."
+    "Description": "The model gains <u><link=\"rulebook-feigned_flight\">Feigned Flight</link></u> and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (<u><link=\"rulebook-strider\">Strider</link></u>)."
   },
   {
     "Id": "wdg-pride",
     "Name": "Pride",
     "Type": "General",
-    "Description": "The model gains Disciplined. Discipline Tests taken by units containing this Favour are Minimised."
+    "Description": "The model gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>. Discipline Tests taken by units containing this Favour are Minimised."
   },
   {
     "Id": "wdg-sloth",
     "Name": "Sloth",
     "Type": "General",
-    "Description": "Model gains Aegis(6+), and if the model is Height 1-4, Aegis(+1, max. 4+, against no armor save*).\n\n\t*Can only be used for attacks against which the model cannot take or would automatically fail its Armour Saves."
+    "Description": "Model gains <u><link=\"rulebook-aegis\">Aegis</link></u> (6+).\nIn addition, if the model is Height 1–4 it gains <u><link=\"rulebook-aegis\">Aegis</link></u> (+1, max. 4+, against no Armour Save*).\n*Can only be used for attacks against which the model cannot take or would automatically fail its Armour Saves."
   },
   {
     "Id": "wdg-wrath",
     "Name": "Wrath",
     "Type": "General",
-    "Description": "The model part gains First Strike(Hatred)."
+    "Description": "Model parts with Path of the Favoured gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>)."
   },
   {
     "Id": "wdg-hellfire",
@@ -7449,7 +7353,7 @@
     "Id": "wdg-burning_portent",
     "Name": "Burning Portent",
     "Type": "General",
-    "Description": "Flaming Attacks, Multiple Wounds(D3), AP set to 10."
+    "Description": "<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(D3), AP set to 10."
   },
   {
     "Id": "wdg-symbol_of_slaughter",
@@ -7467,49 +7371,49 @@
     "Id": "wdg-gladiators_spirit",
     "Name": "Gladiator's Spirit",
     "Type": "General",
-    "Description": "+1 Arm and Parry."
+    "Description": "+1 Arm and <u><link=\"rulebook-parry\">Parry</link></u>."
   },
   {
     "Id": "wdg-icon_of_the_infinite",
     "Name": "Icon of the Infinite",
     "Type": "General",
-    "Description": "The bearer can cast Hellfire (Hereditary Spell) as a Bound Spell(6+)."
+    "Description": "The bearer can cast Hellfire (Hereditary Spell) as a Bound Spell(5+)."
   },
   {
     "Id": "wdg-zealots_banner",
     "Name": "Zealots' Banner",
     "Type": "General",
-    "Description": "Models in the  bearer's unit gain Extra Support (3)."
+    "Description": "Models in the  bearer's unit gain Extra Support (2)."
   },
   {
     "Id": "wdg-wasteland_torch",
     "Name": "Wasteland Torch",
     "Type": "General",
-    "Description": "The bearer's unit gains Strider (Ruins) and First Strike(Flaming Attacks).\n\nDuring Pre-game Selections you may choose a single Field Terrain Feature or Forest Terrain Feature. The chosen Terrain Feature is changed to a Ruins Terrain Feature without changing size."
+    "Description": "The bearer’s unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>) and <u><link=\"rulebook-strider\">Strider</link></u> (Ruins).\nIn addition, during Pre-game Selections, you may choose a single Field or Forest: the chosen Terrain Feature is changed to a Ruins, without changing size with Duration: Permanent."
   },
   {
     "Id": "wdg-veilgate_orb",
     "Name": "Veilgate Orb",
     "Type": "General",
-    "Description": "During Pre-game Selection: Mark a point on the Battlefield within 24\" of your Deployment Zone, and outside the opponent's Deployment Zone, with a Gateway Marker. Once per game, at the start of a friendly Magic Phase (before drawing a Flux Card), if the bearer's unit was allowed to move in the prior Movement Phase (is not Shaken, did not Ambush, Failed Charge, Unengaged etc.), remove the unit from the Battlefield and immediately place it back on the Battlefield with Ambush(friendly Gateway Marker, that was not placed during this Player Turn)."
+    "Description": "During Pre-game Selections, mark a point on the Battlefield with a Gateway Marker: it must be within 24\" of your Deployment Zone, outside the opponent’s Deployment Zone, and more than 1\" from Impassible Terrain.\nOne use only. At the start of a friendly Magic Phase, if the bearer’s unit was allowed to move in the preceding Movement Phase (ie. it is not Shaken, did not Ambush, did not fail a Charge, is Unengaged, etc.), you may remove it from the Battlefield and immediately place it back on the Battlefield with <u><link=\"rulebook-ambush\">Ambush</link></u> (friendly Gateway Marker, that was not placed during this Player Turn)."
   },
   {
     "Id": "wdg-immortal_gauntlets",
     "Name": "Immortal Gauntlets",
     "Type": "General",
-    "Description": "When Choosing Weapons and Equipment choose one of the following Attack Attributes for the wearer's Melee Attacks, with Duration: Round of Combat: Divine Attacks, Flaming Attacks, Magical Attacks."
+    "Description": "When Choosing Equipment and Abilities, choose one of the following Attack Attributes for the wearer’s Melee Attacks: <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, or <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. Duration: Round of Combat."
   },
   {
     "Id": "wdg-lord_of_the_damned",
     "Name": "Lord of the Damned",
     "Type": "General",
-    "Description": "Friendly units entirely with Irredeemable within 18\" of the bearer, before rolling the Random Movement distance in the Movement Phase, may choose to apply either Minimised or Maximised to the roll."
+    "Description": "Before rolling the <u><link=\"rulebook-random_movement\">Random Movement</link></u> distance in the Movement Phase, friendly units entirely with Irredeemable within 18\" of the bearer may choose to apply either Minimised or Maximised to the roll."
   },
   {
     "Id": "wdg-wyrd_stone",
     "Name": "Wyrd Stone",
     "Type": "General",
-    "Description": "The bearer’s model gets Hard Target(2)."
+    "Description": "One use only. Duration: One Phase.\nThe bearer’s model gains <u><link=\"rulebook-hard_target\">Hard Target</link></u> (2)."
   },
   {
     "Id": "wdg-dark_familiar",
@@ -10449,7 +10353,7 @@
     "Id": "rulebook-magical_move",
     "Name": "Magical Move",
     "Type": "General",
-    "Description": "Some spells or abilities allow a unit to perform a Magical Move. This move is performed as if it were the Movement Phase, following the same rules and restrictions. The unit can perform a Move Manoeuvre. Characters can join or leave units. Actions that are restricted during the Movement Phase, such as units performing Flee Moves, or units Engaged in Combat, cannot be performed.\n\nThe distance that the Magical Move can be performed is specified in the spell or ability. The target’s Mobility is set to always equal to the distance of the magical move, for the duration of the move. For example, an effect could be: The target may perform a 6\" Magical Move. This means the target has a Mobility of 6\", and can perform its normal movement actions using this Mobility.\n\nA unit can only perform a single Magical Move per Phase."
+    "Description": "Some <u><link=\"spells\">spells</link></u> or abilities allow a unit to perform a <u><link=\"rulebook-magical_move\">Magical Move</link></u>. This move is performed as if it were the <u><link=\"movement_phase\">Movement Phase</link></u>, following the same rules and restrictions. The unit can perform a Move Manoeuvre. <u><link=\"characters\">Characters</link></u> can join or leave units. Actions that are restricted during the <u><link=\"movement_phase\">Movement Phase</link></u>, such as units performing <u><link=\"flee_move\">Flee Moves</link></u>, or units <u><link=\"engaged_in_combat\">Engaged in Combat</link></u>, cannot be performed.\nThe distance that the <u><link=\"rulebook-magical_move\">Magical Move</link></u> can be performed is specified in the spell or ability. The target’s Mobility is set to always equal to the distance of the <u><link=\"rulebook-magical_move\">magical move</link></u>, for the duration of the move. For example, an effect could be: The target may perform a 6\" <u><link=\"rulebook-magical_move\">Magical Move</link></u>. This means the target has a Mobility of 6\", and can perform its normal movement actions using this Mobility.\nA unit can only perform a single <u><link=\"rulebook-magical_move\">Magical Move</link></u> per Phase."
   },
   {
     "Id": "rulebook-recover",
