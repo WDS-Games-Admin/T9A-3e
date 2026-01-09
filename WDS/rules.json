@@ -2949,13 +2949,13 @@
     "Id": "vc-awaken",
     "Name": "Awaken",
     "Type": "Global",
-    "Description": "The model can Raise Health Points above a unit's starting size for the units stated within brackets (X). However, units cannot be increased beyond twice their starting size or beyond the unmodified maximum unit size  (that is printed in their unit entry). A unit's starting size is the size of the unit as written on the Army List or the size of the unit when it is Summoned."
+    "Description": "The model can <u><link=\"rulebook-raise\">Raises</link></u> Health Points above a unit's starting size for the units stated within brackets (X). However, units cannot be increased beyond twice their starting size or beyond the unmodified maximum unit size  (that is printed in their unit entry). A unit's starting size is the size of the unit as written on the Army List or the size of the unit when it is Summoned."
   },
   {
     "Id": "vc-autonomous",
     "Name": "Autonomous",
     "Type": "Global",
-    "Description": "Units entirely with <u><link=\"autonomous\">Autonomous</link></u> may perform March Moves as normal despite being Undead, even when outside the range of Commanding Presence of any friendly models."
+    "Description": "Units entirely with <u><link=\"vc-autonomous\">Autonomous</link></u> may perform March Moves as normal despite being Undead, even when outside the range of <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> of any friendly models."
   },
   {
     "Id": "vc-unnatural_activity",
@@ -2967,37 +2967,37 @@
     "Id": "vc-vampiric",
     "Name": "Vampiric",
     "Type": "Equipment",
-    "Description": "At the end of each Melee Phase, check and resolve the following effects for all models with <u><link=\"vampiric\">Vampiric</link></u>:\n-   Character -- If at least one attack with <u><link=\"vampiric\">Vampiric</link></u> made by the Character caused an unsaved wound against enemy units, the Character can make a single <u><link=\"vampiric\">Vampiric</link></u> roll. If successful, the Character's model Recovers a single HP.\n-   Rank-and-File model -- If at least one attack with <u><link=\"vampiric\">Vampiric</link></u> made by a Rank-and-File model in the unit caused an unsaved wound against enemy units, the unit can make a single <u><link=\"vampiric\">Vampiric</link></u> roll. If successful, the unit Raises a single HP.\nA <u><link=\"vampiric\">Vampiric</link></u> roll is successful if the D6 scores X+, where X is the number stated within brackets. If a unit or Character has multiple model parts with this Attack Attribute that each caused unsaved wounds, use the best value."
+    "Description": "At the end of each Melee Phase, check and resolve the following effects for all models with <u><link=\"vc-vampiric\">Vampiric</link></u>:\n-   Character -- If at least one attack with <u><link=\"vc-vampiric\">Vampiric</link></u> made by the Character caused an unsaved wound against enemy units, the Character can make a single <u><link=\"vc-vampiric\">Vampiric</link></u> roll. If successful, the Character's model Recovers a single HP.\n-   Rank-and-File model -- If at least one attack with <u><link=\"vc-vampiric\">Vampiric</link></u> made by a Rank-and-File model in the unit caused an unsaved wound against enemy units, the unit can make a single <u><link=\"vc-vampiric\">Vampiric</link></u> roll. If successful, the unit Raises a single HP.\nA <u><link=\"vc-vampiric\">Vampiric</link></u> roll is successful if the D6 scores X+, where X is the number stated within brackets. If a unit or Character has multiple model parts with this Attack Attribute that each caused unsaved wounds, use the best value."
   },
   {
     "Id": "vc-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "The model gains  <u><link=\"necromantic_aura\">Necromantic Aura</link></u>."
+    "Description": "The model gains  <u><link=\"vc-necromantic_aura\">Necromantic Aura</link></u>."
   },
   {
     "Id": "vc-chilling_shriek",
     "Name": "Chilling Shriek",
     "Type": "Equipment",
-    "Description": "When the model part allocates Attacks, it may choose to exchange all of its Standard Melee Attacks for a Grind Attack(HP*, Str 9, AP 10, Magical Attacks, Psychic Attacks, Unmodifiable)\n*The number of hits is equal to the model's current number of HP."
+    "Description": "When the model part allocates Attacks, it may choose to exchange all of its Standard Melee Attacks for a <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(HP*, Str 9, AP 10, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>)\n*The number of hits is equal to the model's current number of HP."
   },
   {
     "Id": "vc-chilling_howl",
     "Name": "Chilling Howl",
     "Type": "Equipment",
-    "Description": "Aim Auto+, Range 8\", Shots HP*, Str 9, AP 10, Hits Automatically, Magical Attacks, March and Shoot, Psychic Attacks, Unmodifiable\n*The number of shots is equal to the model’s current number of HP."
+    "Description": "Aim Auto+, Range 8\", Shots HP*, Str 9, AP 10, <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>\n*The number of shots is equal to the model’s current number of HP."
   },
   {
     "Id": "vc-gates_of_the_netherworld",
     "Name": "Gates of the Netherworld",
     "Type": "Global",
-    "Description": "Uncommon. Must include at least 1.\n\n-    If the model has chosen Evocation as its Path of Magic : Whenever the model successfully casts the Hereditary Spell, the target of the spell is considered to have +1 Rsr.\n-    If the model has chosen a different path than Evocation as its Path of Magic : The model knows the Apprentice Spell (#1) in Evocation in addition to its other spells."
+    "Description": "Uncommon. Must include at least 1.\n   - If the model has chosen Evocation as its Path of Magic : Whenever the model successfully casts the Hereditary Spell, the target of the spell is considered to have +1 Rsr.\n   - If the model has chosen a different path than Evocation as its Path of Magic : The model knows the Apprentice Spell (#1) in Evocation in addition to its other spells."
   },
   {
     "Id": "vc-necromantic_aura",
     "Name": "Necromantic Aura",
     "Type": "Global",
-    "Description": "All friendly units within 6\" of one or more models with <u><link=\"necromantic_aura\">Necromantic Aura</link></u> reduce the number of Health Point losses caused by <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u> and Unstable by 1."
+    "Description": "All friendly units within 6\" of one or more models with <u><link=\"vc-necromantic_aura\">Necromantic Aura</link></u> reduce the number of Health Point losses caused by <u><link=\"vc-ashes_to_ashes\">Ashes to Ashes</link></u> and <u><link=\"rulebook-unstable\">Unstable</link></u> by 1."
   },
   {
     "Id": "vc-no_rest_for_the_wicked",
@@ -3021,19 +3021,19 @@
     "Id": "vc-ghostly_form",
     "Name": "Ghostly Form",
     "Type": "Defense",
-    "Description": "The model gains Aegis(5+), Aegis(3+, against non-Magical Attacks)."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(5+), <u><link=\"rulebook-aegis\">Aegis</link></u>(3+, against non-Magical Attacks)."
   },
   {
     "Id": "vc-ashes_to_ashes",
     "Name": "Ashes to Ashes",
     "Type": "Global",
-    "Description": "At the end of each of your Player Turns, if there are no friendly models with <u><link=\"gates_of_the_netherworld\">Gates of the Netherworld</link></u> on the Battlefield, each unit containing <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u> loses X HP, where X is equal to half the <u><link=\"rulebook-resurrect\">Resurrected</link></u> value (roll any dice when needed), fractions rounded up. These hits can only be allocated onto models with <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u>."
+    "Description": "At the end of each of your Player Turns, if there are no friendly models with <u><link=\"vc-gates_of_the_netherworld\">Gates of the Netherworld</link></u> on the Battlefield, each unit containing <u><link=\"vc-ashes_to_ashes\">Ashes to Ashes</link></u> loses X HP, where X is equal to half the <u><link=\"rulebook-resurrect\">Resurrected</link></u> value (roll any dice when needed), fractions rounded up.\nThese hits can only be allocated onto models with <u><link=\"vc-ashes_to_ashes\">Ashes to Ashes</link></u>."
   },
   {
     "Id": "vc-unholy_appetite",
     "Name": "Unholy Appetite",
     "Type": "Equipment",
-    "Description": "After a Round of Combat in which at least one attack with <u><link=\"unholy_appetite\">Unholy Appetite</link></u> caused an unsaved wound, all attacks with <u><link=\"unholy_appetite\">Unholy Appetite</link></u> from models in the same unit must reroll failed to-hit rolls until the end of the next Player Turn."
+    "Description": "After a Round of Combat in which at least one attack with <u><link=\"vc-unholy_appetite\">Unholy Appetite</link></u> caused an unsaved wound, all attacks with <u><link=\"vc-unholy_appetite\">Unholy Appetite</link></u> from models in the same unit must reroll failed to-hit rolls until the end of the next Player Turn."
   },
   {
     "Id": "vc-lash_of_souls",
@@ -3045,7 +3045,7 @@
     "Id": "vc-aura_of_undeath",
     "Name": "Aura of Undeath",
     "Type": "Equipment",
-    "Description": "During its Shooting Phase, the model part can make a Shooting Attack that targets all enemy units within 12\" of the model (including those Engaged in Combat and outside Front Arc and/or Line of Sight). This Attack can be used even if the Altar is Engaged in Combat. The targets suffer D6 hits with a Strength equal to the current Game Turn number and AP 2."
+    "Description": "During its Shooting Phase, the model part can make a Shooting Attack that targets all enemy units within 12\" of the model (including those Engaged in Combat and outside Front Arc and/or Line of Sight).\nThis attack can be used even if the Altar is Engaged in Combat.\nEach target suffers D6 hits with a Strength equal to the current Game Turn number, Armour Penetration 2, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>."
   },
   {
     "Id": "vc-unholy_conduit",
@@ -3060,24 +3060,6 @@
     "Description": "Friendly units within 6\" of one or more models with <u><link=\"unnatural_activity\">Unnatural Activity</link></u> gains +2 Off and +2 Agi."
   },
   {
-    "Id": "vampiric",
-    "Name": "Vampiric",
-    "Type": "General",
-    "Description": "At the end of each Melee Phase, check and resolve the following effects for all models with <u><link=\"vampiric\">Vampiric</link></u>:\n-   Character -- If at least one attack with <u><link=\"vampiric\">Vampiric</link></u> made by the Character caused an unsaved wound against enemy units, the Character can make a single <u><link=\"vampiric\">Vampiric</link></u> roll. If successful, the Character's model Recovers a single HP.\n-   Rank-and-File model -- If at least one attack with <u><link=\"vampiric\">Vampiric</link></u> made by a Rank-and-File model in the unit caused an unsaved wound against enemy units, the unit can make a single <u><link=\"vampiric\">Vampiric</link></u> roll. If successful, the unit Raises a single HP.\nA <u><link=\"vampiric\">Vampiric</link></u> roll is successful if the D6 scores X+, where X is the number stated within brackets. If a unit or Character has multiple model parts with this Attack Attribute that each caused unsaved wounds, use the best value."
-  },
-  {
-    "Id": "necromantic_aura",
-    "Name": "Necromantic Aura",
-    "Type": "General",
-    "Description": "All friendly units within 6\" of one or more models with <u><link=\"necromantic_aura\">Necromantic Aura</link></u> reduce the number of Health Point losses caused by <u><link=\"ashes_to_ashes\">Ashes to Ashes</link></u> and Unstable by 1."
-  },
-  {
-    "Id": "chilling_howl",
-    "Name": "Chilling Howl",
-    "Type": "General",
-    "Description": "The number of shots is equal to the model's current number of HP.\n<u><link=\"chilling_howl\">Chilling Howl</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"chilling_howl\">Chilling Howl</link></u>--8\"HP*910March and Shoot, Magical Attacks, Hits Automatically, Psychic Attacks\n*The number of shots is equal to the model's current number of HP."
-  },
-  {
     "Id": "arise",
     "Name": "Arise!",
     "Type": "General",
@@ -3088,18 +3070,6 @@
     "Name": "Wail of Woe",
     "Type": "General",
     "Description": "<u><link=\"wail_of_woe\">Wail of Woe</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"wail_of_woe\">Wail of Woe</link></u>--8\"D6+241March and Shoot, Magical Attacks, Hits Automatically"
-  },
-  {
-    "Id": "gates_of_the_netherworld",
-    "Name": "Gates of the Netherworld",
-    "Type": "General",
-    "Description": "Uncommon. Must include at least 1.\n\n-    If the model has chosen Evocation as its Path of Magic : Whenever the model successfully casts the Hereditary Spell, the target of the spell is considered to have +1 Rsr.\n-    If the model has chosen a different path than Evocation as its Path of Magic : The model knows the Apprentice Spell (#1) in Evocation in addition to its other spells."
-  },
-  {
-    "Id": "unholy_appetite",
-    "Name": "Unholy Appetite",
-    "Type": "General",
-    "Description": "After a Round of Combat in which at least one Attack with this <u><link=\"manifestation\">Manifestation</link></u> caused an unsaved wound, all Attacks from models in the unit entirely with this <u><link=\"manifestation\">Manifestation</link></u> gain Hatred until the end of the next Player Turn."
   },
   {
     "Id": "vs-callous",
@@ -6087,19 +6057,19 @@
     "Id": "vc-extended_chassis",
     "Name": "Extended Chassis",
     "Type": "General",
-    "Description": "The Dark Coach's base size is changed to 50×150mm, and has Phantom Host (2)."
+    "Description": "The Dark Coach's base size is changed to 50×150mm, and gains one additional Phantom Host."
   },
   {
     "Id": "vc-great_monstrous_revenant",
     "Name": "Great Monstrous Revenant",
     "Type": "General",
-    "Description": "The Monstrous Revenant gains Stomp Attack(D3) and its base size is changed to 60×100mm."
+    "Description": "The Monstrous Revenant gains <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u>(D3) and its base size is changed to 60×100mm."
   },
   {
     "Id": "vc-lich",
     "Name": "Lich",
     "Type": "General",
-    "Description": "Unless Height 5, the model gains Regeneration(5+). When the model casts Arise!, it may choose to set the spell's Range to 6\" and give it Type: Aura. This choice is declared when selecting targets.\nThe model has access to Cosmology in addition to its normal Paths."
+    "Description": "If Height 1–4, the model gains <u><link=\"rulebook-regeneration\">Regeneration</link></u> (5+).\nWhen the model casts Arise!, it may choose to set the spell’s Range to 6\" and give it the Type: Aura (this choice is declared when selecting targets).\nIn addition, the model has access to Cosmology in addition to its normal Paths."
   },
   {
     "Id": "vc-the_dead_arise",
@@ -6117,37 +6087,37 @@
     "Id": "vc-sangreal",
     "Name": "Sangreal",
     "Type": "General",
-    "Description": "The model part gains +1 Arm and Fury."
+    "Description": "The model part gains +1 Arm and <u><link=\"rulebook-fury\">Fury</link></u>."
   },
   {
     "Id": "vc-vetala",
     "Name": "Vetala",
     "Type": "General",
-    "Description": "The model gains Disciplined, Unholy Conduit, Awaken(Bat Swarms, Dire Wolves, Great Bats, Zombies), and the model part gains Vampiric(4+)."
+    "Description": "The bearer gains <u><link=\"vc-awaken\">Awaken</link></u> (Bat Swarms, Dire Wolves, Great Bats, Zombies), <u><link=\"rulebook-disciplined\">Disciplined</link></u>, <u><link=\"vc-unholy_conduit\">Unholy Conduit</link></u>, and <u><link=\"vc-vampiric\">Vampiric</link></u> (4+)."
   },
   {
     "Id": "vc-lahmia",
     "Name": "Lahmia",
     "Type": "General",
-    "Description": "The bearer's Arm is set to 1, it loses Metal Armour, gains Elven Finesse, and if the model is Height 1--2 it also gains Distracting(1)."
+    "Description": "The bearer’s Armour is set to 1, it gains <u><link=\"rulebook-elven_finesse\">Elven Finesse</link></u> and loses Metal Armour. Additionally, if the model is of Height 1–2, it gains <u><link=\"rulebook-distracting\">Distracting</link></u> (1)."
   },
   {
     "Id": "vc-strigoi",
     "Name": "Strigoi",
     "Type": "General",
-    "Description": "The model part's Arm is set to 0 and its HP are set to 4, it loses Metal Armour and gains First Strike(Hatred). A model without Mount, gains Regeneration(4+)."
+    "Description": "The bearer’s Armour is set to 0, its HP are set to 4, it gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>) and loses Metal Armour. Additionally, if it is without Mount, it gains <u><link=\"rulebook-regeneration\">Regeneration</link></u> (4+)"
   },
   {
     "Id": "vc-crimson_rage",
     "Name": "Crimson Rage",
     "Type": "General",
-    "Description": "The model part gains Hatred, and its Vampiric rolls are Maximised."
+    "Description": "The model part gains <u><link=\"rulebook-hatred\">Hatred</link></u>, and its <u><link=\"vc-vampiric\">Vampiric</link></u> rolls are Maximised."
   },
   {
     "Id": "vc-storm_caller",
     "Name": "Storm Caller",
     "Type": "General",
-    "Description": "All units within 12\" of the bearer's model gains Hard Target(1)."
+    "Description": "All units within 12\" of the bearer's model gains <u><link=\"rulebook-hard_target\">Hard Target</link></u>(1)."
   },
   {
     "Id": "vc-commandment",
@@ -6159,13 +6129,13 @@
     "Id": "vc-ghoul_lord",
     "Name": "Ghoul Lord",
     "Type": "General",
-    "Description": "The bearer and all Rank-and-File models in the bearer's unit gains Poison Attacks."
+    "Description": "The bearer and all Rank-and-File models in the bearer's unit gains <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>."
   },
   {
     "Id": "vc-arcane_knowledge",
     "Name": "Arcane Knowledge",
     "Type": "General",
-    "Description": "The bearer selects a second Path of Magic. It knows one spell from this Path, in addition to its other spells, selected from the Apprentice Spell or Adept Spells (#1 - #4), and is otherwise not allowed to choose spells from this Path."
+    "Description": "The bearer selects a second Path of Magic. It knows one spell from this Path, in addition to its other spells, selected from the Apprentice Spell or Adept Spells (#1 - #4), and is otherwise not allowed to choose spells from this Path.Ignore this Path for the purpose of <u><link=\"vc-gates_of_the_netherworld\">Gates of the Netherworld</link></u>."
   },
   {
     "Id": "vc-eternal_duellist",
@@ -6177,37 +6147,37 @@
     "Id": "vc-monster_hunter",
     "Name": "Monster Hunter",
     "Type": "General",
-    "Description": "The model part gains Multiple Wounds(2, towards Height 4--5)."
+    "Description": "The model part gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2, towards Height 4-5)."
   },
   {
     "Id": "vc-unbreakable_will",
     "Name": "Unbreakable Will",
     "Type": "General",
-    "Description": "When Choosing Equipment and Abilities, select a single friendly unit Engaged in the same Combat as the bearer (this can be its own unit). This unit gains Stubborn until the end of the Player Turn."
+    "Description": "When Choosing Equipment and Abilities, select a single friendly unit Engaged in the same Combat as the bearer (this can be its own unit). This unit gains <u><link=\"rulebook-stubborn\">Stubborn</link></u> until the end of the Player Turn."
   },
   {
     "Id": "vc-mesmerising_gaze",
     "Name": "Mesmerising Gaze",
     "Type": "General",
-    "Description": "The model gains Afflict(-1 Att, -1 Off). Only Character models are affected by this instance of Afflict."
+    "Description": "The model gains <u><link=\"rulebook-afflict\">Afflict</link></u>(-1 Att, -1 Off). Only Character models are affected by this instance of <u><link=\"rulebook-afflict\">Afflict</link></u>."
   },
   {
     "Id": "vc-bestial_bulk",
     "Name": "Bestial Bulk",
     "Type": "General",
-    "Description": "The model's Height is set to 3, and its base size to 40×40mm. The model gains Stomp Attack(1), Attached(Ghasts, Vampire Spawn)."
+    "Description": "The model’s Height is changed to 3, its base size is changed to 40×40 mm, it gains <u><link=\"vc-unholy_appetite\">Unholy Appetite</link></u>, and +1 Res."
   },
   {
     "Id": "vc-flying_horror",
     "Name": "Flying Horror",
     "Type": "General",
-    "Description": "The model gains Fly, Swiftstride, +2\" Cha and +2\" Mob."
+    "Description": "The model gains <u><link=\"rulebook-fly\">Fly</link></u>, <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, +2\" Cha and +2\" Mob."
   },
   {
     "Id": "vc-mysteries_of_the_night",
     "Name": "Mysteries of the Night",
     "Type": "General",
-    "Description": "The bearer's Path Access is replaced with Shamanism, Witchcraft."
+    "Description": "The bearer's Path Access is replaced with Shamanism and Witchcraft."
   },
   {
     "Id": "vc-blood_magic",
@@ -6225,49 +6195,49 @@
     "Id": "vc-reapers_harvest",
     "Name": "Reaper's Harvest",
     "Type": "General",
-    "Description": "Str is set to 10, AP is set to 10, Divine Attacks, Psychic Attacks."
+    "Description": "Str is set to 10, AP is set to 10, <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>, <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>."
   },
   {
     "Id": "vc-true_thirst",
     "Name": "True Thirst",
     "Type": "General",
-    "Description": "+1 Str, +1 AP, Unholy Appetite, Vampiric(3+). If the wielder's model has Height 4 or more, the wielder gain Vampiric(5+) instead of Vampiric(3+)."
+    "Description": "+1 Str, +1 AP, <u><link=\"vc-unholy_appetite\">Unholy Appetite</link></u>, <u><link=\"vc-vampiric\">Vampiric</link></u>(3+). If the wielder's model has Height 4 or more, the wielder gain <u><link=\"vc-vampiric\">Vampiric</link></u>(5+) instead of <u><link=\"vc-vampiric\">Vampiric</link></u>(3+)."
   },
   {
     "Id": "vc-legend_of_the_black_king",
     "Name": "Legend of the Black King",
     "Type": "General",
-    "Description": "+1 Arm and Aegis(4+)."
+    "Description": "+1 Arm and <u><link=\"rulebook-aegis\">Aegis</link></u>(4+)."
   },
   {
     "Id": "vc-black_standard_of_zagvozd",
     "Name": "Black Standard of Zagvozd",
     "Type": "General",
-    "Description": "Melee Attacks made by Rank-and-File model parts without Mount in the bearer's unit gains +1 to-hit."
+    "Description": "Melee Attacks made, by Skeleton model parts without Mount , in the bearer’s unit gain +1 to-hit."
   },
   {
     "Id": "vc-banner_of_eldritch_might",
     "Name": "Banner of Eldritch Might",
     "Type": "General",
-    "Description": "During friendly Magic Phases: All spells targeting only the bearer’s unit gain a +1 modifier to their Casting Rolls. In addition, if the unit is targeted by a successfully cast Spell in a friendly Magic Phase. (Spell may include other targets) it gains Fight in Extra Rank with Duration: One Turn. It can only benefit from this once in each Magic Phase."
+    "Description": "Each turn, if the unit has been a target of at least one successfully cast friendly spell it gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u> with Duration: One Turn.\nIn addition, during your Magic Phase, all spells targeting only the bearer’s unit gain a +1 modifier to their Casting Rolls."
   },
   {
     "Id": "vc-hypnotic_pendant",
     "Name": "Hypnotic Pendant",
     "Type": "General",
-    "Description": "The wearer gains Parry. All Rank-and-File models with Height 2 or less in the wearer's unit gain Parry."
+    "Description": "The wearer gains <u><link=\"rulebook-parry\">Parry</link></u>. All Rank-and-File models with Height 2 or less in the wearer's unit gain <u><link=\"rulebook-parry\">Parry</link></u>."
   },
   {
     "Id": "vc-eternity_gem",
     "Name": "Eternity Gem",
     "Type": "General",
-    "Description": "The bearer's model gains Immune(Lethal Strike).\tWhen the model suffers a wound from an attack with Multiple Wounds(X), reduce the amount of wounds by 1, to a minimum of 1."
+    "Description": "The bearer's model gains <u><link=\"rulebook-immune\">Immune</link></u>(<u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>).\tWhen the model suffers a wound from an attack with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(X), reduce the amount of wounds by 1, to a minimum of 1."
   },
   {
     "Id": "vc-necromantic_staff",
     "Name": "Necromantic Staff",
     "Type": "General",
-    "Description": "The wielder gains Channel(1) and can cast Arise! (Hereditary Spell) as a Bound Spell(5+), with the following changes : Range is set to 6\", and it gains Type: Aura."
+    "Description": "The wielder gains <u><link=\"rulebook-channel\">Channel</link></u>(1) and can cast Arise! (Hereditary Spell) as a Bound Spell(5+), with the following changes : Range is set to 6\", and it gains Type: Aura."
   },
   {
     "Id": "vc-nights_crown",
@@ -6279,7 +6249,7 @@
     "Id": "vc-cursed_medallion",
     "Name": "Cursed Medallion",
     "Type": "General",
-    "Description": "During Pre-game Selections choose a single model unit on the opponent's Army List (Remember that all Characters are single model units). The wearer gains Hatred(Chosen model) and Zeal(Chosen model)."
+    "Description": "During Pre-game Selections choose a single model unit on the opponent's Army List (Remember that all Characters are single model units). The wearer gains <u><link=\"rulebook-hatred\">Hatred</link></u>(Chosen model) and <u><link=\"rulebook-zeal\">Zeal</link></u>(Chosen model)."
   },
   {
     "Id": "vc-ancient_blood_power",
