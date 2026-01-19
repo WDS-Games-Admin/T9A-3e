@@ -133,7 +133,7 @@
   },
   {
     "Id": "a4d3f8b2c9e1a7d4b3c5e9a2f",
-    "Name": "King Henry",
+    "Name": "King Henry the Young",
     "Attributes": {
       "totalCost": "650",
       "category": "Characters",
@@ -205,10 +205,10 @@
     ]
   },
   {
-    "Id": "68357f5e790d8280c4b23292",
-    "Name": "Lowborn Archers",
+    "Id": "68357f5f790d8280c4b23325",
+    "Name": "Hedge Knights",
     "Attributes": {
-      "totalCost": "34",
+      "totalCost": "125",
       "category": "Core Units",
       "army": "Kingdom of Equitaine",
       "height": "Standard",
@@ -223,37 +223,11 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "68ad8cd6-217a-465e-b4f0-6a74693e76be",
-      "7aaf8b02-33ef-42b6-8de4-b86f423d24cf"
+      "d5f36e8a-ae73-4b70-be9a-2cc05a8365c9",
+      "4eeab3a5-1321-4a55-88a4-d76d7f975261"
     ],
     "ProfileIds": [
-      "68357f5e790d8280c4b23294"
-    ]
-  },
-  {
-    "Id": "68357f5f790d8280c4b232b9",
-    "Name": "Lowborn Levies",
-    "Attributes": {
-      "totalCost": "-12",
-      "category": "Core Units",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "12aca10d-e6e0-4715-b3c3-3c0472ddd4d0",
-      "c8345f54-fd0c-4b5e-a772-12c6b71e3ece"
-    ],
-    "ProfileIds": [
-      "68357f5f790d8280c4b232bb"
+      "68357f5f790d8280c4b23327"
     ]
   },
   {
@@ -283,10 +257,10 @@
     ]
   },
   {
-    "Id": "68357f5f790d8280c4b23325",
-    "Name": "Hedge Knights",
+    "Id": "68357f5f790d8280c4b232b9",
+    "Name": "Lowborn Levies",
     "Attributes": {
-      "totalCost": "125",
+      "totalCost": "-12",
       "category": "Core Units",
       "army": "Kingdom of Equitaine",
       "height": "Standard",
@@ -301,39 +275,19 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "d5f36e8a-ae73-4b70-be9a-2cc05a8365c9",
-      "4eeab3a5-1321-4a55-88a4-d76d7f975261"
+      "12aca10d-e6e0-4715-b3c3-3c0472ddd4d0",
+      "c8345f54-fd0c-4b5e-a772-12c6b71e3ece"
     ],
     "ProfileIds": [
-      "68357f5f790d8280c4b23327"
+      "68357f5f790d8280c4b232bb"
     ]
   },
   {
-    "Id": "68357f5f790d8280c4b23373",
-    "Name": "Enlisted Outlaws",
+    "Id": "68357f5e790d8280c4b23292",
+    "Name": "Lowborn Archers",
     "Attributes": {
-      "totalCost": "96",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f5f790d8280c4b23375"
-    ]
-  },
-  {
-    "Id": "68357f5f790d8280c4b2337d",
-    "Name": "Knights of the Quest",
-    "Attributes": {
-      "totalCost": "25",
-      "category": "Special",
+      "totalCost": "34",
+      "category": "Core Units",
       "army": "Kingdom of Equitaine",
       "height": "Standard",
       "type": "",
@@ -347,63 +301,11 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "7906eb3e-d216-4f29-8e4a-8f319ef606b2",
-      "a2fa00c0-f425-45b1-aad0-89f36cd75a63"
+      "68ad8cd6-217a-465e-b4f0-6a74693e76be",
+      "7aaf8b02-33ef-42b6-8de4-b86f423d24cf"
     ],
     "ProfileIds": [
-      "68357f5f790d8280c4b2337f"
-    ]
-  },
-  {
-    "Id": "68357f60790d8280c4b233cb",
-    "Name": "Knights Penitent",
-    "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "1a9eb37d-b5c4-4957-8994-17300f3271e4",
-      "e2fefebb-2d7d-4ae9-9ad0-be60fa2b8896"
-    ],
-    "ProfileIds": [
-      "68357f60790d8280c4b233cd"
-    ]
-  },
-  {
-    "Id": "68357f60790d8280c4b23407",
-    "Name": "Knights of the Court",
-    "Attributes": {
-      "totalCost": "95",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "84213cf9-ad25-4bdb-a7c4-631ffc792600",
-      "ff65ad17-5000-4a55-b096-c4d4790c8006"
-    ],
-    "ProfileIds": [
-      "68357f60790d8280c4b23409"
+      "68357f5e790d8280c4b23294"
     ]
   },
   {
@@ -433,32 +335,6 @@
     ]
   },
   {
-    "Id": "68357f60790d8280c4b234af",
-    "Name": "Pegasus Knights",
-    "Attributes": {
-      "totalCost": "150",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "9d0549aa-1958-41f6-aa31-fc225d6bfe21",
-      "69271c56-6ba2-42bd-9724-c6fcc2f2e78f"
-    ],
-    "ProfileIds": [
-      "68357f60790d8280c4b234b1"
-    ]
-  },
-  {
     "Id": "68357f61790d8280c4b234fd",
     "Name": "Sacred Reliquary",
     "Attributes": {
@@ -479,41 +355,15 @@
     ]
   },
   {
-    "Id": "68357f61790d8280c4b234fe",
-    "Name": "Siege Weapon",
+    "Id": "68357f60790d8280c4b23407",
+    "Name": "Knights of the Court",
     "Attributes": {
-      "totalCost": "110",
+      "totalCost": "95",
       "category": "Special",
       "army": "Kingdom of Equitaine",
       "height": "Standard",
       "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Scorpion",
-        "Trebuchet and change its Height to 3"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "80899070-314d-463e-a377-0a38c9aeb757",
-      "5bcd5860-6eaf-4f5f-9221-91576af79b9a"
-    ],
-    "ProfileIds": [
-      "68357f61790d8280c4b234fe"
-    ]
-  },
-  {
-    "Id": "68357f61790d8280c4b2350a",
-    "Name": "Sky Heralds",
-    "Attributes": {
-      "totalCost": "140",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [
@@ -523,11 +373,63 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "e48c9a79-9d58-476d-87a3-c25768fcdb0f",
-      "44437097-1a74-4b8f-bd2b-235012c378a6"
+      "84213cf9-ad25-4bdb-a7c4-631ffc792600",
+      "ff65ad17-5000-4a55-b096-c4d4790c8006"
     ],
     "ProfileIds": [
-      "68357f61790d8280c4b2350c"
+      "68357f60790d8280c4b23409"
+    ]
+  },
+  {
+    "Id": "68357f60790d8280c4b233cb",
+    "Name": "Knights Penitent",
+    "Attributes": {
+      "totalCost": "100",
+      "category": "Special",
+      "army": "Kingdom of Equitaine",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "1a9eb37d-b5c4-4957-8994-17300f3271e4",
+      "e2fefebb-2d7d-4ae9-9ad0-be60fa2b8896"
+    ],
+    "ProfileIds": [
+      "68357f60790d8280c4b233cd"
+    ]
+  },
+  {
+    "Id": "68357f5f790d8280c4b2337d",
+    "Name": "Knights of the Quest",
+    "Attributes": {
+      "totalCost": "25",
+      "category": "Special",
+      "army": "Kingdom of Equitaine",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "7906eb3e-d216-4f29-8e4a-8f319ef606b2",
+      "a2fa00c0-f425-45b1-aad0-89f36cd75a63"
+    ],
+    "ProfileIds": [
+      "68357f5f790d8280c4b2337f"
     ]
   },
   {
@@ -557,15 +459,15 @@
     ]
   },
   {
-    "Id": "68357f62790d8280c4b23559",
-    "Name": "Fey Knight",
+    "Id": "68357f5f790d8280c4b23373",
+    "Name": "Enlisted Outlaws",
     "Attributes": {
-      "totalCost": "360",
-      "category": "Fey",
+      "totalCost": "96",
+      "category": "Special",
       "army": "Kingdom of Equitaine",
-      "height": "Large",
+      "height": "Standard",
       "type": "",
-      "defaultFront": "1"
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": []
@@ -573,27 +475,85 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357f62790d8280c4b23559"
+      "68357f5f790d8280c4b23375"
     ]
   },
   {
-    "Id": "68357f62790d8280c4b2355e",
-    "Name": "Friar's Lanterns",
+    "Id": "68357f61790d8280c4b234fe",
+    "Name": "Siege Weapon",
     "Attributes": {
-      "totalCost": "145",
-      "category": "Fey",
+      "totalCost": "110",
+      "category": "Special",
+      "army": "Kingdom of Equitaine",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Scorpion",
+        "Trebuchet and change its Height to 3"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "80899070-314d-463e-a377-0a38c9aeb757",
+      "5bcd5860-6eaf-4f5f-9221-91576af79b9a"
+    ],
+    "ProfileIds": [
+      "68357f61790d8280c4b234fe"
+    ]
+  },
+  {
+    "Id": "68357f60790d8280c4b234af",
+    "Name": "Pegasus Knights",
+    "Attributes": {
+      "totalCost": "150",
+      "category": "Special",
+      "army": "Kingdom of Equitaine",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "9d0549aa-1958-41f6-aa31-fc225d6bfe21",
+      "69271c56-6ba2-42bd-9724-c6fcc2f2e78f"
+    ],
+    "ProfileIds": [
+      "68357f60790d8280c4b234b1"
+    ]
+  },
+  {
+    "Id": "68357f61790d8280c4b2350a",
+    "Name": "Sky Heralds",
+    "Attributes": {
+      "totalCost": "140",
+      "category": "Special",
       "army": "Kingdom of Equitaine",
       "height": "Standard",
       "type": "",
       "defaultFront": "3"
     },
     "AttributeLists": {
-      "FullOptions": []
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
     },
     "RuleIds": {},
-    "OptionListIds": [],
+    "OptionListIds": [
+      "e48c9a79-9d58-476d-87a3-c25768fcdb0f",
+      "44437097-1a74-4b8f-bd2b-235012c378a6"
+    ],
     "ProfileIds": [
-      "68357f62790d8280c4b23560"
+      "68357f61790d8280c4b2350c"
     ]
   },
   {
@@ -617,6 +577,26 @@
     ]
   },
   {
+    "Id": "68357f62790d8280c4b2355e",
+    "Name": "Friar's Lanterns",
+    "Attributes": {
+      "totalCost": "145",
+      "category": "Fey",
+      "army": "Kingdom of Equitaine",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f62790d8280c4b23560"
+    ]
+  },
+  {
     "Id": "68357f62790d8280c4b2356a",
     "Name": "The Lady's Courtier",
     "Attributes": {
@@ -634,6 +614,26 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f62790d8280c4b2356a"
+    ]
+  },
+    {
+    "Id": "68357f62790d8280c4b23559",
+    "Name": "Fey Knight",
+    "Attributes": {
+      "totalCost": "360",
+      "category": "Fey",
+      "army": "Kingdom of Equitaine",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f62790d8280c4b23559"
     ]
   }
 ]

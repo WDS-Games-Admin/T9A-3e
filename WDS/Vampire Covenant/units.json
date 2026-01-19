@@ -165,7 +165,7 @@
   },
   {
     "Id": "a7b2f8c1d6e3a9f5b2c4e8d3a",
-    "Name": "The Collective of Varyag",
+    "Name": "The Collective of Varyag the Sainted",
     "Attributes": {
       "totalCost": "350",
       "category": "Characters",
@@ -262,6 +262,26 @@
     ]
   },
   {
+    "Id": "68357f8f790d8280c4b26f4e",
+    "Name": "Bat Swarms",
+    "Attributes": {
+      "totalCost": "120",
+      "category": "Core Units",
+      "army": "Vampire Covenant",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f8f790d8280c4b26f50"
+    ]
+  },
+  {
     "Id": "68357f8f790d8280c4b26f49",
     "Name": "Dire Wolves",
     "Attributes": {
@@ -282,11 +302,11 @@
     ]
   },
   {
-    "Id": "68357f8f790d8280c4b26f4e",
-    "Name": "Bat Swarms",
+    "Id": "68357f90790d8280c4b26fd1",
+    "Name": "Great Bats",
     "Attributes": {
-      "totalCost": "120",
-      "category": "Core Units",
+      "totalCost": "85",
+      "category": "Special",
       "army": "Vampire Covenant",
       "height": "Standard",
       "type": "",
@@ -298,7 +318,33 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357f8f790d8280c4b26f50"
+      "68357f90790d8280c4b26fd3"
+    ]
+  },
+  {
+    "Id": "68357f90790d8280c4b26fb9",
+    "Name": "Ghasts",
+    "Attributes": {
+      "totalCost": "10",
+      "category": "Special",
+      "army": "Vampire Covenant",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "a9e2e4bd-b50d-4542-9ea9-019620e06e1b",
+      "7f811085-bda7-460b-8bd7-c867794cc677"
+    ],
+    "ProfileIds": [
+      "68357f90790d8280c4b26fbb"
     ]
   },
   {
@@ -354,52 +400,6 @@
     ]
   },
   {
-    "Id": "68357f90790d8280c4b26fb9",
-    "Name": "Ghasts",
-    "Attributes": {
-      "totalCost": "10",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "a9e2e4bd-b50d-4542-9ea9-019620e06e1b",
-      "7f811085-bda7-460b-8bd7-c867794cc677"
-    ],
-    "ProfileIds": [
-      "68357f90790d8280c4b26fbb"
-    ]
-  },
-  {
-    "Id": "68357f90790d8280c4b26fd1",
-    "Name": "Great Bats",
-    "Attributes": {
-      "totalCost": "85",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f90790d8280c4b26fd3"
-    ]
-  },
-  {
     "Id": "68357f90790d8280c4b26fd6",
     "Name": "Cadaver Wagon",
     "Attributes": {
@@ -417,6 +417,26 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f90790d8280c4b26fd6"
+    ]
+  },
+  {
+    "Id": "68357f91790d8280c4b26fd9",
+    "Name": "Dark Coach",
+    "Attributes": {
+      "totalCost": "380",
+      "category": "Special",
+      "army": "Vampire Covenant",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f91790d8280c4b26fd9"
     ]
   },
   {
@@ -457,26 +477,6 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f91790d8280c4b26fd8"
-    ]
-  },
-  {
-    "Id": "68357f91790d8280c4b26fd9",
-    "Name": "Dark Coach",
-    "Attributes": {
-      "totalCost": "380",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f91790d8280c4b26fd9"
     ]
   },
   {
@@ -540,26 +540,6 @@
     ]
   },
   {
-    "Id": "68357f92790d8280c4b26ff8",
-    "Name": "Shrieking Horror",
-    "Attributes": {
-      "totalCost": "420",
-      "category": "Swift Death",
-      "army": "Vampire Covenant",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f92790d8280c4b26ff8"
-    ]
-  },
-  {
     "Id": "68357f92790d8280c4b26ff9",
     "Name": "Vampire Knights",
     "Attributes": {
@@ -586,10 +566,10 @@
     ]
   },
   {
-    "Id": "68357f92790d8280c4b27026",
-    "Name": "Winged Reapers",
+    "Id": "68357f93790d8280c4b2702e",
+    "Name": "Vampire Spawn",
     "Attributes": {
-      "totalCost": "120",
+      "totalCost": "70",
       "category": "Swift Death",
       "army": "Vampire Covenant",
       "height": "Large",
@@ -602,9 +582,9 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357f92790d8280c4b27028"
+      "68357f93790d8280c4b27030"
     ]
-  },
+  },  
   {
     "Id": "68357f92790d8280c4b2702d",
     "Name": "Varkolak",
@@ -626,10 +606,10 @@
     ]
   },
   {
-    "Id": "68357f93790d8280c4b2702e",
-    "Name": "Vampire Spawn",
+    "Id": "68357f92790d8280c4b27026",
+    "Name": "Winged Reapers",
     "Attributes": {
-      "totalCost": "70",
+      "totalCost": "120",
       "category": "Swift Death",
       "army": "Vampire Covenant",
       "height": "Large",
@@ -642,7 +622,27 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357f93790d8280c4b27030"
+      "68357f92790d8280c4b27028"
+    ]
+  },
+  {
+    "Id": "68357f92790d8280c4b26ff8",
+    "Name": "Shrieking Horror",
+    "Attributes": {
+      "totalCost": "420",
+      "category": "Swift Death",
+      "army": "Vampire Covenant",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f92790d8280c4b26ff8"
     ]
   }
 ]
