@@ -1,5 +1,61 @@
 [
   {
+    "Id": "68357f49790d8280c4b20e30",
+    "Name": "High Prince",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "High Prince",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "10",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
+        }
+      },
+      {
+        "Name": "High Prince",
+        "Values": {
+          "HP": "3",
+          "Df": "8",
+          "Re": "3",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "High Prince",
+        "Values": {
+          "At": "4",
+          "Of": "8",
+          "St": "4",
+          "AP": "1",
+          "Ag": "8"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "714de27d-08ce-4e24-8f4c-d299b1719ba4",
     "Name": "Elven Horse",
     "Attributes": {
@@ -10,8 +66,8 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -26,8 +82,9 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
+          
         }
       },
       {
@@ -72,11 +129,12 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-feigned_flight": "Feigned Flight",
       "rulebook-exclusive": "Exclusive (Reaver Chariots)",
-      "rulebook-impact_hits": "Impact Hits (D6)"
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hit_and_run": "Hit and Run",      
+      "rulebook-impact_hits": "Impact Hits (D6)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -91,10 +149,11 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-exclusive": "Exclusive (Reaver Chariots)",
           "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-exclusive": "Exclusive (Reaver Chariots)"
+          "rulebook-hit_and_run": "Hit and Run",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -152,10 +211,10 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-light_troops": "Light Troops",      
       "rulebook-solitary": "Solitary",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"
+      "rulebook-swiftstride": "Swiftstride"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -170,9 +229,9 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary"
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -230,6 +289,7 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Giant Eagles)",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
@@ -248,6 +308,7 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Giant Eagles)",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
           "rulebook-swiftstride": "Swiftstride"
@@ -299,10 +360,10 @@
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-solitary": "Solitary",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "rulebook-hard_target": "Hard Target (1)"
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-impact_hits": "Impact Hits (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -319,8 +380,8 @@
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary"
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -379,10 +440,10 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (1)",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-light_troops": "Light Troops",      
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-first_strike": "First Strike (+1 Att, Hatred)",
@@ -400,10 +461,10 @@
           "Hgt": "4"
         },
         "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (1)",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-light_troops": "Light Troops",          
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride"
         }
@@ -451,14 +512,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (2)",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "he-ancient_allies": "Ancient Allies (2)",
-      "he-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "he-meeting_of_minds": "Meeting of Minds",      
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",      
       "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
@@ -474,14 +535,14 @@
           "Hgt": "5"
         },
         "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (2)",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "he-ancient_allies": "Ancient Allies (2)",
-          "he-meeting_of_minds": "Meeting of Minds",
-          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "he-meeting_of_minds": "Meeting of Minds",          
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-terror": "Terror"
         }
       },
       {
@@ -527,14 +588,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (2)",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "he-ancient_allies": "Ancient Allies (2)",
-      "he-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
+      "rulebook-light_troops": "Light Troops",
+      "he-meeting_of_minds": "Meeting of Minds",      
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",      
       "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
@@ -550,14 +611,14 @@
           "Hgt": "5"
         },
         "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (2)",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "he-ancient_allies": "Ancient Allies (2)",
-          "he-meeting_of_minds": "Meeting of Minds",
-          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
+          "he-meeting_of_minds": "Meeting of Minds",          
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-terror": "Terror"          
         }
       },
       {
@@ -594,48 +655,52 @@
     }
   },
   {
-    "Id": "68357f49790d8280c4b20e30",
-    "Name": "High Prince",
+    "Id": "68357f4a790d8280c4b21289",
+    "Name": "Commander",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-disciplined": "Disciplined",      
       "rulebook-light_troops": "Light Troops"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "High Prince",
+        "Name": "Commander",
         "Values": {
           "Ad": "5",
           "Ma": "5",
-          "Di": "10",
+          "Di": "9",
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
+          "rulebook-disciplined": "Disciplined",          
           "rulebook-light_troops": "Light Troops"
         }
       },
       {
-        "Name": "High Prince",
+        "Name": "Commander",
         "Values": {
           "HP": "3",
-          "Df": "8",
+          "Df": "7",
           "Re": "3",
           "Arm": "2"
         },
         "RuleIds": {}
       },
       {
-        "Name": "High Prince",
+        "Name": "Commander",
         "Values": {
-          "At": "4",
-          "Of": "8",
+          "At": "3",
+          "Of": "7",
           "St": "4",
           "AP": "1",
-          "Ag": "8"
+          "Ag": "7"
         },
         "RuleIds": {
         }
@@ -659,11 +724,11 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-captain": "Captain",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -677,11 +742,11 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-captain": "Captain",
           "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-captain": "Captain",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -725,14 +790,15 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hit_and_run": "Hit and Run",
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-exclusive": "Exclusive (Reaver Chariots)",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-impact_hits": "Impact Hits (D6)"
+      "rulebook-impact_hits": "Impact Hits (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -746,13 +812,14 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+          "rulebook-attached": "Attached",
           "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hit_and_run": "Hit and Run",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -809,12 +876,13 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Giant Eagles)",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-hard_target": "Hard Target (1)"
     },
     "EquipmentIds": [],
@@ -829,12 +897,13 @@
           "Hgt": "3"
         },
         "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Giant Eagles)",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -880,12 +949,12 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",     
+      "rulebook-solitary": "Solitary",            
       "rulebook-impact_hits": "Impact Hits (D6+1)"
     },
     "EquipmentIds": [],
@@ -900,12 +969,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
+          "rulebook-attached": "Attached",
           "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",     
+          "rulebook-solitary": "Solitary"
         }
       },
       {
@@ -962,14 +1031,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-light_troops": "Light Troops",      
       "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-first_strike": "First Strike (+1 Att, Hatred)",
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
@@ -985,14 +1054,14 @@
           "Hgt": "4"
         },
         "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-light_troops": "Light Troops",      
           "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -1038,13 +1107,13 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-light_troops": "Light Troops",      
       "rulebook-solitary": "Solitary",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-impact_hits": "Impact Hits (D6)",
       "rulebook-hard_target": "Hard Target (1)"
     },
@@ -1060,13 +1129,13 @@
           "Hgt": "4"
         },
         "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",      
           "rulebook-solitary": "Solitary",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -1125,16 +1194,16 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (2)",
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "he-ancient_allies": "Ancient Allies (2)",
+      "rulebook-light_troops": "Light Troops",
       "he-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",
       "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
@@ -1150,16 +1219,16 @@
           "Hgt": "5"
         },
         "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (2)",
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "he-ancient_allies": "Ancient Allies (2)",
+          "rulebook-light_troops": "Light Troops",
           "he-meeting_of_minds": "Meeting of Minds",
-          "rulebook-terror": "Terror",
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-terror": "Terror"
         }
       },
       {
@@ -1196,21 +1265,21 @@
     }
   },
   {
-    "Id": "68357f4a790d8280c4b21289",
-    "Name": "Commander",
+    "Id": "68357f4b790d8280c4b216be",
+    "Name": "Mage",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-light_troops": "Light Troops",
+      "he-master_of_spellcrafting": "Master of Spellcrafting",      
+      "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Commander",
+        "Name": "Mage",
         "Values": {
           "Ad": "5",
           "Ma": "5",
@@ -1219,29 +1288,29 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "he-master_of_spellcrafting": "Master of Spellcrafting",          
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
-        "Name": "Commander",
+        "Name": "Mage",
         "Values": {
           "HP": "3",
-          "Df": "7",
+          "Df": "5",
           "Re": "3",
-          "Arm": "2"
+          "Arm": "0"
         },
         "RuleIds": {}
       },
       {
-        "Name": "Commander",
+        "Name": "Mage",
         "Values": {
-          "At": "3",
-          "Of": "7",
-          "St": "4",
-          "AP": "1",
-          "Ag": "7"
+          "At": "1",
+          "Of": "5",
+          "St": "3",
+          "AP": "0",
+          "Ag": "5"
         },
         "RuleIds": {
         }
@@ -1266,9 +1335,9 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "he-master_of_spellcrafting": "Master of Spellcrafting",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "he-master_of_spellcrafting": "Master of Spellcrafting",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
@@ -1284,9 +1353,9 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
-          "he-master_of_spellcrafting": "Master of Spellcrafting",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
+          "he-master_of_spellcrafting": "Master of Spellcrafting",
+          "rulebook-swiftstride": "Swiftstride",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1332,11 +1401,12 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
+      "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hit_and_run": "Hit and Run",
       "he-master_of_spellcrafting": "Master of Spellcrafting",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-impact_hits": "Impact Hits (D6)"
     },
@@ -1353,11 +1423,12 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
+          "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hit_and_run": "Hit and Run",
           "he-master_of_spellcrafting": "Master of Spellcrafting",
           "rulebook-light_troops": "Light Troops",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-exclusive": "Exclusive (Reaver Chariots)",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1416,9 +1487,10 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "he-master_of_spellcrafting": "Master of Spellcrafting",
+      "rulebook-exclusive": "Exclusive (Giant Eagles)",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
+      "he-master_of_spellcrafting": "Master of Spellcrafting",      
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-hard_target": "Hard Target (1)"
@@ -1436,8 +1508,9 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
-          "he-master_of_spellcrafting": "Master of Spellcrafting",
+          "rulebook-exclusive": "Exclusive (Giant Eagles)",
           "rulebook-fly": "Fly",
+          "he-master_of_spellcrafting": "Master of Spellcrafting",          
           "rulebook-light_troops": "Light Troops",
           "rulebook-swiftstride": "Swiftstride",
           "rulebook-wizard_adept": "Wizard Adept"
@@ -1486,11 +1559,11 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "he-master_of_spellcrafting": "Master of Spellcrafting",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
       "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "he-master_of_spellcrafting": "Master of Spellcrafting",      
+      "rulebook-light_troops": "Light Troops",      
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
@@ -1509,11 +1582,11 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "he-master_of_spellcrafting": "Master of Spellcrafting",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
           "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "he-master_of_spellcrafting": "Master of Spellcrafting",          
+          "rulebook-light_troops": "Light Troops",          
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
           "rulebook-wizard_adept": "Wizard Adept"
@@ -1562,15 +1635,15 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "he-master_of_spellcrafting": "Master of Spellcrafting",
-      "rulebook-fly": "Fly",
       "he-ancient_allies": "Ancient Allies (2)",
-      "he-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
+      "rulebook-disciplined": "Disciplined",      
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "he-master_of_spellcrafting": "Master of Spellcrafting",
+      "he-meeting_of_minds": "Meeting of Minds",      
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-terror": "Terror",      
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
@@ -1587,15 +1660,15 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "he-master_of_spellcrafting": "Master of Spellcrafting",
-          "rulebook-fly": "Fly",
           "he-ancient_allies": "Ancient Allies (2)",
-          "he-meeting_of_minds": "Meeting of Minds",
-          "rulebook-terror": "Terror",
+          "rulebook-disciplined": "Disciplined",      
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "he-master_of_spellcrafting": "Master of Spellcrafting",
+          "he-meeting_of_minds": "Meeting of Minds",      
           "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-terror": "Terror",      
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1629,66 +1702,6 @@
       "Size": {
         "width": "50",
         "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357f4b790d8280c4b216be",
-    "Name": "Mage",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "he-master_of_spellcrafting": "Master of Spellcrafting",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Mage",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "he-master_of_spellcrafting": "Master of Spellcrafting",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
-      },
-      {
-        "Name": "Mage",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Mage",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
       }
     }
   },
@@ -1728,7 +1741,7 @@
        }
       },
       {
-        "Name": "Master Acadnath",
+        "Name": "Master Acadnath, the Asfad Scholar",
         "Values": {
           "HP": "3",
           "Df": "5",
@@ -1738,7 +1751,7 @@
         "RuleIds": {}
       },
       {
-        "Name": "Master Acadnath",
+        "Name": "Acadnath",
         "Values": {
           "At": "1",
           "Of": "5",
@@ -1759,7 +1772,7 @@
   },
   {
     "Id": "e7d9f1b6a8c2d3a9f4e5b7a6e",
-    "Name": "Tenacla and Baluruth",
+    "Name": "Dhaenala, the Wyrmkin",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -1781,7 +1794,7 @@
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Tênacla and Balûruth",
+        "Name": "Dhaenala, the Wyrmkin",
         "Values": {
           "Ad": "7",
           "Ma": "7",
@@ -1801,7 +1814,7 @@
         }
       },
       {
-        "Name": "Tênacla and Balûruth",
+        "Name": "Dhaenala, the Wyrmkin",
         "Values": {
           "HP": "8",
           "Df": "6",
@@ -1811,7 +1824,7 @@
         "RuleIds": {}
       },
       {
-        "Name": "Tênacla",
+        "Name": "Dhaenala",
         "Values": {
           "At": "4",
           "Of": "8",
@@ -1824,7 +1837,7 @@
         }
       },
       {
-        "Name": "Balûruth",
+        "Name": "Balûruth, Ancient Dragon",
         "Values": {
           "At": "6",
           "Of": "6",
@@ -1848,15 +1861,71 @@
     }
   },
   {
+    "Id": "68357f4c790d8280c4b21903",
+    "Name": "Citizen Archers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-longbow": "Longbow (3+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Citizen Archers",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined"
+        }
+      },
+      {
+        "Name": "Citizen Archers",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Citizen Archer",
+        "Values": {
+          "At": "1",
+          "Of": "5",
+          "St": "3",
+          "AP": "0",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-longbow": "Longbow (3+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "68357f4b790d8280c4b218a3",
     "Name": "Citizen Spears",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
+      "rulebook-disciplined": "Disciplined",      
+      "rulebook-shield": "Shield",
       "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
-      "rulebook-spear": "Spear",
-      "rulebook-shield": "Shield"
+      "rulebook-spear": "Spear"     
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1909,6 +1978,73 @@
     }
   },
   {
+    "Id": "68357f4c790d8280c4b21933",
+    "Name": "Sea Guard",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-strider": "Strider (Water)",
+      "rulebook-shield": "Shield",      
+      "rulebook-resolute": "Resolute",
+      "rulebook-stand_and_shoot": "Stand and Shoot",
+      "rulebook-bow": "Bow (3+)",
+      "rulebook-spear": "Spear"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Sea Guard",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "8",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-strider": "Strider (Water)"
+        }
+      },
+      {
+        "Name": "Sea Guard",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "3",
+          "Arm": "1"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Sea Guard",
+        "Values": {
+          "At": "1",
+          "Of": "5",
+          "St": "3",
+          "AP": "0",
+          "Ag": "5"
+        },
+        "RuleIds": {          
+          "rulebook-resolute": "Resolute",
+          "rulebook-stand_and_shoot": "Stand and Shoot",
+          "rulebook-bow": "Bow (3+)",
+          "rulebook-spear": "Spear"          
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+{
     "Id": "68357f4c790d8280c4b218d3",
     "Name": "Highborn Lancers",
     "Attributes": {},
@@ -1916,8 +2052,8 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-lance": "Lance",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-lance": "Lance"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1982,129 +2118,6 @@
     }
   },
   {
-    "Id": "68357f4c790d8280c4b21903",
-    "Name": "Citizen Archers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-longbow": "Longbow (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Citizen Archers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined"
-        }
-      },
-      {
-        "Name": "Citizen Archers",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Citizen Archer",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-longbow": "Longbow (3+)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
-    "Id": "68357f4c790d8280c4b21933",
-    "Name": "Sea Guard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-strider": "Strider (Water)",
-      "rulebook-stand_and_shoot": "Stand and Shoot",
-      "rulebook-resolute": "Resolute (1)",
-      "rulebook-spear": "Spear",
-      "rulebook-bow": "Bow (3+)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Sea Guard",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-strider": "Strider (Water)"
-        }
-      },
-      {
-        "Name": "Sea Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
-      },
-      {
-        "Name": "Sea Guard",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-stand_and_shoot": "Stand and Shoot",
-          "rulebook-resolute": "Resolute (1)",
-          "rulebook-spear": "Spear",
-          "rulebook-bow": "Bow (3+)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
     "Id": "68357f4c790d8280c4b21963",
     "Name": "Erlein Reavers",
     "Attributes": {},
@@ -2112,9 +2125,10 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hit_and_run": "Hit and Run",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-vanguard": "Vanguard",      
       "rulebook-light_lance": "Light Lance"
     },
     "EquipmentIds": [],
@@ -2131,9 +2145,10 @@
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
           "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hit_and_run": "Hit and Run",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-vanguard": "Vanguard"          
         }
       },
       {
@@ -2181,368 +2196,6 @@
     }
   },
   {
-    "Id": "68357f4c790d8280c4b21997",
-    "Name": "Phoenix",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "he-rebirth": "Rebirth",
-      "he-ancient_allies": "Ancient Allies (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "he-frost_phoenix": "Frost Phoenix",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "he-rebirth": "Rebirth",
-          "he-ancient_allies": "Ancient Allies (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "he-frost_phoenix": "Frost Phoenix",
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)",
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357f4c790d8280c4b21997f",
-    "Name": "Phoenix",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "he-rebirth": "Rebirth",
-      "he-ancient_allies": "Ancient Allies (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "he-frost_phoenix": "Fire Phoenix",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)",
-      "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
-      "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "he-rebirth": "Rebirth",
-          "he-ancient_allies": "Ancient Allies (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "he-frost_phoenix": "Fire Phoenix"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)",
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
-          "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357f4c790d8280c4b21997wb",
-    "Name": "Phoenix",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "he-rebirth": "Rebirth",
-      "he-ancient_allies": "Ancient Allies (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "he-frost_phoenix": "Frost Phoenix",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
-      "he-wardens_bond": "Warden's Bond"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "he-rebirth": "Rebirth",
-          "he-ancient_allies": "Ancient Allies (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "he-frost_phoenix": "Frost Phoenix",
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
-          "he-wardens_bond": "Warden's Bond"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)",
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      },
-      {
-        "Name": "Warden",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-halberd": "Halberd"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357f4c790d8280c4b21997fwb",
-    "Name": "Phoenix",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "he-rebirth": "Rebirth",
-      "he-ancient_allies": "Ancient Allies (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "he-frost_phoenix": "Fire Phoenix",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)",
-      "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
-      "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)",
-      "rulebook-disciplined": "Disciplined",
-      "he-wardens_bond": "Warden's Bond"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "he-rebirth": "Rebirth",
-          "he-ancient_allies": "Ancient Allies (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "he-frost_phoenix": "Fire Phoenix",
-          "rulebook-disciplined": "Disciplined",
-          "he-wardens_bond": "Warden's Bond"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)",
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Phoenix",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
-          "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Warden",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-halberd": "Halberd"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
     "Id": "68357f4d790d8280c4b219ab",
     "Name": "Sword Masters",
     "Attributes": {},
@@ -2550,8 +2203,8 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-elven_finesse": "Elven Finesse",
-      "he-sword_sworn": "Sword Sworn",
       "rulebook-first_strike": "First Strike (+1 Def, +1 Off)",
+      "he-sword_sworn": "Sword Sworn",      
       "rulebook-great_weapon": "Great Weapon"
     },
     "EquipmentIds": [],
@@ -2591,8 +2244,8 @@
         },
         "RuleIds": {
           "rulebook-elven_finesse": "Elven Finesse",
-          "he-sword_sworn": "Sword Sworn",
           "rulebook-first_strike": "First Strike (+1 Def, +1 Off)",
+          "he-sword_sworn": "Sword Sworn",          
           "rulebook-great_weapon": "Great Weapon"
         }
       }
@@ -2611,14 +2264,14 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (General)",
       "rulebook-disciplined": "Disciplined",
       "rulebook-strider": "Strider (Forest)",
       "he-valiant": "Valiant",
-      "rulebook-bodyguard": "Bodyguard (General)",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4--5)",
+      "he-lions_fur": "Lion's Fur",
       "rulebook-elven_finesse": "Elven Finesse",
-      "rulebook-great_weapon": "Great Weapon",
-      "he-lions_fur": "Lion's Fur"
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4-5)",      
+      "rulebook-great_weapon": "Great Weapon"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2632,10 +2285,10 @@
           "Hgt": "1"
         },
         "RuleIds": {
+          "rulebook-bodyguard": "Bodyguard (General)", 
           "rulebook-disciplined": "Disciplined",
           "rulebook-strider": "Strider (Forest)",
-          "he-valiant": "Valiant",
-          "rulebook-bodyguard": "Bodyguard (General)"
+          "he-valiant": "Valiant"          
         }
       },
       {
@@ -2661,8 +2314,8 @@
           "Agi": "0"
         },
         "RuleIds": {
-          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4--5)",
           "rulebook-elven_finesse": "Elven Finesse",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4-5)",          
           "rulebook-great_weapon": "Great Weapon"
         }
       }
@@ -2683,8 +2336,8 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-fearless": "Fearless",
-      "rulebook-halberd": "Halberd",
-      "rulebook-aegis": "Aegis (4+)"
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-halberd": "Halberd"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2744,10 +2397,10 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-first_strike": "First Strike (+1 Att, +1 Off)",
-      "rulebook-lance": "Lance",
       "he-dragonforged_armour": "Dragonforged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-first_strike": "First Strike (+1 Att, +1 Off)",
+      "rulebook-lance": "Lance"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2819,13 +2472,15 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
       "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-exclusive": "Exclusive (Reaver Chariots)",
       "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-hit_and_run": "Hit and Run",
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-swiftstride": "Swiftstride",            
+      "rulebook-impact_hits": "Impact Hits (D6)",
       "rulebook-light_lance": "Light Lance",
-      "rulebook-longbow": "Longbow (3+)",
-      "rulebook-impact_hits": "Impact Hits (D6)"
+      "rulebook-longbow": "Longbow (3+)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2839,10 +2494,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
           "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-feigned_flight": "Feigned Flight"
+          "rulebook-exclusive": "Exclusive (Reaver Chariots)",
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-hit_and_run": "Hit and Run",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -2910,13 +2567,13 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
+      "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
       "he-valiant": "Valiant",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4--5)",
       "rulebook-elven_finesse": "Elven Finesse",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4-5)",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-great_weapon": "Great Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2931,9 +2588,9 @@
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops", 
           "rulebook-swiftstride": "Swiftstride",
-          "he-valiant": "Valiant",
-          "rulebook-light_troops": "Light Troops"
+          "he-valiant": "Valiant"          
         }
       },
       {
@@ -2957,8 +2614,8 @@
           "Agi": "0"
         },
         "RuleIds": {
-          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4--5)",
           "rulebook-elven_finesse": "Elven Finesse",
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 4-5)",          
           "rulebook-great_weapon": "Great Weapon"
         }
       },
@@ -3002,6 +2659,7 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-exclusive": "Exclusive (Giant Eagles)",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
@@ -3020,6 +2678,7 @@
           "Hgt": "3"
         },
         "RuleIds": {
+          "rulebook-exclusive": "Exclusive (Giant Eagles)",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
           "rulebook-swiftstride": "Swiftstride",
@@ -3060,84 +2719,22 @@
     }
   },
   {
-    "Id": "68357f4e790d8280c4b21a8e",
-    "Name": "Sea Guard Reaper",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-strider": "Strider (Water)",
-      "rulebook-solitary": "Solitary",
-      "he-elven_bolt_thrower": "Elven Bolt Thrower (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Sea Guard Reaper",
-        "Values": {
-          "Ad": "0",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-strider": "Strider (Water)",
-          "rulebook-solitary": "Solitary"
-        }
-      },
-      {
-        "Name": "Sea Guard Reaper",
-        "Values": {
-          "HP": "4",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Crew",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "he-elven_bolt_thrower": "Elven Bolt Thrower (3+)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "60"
-      }
-    }
-  },
-  {
     "Id": "68357f4e790d8280c4b21a8f",
     "Name": "Initiate of the Fiery Heart",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-fly": "Fly",
       "he-ancient_allies": "Ancient Allies (1)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
       "he-master_of_spellcrafting": "Master of Spellcrafting",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-wizard_conclave": "Wizard Conclave (2)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
       "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D3)",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3151,13 +2748,13 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-fly": "Fly",
           "he-ancient_allies": "Ancient Allies (1)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
           "he-master_of_spellcrafting": "Master of Spellcrafting",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",      
           "rulebook-wizard_conclave": "Wizard Conclave (2)"
         }
       },
@@ -3209,21 +2806,445 @@
     }
   },
   {
+    "Id": "68357f4c790d8280c4b21997",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "he-frost_phoenix": "Frost Phoenix",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth",      
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",      
+      "rulebook-magical_attacks": "Magical Attacks"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "he-frost_phoenix": "Frost Phoenix",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth (5+)",      
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"          
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997f",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (1)",
+      "he-fire_phoenix": "Fire Phoenix",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth",      
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",      
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (1)",
+          "he-fire_phoenix": "Fire Phoenix",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth (5+)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997wb",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "he-frost_phoenix": "Frost Phoenix",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth (3+)",      
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "he-wardens_bond": "Warden's Bond",      
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-afflict": "Afflict (-2 Def, -2 Off, and -2 Agi)",
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "he-frost_phoenix": "Frost Phoenix",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth (3+)",      
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Warden",
+        "Values": {
+          "At": "1",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "rulebook-halberd": "Halberd"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997fwb",
+    "Name": "Phoenix",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "he-ancient_allies": "Ancient Allies (1)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "he-frost_phoenix": "Fire Phoenix",
+      "rulebook-light_troops": "Light Troops",
+      "he-rebirth": "Rebirth (3+)",      
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "he-wardens_bond": "Warden's Bond",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "he-ancient_allies": "Ancient Allies (1)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "he-frost_phoenix": "Fire Phoenix",
+          "rulebook-light_troops": "Light Troops",
+          "he-rebirth": "Rebirth (3+)",      
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "he-wardens_bond": "Warden's Bond"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Phoenix",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {          
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-grind_attack": "Grind Attack (D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "rulebook-sweeping_attack": "Sweeping Attack (XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Warden",
+        "Values": {
+          "At": "1",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "rulebook-halberd": "Halberd"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
+    "Id": "68357f4e790d8280c4b21a8e",
+    "Name": "Sea Guard Reaper",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "rulebook-strider": "Strider (Water)",      
+      "he-elven_bolt_thrower": "Elven Bolt Thrower (3+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Sea Guard Reaper",
+        "Values": {
+          "Ad": "0",
+          "Ma": "5",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary",
+          "rulebook-strider": "Strider (Water)"
+        }
+      },
+      {
+        "Name": "Sea Guard Reaper",
+        "Values": {
+          "HP": "4",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "1"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Crew",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "3",
+          "AP": "0",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "he-elven_bolt_thrower": "Elven Bolt Thrower (3+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "60"
+      }
+    }
+  },
+  {
     "Id": "68357f4e790d8280c4b21a91",
     "Name": "Sky Sloop",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",            
       "rulebook-solitary": "Solitary",
       "rulebook-strider": "Strider (Water)",
-      "rulebook-light_lance": "Light Lance",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hard_target": "Hard Target (1)",      
       "rulebook-impact_hits": "Impact Hits (D6)",
-      "he-sky_reaper": "Sky Reaper (3+)",
-      "rulebook-hard_target": "Hard Target (1)"
+      "rulebook-light_lance": "Light Lance",
+      "he-sky_reaper": "Sky Reaper (3+)"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3237,12 +3258,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",            
           "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Water)"
+          "rulebook-strider": "Strider (Water)",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -3371,15 +3392,15 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
       "rulebook-disciplined": "Disciplined",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-strider": "Strider (Ruins, Walls)",
+      "rulebook-light_troops": "Light Troops",
       "rulebook-scout": "Scout",
+      "rulebook-strider": "Strider (Ruins, Walls)",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-hard_target": "Hard Target (1)",
       "he-fae_miasma": "Fae Miasma",
       "rulebook-longbow": "Longbow (2+)",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-hard_target": "Hard Target (1)"
+      "rulebook-paired_weapons": "Paired Weapons"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3393,11 +3414,11 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",
           "rulebook-skirmisher": "Skirmisher",
-          "rulebook-strider": "Strider (Ruins, Walls)",
-          "rulebook-scout": "Scout"
+          "rulebook-strider": "Strider (Ruins, Walls)"          
         }
       },
       {

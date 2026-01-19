@@ -1,5 +1,69 @@
 [
   {
+    "Id": "68357f5b790d8280c4b2288d",
+    "Name": "Damsel",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {      
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-stand_behind": "Stand Behind",      
+      "rulebook-wizard_adept": "Wizard Adept",      
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Damsel",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {          
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-stand_behind": "Stand Behind",          
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Damsel",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy"
+        }
+      },
+      {
+        "Name": "Damsel",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "8b6580b9-d6a7-44e9-9b2d-ecb971ec1dbb",
     "Name": "Heraldic Steed",
     "Attributes": {
@@ -8,17 +72,17 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "koe-clergy": "Clergy",
-      "rulebook-stand_behind": "Stand Behind",
+    "RuleIds": {            
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-stand_behind": "Stand Behind",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-wizard_adept": "Wizard Adept",      
       "rulebook-aegis": "Aegis (6+)",
-      "rulebook-hard_target": "Hard Target (1)"
+      "koe-clergy": "Clergy",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -31,13 +95,12 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-stand_behind": "Stand Behind",
+        "RuleIds": {                
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-vanguard": "Vanguard",
+          "rulebook-stand_behind": "Stand Behind",
           "rulebook-swiftstride": "Swiftstride",
+          "rulebook-vanguard": "Vanguard",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -52,6 +115,7 @@
         },
         "RuleIds": {
           "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy",
           "rulebook-hard_target": "Hard Target (1)"
         }
       },
@@ -86,13 +150,12 @@
       "totalcost": "290"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "koe-clergy": "Clergy",
-      "rulebook-stand_behind": "Stand Behind",
+    "RuleIds": {      
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-aegis": "Aegis (6+)",
       "rulebook-hard_target": "Hard Target (1)"
@@ -108,13 +171,12 @@
           "Di": "7",
           "Hgt": "3"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-stand_behind": "Stand Behind",
+        "RuleIds": {                  
           "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
           "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-swiftstride": "Swiftstride",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -129,6 +191,7 @@
         },
         "RuleIds": {
           "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy",
           "rulebook-hard_target": "Hard Target (1)"
         }
       },
@@ -162,19 +225,19 @@
       "totalcost": "300"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "koe-clergy": "Clergy",
-      "rulebook-stand_behind": "Stand Behind",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-supernal": "Supernal",
+    "RuleIds": {      
       "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-ghost_step": "Ghost Step",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-stand_behind": "Stand Behind",            
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",            
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -187,15 +250,14 @@
           "Di": "7",
           "Hgt": "4"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-stand_behind": "Stand Behind",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-supernal": "Supernal",
+        "RuleIds": {          
           "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-ghost_step": "Ghost Step",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-supernal": "Supernal",          
+          "rulebook-solitary": "Solitary",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-swiftstride": "Swiftstride",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -209,7 +271,8 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy"
         }
       },
       {
@@ -222,8 +285,8 @@
           "Ag": "4"
         },
         "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"          
         }
       }
     ],
@@ -244,14 +307,14 @@
       "totalcost": "320"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "koe-clergy": "Clergy",
-      "rulebook-stand_behind": "Stand Behind",
-      "rulebook-swiftstride": "Swiftstride",
+    "RuleIds": {      
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -264,12 +327,11 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-stand_behind": "Stand Behind",
-          "rulebook-swiftstride": "Swiftstride",
+        "RuleIds": {          
           "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-swiftstride": "Swiftstride",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -283,7 +345,8 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy"
         }
       },
       {
@@ -316,16 +379,16 @@
       "totalcost": "350"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "koe-clergy": "Clergy",
-      "rulebook-stand_behind": "Stand Behind",
+    "RuleIds": {      
       "koe-forest_guide": "Forest Guide",
-      "rulebook-strider": "Strider",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy",
       "rulebook-magic_resistance": "Magic Resistance (1)"
     },
     "EquipmentIds": [],
@@ -339,14 +402,13 @@
           "Di": "7",
           "Hgt": "2"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-stand_behind": "Stand Behind",
+        "RuleIds": {          
           "koe-forest_guide": "Forest Guide",
-          "rulebook-strider": "Strider",
-          "rulebook-swiftstride": "Swiftstride",
           "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-stand_behind": "Stand Behind",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -361,6 +423,7 @@
         },
         "RuleIds": {
           "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy",
           "rulebook-magic_resistance": "Magic Resistance (1)"
         }
       },
@@ -386,56 +449,56 @@
     }
   },
   {
-    "Id": "68357f5b790d8280c4b2288d",
-    "Name": "Damsel",
+    "Id": "68357f5c790d8280c4b229f8",
+    "Name": "Duke",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "koe-clergy": "Clergy",
-      "rulebook-stand_behind": "Stand Behind",
+      "rulebook-disciplined": "Disciplined",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-aegis": "Aegis (6+)"
+      "koe-nobility": "Nobility",      
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Damsel",
+        "Name": "Duke",
         "Values": {
           "Ad": "4",
           "Ma": "4",
-          "Di": "7",
+          "Di": "9",
           "Hgt": "1"
         },
         "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-stand_behind": "Stand Behind",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
-        "Name": "Damsel",
+        "Name": "Duke",
         "Values": {
           "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "2",
           "Aeg": "6"
         },
         "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield"         
         }
       },
       {
-        "Name": "Damsel",
+        "Name": "Duke",
         "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
+          "At": "4",
+          "Of": "6",
+          "St": "4",
+          "AP": "1",
+          "Ag": "6"
         },
         "RuleIds": {
         }
@@ -461,14 +524,14 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "koe-forest_guide": "Forest Guide",
-      "rulebook-strider": "Strider",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
-      "koe-nobility": "Nobility",
-      "rulebook-shield": "Shield",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",    
       "rulebook-aegis": "Aegis (6+)",
-      "rulebook-magic_resistance": "Magic Resistance (1)"
+      "koe-nobility": "Nobility",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-shield": "Shield"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -484,10 +547,10 @@
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
           "koe-forest_guide": "Forest Guide",
-          "rulebook-strider": "Strider",
-          "rulebook-swiftstride": "Swiftstride",
           "koe-lance_formation": "Lance Formation",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride"         
         }
       },
       {
@@ -500,10 +563,10 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
           "rulebook-aegis": "Aegis (6+)",
-          "rulebook-magic_resistance": "Magic Resistance (1)"
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "koe-nobility": "Nobility",          
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -538,12 +601,12 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (6+)",
       "koe-nobility": "Nobility",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-shield": "Shield"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -557,10 +620,10 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride",
           "koe-lance_formation": "Lance Formation",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -573,9 +636,9 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -600,88 +663,6 @@
     }
   },
   {
-    "Id": "d4ef7b34-11cb-4b99-8384-8c951b260b84",
-    "Name": "Fey Steed",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "280"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "koe-nobility": "Nobility",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-supernal": "Supernal",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "HP": "4",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "4",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
-  },
-  {
     "Id": "31aee4eb-8972-4f4f-802d-be564a531da8",
     "Name": "Pegasus Charger",
     "Attributes": {
@@ -693,13 +674,13 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
-      "koe-nobility": "Nobility",
-      "rulebook-shield": "Shield",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-aegis": "Aegis (6+)",
-      "rulebook-hard_target": "Hard Target (1)"
+      "rulebook-hard_target": "Hard Target (1)",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -715,9 +696,9 @@
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
+          "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -730,10 +711,10 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
           "rulebook-aegis": "Aegis (6+)",
-          "rulebook-hard_target": "Hard Target (1)"
+          "rulebook-hard_target": "Hard Target (1)",
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -758,6 +739,88 @@
     }
   },
   {
+    "Id": "d4ef7b34-11cb-4b99-8384-8c951b260b84",
+    "Name": "Fey Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "280"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride"          
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "4",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield"          
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
     "Id": "0cffc4ca-16a4-4ba3-8e03-2bca6701c742",
     "Name": "Hippogriff",
     "Attributes": {
@@ -769,14 +832,14 @@
     "RuleIds": {
       "rulebook-disciplined": "Disciplined",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
       "rulebook-stubborn": "Stubborn",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (6+)",
       "koe-nobility": "Nobility",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-shield": "Shield",      
+      "rulebook-stomp_attack": "Stomp Attack (1)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -792,10 +855,10 @@
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-stubborn": "Stubborn"
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -808,9 +871,9 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -836,22 +899,23 @@
     }
   },
   {
-    "Id": "68357f5c790d8280c4b229f8",
-    "Name": "Duke",
+    "Id": "68357f5d790d8280c4b22cc5",
+    "Name": "Paladin",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
+    "RuleIds": {      
       "rulebook-light_troops": "Light Troops",
-      "koe-nobility": "Nobility",
+      "rulebook-aegis": "Aegis (4+, against Magical Attacks)",
+      "koe-clergy": "Clergy",
       "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-magical_attacks": "Magical Attacks"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Duke",
+        "Name": "Paladin",
         "Values": {
           "Ad": "4",
           "Ma": "4",
@@ -859,35 +923,36 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
           "rulebook-light_troops": "Light Troops"
         }
       },
       {
-        "Name": "Duke",
+        "Name": "Paladin",
         "Values": {
           "HP": "3",
-          "Df": "6",
+          "Df": "7",
           "Re": "4",
           "Arm": "2",
           "Aeg": "6"
         },
-        "RuleIds": {
-          "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+        "RuleIds": {          
+          "rulebook-aegis": "Aegis (4+, against Magical Attacks)",
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield"
         }
       },
       {
-        "Name": "Duke",
+        "Name": "Paladin",
         "Values": {
           "At": "4",
-          "Of": "6",
+          "Of": "7",
           "St": "4",
           "AP": "1",
           "Ag": "6"
         },
         "RuleIds": {
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-magical_attacks": "Magical Attacks"
         }
       }
     ],
@@ -908,12 +973,12 @@
       "totalcost": "200"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
+    "RuleIds": {      
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
-      "koe-clergy": "Clergy",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "koe-clergy": "Clergy",      
       "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
@@ -928,9 +993,9 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-swiftstride": "Swiftstride",
           "koe-lance_formation": "Lance Formation",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -943,8 +1008,8 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-clergy": "Clergy",
           "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "koe-clergy": "Clergy",          
           "rulebook-shield": "Shield"
         }
       },
@@ -980,14 +1045,14 @@
     "AttributeLists": {},
     "RuleIds": {
       "koe-forest_guide": "Forest Guide",
-      "rulebook-strider": "Strider",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
-      "koe-clergy": "Clergy",
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-      "rulebook-shield": "Shield",
-      "rulebook-magic_resistance": "Magic Resistance (1)"
+      "koe-clergy": "Clergy",      
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1002,10 +1067,10 @@
         },
         "RuleIds": {
           "koe-forest_guide": "Forest Guide",
-          "rulebook-strider": "Strider",
-          "rulebook-swiftstride": "Swiftstride",
           "koe-lance_formation": "Lance Formation",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -1017,11 +1082,11 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
+        "RuleIds": {          
           "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-          "rulebook-shield": "Shield",
-          "rulebook-magic_resistance": "Magic Resistance (1)"
+          "koe-clergy": "Clergy",
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-shield": "Shield"         
         }
       },
       {
@@ -1046,6 +1111,86 @@
     }
   },
   {
+    "Id": "76b17237-af80-4828-964d-8ac9baf37146",
+    "Name": "Fey Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "280"
+    },
+    "AttributeLists": {},
+    "RuleIds": {      
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride"          
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "4",
+          "Arm": "4",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "koe-clergy": "Clergy",          
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"          
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
     "Id": "6148e84e-6750-421f-a299-cc9f5f76653a",
     "Name": "Pegasus Charger",
     "Attributes": {
@@ -1056,13 +1201,13 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
-      "koe-clergy": "Clergy",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-      "rulebook-shield": "Shield",
-      "rulebook-hard_target": "Hard Target (1)"
+      "koe-clergy": "Clergy",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1077,9 +1222,9 @@
         },
         "RuleIds": {
           "rulebook-fly": "Fly",
+          "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -1092,10 +1237,10 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-clergy": "Clergy",
           "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-          "rulebook-shield": "Shield",
-          "rulebook-hard_target": "Hard Target (1)"
+          "rulebook-hard_target": "Hard Target (1)",
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield"         
         }
       },
       {
@@ -1120,86 +1265,6 @@
     }
   },
   {
-    "Id": "76b17237-af80-4828-964d-8ac9baf37146",
-    "Name": "Fey Steed",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "280"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "koe-clergy": "Clergy",
-      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-supernal": "Supernal",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "4",
-          "Arm": "4",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-          "rulebook-shield": "Shield"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
-  },
-  {
     "Id": "be287238-82c5-4d1d-9845-6b4be711f1a1",
     "Name": "Hippogriff",
     "Attributes": {
@@ -1210,14 +1275,14 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
       "rulebook-stubborn": "Stubborn",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "koe-clergy": "Clergy",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-      "rulebook-shield": "Shield"
+      "koe-clergy": "Clergy",      
+      "rulebook-shield": "Shield",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1232,10 +1297,10 @@
         },
         "RuleIds": {
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",          
           "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-stubborn": "Stubborn"
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -1247,9 +1312,9 @@
           "Arm": "4",
           "Aeg": "6"
         },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
+        "RuleIds": {          
           "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
+          "koe-clergy": "Clergy",
           "rulebook-shield": "Shield"
         }
       },
@@ -1276,60 +1341,58 @@
     }
   },
   {
-    "Id": "68357f5d790d8280c4b22cc5",
-    "Name": "Paladin",
+    "Id": "68357f5d790d8280c4b22f14",
+    "Name": "Folk Hero",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "koe-clergy": "Clergy",
-      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-      "rulebook-shield": "Shield"
+      "rulebook-attached": "Attached",      
+      "rulebook-light_troops": "Light Troops",      
+      "koe-traits_of_a_hero": "Traits of a Hero",      
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Paladin",
+        "Name": "Folk Hero",
         "Values": {
           "Ad": "4",
           "Ma": "4",
-          "Di": "9",
+          "Di": "8",
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-attached": "Attached",
+          "rulebook-light_troops": "Light Troops",
+          "koe-traits_of_a_hero": "Traits of a Hero"          
         }
       },
       {
-        "Name": "Paladin",
+        "Name": "Folk Hero",
         "Values": {
           "HP": "3",
-          "Df": "7",
+          "Df": "4",
           "Re": "4",
           "Arm": "2",
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-          "rulebook-shield": "Shield"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"         
         }
       },
       {
-        "Name": "Paladin",
+        "Name": "Folk Hero",
         "Values": {
-          "At": "4",
-          "Of": "7",
+          "At": "2",
+          "Of": "4",
           "St": "4",
           "AP": "1",
-          "Ag": "6"
+          "Ag": "4"
         },
         "RuleIds": {
-          "rulebook-divine_attacks": "Divine Attacks",
-          "rulebook-magical_attacks": "Magical Attacks"
         }
       }
     ],
@@ -1351,15 +1414,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "koe-traits_of_a_hero": "Traits of a Hero",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "koe-lance_formation": "Lance Formation",
       "rulebook-attached": "Attached",
-      "koe-quin": "Quin",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-fly": "Fly",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "koe-traits_of_a_hero": "Traits of a Hero",      
+      "rulebook-swiftstride": "Swiftstride",     
+      "rulebook-aegis": "Aegis (6+)",      
+      "koe-commonfolk": "Commonfolk",      
       "rulebook-hard_target": "Hard Target (1)"
     },
     "EquipmentIds": [],
@@ -1374,13 +1436,12 @@
           "Hgt": "3"
         },
         "RuleIds": {
-          "koe-traits_of_a_hero": "Traits of a Hero",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation",
           "rulebook-attached": "Attached",
-          "koe-quin": "Quin"
+          "rulebook-fly": "Fly",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "koe-traits_of_a_hero": "Traits of a Hero",          
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -1393,8 +1454,8 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
           "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk",          
           "rulebook-hard_target": "Hard Target (1)"
         }
       },
@@ -1420,6 +1481,166 @@
     }
   },
   {
+    "Id": "dbfd81c7-57d3-47b5-a9d0-4ec7ed40a243",
+    "Name": "Fey Steed",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "320"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-traits_of_a_hero": "Traits of a Hero",      
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-magical_attacks": "Magical Attacks",      
+      "rulebook-stomp_attack": "Stomp Attack (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-traits_of_a_hero": "Traits of a Hero"
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "HP": "4",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"          
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"          
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "f4164ed7-9200-4a91-87e7-694004b40680",
+    "Name": "Revered Unicorn",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "310"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-attached": "Attached",
+      "koe-forest_guide": "Forest Guide",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-strider": "Strider",
+      "rulebook-swiftstride": "Swiftstride",
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-magic_resistance": "Magic Resistance (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Revered Unicorn",
+        "Values": {
+          "Ad": "10",
+          "Ma": "10",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-attached": "Attached",
+          "koe-forest_guide": "Forest Guide",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-strider": "Strider",
+          "rulebook-swiftstride": "Swiftstride",
+          "koe-traits_of_a_hero": "Traits of a Hero"          
+        }
+      },
+      {
+        "Name": "Revered Unicorn",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk",          
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
+      },
+      {
+        "Name": "Revered Unicorn",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "73f4d3f4-fa19-446a-958e-178f67812b84",
     "Name": "Heraldic Steed",
     "Attributes": {
@@ -1429,17 +1650,16 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-attached": "Attached",
       "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
+      "koe-traits_of_a_hero": "Traits of a Hero",      
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-attached": "Attached",
-      "koe-quin": "Quin",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "koe-commonfolk": "Commonfolk",
+      "rulebook-vanguard": "Vanguard",
       "rulebook-aegis": "Aegis (6+)",
-      "rulebook-hard_target": "Hard Target (1)"
+      "koe-commonfolk": "Commonfolk",      
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1453,13 +1673,12 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-attached": "Attached",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-vanguard": "Vanguard",
+          "koe-traits_of_a_hero": "Traits of a Hero",          
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-attached": "Attached",
-          "koe-quin": "Quin"
+          "rulebook-vanguard": "Vanguard"          
         }
       },
       {
@@ -1472,8 +1691,8 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
           "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk",          
           "rulebook-hard_target": "Hard Target (1)"
         }
       },
@@ -1509,14 +1728,13 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "koe-traits_of_a_hero": "Traits of a Hero",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-attached": "Attached",
       "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-attached": "Attached",
-      "koe-quin": "Quin",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
+      "koe-traits_of_a_hero": "Traits of a Hero",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1530,12 +1748,11 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "koe-traits_of_a_hero": "Traits of a Hero",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-attached": "Attached",
           "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-attached": "Attached",
-          "koe-quin": "Quin"
+          "koe-traits_of_a_hero": "Traits of a Hero",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -1548,8 +1765,8 @@
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"          
         }
       },
       {
@@ -1574,238 +1791,8 @@
     }
   },
   {
-    "Id": "f4164ed7-9200-4a91-87e7-694004b40680",
-    "Name": "Revered Unicorn",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "310"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "koe-traits_of_a_hero": "Traits of a Hero",
-      "koe-forest_guide": "Forest Guide",
-      "rulebook-strider": "Strider",
-      "rulebook-swiftstride": "Swiftstride",
-      "koe-lance_formation": "Lance Formation",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-attached": "Attached",
-      "koe-quin": "Quin",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)",
-      "rulebook-magic_resistance": "Magic Resistance (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Revered Unicorn",
-        "Values": {
-          "Ad": "10",
-          "Ma": "10",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "koe-traits_of_a_hero": "Traits of a Hero",
-          "koe-forest_guide": "Forest Guide",
-          "rulebook-strider": "Strider",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-attached": "Attached",
-          "koe-quin": "Quin"
-        }
-      },
-      {
-        "Name": "Revered Unicorn",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)",
-          "rulebook-magic_resistance": "Magic Resistance (1)"
-        }
-      },
-      {
-        "Name": "Revered Unicorn",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "dbfd81c7-57d3-47b5-a9d0-4ec7ed40a243",
-    "Name": "Fey Steed",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "320"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "koe-traits_of_a_hero": "Traits of a Hero",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-attached": "Attached",
-      "koe-quin": "Quin",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "koe-traits_of_a_hero": "Traits of a Hero",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-supernal": "Supernal",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-attached": "Attached",
-          "koe-quin": "Quin"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "HP": "4",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
-  },
-  {
-    "Id": "68357f5d790d8280c4b22f14",
-    "Name": "Folk Hero",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "koe-traits_of_a_hero": "Traits of a Hero",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-attached": "Attached",
-      "koe-quin": "Quin",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Folk Hero",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "koe-traits_of_a_hero": "Traits of a Hero",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-attached": "Attached",
-          "koe-quin": "Quin"
-        }
-      },
-      {
-        "Name": "Folk Hero",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Folk Hero",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
     "Id": "a2b4c9d5e7f8a3d6b2c9e4f7a",
-    "Name": "King Henry",
+    "Name": "King Henry the Young",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -1822,7 +1809,7 @@
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "King Henry",
+        "Name": "King Henry the Young",
         "Values": {
           "Ad": "8",
           "Ma": "8",
@@ -1833,12 +1820,11 @@
           "koe-a_worthy_foe" : "A Worthy Foe",
           "rulebook-disciplined": "Disciplined",
           "rulebook-general": "General",
-          "koe-new_guard" : "New Guard",
-          "rulebook-nobility": "Nobility"
+          "koe-new_guard" : "New Guard"          
         }
       },
       {
-        "Name": "King Henry",
+        "Name": "King Henry the Young",
         "Values": {
           "HP": "4",
           "Df": "6",
@@ -1847,11 +1833,12 @@
         },
         "RuleIds": {
           "rulebook-aegis": "Aegis (6+)",
+          "rulebook-nobility": "Nobility",
           "rulebook-shield": "Shield"
         }
       },
       {
-        "Name": "King Henry",
+        "Name": "King Henry the Young",
         "Values": {
           "At": "4",
           "Of": "6",
@@ -1965,13 +1952,13 @@
       "koe-borrowed_steed" : "'Borrowed' Steed",
       "rulebook-hidden": "Hidden",
       "koe-infuriating_wit": "Infuriating Wit",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept (Witchcraft)",
       "rulebook-aegis": "Aegis (6+)",
       "rulebook-afflict": "Afflict (Pursuit Distance is always 0″)",
       "rulebook-commonfolk": "Commonfolk",
-      "koe-leprechaun_companion" : "Leprechaun Companion",
-      "koe-lance_formation": "Lance Formation",
-      "rulebook-swiftstride": "Swiftstride"
+      "koe-leprechaun_companion" : "Leprechaun Companion"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2033,13 +2020,13 @@
     "Name": "Knights of the Realm",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
+    "RuleIds": {      
       "koe-lance_formation": "Lance Formation",
-      "rulebook-lance": "Lance",
+      "rulebook-swiftstride": "Swiftstride",      
+      "rulebook-aegis": "Aegis (6+)",
       "koe-nobility": "Nobility",
       "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-lance": "Lance"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2067,9 +2054,9 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -2107,224 +2094,20 @@
     }
   },
   {
-    "Id": "68357f5e790d8280c4b23294",
-    "Name": "Lowborn Archers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "koe-braziers": "Braziers",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Lowborn Archers",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
-          "koe-braziers": "Braziers"
-        }
-      },
-      {
-        "Name": "Lowborn Archers",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "0",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Lowborn Archer",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
-    "Id": "68357f5f790d8280c4b232bb",
-    "Name": "Lowborn Levies",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Lowborn Levies",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant"
-        }
-      },
-      {
-        "Name": "Lowborn Levies",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "1",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Lowborn Levy",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
-    "Id": "68357f5f790d8280c4b232e2",
-    "Name": "Mounted Serjeants",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "koe-ordo_minister": "Ordo Minister",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-first_strike": "First Strike (Hatred)",
-      "rulebook-light_lance": "Light Lance",
-      "koe-clergy": "Clergy",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Mounted Serjeants",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "koe-ordo_minister": "Ordo Minister",
-          "rulebook-swiftstride": "Swiftstride"
-        }
-      },
-      {
-        "Name": "Mounted Serjeants",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "4",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Mounted Serjeant",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Hatred)",
-          "rulebook-light_lance": "Light Lance"
-        }
-      },
-      {
-        "Name": "Rouncey",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
     "Id": "68357f5f790d8280c4b23327",
     "Name": "Hedge Knights",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
+    "RuleIds": {      
       "koe-lance_formation": "Lance Formation",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
       "rulebook-devastating_charge": "Devastating Charge (Fury, Fearless, Frenzy)",
       "rulebook-lance": "Lance",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-shield": "Shield",
-      "koe-nobility": "Nobility",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-paired_weapons": "Paired Weapons"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2338,9 +2121,9 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-swiftstride": "Swiftstride",
+          "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
-          "koe-lance_formation": "Lance Formation"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -2353,9 +2136,9 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "rulebook-shield": "Shield",
-          "koe-nobility": "Nobility",
-          "rulebook-aegis": "Aegis (6+)"
+          "koe-nobility": "Nobility"          
         }
       },
       {
@@ -2395,56 +2178,52 @@
     }
   },
   {
-    "Id": "68357f5f790d8280c4b23375",
-    "Name": "Enlisted Outlaws",
+    "Id": "68357f5f790d8280c4b232e2",
+    "Name": "Mounted Serjeants",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-scout": "Scout",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-unruly": "Unruly",
-      "rulebook-stand_and_shoot": "Stand and Shoot",
-      "rulebook-quick_to_fire": "Quick to Fire",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-throwing_weapons": "Throwing Weapons (5+)",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
+      "koe-ordo_minister": "Ordo Minister",
+      "rulebook-swiftstride": "Swiftstride",      
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-light_lance": "Light Lance"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Enlisted Outlaws",
+        "Name": "Mounted Serjeants",
         "Values": {
-          "Ad": "4",
-          "Ma": "4",
+          "Ad": "8",
+          "Ma": "8",
           "Di": "7",
-          "Hgt": "1"
+          "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-scout": "Scout",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-unruly": "Unruly"
+          "koe-ordo_minister": "Ordo Minister",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
-        "Name": "Enlisted Outlaws",
+        "Name": "Mounted Serjeants",
         "Values": {
           "HP": "1",
           "Df": "3",
           "Re": "3",
-          "Arm": "0",
+          "Arm": "4",
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield"          
         }
       },
       {
-        "Name": "Enlisted Outlaw",
+        "Name": "Mounted Serjeant",
         "Values": {
           "At": "1",
           "Of": "3",
@@ -2453,10 +2232,144 @@
           "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-stand_and_shoot": "Stand and Shoot",
-          "rulebook-quick_to_fire": "Quick to Fire",
-          "rulebook-paired_weapons": "Paired Weapons",
-          "rulebook-throwing_weapons": "Throwing Weapons (5+)"
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-light_lance": "Light Lance"
+        }
+      },
+      {
+        "Name": "Rouncey",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f5f790d8280c4b232bb",
+    "Name": "Lowborn Levies",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-paired_weapons": "Paired Weapons"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Lowborn Levies",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant"
+        }
+      },
+      {
+        "Name": "Lowborn Levies",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "1",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"          
+        }
+      },
+      {
+        "Name": "Lowborn Levy",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-paired_weapons": "Paired Weapons"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+    {
+    "Id": "68357f5e790d8280c4b23294",
+    "Name": "Lowborn Archers",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "koe-braziers": "Braziers",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-aegis": "Aegis (6+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Lowborn Archers",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "6",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "koe-braziers": "Braziers",
+          "rulebook-insignificant": "Insignificant"          
+        }
+      },
+      {
+        "Name": "Lowborn Archers",
+        "Values": {
+          "HP": "1",
+          "Df": "2",
+          "Re": "3",
+          "Arm": "0",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"          
+        }
+      },
+      {
+        "Name": "Lowborn Archer",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
         }
       }
     ],
@@ -2469,73 +2382,50 @@
     }
   },
   {
-    "Id": "68357f5f790d8280c4b2337f",
-    "Name": "Knights of the Quest",
+    "Id": "68357f60790d8280c4b23457",
+    "Name": "Men-at-Arms",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "koe-lance_formation": "Lance Formation",
-      "koe-the_quest": "The Quest",
-      "koe-bastard_sword": "Bastard Sword",
-      "koe-nobility": "Nobility",
+    "RuleIds": {      
+      "rulebook-aegis": "Aegis (6+)",
       "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "koe-stalwart_defense": "Stalwart Defense"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Knights of the Quest",
+        "Name": "Men-at-Arms",
         "Values": {
-          "Ad": "8",
-          "Ma": "8",
+          "Ad": "4",
+          "Ma": "4",
           "Di": "8",
-          "Hgt": "2"
+          "Hgt": "1"
         },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation"
-        }
+        "RuleIds": {}
       },
       {
-        "Name": "Knights of the Quest",
+        "Name": "Men-at-Arms",
         "Values": {
           "HP": "1",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "4",
+          "Df": "4",
+          "Re": "3",
+          "Arm": "2",
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-nobility": "Nobility",
+          "rulebook-aegis": "Aegis (6+)",
           "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "koe-stalwart_defense": "Stalwart Defense"          
         }
       },
       {
-        "Name": "Questing Knight",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "koe-the_quest": "The Quest",
-          "koe-bastard_sword": "Bastard Sword"
-        }
-      },
-      {
-        "Name": "Destrier",
+        "Name": "Man-at-Arms",
         "Values": {
           "At": "1",
-          "Of": "3",
+          "Of": "4",
           "St": "4",
-          "AP": "0",
+          "AP": "1",
           "Ag": "3"
         },
         "RuleIds": {
@@ -2545,84 +2435,65 @@
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "25",
-        "length": "50"
+        "width": "20",
+        "length": "20"
       }
     }
   },
   {
-    "Id": "68357f60790d8280c4b233cd",
-    "Name": "Knights Penitent",
+    "Id": "68357f61790d8280c4b234fd",
+    "Name": "Sacred Reliquary",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-exclusive": "Exclusive (Lowborn Levies, Men-at-Arms)",
       "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-unstable": "Unstable",
-      "rulebook-first_strike": "First Strike (Stubborn)",
-      "koe-lance_formation": "Lance Formation",
-      "rulebook-handandahalf": "Hand-and-a-Half",
-      "rulebook-great_weapon": "Great Weapon",
-      "koe-clergy": "Clergy",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "koe-sacred_relic": "Sacred Relic",
+      "rulebook-war_platform": "War Platform",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Knights Penitent",
+        "Name": "Sacred Reliquary",
         "Values": {
-          "Ad": "7",
-          "Ma": "7",
+          "Ad": "0",
+          "Ma": "4",
           "Di": "8",
-          "Hgt": "2"
+          "Hgt": "3"
         },
         "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-exclusive": "Exclusive (Lowborn Levies, Men-at-Arms)",
           "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-unstable": "Unstable",
-          "rulebook-first_strike": "First Strike (Stubborn)",
-          "koe-lance_formation": "Lance Formation"
+          "koe-sacred_relic": "Sacred Relic",
+          "rulebook-war_platform": "War Platform"          
         }
       },
       {
-        "Name": "Knights Penitent",
+        "Name": "Sacred Reliquary",
         "Values": {
-          "HP": "2",
+          "HP": "5",
           "Df": "4",
           "Re": "4",
           "Arm": "4",
           "Aeg": "6"
         },
         "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy"          
         }
       },
       {
-        "Name": "Penitent Knight",
+        "Name": "Sacred Reliquary",
         "Values": {
-          "At": "1",
+          "At": "4",
           "Of": "4",
           "St": "4",
           "AP": "1",
-          "Ag": "3",
-          "Agi": "0"
-        },
-        "RuleIds": {
-          "rulebook-handandahalf": "Hand-and-a-Half",
-          "rulebook-great_weapon": "Great Weapon"
-        }
-      },
-      {
-        "Name": "Draughthorse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "5",
-          "AP": "0",
           "Ag": "3"
         },
         "RuleIds": {
@@ -2632,8 +2503,8 @@
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "25",
-        "length": "50"
+        "width": "40",
+        "length": "60"
       }
     }
   },
@@ -2643,13 +2514,13 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
       "koe-lance_formation": "Lance Formation",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
-      "rulebook-lance": "Lance",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (6+)",
       "koe-nobility": "Nobility",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-shield": "Shield",      
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, +1 Off, +1 Agi)",
+      "rulebook-lance": "Lance"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2663,8 +2534,8 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation"
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -2677,9 +2548,9 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -2719,53 +2590,322 @@
     }
   },
   {
-    "Id": "68357f60790d8280c4b23457",
-    "Name": "Men-at-Arms",
+    "Id": "68357f60790d8280c4b233cd",
+    "Name": "Knights Penitent",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "koe-stalwart_defense": "Stalwart Defense",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-fearless": "Fearless",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unstable": "Unstable",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy",
+      "rulebook-shield": "Shield",      
+      "rulebook-first_strike": "First Strike (Stubborn)",
+      "rulebook-handandahalf": "Hand-and-a-Half",
+      "rulebook-great_weapon": "Great Weapon",
+      "rulebook-first_strike": "First Strike (+1 Str, +1 AP)"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Men-at-Arms",
+        "Name": "Knights Penitent",
         "Values": {
-          "Ad": "4",
-          "Ma": "4",
+          "Ad": "7",
+          "Ma": "7",
           "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Men-at-Arms",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "2",
-          "Aeg": "6"
+          "Hgt": "2"
         },
         "RuleIds": {
-          "koe-stalwart_defense": "Stalwart Defense",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-fearless": "Fearless",
+          "rulebook-first_strike": "First Strike (Stubborn)",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unstable": "Unstable"          
         }
       },
       {
-        "Name": "Man-at-Arms",
+        "Name": "Knights Penitent",
+        "Values": {
+          "HP": "2",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "4",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy",
+          "rulebook-shield": "Shield"          
+        }
+      },
+      {
+        "Name": "Penitent Knight",
         "Values": {
           "At": "1",
           "Of": "4",
           "St": "4",
           "AP": "1",
+          "Ag": "3",
+          "Agi": "0"
+        },
+        "RuleIds": {
+          "rulebook-handandahalf": "Hand-and-a-Half",
+          "rulebook-great_weapon": "Great Weapon"
+        }
+      },
+      {
+        "Name": "Draughthorse",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "0",
           "Ag": "3"
         },
         "RuleIds": {
+          "rulebook-first_strike": "First Strike (+1 Str, +1 AP)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f5f790d8280c4b2337f",
+    "Name": "Knights of the Quest",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "koe-lance_formation": "Lance Formation",
+      "rulebook-swiftstride": "Swiftstride",            
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-nobility": "Nobility",
+      "rulebook-shield": "Shield",
+      "koe-the_quest": "The Quest",
+      "koe-bastard_sword": "Bastard Sword"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Knights of the Quest",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-fearless": "Fearless",
+          "koe-lance_formation": "Lance Formation",
+          "rulebook-swiftstride": "Swiftstride"          
+        }
+      },
+      {
+        "Name": "Knights of the Quest",
+        "Values": {
+          "HP": "1",
+          "Df": "5",
+          "Re": "4",
+          "Arm": "4",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-nobility": "Nobility",
+          "rulebook-shield": "Shield"          
+        }
+      },
+      {
+        "Name": "Questing Knight",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "koe-the_quest": "The Quest",
+          "koe-bastard_sword": "Bastard Sword"
+        }
+      },
+      {
+        "Name": "Destrier",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f61790d8280c4b2352d",
+    "Name": "Yeoman Outriders",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-feigned_flight": "Feigned Flight",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-bow": "Bow (4+)",
+      "rulebook-light_lance": "Light Lance"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Yeoman Outriders",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-feigned_flight": "Feigned Flight",
+          "rulebook-light_troops": "Light Troops",          
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-vanguard": "Vanguard"
+        }
+      },
+      {
+        "Name": "Yeoman Outriders",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "2",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"          
+        }
+      },
+      {
+        "Name": "Yeoman Outrider",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-bow": "Bow (4+)",
+          "rulebook-light_lance": "Light Lance"          
+        }
+      },
+      {
+        "Name": "Rouncey",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+    {
+    "Id": "68357f5f790d8280c4b23375",
+    "Name": "Enlisted Outlaws",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-scout": "Scout",
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-unruly": "Unruly",      
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-commonfolk": "Commonfolk",
+      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-stand_and_shoot": "Stand and Shoot",      
+      "rulebook-long_bow": "Long Bow (3+)",
+      "rulebook-paired_weapons": "Paired Weapons"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Enlisted Outlaws",
+        "Values": {
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",          
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Enlisted Outlaws",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-commonfolk": "Commonfolk"          
+        }
+      },
+      {
+        "Name": "Enlisted Outlaw",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-quick_to_fire": "Quick to Fire",
+          "rulebook-stand_and_shoot": "Stand and Shoot",         
+          "rulebook-long_bow": "Long Bow (3+)",
+          "rulebook-paired_weapons": "Paired Weapons"          
         }
       }
     ],
@@ -2778,20 +2918,145 @@
     }
   },
   {
+    "Id": "68357f61790d8280c4b234fe",
+    "Name": "Siege Weapon",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "koe-scorpion": "Scorpion (4+)",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Siege Weapon",
+        "Values": {
+          "Ad": "0",
+          "Ma": "0",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "koe-scorpion": "Scorpion (4+)"
+        }
+      },
+      {
+        "Name": "Siege Weapon",
+        "Values": {
+          "HP": "5",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "0",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy"          
+        }
+      },
+      {
+        "Name": "Crew",
+        "Values": {
+          "At": "4",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357f61790d8280c4b234fe",
+    "Name": "Siege Weapon",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-emplacement": "Emplacement",
+      "koe-Trebuchet": "Trebuchet (4+)",
+      "rulebook-aegis": "Aegis (6+)",
+      "koe-clergy": "Clergy"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Siege Weapon",
+        "Values": {
+          "Ad": "0",
+          "Ma": "0",
+          "Di": "7",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-emplacement": "Emplacement",
+          "koe-trebuchet": "Trebuchet (4+)"
+        }
+      },
+      {
+        "Name": "Siege Weapon",
+        "Values": {
+          "HP": "5",
+          "Df": "1",
+          "Re": "4",
+          "Arm": "0",
+          "Aeg": "6"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
+          "koe-clergy": "Clergy" 
+        }
+      },
+      {
+        "Name": "Crew",
+        "Values": {
+          "At": "4",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "75",
+        "length": "75"
+      }
+    }
+  },
+  {
     "Id": "68357f60790d8280c4b234b1",
     "Name": "Pegasus Knights",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-fly": "Fly",
+      "koe-lance_formation": "Lance Formation",
       "rulebook-light_troops": "Light Troops",
       "rulebook-swiftstride": "Swiftstride",
-      "koe-lance_formation": "Lance Formation",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "rulebook-lance": "Lance",
       "koe-nobility": "Nobility",
       "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-aegis": "Aegis (6+)",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-lance": "Lance"
+
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2806,9 +3071,9 @@
         },
         "RuleIds": {
           "rulebook-fly": "Fly",
+          "koe-lance_formation": "Lance Formation",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-lance_formation": "Lance Formation"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -2821,9 +3086,9 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "koe-nobility": "Nobility",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -2862,152 +3127,24 @@
     }
   },
   {
-    "Id": "68357f61790d8280c4b234fd",
-    "Name": "Sacred Reliquary",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-war_platform": "War Platform",
-      "koe-sacred_relic": "Sacred Relic",
-      "rulebook-attached": "Attached",
-      "rulebook-exclusive": "Exclusive (Lowborn Levies, Men-at-Arms)",
-      "rulebook-fearless": "Fearless",
-      "koe-clergy": "Clergy",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Sacred Reliquary",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-war_platform": "War Platform",
-          "koe-sacred_relic": "Sacred Relic",
-          "rulebook-attached": "Attached",
-          "rulebook-exclusive": "Exclusive (Lowborn Levies, Men-at-Arms)",
-          "rulebook-fearless": "Fearless"
-        }
-      },
-      {
-        "Name": "Sacred Reliquary",
-        "Values": {
-          "HP": "5",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "4",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Sacred Reliquary",
-        "Values": {
-          "At": "4",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "60"
-      }
-    }
-  },
-  {
-    "Id": "68357f61790d8280c4b234fe",
-    "Name": "Siege Weapon",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-emplacement": "Emplacement",
-      "koe-scorpion": "\n    Scorpion\n       (4+)",
-      "koe-clergy": "Clergy",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Siege Weapon",
-        "Values": {
-          "Ad": "0",
-          "Ma": "0",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-emplacement": "Emplacement",
-          "koe-scorpion": "\n    Scorpion\n       (4+)"
-        }
-      },
-      {
-        "Name": "Siege Weapon",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-clergy": "Clergy",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Crew",
-        "Values": {
-          "At": "4",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "75"
-      }
-    }
-  },
-  {
     "Id": "68357f61790d8280c4b2350c",
     "Name": "Sky Heralds",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-fly": "Fly",
+      
       "rulebook-light_troops": "Light Troops",
       "rulebook-skirmisher": "Skirmisher",
-      "rulebook-vanguard": "Vanguard",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))",
-      "rulebook-light_lance": "Light Lance",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-aegis": "Aegis (6+)",
       "koe-commonfolk": "Commonfolk",
       "rulebook-hard_target": "Hard Target (1)",
       "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (6+)"
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att, Extra Support(3))",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+      "rulebook-light_lance": "Light Lance"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3024,8 +3161,8 @@
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
           "rulebook-skirmisher": "Skirmisher",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-vanguard": "Vanguard"          
         }
       },
       {
@@ -3038,10 +3175,10 @@
           "Aeg": "6"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (6+)",
           "koe-commonfolk": "Commonfolk",
           "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (6+)"
+          "rulebook-shield": "Shield"          
         }
       },
       {
@@ -3081,275 +3218,20 @@
     }
   },
   {
-    "Id": "68357f61790d8280c4b2352d",
-    "Name": "Yeoman Outriders",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_lance": "Light Lance",
-      "rulebook-bow": "Bow (4+)",
-      "koe-commonfolk": "Commonfolk",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Yeoman Outriders",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"
-        }
-      },
-      {
-        "Name": "Yeoman Outriders",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "2",
-          "Aeg": "6"
-        },
-        "RuleIds": {
-          "koe-commonfolk": "Commonfolk",
-          "rulebook-aegis": "Aegis (6+)"
-        }
-      },
-      {
-        "Name": "Yeoman Outrider",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-light_lance": "Light Lance",
-          "rulebook-bow": "Bow (4+)"
-        }
-      },
-      {
-        "Name": "Rouncey",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "68357f62790d8280c4b23559",
-    "Name": "Fey Knight",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-fearless": "Fearless",
-      "rulebook-ambush": "Ambush (Water Terrain or Forest)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "koe-champion_of_the_green_knight": "Champion of the Green Knight",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-shield": "Shield",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Fey Knight",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-supernal": "Supernal",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-fearless": "Fearless",
-          "rulebook-ambush": "Ambush (Water Terrain or Forest)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-champion_of_the_green_knight": "Champion of the Green Knight"
-        }
-      },
-      {
-        "Name": "Fey Knight",
-        "Values": {
-          "HP": "4",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "4",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield",
-          "rulebook-aegis": "Aegis (4+)"
-        }
-      },
-      {
-        "Name": "Fey Rider",
-        "Values": {
-          "At": "4",
-          "Of": "6",
-          "St": "5",
-          "AP": "3",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      },
-      {
-        "Name": "Fey Steed",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
-  },
-  {
-    "Id": "68357f62790d8280c4b23560",
-    "Name": "Friar's Lanterns",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-scout": "Scout",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-fearless": "Fearless",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-supernal": "Supernal",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-mindless": "Mindless",
-      "rulebook-unruly": "Unruly",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-afflict": "Afflict (Pursuit rolls are set to always 0\")",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Friar's Lanterns",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "4",
-          "Hgt": "0"
-        },
-        "RuleIds": {
-          "rulebook-scout": "Scout",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-supernal": "Supernal",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-mindless": "Mindless",
-          "rulebook-unruly": "Unruly",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-afflict": "Afflict (Pursuit rolls are set to always 0\")"
-        }
-      },
-      {
-        "Name": "Friar's Lanterns",
-        "Values": {
-          "HP": "5",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-aegis": "Aegis (5+)"
-        }
-      },
-      {
-        "Name": "Friar's Lanterns",
-        "Values": {
-          "At": "6",
-          "Of": "2",
-          "St": "2",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
-  },
-  {
     "Id": "68357f62790d8280c4b23565",
     "Name": "Naiads",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "rulebook-scout": "Scout",
-      "rulebook-strider": "Strider (Water Terrain)",
       "rulebook-ambush": "Ambush (Water Terrain)",
+      "rulebook-fearless": "Fearless",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-scout": "Scout",
+      "rulebook-strider": "Strider (Water Terrain)",      
       "rulebook-supernal": "Supernal",
+      "rulebook-aegis": "Aegis (5+)",
       "rulebook-grind_attack": "Grind Attack (2)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-magical_attacks": "Magical Attacks"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3363,11 +3245,11 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-scout": "Scout",
-          "rulebook-strider": "Strider (Water Terrain)",
           "rulebook-ambush": "Ambush (Water Terrain)",
+          "rulebook-fearless": "Fearless",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",
+          "rulebook-strider": "Strider (Water Terrain)",          
           "rulebook-supernal": "Supernal"
         }
       },
@@ -3408,20 +3290,104 @@
     }
   },
   {
+    "Id": "68357f62790d8280c4b23560",
+    "Name": "Friar's Lanterns",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-afflict": "Afflict (-1 Agi)",
+      "rulebook-ambush":"Ambush (Forest, Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-insignificant": "Insignificant",
+      "koe-flickering_lights": "Flickering Lights",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-scout": "Scout",
+      "rulebook-skirmisher": "Skirmisher",
+      "rulebook-supernal": "Supernal",
+      "rulebook-unruly": "Unruly",
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-distracting": "Distracting (1)",
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-magical_attacks": "Magical Attacks"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Friar's Lanterns",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "4",
+          "Hgt": "0"
+        },
+        "RuleIds": {
+          "rulebook-afflict": "Afflict (-1 Agi)",
+          "rulebook-ambush":"Ambush (Forest, Water Terrain)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-insignificant": "Insignificant",
+          "koe-flickering_lights": "Flickering Lights",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-scout": "Scout",
+          "rulebook-skirmisher": "Skirmisher",
+          "rulebook-supernal": "Supernal",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Friar's Lanterns",
+        "Values": {
+          "HP": "5",
+          "Df": "2",
+          "Re": "2",
+          "Arm": "0",
+          "Aeg": "5"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "rulebook-distracting": "Distracting (1)",
+          "rulebook-hard_target": "Hard Target (1)"          
+        }
+      },
+      {
+        "Name": "Friar's Lanterns",
+        "Values": {
+          "At": "6",
+          "Of": "2",
+          "St": "2",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "68357f62790d8280c4b2356a",
     "Name": "The Lady's Courtier",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
       "koe-courtier_of_the_dawn": "Courtier of the Dawn",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",      
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (4+)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-aegis": "Aegis (4+)"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3435,12 +3401,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-supernal": "Supernal",
+          "koe-courtier_of_the_dawn": "Courtier of the Dawn",
           "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "koe-courtier_of_the_dawn": "Courtier of the Dawn"
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",          
+          "rulebook-swiftstride": "Swiftstride"         
         }
       },
       {
@@ -3476,6 +3442,95 @@
       "Size": {
         "width": "50",
         "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "68357f62790d8280c4b23559",
+    "Name": "Fey Knight",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-ambush": "Ambush (Forest, Water Terrain)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",      
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (4+)",
+      "rulebook-shield": "Shield",      
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "koe-warden_of_the_hooded_man": "Warden of the Hooded Man"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Fey Knight",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "8",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-ambush": "Ambush (Forest, Water Terrain)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",      
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Fey Knight",
+        "Values": {
+          "HP": "4",
+          "Df": "6",
+          "Re": "4",
+          "Arm": "4",
+          "Aeg": "4"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield",
+          "rulebook-aegis": "Aegis (4+)"
+        }
+      },
+      {
+        "Name": "Fey Rider",
+        "Values": {
+          "At": "4",
+          "Of": "6",
+          "St": "5",
+          "AP": "3",
+          "Ag": "6"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks",
+          "koe-warden_of_the_hooded_man": "Warden of the Hooded Man"
+        }
+      },
+      {
+        "Name": "Fey Steed",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {          
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
       }
     }
   }

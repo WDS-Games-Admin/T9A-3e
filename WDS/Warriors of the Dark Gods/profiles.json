@@ -5,16 +5,15 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-courageous": "Courageous",
       "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "wdg-manifestation": "Manifestation",
       "rulebook-light_troops": "Light Troops",
+      "wdg-manifestation": "Manifestation",
       "rulebook-solitary": "Solitary",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-supernal": "Supernal",
+      "rulebook-wizard_adept": "Wizard Adept",      
+      "rulebook-aegis": "Aegis (4+)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -28,13 +27,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-courageous": "Courageous",
           "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-wizard_adept": "Wizard Adept",
-          "wdg-manifestation": "Manifestation",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary"
+          "wdg-manifestation": "Manifestation",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
@@ -59,8 +57,8 @@
           "Ag": "8"
         },
         "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"          
         }
       }
     ],
@@ -73,75 +71,69 @@
     }
   },
   {
-    "Id": "68357f9b790d8280c4b27576",
-    "Name": "Feldrak Ancestor",
+    "Id": "68357f9b790d8280c4b275a3",
+    "Name": "Chosen Lord",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "wdg-primal_legend": "Primal Legend",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-hatred": "Hatred ( against Fly)",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-      "wdg-dying_embers": "Dying Embers",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)"
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fearless": "Fearless",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-light_troops": "Light Troops",      
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Feldrak Ancestor",
+        "Name": "Chosen Lord",
         "Values": {
-          "Ad": "8",
-          "Ma": "8",
+          "Ad": "5",
+          "Ma": "5",
           "Di": "9",
-          "Hgt": "5"
+          "Hgt": "1"
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-primal_legend": "Primal Legend",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary"
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fearless": "Fearless",
+          "wdg-gluttony": "Gluttony",
+          "rulebook-light_troops": "Light Troops"          
         }
       },
       {
-        "Name": "Feldrak Ancestor",
+        "Name": "Chosen Lord",
         "Values": {
-          "HP": "8",
-          "Df": "6",
-          "Re": "6",
-          "Arm": "4"
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "3"
         },
         "RuleIds": {
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
         }
       },
       {
-        "Name": "Feldrak Ancestor",
+        "Name": "Chosen Lord",
         "Values": {
-          "At": "6",
-          "Of": "6",
-          "St": "7",
-          "AP": "4",
-          "Ag": "3"
+          "At": "5",
+          "Of": "8",
+          "St": "5",
+          "AP": "2",
+          "Ag": "7"
         },
         "RuleIds": {
-          "rulebook-hatred": "Hatred ( against Fly)",
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-          "wdg-dying_embers": "Dying Embers",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "75",
-        "length": "100"
+        "width": "25",
+        "length": "25"
       }
     }
   },
@@ -156,19 +148,19 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
       "wdg-gluttony": "Gluttony",
-      "rulebook-grind_attack": "Grind Attack (2D3+1)",
-      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)",
-      "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-magic_resistance": "Magic Resistance (1)"
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-shield": "Shield",
+      "rulebook-grind_attack": "Grind Attack (2D3+1)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -186,10 +178,10 @@
           "rulebook-fearless": "Fearless",
           "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
           "rulebook-fly": "Fly",
+          "wdg-gluttony": "Gluttony",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-solitary": "Solitary",
-          "wdg-gluttony": "Gluttony"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -201,10 +193,10 @@
           "Arm": "4"
         },
         "RuleIds": {
-          "wdg-hellforged_armour": "Hell-Forged Armour",
-          "rulebook-shield": "Shield",
           "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-magic_resistance": "Magic Resistance (1)"
+          "wdg-hellforged_armour": "Hell-Forged Armour",          
+          "rulebook-magic_resistance": "Magic Resistance (1)",
+          "rulebook-shield": "Shield"
         }
       },
       {
@@ -241,15 +233,15 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-gluttony": "Gluttony", 
       "rulebook-light_troops": "Light Troops",
-      "wdg-gluttony": "Gluttony",
-      "rulebook-impact_hits": "Impact Hits (1)",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-swiftstride": "Swiftstride",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -264,11 +256,11 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
           "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-gluttony": "Gluttony", 
           "rulebook-light_troops": "Light Troops",
-          "wdg-gluttony": "Gluttony"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -308,77 +300,6 @@
     }
   },
   {
-    "Id": "4395268f-eea8-4e3b-898f-cb91c3cca865",
-    "Name": "War Dais",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "380"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-      "rulebook-light_troops": "Light Troops",
-      "wdg-gluttony": "Gluttony",
-      "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "War Dais",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-          "rulebook-light_troops": "Light Troops",
-          "wdg-gluttony": "Gluttony"
-        }
-      },
-      {
-        "Name": "War Dais",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "6"
-        },
-        "RuleIds": {
-          "wdg-hellforged_armour": "Hell-Forged Armour",
-          "rulebook-shield": "Shield"
-        }
-      },
-      {
-        "Name": "War Dais",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
-  },
-  {
     "Id": "b4477cd4-f7a9-432a-95a1-7406cdad974f",
     "Name": "Black Steed",
     "Attributes": {
@@ -389,11 +310,11 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-fearless": "Fearless",
       "wdg-gluttony": "Gluttony",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
       "rulebook-shield": "Shield"
     },
@@ -410,11 +331,11 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
           "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-gluttony": "Gluttony",
           "rulebook-light_troops": "Light Troops",
-          "wdg-gluttony": "Gluttony"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -462,15 +383,15 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-gluttony": "Gluttony",
       "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
-      "wdg-gluttony": "Gluttony",
-      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-swiftstride": "Swiftstride",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -485,12 +406,12 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
           "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",          
+          "wdg-gluttony": "Gluttony",
           "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
-          "wdg-gluttony": "Gluttony"
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -541,6 +462,77 @@
     }
   },
   {
+    "Id": "4395268f-eea8-4e3b-898f-cb91c3cca865",
+    "Name": "War Dais",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "380"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-courageous": "Courageous",
+      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fearless": "Fearless",
+      "wdg-gluttony": "Gluttony",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "War Dais",
+        "Values": {
+          "Ad": "5",
+          "Ma": "5",
+          "Di": "9",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-courageous": "Courageous",
+          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fearless": "Fearless",
+          "wdg-gluttony": "Gluttony",
+          "rulebook-light_troops": "Light Troops"          
+        }
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "HP": "4",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "6"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "War Dais",
+        "Values": {
+          "At": "4",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "3f9699b9-7b53-4f6d-b5fa-5d04616e732f",
     "Name": "Chimera",
     "Attributes": {
@@ -551,15 +543,15 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-fearless": "Fearless",
       "wdg-gluttony": "Gluttony",
-      "rulebook-stomp_attack": "Stomp Attack (D3)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -574,12 +566,12 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
           "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",          
+          "wdg-gluttony": "Gluttony",
           "rulebook-light_troops": "Light Troops",
-          "wdg-gluttony": "Gluttony"
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -628,19 +620,19 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+      "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "wdg-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
-      "rulebook-light_troops": "Light Troops",
       "wdg-gluttony": "Gluttony",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "rulebook-light_troops": "Light Troops",
+      "wdg-meeting_of_minds": "Meeting of Minds",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -655,15 +647,15 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
           "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
+          "rulebook-fearless": "Fearless",  
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "wdg-meeting_of_minds": "Meeting of Minds",
-          "rulebook-terror": "Terror",
+          "wdg-gluttony": "Gluttony",
           "rulebook-light_troops": "Light Troops",
-          "wdg-gluttony": "Gluttony"
+          "wdg-meeting_of_minds": "Meeting of Minds",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"          
         }
       },
       {
@@ -689,8 +681,8 @@
           "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"          
         }
       }
     ],
@@ -703,45 +695,46 @@
     }
   },
   {
-    "Id": "68357f9b790d8280c4b275a3",
-    "Name": "Chosen Lord",
+    "Id": "68357f9c790d8280c4b27963",
+    "Name": "Doomlord",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
       "rulebook-fearless": "Fearless",
-      "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
       "rulebook-light_troops": "Light Troops",
-      "wdg-gluttony": "Gluttony",
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-handandahalf": "Hand-and-a-Half"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Chosen Lord",
+        "Name": "Doomlord",
         "Values": {
-          "Ad": "5",
-          "Ma": "5",
+          "Ad": "6",
+          "Ma": "6",
           "Di": "9",
-          "Hgt": "1"
+          "Hgt": "3"
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
           "rulebook-fearless": "Fearless",
-          "rulebook-exclusive": "Exclusive (Path of the Favoured, Human)",
-          "rulebook-light_troops": "Light Troops",
-          "wdg-gluttony": "Gluttony"
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
-        "Name": "Chosen Lord",
+        "Name": "Doomlord",
         "Values": {
-          "HP": "3",
-          "Df": "7",
+          "HP": "4",
+          "Df": "6",
           "Re": "5",
-          "Arm": "3"
+          "Arm": "4"
         },
         "RuleIds": {
           "wdg-hellforged_armour": "Hell-Forged Armour",
@@ -749,23 +742,24 @@
         }
       },
       {
-        "Name": "Chosen Lord",
+        "Name": "Doomlord",
         "Values": {
           "At": "5",
-          "Of": "8",
+          "Of": "7",
           "St": "5",
           "AP": "2",
-          "Ag": "7"
+          "Ag": "5"
         },
         "RuleIds": {
+          "rulebook-handandahalf": "Hand-and-a-Half"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "25",
-        "length": "25"
+        "width": "40",
+        "length": "40"
       }
     }
   },
@@ -780,16 +774,16 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "rulebook-dying_blow": "Dying Blow",
       "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -849,71 +843,62 @@
     }
   },
   {
-    "Id": "68357f9c790d8280c4b27963",
-    "Name": "Doomlord",
+    "Id": "68357f9c790d8280c4b27a1f",
+    "Name": "Sorcerer",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-handandahalf": "Hand-and-a-Half",
-      "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "wdg-veil_walker": "Veil Walker",      
+      "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Doomlord",
+        "Name": "Sorcerer",
         "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "9",
-          "Hgt": "3"
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "8",
+          "Hgt": "1"
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "wdg-veil_walker": "Veil Walker",          
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
-        "Name": "Doomlord",
+        "Name": "Sorcerer",
         "Values": {
-          "HP": "4",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "4"
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
         },
-        "RuleIds": {
-          "wdg-hellforged_armour": "Hell-Forged Armour",
-          "rulebook-shield": "Shield"
-        }
+        "RuleIds": {}
       },
       {
-        "Name": "Doomlord",
+        "Name": "Sorcerer",
         "Values": {
-          "At": "5",
-          "Of": "7",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
+          "At": "2",
+          "Of": "4",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-handandahalf": "Hand-and-a-Half"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "40",
-        "length": "40"
+        "width": "25",
+        "length": "25"
       }
     }
   },
@@ -928,8 +913,8 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
       "rulebook-light_troops": "Light Troops",
+      "wdg-veil_walker": "Veil Walker",      
       "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
@@ -945,8 +930,8 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
           "rulebook-light_troops": "Light Troops",
+          "wdg-veil_walker": "Veil Walker",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -992,9 +977,9 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride",
+      "wdg-veil_walker": "Veil Walker",      
       "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
@@ -1010,9 +995,9 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-veil_walker": "Veil Walker", 
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1048,85 +1033,6 @@
     }
   },
   {
-    "Id": "8551a633-d7b3-46b6-919e-8ca633e413b8",
-    "Name": "Scythed Skywheel",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "340"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-grind_attack": "Grind Attack (2D3+1)",
-      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-magic_resistance": "Magic Resistance (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Scythed Skywheel",
-        "Values": {
-          "Ad": "6",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
-      },
-      {
-        "Name": "Scythed Skywheel",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-magic_resistance": "Magic Resistance (1)"
-        }
-      },
-      {
-        "Name": "Scythed Skywheel",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "4",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (2D3+1)",
-          "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
-  },
-  {
     "Id": "ce4015d3-b7c2-454a-ab96-950633aabbe7",
     "Name": "Black Steed (2)",
     "Attributes": {
@@ -1138,9 +1044,9 @@
     "RuleIds": {
       "rulebook-courageous": "Courageous",
       "wdg-veil_walker": "Veil Walker",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-impact_hits": "Impact Hits (D6+1)"
     },
@@ -1157,10 +1063,10 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-veil_walker": "Veil Walker",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1209,6 +1115,85 @@
     }
   },
   {
+    "Id": "8551a633-d7b3-46b6-919e-8ca633e413b8",
+    "Name": "Scythed Skywheel",
+    "Attributes": {
+      "type": "",
+      "height": "Standard",
+      "totalcost": "340"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-courageous": "Courageous",
+      "wdg-veil_walker": "Veil Walker",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",      
+      "rulebook-wizard_adept": "Wizard Adept",      
+      "rulebook-hard_target": "Hard Target (1)",
+      "rulebook-magic_resistance": "Magic Resistance (1)",
+      "rulebook-grind_attack": "Grind Attack (2D3+1)",
+      "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "Ad": "6",
+          "Ma": "9",
+          "Di": "8",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-courageous": "Courageous",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",          
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-wizard_adept": "Wizard Adept"
+        }
+      },
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)",
+          "rulebook-magic_resistance": "Magic Resistance (1)"
+        }
+      },
+      {
+        "Name": "Scythed Skywheel",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "4",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-grind_attack": "Grind Attack (2D3+1)",
+          "rulebook-sweeping_attack": "Sweeping Attack (2D3+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "ae7701de-e2e3-4306-a3fc-c71f82beecd6",
     "Name": "Wretched One (2)",
     "Attributes": {
@@ -1218,14 +1203,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
-      "rulebook-solitary": "Solitary",
       "wdg-beacon_of_the_dark_gods": "Beacon of the Dark Gods",
+      "rulebook-courageous": "Courageous",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "wdg-veil_walker": "Veil Walker",
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-grind_attack": "Grind Attack (D6+1)",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-grind_attack": "Grind Attack (D6+1)"     
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1239,11 +1224,11 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
-          "rulebook-solitary": "Solitary",
           "wdg-beacon_of_the_dark_gods": "Beacon of the Dark Gods",
+          "rulebook-courageous": "Courageous",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "wdg-veil_walker": "Veil Walker",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1292,11 +1277,11 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
+      "wdg-veil_walker": "Veil Walker",
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
@@ -1313,12 +1298,13 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",      
+          "wdg-veil_walker": "Veil Walker",
+          "rulebook-wizard_adept": "Wizard Adept",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
       },
       {
@@ -1364,16 +1350,16 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "wdg-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
       "rulebook-light_troops": "Light Troops",
+      "wdg-meeting_of_minds": "Meeting of Minds",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "wdg-veil_walker": "Veil Walker",      
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1388,13 +1374,13 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "wdg-meeting_of_minds": "Meeting of Minds",
-          "rulebook-terror": "Terror",
           "rulebook-light_troops": "Light Troops",
+          "wdg-meeting_of_minds": "Meeting of Minds",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "wdg-veil_walker": "Veil Walker",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1418,8 +1404,8 @@
           "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)"
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"          
         }
       }
     ],
@@ -1432,21 +1418,20 @@
     }
   },
   {
-    "Id": "68357f9c790d8280c4b27a1f",
-    "Name": "Sorcerer",
+    "Id": "68357f9d790d8280c4b27ce2",
+    "Name": "Barbarian Chief",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "wdg-veil_walker": "Veil Walker",
+      "rulebook-courageous": "Courageous",      
       "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept"
+      "wdg-deeds_not_words": "Deeds not Words"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Sorcerer",
+        "Name": "Barbarian Chief",
         "Values": {
           "Ad": "4",
           "Ma": "4",
@@ -1455,31 +1440,30 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "wdg-veil_walker": "Veil Walker",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
-        "Name": "Sorcerer",
+        "Name": "Barbarian Chief",
         "Values": {
           "HP": "3",
-          "Df": "4",
+          "Df": "5",
           "Re": "4",
-          "Arm": "3"
+          "Arm": "1"
         },
         "RuleIds": {}
       },
       {
-        "Name": "Sorcerer",
+        "Name": "Barbarian Chief",
         "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "5"
         },
         "RuleIds": {
+          "wdg-deeds_not_words": "Deeds not Words"
         }
       }
     ],
@@ -1562,8 +1546,8 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-swiftstride": "Swiftstride"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1578,8 +1562,8 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -1625,9 +1609,9 @@
     "RuleIds": {
       "rulebook-courageous": "Courageous",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider",
-      "rulebook-vanguard": "Vanguard (3\")",
-      "rulebook-swiftstride": "Swiftstride"
+      "rulebook-strider": "Strider",      
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-vanguard": "Vanguard (3 Mob)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1644,7 +1628,7 @@
           "rulebook-courageous": "Courageous",
           "rulebook-light_troops": "Light Troops",
           "rulebook-strider": "Strider",
-          "rulebook-vanguard": "Vanguard (3\")",
+          "rulebook-vanguard": "Vanguard (3 Mob)",
           "rulebook-swiftstride": "Swiftstride"
         }
       },
@@ -1689,10 +1673,10 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-courageous": "Courageous",      
       "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-impact_hits": "Impact Hits (D6+1)"
     },
     "EquipmentIds": [],
@@ -1708,9 +1692,9 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary"
+          "rulebook-light_troops": "Light Troops",                    
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -1768,9 +1752,9 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-stomp_attack": "Stomp Attack (D3)"
     },
     "EquipmentIds": [],
@@ -1786,9 +1770,9 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -1834,10 +1818,10 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
       "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
     "EquipmentIds": [],
@@ -1853,10 +1837,10 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"          
         }
       },
       {
@@ -1892,66 +1876,81 @@
     }
   },
   {
-    "Id": "68357f9d790d8280c4b27ce2",
-    "Name": "Barbarian Chief",
+    "Id": "68357f9b790d8280c4b27576",
+    "Name": "Feldrak Ancestor",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-light_troops": "Light Troops",
-      "wdg-deeds_not_words": "Deeds not Words"
+      "wdg-primal_legend": "Primal Legend",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
+      "rulebook-resistance": "Resistance (Flaming Attacks)",      
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+      "wdg-dying_embers": "Dying Embers",
+      "rulebook-hatred": "Hatred (against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Barbarian Chief",
+        "Name": "Feldrak Ancestor",
         "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-light_troops": "Light Troops"
+          "wdg-primal_legend": "Primal Legend",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"          
         }
       },
       {
-        "Name": "Barbarian Chief",
+        "Name": "Feldrak Ancestor",
         "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Barbarian Chief",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
+          "HP": "8",
+          "Df": "6",
+          "Re": "6",
+          "Arm": "4"
         },
         "RuleIds": {
-          "wdg-deeds_not_words": "Deeds not Words"
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Feldrak Ancestor",
+        "Values": {
+          "At": "6",
+          "Of": "6",
+          "St": "7",
+          "AP": "4",
+          "Ag": "3"
+        },
+        "RuleIds": {          
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
+          "wdg-dying_embers": "Dying Embers",
+          "rulebook-hatred": "Hatred (against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "25",
-        "length": "25"
+        "width": "75",
+        "length": "100"
       }
     }
   },
   {
     "Id": "b2d8a6f1c9e7a4f3b5c2d7e9",
-    "Name": "Klaas, the Giving",
+    "Name": "Joulgrim, the Giving",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -1974,12 +1973,12 @@
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Klaas, the Giving",
+        "Name": "Joulgrim, the Giving",
         "Values": {
           "Ad": "10",
           "Ma": "5",
           "Di": "9",
-          "Hgt": "4"
+          "Hgt": "4"  
         },
         "RuleIds": {
           "rulebook-disciplined": "Disciplined",
@@ -1995,7 +1994,7 @@
         }
       },  
       {
-        "Name": "Klaas, the Giving",
+        "Name": "Joulgrim, the Giving",
         "Values": {
           "HP": "6",
           "Df": "8",
@@ -2007,7 +2006,7 @@
         }
       },
       {
-        "Name": "Klaas, the Giving",
+        "Name": "Joulgrim, the Giving",
         "Values": {
           "At": "6",
           "Of": "9",
@@ -2021,7 +2020,7 @@
         }
       },
       {
-        "Name": "Rupert and Co (2)",
+        "Name": "Hellsteed (2)",
         "Values": {
           "At": "1",
           "Of": "3",
@@ -2057,7 +2056,7 @@
   },
   {
     "Id": "f5b2d7a4e9f0c6a1d3b8f2a7d",
-    "Name": "Ook, the Ape King",
+    "Name": "Mraven, the Chimerical",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -2076,7 +2075,7 @@
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Ook, the Ape King",
+        "Name": "Mraven, the Chimerical",
         "Values": {
           "Ad": "6",
           "Ma": "6",
@@ -2093,7 +2092,7 @@
         }
       },
       {
-        "Name": "Ook, the Ape King",
+        "Name": "Mraven, the Chimerical",
         "Values": {
           "HP": "8",
           "Df": "6",
@@ -2105,7 +2104,7 @@
         }
       },
       {
-        "Name": "Ook, the Ape King",
+        "Name": "Mraven",
         "Values": {
           "At": "5",
           "Of": "7",
@@ -2123,8 +2122,8 @@
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "50",
-        "length": "100"
+        "width": "40",
+        "length": "40"
       }
     }
   },
@@ -2196,11 +2195,12 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-fearless": "Fearless",
       "rulebook-dying_blow": "Dying Blow",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "wdg-hellforged_armour": "Hell-Forged Armour"
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",      
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-paired_weapons": "Paired Weapons"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2215,9 +2215,9 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-dying_blow": "Dying Blow",
           "rulebook-fearless": "Fearless",
-          "rulebook-dying_blow": "Dying Blow"
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
@@ -2261,6 +2261,7 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
+      "rulebook-shield":"Shield"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2285,7 +2286,9 @@
           "Re": "3",
           "Arm": "1"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "rulebook-shield":"Shield"
+        }
       },
       {
         "Name": "Barbarian",
@@ -2296,8 +2299,7 @@
           "AP": "1",
           "Ag": "3"
         },
-        "RuleIds": {
-        }
+        "RuleIds": {}
       }
     ],
     "Base": {
@@ -2380,14 +2382,76 @@
     }
   },
   {
+    "Id": "68357fa1790d8280c4b28233",
+    "Name": "Warhounds",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-insignificant": "Insignificant",
+      "wdg-release_the_hounds": "Release the Hounds",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",     
+      "rulebook-unruly": "Unruly"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Warhounds",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "5",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "rulebook-insignificant": "Insignificant",
+          "wdg-release_the_hounds": "Release the Hounds",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"
+        }
+      },
+      {
+        "Name": "Warhounds",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Warhound",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "68357f9f790d8280c4b280c6",
     "Name": "Warrior Knights",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",
       "wdg-hellforged_armour": "Hell-Forged Armour",
       "rulebook-shield": "Shield"
     },
@@ -2403,9 +2467,9 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-fearless": "Fearless"
+          "rulebook-courageous": "Courageous",          
+          "rulebook-fearless": "Fearless",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -2460,13 +2524,13 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-courageous": "Courageous",      
       "rulebook-fearless": "Fearless",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-halberd": "Halberd",
+      "rulebook-swiftstride": "Swiftstride",      
+      "wdg-hellforged_armour": "Hell-Forged Armour",
       "rulebook-impact_hits": "Impact Hits (D6+1)",
-      "wdg-hellforged_armour": "Hell-Forged Armour"
+      "rulebook-halberd": "Halberd"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2480,10 +2544,10 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-courageous": "Courageous",          
           "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride"
         }
       },
       {
@@ -2552,11 +2616,11 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
       "wdg-envy": "Envy",
-      "rulebook-extra_support": "Extra Support (3)",
+      "rulebook-fearless": "Fearless",      
       "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-extra_support": "Extra Support (3)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2571,8 +2635,8 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-fearless": "Fearless",
-          "wdg-envy": "Envy"
+          "wdg-envy": "Envy",
+          "rulebook-fearless": "Fearless"           
         }
       },
       {
@@ -2617,13 +2681,13 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
       "wdg-envy": "Envy",
-      "rulebook-halberd": "Halberd",
+      "rulebook-fearless": "Fearless",
+      "rulebook-swiftstride": "Swiftstride",      
+      "wdg-hellforged_armour": "Hell-Forged Armour",
       "rulebook-impact_hits": "Impact Hits (1)",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "wdg-hellforged_armour": "Hell-Forged Armour"
+      "rulebook-stomp_attack": "Stomp Attack (1)",      
+      "rulebook-halberd": "Halberd"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2638,9 +2702,10 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
+          "wdg-envy": "Envy",
           "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "wdg-envy": "Envy"
+          "rulebook-swiftstride": "Swiftstride"
+          
         }
       },
       {
@@ -2720,11 +2785,11 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
+          "wdg-envy": "Envy",
           "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-light_troops": "Light Troops",          
           "rulebook-solitary": "Solitary",
-          "wdg-envy": "Envy"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -2787,69 +2852,64 @@
     }
   },
   {
-    "Id": "68357fa0790d8280c4b281cb",
-    "Name": "Forsworn",
+    "Id": "68357fa1790d8280c4b28236",
+    "Name": "Chimera",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "rulebook-bodyguard": "Bodyguard (Doomlord)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-handandahalf": "Hand-and-a-Half",
-      "wdg-hellforged_armour": "Hell-Forged Armour",
-      "rulebook-shield": "Shield"
+    "RuleIds": {      
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-unruly": "Unruly",      
+      "rulebook-stomp_attack": "Stomp Attack (D3)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Forsworn",
+        "Name": "Chimera",
         "Values": {
-          "Ad": "6",
-          "Ma": "6",
+          "Ad": "8",
+          "Ma": "10",
           "Di": "8",
-          "Hgt": "3"
+          "Hgt": "4"
         },
-        "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "rulebook-bodyguard": "Bodyguard (Doomlord)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-dying_blow": "Dying Blow"
+        "RuleIds": {          
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-unruly": "Unruly"          
         }
       },
       {
-        "Name": "Forsworn",
+        "Name": "Chimera",
         "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
+          "HP": "5",
+          "Df": "3",
+          "Re": "5",
           "Arm": "4"
         },
-        "RuleIds": {
-          "wdg-hellforged_armour": "Hell-Forged Armour",
-          "rulebook-shield": "Shield"
-        }
+        "RuleIds": {}
       },
       {
-        "Name": "Forsworn",
+        "Name": "Chimera",
         "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
+          "At": "5",
+          "Of": "4",  
+          "St": "5",
+          "AP": "2",
           "Ag": "4"
         },
         "RuleIds": {
-          "rulebook-handandahalf": "Hand-and-a-Half"
+          "rulebook-stomp_attack": "Stomp Attack (D3)"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "40",
-        "length": "40"
+        "width": "50",
+        "length": "100"
       }
     }
   },
@@ -2859,16 +2919,16 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "rulebook-random_movement": "Random Movement (3D6\")",
       "rulebook-dying_blow": "Dying Blow",
-      "rulebook-solitary": "Solitary",
+      "rulebook-fearless": "Fearless",
       "rulebook-mindless": "Mindless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-solitary": "Solitary",      
       "rulebook-stubborn": "Stubborn",
       "rulebook-unstable": "Unstable",
       "wdg-writhing_mass": "Writhing Mass",
-      "rulebook-grind_attack": "Grind Attack (D6+1)",
-      "rulebook-regeneration": "Regeneration (5+)"
+      "rulebook-regeneration": "Regeneration (5+)",
+      "rulebook-grind_attack": "Grind Attack (D6+1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2882,14 +2942,16 @@
           "Hgt": "3"
         },
         "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-random_movement": "Random Movement (3D6\")",
           "rulebook-dying_blow": "Dying Blow",
-          "rulebook-solitary": "Solitary",
+          "rulebook-fearless": "Fearless",
           "rulebook-mindless": "Mindless",
+          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-solitary": "Solitary",      
           "rulebook-stubborn": "Stubborn",
           "rulebook-unstable": "Unstable",
-          "wdg-writhing_mass": "Writhing Mass"
+          "wdg-writhing_mass": "Writhing Mass",
+          "rulebook-regeneration": "Regeneration (5+)",
+          "rulebook-grind_attack": "Grind Attack (D6+1)" 
         }
       },
       {
@@ -2927,18 +2989,150 @@
     }
   },
   {
+    "Id": "68357fa0790d8280c4b281cb",
+    "Name": "Forsworn",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-bodyguard": "Bodyguard (Doomlord)",
+      "rulebook-courageous": "Courageous",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-fearless": "Fearless",      
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Forsworn",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "8",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-courageous": "Courageous",
+          "rulebook-bodyguard": "Bodyguard (Doomlord)",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-fearless": "Fearless"
+        }
+      },
+      {
+        "Name": "Forsworn",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Forsworn",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {}
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357fa1790d8280c4b2823a",
+    "Name": "Feldraks",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-courageous": "Courageous",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-hatred": "Hatred (against Fly)",
+      "rulebook-stomp_attack": "Stomp Attack (1)",
+      "rulebook-halberd": "Halberd"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feldraks",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "rulebook-courageous": "Courageous",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride"          
+        }
+      },
+      {
+        "Name": "Feldraks",
+        "Values": {
+          "HP": "3",
+          "Df": "4",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Feldrak",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hatred": "Hatred ( against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "rulebook-halberd": "Halberd"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
     "Id": "68357fa0790d8280c4b28213",
     "Name": "Battleshrine",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
+      "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
       "wdg-veil_walker": "Veil Walker",
       "rulebook-wizard_conclave": "Wizard Conclave (2)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-grind_attack": "Grind Attack (D6+1)",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-grind_attack": "Grind Attack (D6+1)"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2953,10 +3147,10 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
           "wdg-veil_walker": "Veil Walker",
-          "rulebook-wizard_conclave": "Wizard Conclave (2)",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-wizard_conclave": "Wizard Conclave (2)"          
         }
       },
       {
@@ -3012,11 +3206,11 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-courageous": "Courageous",
+      "rulebook-feigned_flight": "Feigned Flight",
       "rulebook-light_troops": "Light Troops",
       "rulebook-strider": "Strider",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-vanguard": "Vanguard (3\")",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-vanguard": "Vanguard (3 Mob)",
       "rulebook-shield": "Shield"
     },
     "EquipmentIds": [],
@@ -3032,11 +3226,11 @@
         },
         "RuleIds": {
           "rulebook-courageous": "Courageous",
+          "rulebook-feigned_flight": "Feigned Flight",
           "rulebook-light_troops": "Light Troops",
           "rulebook-strider": "Strider",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-vanguard": "Vanguard (3\")",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-vanguard": "Vanguard (3 Mob)"          
         }
       },
       {
@@ -3085,326 +3279,70 @@
     }
   },
   {
-    "Id": "68357fa1790d8280c4b28233",
-    "Name": "Warhounds",
+    "Id": "68357fa2790d8280c4b28289",
+    "Name": "Hellmaw",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-fearless": "Fearless",
+      "wdg-gateway": "Gateway",
       "rulebook-solitary": "Solitary",
-      "rulebook-unruly": "Unruly",
-      "wdg-release_the_hounds": "Release the Hounds"
+      "rulebook-supernal": "Supernal",
+      "rulebook-terror": "Terror",
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-magical_attacks": "Magical Attacks"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Warhounds",
+        "Name": "Hellmaw",
         "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "5",
-          "Hgt": "1"
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "7",
+          "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-fearless": "Fearless",
+          "wdg-gateway": "Gateway",
           "rulebook-solitary": "Solitary",
-          "rulebook-unruly": "Unruly",
-          "wdg-release_the_hounds": "Release the Hounds"
+          "rulebook-supernal": "Supernal",          
+          "rulebook-terror": "Terror"
+          
         }
       },
       {
-        "Name": "Warhounds",
+        "Name": "Hellmaw",
         "Values": {
-          "HP": "1",
+          "HP": "6",
           "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Warhound",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "3",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "68357fa1790d8280c4b28236",
-    "Name": "Chimera",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-unruly": "Unruly",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stomp_attack": "Stomp Attack (D3)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Chimera",
-        "Values": {
-          "Ad": "8",
-          "Ma": "10",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-unruly": "Unruly",
-          "rulebook-solitary": "Solitary"
-        }
-      },
-      {
-        "Name": "Chimera",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Chimera",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D3)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357fa1790d8280c4b2823a",
-    "Name": "Feldraks",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-hatred": "Hatred ( against Fly)",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-halberd": "Halberd",
-      "rulebook-resistance": "Resistance (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Feldraks",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary"
-        }
-      },
-      {
-        "Name": "Feldraks",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Feldrak",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-hatred": "Hatred ( against Fly)",
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-halberd": "Halberd"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
-  },
-  {
-    "Id": "68357fa2790d8280c4b28274",
-    "Name": "Feldrak Elder",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-courageous": "Courageous",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-hatred": "Hatred ( against Fly)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Feldrak Elder",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-courageous": "Courageous",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary"
-        }
-      },
-      {
-        "Name": "Feldrak Elder",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
           "Re": "6",
-          "Arm": "4"
+          "Arm": "2"
         },
         "RuleIds": {
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
+          "rulebook-aegis": "Aegis (5+)"
         }
       },
       {
-        "Name": "Feldrak Elder",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-hatred": "Hatred ( against Fly)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357fa2790d8280c4b28279",
-    "Name": "Marauding Giant",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "wdg-giant_see_giant_do": "Giant See, Giant Do",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-rage": "Rage",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "wdg-giant_club": "Giant Club"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Marauding Giant",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "wdg-giant_see_giant_do": "Giant See, Giant Do",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary"
-        }
-      },
-      {
-        "Name": "Marauding Giant",
-        "Values": {
-          "HP": "8",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "1"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Marauding Giant",
+        "Name": "Hellmaw",
         "Values": {
           "At": "5",
           "Of": "3",
           "St": "5",
           "AP": "2",
-          "Ag": "3"
+          "Ag": "1"
         },
         "RuleIds": {
-          "rulebook-rage": "Rage",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "wdg-giant_club": "Giant Club"
+          "rulebook-magical_attacks": "Magical Attacks"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "50",
-        "length": "75"
+        "width": "100",
+        "length": "150"
       }
     }
   },
@@ -3415,14 +3353,14 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-fearless": "Fearless",
-      "rulebook-random_movement": "Random Movement (3D6\")",
+      "rulebook-dying_blow": "Dying Blow",
       "rulebook-mindless": "Mindless",
+      "rulebook-random_movement": "Random Movement (3D6\")",
       "rulebook-solitary": "Solitary",
       "rulebook-stubborn": "Stubborn",
       "rulebook-unstable": "Unstable",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-grind_attack": "Grind Attack (D6+3)",
-      "rulebook-regeneration": "Regeneration (5+)"
+      "rulebook-regeneration": "Regeneration (5+)",
+      "rulebook-grind_attack": "Grind Attack (D6+3)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3436,13 +3374,13 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-random_movement": "Random Movement (3D6\")",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-fearless": "Fearless",          
           "rulebook-mindless": "Mindless",
+          "rulebook-random_movement": "Random Movement (3D6\")",
           "rulebook-solitary": "Solitary",
           "rulebook-stubborn": "Stubborn",
-          "rulebook-unstable": "Unstable",
-          "rulebook-dying_blow": "Dying Blow"
+          "rulebook-unstable": "Unstable"          
         }
       },
       {
@@ -3480,69 +3418,135 @@
     }
   },
   {
-    "Id": "68357fa2790d8280c4b28289",
-    "Name": "Hellmaw",
+    "Id": "68357fa2790d8280c4b28279",
+    "Name": "Marauding Giant",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "wdg-gateway": "Gateway",
-      "rulebook-terror": "Terror",
+      "wdg-giant_see_giant_do": "Giant See, Giant Do",
+      "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-terror": "Terror",      
+      "rulebook-rage": "Rage",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+      "wdg-giant_club": "Giant Club"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Hellmaw",
+        "Name": "Marauding Giant",
         "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "7",
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "8",
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "wdg-gateway": "Gateway",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary"
+          "wdg-giant_see_giant_do": "Giant See, Giant Do",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror"          
         }
       },
       {
-        "Name": "Hellmaw",
+        "Name": "Marauding Giant",
         "Values": {
-          "HP": "6",
+          "HP": "8",
           "Df": "3",
-          "Re": "6",
-          "Arm": "2"
+          "Re": "5",
+          "Arm": "1"
         },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "RuleIds": {}
       },
       {
-        "Name": "Hellmaw",
+        "Name": "Marauding Giant",
         "Values": {
           "At": "5",
           "Of": "3",
           "St": "5",
           "AP": "2",
-          "Ag": "1"
+          "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-rage": "Rage",
+          "rulebook-stomp_attack": "Stomp Attack (D6)",
+          "wdg-giant_club": "Giant Club"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "100",
-        "length": "150"
+        "width": "50",
+        "length": "75"
+      }
+    }
+  },
+  {
+    "Id": "68357fa2790d8280c4b28274",
+    "Name": "Feldrak Elder",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-courageous": "Courageous",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",     
+      "rulebook-hatred": "Hatred (against Fly)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Feldrak Elder",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-courageous": "Courageous",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"          
+        }
+      },
+      {
+        "Name": "Feldrak Elder",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
+        }
+      },
+      {
+        "Name": "Feldrak Elder",
+        "Values": {
+          "At": "6",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-hatred": "Hatred (against Fly)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
       }
     }
   }

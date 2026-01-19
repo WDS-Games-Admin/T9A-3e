@@ -20,26 +20,6 @@
     ]
   },
   {
-    "Id": "68357f9b790d8280c4b27576",
-    "Name": "Feldrak Ancestor",
-    "Attributes": {
-      "totalCost": "560",
-      "category": "Characters",
-      "army": "Warriors of the Dark Gods",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f9b790d8280c4b27576"
-    ]
-  },
-  {
     "Id": "68357f9b790d8280c4b275a3",
     "Name": "Chosen Lord",
     "Attributes": {
@@ -175,8 +155,28 @@
     ]
   },
   {
+    "Id": "68357f9b790d8280c4b27576",
+    "Name": "Feldrak Ancestor",
+    "Attributes": {
+      "totalCost": "560",
+      "category": "Characters",
+      "army": "Warriors of the Dark Gods",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f9b790d8280c4b27576"
+    ]
+  },
+  {
     "Id": "b3d9a6e8f2c7a5b4e1d3c9f0a",
-    "Name": "Klaas, the Giving",
+    "Name": "Joulgrim, the Giving",
     "Attributes": {
       "totalCost": "650",
       "category": "Characters",
@@ -196,7 +196,7 @@
   },
   {
     "Id": "a4d9b2c7e5f1c8d3a0b6e2f7",
-    "Name": "Ook, the Ape King",
+    "Name": "Mraven, the Chimerical",
     "Attributes": {
       "totalCost": "500",
       "category": "Characters",
@@ -310,6 +310,26 @@
     ],
     "ProfileIds": [
       "68357f9f790d8280c4b2808a"
+    ]
+  },
+  {
+    "Id": "68357fa1790d8280c4b28231",
+    "Name": "Warhounds",
+    "Attributes": {
+      "totalCost": "60",
+      "category": "Special",
+      "army": "Warriors of the Dark Gods",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357fa1790d8280c4b28233"
     ]
   },
   {
@@ -431,6 +451,46 @@
     ]
   },
   {
+    "Id": "68357fa1790d8280c4b28236",
+    "Name": "Chimera",
+    "Attributes": {
+      "totalCost": "260",
+      "category": "Special",
+      "army": "Warriors of the Dark Gods",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357fa1790d8280c4b28236"
+    ]
+  },
+  {
+    "Id": "68357fa0790d8280c4b2820e",
+    "Name": "Wretched Ones",
+    "Attributes": {
+      "totalCost": "100",
+      "category": "Special",
+      "army": "Warriors of the Dark Gods",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357fa0790d8280c4b28210"
+    ]
+  },
+  {
     "Id": "68357fa0790d8280c4b281c9",
     "Name": "Forsworn",
     "Attributes": {
@@ -457,8 +517,8 @@
     ]
   },
   {
-    "Id": "68357fa0790d8280c4b2820e",
-    "Name": "Wretched Ones",
+    "Id": "68357fa1790d8280c4b28238",
+    "Name": "Feldraks",
     "Attributes": {
       "totalCost": "100",
       "category": "Special",
@@ -468,12 +528,18 @@
       "defaultFront": "3"
     },
     "AttributeLists": {
-      "FullOptions": []
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
     },
     "RuleIds": {},
-    "OptionListIds": [],
+    "OptionListIds": [
+      "83e0d2c9-11da-4450-ae0a-888bfbbc3180",
+      "4c737cfc-951d-4d7e-bc45-db28ea3ecca7"
+    ],
     "ProfileIds": [
-      "68357fa0790d8280c4b28210"
+      "68357fa1790d8280c4b2823a"
     ]
   },
   {
@@ -525,76 +591,10 @@
     ]
   },
   {
-    "Id": "68357fa1790d8280c4b28231",
-    "Name": "Warhounds",
+    "Id": "68357fa2790d8280c4b28289",
+    "Name": "Hellmaw",
     "Attributes": {
-      "totalCost": "60",
-      "category": "Special",
-      "army": "Warriors of the Dark Gods",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357fa1790d8280c4b28233"
-    ]
-  },
-  {
-    "Id": "68357fa1790d8280c4b28236",
-    "Name": "Chimera",
-    "Attributes": {
-      "totalCost": "260",
-      "category": "Special",
-      "army": "Warriors of the Dark Gods",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357fa1790d8280c4b28236"
-    ]
-  },
-  {
-    "Id": "68357fa1790d8280c4b28238",
-    "Name": "Feldraks",
-    "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Warriors of the Dark Gods",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "83e0d2c9-11da-4450-ae0a-888bfbbc3180",
-      "4c737cfc-951d-4d7e-bc45-db28ea3ecca7"
-    ],
-    "ProfileIds": [
-      "68357fa1790d8280c4b2823a"
-    ]
-  },
-  {
-    "Id": "68357fa2790d8280c4b28274",
-    "Name": "Feldrak Elder",
-    "Attributes": {
-      "totalCost": "440",
+      "totalCost": "340",
       "category": "Special",
       "army": "Warriors of the Dark Gods",
       "height": "Gigantic",
@@ -607,27 +607,7 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357fa2790d8280c4b28274"
-    ]
-  },
-  {
-    "Id": "68357fa2790d8280c4b28279",
-    "Name": "Marauding Giant",
-    "Attributes": {
-      "totalCost": "300",
-      "category": "Special",
-      "army": "Warriors of the Dark Gods",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357fa2790d8280c4b28279"
+      "68357fa2790d8280c4b28289"
     ]
   },
   {
@@ -651,10 +631,10 @@
     ]
   },
   {
-    "Id": "68357fa2790d8280c4b28289",
-    "Name": "Hellmaw",
+    "Id": "68357fa2790d8280c4b28279",
+    "Name": "Marauding Giant",
     "Attributes": {
-      "totalCost": "340",
+      "totalCost": "300",
       "category": "Special",
       "army": "Warriors of the Dark Gods",
       "height": "Gigantic",
@@ -667,7 +647,27 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357fa2790d8280c4b28289"
+      "68357fa2790d8280c4b28279"
+    ]
+  },
+  {
+    "Id": "68357fa2790d8280c4b28274",
+    "Name": "Feldrak Elder",
+    "Attributes": {
+      "totalCost": "440",
+      "category": "Special",
+      "army": "Warriors of the Dark Gods",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357fa2790d8280c4b28274"
     ]
   }
 ]

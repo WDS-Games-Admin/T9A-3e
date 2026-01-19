@@ -321,7 +321,7 @@
     "Id": "bh-aura_of_madness",
     "Name": "Aura of Madness",
     "Type": "Global",
-    "Description": "Enemy units within 6\" of one or more models with <u><link=\"bh-aura_of_madness\">Aura of Madness</link></u> suffer -1 Dis."
+    "Description": "All units not containing Aura of Madness within 6″ of the model gain Fearless, Frenzy and Unruly.\nFriendly units engaged in the same close combat as model automatically pass their Primal Instinct tests."
   },
   {
     "Id": "rulebook-poison_attacks",
@@ -334,12 +334,6 @@
     "Name": "Breath Attack",
     "Type": "Equipment",
     "Description": "Range 8\", Shots: 2D6, Str: X, AP: X, One use only. <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>. The Strength, Armour Penetration, and additional <u><link=\"ryulebook-attack_attributes\">Attack Attributes</link></u> are defined in brackets ('X')."
-  },
-  {
-    "Id": "bh-giant_see_giant_do",
-    "Name": "Giant See, Giant Do",
-    "Type": "Global",
-    "Description": "The model gains <u><link=\"bh-drunkard\">Drunkard</link></u> and <u><link=\"rulebook-strider\">Strider(Forest)</link></u>. At the end of a friendly Movement Phase, if the model is in contact with a Forest, it may lose all its current weapons and gain <u><link=\"bh-uprooted_tree\">Uprooted Tree</link></u>."
   },
   {
     "Id": "rulebook-rage",
@@ -831,7 +825,7 @@
     "Id": "dl-bribed_enchantments",
     "Name": "Bribed Enchantments",
     "Type": "Global",
-    "Description": "During Step 2.C Static Combat Score in a Round of Combat, select a single enemy unit the model is in contact with. For each Magic Item in the selected unit, the wearer's unit gains +1 Combat Score, to a maximum of +3."
+    "Description": "If the model is in contact with an enemy unit containing a Magic Item during Step2.b of each Round of Combat (‘Calculate Static Combat Score’), add+1to Combat Score."
   },
   {
     "Id": "dl-abandon_all_hope",
@@ -861,13 +855,13 @@
     "Id": "dl-razor_tentacles",
     "Name": "Razor Tentacles",
     "Type": "Equipment",
-    "Description": "The model gains +5 Att while Engaged with the Flank or Rear Facing of an enemy unit."
+    "Description": "The model gains Zael while Engaged with the Flank or Rear Facing of an enemy unit."
   },
   {
     "Id": "dl-divine_right",
     "Name": "Divine Right",
     "Type": "Global",
-    "Description": "While there is an enemy Character in contact with the model's unit, the model gains <u><link=\"rulebook-distracting\">Distracting(1)</link></u>."
+    "Description": "During Choosing Equipment and Abilities the opponent must choose a Character from one of its units that are  in contact with the Omen of Savar's unit.\nThe chosen Character and the Omen of Savar counts as being in contact with each other. In addition, while the Omen of Savar is in contact with an enemy Character, do not roll for determining it’s stats, instead all random characteristic are considered to have rolled the maximum possible value."
   },
   {
     "Id": "rulebook-multiple_wounds",
@@ -940,6 +934,18 @@
     "Name": "Mountain Breaker",
     "Type": "Global",
     "Description": "The model's Charge Range rolls towards units containing Height 5 are Maximised.\nImpact Hits gain <u><link=\"rulebook-multiple_wounds\">Multiple Wounds(D3, towards Height 5)</link></u>."
+  },
+  {
+    "Id": "dl-swift_anger",
+    "Name": "Swift Anger",
+    "Type": "Equipment",
+    "Description": "Whenever the model loses a Health Point, it gains +1 Agi. Whenever it Recovers or Raises a Health Point, it suffers -1 Agi."
+  },
+  {
+    "Id": "dl-trophy_for_the_collection",
+    "Name": "Trophy for the Collection",
+    "Type": "Equipment",
+    "Description": "When an enemy Character is removed as a casualty as a result of Melee Attacks from a model part on this model without Mount or Construct, add+3 to the model’s side’s Combat Score during this Round of Combat."
   },
   {
     "Id": "dl-veil_stalker",
@@ -1107,7 +1113,7 @@
     "Id": "de-daeb_warfare",
     "Name": "Daeb Warfare",
     "Type": "Global",
-    "Description": "When a unit containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> is part of a Combined Charge,  its Charge Range rolls gain Maximised. When multiple units containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> are Engaged in the same Combined Combat, each unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-resolute\">Resolute(1)</link></u>)."
+    "Description": "When a unit containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> is part of a Combined Charge,  its Charge Range rolls gain Maximised. When multiple units containing <u><link=\"de-daeb_warfare\">Daeb Warfare</link></u> are Engaged in the same Combined Combat, each unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-resolute\">Resolute</link></u>)."
   },
   {
     "Id": "rulebook-march_and_shoot",
@@ -1431,7 +1437,7 @@
     "Id": "dh-whirling_chains_of_doom",
     "Name": "Whirling Chains of Doom",
     "Type": "Equipment",
-    "Description": "+1 Str, +1 AP, and always Agi 10."
+    "Description": "The wielder gains + 1D3 <link=\"rulebook-resolute\">Grind Attacks</link></u> when engaged with an enemy unit containing a <u><link=\"dh-ancient_grudge\">Grudge Marker</link></u>."
   },
   {
     "Id": "dh-runic_engravings",
@@ -1485,7 +1491,7 @@
     "Id": "eos-first_knight",
     "Name": "First Knight",
     "Type": "Global",
-    "Description": "While the model is joined to a unit of Knightly Orders, the unit gains the following rules:\n- <u><link=\"rulebook-fearless\">Fearless</link></u>.\n- If the model is the General, the Rank-and-File models also gain <u><link=\"eos-parent_unit\">Parent Unit</link></u>."
+    "Description": "While the model is joined to a unit of Knightly Orders or Electoral Cavalry, the unit gains <u><link=\"eos-parent_unit\">Parent Unit</link></u>."
   },
   {
     "Id": "eos-blessings",
@@ -1497,7 +1503,7 @@
     "Id": "eos-holy_relic",
     "Name": "Holy Relic",
     "Type": "Global",
-    "Description": "Friendly units within 8\" of the model gain <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>). Model parts with Mount are not affected. Bound Spells from <u><link=\"eos-blessings\">Blessings</link></u> cast by the rider change their Type to: Range 8\", Aura. The model can cast Fate's Judgement (Divination) as a Bound Spell(3+)."
+    "Description": "Friendly units within 8\" of the model gain <u><link=\"rulebook-first_strike\">First Strike</link></u>(<u><link=\"rulebook-hatred\">Hatred</link></u>). Model parts with Mount are not affected. Bound Spells from <u><link=\"eos-blessings\">Blessings</link></u> cast by the rider change their Type to: Range 8\", Aura.\nThe model can cast Fate's Judgement (Divination) as a Bound Spell (4+)."
   },
   {
     "Id": "eos-aura_of_power",
@@ -1527,7 +1533,7 @@
     "Id": "eos-support_unit",
     "Name": "Support Unit",
     "Type": "Global",
-    "Description": "A unit containing a model with this rule is referred to as a <u><link=\"eos-support_unit\">Support Unit</link></u>.\nA <u><link=\"eos-support_unit\">Support Unit</link></u> with at least one Proper Rank is considered to be <u><link=\"rulebook-combat_formations\">Steady</link></u>  if a friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> in the same Combat is <u><link=\"rulebook-combat_formations\">Steady</link></u>, and <u><link=\"rulebook-combat_formations\">Solid</link></u> if a friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> in the same Combat is <u><link=\"rulebook-combat_formations\">Solid</link></u>.\nDuring the opponent's Charge Phase, <u><link=\"eos-support_unit\">Support Units</link></u> may perform one of the following actions:\n\n1.- Supporting Fire: the <u><link=\"eos-support_unit\">Support Unit</link></u> may perform an out of sequence Shooting Attack against an enemy unit that has successfully performed a Charge Move into a friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> within 8\". Apply the normal rules for Shooting Attacks, ignoring the <u><link=\"eos-parent_unit\">Parent Unit</link></u> for Cover and Line of Sight purposes.\n2.- Counter Charge: after enemy units finish their Charge Moves, <u><link=\"eos-support_unit\">Support Units</link></u> within 8\" of a successfully charged friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> may choose one enemy unit that Charged the <u><link=\"eos-parent_unit\">Parent Unit</link></u> and declare a Charge with the <u><link=\"eos-support_unit\">Support Unit</link></u>, applying the normal rules for Charging (such as Line of Sight, Front Arc, rolls for Charge Range, etc.). A <u><link=\"eos-support_unit\">Support Unit</link></u> that performs a Counter Charge is considered to have 0 Proper Ranks for the purpose of afflicting <u><link=\"rulebook-combat_formations\">Surrounded</link></u>, until it is no longer Engaged in Combat."
+    "Description": "During the opponent’s <u><link=\"rulebook-charge_phase\">Charge Phase</link></u>, Support Units may perform one of the following actions:\n\n1. Supporting Fire: the Support Unit may perform an out of sequence <u><link=\"rulebook-shooting_attack\">Shooting Attack</link></u> towards an enemy unit that has successfully performed a <u><link=\"rulebook-charge_move\">Charge Move</link></u> against a friendly <u><link=\"rulebook-parent_unit\">Parent Unit</link></u> within 8″.\nApply the normal rules for <u><link=\"rulebook-shooting_attack\">Shooting Attacks</link></u>, ignoring the <u><link=\"rulebook-parent_unit\">Parent Unit</link></u> for <u><link=\"rulebook-cover\">Cover</link></u> and <u><link=\"rulebook-line_of_sight\">Line of Sight</link></u> purposes.\n\n2. Counter Charge: after enemy units finish their <u><link=\"rulebook-charge_move\">Charge Moves</link></u>, Support Units within 8″ of a successfully charged friendly <u><link=\"rulebook-parent_unit\">Parent Unit</link></u> may choose one enemy unit that has <u><link=\"rulebook-charge\">Charged</link></u> the <u><link=\"rulebook-parent_unit\">Parent Unit</link></u> and declare a <u><link=\"rulebook-charge\">Charge</link></u>, applying the normal rules for <u><link=\"rulebook-charge\">Charging</link></u> (<u><link=\"rulebook-line_of_sight\">Line of Sight</link></u>, <u><link=\"rulebook-front_arc\">Front Arc</link></u>, rolls for <u><link=\"rulebook-charge_range\">Charge Range</link></u>, etc.).\n A Support Unit that performs a <u><link=\"rulebook-charge\">Counter Charge</link></u> is, until the end of the <u><link=\"rulebook-round_of_combat\">Round of Combat</link></u>, considered to have at most one <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u> for the purpose of inflicting <u><link=\"rulebook-surrounded\">Surrounded</link></u>."
   },
   {
     "Id": "eos-a_koelhunds_chase",
@@ -1599,13 +1605,13 @@
     "Id": "eos-parent_unit",
     "Name": "Parent Unit",
     "Type": "Global",
-    "Description": "A unit containing a model with this rule is referred to as a <u><link=\"eos-parent_unit\">Parent Unit</link></u>. <u><link=\"eos-parent_unit\">Parent Units</link></u> treat <u><link=\"eos-support_unit\">Support Units</link></u> as <u><link=\"rulebook-insignificant\">Insignificant</link></u>."
+    "Description": "A unit containing a model with this rule is referred to as a Parent Unit. Parent Unit gains Fight in Extra Rank while there is at least one Support Unit engaged in the same combat."
   },
   {
     "Id": "eos-wilderness_guides",
     "Name": "Wilderness Guides",
     "Type": "Global",
-    "Description": "At the beginning of step 3.6 of the Battle Setup, ‘Move Vanguarding Units’, choose one friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> or =\"eos-support_unit\">Support Unit</link></u> within 8″ of a unit containing <u><link=\"eos-wilderness_guides\">Wilderness Guides</link></u>: the chosen unit gains Vanguard (3\")."
+    "Description": "At the beginning of ‘Vanguard Units’ (Battle Setup, step3.F), choose one friendly Parent or Support Unit within 8″ of a unit containing Wilderness Guides: the chosen unit gains <u><link=\"rulebook-vanguard\">Vanguard</link></u> (3 Mob)."
   },
   {
     "Id": "eos-brace_of_pistols",
@@ -1629,7 +1635,7 @@
     "Id": "eos-steam_powered",
     "Name": "Steam Powered",
     "Type": "Global",
-    "Description": "The model’s rolls for <u><link=\"rulebook-random_movement\">Random Movement</link></u> gain Maximised. The model may choose not to move despite having <u><link=\"rulebook-random_movement\">Random Movement</link></u>. The model cannot choose to Pursue –– unless it is Charging, in which case it must Pursue (including Overrun)."
+    "Description": "The model’s rolls for <u><link=\"rulebook-random_movement\">Random Movement</link></u> gain Maximised.\nThe model may choose not to move despite having <u><link=\"rulebook-random_movement\">Random Movement</link></u>.\nThe model cannot choose to Pursue, unless it is its First Round of Combat and it is <u><link=\"rulebook-declaring_charges\">Charging</link></u>. In that case it must <u><link=\"rulebook-pursue_moves\">Pursue</link></u> (including Overrun)."
   },
   {
     "Id": "eos-steam_cannon",
@@ -1689,7 +1695,7 @@
     "Id": "he-rebirth",
     "Name": "Rebirth",
     "Type": "Global",
-    "Description": "When the model loses its last Health Point, unless it is a Summoned model, the owner must roll a D6. It succeeds on 5+:\n• Before removing the model as a casualty, mark the centre of its final position.\n• At the start of the next friendly Movement Phase, Summon a new Phoenix within 3\" of the marked point. The Summoned model has the same upgrades as the original Phoenix. Immediately after being Deployed, the model loses 4 Health Points, which cannot be prevented or Recovered in any way.\nIf the roll fails, the model is removed as a casualty as normal."
+    "Description": "When the model loses its last Health Point, unless it is a Summoned model, the owner must roll a D6. On a 5+, it is a success - apply the following effects:\n• Before removing the model as a casualty, mark the centre of its final position.\n• At the start of the next friendly Movement Phase, Summon a new Phoenix within 3\" of the marked point. The Summoned model has the same upgrades as the original Phoenix. Immediately after being Deployed, the model loses 4 Health Points, which cannot be prevented or Recovered in any way.\nIf the roll fails, the model is removed as a casualty as normal."
   },
   {
     "Id": "he-sword_sworn",
@@ -1773,7 +1779,7 @@
     "Id": "he-scourge_of_fleets",
     "Name": "Scourge of Fleets",
     "Type": "General",
-    "Description": "Balûruth gains <u><link=\"rulebook-grind_attacks\">Grind Attacks</link></u> (D6 hits, Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
+    "Description": "Balûruth gains <u><link=\"rulebook-grind_attack\">Grind Attacks</link></u> (D6 hits, Str 4, AP 1, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "he-the_lance_of_tears",
@@ -1887,7 +1893,7 @@
     "Id": "id-vassal_governor",
     "Name": "Vassal Governor",
     "Type": "Global",
-    "Description": "Friendly units  with Vassal within 12\" of one or more models with <u><link=\"id-vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
+    "Description": "Friendly units entirely with Vassal within 12\" of one or more models with <u><link=\"id-vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
   },
   {
     "Id": "id-prophet_of_shamut",
@@ -1911,7 +1917,7 @@
     "Id": "id-unbranded",
     "Name": "Unbranded",
     "Type": "Global",
-    "Description": "The model cannot take any Army specific Magic Items, and can never learn, or swap to <u><link=\"id-curse_of_nezibkesh\">Curse of Nezibkesh</link></u>."
+    "Description": "The model cannot take any Army specific Magic Items, and can never cast <u><link=\"id-curse_of_nezibkesh\">Curse of Nezibkesh</link></u>."
   },
   {
     "Id": "id-riddle_of_the_lamassu",
@@ -1929,7 +1935,7 @@
     "Id": "id-oil_flasks",
     "Name": "Oil Flasks",
     "Type": "Equipment",
-    "Description": "A Health Pool can use <u><link=\"id-oil_flasks\">Oil Flasks</link></u> X times. Each use reduces X by 1, and when X is 0, the rule cannot be used. Before rolling to hit with an attack using <u><link=\"id-oil_flasks\">Oil Flasks</link></u>, you may declare that the rule is used.\nWhen using <u><link=\"id-oil_flasks\">Oil Flasks</link></u>, apply the following rules:\nAfter resolving all simultaneous attacks, any unit hit by at least one attack with <u><link=\"id-oil_flasks\">Oil Flasks</link></u> gains <u><link=\"id-incendiary\">Incendiary</link></u>."
+    "Description": "After resolving all simultaneous attacks, any unit hit by at least one attack with Oil Flasks gains an <u><link=\"id-incendiary\">Incendiary Marker</link></u>."
   },
   {
     "Id": "id-chained_together",
@@ -2079,7 +2085,7 @@
     "Id": "koe-ordo_minister",
     "Name": "Ordo Minister",
     "Type": "Global",
-    "Description": "  At the start of each friendly Magic Phase, each unit containing <u><link=\"ordo_minister\">Ordo Minister</link></u>  may choose one:\n-   Raise 1 HP on a Rank-and-File Health Pool in the unit.\n-   Discard 1 Blessing Token and Recover 1 HP on an Character model in the unit."
+    "Description": "Anytime during a friendly Magic Phase, before ‘Casting and Dispelling Spells’ (Magic Phase, step 5), each unit containing Ordo Minister may gain one of the following effects:\n\n• Raise 1 HP on a Rank-and-File Health Pool in the unit.\n\n• Discard 1 Blessing Token and Recover 1 HP on any model in the unit."
   },
   {
     "Id": "rulebook-throwing_weapons",
@@ -2145,13 +2151,13 @@
     "Id": "koe-stalwart_defense",
     "Name": "Stalwart Defense",
     "Type": "Defense",
-    "Description": "  Enemy units in base contact with a unit containing <u><link=\"stalwart_defense\">Stalwart Defense</link></u> lose Devastating Charge."
+    "Description": "  Enemy units in base contact with a unit containing Stalwart Defense lose <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>."
   },
   {
     "Id": "koe-sacred_relic",
     "Name": "Sacred Relic",
     "Type": "Global",
-    "Description": "  A unit containing <u><link=\"sacred_relic\">Sacred Relic</link></u> gains Fight in Extra Rank, and when the unit is the target of an Orison while Engaged in Combat, add one Blessing Token to the your pool.Ignore this effect if a Character with the <u><link=\"faith\">Faith</link></u> Knightly Principle is part of the model’s unit.The Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it has joined."
+    "Description": "Duration: Permanent.\n\nA unit containing Sacred Relic gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>.\nIn addition, when the unit is the target of an Orison while Engaged in Combat, add one Blessing Token to the your pool. Ignore this effect if a Character with the <u><link=\"koe-faith\">Faith</link></u> Knightly Principle is part of the model’s unit.\nThe Sacred Reliquary model part gains all Weapons of the Rank-and-File models in the unit it is joined to."
   },
   {
     "Id": "koe-scorpion",
@@ -2415,7 +2421,7 @@
     "Id": "ok-hand_cannon",
     "Name": "Hand Cannon",
     "Type": "Equipment",
-    "Description": "Aim 5+, Range 12\", Shots 3, Str 5, AP 3, Accurate, March and Shoot, Stand and Shoot, Quick to Fire"
+    "Description": "Aim 4+, Range 18\", Shots 3, Str 5, AP 3, March and Shoot, Quick to Fire"
   },
   {
     "Id": "ok-ogre_crossbow",
@@ -2439,7 +2445,7 @@
     "Id": "ok-dengrais_ice_storm",
     "Name": "Dengrai's Ice Storm",
     "Type": "Global",
-    "Description": "The model can cast Clouded Sight (Witchcraft) as a Bound Spell (6+)."
+    "Description": "The model can cast Veil of Mist (Druidism) as a Bound Spell (5+)."
   },
   {
     "Id": "ok-giant_see_giant_do",
@@ -2514,6 +2520,12 @@
     "Description": "If Valish is removed as a casualty, all friendly model parts with Ogre gain <u><link=\"rulebook-hatred\">Hatred (against the unit that caused Valish to be removed as a casualty*)</link></u>. Duration: Permanent. * This includes all models joined to it."
   },
   {
+    "Id": "ong-dashers",
+    "Name": "Dashers",
+    "Type": "Global",
+    "Description": "The model gains Fly, Hard Target (1), Light Troops, and Skirmisher."
+  },
+  {
     "Id": "ong-goblin_cunning",
     "Name": "Goblin Cunning",
     "Type": "Global",
@@ -2564,8 +2576,8 @@
   {
     "Id": "ong-force_of_destruction",
     "Name": "Force of Destruction",
-    "Type": "Equipment",
-    "Description": "The model must perform a move in the Movement Phase if able to, and cannot declare any Charges; other units cannot Declare any Charges against the model. The model and other units ignore each other regarding the Unit Spacing rule for all movement and can touch and move through one another during any movement (excluding Ambush).\nWhen the model touches another unit, the model is immediately removed as a casualty, and the other unit immediately suffers X hits with the model's Str and AP. If several units are touched simultaneously, the owner of the model with <u><link=\"force_of_destruction\">Force of Destruction</link></u> chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it, that unit suffers an additional D6 hits.\n\nHealth Point losses caused by <u><link=\"force_of_destruction\">Force of Destruction</link></u> in the Charge Phase do not cause Panic Test."
+    "Type": "General",
+    "Description": "Charges cannot be declared against the model with Force of Destruction.\nThis model is ignored by other units and ignores them for the purpose of Unit Spacing. It may come into contact and move through other units,and other units may come into contact and move through it (excluding <u><link=\"rulebook-ambush\">Ambush</link></u>).\nWhen a model with Force of Destruction comes into contact with another unit, the other unit immediately suffers X hits with the model’s Strength and Armour Penetration, and the model with Force of Destruction is immediately removed as a casualty.\nIf several units come into contact simultaneously the model with Force of Destruction chooses which unit suffers the hits.\nIf the model was removed due to another unit moving into contact with it,that unit suffers an additional D6 hits. Health Point losses caused by Force of Destruction in the Charge Phase do not cause Panic Test."
   },
   {
     "Id": "ong-brood_rivalry",
@@ -2619,7 +2631,7 @@
     "Id": "ong-troll_toll",
     "Name": "Troll Toll",
     "Type": "Equipment",
-    "Description": " - Attack Attribute -- Close Combat\nFor each Regeneration Save the model fails against enemy Melee Attacks, the model immediately performs a Standard Melee Attack against the unit that caused the wound, before any casualties are removed, that is allocated onto the attacking model's Health Pool.\nFor each Regeneration Save the model fails against enemy Melee Attacks, the model immediately performs a Standard Melee Attack against the unit that caused the wound, before any casualties are removed, that is allocated onto the attacking model's Health Pool."
+    "Description": "Each time a model with Troll Toll fails a <u><link=\"rulebook-regeneration\">Regeneration Save</link></u> against an enemy <u><link=\"rulebook-melee_attack\">Melee Attack</link></u>, the model with Troll Toll, may immediately perform a <u><link=\"rulebook-melee_attack\">Standard Melee Attack</link></u> towards the Health Pool of the model that caused the wound.\nThis attack is resolved at the end of the same Agility Step, before any casualties are removed, and does not count against the number of attacks the model with Troll Toll can make due to Restricted Attacks."
   },
   {
     "Id": "goblin_cunning",
@@ -2667,7 +2679,7 @@
     "Id": "sa-closely_guarded",
     "Name": "Closely Guarded",
     "Type": "Global",
-    "Description": "The model gains Attached, Exclusive(Caiman Elders, Tegu Guards, Tegu Warriors), Stand Behind, Strider, War Platform. "
+    "Description": "The model gains Attached, Exclusive (Caiman Elders, Tegu Guards, Tegu Warriors), Stand Behind, Strider, War Platform. "
   },
   {
     "Id": "sa-guardian_patu",
@@ -2751,7 +2763,7 @@
     "Id": "se-meeting_of_minds",
     "Name": "Meeting of Minds",
     "Type": "Global",
-    "Description": "The model gains <u><link=\"se-tree_singing\">Tree Singing</link></u>, and Shooting Attacks against the model can never hit on a roll of better than 4+ ."
+    "Description": "The model gains <u><link=\"se-tree_singing\">Tree Singing</link></u>, and Elven Cloak."
   },
   {
     "Id": "se-sylvan_beasts",
@@ -2793,7 +2805,7 @@
     "Id": "se-elven_cloak",
     "Name": "Elven Cloak",
     "Type": "Defense",
-    "Description": "Shooting Attacks allocated against a Health Pool with <u><link=\"se-elven_cloak\">Elven Cloak</link></u> can never hit on a roll of better than 4+."
+    "Description": "For <u><link=\"rulebook-shooring_attacks\">Shooting Attacks</link></u> allocated against a Health Pool with Elven Cloak, the to-hit roll of ’1’, ’2’, ’3’ are always considered a miss, instead of the usual ’1’."
   },
   {
     "Id": "se-sylvan_bow",
@@ -2823,7 +2835,7 @@
     "Id": "se-big_game_hunters",
     "Name": "Big Game Hunters",
     "Type": "Equipment",
-    "Description": "The attack always wounds on at least 4+ when allocated towards a Health Pool with Height 5."
+    "Description": "Attack Attribute - Shooting.\nThe attack gains +1 to hit and always wounds on at least 4+ when allocated towards a Health Pool with Height 4-5."
   },
   {
     "Id": "se-forests_thorns",
@@ -3137,11 +3149,11 @@
     "Type": "Equipment",
     "Description": "Immediately before the model is removed as a casualty as a result of an enemy Melee Attack, it inflicts 1 hit with Str 3, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> towards the Health Pool of the model that caused the wound."
   },
-  {
+{
     "Id": "vs-diseased",
     "Name": "Diseased",
     "Type": "Equipment",
-    "Description": "Whenever a natural ‘1’ is rolled to hit for an enemy Melee Attack allocated towards a model with <u><link=\"vs-diseased\">Diseased</link></u>, the model part inflicts 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> on the attacking model's unit in the same Agility Step, before any casualties are removed. This attack cannot benefit from <u><link=\"rulebook-zeal\">Zeal</link></u>, <u><link=\"rulebook-press_of_ranks\">Press of Ranks</link></u>."
+    "Description": "Melee.\nEach Standard Melee Attack allocated against a model with Diseased that rolls a to-hit roll of ‘1’, the attacking model’s Health Pool suffers 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> at the end of the same Agility Step."
   },
   {
     "Id": "vs-bloodpox_blades",
@@ -3165,7 +3177,7 @@
     "Id": "vs-drill_down",
     "Name": "Drill Down!",
     "Type": "Global",
-    "Description": "One use only.\nAt the beginning of ‘Vanguard Units’ (Battle Setup, step 3.F), a unit including <u><link=\"vs-drill_down\">Drill Down!</link></u> may choose to be removed from the Battlefield. If so, the unit gains <u><link=\"rulebook-ambush\">Ambush</link></u> (Terrain Feature with a friendly Tunnel Marker).\nIt automatically passes any <u><link=\"rulebook-ambush\">Ambush</link></u> Rolls."
+    "Description": "One use only.\nAt the beginning of ‘Vanguard Units’ (Battle Setup, step 3.F), a unit including Drill Down! may choose to be removed from the Battlefield. If so, the unit gains <u><link=\"rulebook-ambush\">Ambush</link></u> (Terrain Feature with a friendly Tunnel Marker)."
   },
   {
     "Id": "vs-darkstone_generator",
@@ -3231,7 +3243,7 @@
     "Id": "wdg-manifestation",
     "Name": "Manifestation",
     "Type": "Global",
-    "Description": "During Pre-game Selections, each Exalted Herald must choose two different <u><link=\"manifestation\">Manifestations</link></u> from the list below and apply the effects during the game. The model must select two spells out of those indicated for the chosen <u><link=\"manifestation\">Manifestations</link></u>, <u><link=\"wrath\">Wrath</link></u> of God (Thaumaturgy), and <u><link=\"hellfire\">Hellfire</link></u> (Hereditary Spell). This replaces the normal rules for Spell Selection connected to being a Wizard Adept.\n\nManifestation\t\tThe Exalted Herald gains:\t\tThe Exalted Herald has access to:\n\n • Abiding Spirit\t\tHard Target (1).\t\t\t\tHand of Glory (Occultism).\n\n • Brand of the Dragon\tBreath Attack (Str4, AP1, Flaming),\tThe Devouring Dark (Occultism)\n\t\t\t\tFly, and Swiftstride.\n\n • Emissary of Chaos\tBattle Fever and Stomp Attack (D6).\tPentagram of Pain (Occultism)\n\n • Sorcerer Immortal\tVeil Walker.\t\t\t\t\tUmbra Majesty (Occultism) and\n\t\t\t\t\t\t\t\t\t\tThe Grave Calls (Occultism)\n\n • Unholy Avatar\t\t+1Str, +1AP, and Divine Attacks.\tBlood Curse (Occultism)."
+    "Description": "During Pre-game Selections, each Exalted Herald must choose two different Manifestations from the list below and apply the effects during the game. The model must select two spells out of those indicated in the selecte Manifestations, <u><link=\"rulebook-wrath_of_god\">Wrath of God</link></u> (Thaumaturgy), and <u><link=\"wdg-hellfire\">Hellfire</link></u> (Hereditary Spell) (this replaces the normal rules for Spell Selection connected to being a Wizard Adept).\n\nManifestation\t\tThe Exalted Herald gains:\t\tThe Exalted Herald has access to:\n\n • Abiding Spirit\t\tHard Target (1).\t\t\t\tHand of Glory (Occultism).\n\n • Brand of the Dragon\tBreath Attack (Str4, AP1, Flaming),\tThe Devouring Dark (Occultism)\n\t\t\t\tFly, and Swiftstride.\n\n • Emissary of Chaos\tCourageous and Stomp Attack (D6).\tPentagram of Pain (Occultism)\n\n • Sorcerer Immortal\tVeil Walker.\t\t\t\t\tUmbra Majesty (Occultism) and\n\t\t\t\t\t\t\t\t\t\tThe Grave Calls (Occultism)\n\n • Unholy Avatar\t\t+1 Str, + 1AP, and Divine Attacks.\tBlood Curse (Occultism)."
   },
   {
     "Id": "wdg-primal_legend",
@@ -3315,13 +3327,13 @@
     "Id": "wdg-gateway",
     "Name": "Gateway",
     "Type": "Global",
-    "Description": "During Pre-game Selections, mark a point on the Battlefield with a <u><link=\"wdg-gateway\">Gateway</link></u> Marker: it must be within 24\" of your Deployment Zone , outside the opponent’s Deployment Zone , and more than 1\" from Impassible Terrain.\nThere can never be more than 4 friendly <u><link=\"wdg-gateway\">Gateway</link></u> Markers on the Battlefield.\nIf a <u><link=\"wdg-gateway\">Gateway</link></u> Marker is removed, then all units within 3\" of the marker suffer 3D3 hits with Toxic Attacks.\nRemove all friendly <u><link=\"wdg-gateway\">Gateway</link></u> Markers if there are no friendly Hellmaws or friendly models with a Veilgate Orb on the Battlefield ,at the end of any phase.\n\nAt the start of each friendly Magic Phase, if this model was allowed to move during the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.), you can apply one of the following effects:\n   • Mark a single point on the Battlefield within 24\" of the model with a <u><link=\"wdg-gateway\">Gateway</link></u> Marker, and more than 1\" from Impassible Terrain. Before doing so, you may remove from the Battlefield a friendly <u><link=\"wdg-gateway\">Gateway</link></u> Marker that was not placed during this Player Turn.\n   • Target a single friendly unit within 9\" of the model, not containing any model of Height 5, and that was allowed to move in the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.).Remove the unit from the Battlefield and immediately place it back on the Battlefield, in the same formation, with Ambush (friendly <u><link=\"wdg-gateway\">Gateway</link></u> Marker, that was not placed during this Player Turn)"
+    "Description": "During Pre-game Selections, mark a point on the Battlefield with a Gateway Marker: it must be within 24\" of your Deployment Zone, outside the opponent’s Deployment Zone, and more than 1\" from Impassible Terrain.\nThere can never be more than 4 friendly Gateway Markers on the Battlefield.\nIf a Gateway Marker is removed, then all units within 3\" of the marker suffer 3D3 hits with Toxic Attacks.\nRemove all friendly Gateway Markers if there are no friendly Hellmaws or friendly models with a Veilgate Orb on the Battlefield ,at the end of any phase.\n\nAt the start of each friendly Magic Phase, if this model was allowed to move during the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.), you can apply one of the following effects:\n   • Mark a single point on the Battlefield within 24\" of the model with a Gateway Marker, and more than 1\" from Impassible Terrain. Before doing so, you may remove from the Battlefield a friendly Gateway Marker that was not placed during this Player Turn.\n   • Target a single friendly unit within 9\" of the model, not containing any model of Height 5, and that was allowed to move in the preceding Movement Phase (ie. it is not shaken, did not Ambush, Fail Charge, is Unengaged etc.).Remove the unit from the Battlefield and immediately place it back on the Battlefield, in the same formation, with Ambush (friendly Gateway Marker, that was not placed during this Player Turn)"
   },
   {
     "Id": "wrath",
     "Name": "Wrath",
     "Type": "General",
-    "Description": "The model part gains First Strike(Hatred)."
+    "Description": "The model part gains First Strike (Hatred)."
   },
   {
     "Id": "hellfire",
@@ -3561,13 +3573,13 @@
     "Id": "de-beastmasters_vial",
     "Name": "Beastmaster's Vial",
     "Type": "General",
-    "Description": "May be activated at the start of any Round of Combat. One friendly unit entirely with Beast within 12\" of the bearer gains Dying Blow. Duration: End of Combat."
+    "Description": "One use only. Duration: End of Combat.\n\nMay be activated at the start of any Round of Combat. One friendly unit entirely with Beast within 12\" of the bearer gains Dying Blow."
   },
   {
     "Id": "de-ceinrans_scales",
     "Name": "Ceinran's Scales",
     "Type": "General",
-    "Description": "The bearer can cast Whispers of the Veil (Evocation) as a Bound Spell(3+)."
+    "Description": "The bearer can cast Whispers of the Veil (Evocation) as a Bound Spell (4+)."
   },
   {
     "Id": "de-ring_of_the_obsidian_thrones",
@@ -3693,7 +3705,7 @@
     "Id": "ong-orc_horde",
     "Name": "Orc Horde",
     "Type": "General",
-    "Description": "The model gains Fearless."
+    "Description": "The model gains Fearless.\nUnits entirely with Orc do not cause Panic Test on units entirely with Orc when making Flee Moves through them."
   },
   {
     "Id": "ong-huntsman_spider",
@@ -3741,7 +3753,7 @@
     "Id": "ong-headbashers",
     "Name": "Headbashers",
     "Type": "General",
-    "Description": "Legendary.\nUnits containing Headbashers gain Bodyguard(General), and Rank-and-File model parts with Orc in the unit gain Lethal Strike. Additionally, units entirely with Headbashers that count towards Core count towards Special instead."
+    "Description": "Legendary.\nUnits containing Headbashers gain <u><link=\"rulebook-bodyguard\">Bodyguard</link></u> (<link=\"ong-tribe_leader\">Tribe Leader), and Rank-and-File model parts with Orc in the unit gain <u><link=\"rulebook-lthal_stike\">Lethal Strike</link></u>. Additionally, units entirely with Headbashers that count towards 'Core' count towards 'Special' instead."
   },
   {
     "Id": "ong-war_cry",
@@ -3789,7 +3801,7 @@
     "Id": "ong-skull_fetish",
     "Name": "Skull Fetish",
     "Type": "General",
-    "Description": "During the Siphon the Veil step of your Magic Phase, the  wearer may gain Channel(D3) with Duration: One Turn. If a ‘3’ is rolled for this, all units within 6\" of the wearer, suffer the Witchfire Miscast effect, where X is equal to 5."
+    "Description": "During the Siphon the Veil step of your Magic Phase, the  wearer may gain Channel (D3) with Duration: One Turn. If a ‘3’ is rolled for this, all units within 6\" of the wearer, suffer the Witchfire Miscast effect, as if 5 dice had been used."
   },
   {
     "Id": "ong-monster_munch",
@@ -3807,13 +3819,13 @@
     "Id": "ong-gnasher_bait",
     "Name": "Gnasher Bait",
     "Type": "General",
-    "Description": "Friendly Gnashers units within 18\" gain Frenzy, Fury, and their Charge Range rolls are Maximised."
+    "Description": "One use only Duration: End of Turn.\n Friendly Gnashers units within 18\" gain <u><link=\"rulebook-frenzy\">Frenzy</link></u>, <u><link=\"rulebook-fury\">Fury</link></u>, and their <u><link=\"rulebook-charhe_range\">Charge Range</link></u> rolls are <u><link=\"rulebook-maximised\">Maximised</link></u>."
   },
   {
     "Id": "ong-moon_shrooms",
     "Name": "Moon Shrooms",
     "Type": "General",
-    "Description": "Cannot be activated at the same turn as War Cry! The bearer's unit acts as if the General had used War Cry! this turn."
+    "Description": "One use only. Duration: End of Turn.\nCannot be activated at the same turn as War Cry!\nThe bearer's unit gains the effects of War Cry! as if the General had used it this turn."
   },
   {
     "Id": "ong-splatterer",
@@ -4023,7 +4035,7 @@
     "Id": "id-golden_idol_of_shamut",
     "Name": "Golden Idol of Shamut",
     "Type": "General",
-    "Description": "The bearer can cast Flaming Swords (Pyromancy) as a Bound Spell (3+).\nIn addition, if the bearer’s model is Height 1, its Charge Speed is set to 4″, its Mobility is set to 6″, and it gains <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>."
+    "Description": "The bearer can cast Flaming Swords (Pyromancy) as a Bound Spell (4+).\nIn addition, if the bearer’s model is Height 1, its Charge Speed is set to 4″, its Mobility is set to 6″, and it gains <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>."
   },
   {
     "Id": "id-tablet_of_vezodinezh",
@@ -4113,7 +4125,7 @@
     "Id": "dl-engine_of_damnation",
     "Name": "Engine of Damnation",
     "Type": "General",
-    "Description": "Extraordinary.\nThe model’s base size is changed to 150×100 mm, its Height is changed to 5, its Health Points are set to 9, its Charge Speed is set to 5.\nIn addition, it loses <u><link=\"rulebook-attached\">Attached</link></u> and <u><link=\"rulebook-war_platform\">War Platform</link></u>, and it gains <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stomp_attack\">Stomp Attack (D6 hits)</link></u>, and <u><link=\"rulebook-terror\">Terror</link></u>."
+    "Description": "Extraordinary.\nThe model’s base size is changed to 150×100 mm, its Height is changed to 5, its Health Points are set to 9, its Charge Speed is set to 5.\nIn addition, it loses <u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-exclusive\">Exclusive</link></u> and <u><link=\"rulebook-war_platform\">War Platform</link></u>, and it gains <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stomp_attack\">Stomp Attack (D6 hits)</link></u>, and <u><link=\"rulebook-terror\">Terror</link></u>."
   },
   {
     "Id": "dl-favoured_of_sloth",
@@ -4209,7 +4221,7 @@
     "Id": "dl-unnatural_roots",
     "Name": "Unnatural Roots",
     "Type": "General",
-    "Description": "A unit containing one or more Manifestations of Unnatural Roots gains <u><link=\"rulebook-resolute\">Resolute(1)</link></u>."
+    "Description": "A unit containing Unnatural Roots gains <u><link=\"rulebook-resolute\">Resolute</link></u>."
   },
   {
     "Id": "dl-mark_of_the_eternal_champion",
@@ -4233,7 +4245,7 @@
     "Id": "dl-dark_hide",
     "Name": "Dark Hide",
     "Type": "General",
-    "Description": "At the start of step 3.5 of Battle Setup, \"Defender’s Advantage\", you may remove units entirely with this Manifestation from the Battlefield and Deploy them again elsewhere, following the general Deployment restrictions."
+    "Description": "At the beginning of ‘Vanguard Units’ (Battle Setup, step 3.F), you may remove units entirely with this Manifestation from the Battlefield and Deploy them again elsewhere, following the general Deployment restrictions."
   },
   {
     "Id": "dl-hammer_hand",
@@ -4341,7 +4353,7 @@
     "Id": "dl-horns_of_hubris",
     "Name": "Horns of Hubris",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-vanguard\">Vanguard(3\")</link></u>."
+    "Description": "<u><link=\"rulebook-vanguard\">Vanguard (3 Mob)</link></u>."
   },
   {
     "Id": "dl-golden_helm",
@@ -4503,7 +4515,7 @@
     "Id": "bh-fatal_folly",
     "Name": "Fatal Folly",
     "Type": "General",
-    "Description": "For each Melee Attack against the wielder’s model that rolls a to-hit roll of ‘1’, the wielder must perform a Standard Melee Attack at the end of the same Agility Step (this overrides the normal restriction that Beast Axe attacks always strike at Agility Step 0).\nThis attack can only be allocated towards the model or Health Pool that rolled the ‘1’ to hit."
+    "Description": "For each Standard Melee Attack allocated against the wielder’s model that results inato-hit rollof ‘1’, the wielder must perform a Standard Melee Attack at the end of the same Agility Step, before any casualties are removed.\nThis overrides the normal restriction that Beast Axe attacks always strikeat Agility Step 0.\nThis attack must be allocated towards the model’s Health Pool that rolled the ‘1’ to hit, and it does not count against the number of attacks the wielder’s model can make due to Restricted Attacks."
   },
   {
     "Id": "bh-aaghors_affliction",
@@ -4539,7 +4551,13 @@
     "Id": "bh-rain_augur_brew",
     "Name": "Rain Augur Brew",
     "Type": "General",
-    "Description": "Duration: One Turn. If the bearer is on the Battlefield, this item is automatically activated at the start of the first Game Turn, if not it has no effect.\nAll Ranged Attacks suffer −1 to hit"
+    "Description": "One use only. Duration: OneTurn. If the bearer is on the Battlefield, this item is automatically activated at the start of the first Game Turn, if not it has no effect.\nAll Ranged Attacks suffer −1 to hit."
+  },
+  {
+    "Id": "bh-spirit_caller_s_harm",
+    "Name": "Spirit Caller’s Charm",
+    "Type": "General",
+    "Description": "<u><link=\"rulebook-channel\">Channel (2)</link></u>."
   },
   {
     "Id": "bh-pillager_icon",
@@ -4551,19 +4569,13 @@
     "Id": "bh-seed_of_the_dark_forest",
     "Name": "Seed of the Dark Forest",
     "Type": "General",
-    "Description": "During Pre-game Selections, place a Forest:\n   • Touching your Deployment Zone.\n   • Not in contact with any Terrain Feature.\nThis Forest is a 10\"×6\" rectangle, that can not be chosen for Primary- or Secondary Objectives.\nFriendly units entirely with Pack Tactics treat this Forest as part of their Deployment Zone, for the purpose of where they can be Deployed.\nA unit that starts the game in contact with this Forest cannot declare a Charge in the first Player Turn of the first Game Turn."
+    "Description": "One use only. Duration: Permanent.\nDuring Pre-game Selections, place a Forest:\n• Touching your Deployment Zone.\n• Not in contact with any Terrain Feature.\nThis Forest is a 10\"×6\" rectangle, that can not be chosen for Primary- or Secondary Objectives.\nFriendly units entirely with Pack Tactics treat this Forest as part of their Deployment Zone, for the purpose of where they can be Deployed.\nA unit that starts the game in contact with this Forest cannot declare a Charge in the first Player Turn of the first Game Turn."
   },
   {
     "Id": "bh-horn_of_bragh",
     "Name": "Horn of Bragh",
     "Type": "General",
     "Description": "<u><link=\"rulebook-dying_blow\">Dying Blow</link></u> and <u><link=\"rulebook-fury\">Fury</link></u>."
-  },
-  {
-    "Id": "bh-eye_of_dominance",
-    "Name": "Eye of Dominance",
-    "Type": "General",
-    "Description": "The bearer gains <u><link=\"rulebook-distracting\">Distracting(2, against Beasts and Mounts)</link></u>."
   },
   {
     "Id": "bh-crown_of_madness",
@@ -4632,6 +4644,12 @@
     "Description": "-1St, -1AP, +1 Re"
   },
   {
+    "Id": "bh-giant_see_giant_do",
+    "Name": "Giant See, Giant Do",
+    "Type": "Global",
+    "Description": "Duration: Permanent.\nThe model gains <u><link=\"bh-drunkard\">Drunkard</link></u> and <u><link=\"rulebook-strider\">Strider (Forest)</link></u>.\nAt the end of a friendly Movement Phase, if the model is in contact with a Forest, it may lose all its current weapons and gain <u><link=\"bh-uprooted_tree\">Uprooted Tree</link></u>."
+  },
+  {
     "Id": "eos-cannon",
     "Name": "Cannon",
     "Type": "General",
@@ -4677,7 +4695,7 @@
     "Id": "eos-imperial_authority",
     "Name": "Imperial Authority",
     "Type": "General",
-    "Description": "At the start of each friendly Player Turn, each model with Imperial Authority may select one Order and apply it to a single unit. Duration: One Turn. The target unit must:\n\n • Be a <u><link=\"eos-parent_unit\">Parent</link></u> or <u><link=\"eos-support_unit\">Support Unit</link></u>.\n • Be the model's own unit or be within Range of the model's <u><link=\"rulebook-commading_presence\">Commanding Presence</link></u> or <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u> (if it has one of these rules).\n • The chosen target cannot already be under the effect of an Order.\n\nOrders\t\t\tEffect:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u>\tThe target gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>.\n • <u><link=\"eos-on_the_double\">On The Double!</link></u>\t\tThe target gains +1\" Cha and +2\" Mob.\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u>\tThe target gains <u><link=\"rulebook-accurate\">Accurate</link></u>.\n • <u><link=\"eos-steady_men\">Steady, Men!</link></u>\t\tThe target gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>, and its <u><link=\"courage_tests\">Courage Tests</link></u> are Minimised."
+    "Description": "At the start of each friendly Player Turn, each model with Imperial Authority may select one Order and apply it to a single unit. Duration: One Turn. The target unit must:\n\n • Be a <u><link=\"eos-parent_unit\">Parent</link></u> or <u><link=\"eos-support_unit\">Support Unit</link></u>.\n • Be the model's own unit or be within Range of the model's <u><link=\"rulebook-commading_presence\">Commanding Presence</link></u> or <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u> (if it has one of these rules).\n • The chosen target cannot already be under the effect of an Order.\n\nOrders\t\t\tEffect:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u>\tThe target gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u> and <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>.\n • <u><link=\"eos-on_the_double\">On The Double!</link></u>\t\tThe target gains +1\" Cha and +2\" Mob.\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u>\tThe target gains <u><link=\"rulebook-accurate\">Accurate</link></u>.\n • <u><link=\"eos-steady_men\">Steady, Men!</link></u>\t\tThe target gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>, and its <u><link=\"courage_tests\">Courage Tests</link></u> are Minimised."
   },
   {
     "Id": "eos-long_rifle",
@@ -4737,13 +4755,13 @@
     "Id": "eos-death_warrant",
     "Name": "Death Warrant",
     "Type": "General",
-    "Description": "+X Att, +X Str, and +X AP, where X is the number of friendly <u><link=\"eos-parent_unit\">Parent Unit</link></u> and <u><link=\"eos-support_unit\">Support Unit</link></u> of Height 1 (including the bearer's unit if applicable) Engaged in the same Combat as the wielder."
+    "Description": "+1 Att, +1 Str, and +1 AP, for each friendly <u><link=\"rulebook-parent_unit\">Parent Units</link> and <u><link=\"rulebook-support_unit\">Support Units</link> of Height 1 Engaged in the same Combat, including the wielder’s unit if applicable."
   },
   {
     "Id": "eos-hammer_of_witches",
     "Name": "Hammer of Witches",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-afflict\">Afflict</link></u>(-1 <u><link=\"rulebook-channel\">channel</link></u>). After determining the number of hits, a single hit (chosen by the attacker) has its Strength and Armour Penetration multiplied by two, and gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>."
+    "Description": "Att set to 5.\nIn addition, the wielder benefits from +1 Str, and +1 AP when attacking a unit containing a model with a <u><link=\"rulebook-learned_spell\">Learned Spell</link>, or a unit that is under the effect of a spell with type Augment."
   },
   {
     "Id": "eos-imperial_seal",
@@ -4755,7 +4773,7 @@
     "Id": "eos-blacksteel",
     "Name": "Blacksteel",
     "Type": "General",
-    "Description": "+1 Arm, and if the wearer is without Mount, it gains an additional +1 Arm. <u><link=\"rulebook-immune\">Immune</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)"
+    "Description": "+1 Arm, and if the wearer is without Mount, it gains an additional +1 Arm."
   },
   {
     "Id": "eos-witchfire_guard",
@@ -4803,7 +4821,7 @@
     "Id": "eos-exemplars_flame",
     "Name": "Exemplar's Flame",
     "Type": "General",
-    "Description": "The bearer can cast Corruption of Tin (Alchemy) as a Bound Spell(5+)."
+    "Description": "The bearer can cast Corruption of Tin (Alchemy) as a Bound Spell (3+)."
   },
   {
     "Id": "eos-ullors_horn",
@@ -4815,13 +4833,13 @@
     "Id": "eos-scroll_of_conquest",
     "Name": "Scroll of Conquest",
     "Type": "General",
-    "Description": "Friendly units within 6\" of the bearer must reroll failed Charge Range rolls."
+    "Description": "Units within 6\" of the bearer must reroll failed Charge Range rolls."
   },
   {
     "Id": "eos-brace_for_impact",
     "Name": "Brace For Impact!",
     "Type": "General",
-    "Description": "The target gains Fight in Extra Rank."
+    "Description": "The target gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u> and <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>."
   },
   {
     "Id": "eos-on_the_double",
@@ -4881,25 +4899,25 @@
     "Id": "he-master_of_canreig_tower",
     "Name": "Master of Canreig Tower",
     "Type": "General",
-    "Description": "The model gains <u><link=\"he-master_of_spellcrafting\">Master of Spellcrafting</link></u>, <u><link=\"rulebook-protean_magic\">Protean Magic (3)</link></u>, <u><link=\"rulebook-wizard_apprentice\">Wizard Apprentice</link></u>.\nThe model has these Paths of Magic available: Alchemy, Cosmology, Druidism, Evocation, Shamanism, Witchcraft."
+    "Description": "The model gains <u><link=\"he-master_of_spellcrafting\">Master of Spellcrafting</link></u> and <u><link=\"rulebook-wizard_conclave\">Wizard Conclave (3)</link></u>.\n\nThe model has these spells available: Altered Sight, Mind Fog, Favour of Meladys, Fountain of Youth, Living Steel, Predator’s Instinct, and Whispers of the Veil."
   },
   {
     "Id": "he-queens_cavalier",
     "Name": "Queen's Cavalier",
     "Type": "General",
-    "Description": "The model part gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (+1 Att, +1 Off) and the model’s unit may reroll failed Charge Range rolls.\n\nIf the model has Height 5, Regal Dragon and Ancient Dragon replace their Ancient Allies (2) with Ancient Allies (1), and Phoenix replace Ancient Allies (1) with Ancient Allies (2)."
+    "Description": "The bearer gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (+1 Att, +1 Off) and the bearer’s unit may reroll failed Charge Range rolls.\n\nIf the model has Height 5, Regal Dragon and Ancient Dragon replace their Ancient Allies (2) with Ancient Allies (1), and Phoenix replace Ancient Allies (1) with Ancient Allies (2)."
   },
   {
     "Id": "he-fleet_officer",
     "Name": "Fleet Officer",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-resolute\">Resolute(+1)</link></u> and <u><link=\"rulebook-strider\">Strider</link></u> (Water). The model part also gains <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u> and, if using a Longbow, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>.\n\nnUnless the model is Shaken, Panic Tests taken by friendly units containing Elf within 12\" of this model are Minimised"
+    "Description": "The model gains <u><link=\"rulebook-resolute\">Resolute</link></u> and <u><link=\"rulebook-strider\">Strider</link></u> (Water).\nIf the models unit contains a model that already has <link=\"rulebook-resolute\">Resolute</link></u>  from another source, the unit is considered to have two additional <link=\"rulebook-proper_ranks\">Proper Ranks</link></u>  instead of one.\nThe bearer also gains <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u> and, if using a Longbow, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "he-grandmaster_of_the_sword",
     "Name": "Grandmaster of the Sword",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-first_strike\">First Strike</link></u>(+1 Def, +1 Off) and <u><link=\"rulebook-resistance\">Sword Sworn</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-first_strike\">First Strike</link></u>(+1 Def, +1 Off), and <u><link=\"rulebook-resistance\">Sword Sworn</link></u>.\nWhile joined to a unit containing Sword Masters, the model’s unit benefits from +1 Agi."
   },
   {
     "Id": "he-high_warden_of_the_flame",
@@ -4917,7 +4935,7 @@
     "Id": "he-royal_huntsman",
     "Name": "Royal Huntsman",
     "Type": "General",
-    "Description": "The model must take Great Weapon and cannot take Shield.\nThe model gains <u><link=\"he-lions_fur\">Lion's Fur</link></u>, <u><link=\"he-valiant\">Valiant</link></u>, and the model part gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2, towards Height 4-5)."
+    "Description": "The model must take Great Weapon and cannot take Shield.\nThe model gains <u><link=\"he-lions_fur\">Lion's Fur</link></u>, <u><link=\"he-valiant\">Valiant</link></u>, and the bearer gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>(2, towards Height 4-5). While joined to a unit containing Lion Guards, the model’s unit benefits from <u><link=\"rulebook-swiftstride\">Swiftstride.</link></u>"
   },
   {
     "Id": "he-asfad_scholar",
@@ -4959,7 +4977,7 @@
     "Id": "he-gleaming_robe",
     "Name": "Gleaming Robe",
     "Type": "General",
-    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(3+).\nArmour is set to 1 and can never be improved beyond this.\nIf the wearer Miscasts and rolls Witchfire, the number of hits is halved (rounding fractions up) for the wearer and its unit."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u>(3+).\nArmour is set to 1 and can never be improved beyond this.\nIf the wearer Miscasts and suffers Witchfire, the number of hits is halved (rounding fractions up) for the wearer and its unit."
   },
   {
     "Id": "he-protection_of_dorac",
@@ -5007,7 +5025,7 @@
     "Id": "he-scroll_of_the_pearl_throne",
     "Name": "Scroll of the Pearl Throne",
     "Type": "General",
-    "Description": "Choose a Magic Item from an enemy unit that is in contact with the bearer. This Magic Item is ignored and ceases to be an Enchanted item. Duration:Permanent.\nNote: it still provides its mundane effects."
+    "Description": "One use only. Duration: Round of Combat.\n Choose a Magic Item from an enemy unit that is in contact with the bearer. This Magic Item is ignored.\nNote: If it was an Enchanted Weapon or Enchanted Shield, the mundane effects of the Weapon or Shield can still be used."
   },
   {
     "Id": "he-diadem_of_protection",
@@ -5034,6 +5052,13 @@
     "Description": "Order of the Fiery Heart"
   },
   {
+    "Id": "koe-flickering_lights",
+    "Name": "Flickering Lights",
+    "Type": "General",
+    "Description": "Friendly units entirely with Height1 and within 3″ of the model are considered to be in SoftCover."
+  },
+
+  {
     "Id": "koe-hooded_men",
     "Name": "Hooded Men",
     "Type": "General",
@@ -5055,7 +5080,7 @@
     "Id": "koe-solemn_oath",
     "Name": "Solemn Oath",
     "Type": "General",
-    "Description": "The restriction on the maximum number of Proper Ranks for Rank Bonus purposes from Lance Formation is increased to four for the bearer´s unit."
+    "Description": "The model benefits from Courageous while affected by a friendly model’s Commanding Presence"
   },
   {
     "Id": "koe-knights_forlorn",
@@ -5199,7 +5224,7 @@
     "Id": "koe-orisons",
     "Name": "Orisons",
     "Type": "General",
-    "Description": "During Pre-game Selections, a Kingdom of Equitaine army creates a pool of Blessing Tokens: one Blessing Token for each unit in your Army List with Holy Vows. There can never be more than 6 tokens in the pool.\nIn each Magic Phase, immediately after Siphon the Veil, Blessing Tokens can be used, spent as follows: discard a Token, choose a friendly unit, and apply one of the following Orisons to it. All effects have Duration : One Turn.\n\n  •  Orison of Shielding: Aegis(5+).\n\n  •  Orison of Striking: Magical Attacks, ignore Parry, and +2 Off. Model parts with Mount are not affected.\n\n  •  Orison of Discipline: Discipline is set to 9.\n\nNo unit or model can be affected by more than one of the above effects simultaneously unless specifically stated otherwise. Applying an Orison to a unit or model cancels any Orisons previously applied to it."
+    "Description": "During Pre-game Selections, a Kingdom of Equitaine army creates a pool of Blessing Tokens: one Blessing Token for each unit in your Army List with Holy Vows. There can never be more than 6 tokens in the pool. Blessing Tokens can be used in each Magic Phase, at any time before ‘Casting and Dispelling Spells’ (Magic Phase, step 5): discard a Token, choose a friendly unit anywhere on the battlefield, and grant one of the following Model Rules. All those effects have Duration: One Turn.\n\n•  Orison of Discipline: Discipline is set to 9.\n\n•  Orison of Shielding: Aegis(5+).\n\n•  Orison of Striking: +2 Off, Magical Attacks, and ignore Parry. Model parts with Mount are not affected.\n\n\nNo model can be affected by more than one of the above effects simultaneously unless specifically stated.\nApplying an Orison to a model cancels any Orisons previously applied to it, unless specifically stated that it can be affected by themsimultaneously."
   },
   {
     "Id": "koe-breath_of_the_lady",
@@ -5289,13 +5314,13 @@
     "Id": "koe-sacred_chalice",
     "Name": "Sacred Chalice",
     "Type": "General",
-    "Description": "The bearer gains Magic Resistance(1). Whenever the bearer’s unit is the target of an enemy Spell the bearer gains Channel(1) until the end of following Magic Phase."
+    "Description": "The bearer gains Magic Resistance(1).\nIn addition, each time the bearer’s unit is the target of an enemy Spell, the bearer gains Channel(1) until the end of following Magic Phase."
   },
   {
     "Id": "koe-black_knights_tonic",
     "Name": "Black Knight's Tonic",
     "Type": "General",
-    "Description": "The first time the bearer’s model suffers an unsaved wound from an attack with Multiple Wounds(X), the model gains Immune(Multiple Wounds) until the end of the phase."
+    "Description": "One use only. Duration: One Phase.\nThe first time the bearer’s model suffers an unsaved wound from an attack with Multiple Wounds(X), the model gains Immune (Multiple Wounds)."
   },
   {
     "Id": "koe-orison_of_discipline",
@@ -5379,7 +5404,7 @@
     "Id": "ok-firebrand",
     "Name": "Firebrand",
     "Type": "General",
-    "Description": "Breath Attack(Str 4, AP 0, Flaming Attacks), Flaming Attacks, Resistance(Flaming Attacks). The model can cast Fireball (Pyromancy) as a Bound Spell(3+) and automatically fails all Regeneration Saves."
+    "Description": "Breath Attack (Str 4, AP 0, Flaming Attacks), Flaming Attacks, Resistance (Flaming Attacks). The model can cast Dragon's Roar (Pyromancy) as a Bound Spell (5+)."
   },
   {
     "Id": "ok-gut_roarer",
@@ -5403,7 +5428,7 @@
     "Id": "ok-scraplord",
     "Name": "Scraplord",
     "Type": "General",
-    "Description": "Commanding Presence (12\", Scrapling). As long as the model is joined to a unit of Scraplings, the model counts as being of the same Height as its unit for the purposes of allocating Ranged Attacks (this includes Special Attacks)."
+    "Description": "Commanding Presence (12\", Scrapling).\nUnits with Scrapling property lose Unruly as long as the bearer is on the Battlefield.\nAs long as the model is joined to a unit of Scraplings, its model counts as being of the same Height as its unit for the purposes of allocating Ranged Attacks."
   },
   {
     "Id": "ok-children_of_umi",
@@ -5433,7 +5458,7 @@
     "Id": "ok-ritual_bloodletter",
     "Name": "Ritual Bloodletter",
     "Type": "General",
-    "Description": "+1 Att. While the wielder's unit is Engaged in Combat, the wielder must reroll Magic Dice that rolled ‘1’ for its casting attempts."
+    "Description": "+1 Att. While the wielder's unit is Engaged in Combat, the wielder can cast Blood Curse Hand of Glory (Occultism) as a Bound Spell (5+)."
   },
   {
     "Id": "ok-wrestlers_belt",
@@ -5523,25 +5548,25 @@
     "Id": "sa-corrosive_spitter",
     "Name": "Corrosive Spitter",
     "Type": "General",
-    "Description": "One use only. Choose one of the effects below to apply for until the end of the Player Turn. All models in the unit must choose and activate the same effect simultaneously.\n  •  May be activated when Choosing Equipment and Abilities. The model gains Grind Attack(1, Str 2, AP 3, Unmodifiable). When in the second rank and not in contact with any enemy model, the model can make the Grind Attack across models in the first rank directly in front of it.\n  •  May be activated in the Shooting Phase. The model gains the following Shooting Weapon:\nAim 1+, Range 6\", Shots 2, Str 2, AP 3, Accurate, March and Shoot"
+    "Description": "One use only. Choose one of the effects below to apply for until the end of the Player Turn. All models in the unit must choose and activate the same effect simultaneously.\n  •  May be activated when Choosing Equipment and Abilities. The model gains Grind Attack (1, Str 2, AP 3, Unmodifiable); if it is in the second rank and not in contact with any enemy model, the model can make its Grind Attack across models in the first rank directly in front of it.\n  •  May be activated in the Shooting Phase. The model gains the following Shooting Weapon:\nAim 1+, Range 6\", Shots 2, Str 2, AP 3, Accurate, March and Shoot"
   },
   {
     "Id": "sa-master_strategist",
     "Name": "Master Strategist",
     "Type": "General",
-    "Description": "While joined to a unit consisting entirely of Height 1 Skinks, the unit gains Feigned Flight, Vanguard."
+    "Description": "While joined to a unit consisting entirely of Height 1 Skinks, the unit gains <u><link=\"rulebook-feigned_flight\">Feigned Flight</link></u>,<u><link=\"rulebook-hit_and_run\"> Hit and Run</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
   },
   {
     "Id": "sa-great_protector",
     "Name": "Great Protector",
     "Type": "General",
-    "Description": "The model gains Exclusive(Tegu Warriors), War Platform and it loses Stubborn. In addition, all Rank-and-File models in the model's unit gain Parry."
+    "Description": "The model gains Exclusive (Tegu Warriors), War Platform and it loses Stubborn. In addition, all Rank-and-File models in the model's unit gain Parry."
   },
   {
     "Id": "sa-venomous_fortress",
     "Name": "Venomous Fortress",
     "Type": "General",
-    "Description": "The model’s base size is changed to 60×100 mm and it gains 6 additional Skink Riders. Exclusive(Tegu Warriors) is replaced with Exclusive(Skink Warriors, Skink Hunters). Model parts with Skink in the bearer’s unit gain First Strike(Hatred), Poison Attacks."
+    "Description": "The model’s base size is changed to 60×100 mm and it gains 6 additional Skink Riders. The rule Exclusive (Tegu Warriors) is replaced with Exclusive (Skink Warriors, Skink Hunters).\nModel parts with Skink in the bearer’s unit gain First Strike (Hatred), Poison Attacks."
   },
   {
     "Id": "sa-spearback",
@@ -5571,13 +5596,13 @@
     "Id": "sa-farseeing_mastery",
     "Name": "Farseeing Mastery",
     "Type": "General",
-    "Description": "Learned Spells cast by the model gain +6\" Range. Aura Spells gain +3\" Range instead."
+    "Description": "Learned Spells cast by the model gain +6\" Range (spells with Type \"Aura\" gain +3\" Range instead)."
   },
   {
     "Id": "sa-forbidden_mastery",
     "Name": "Forbidden Mastery",
     "Type": "General",
-    "Description": "Select either Pyromancy, Occultism; the model knows two additional spells from the chosen Path, which must be selected from the Apprentice Spell and Adept Spells (#1--#4). Casting Rolls for these spells suffer a -1 modifier."
+    "Description": "Select either Occultism or Pyromancy: the model knows one additional spell from the chosen Path, which must be selected from the Apprentice Spell and Adept Spells (#1-#4)."
   },
   {
     "Id": "sa-eternal_mastery",
@@ -5649,7 +5674,7 @@
     "Id": "sa-monolith_of_vitalism",
     "Name": "Monolith of Vitalism",
     "Type": "General",
-    "Description": "The model gains Rally Around the Flag."
+    "Description": "The model gains BeaconofCourage."
   },
   {
     "Id": "sa-suncatcher_crystal",
@@ -5661,7 +5686,7 @@
     "Id": "sa-lodestone_shield",
     "Name": "Lodestone Shield",
     "Type": "General",
-    "Description": "Friendly units within 8\" of the model gain Aegis(5+, against Ranged Attacks)."
+    "Description": "Friendly units within 8\" of the model benefit from Aegis (5+, against Ranged Attacks)."
   },
   {
     "Id": "sa-magnetic_great_bow",
@@ -5673,7 +5698,7 @@
     "Id": "sa-carved_wisdom",
     "Name": "Carved Wisdom",
     "Type": "General",
-    "Description": "Select one of the following spells as a Bound Spell. It may not be changed during Pre-Game Selections.\n\t\t Fate's Judgement=free as Bound Spell(3+), \n\t\t Molten Copper=free as Bound Spell(4+), \n\t\t Swarm of Insects=free as Bound Spell(5+), \n\t\t Touch of the Reaper=free as Bound Spell(3+),"
+    "Description": "Select one of the following spells as a Bound Spell. It may not be changed during Pre-Game Selections.\n\n• Silver Spike (Alchemy) (4+),\n• Fate’s Judgement (Divination) (4+),\n• Touch of the Reaper (Evocation) (4+),\n• Swarm of Insects (Shamanism) (5+)."
   },
   {
     "Id": "sa-lodestone",
@@ -5691,7 +5716,7 @@
     "Id": "sa-glory_of_the_dawn_age",
     "Name": "Glory of the Dawn Age",
     "Type": "General",
-    "Description": "+1 Str and Lethal Strike. Natural to-wound rolls of ‘6’ gain Multiple Wounds(2)."
+    "Description": "The wielder benefits from an increase to: Str, AP and Att by 1 for every spell with ‘Duration: One Turn’ currently affecting the wielder's model and/or enemy units in contact with thew ielder.\nNote: Number of spells is determined at the start of the wielder's Agility Step."
   },
   {
     "Id": "sa-serpents_nest_charm",
@@ -5727,7 +5752,7 @@
     "Id": "sa-koru_stone",
     "Name": "Koru Stone",
     "Type": "General",
-    "Description": "The bearer's unit gains Rally Around the Flag."
+    "Description": "The bearer's unit gains Beacon of Courage."
   },
   {
     "Id": "sa-obelisk_of_collaboration",
@@ -5739,19 +5764,19 @@
     "Id": "sa-te_aupouri_smokestone",
     "Name": "Te Aupouri Smokestone",
     "Type": "General",
-    "Description": "May be activated when a friendly unit fails a Break Test (after any rerolls). Until the end of the phase, enemy units within 18\" of the bearer have their Charge Range, Pursuit Distance, and Overrun Distance rolls Minimised."
+    "Description": "One use only. Duration: End of Turn.\nMay be activated when a friendly unit fails a Break Test (after any rerolls). Until the end of the phase, enemy units within 18\" of the bearer have their Charge Range, Pursuit Distance, and Overrun Distance rolls Minimised."
   },
   {
     "Id": "sa-ancient_plaque",
     "Name": "Ancient Plaque",
     "Type": "General",
-    "Description": "The first time each Magic Phase that the bearer fails a Casting Roll for a Learned Spell, if no other friendly Wizard has made a Casting Roll this phase, the bearer may reroll all Magic Dice for this Casting Roll."
+    "Description": "The first time each Magic Phase that the bearer fails a Casting Roll for a Learned Spell, it may reroll all Magic Dice for this Casting Roll, provided no other friendly Wizard has made a Casting Roll during this phase."
   },
   {
     "Id": "sa-stampede_resonator_crystal",
     "Name": "Stampede Resonator Crystal",
     "Type": "General",
-    "Description": "May be activated at the start of any Charge Phase. Choose one friendly unit containing models with Height 4 or 5 within 18\". The chosen unit loses Stomp Attack and gains Impact Hits(X), where X is equal to its amount of hits from its Stomp Attack. If a model already had Impact Hits, increase the number of hits by its amount of Stomp Attack instead."
+    "Description": "One use only. Duration: End of Turn. May be activated when a friendly unit fails a BreakTest (after any rerolls): enemy units within 18″ of the bearer have their Charge Range, Pursuit Distance, and Overrun Distance rolls Minimised."
   },
   {
     "Id": "sa-carved_tablet",
@@ -5769,7 +5794,7 @@
     "Id": "sa-greater_guiding_mastery",
     "Name": "Greater Guiding Mastery",
     "Type": "General",
-    "Description": "Friendly Models containing Magnasaur in nits within 12″ of Anurarch Destined benefit from <u><link=\"sa-pack_hunter\">Pack Hunter</link></u>."
+    "Description": "At the start of each friendly Player Turn, the model may choose a friendly unit entirely with Magnasaur within 12″: the unit must reroll failed Charge Range rolls and loses <u><link=\"rulebook-frenzy\">Frenzy</link></u> (if it has it), with Duration: One Turn."
   },
   {
     "Id": "sa-like_the_tyrants_of_old",
@@ -5817,7 +5842,7 @@
     "Id": "se-heath_hunters",
     "Name": "Heath Hunters",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"feigned_flight\">Feigned Flight</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-vanguard\">Vanguard</link></u>, <u><link=\"light_lance\">Light Lance</link></u>, and <u><link=\"se-sylvan_bow\">Sylvan Bow (3+)</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-feigned_flight\">Feigned Flight</link></u>, <u><link=\"rulebook-hit_ and_run\">Hit and Run</link></u> <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-vanguard\">Vanguard</link></u>, <u><link=\"rulebook-light_lance\">Light Lance</link></u>, and <u><link=\"se-sylvan_bow\">Sylvan Bow (3+)</link></u>."
   },
   {
     "Id": "se-the_forest_follows",
@@ -5841,13 +5866,13 @@
     "Id": "se-pathfinder",
     "Name": "Pathfinder",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"rulebook-scout\">Scout</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
+    "Description": "The model gains <u><link=\"se-forests_thorns\">Forest’s Thorns</link></u>, <u><link=\"rulebook-scout\">Scout</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nA <u><link=\"se-sylvan_bow\">Sylvan Bow</link></u> wielded by the model has its number of Shots set to 3 if the wielder is a Chieftain with Captain, to 5 otherwise."
   },
   {
     "Id": "se-forest_guardian",
     "Name": "Forest Guardian",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nMoreover, the model, as well as Rank-and-File models in its unit, gains <u><link=\"rulebook-first_strike\">First Strike(Hatred)</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-vanguard\">Vanguard</link></u>.\nMoreover, the model, as well as any Rank-and-File model in its unit, gains <u><link=\"rulebook-first_strike\">First Strike(Hatred)</link></u>."
   },
   {
     "Id": "se-blade_dancer",
@@ -5865,7 +5890,7 @@
     "Id": "se-entangling_vines",
     "Name": "Entangling Vines",
     "Type": "Equipment",
-    "Description": "The model gains <u><link=\"se-impaling_roots\">Impaling Roots</link></u> (if it did not already have it). In addition, the model gains the following model rule: Duration: End of Combat. When Choosing Equipment and Abilities; choose one enemy Character model in contact with the wielder. Melee Attacks from the chosen model must reroll successful to-hit rolls against the wielder"
+    "Description": "The model gains <u><link=\"se-impaling_roots\">Impaling Roots</link></u> (if it did not already have it).\nIn addition, the model gains the following model rule, with Duration: Rond of Combat. When Choosing Equipment and Abilities, choose one enemy Character model in contact with the wielder: Melee Attacks from the chosen model must reroll successful to-hit rolls against the wielder."
   },
   {
     "Id": "se-toxic_spores",
@@ -5901,7 +5926,7 @@
     "Id": "se-spirit_arrows",
     "Name": "Spirit Arrows",
     "Type": "Description",
-    "Description": "When attacking with this weapon, before rolling to hit; choose one model with <u><link=\"rulebook-channel\">Channel</link></u> in the target unit. The chosen model replaces its <u><link=\"rulebook-channel\">Channel(X)</link></u> with <u><link=\"rulebook-channel\">Channel(X-1)</link></u>, with Duration: One Turn."
+    "Description": "When attacking with this weapon, before rolling to hit, choose one model with <u><link=\"rulebook-channel\">Channel</link></u> in the target unit.\nThe chosen model replaces its rule <u><link=\"rulebook-channel\">Channel (X)</link></u> with <u><link=\"rulebook-channel\">Channel (X-1)</link></u>, with Duration: One Turn."
   },
   {
     "Id": "se-bough_of_wyscan",
@@ -5913,7 +5938,7 @@
     "Id": "se-hunters_honour",
     "Name": "Hunter's Honour",
     "Type": "Equipment",
-    "Description": "+1 Str and +1 AP.\nIf the wielder causes at least one HP loss with this weapon, the wielder and all Rank-and-File models in its unit gain <u><link=\"rulebook-distracting\">Distracting(1)</link></u> until the end of the Round of Combat."
+    "Description": "+1 Str and +1 AP.\nIf the wielder causes any HP loss with this weapon, the wielder and all Rank-and-File models in its unit gain <u><link=\"rulebook-distracting\">Distracting (1)</link></u> with Duration: Round of Combat."
   },
   {
     "Id": "se-spirit_of_the_whirlwind",
@@ -5937,7 +5962,7 @@
     "Id": "se-banner_of_deception",
     "Name": "Banner of Deception",
     "Type": "Equipment",
-    "Description": "At the beginning of step 3.5 of Battle Preparations (“Defender’s Advantage”), the owner may remove the bearer’s unit from the Battlefield and redeploy it in a new formation following the usual restrictions. Attached models remain Attached"
+    "Description": "At the beginning of ‘Vanguard Units’ (Battle Setup, step 3.F), the owner may remove the bearer’s unit from the Battlefield and redeploy it in a new formation following the usual restrictions. Attached models remain Attached"
   },
   {
     "Id": "se-banner_of_silent_mist",
@@ -5973,7 +5998,7 @@
     "Id": "se-song_of_cenyrn",
     "Name": "Song of Cenyrn",
     "Type": "Equipment",
-    "Description": "May be activated when the bearer’s unit Declares a Charge. The target of the Charge can only declare Hold! as its Charge Reaction, unless it is <u><link=\"rulebook-shaken\">Shaken</link></u>.\nThe enemy unit may still declare Charge Reactions as normal if charged by other units."
+    "Description": "One use only. Duration: One Phase.\nMay be activated when the bearer’s unit Declares a Charge. The target of the Charge can only declare Hold! as its Charge Reaction, unless it is <u><link=\"rulebook-shaken\">Shaken</link></u>.\nThe enemy unit may still declare Charge Reactions as normal if charged by other units."
   },
   {
     "Id": "se-horn_of_the_wild_hunt",
@@ -6213,7 +6238,7 @@
     "Id": "vc-black_standard_of_zagvozd",
     "Name": "Black Standard of Zagvozd",
     "Type": "General",
-    "Description": "Melee Attacks made, by Skeleton model parts without Mount , in the bearer’s unit gain +1 to-hit."
+    "Description": "Melee Attacks made, by Skeleton model parts without Mount, in the bearer’s unit gain +1 to-hit."
   },
   {
     "Id": "vc-banner_of_eldritch_might",
@@ -6351,7 +6376,7 @@
     "Id": "ud-tomb_architect",
     "Name": "Tomb Architect",
     "Type": "General",
-    "Description": "At the beginning of ‘Defender’s Advantage’ (‘Battle Setup, step 3.5’), and at the start of each friendly Player Turn, choose a friendly unit containing Statue within 18\": all models with Statue gains <u><link=\"rulebook-regeneration\">Regeneration</link></u> (5+). Duration: One Turn."
+    "Description": "At the beginning of 'Vanguard Units' (Battle Setup, step 3.F), and at the start of each friendly Player Turn, choose a friendly unit containing Statue within 18″: all models with Statue gains Regeneration (5+)."
   },
   {
     "Id": "ud-commander_of_the_terracotta_army",
@@ -6489,7 +6514,7 @@
     "Id": "ud-kherp_sceptre",
     "Name": "Kherp Sceptre",
     "Type": "General",
-    "Description": "The wielder gains <u><link=\"ud-hierophant\">Hierophant</link></u>.\nIn addition, the wielder can cast Danse Macabre (Evocation) as a Bound Spell(5+)."
+    "Description": "The wielder gains <u><link=\"ud-hierophant\">Hierophant</link></u>.\nIn addition, the wielder can cast Danse Macabre (Evocation) as a Bound Spell (3+)."
   },
   {
     "Id": "ud-blessed_wrappings",
@@ -6498,10 +6523,10 @@
     "Description": "The bearer gains +1 HP and loses one instance of <u><link=\"rulebook-weakness\">Weakness</link></u>(<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
-    "Id": "ud-icon_of_reflection",
-    "Name": "Icon of Reflection",
+    "Id": "ud-envoys_banner",
+    "Name": "Envoy’s Banner",
     "Type": "General",
-    "Description": "One use only. You may activate this Banner Enchantment when a spell is successfully cast on the bearer’s unit: immediately duplicate the effect of the spell on another friendly unit within 6\" of the bearer’s unit, as it had also been successfully cast on this unit following the spells normal targeting restrictions, except Range. This does not trigger <u><link=\"ud-death_is_only_the_beginning\">Death is Only the Beginning</link></u> on the second unit."
+    "Description": "Autonomous.\nIn addition: One use only. Duration: One Turn. During a friendly Movement Phase, the bearer’s unit’s Mob is set to 8."
   },
   {
     "Id": "ud-sigil_of_the_closed_gates",
@@ -6525,7 +6550,7 @@
     "Id": "ud-scroll_of_desiccation",
     "Name": "Scroll of Desiccation",
     "Type": "General",
-    "Description": "During Pre-game Selections, choose a Field, Forest, or Water Terrain, that has not been placed during Pregame selections: it ceases to be the Terrain Feature it used to be and loses its Terrain Rules.\nIt becomes a Desert Terrain Feature with <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (6+) for all enemy units."
+    "Description": "One use only. Duration: Permanent.\nDuring Pre-game Selections, choose a Field, Forest, or Water Terrain, that has not been placed during Pregame selections: it ceases to be the Terrain Feature it used to be and loses its Terrain Rules.\nIt becomes a Desert Terrain Feature with <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> (6+) for all enemy units."
   },
   {
     "Id": "ud-master_of_stone_aura",
@@ -6576,6 +6601,14 @@
     "Description": "Rehnepeh gains +2 HP, <u><link=\"rulebook-distracting\">Distracting</link></u> and <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
   },
   {
+    "Id": "ud-in_your_name",
+    "Name": "In Your Name",
+    "Type": "General",
+    "Description": "The model benefits from <u><link=\"ud-fury\">Fury</link></u> while a Pharaoh or Nomarch is joined to its."
+  },
+
+
+  {
     "Id": "vs-underworld_beast",
     "Name": "Underworld Beast",
     "Type": "General",
@@ -6615,7 +6648,7 @@
     "Id": "vs-plague_flail",
     "Name": "Plague Flail",
     "Type": "General",
-    "Description": "Halberd, <u><link=\"rulebook-grind_attack\">Grind Attack</link></u>(1, <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>)"
+    "Description": "Halberd, <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> (1, <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>)"
   },
   {
     "Id": "vs-enlightened_by_favana",
@@ -6629,11 +6662,11 @@
     "Type": "General",
     "Description": "The model gains <u><link=\"rulebook-regeneration\">Regeneration</link></u>(4+), <u><link=\"rulebook-hard_target\">Hard Target</link></u>(1)."
   },
-  {
-    "Id": "vs-pestilent_pulpit",
+{
+    "Id": "er-pestilent_pulpit",
     "Name": "Pestilent Pulpit",
-    "Type": "General",
-    "Description": "The model gains <u><link=\"vs-diseased\">Diseased</link></u> and <u><link=\"rulebook-exclusive\">Exclusive</link></u> (Plague Cultists).\nThe model’s unit gains <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>.\nThe Chassis model part’s Agility is set to 4 and it gains <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+10 Agi) and <u><link=\"rulebook-grind_attack\">Grind Attack</link></u> (D3+1 hits)."
+    "Type": "Global",
+    "Description": "The model gains <u><link=\"vs-diseased\">Diseased</link></u> and <u><link=\"rulebook-exclusive\">Exclusive (Plague Cultists)</link></u>. The model’s unit gains <link=\"rulebook-poison_attacks\">Poison Attacks</link></u>.\nThe Chassis model part’s Agility is set to 4 and it gains <link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+10 Agi) and <link=\"rulebook-grind_attack\">Grind Attack (D3+1hits)</link></u>."
   },
   {
     "Id": "vs-canister_launcher",
@@ -6747,7 +6780,7 @@
     "Id": "vs-crown_of_hubris",
     "Name": "Crown of Hubris",
     "Type": "General",
-    "Description": "At the start of any friendly Magic Phase, the bearer may choose to inflict 3 HP losses on its unit.\nIf so done, the bearer gains <u><link=\"rulebook-channel\">Channel</link></u> (2) Duration: One Phase."
+    "Description": "At the start of any friendly Magic Phase, the bearer may choose to inflict 3 HP losses on its unit. If so, the bearer gains <u><link=\"rulebook-channel\">Channel</link></u> (2).\nDuration: One Phase."
   },
   {
     "Id": "vs-tarinas_lyre",
@@ -6852,10 +6885,10 @@
     "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
   },
   {
-    "Id": "dh-brothers_of_vengeance",
+    "Id": "dh-brothers_of_engeance",
     "Name": "Brothers of Vengeance",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>, <u><link=\"rulebook-light_troops\">Light Troops</link></u>, and <u><link=\"rulebook-skirmisher\">Skirmisher</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
   },
   {
     "Id": "dh-shrapnel_bombs",
@@ -6898,6 +6931,12 @@
     "Name": "Dwarf Cannon",
     "Type": "General",
     "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, <u><link=\"rulebook-area_attack\">Area Attack (1×3)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>)"
+  },
+  {
+    "Id": "dh-entrench",
+    "Name": "Entrench",
+    "Type": "General",
+    "Description": "All friendly Field Artillery units within 6″ of a model with Entrench benefit from <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>."
   },
   {
     "Id": "dh-organ_gun",
@@ -6999,7 +7038,7 @@
     "Id": "dh-rune_of_retribution",
     "Name": "Rune of Retribution",
     "Type": "General",
-    "Description": "When rolling a successful <u><link=\"rulebook-aegis\">Aegis</link></u> Save from <u><link=\"dh-shield_wall\">Shield Wall</link></u>, the model inflicts a hit with the same Strength and Armour Penetration as the attack that was saved, towards the Health Pool of the model that caused the wound (this occurs before any casualties are removed; these hits do not benefit from Weapon Rules or Runic Weapon Enchantments)."
+    "Description": "When a model successfully makes an <u><link=\"rulebook-aegis\">Aegis</link></u> Save from <u><link=\"dh-shield_wall\">Shield Wall</link></u>, it immediately inflicts 1 hit towards the Health Pool of the model that caused the wound , using the same Strength and Armour Penetration as the saved attack with <link=\"rulebook-automatic_his\">Automatic Hits</link></u>. This hit is resolved before any casualties are removed and does not benefit from Weapon Rules or Runic Weapon Enchantments."
   },
   {
     "Id": "dh-rune_of_the_forge",
@@ -7119,7 +7158,7 @@
     "Id": "dh-runic_standard_of_the_hold",
     "Name": "Runic Standard of the Hold",
     "Type": "General",
-    "Description": "The bearer's unit gains <u><link=\"rulebook-resolute\">Resolute(1)</link></u>."
+    "Description": "All models in the bearer’s unit gain <u><link=\"rulebook-resolute\">Resolute</link></u>. If the unit contains a model that already has <u><link=\"rulebook-resolute\">Resolute</link></u> from another source,the unit is considered to have two additional Proper Ranks instead of one."
   },
   {
     "Id": "dh-the_living_law",
@@ -7245,7 +7284,7 @@
     "Id": "wdg-entropic_aura",
     "Name": "Entropic Aura",
     "Type": "General",
-    "Description": "Ignore all the Weapon Enchantments, Armour Enchantments and Shield Enchantments in units that are in contact with the bearer , including his own, for as long as the units remain in contact with the bearer."
+    "Description": "Ignore all the Weapon Enchantments, Armour Enchantments and Shield Enchantments in units that are in contact with the bearer, including his own, for as long as the units remain in contact with the bearer."
   },
   {
     "Id": "wdg-luck_of_the_dark_gods",
@@ -7263,7 +7302,7 @@
     "Id": "wdg-dark_prelate",
     "Name": "Dark Prelate",
     "Type": "General",
-    "Description": "The model can cast  Blood Curse (Occultism) and Pentagram of Pain (Occultism) as a Bound Spell(5+)."
+    "Description": "The model can cast  Blood Curse (Occultism) and Pentagram of Pain (Occultism) as a Bound Spell (5+)."
   },
   {
     "Id": "wdg-master_of_destruction",
@@ -8793,7 +8832,7 @@
     "Id": "ls-wrath",
     "Name": "Wrath",
     "Type": "General",
-    "Description": "The model part gains First Strike(Hatred)."
+    "Description": "The model part gains First Strike (Hatred)."
   },
   {
     "Id": "rulebook-mount",

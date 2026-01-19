@@ -257,26 +257,6 @@
     ]
   },
   {
-    "Id": "68357f87790d8280c4b26489",
-    "Name": "Casket of Phatep",
-    "Attributes": {
-      "totalCost": "230",
-      "category": "Special",
-      "army": "Undying Dynasties",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f87790d8280c4b26489"
-    ]
-  },
-  {
     "Id": "68357f87790d8280c4b2648e",
     "Name": "Necropolis Guard",
     "Attributes": {
@@ -355,6 +335,32 @@
     ]
   },
   {
+    "Id": "68357f88790d8280c4b26579",
+    "Name": "Shabti Archers",
+    "Attributes": {
+      "totalCost": "10",
+      "category": "Special",
+      "army": "Undying Dynasties",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "79973dd5-811c-4431-a66a-0ed56a455455",
+      "8033142d-acab-4259-95e5-cbbbaeb0d66c"
+    ],
+    "ProfileIds": [
+      "68357f88790d8280c4b2657b"
+    ]
+  },
+  {
     "Id": "68357f88790d8280c4b26569",
     "Name": "Great Vultures",
     "Attributes": {
@@ -395,32 +401,6 @@
     ]
   },
   {
-    "Id": "68357f88790d8280c4b26579",
-    "Name": "Shabti Archers",
-    "Attributes": {
-      "totalCost": "10",
-      "category": "Special",
-      "army": "Undying Dynasties",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "79973dd5-811c-4431-a66a-0ed56a455455",
-      "8033142d-acab-4259-95e5-cbbbaeb0d66c"
-    ],
-    "ProfileIds": [
-      "68357f88790d8280c4b2657b"
-    ]
-  },
-  {
     "Id": "68357f88790d8280c4b265a0",
     "Name": "Sand Stalkers",
     "Attributes": {
@@ -445,6 +425,26 @@
     ]
   },
   {
+    "Id": "68357f87790d8280c4b26489",
+    "Name": "Casket of Phatep",
+    "Attributes": {
+      "totalCost": "230",
+      "category": "Special",
+      "army": "Undying Dynasties",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f87790d8280c4b26489"
+    ]
+  },
+  {
     "Id": "68357f88790d8280c4b265bc",
     "Name": "Charnel Catapult",
     "Attributes": {
@@ -465,13 +465,13 @@
     ]
   },
   {
-    "Id": "68357f89790d8280c4b265c2",
-    "Name": "Sand Scorpion",
+    "Id": "68357f89790d8280c4b265cb",
+    "Name": "Battle Sphinx",
     "Attributes": {
-      "totalCost": "140",
-      "category": "Entombed",
+      "totalCost": "460",
+      "category": "Mason's Menagerie",
       "army": "Undying Dynasties",
-      "height": "Large",
+      "height": "Gigantic",
       "type": "",
       "defaultFront": "1"
     },
@@ -481,7 +481,7 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357f89790d8280c4b265c2"
+      "68357f89790d8280c4b265cb"
     ]
   },
   {
@@ -502,26 +502,6 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f89790d8280c4b265c8"
-    ]
-  },
-  {
-    "Id": "68357f89790d8280c4b265cb",
-    "Name": "Battle Sphinx",
-    "Attributes": {
-      "totalCost": "460",
-      "category": "Mason's Menagerie",
-      "army": "Undying Dynasties",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f89790d8280c4b265cb"
     ]
   },
   {
@@ -562,6 +542,26 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f8a790d8280c4b265d8"
+    ]
+  },
+  {
+    "Id": "68357f89790d8280c4b265c2",
+    "Name": "Sand Scorpion",
+    "Attributes": {
+      "totalCost": "140",
+      "category": "Entombed",
+      "army": "Undying Dynasties",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f89790d8280c4b265c2"
     ]
   }
 ]

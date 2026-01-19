@@ -12,6 +12,7 @@
     },
     "AttributeLists": {
       "FullOptions": [
+        "Taurukh Ritual",
         "Bull of Shamut",
         "Great Bull of Shamut"
       ]
@@ -19,6 +20,7 @@
     "RuleIds": {},
     "OptionListIds": [
       "185bed4c-06db-4caa-8919-e8fcd5bf1e49",
+      "a9d4e1c7-2f8b-4a3e-b6c9-0d5f7e1a2b84",
       "53c99c8d-f55f-4e43-9563-a9f2a79339ca",
       "17670b8f-1ca2-4e14-989b-ed41e7acbf9f"
     ],
@@ -296,6 +298,30 @@
     ]
   },
   {
+    "Id": "68357f58790d8280c4b2273e",
+    "Name": "Kadim Incarnates",
+    "Attributes": {
+      "totalCost": "100",
+      "category": "Special",
+      "army": "Infernal Dwarves",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "20aa6507-2cad-49e9-b270-814e22fa4df1"
+    ],
+    "ProfileIds": [
+      "68357f58790d8280c4b22740"
+    ]
+  },
+  {
     "Id": "68357f57790d8280c4b226c0",
     "Name": "Kadim Chariot",
     "Attributes": {
@@ -365,30 +391,6 @@
     ],
     "ProfileIds": [
       "68357f58790d8280c4b22704"
-    ]
-  },
-  {
-    "Id": "68357f58790d8280c4b2273e",
-    "Name": "Kadim Incarnates",
-    "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "20aa6507-2cad-49e9-b270-814e22fa4df1"
-    ],
-    "ProfileIds": [
-      "68357f58790d8280c4b22740"
     ]
   },
   {
@@ -470,26 +472,6 @@
     ]
   },
   {
-    "Id": "68357f59790d8280c4b2280c",
-    "Name": "Infernal Bastion",
-    "Attributes": {
-      "totalCost": "380",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f59790d8280c4b2280c"
-    ]
-  },
-  {
     "Id": "68357f59790d8280c4b2280d",
     "Name": "Vassal Slingshot",
     "Attributes": {
@@ -566,11 +548,11 @@
     ]
   },
   {
-    "Id": "68357f5a790d8280c4b22836",
-    "Name": "Kadim Titan",
+    "Id": "68357f59790d8280c4b2280c",
+    "Name": "Infernal Bastion",
     "Attributes": {
-      "totalCost": "500",
-      "category": "Instruments of Destruction",
+      "totalCost": "380",
+      "category": "Special",
       "army": "Infernal Dwarves",
       "height": "Gigantic",
       "type": "",
@@ -582,7 +564,7 @@
     "RuleIds": {},
     "OptionListIds": [],
     "ProfileIds": [
-      "68357f5a790d8280c4b22836"
+      "68357f59790d8280c4b2280c"
     ]
   },
   {
@@ -613,6 +595,26 @@
     ],
     "ProfileIds": [
       "68357f5a790d8280c4b2283c"
+    ]
+  },
+  {
+    "Id": "68357f5a790d8280c4b22836",
+    "Name": "Kadim Titan",
+    "Attributes": {
+      "totalCost": "500",
+      "category": "Instruments of Destruction",
+      "army": "Infernal Dwarves",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f5a790d8280c4b22836"
     ]
   },
   {

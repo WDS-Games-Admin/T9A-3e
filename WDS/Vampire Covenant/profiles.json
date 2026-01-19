@@ -1,5 +1,76 @@
 [
   {
+    "Id": "68357f8b790d8280c4b26614",
+    "Name": "Vampire Count",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "vc-vampiric": "Vampiric (6+)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vampire Count",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "9",
+          //"Rsr": "1",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Vampire Count",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "2"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Vampire Count",
+        "Values": {
+          "At": "5",
+          "Of": "7",
+          "St": "5",
+          "AP": "2",
+          "Ag": "7"
+        },
+        "RuleIds": {
+          "vc-vampiric": "Vampiric (6+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
     "Id": "fa697a3b-8c97-41f6-962f-9ef1ffc02a06",
     "Name": "Skeletal Steed",
     "Attributes": {
@@ -9,15 +80,16 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-ghost_step": "Ghost Step",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-wizard_apprentice": "Wizard Apprentice",      
       "rulebook-magical_attacks": "Magical Attacks"
     },
     "EquipmentIds": [],
@@ -33,15 +105,15 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
           "rulebook-fearless": "Fearless",
           "rulebook-ghost_step": "Ghost Step",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
           "rulebook-wizard_apprentice": "Wizard Apprentice"
         }
       },
@@ -87,15 +159,16 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
       "rulebook-fearless": "Fearless",
-      "rulebook-ghost_step": "Ghost Step",
       "rulebook-fly": "Fly",
+      "rulebook-ghost_step": "Ghost Step",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "rulebook-wizard_apprentice": "Wizard Apprentice",
       "rulebook-magical_attacks": "Magical Attacks"
     },
@@ -112,16 +185,16 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
           "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step",
           "rulebook-fly": "Fly",
+          "rulebook-ghost_step": "Ghost Step",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
           "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
           "rulebook-wizard_apprentice": "Wizard Apprentice"
         }
       },
@@ -167,18 +240,19 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-poison_attacks": "Poison Attacks",
       "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-poison_attacks": "Poison Attacks",      
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
     "EquipmentIds": [],
@@ -194,16 +268,16 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
           "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
           "rulebook-wizard_apprentice": "Wizard Apprentice"
         }
       },
@@ -227,8 +301,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
           "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-poison_attacks": "Poison Attacks",          
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
       }
@@ -251,22 +325,24 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
-      "vc-autonomous": "Autonomous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-horror": "Horror",
       "rulebook-attached": "Attached",
+      "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
+      "rulebook-fearless": "Fearless",
       "rulebook-ghost_step": "Ghost Step",
-      "rulebook-war_platform": "War Platform",
-      "vc-unnatural_activity": "Unnatural Activity",
+      "rulebook-horror": "Horror",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "vc-unnatural_activity": "Unnatural Activity",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
+      "rulebook-war_platform": "War Platform",      
       "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-aegis": "Aegis (5+)",
       "vc-vampiric": "Vampiric (6+)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-impact_hits": "Impact Hits (D6)"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -281,18 +357,18 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
-          "vc-autonomous": "Autonomous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-horror": "Horror",
           "rulebook-attached": "Attached",
+          "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
+          "rulebook-fearless": "Fearless",
           "rulebook-ghost_step": "Ghost Step",
-          "rulebook-war_platform": "War Platform",
-          "vc-unnatural_activity": "Unnatural Activity",
+          "rulebook-horror": "Horror",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "vc-unnatural_activity": "Unnatural Activity",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
+          "rulebook-war_platform": "War Platform",      
           "rulebook-wizard_apprentice": "Wizard Apprentice"
         }
       },
@@ -357,6 +433,97 @@
     }
   },
   {
+    "Id": "1510e39a-213b-4d51-afa9-a0e93c28700b",
+    "Name": "Shrieking Horror",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "580"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
+      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-regeneration": "Regeneration (5+)",
+      "vc-chilling_shriek": "Chilling Shriek",
+      "vc-chilling_howl": "Chilling Howl",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
+      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Shrieking Horror",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "9",
+          //"Rsr": "1",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",      
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
+          "rulebook-wizard_apprentice": "Wizard Apprentice"
+        }
+      },
+      {
+        "Name": "Shrieking Horror",
+        "Values": {
+          "HP": "7",
+          "Df": "4",
+          "Re": "6",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (5+)"
+        }
+      },
+      {
+        "Name": "Shrieking Horror",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "vc-chilling_shriek": "Chilling Shriek",
+          "vc-chilling_howl": "Chilling Howl",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
     "Id": "c97a3879-e522-4dff-8b2c-5577b4c885b2",
     "Name": "Zombie Dragon",
     "Attributes": {
@@ -366,21 +533,22 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "vc-meeting_of_minds": "Meeting of Minds",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "vc-meeting_of_minds": "Meeting of Minds",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-distracting": "Distracting (1)",
       "rulebook-breath_attack": "Breath Attack (Str3, AP2)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-distracting": "Distracting (1)"
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -395,18 +563,18 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "vc-meeting_of_minds": "Meeting of Minds",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary",
           "rulebook-light_troops": "Light Troops",
+          "vc-meeting_of_minds": "Meeting of Minds",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",      
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
           "rulebook-wizard_apprentice": "Wizard Apprentice"
         }
       },
@@ -446,93 +614,6 @@
     }
   },
   {
-    "Id": "1510e39a-213b-4d51-afa9-a0e93c28700b",
-    "Name": "Shrieking Horror",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "580"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
-      "vc-autonomous": "Autonomous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "vc-chilling_shriek": "Chilling Shriek",
-      "vc-chilling_howl": "Chilling Howl",
-      "rulebook-regeneration": "Regeneration (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Shrieking Horror",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
-          "vc-autonomous": "Autonomous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
-      },
-      {
-        "Name": "Shrieking Horror",
-        "Values": {
-          "HP": "7",
-          "Df": "4",
-          "Re": "6",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-regeneration": "Regeneration (5+)"
-        }
-      },
-      {
-        "Name": "Shrieking Horror",
-        "Values": {
-          "At": "4",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "vc-chilling_shriek": "Chilling Shriek",
-          "vc-chilling_howl": "Chilling Howl"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "100",
-        "length": "150"
-      }
-    }
-  },
-  {
     "Id": "399a4460-b2e3-41c2-9944-3251a56a0dc5",
     "Name": "Colossal ZD",
     "Attributes": {
@@ -542,21 +623,22 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "vc-meeting_of_minds": "Meeting of Minds",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "vc-meeting_of_minds": "Meeting of Minds",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-distracting": "Distracting (1)",
       "rulebook-breath_attack": "Breath Attack (Str3, AP2)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-distracting": "Distracting (1)"
+      "rulebook-stomp_attack": "Stomp Attack (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -571,18 +653,18 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "vc-meeting_of_minds": "Meeting of Minds",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary",
           "rulebook-light_troops": "Light Troops",
+          "vc-meeting_of_minds": "Meeting of Minds",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",      
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
           "rulebook-wizard_apprentice": "Wizard Apprentice"
         }
       },
@@ -622,61 +704,61 @@
     }
   },
   {
-    "Id": "68357f8b790d8280c4b26614",
-    "Name": "Vampire Count",
+    "Id": "68357f8c790d8280c4b26a24",
+    "Name": "Vampire Courtier",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",      
       "rulebook-fearless": "Fearless",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "vc-vampiric": "Vampiric (6+)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Vampire Count",
+        "Name": "Vampire Courtier",
         "Values": {
           "Ad": "6",
           "Ma": "6",
-          "Di": "9",
+          "Di": "8",
           //"Rsr": "1",
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",      
           "rulebook-fearless": "Fearless",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",      
+          "vc-vampiric": "Vampiric (6+)"
         }
       },
       {
-        "Name": "Vampire Count",
+        "Name": "Vampire Courtier",
         "Values": {
           "HP": "3",
-          "Df": "7",
-          "Re": "5",
+          "Df": "6",
+          "Re": "4",
           "Arm": "2"
         },
         "RuleIds": {}
       },
       {
-        "Name": "Vampire Count",
+        "Name": "Vampire Courtier",
         "Values": {
-          "At": "5",
-          "Of": "7",
+          "At": "4",
+          "Of": "6",
           "St": "5",
           "AP": "2",
-          "Ag": "7"
+          "Ag": "6"
         },
         "RuleIds": {
           "vc-vampiric": "Vampiric (6+)"
@@ -700,15 +782,16 @@
       "totalcost": "215"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
+    "RuleIds": {      
       "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
       "rulebook-fearless": "Fearless",
       "rulebook-ghost_step": "Ghost Step",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "rulebook-magical_attacks": "Magical Attacks"
     },
     "EquipmentIds": [],
@@ -724,15 +807,15 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
           "rulebook-fearless": "Fearless",
           "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -776,16 +859,17 @@
       "totalcost": "235"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
+    "RuleIds": {      
       "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
       "rulebook-fearless": "Fearless",
-      "rulebook-ghost_step": "Ghost Step",
       "rulebook-fly": "Fly",
+      "rulebook-ghost_step": "Ghost Step",      
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
       "rulebook-magical_attacks": "Magical Attacks"
     },
     "EquipmentIds": [],
@@ -801,16 +885,16 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
           "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step",
           "rulebook-fly": "Fly",
+          "rulebook-ghost_step": "Ghost Step",      
           "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -854,18 +938,19 @@
       "totalcost": "340"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
+    "RuleIds": {      
       "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-solitary": "Solitary",
-      "rulebook-poison_attacks": "Poison Attacks",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
       "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-poison_attacks": "Poison Attacks",      
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
     "EquipmentIds": [],
@@ -881,16 +966,16 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
+          "vc-awaken": "Awaken (Zombies)",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary"
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -913,8 +998,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
           "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-poison_attacks": "Poison Attacks",          
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
       }
@@ -936,22 +1021,23 @@
       "totalcost": "420"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
+    "RuleIds": {      
+      "rulebook-attached": "Attached",  
       "vc-awaken": "Awaken (Zombies)",
       "vc-autonomous": "Autonomous",
       "rulebook-fearless": "Fearless",
-      "rulebook-horror": "Horror",
-      "rulebook-attached": "Attached",
+      "rulebook-horror": "Horror",      
       "rulebook-ghost_step": "Ghost Step",
-      "rulebook-war_platform": "War Platform",
-      "vc-unnatural_activity": "Unnatural Activity",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-undead": "Undead",
+      "vc-unnatural_activity": "Unnatural Activity",
+      "rulebook-unstable": "Unstable",
+      "rulebook-war_platform": "War Platform",      
+      "rulebook-aegis": "Aegis (5+)",
       "vc-vampiric": "Vampiric (6+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-magical_attacks": "Magical Attacks",      
+      "rulebook-impact_hits": "Impact Hits (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -966,18 +1052,18 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
+          "rulebook-attached": "Attached",  
           "vc-awaken": "Awaken (Zombies)",
           "vc-autonomous": "Autonomous",
           "rulebook-fearless": "Fearless",
-          "rulebook-horror": "Horror",
-          "rulebook-attached": "Attached",
+          "rulebook-horror": "Horror",      
           "rulebook-ghost_step": "Ghost Step",
-          "rulebook-war_platform": "War Platform",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-undead": "Undead",
           "vc-unnatural_activity": "Unnatural Activity",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-unstable": "Unstable",
+          "rulebook-war_platform": "War Platform"
         }
       },
       {
@@ -1041,62 +1127,63 @@
     }
   },
   {
-    "Id": "68357f8c790d8280c4b26a24",
-    "Name": "Vampire Courtier",
+    "Id": "68357f8d790d8280c4b26ccc",
+    "Name": "Necromancer",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-awaken": "Awaken (Zombies)",
-      "vc-autonomous": "Autonomous",
+      "vc-awaken": "Awaken (Skeletons, Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-light_troops": "Light Troops",
-      "vc-vampiric": "Vampiric (6+)"
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Vampire Courtier",
+        "Name": "Necromancer",
         "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
           //"Rsr": "1",
           "Hgt": "1"
         },
         "RuleIds": {
+          "vc-awaken": "Awaken (Skeletons, Zombies)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
           "rulebook-resurrect": "Resurrect (1)",
           "rulebook-undead": "Undead",
           "rulebook-unstable": "Unstable",
-          "vc-awaken": "Awaken (Zombies)",
-          "vc-autonomous": "Autonomous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
-        "Name": "Vampire Courtier",
+        "Name": "Necromancer",
         "Values": {
           "HP": "3",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "2"
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
         },
         "RuleIds": {}
       },
       {
-        "Name": "Vampire Courtier",
+        "Name": "Necromancer",
         "Values": {
-          "At": "4",
-          "Of": "6",
-          "St": "5",
-          "AP": "2",
-          "Ag": "6"
+          "At": "1",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
         },
         "RuleIds": {
-          "vc-vampiric": "Vampiric (6+)"
         }
       }
     ],
@@ -1118,14 +1205,15 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "vc-awaken": "Awaken (Skeletons, Zombies)",      
+      "rulebook-fearless": "Fearless",
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
-      "vc-awaken": "Awaken (Skeletons, Zombies)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
       "rulebook-wizard_adept": "Wizard Adept",
       "rulebook-magical_attacks": "Magical Attacks"
     },
@@ -1142,15 +1230,15 @@
           "Hgt": "2"
         },
         "RuleIds": {
+          "vc-awaken": "Awaken (Skeletons, Zombies)",      
+          "rulebook-fearless": "Fearless",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",      
           "rulebook-undead": "Undead",
           "rulebook-unstable": "Unstable",
-          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
-          "vc-awaken": "Awaken (Skeletons, Zombies)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1195,19 +1283,20 @@
       "totalcost": "360"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+    "RuleIds": {      
       "vc-awaken": "Awaken (Skeletons, Zombies)",
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",      
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-poison_attacks": "Poison Attacks",
       "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-poison_attacks": "Poison Attacks",      
       "rulebook-stomp_attack": "Stomp Attack (1)"
     },
     "EquipmentIds": [],
@@ -1223,16 +1312,16 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
           "vc-awaken": "Awaken (Skeletons, Zombies)",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
           "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",      
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1256,8 +1345,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
           "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-poison_attacks": "Poison Attacks",          
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
       }
@@ -1280,19 +1369,20 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
       "vc-awaken": "Awaken (Skeletons, Zombies)",
       "rulebook-fearless": "Fearless",
-      "rulebook-war_platform": "War Platform",
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+      "rulebook-light_troops": "Light Troops",
       "vc-necromantic_aura": "Necromantic Aura",
       "vc-no_rest_for_the_wicked": "No Rest for the Wicked",
+      "rulebook-resurrect": "Resurrect (1)",
       "vc-soul_tether": "Soul Tether",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-war_platform": "War Platform",
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-impact_hits": "Impact Hits (1)",
-      "rulebook-regeneration": "Regeneration (4+)"
+      "rulebook-regeneration": "Regeneration (4+)",
+      "rulebook-impact_hits": "Impact Hits (1)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1307,17 +1397,17 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
           "vc-awaken": "Awaken (Skeletons, Zombies)",
           "rulebook-fearless": "Fearless",
-          "rulebook-war_platform": "War Platform",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+          "rulebook-light_troops": "Light Troops",
           "vc-necromantic_aura": "Necromantic Aura",
           "vc-no_rest_for_the_wicked": "No Rest for the Wicked",
+          "rulebook-resurrect": "Resurrect (1)",
           "vc-soul_tether": "Soul Tether",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
+          "rulebook-war_platform": "War Platform",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1376,22 +1466,23 @@
       "totalcost": "550"
     },
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+    "RuleIds": {      
       "vc-awaken": "Awaken (Skeletons, Zombies)",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
+      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+      "rulebook-light_troops": "Light Troops",
       "vc-meeting_of_minds": "Meeting of Minds",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
       "rulebook-wizard_adept": "Wizard Adept",
+      "rulebook-distracting": "Distracting (1)",
       "rulebook-breath_attack": "Breath Attack (Str3, AP2)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-distracting": "Distracting (1)"
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1406,18 +1497,18 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
           "vc-awaken": "Awaken (Skeletons, Zombies)",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
+          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
+          "rulebook-light_troops": "Light Troops",
           "vc-meeting_of_minds": "Meeting of Minds",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
           "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -1457,62 +1548,74 @@
     }
   },
   {
-    "Id": "68357f8d790d8280c4b26ccc",
-    "Name": "Necromancer",
+    "Id": "68357f8d790d8280c4b26e16",
+    "Name": "Barrow King",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-fearless": "Fearless",      
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-gates_of_the_netherworld": "Gates of the Netherworld",
-      "vc-awaken": "Awaken (Skeletons, Zombies)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept"
+      "rulebook-shield": "Shield",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-magical_attacks": "Magical Attacks",      
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1-2)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Necromancer",
+        "Name": "Barrow King",
         "Values": {
           "Ad": "4",
           "Ma": "4",
-          "Di": "7",
+          "Di": "8",
           //"Rsr": "1",
           "Hgt": "1"
         },
         "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-fearless": "Fearless",      
+          "rulebook-light_troops": "Light Troops",
           "rulebook-resurrect": "Resurrect (1)",
           "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-gates_of_the_netherworld": "Gates of the Netherworld",
-          "vc-awaken": "Awaken (Skeletons, Zombies)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
+          "rulebook-unstable": "Unstable"
         }
       },
       {
-        "Name": "Necromancer",
+        "Name": "Barrow King",
         "Values": {
           "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Necromancer",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
+          "Df": "5",
+          "Re": "5",
+          "Arm": "2"
         },
         "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Barrow King",
+        "Values": {
+          "At": "3",
+          "Of": "5",
+          "St": "4",
+          "AP": "1",
+          "Ag": "4"
+        },
+        "RuleIds": {
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-magical_attacks": "Magical Attacks",          
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1-2)"
         }
       }
     ],
@@ -1534,18 +1637,20 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fearless": "Fearless",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-attached": "Attached",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-magical_attacks": "Magical Attacks"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1560,17 +1665,17 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fearless": "Fearless",
-          "rulebook-dying_blow": "Dying Blow",
           "rulebook-attached": "Attached",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-captain": "Captain",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -1608,100 +1713,22 @@
     }
   },
   {
-    "Id": "68357f8d790d8280c4b26e16",
-    "Name": "Barrow King",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fearless": "Fearless",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1--2)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Barrow King",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fearless": "Fearless",
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-light_troops": "Light Troops"
-        }
-      },
-      {
-        "Name": "Barrow King",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
-      },
-      {
-        "Name": "Barrow King",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1--2)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
     "Id": "68357f8e790d8280c4b26ed3",
     "Name": "Banshee",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
+    "RuleIds": {      
       "rulebook-fly": "Fly",
-      "rulebook-horror": "Horror",
-      "rulebook-light_troops": "Light Troops",
       "rulebook-fearless": "Fearless",
       "rulebook-ghost_step": "Ghost Step",
-      "vc-wail_of_woe": "Wail of Woe",
+      "rulebook-horror": "Horror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "vc-ghostly_form": "Ghostly Form",
       "rulebook-grind_attack": "Grind Attack (D3+1, Str 4, AP 1, Magical Attacks, Unmodifiable)",
-      "vc-ghostly_form": "Ghostly Form"
+      "vc-wail_of_woe": "Wail of Woe"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1716,14 +1743,14 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "rulebook-fly": "Fly",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
           "rulebook-horror": "Horror",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step"
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -1747,9 +1774,9 @@
           "AP": "4",
           "Ag": "3"
         },
-        "RuleIds": {
-          "vc-wail_of_woe": "Wail of Woe",
-          "rulebook-grind_attack": "Grind Attack (D3+1, Str 4, AP 1, Magical Attacks, Unmodifiable)"
+        "RuleIds": {          
+          "rulebook-grind_attack": "Grind Attack (D3+1, Str 4, AP 1, Magical Attacks, Unmodifiable)",
+          "vc-wail_of_woe": "Wail of Woe"
         }
       }
     ],
@@ -1761,7 +1788,7 @@
       }
     }
   },
- {
+  {
     "Id": "a7b4f3c1e8d9f6a2b7d3c9e5f",
     "Name": "Lady Chryselie",
     "Attributes": {},
@@ -1842,7 +1869,7 @@
   },
   {
     "Id": "d3f7b1e9c4a2d8f6e5c9a0b3d",
-    "Name": "The Collective of Varyag",
+    "Name": "The Collective of Varyag the Sainted",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
@@ -1866,7 +1893,7 @@
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "The Collective of Varyag",
+        "Name": "The Collective of Varyag the Sainted",
         "Values": {
           "Ad": "7",
           "Ma": "7",
@@ -1891,7 +1918,7 @@
         }
       },
       {
-        "Name": "The Collective of Varyag",
+        "Name": "The Collective of Varyag the Sainted",
         "Values": {
           "HP": "8",
           "Df": "3",
@@ -1903,7 +1930,7 @@
         }
       },
       {
-        "Name": "The Collective of Varyag",
+        "Name": "The Collective of Varyag the Sainted",
         "Values": {
           "At": "",
           "Of": "4",
@@ -1930,12 +1957,13 @@
     "Name": "Zombies",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
+    "RuleIds": {      
       "vc-ashes_to_ashes": "Ashes to Ashes",
       "rulebook-fearless": "Fearless",
-      "rulebook-mindless": "Mindless"
+      "rulebook-mindless": "Mindless",
+      "rulebook-resurrect": "Resurrect (2D6+4)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1950,12 +1978,12 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (2D6+4)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-ashes_to_ashes": "Ashes to Ashes",
           "rulebook-fearless": "Fearless",
-          "rulebook-mindless": "Mindless"
+          "rulebook-mindless": "Mindless",
+          "rulebook-resurrect": "Resurrect (2D6+4)",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -1994,11 +2022,12 @@
     "Name": "Skeletons",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
+    "RuleIds": {      
       "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-fearless": "Fearless"
+      "rulebook-fearless": "Fearless",
+      "rulebook-resurrect": "Resurrect (D6+4)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2013,11 +2042,11 @@
           "Hgt": "1"
         },
         "RuleIds": {
+          "vc-ashes_to_ashes": "Ashes to Ashes",
+          "rulebook-fearless": "Fearless",
           "rulebook-resurrect": "Resurrect (D6+4)",
           "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-fearless": "Fearless"
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -2057,14 +2086,16 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
       "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-unruly": "Unruly",
       "rulebook-fearless": "Fearless",
+      "rulebook-resurrect": "Resurrect (D6+4)",
+      "rulebook-unruly": "Unruly",      
+      "rulebook-undead": "Undead",      
+      "rulebook-unstable": "Unstable",
+      "rulebook-extra_support": "Extra Support (2)",
       "rulebook-poison_attacks": "Poison Attacks",
-      "vc-unholy_appetite": "Unholy Appetite",
-      "rulebook-extra_support": "Extra Support (2)"
+      "vc-unholy_appetite": "Unholy Appetite"
+
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2079,12 +2110,12 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D6+4)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-unruly": "Unruly",
-          "rulebook-fearless": "Fearless"
+          "rulebook-fearless": "Fearless",
+          "rulebook-resurrect": "Resurrect (D6+4)",
+          "rulebook-unruly": "Unruly",      
+          "rulebook-undead": "Undead",      
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -2107,9 +2138,9 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "rulebook-extra_support": "Extra Support (2)",
           "rulebook-poison_attacks": "Poison Attacks",
-          "vc-unholy_appetite": "Unholy Appetite",
-          "rulebook-extra_support": "Extra Support (2)"
+          "vc-unholy_appetite": "Unholy Appetite"          
         }
       }
     ],
@@ -2122,98 +2153,23 @@
     }
   },
   {
-    "Id": "68357f8f790d8280c4b26f4b",
-    "Name": "Dire Wolves",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-mindless": "Mindless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-unruly": "Unruly",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-extra_support": "Extra Support (2)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Dire Wolves",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "3",
-          //"Rsr": "D3+4",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D3+4)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-mindless": "Mindless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-unruly": "Unruly"
-        }
-      },
-      {
-        "Name": "Dire Wolves",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Dire Wolf",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "3",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-extra_support": "Extra Support (2)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
-  },
-  {
     "Id": "68357f8f790d8280c4b26f50",
     "Name": "Bat Swarms",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
       "rulebook-afflict": "Afflict (-2 Off)",
+      "vc-ashes_to_ashes": "Ashes to Ashes",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-skirmisher": "Skirmisher",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (D6+4)",
+      "rulebook-skirmisher": "Skirmisher",
       "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
       "rulebook-unruly": "Unruly",
+      "rulebook-unstable": "Unstable",
       "rulebook-distracting": "Distracting (1)",
       "rulebook-hard_target": "Hard Target (1)"
     },
@@ -2230,18 +2186,18 @@
           "Hgt": "0"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D6+4)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
           "rulebook-afflict": "Afflict (-2 Off)",
+          "vc-ashes_to_ashes": "Ashes to Ashes",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-skirmisher": "Skirmisher",
           "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (D6+4)",
+          "rulebook-skirmisher": "Skirmisher",
           "rulebook-solitary": "Solitary",
-          "rulebook-unruly": "Unruly"
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unruly": "Unruly",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -2279,160 +2235,71 @@
     }
   },
   {
-    "Id": "68357f8f790d8280c4b26f55",
-    "Name": "Barrow Guard",
+    "Id": "68357f8f790d8280c4b26f4b",
+    "Name": "Dire Wolves",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
       "vc-ashes_to_ashes": "Ashes to Ashes",
       "rulebook-fearless": "Fearless",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-bodyguard": "Bodyguard (General, Barrow King)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1--2)"
+      "rulebook-mindless": "Mindless",
+      "rulebook-resurrect": "Resurrect (D3+4)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unruly": "Unruly",
+      "rulebook-unstable": "Unstable",
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+      "rulebook-extra_support": "Extra Support (2)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Barrow Guard",
+        "Name": "Dire Wolves",
         "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
+          "Ad": "9",
+          "Ma": "9",
+          "Di": "3",
           //"Rsr": "D3+4",
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D3+4)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-ashes_to_ashes": "Ashes to Ashes",
           "rulebook-fearless": "Fearless",
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-bodyguard": "Bodyguard (General, Barrow King)"
+          "rulebook-mindless": "Mindless",
+          "rulebook-resurrect": "Resurrect (D3+4)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unruly": "Unruly",
+          "rulebook-unstable": "Unstable",
+          "rulebook-vanguard": "Vanguard"
         }
       },
       {
-        "Name": "Barrow Guard",
+        "Name": "Dire Wolves",
         "Values": {
           "HP": "1",
           "Df": "3",
-          "Re": "4",
-          "Arm": "2"
+          "Re": "3",
+          "Arm": "0"
         },
         "RuleIds": {}
       },
       {
-        "Name": "Barrow Guard",
+        "Name": "Dire Wolf",
         "Values": {
-          "At": "1",
+          "At": "2",
           "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1--2)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },
-  {
-    "Id": "68357f8f790d8280c4b26f8e",
-    "Name": "Barrow Knights",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-fearless": "Fearless",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-bodyguard": "Bodyguard (General, Barrow King)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1--2)",
-      "rulebook-lance": "Lance",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Barrow Knights",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          //"Rsr": "D3+2",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D3+2)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-bodyguard": "Bodyguard (General, Barrow King)"
-        }
-      },
-      {
-        "Name": "Barrow Knights",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
-      },
-      {
-        "Name": "Barrow Knight",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1--2)",
-          "rulebook-lance": "Lance"
-        }
-      },
-      {
-        "Name": "Skeletal Steed",
-        "Values": {
-          "At": "1",
-          "Of": "2",
           "St": "3",
-          "AP": "0",
-          "Ag": "2"
+          "AP": "1",
+          "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
+          "rulebook-extra_support": "Extra Support (2)"
         }
       }
     ],
@@ -2445,18 +2312,99 @@
     }
   },
   {
+    "Id": "68357f90790d8280c4b26fd3",
+    "Name": "Great Bats",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {      
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-mindless": "Mindless",
+      "rulebook-resurrect": "Resurrect (D6+4)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-skirmisher": "Skirmisher",      
+      "rulebook-swiftstride": "Swiftstride",      
+      "rulebook-undead": "Undead",
+      "rulebook-unruly": "Unruly",
+      "rulebook-unstable": "Unstable",
+      "rulebook-hard_target": "Hard Target (1)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Bats",
+        "Values": {
+          "Ad": "9",
+          "Ma": "9",
+          "Di": "5",
+          //"Rsr": "D6+4",
+          "Hgt": "1"
+        },
+        "RuleIds": {
+          "vc-ashes_to_ashes": "Ashes to Ashes",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-mindless": "Mindless",
+          "rulebook-resurrect": "Resurrect (D6+4)",
+          "rulebook-solitary": "Solitary",
+          "rulebook-skirmisher": "Skirmisher",      
+          "rulebook-swiftstride": "Swiftstride",      
+          "rulebook-undead": "Undead",
+          "rulebook-unruly": "Unruly",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Great Bats",
+        "Values": {
+          "HP": "2",
+          "Df": "3",
+          "Re": "3",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-hard_target": "Hard Target (1)"
+        }
+      },
+      {
+        "Name": "Great Bat",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "3",
+          "AP": "0",
+          "Ag": "3"
+        },
+        "RuleIds": {
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
     "Id": "68357f90790d8280c4b26fbb",
     "Name": "Ghasts",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-fearless": "Fearless",      
+      "rulebook-resurrect": "Resurrect (D3+1)",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-fearless": "Fearless",
+      "rulebook-regeneration": "Regeneration (5+)",
       "rulebook-poison_attacks": "Poison Attacks",
-      "vc-unholy_appetite": "Unholy Appetite",
-      "rulebook-regeneration": "Regeneration (5+)"
+      "vc-unholy_appetite": "Unholy Appetite"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2471,11 +2419,11 @@
           "Hgt": "3"
         },
         "RuleIds": {
+          "vc-ashes_to_ashes": "Ashes to Ashes",
+          "rulebook-fearless": "Fearless",      
           "rulebook-resurrect": "Resurrect (D3+1)",
           "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-fearless": "Fearless"
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -2514,81 +2462,170 @@
     }
   },
   {
-    "Id": "68357f90790d8280c4b26fd3",
-    "Name": "Great Bats",
+    "Id": "68357f8f790d8280c4b26f55",
+    "Name": "Barrow Guard",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
+    "RuleIds": {      
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-bodyguard": "Bodyguard (General, Barrow King)",
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-fearless": "Fearless",
+      "rulebook-resurrect": "Resurrect (D3+4)",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-fly": "Fly",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-mindless": "Mindless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-unruly": "Unruly",
-      "rulebook-hard_target": "Hard Target (1)"
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1-2)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Great Bats",
+        "Name": "Barrow Guard",
         "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "5",
-          //"Rsr": "D6+4",
+          "Ad": "4",
+          "Ma": "4",
+          "Di": "7",
+          //"Rsr": "D3+4",
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D6+4)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-fly": "Fly",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-bodyguard": "Bodyguard (General, Barrow King)",
+          "rulebook-dying_blow": "Dying Blow",
           "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-mindless": "Mindless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-unruly": "Unruly"
+          "rulebook-resurrect": "Resurrect (D3+4)",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
-        "Name": "Great Bats",
+        "Name": "Barrow Guard",
         "Values": {
-          "HP": "2",
+          "HP": "1",
           "Df": "3",
-          "Re": "3",
-          "Arm": "0"
+          "Re": "4",
+          "Arm": "2"
         },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "RuleIds": {}
       },
       {
-        "Name": "Great Bat",
+        "Name": "Barrow Guard",
         "Values": {
-          "At": "2",
+          "At": "1",
           "Of": "3",
-          "St": "3",
-          "AP": "0",
+          "St": "4",
+          "AP": "1",
           "Ag": "3"
         },
         "RuleIds": {
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-magical_attacks": "Magical Attacks",          
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1-2)"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "40",
-        "length": "40"
+        "width": "20",
+        "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "68357f8f790d8280c4b26f8e",
+    "Name": "Barrow Knights",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-bodyguard": "Bodyguard (General, Barrow King)",      
+      "rulebook-dying_blow": "Dying Blow",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",      
+      "rulebook-resurrect": "Resurrect (D3+2)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-shield": "Shield",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-lethal_strike": "Lethal Strike",
+      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1-2)",
+      "rulebook-lance": "Lance"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Barrow Knights",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          //"Rsr": "D3+2",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "vc-ashes_to_ashes": "Ashes to Ashes",
+          "rulebook-bodyguard": "Bodyguard (General, Barrow King)",      
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",      
+          "rulebook-resurrect": "Resurrect (D3+2)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Barrow Knights",
+        "Values": {
+          "HP": "1",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-shield": "Shield"
+        }
+      },
+      {
+        "Name": "Barrow Knight",
+        "Values": {
+          "At": "1",
+          "Of": "3",
+          "St": "4",
+          "AP": "1",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-lethal_strike": "Lethal Strike",
+          "rulebook-magical_attacks": "Magical Attacks",          
+          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Height 1-2)",
+          "rulebook-lance": "Lance"
+        }
+      },
+      {
+        "Name": "Skeletal Steed",
+        "Values": {
+          "At": "1",
+          "Of": "2",
+          "St": "3",
+          "AP": "0",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
       }
     }
   },
@@ -2599,16 +2636,17 @@
     "AttributeLists": {},
     "RuleIds": {
       "vc-awaken": "Awaken (Skeletons, Zombies)",
-      "rulebook-war_platform": "War Platform",
+      "rulebook-exclusive": "Exclusive (Zombies, Skeletons)",      
+      "rulebook-fearless": "Fearless",
       "vc-necromantic_aura": "Necromantic Aura",
       "vc-no_rest_for_the_wicked": "No Rest for the Wicked",
+      "vc-soul_tether": "Soul Tether",
+      "rulebook-resurrect": "Resurrect (D3)",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-soul_tether": "Soul Tether",
-      "rulebook-exclusive": "Exclusive (Zombies, Skeletons)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-impact_hits": "Impact Hits (1)",
-      "rulebook-regeneration": "Regeneration (4+)"
+      "rulebook-war_platform": "War Platform",
+      "rulebook-regeneration": "Regeneration (4+)",
+      "rulebook-impact_hits": "Impact Hits (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2623,16 +2661,16 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D3)",
           "vc-awaken": "Awaken (Skeletons, Zombies)",
-          "rulebook-war_platform": "War Platform",
+          "rulebook-exclusive": "Exclusive (Zombies, Skeletons)",      
+          "rulebook-fearless": "Fearless",
           "vc-necromantic_aura": "Necromantic Aura",
           "vc-no_rest_for_the_wicked": "No Rest for the Wicked",
+          "vc-soul_tether": "Soul Tether",
+          "rulebook-resurrect": "Resurrect (D3)",
           "rulebook-undead": "Undead",
           "rulebook-unstable": "Unstable",
-          "vc-soul_tether": "Soul Tether",
-          "rulebook-exclusive": "Exclusive (Zombies, Skeletons)",
-          "rulebook-fearless": "Fearless"
+          "rulebook-war_platform": "War Platform"
         }
       },
       {
@@ -2694,25 +2732,133 @@
     }
   },
   {
+    "Id": "68357f91790d8280c4b26fd9",
+    "Name": "Dark Coach",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {      
+      "vc-autonomous": "Autonomous",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-horror": "Horror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",      
+      "rulebook-undead": "Undead",
+      "vc-unholy_conduit": "Unholy Conduit",
+      "rulebook-unstable": "Unstable",
+      "rulebook-aegis": "Aegis (4+)",
+      "vc-vampiric": "Vampiric (3+)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-impact_hits": "Impact Hits (D6+1)"
+      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Dark Coach",
+        "Values": {
+          "Ad": "8",
+          "Ma": "4",
+          "Di": "7",
+          //"Rsr": "1",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "vc-autonomous": "Autonomous",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-horror": "Horror",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",      
+          "rulebook-undead": "Undead",
+          "vc-unholy_conduit": "Unholy Conduit",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Dark Coach",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (4+)"
+        }
+      },
+      {
+        "Name": "Vampire Rider (2)",
+        "Values": {
+          "At": "2",
+          "Of": "5",
+          "St": "5",
+          "AP": "2",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "vc-vampiric": "Vampiric (3+)"
+        }
+      },
+      {
+        "Name": "Phantom Host",
+        "Values": {
+          "At": "6",
+          "Of": "2",
+          "St": "2",
+          "AP": "1",
+          "Ag": "2"
+        },
+        "RuleIds": {
+          "rulebook-magical_attacks": "Magical Attacks"
+        }
+      },
+      {
+        "Name": "Chassis",
+        "Values": {
+          "At": null,
+          "Of": null,
+          "St": "5",
+          "AP": "2",
+          "Ag": null
+        },
+        "RuleIds": {
+          "rulebook-impact_hits": "Impact Hits (D6+1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "100"
+      }
+    }
+  },
+  {
     "Id": "68357f90790d8280c4b26fd7",
     "Name": "Court of the Damned",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-horror": "Horror",
       "rulebook-attached": "Attached",
       "vc-autonomous": "Autonomous",
+      "rulebook-exclusive": "Exclusive (Zombies, Skeletons, Barrow Guard, Ghouls)",
+      "rulebook-fearless": "Fearless",
       "rulebook-ghost_step": "Ghost Step",
-      "rulebook-war_platform": "War Platform",
+      "rulebook-horror": "Horror",
+      "rulebook-resurrect": "Resurrect (1)",
       "vc-unnatural_activity": "Unnatural Activity",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "rulebook-exclusive": "Exclusive (Zombies, Skeletons, Barrow Guard, Ghouls)",
-      "rulebook-fearless": "Fearless",
+      "rulebook-war_platform": "War Platform",
+      "rulebook-aegis": "Aegis (5+)",
       "vc-vampiric": "Vampiric (6+)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-impact_hits": "Impact Hits (D6)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2727,17 +2873,17 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-horror": "Horror",
           "rulebook-attached": "Attached",
           "vc-autonomous": "Autonomous",
+          "rulebook-exclusive": "Exclusive (Zombies, Skeletons, Barrow Guard, Ghouls)",
+          "rulebook-fearless": "Fearless",
           "rulebook-ghost_step": "Ghost Step",
-          "rulebook-war_platform": "War Platform",
+          "rulebook-horror": "Horror",
+          "rulebook-resurrect": "Resurrect (1)",
           "vc-unnatural_activity": "Unnatural Activity",
           "rulebook-undead": "Undead",
           "rulebook-unstable": "Unstable",
-          "rulebook-exclusive": "Exclusive (Zombies, Skeletons, Barrow Guard, Ghouls)",
-          "rulebook-fearless": "Fearless"
+          "rulebook-war_platform": "War Platform"
         }
       },
       {
@@ -2806,22 +2952,24 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-horror": "Horror",
+      "vc-ashes_to_ashes": "Ashes to Ashes",
       "vc-autonomous": "Autonomous",
+      "rulebook-fearless": "Fearless",
       "rulebook-ghost_step": "Ghost Step",
-      "rulebook-terror": "Terror",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-horror": "Horror",
       "vc-lash_of_souls": "Lash of Souls",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "rulebook-fearless": "Fearless",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-first_strike": "First Strike (+1 Str, +1 AP)",
+      "rulebook-regeneration": "Regeneration (4+)",
       "vc-aura_of_undeath": "Aura of Undeath",
+      "rulebook-first_strike": "First Strike (+1 Str, +1 AP)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "rulebook-regeneration": "Regeneration (4+)"
+      "rulebook-impact_hits": "Impact Hits (D6)"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2836,18 +2984,18 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-horror": "Horror",
-          "vc-autonomous": "Autonomous",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-terror": "Terror",
-          "rulebook-swiftstride": "Swiftstride",
-          "vc-lash_of_souls": "Lash of Souls",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-fearless": "Fearless",
           "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-light_troops": "Light Troops"
+          "vc-autonomous": "Autonomous",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-horror": "Horror",
+          "vc-lash_of_souls": "Lash of Souls",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -2872,8 +3020,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-first_strike": "First Strike (+1 Str, +1 AP)",
-          "vc-aura_of_undeath": "Aura of Undeath"
+          "vc-aura_of_undeath": "Aura of Undeath",
+          "rulebook-first_strike": "First Strike (+1 Str, +1 AP)"          
         }
       },
       {
@@ -2912,128 +3060,24 @@
     }
   },
   {
-    "Id": "68357f91790d8280c4b26fd9",
-    "Name": "Dark Coach",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-horror": "Horror",
-      "vc-autonomous": "Autonomous",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-swiftstride": "Swiftstride",
-      "vc-unholy_conduit": "Unholy Conduit",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "vc-vampiric": "Vampiric (3+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6+1)",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Dark Coach",
-        "Values": {
-          "Ad": "8",
-          "Ma": "4",
-          "Di": "7",
-          //"Rsr": "1",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-horror": "Horror",
-          "vc-autonomous": "Autonomous",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-swiftstride": "Swiftstride",
-          "vc-unholy_conduit": "Unholy Conduit",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops"
-        }
-      },
-      {
-        "Name": "Dark Coach",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
-      },
-      {
-        "Name": "Vampire Rider (2)",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "vc-vampiric": "Vampiric (3+)"
-        }
-      },
-      {
-        "Name": "Phantom Host",
-        "Values": {
-          "At": "6",
-          "Of": "2",
-          "St": "2",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      },
-      {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
     "Id": "68357f91790d8280c4b26fe5",
     "Name": "Phantom Hosts",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-horror": "Horror",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
       "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-ghost_step": "Ghost Step",
       "rulebook-afflict": "Afflict (-2 Dis, -1 Arm)",
       "rulebook-exclusive": "Exclusive (Ghostly Form)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-horror": "Horror",      
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",      
       "rulebook-magical_attacks": "Magical Attacks",
-      "vc-ghostly_form": "Ghostly Form",
-      "rulebook-distracting": "Distracting (1)"
+      "rulebook-distracting": "Distracting (1)",
+      "vc-ghostly_form": "Ghostly Form"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3048,16 +3092,16 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-horror": "Horror",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-ghost_step": "Ghost Step",
           "rulebook-afflict": "Afflict (-2 Dis, -1 Arm)",
-          "rulebook-exclusive": "Exclusive (Ghostly Form)"
+          "rulebook-exclusive": "Exclusive (Ghostly Form)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-horror": "Horror",      
+          "rulebook-light_troops": "Light Troops",      
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -3069,8 +3113,8 @@
           "Arm": "0"
         },
         "RuleIds": {
-          "vc-ghostly_form": "Ghostly Form",
-          "rulebook-distracting": "Distracting (1)"
+          "rulebook-distracting": "Distracting (1)",
+          "vc-ghostly_form": "Ghostly Form"          
         }
       },
       {
@@ -3101,18 +3145,20 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-exclusive": "Exclusive (Ghostly Form)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-horror": "Horror",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-fly": "Fly",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-horror": "Horror",
-      "rulebook-exclusive": "Exclusive (Ghostly Form)",
+      "vc-ghostly_form": "Ghostly Form",
       "rulebook-first_strike": "First Strike (+1 Str, +1 AP)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "vc-ghostly_form": "Ghostly Form"
+      "rulebook-sweeping_attack": "Sweeping Attack (1 hit)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3127,16 +3173,16 @@
           "Hgt": "1"
         },
         "RuleIds": {
+          "vc-ashes_to_ashes": "Ashes to Ashes",
+          "rulebook-exclusive": "Exclusive (Ghostly Form)",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-horror": "Horror",
+          "rulebook-light_troops": "Light Troops",
           "rulebook-resurrect": "Resurrect (1)",
           "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-fly": "Fly",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-horror": "Horror",
-          "rulebook-exclusive": "Exclusive (Ghostly Form)"
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -3162,7 +3208,8 @@
         },
         "RuleIds": {
           "rulebook-first_strike": "First Strike (+1 Str, +1 AP)",
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-sweeping_attack": "Sweeping Attack (1 hit)"
         }
       }
     ],
@@ -3180,19 +3227,21 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-exclusive": "Exclusive (Ghostly Form)",      
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-horror": "Horror",
+      "rulebook-fearless": "Fearless",
+      "rulebook-light_troops": "Light Troops",      
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-horror": "Horror",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-exclusive": "Exclusive (Ghostly Form)",
+      "vc-ghostly_form": "Ghostly Form",
       "rulebook-first_strike": "First Strike (+1 Str, +1 AP)",
       "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "vc-ghostly_form": "Ghostly Form"
+      "rulebook-magical_attacks": "Magical Attacks"
+      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3207,16 +3256,16 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-ashes_to_ashes": "Ashes to Ashes",
+          "rulebook-exclusive": "Exclusive (Ghostly Form)",      
           "rulebook-ghost_step": "Ghost Step",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
           "rulebook-horror": "Horror",
+          "rulebook-fearless": "Fearless",
+          "rulebook-light_troops": "Light Troops",      
+          "rulebook-resurrect": "Resurrect (1)",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-exclusive": "Exclusive (Ghostly Form)"
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -3269,103 +3318,21 @@
     }
   },
   {
-    "Id": "68357f92790d8280c4b26ff8",
-    "Name": "Shrieking Horror",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-ashes_to_ashes": "Ashes to Ashes",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-unruly": "Unruly",
-      "rulebook-solitary": "Solitary",
-      "vc-chilling_howl": "Chilling Howl",
-      "vc-chilling_shriek": "Chilling Shriek",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-regeneration": "Regeneration (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Shrieking Horror",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-ashes_to_ashes": "Ashes to Ashes",
-          "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-unruly": "Unruly",
-          "rulebook-solitary": "Solitary"
-        }
-      },
-      {
-        "Name": "Shrieking Horror",
-        "Values": {
-          "HP": "7",
-          "Df": "4",
-          "Re": "6",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-regeneration": "Regeneration (6+)"
-        }
-      },
-      {
-        "Name": "Shrieking Horror",
-        "Values": {
-          "At": "4",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "vc-chilling_howl": "Chilling Howl",
-          "vc-chilling_shriek": "Chilling Shriek",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "100",
-        "length": "150"
-      }
-    }
-  },
-  {
     "Id": "68357f92790d8280c4b26ffb",
     "Name": "Vampire Knights",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
       "vc-autonomous": "Autonomous",
       "rulebook-fearless": "Fearless",
+      "rulebook-resurrect": "Resurrect (1)",
       "rulebook-swiftstride": "Swiftstride",
-      "vc-vampiric": "Vampiric (6+)",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-shield": "Shield",
       "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "rulebook-lance": "Lance",
-      "rulebook-shield": "Shield"
+      "vc-vampiric": "Vampiric (6+)",
+      "rulebook-lance": "Lance"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3380,12 +3347,12 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "vc-autonomous": "Autonomous",
           "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -3410,8 +3377,8 @@
           "Ag": "5"
         },
         "RuleIds": {
-          "vc-vampiric": "Vampiric (6+)",
           "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
+          "vc-vampiric": "Vampiric (6+)",
           "rulebook-lance": "Lance"
         }
       },
@@ -3437,19 +3404,180 @@
     }
   },
   {
+    "Id": "68357f93790d8280c4b27030",
+    "Name": "Vampire Spawn",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-autonomous": "Autonomous",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "rulebook-frenzy": "Frenzy",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-resurrect": "Resurrect (D3)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unruly": "Unruly",
+      "rulebook-unstable": "Unstable",
+      "rulebook-fury": "Fury",
+      "vc-vampiric": "Vampiric (6+)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Vampire Spawn",
+        "Values": {
+          "Ad": "9",
+          "Ma": "9",
+          "Di": "8",
+          //"Rsr": "D3",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "vc-autonomous": "Autonomous",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-frenzy": "Frenzy",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (D3)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unruly": "Unruly",
+          "rulebook-unstable": "Unstable"
+        }
+      },
+      {
+        "Name": "Vampire Spawn",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "0"
+        },
+        "RuleIds": {}
+      },
+      {
+        "Name": "Vampire Spawn",
+        "Values": {
+          "At": "3",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-fury": "Fury",
+          "vc-vampiric": "Vampiric (6+)"          
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
+  {
+    "Id": "68357f92790d8280c4b2702d",
+    "Name": "Varkolak",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "vc-autonomous": "Autonomous",
+      "rulebook-fearless": "Fearless",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary":"Solitary",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-undead": "Undead",
+      "rulebook-unruly": "Unruly",
+      "rulebook-unstable": "Unstable",      
+      "rulebook-vanguard": "Vanguard",
+      "rulebook-regeneration": "Regeneration (4+)",
+      "vc-vampiric": "Vampiric (3+)",
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Varkolak",
+        "Values": {
+          "Ad": "8",
+          "Ma": "8",
+          "Di": "7",
+          //"Rsr": "1",
+          "Hgt": "4"
+        },
+        "RuleIds": {
+          "vc-autonomous": "Autonomous",
+          "rulebook-fearless": "Fearless",
+          "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary":"Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unruly": "Unruly",
+          "rulebook-unstable": "Unstable",      
+          "rulebook-vanguard": "Vanguard"
+        }
+      },
+      {
+        "Name": "Varkolak",
+        "Values": {
+          "HP": "5",
+          "Df": "5",
+          "Re": "5",
+          "Arm": "0"
+        },
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (4+)"
+        }
+      },
+      {
+        "Name": "Varkolak",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "5"
+        },
+        "RuleIds": {
+          "rulebook-first_strike": "First Strike (Hatred)",          
+          "rulebook-stomp_attack": "Stomp Attack (1)",
+          "vc-vampiric": "Vampiric (3+)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
     "Id": "68357f92790d8280c4b27028",
     "Name": "Winged Reapers",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
+      "rulebook-resurrect": "Resurrect (D3)",
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-undead": "Undead",
       "rulebook-unstable": "Unstable",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-lethal_strike": "Lethal Strike",
       "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-halberd": "Halberd"
+      "rulebook-halberd": "Halberd"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -3464,12 +3592,12 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D3)",
-          "rulebook-fly": "Fly",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
           "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-fly": "Fly",
+          "rulebook-resurrect": "Resurrect (D3)",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-undead": "Undead",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
@@ -3507,157 +3635,86 @@
     }
   },
   {
-    "Id": "68357f92790d8280c4b2702d",
-    "Name": "Varkolak",
+    "Id": "68357f92790d8280c4b26ff8",
+    "Name": "Shrieking Horror",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-autonomous": "Autonomous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-swiftstride": "Swiftstride",
+      "vc-ashes_to_ashes": "Ashes to Ashes",
+      "rulebook-fly": "Fly",
       "rulebook-light_troops": "Light Troops",
+      "rulebook-fearless": "Fearless",
+      "rulebook-resurrect": "Resurrect (1)",
+      "rulebook-solitary": "Solitary",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-undead": "Undead",
       "rulebook-unruly": "Unruly",
-      "rulebook-first_strike": "First Strike (Hatred)",
-      "vc-vampiric": "Vampiric (3+)",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-regeneration": "Regeneration (4+)"
+      "rulebook-unstable": "Unstable",
+      "rulebook-regeneration": "Regeneration (6+)",
+      "vc-chilling_howl": "Chilling Howl",
+      "vc-chilling_shriek": "Chilling Shriek",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Varkolak",
+        "Name": "Shrieking Horror",
         "Values": {
           "Ad": "8",
           "Ma": "8",
           "Di": "7",
           //"Rsr": "1",
-          "Hgt": "4"
+          "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-autonomous": "Autonomous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-unruly": "Unruly"
-        }
-      },
-      {
-        "Name": "Varkolak",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-regeneration": "Regeneration (4+)"
-        }
-      },
-      {
-        "Name": "Varkolak",
-        "Values": {
-          "At": "5",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Hatred)",
-          "vc-vampiric": "Vampiric (3+)",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "68357f93790d8280c4b27030",
-    "Name": "Vampire Spawn",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "vc-autonomous": "Autonomous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-frenzy": "Frenzy",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-unruly": "Unruly",
-      "vc-vampiric": "Vampiric (6+)",
-      "cl-fury": "Fury"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Vampire Spawn",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          //"Rsr": "D3",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (D3)",
+          "vc-ashes_to_ashes": "Ashes to Ashes",
           "rulebook-fly": "Fly",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "vc-autonomous": "Autonomous",
           "rulebook-fearless": "Fearless",
-          "rulebook-frenzy": "Frenzy",
+          "rulebook-resurrect": "Resurrect (1)",
+          "rulebook-solitary": "Solitary",
           "rulebook-swiftstride": "Swiftstride",
-          "rulebook-unruly": "Unruly"
+          "rulebook-terror": "Terror",
+          "rulebook-undead": "Undead",
+          "rulebook-unruly": "Unruly",
+          "rulebook-unstable": "Unstable"
         }
       },
       {
-        "Name": "Vampire Spawn",
+        "Name": "Shrieking Horror",
         "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "4",
+          "HP": "7",
+          "Df": "4",
+          "Re": "6",
           "Arm": "0"
         },
-        "RuleIds": {}
+        "RuleIds": {
+          "rulebook-regeneration": "Regeneration (6+)"
+        }
       },
       {
-        "Name": "Vampire Spawn",
+        "Name": "Shrieking Horror",
         "Values": {
-          "At": "3",
+          "At": "4",
           "Of": "4",
           "St": "5",
           "AP": "2",
-          "Ag": "5"
+          "Ag": "2"
         },
         "RuleIds": {
-          "vc-vampiric": "Vampiric (6+)",
-          "cl-fury": "Fury"
+          "vc-chilling_howl": "Chilling Howl",
+          "vc-chilling_shriek": "Chilling Shriek",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
         }
       }
     ],
     "Base": {
       "Shape": "square",
       "Size": {
-        "width": "40",
-        "length": "40"
+        "width": "100",
+        "length": "150"
       }
     }
   }
