@@ -68,26 +68,6 @@
     ]
   },
   {
-    "Id": "68357f35790d8280c4b1f84f",
-    "Name": "Silent Assassin",
-    "Attributes": {
-      "totalCost": "130",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f35790d8280c4b1f84f"
-    ]
-  },
-  {
     "Id": "68357f35790d8280c4b1f858",
     "Name": "Temple Exarch",
     "Attributes": {
@@ -141,8 +121,28 @@
     ]
   },
   {
+    "Id": "68357f35790d8280c4b1f84f",
+    "Name": "Silent Assassin",
+    "Attributes": {
+      "totalCost": "130",
+      "category": "Characters",
+      "army": "Dread Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f35790d8280c4b1f84f"
+    ]
+  },
+  {
     "Id": "b3f7e1a9d2c6d8e4a1b7c9f6d",
-    "Name": "Techainin and Blaishoi",
+    "Name": "Tethaen, the Ocean Terror",
     "Attributes": {
       "totalCost": "600",
       "category": "Characters",
@@ -233,32 +233,6 @@
     ]
   },
   {
-    "Id": "68357f36790d8280c4b1fae2",
-    "Name": "Corsairs",
-    "Attributes": {
-      "totalCost": "47",
-      "category": "Core Units",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "baf7af6e-ebfd-439d-9ab2-7e38113a46b5",
-      "f7a58f28-6883-4f0f-a67a-acca5b5fcaf8"
-    ],
-    "ProfileIds": [
-      "68357f36790d8280c4b1fae4"
-    ]
-  },
-  {
     "Id": "68357f36790d8280c4b1fb1b",
     "Name": "Temple Militants",
     "Attributes": {
@@ -282,6 +256,32 @@
     ],
     "ProfileIds": [
       "68357f36790d8280c4b1fb1d"
+    ]
+  },
+  {
+    "Id": "68357f36790d8280c4b1fae2",
+    "Name": "Corsairs",
+    "Attributes": {
+      "totalCost": "47",
+      "category": "Core Units",
+      "army": "Dread Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "baf7af6e-ebfd-439d-9ab2-7e38113a46b5",
+      "f7a58f28-6883-4f0f-a67a-acca5b5fcaf8"
+    ],
+    "ProfileIds": [
+      "68357f36790d8280c4b1fae4"
     ]
   },
   {
@@ -311,43 +311,29 @@
     ]
   },
   {
-    "Id": "68357f37790d8280c4b1fb72",
-    "Name": "Raptor Chariot",
+    "Id": "68357f38790d8280c4b1fc30",
+    "Name": "Dread Acolytes",
     "Attributes": {
-      "totalCost": "190",
+      "totalCost": "57",
       "category": "Special",
       "army": "Dread Elves",
-      "height": "Large",
+      "height": "Standard",
       "type": "",
-      "defaultFront": "1"
+      "defaultFront": "5"
     },
     "AttributeLists": {
-      "FullOptions": []
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
     },
     "RuleIds": {},
-    "OptionListIds": [],
+    "OptionListIds": [
+      "ef30c64d-d17e-4275-bcdb-edbf84cc12d9",
+      "13a9f4e5-8038-44b4-beaa-58c47fa1aee5"
+    ],
     "ProfileIds": [
-      "68357f37790d8280c4b1fb72"
-    ]
-  },
-  {
-    "Id": "68357f37790d8280c4b1fb75",
-    "Name": "Divine Altar",
-    "Attributes": {
-      "totalCost": "230",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f37790d8280c4b1fb75"
+      "68357f38790d8280c4b1fc32"
     ]
   },
   {
@@ -374,6 +360,84 @@
     ],
     "ProfileIds": [
       "68357f37790d8280c4b1fb7b"
+    ]
+  },
+  {
+    "Id": "68357f38790d8280c4b1fbf8",
+    "Name": "Obsidian Guard",
+    "Attributes": {
+      "totalCost": "40",
+      "category": "Special",
+      "army": "Dread Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "48ccbf66-83b4-46a5-900c-eac8f20924b3",
+      "5cbbd4e4-c030-40d6-92f0-acb77e23d2bb"
+    ],
+    "ProfileIds": [
+      "68357f38790d8280c4b1fbfa"
+    ]
+  },
+  {
+    "Id": "68357f38790d8280c4b1fbc5",
+    "Name": "Judicators",
+    "Attributes": {
+      "totalCost": "21",
+      "category": "Special",
+      "army": "Dread Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "f0e8ba04-c8a4-436f-a17f-493513eb1875",
+      "9144a362-5a7c-4285-9f3c-d752287cf1cb"
+    ],
+    "ProfileIds": [
+      "68357f38790d8280c4b1fbc7"
+    ]
+  },
+  {
+    "Id": "d12c74273609ac8bf517f573e",
+    "Name": "Dancers of Yema",
+    "Attributes": {
+      "totalCost": "24",
+      "category": "Special",
+      "army": "Dread Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "f3a8b1d4-7c9e-4a62-9e15-6b2f0d8c4a91",
+      "f3a9c6b1-7e42-4d8a-9c51-2b6e8a0d4f93"
+    ],
+    "ProfileIds": [
+      "a3f9c1e7b4d0a8c6e2f5b9d7e"
     ]
   },
   {
@@ -417,58 +481,6 @@
     ]
   },
   {
-    "Id": "68357f38790d8280c4b1fbc5",
-    "Name": "Judicators",
-    "Attributes": {
-      "totalCost": "21",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "f0e8ba04-c8a4-436f-a17f-493513eb1875",
-      "9144a362-5a7c-4285-9f3c-d752287cf1cb"
-    ],
-    "ProfileIds": [
-      "68357f38790d8280c4b1fbc7"
-    ]
-  },
-  {
-    "Id": "68357f38790d8280c4b1fbf8",
-    "Name": "Obsidian Guard",
-    "Attributes": {
-      "totalCost": "40",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "48ccbf66-83b4-46a5-900c-eac8f20924b3",
-      "5cbbd4e4-c030-40d6-92f0-acb77e23d2bb"
-    ],
-    "ProfileIds": [
-      "68357f38790d8280c4b1fbfa"
-    ]
-  },
-  {
     "Id": "68357f38790d8280c4b1fc2b",
     "Name": "Thunder Pack",
     "Attributes": {
@@ -489,29 +501,43 @@
     ]
   },
   {
-    "Id": "68357f38790d8280c4b1fc30",
-    "Name": "Dread Acolytes",
+    "Id": "68357f37790d8280c4b1fb72",
+    "Name": "Raptor Chariot",
     "Attributes": {
-      "totalCost": "57",
+      "totalCost": "190",
       "category": "Special",
       "army": "Dread Elves",
-      "height": "Standard",
+      "height": "Large",
       "type": "",
-      "defaultFront": "5"
+      "defaultFront": "1"
     },
     "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
+      "FullOptions": []
     },
     "RuleIds": {},
-    "OptionListIds": [
-      "ef30c64d-d17e-4275-bcdb-edbf84cc12d9",
-      "13a9f4e5-8038-44b4-beaa-58c47fa1aee5"
-    ],
+    "OptionListIds": [],
     "ProfileIds": [
-      "68357f38790d8280c4b1fc32"
+      "68357f37790d8280c4b1fb72"
+    ]
+  },
+  {
+    "Id": "68357f37790d8280c4b1fb75",
+    "Name": "Divine Altar",
+    "Attributes": {
+      "totalCost": "230",
+      "category": "Special",
+      "army": "Dread Elves",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f37790d8280c4b1fb75"
     ]
   },
   {
@@ -566,14 +592,12 @@
       "defaultFront": "5"
     },
     "AttributeLists": {
-      "FullOptions": [
-        "Covert Operatives",
+      "FullOptions": [        
         "Musician"
       ]
     },
     "RuleIds": {},
-    "OptionListIds": [
-      "49b14783-f068-4917-b9b3-c9203093950a",
+    "OptionListIds": [      
       "b8768eef-101b-4450-a164-64908244232b"
     ],
     "ProfileIds": [

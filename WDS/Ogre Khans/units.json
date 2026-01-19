@@ -88,7 +88,7 @@
   },
   {
     "Id": "a9b4e2d7f3c6b5a0d8e1f6c2a",
-    "Name": "Ganzorig, the Ironbond",
+    "Name": "Ganzorig Ironbond",
     "Attributes": {
       "totalCost": "500",
       "category": "Characters",
@@ -205,10 +205,54 @@
     ]
   },
   {
-    "Id": "68357f6c790d8280c4b243a5",
-    "Name": "Mercenary Veterans",
+    "Id": "68357f6c790d8280c4b24457",
+    "Name": "Sabretooth Tigers",
     "Attributes": {
       "totalCost": "50",
+      "category": "Special",
+      "army": "Ogre Khans",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f6c790d8280c4b24459"
+    ]
+  },
+  {
+    "Id": "68357f6c790d8280c4b24449",
+    "Name": "Scrapling Trappers",
+    "Attributes": {
+      "totalCost": "100",
+      "category": "Special",
+      "army": "Ogre Khans",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "0b548960-5662-48c0-9d2b-49aab5deae9c"
+    ],
+    "ProfileIds": [
+      "68357f6c790d8280c4b2444b"
+    ]
+  },
+  {
+    "Id": "68357f6c790d8280c4b2443b",
+    "Name": "Yetis",
+    "Attributes": {
+      "totalCost": "120",
       "category": "Special",
       "army": "Ogre Khans",
       "height": "Large",
@@ -217,17 +261,35 @@
     },
     "AttributeLists": {
       "FullOptions": [
-        "Standard Bearer",
         "Musician"
       ]
     },
     "RuleIds": {},
     "OptionListIds": [
-      "f5f5bcc0-ce08-4cc9-ae06-cf201d618c7d",
-      "a1a3ff74-ff43-4d19-a137-c63d0bddfffe"
+      "adcec742-2490-49e1-9c50-fc5dad4951df"
     ],
     "ProfileIds": [
-      "68357f6c790d8280c4b243a7"
+      "68357f6c790d8280c4b2443d"
+    ]
+  },
+  {
+    "Id": "68357f6d790d8280c4b2445c",
+    "Name": "Kin-Eater",
+    "Attributes": {
+      "totalCost": "150",
+      "category": "Special",
+      "army": "Ogre Khans",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f6d790d8280c4b2445c"
     ]
   },
   {
@@ -257,10 +319,10 @@
     ]
   },
   {
-    "Id": "68357f6c790d8280c4b2443b",
-    "Name": "Yetis",
+    "Id": "68357f6c790d8280c4b243a5",
+    "Name": "Mercenary Veterans",
     "Attributes": {
-      "totalCost": "120",
+      "totalCost": "50",
       "category": "Special",
       "army": "Ogre Khans",
       "height": "Large",
@@ -269,79 +331,17 @@
     },
     "AttributeLists": {
       "FullOptions": [
+        "Standard Bearer",
         "Musician"
       ]
     },
     "RuleIds": {},
     "OptionListIds": [
-      "adcec742-2490-49e1-9c50-fc5dad4951df"
+      "f5f5bcc0-ce08-4cc9-ae06-cf201d618c7d",
+      "a1a3ff74-ff43-4d19-a137-c63d0bddfffe"
     ],
     "ProfileIds": [
-      "68357f6c790d8280c4b2443d"
-    ]
-  },
-  {
-    "Id": "68357f6c790d8280c4b24449",
-    "Name": "Scrapling Trappers",
-    "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Ogre Khans",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "0b548960-5662-48c0-9d2b-49aab5deae9c"
-    ],
-    "ProfileIds": [
-      "68357f6c790d8280c4b2444b"
-    ]
-  },
-  {
-    "Id": "68357f6c790d8280c4b24457",
-    "Name": "Sabretooth Tigers",
-    "Attributes": {
-      "totalCost": "50",
-      "category": "Special",
-      "army": "Ogre Khans",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f6c790d8280c4b24459"
-    ]
-  },
-  {
-    "Id": "68357f6d790d8280c4b2445c",
-    "Name": "Kin-Eater",
-    "Attributes": {
-      "totalCost": "150",
-      "category": "Special",
-      "army": "Ogre Khans",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f6d790d8280c4b2445c"
+      "68357f6c790d8280c4b243a7"
     ]
   },
   {
@@ -368,6 +368,32 @@
     ],
     "ProfileIds": [
       "68357f6d790d8280c4b2445f"
+    ]
+  },
+  {
+    "Id": "68357f6d790d8280c4b244aa",
+    "Name": "Bombardiers",
+    "Attributes": {
+      "totalCost": "50",
+      "category": "Special",
+      "army": "Ogre Khans",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "b3b3443b-f824-44a9-854a-b7b33395f9ec",
+      "c1d8ce94-c447-4a18-911f-2f87d60d65df"
+    ],
+    "ProfileIds": [
+      "68357f6d790d8280c4b244ac"
     ]
   },
   {
@@ -408,32 +434,6 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f6d790d8280c4b244a9"
-    ]
-  },
-  {
-    "Id": "68357f6d790d8280c4b244aa",
-    "Name": "Bombardiers",
-    "Attributes": {
-      "totalCost": "50",
-      "category": "Special",
-      "army": "Ogre Khans",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "b3b3443b-f824-44a9-854a-b7b33395f9ec",
-      "c1d8ce94-c447-4a18-911f-2f87d60d65df"
-    ],
-    "ProfileIds": [
-      "68357f6d790d8280c4b244ac"
     ]
   },
   {

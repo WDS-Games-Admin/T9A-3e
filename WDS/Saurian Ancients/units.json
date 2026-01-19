@@ -45,6 +45,33 @@
     ]
   },
   {
+    "Id": "68357f78790d8280c4b2533a",
+    "Name": "Tegu Veteran",
+    "Attributes": {
+      "totalCost": "160",
+      "category": "Characters",
+      "army": "Saurian Ancients",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Saurian Raptor",
+        "Alpha Carnosaur"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "36c62f72-ddcd-4867-ac69-73132c5d1954",
+      "9ff5512b-61d3-4066-a976-2ceeb9b054e0",
+      "4a50008c-09af-4a4e-a2d5-af0e92dd7d41"
+    ],
+    "ProfileIds": [
+      "68357f78790d8280c4b2533a"
+    ]
+  },
+  {
     "Id": "68357f78790d8280c4b25137",
     "Name": "Skink Veteran",
     "Attributes": {
@@ -71,33 +98,6 @@
     ],
     "ProfileIds": [
       "68357f78790d8280c4b25137"
-    ]
-  },
-  {
-    "Id": "68357f78790d8280c4b2533a",
-    "Name": "Tegu Veteran",
-    "Attributes": {
-      "totalCost": "160",
-      "category": "Characters",
-      "army": "Saurian Ancients",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Saurian Raptor",
-        "Alpha Carnosaur"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "36c62f72-ddcd-4867-ac69-73132c5d1954",
-      "9ff5512b-61d3-4066-a976-2ceeb9b054e0",
-      "4a50008c-09af-4a4e-a2d5-af0e92dd7d41"
-    ],
-    "ProfileIds": [
-      "68357f78790d8280c4b2533a"
     ]
   },
   {
@@ -141,15 +141,15 @@
     ]
   },
   {
-    "Id": "68357f79790d8280c4b25475",
-    "Name": "Caiman Warriors",
+    "Id": "68357f79790d8280c4b25506",
+    "Name": "Tegu Warriors",
     "Attributes": {
-      "totalCost": "20",
+      "totalCost": "10",
       "category": "Core Units",
       "army": "Saurian Ancients",
-      "height": "Large",
+      "height": "Standard",
       "type": "",
-      "defaultFront": "3"
+      "defaultFront": "5"
     },
     "AttributeLists": {
       "FullOptions": [
@@ -159,35 +159,11 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "3b4d7fed-8fbf-413b-831a-8a705aeec595",
-      "dd81c970-5dbb-4efd-ae5d-feec40d826b1"
+      "fb9e4984-e785-4252-a0ee-cce61720dab5",
+      "4242961e-b014-4b60-933b-99cec0ce4f1b"
     ],
     "ProfileIds": [
-      "68357f79790d8280c4b25477"
-    ]
-  },
-  {
-    "Id": "68357f79790d8280c4b254b1",
-    "Name": "Skink Hunters",
-    "Attributes": {
-      "totalCost": "93",
-      "category": "Core Units",
-      "army": "Saurian Ancients",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "2cf134cf-6af2-4744-b072-f2954ea4797b"
-    ],
-    "ProfileIds": [
-      "68357f79790d8280c4b254b3"
+      "68357f79790d8280c4b25508"
     ]
   },
   {
@@ -217,10 +193,10 @@
     ]
   },
   {
-    "Id": "68357f79790d8280c4b25506",
-    "Name": "Tegu Warriors",
+    "Id": "68357f79790d8280c4b254b1",
+    "Name": "Skink Hunters",
     "Attributes": {
-      "totalCost": "10",
+      "totalCost": "93",
       "category": "Core Units",
       "army": "Saurian Ancients",
       "height": "Standard",
@@ -229,25 +205,23 @@
     },
     "AttributeLists": {
       "FullOptions": [
-        "Standard Bearer",
         "Musician"
       ]
     },
     "RuleIds": {},
     "OptionListIds": [
-      "fb9e4984-e785-4252-a0ee-cce61720dab5",
-      "4242961e-b014-4b60-933b-99cec0ce4f1b"
+      "2cf134cf-6af2-4744-b072-f2954ea4797b"
     ],
     "ProfileIds": [
-      "68357f79790d8280c4b25508"
+      "68357f79790d8280c4b254b3"
     ]
   },
   {
-    "Id": "68357f7a790d8280c4b25546",
-    "Name": "Caiman Elders",
+    "Id": "68357f79790d8280c4b25475",
+    "Name": "Caiman Warriors",
     "Attributes": {
-      "totalCost": "110",
-      "category": "Special",
+      "totalCost": "20",
+      "category": "Core Units",
       "army": "Saurian Ancients",
       "height": "Large",
       "type": "",
@@ -261,101 +235,11 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "2a2bdffc-7ef4-4a73-903d-e2aca1b3a824",
-      "4a6d68dc-1c5c-4e91-a210-6f2900c7499d"
+      "3b4d7fed-8fbf-413b-831a-8a705aeec595",
+      "dd81c970-5dbb-4efd-ae5d-feec40d826b1"
     ],
     "ProfileIds": [
-      "68357f7a790d8280c4b25548"
-    ]
-  },
-  {
-    "Id": "68357f7a790d8280c4b25579",
-    "Name": "Raptor Pack",
-    "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Saurian Ancients",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f7a790d8280c4b2557b"
-    ]
-  },
-  {
-    "Id": "68357f7a790d8280c4b25581",
-    "Name": "Raptor Riders",
-    "Attributes": {
-      "totalCost": "50",
-      "category": "Special",
-      "army": "Saurian Ancients",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "88ce3ff0-ba15-42e5-8bb5-95f945a6efd5",
-      "83412235-f035-4f13-97c6-d4d91ed8ebfe"
-    ],
-    "ProfileIds": [
-      "68357f7a790d8280c4b25583"
-    ]
-  },
-  {
-    "Id": "68357f7a790d8280c4b255ae",
-    "Name": "Rhamphodon Riders",
-    "Attributes": {
-      "totalCost": "110",
-      "category": "Special",
-      "army": "Saurian Ancients",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "892b9743-bb56-4330-8e66-e75c1b974f7b"
-    ],
-    "ProfileIds": [
-      "68357f7a790d8280c4b255b0"
-    ]
-  },
-  {
-    "Id": "68357f7a790d8280c4b255bc",
-    "Name": "Saurian Swarms",
-    "Attributes": {
-      "totalCost": "90",
-      "category": "Special",
-      "army": "Saurian Ancients",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f7a790d8280c4b255be"
+      "68357f79790d8280c4b25477"
     ]
   },
   {
@@ -411,6 +295,78 @@
     ]
   },
   {
+    "Id": "68357f7a790d8280c4b25579",
+    "Name": "Raptor Pack",
+    "Attributes": {
+      "totalCost": "100",
+      "category": "Special",
+      "army": "Saurian Ancients",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f7a790d8280c4b2557b"
+    ]
+  },
+  {
+    "Id": "68357f7a790d8280c4b25581",
+    "Name": "Raptor Riders",
+    "Attributes": {
+      "totalCost": "50",
+      "category": "Special",
+      "army": "Saurian Ancients",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "88ce3ff0-ba15-42e5-8bb5-95f945a6efd5",
+      "83412235-f035-4f13-97c6-d4d91ed8ebfe"
+    ],
+    "ProfileIds": [
+      "68357f7a790d8280c4b25583"
+    ]
+  },
+  {
+    "Id": "68357f7a790d8280c4b25546",
+    "Name": "Caiman Elders",
+    "Attributes": {
+      "totalCost": "110",
+      "category": "Special",
+      "army": "Saurian Ancients",
+      "height": "Large",
+      "type": "",
+      "defaultFront": "3"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "2a2bdffc-7ef4-4a73-903d-e2aca1b3a824",
+      "4a6d68dc-1c5c-4e91-a210-6f2900c7499d"
+    ],
+    "ProfileIds": [
+      "68357f7a790d8280c4b25548"
+    ]
+  },
+  {
     "Id": "68357f7b790d8280c4b25621",
     "Name": "Thyroscutus Herd",
     "Attributes": {
@@ -431,10 +387,10 @@
     ]
   },
   {
-    "Id": "68357f7b790d8280c4b2563b",
-    "Name": "Pteradon Riders",
+    "Id": "68357f7a790d8280c4b255ae",
+    "Name": "Rhamphodon Riders",
     "Attributes": {
-      "totalCost": "120",
+      "totalCost": "110",
       "category": "Special",
       "army": "Saurian Ancients",
       "height": "Large",
@@ -448,10 +404,30 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "5fd1a40f-5570-4c9d-a281-1ec319bb626d"
+      "892b9743-bb56-4330-8e66-e75c1b974f7b"
     ],
     "ProfileIds": [
-      "68357f7b790d8280c4b2563d"
+      "68357f7a790d8280c4b255b0"
+    ]
+  },
+  {
+    "Id": "68357f7a790d8280c4b255bc",
+    "Name": "Saurian Swarms",
+    "Attributes": {
+      "totalCost": "90",
+      "category": "Special",
+      "army": "Saurian Ancients",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f7a790d8280c4b255be"
     ]
   },
   {
@@ -499,23 +475,27 @@
     ]
   },
   {
-    "Id": "68357f7c790d8280c4b25679",
-    "Name": "Carnosaur",
+    "Id": "68357f7b790d8280c4b2563b",
+    "Name": "Pteradon Riders",
     "Attributes": {
-      "totalCost": "340",
-      "category": "Magna Sauria",
+      "totalCost": "120",
+      "category": "Special",
       "army": "Saurian Ancients",
-      "height": "Gigantic",
+      "height": "Large",
       "type": "",
-      "defaultFront": "1"
+      "defaultFront": "3"
     },
     "AttributeLists": {
-      "FullOptions": []
+      "FullOptions": [
+        "Musician"
+      ]
     },
     "RuleIds": {},
-    "OptionListIds": [],
+    "OptionListIds": [
+      "5fd1a40f-5570-4c9d-a281-1ec319bb626d"
+    ],
     "ProfileIds": [
-      "68357f7c790d8280c4b25679"
+      "68357f7b790d8280c4b2563d"
     ]
   },
   {
@@ -542,6 +522,26 @@
     ],
     "ProfileIds": [
       "68357f7c790d8280c4b25681"
+    ]
+  },
+  {
+    "Id": "68357f7c790d8280c4b25679",
+    "Name": "Carnosaur",
+    "Attributes": {
+      "totalCost": "340",
+      "category": "Magna Sauria",
+      "army": "Saurian Ancients",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f7c790d8280c4b25679"
     ]
   },
   {

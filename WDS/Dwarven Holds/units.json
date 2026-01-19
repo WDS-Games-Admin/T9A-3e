@@ -52,26 +52,6 @@
     ]
   },
   {
-    "Id": "68357f3f790d8280c4b20150",
-    "Name": "Dragon Seeker",
-    "Attributes": {
-      "totalCost": "180",
-      "category": "Characters",
-      "army": "Dwarven Holds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f3f790d8280c4b20150"
-    ]
-  },
-  {
     "Id": "68357f3f790d8280c4b20169",
     "Name": "Runic Smith",
     "Attributes": {
@@ -112,8 +92,28 @@
     ]
   },
   {
+    "Id": "68357f3f790d8280c4b20150",
+    "Name": "Dragon Seeker",
+    "Attributes": {
+      "totalCost": "180",
+      "category": "Characters",
+      "army": "Dwarven Holds",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f3f790d8280c4b20150"
+    ]
+  },
+  {
     "Id": "a5d9b2c1e7f0a3d6f4b8c0a9f",
-    "Name": "Dinaz Betegoz, Master of the Guild of Lorekeepers",
+    "Name": "Duna Bregold, Master of the Guild of Lorekeepers",
     "Attributes": {
       "totalCost": "550",
       "category": "Characters",
@@ -133,7 +133,7 @@
   },
   {
     "Id": "b4d3e1f9c6a2d5e8a0b7f3c9d",
-    "Name": "Tador Berafrig",
+    "Name": "Brewmaster Tador Berafrig",
     "Attributes": {
       "totalCost": "550",
       "category": "Characters",
@@ -230,52 +230,6 @@
     ]
   },
   {
-    "Id": "68357f40790d8280c4b202ee",
-    "Name": "Deep Watch",
-    "Attributes": {
-      "totalCost": "8",
-      "category": "Special",
-      "army": "Dwarven Holds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "602f36ea-3062-4c4c-8b98-12fc96b95bec",
-      "46d2ce74-b37e-4ccd-af3e-1f3570dd321e"
-    ],
-    "ProfileIds": [
-      "68357f40790d8280c4b202f0"
-    ]
-  },
-  {
-    "Id": "68357f40790d8280c4b20339",
-    "Name": "Anvil of Power",
-    "Attributes": {
-      "totalCost": "200",
-      "category": "Special",
-      "army": "Dwarven Holds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f40790d8280c4b20339"
-    ]
-  },
-  {
     "Id": "68357f40790d8280c4b2033b",
     "Name": "King's Guard",
     "Attributes": {
@@ -302,10 +256,10 @@
     ]
   },
   {
-    "Id": "68357f41790d8280c4b20386",
-    "Name": "Miners",
+    "Id": "68357f40790d8280c4b202ee",
+    "Name": "Deep Watch",
     "Attributes": {
-      "totalCost": "81",
+      "totalCost": "8",
       "category": "Special",
       "army": "Dwarven Holds",
       "height": "Standard",
@@ -320,11 +274,11 @@
     },
     "RuleIds": {},
     "OptionListIds": [
-      "4c44cb60-3e44-480e-b59f-2096d92d16f2",
-      "35a56d6d-13ad-4cef-846e-9bf18b871e91"
+      "602f36ea-3062-4c4c-8b98-12fc96b95bec",
+      "46d2ce74-b37e-4ccd-af3e-1f3570dd321e"
     ],
     "ProfileIds": [
-      "68357f41790d8280c4b20388"
+      "68357f40790d8280c4b202f0"
     ]
   },
   {
@@ -351,32 +305,6 @@
     ],
     "ProfileIds": [
       "68357f41790d8280c4b203b2"
-    ]
-  },
-  {
-    "Id": "68357f41790d8280c4b203ce",
-    "Name": "Brothers of Vengeance",
-    "Attributes": {
-      "totalCost": "16",
-      "category": "Special",
-      "army": "Dwarven Holds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "4cc563a0-b272-427d-bd06-3ed7c809caf5",
-      "47fc2e7b-b4eb-4710-bd2a-5621ba6639a1"
-    ],
-    "ProfileIds": [
-      "68357f41790d8280c4b203d0"
     ]
   },
   {
@@ -446,10 +374,36 @@
     ]
   },
   {
-    "Id": "68357f42790d8280c4b20439",
-    "Name": "Field Artillery",
+    "Id": "68357f41790d8280c4b20386",
+    "Name": "Miners",
     "Attributes": {
-      "totalCost": "100",
+      "totalCost": "81",
+      "category": "Special",
+      "army": "Dwarven Holds",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "4c44cb60-3e44-480e-b59f-2096d92d16f2",
+      "35a56d6d-13ad-4cef-846e-9bf18b871e91"
+    ],
+    "ProfileIds": [
+      "68357f41790d8280c4b20388"
+    ]
+  },
+  {
+    "Id": "68357f40790d8280c4b20339",
+    "Name": "Anvil of Power",
+    "Attributes": {
+      "totalCost": "200",
       "category": "Special",
       "army": "Dwarven Holds",
       "height": "Standard",
@@ -457,24 +411,12 @@
       "defaultFront": "1"
     },
     "AttributeLists": {
-      "FullOptions": [
-        "Dwarf Ballista",
-        "Flame Cannon",
-        "Dwarf Catapult",
-        "Dwarf Cannon",
-        "Organ Gun"
-      ]
+      "FullOptions": []
     },
     "RuleIds": {},
-    "OptionListIds": [
-      "472f5e73-f607-4d3e-972c-749073557325",
-      "8be84392-df21-4335-9b88-6a6807ca1e2d",
-      "58cb9147-4e43-4e05-b4f1-fc316c28a7e5",
-      "8858a367-9828-40f5-b362-cc1ed59273c5",
-      "3d47e20a-d152-48e7-9149-8957cbe5859b"
-    ],
+    "OptionListIds": [],
     "ProfileIds": [
-      "68357f42790d8280c4b20439"
+      "68357f40790d8280c4b20339"
     ]
   },
   {
@@ -529,7 +471,7 @@
       "68357f42790d8280c4b204f9"
     ]
   },
-  {
+    {
     "Id": "68357f43790d8280c4b20542",
     "Name": "Steam Copters",
     "Attributes": {
@@ -547,6 +489,38 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f43790d8280c4b20544"
+    ]
+  },
+  {
+    "Id": "68357f42790d8280c4b20439",
+    "Name": "Field Artillery",
+    "Attributes": {
+      "totalCost": "100",
+      "category": "Special",
+      "army": "Dwarven Holds",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Dwarf Ballista",
+        "Flame Cannon",
+        "Dwarf Catapult",
+        "Dwarf Cannon",
+        "Organ Gun"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "472f5e73-f607-4d3e-972c-749073557325",
+      "8be84392-df21-4335-9b88-6a6807ca1e2d",
+      "58cb9147-4e43-4e05-b4f1-fc316c28a7e5",
+      "8858a367-9828-40f5-b362-cc1ed59273c5",
+      "3d47e20a-d152-48e7-9149-8957cbe5859b"
+    ],
+    "ProfileIds": [
+      "68357f42790d8280c4b20439"
     ]
   }
 ]

@@ -1,204 +1,22 @@
 [
   {
-    "Id": "80c85ad6-2293-4b17-a9ac-37023840ce52",
-    "Name": "Bull of Shamut",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "360"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "id-keys_to_the_citadel": "Keys to the Citadel",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-impact_hits": "Impact Hits (D3)",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "id-infernal_armour": "Infernal Armour",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Bull of Shamut",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "id-keys_to_the_citadel": "Keys to the Citadel",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal"
-        }
-      },
-      {
-        "Name": "Bull of Shamut",
-        "Values": {
-          "HP": "5",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
-          "rulebook-aegis": "Aegis (5+)"
-        }
-      },
-      {
-        "Name": "Bull of Shamut",
-        "Values": {
-          "At": "4",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)",
-          "rulebook-divine_attacks": "Divine Attacks",
-          "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
-  },
-  {
-    "Id": "85fd36f7-3d9a-488a-9fc7-c03a2e794923",
-    "Name": "Great Bull of Shamut",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "580"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "id-keys_to_the_citadel": "Keys to the Citadel",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-impact_hits": "Impact Hits (D3)",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
-      "id-infernal_armour": "Infernal Armour",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Great Bull of Shamut",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "10",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "id-keys_to_the_citadel": "Keys to the Citadel",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops"
-        }
-      },
-      {
-        "Name": "Great Bull of Shamut",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
-          "rulebook-aegis": "Aegis (5+)"
-        }
-      },
-      {
-        "Name": "Great Bull of Shamut",
-        "Values": {
-          "At": "5",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)",
-          "rulebook-divine_attacks": "Divine Attacks",
-          "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "100"
-      }
-    }
-  },
-  {
     "Id": "68357f54790d8280c4b21fd3",
     "Name": "Overlord",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "id-keys_to_the_citadel": "Keys to the Citadel",
       "rulebook-disciplined": "Disciplined",
+      "id-keys_to_the_citadel": "Keys to the Citadel",      
       "rulebook-light_troops": "Light Troops",
+      "id-infernal_armour": "Infernal Armour",
       "rulebook-first_strike": "First Strike (Hatred)",
       "rulebook-weapon_master": "Weapon Master",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-spear": "Spear",
-      "id-infernal_weapon": "Infernal Weapon",
       "id-flintlock_axe": "Flintlock Axe (2+)",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-great_weapon": "Great Weapon",
+      "id-infernal_weapon": "Infernal Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",      
+      "rulebook-spear": "Spear"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -212,9 +30,9 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "id-keys_to_the_citadel": "Keys to the Citadel",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "id-keys_to_the_citadel": "Keys to the Citadel",          
           "rulebook-light_troops": "Light Troops"
         }
       },
@@ -242,11 +60,11 @@
         "RuleIds": {
           "rulebook-first_strike": "First Strike (Hatred)",
           "rulebook-weapon_master": "Weapon Master",
-          "rulebook-paired_weapons": "Paired Weapons",
+          "id-flintlock_axe": "Flintlock Axe (2+)",
           "rulebook-great_weapon": "Great Weapon",
-          "rulebook-spear": "Spear",
           "id-infernal_weapon": "Infernal Weapon",
-          "id-flintlock_axe": "Flintlock Axe (2+)"
+          "rulebook-paired_weapons": "Paired Weapons",
+          "rulebook-spear": "Spear"          
         }
       }
     ],
@@ -255,6 +73,247 @@
       "Size": {
         "width": "20",
         "length": "20"
+      }
+    }
+  },
+  {
+    "Id": "7f3c9d2a-4b61-4f8e-9c2a-1e6b0a8d5f42",
+    "Name": "Taurukh Ritual",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "180"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",      
+      "id-keys_to_the_citadel": "Keys to the Citadel",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-first_strike": "First Strike (Hatred)",
+      "rulebook-impact_hits": "Impact Hits (1)",
+      "rulebook-weapon_master": "Weapon Master",
+      "id-flintlock_axe": "Flintlock Axe (2+)",
+      "rulebook-great_weapon": "Great Weapon",
+      "id-infernal_weapon": "Infernal Weapon",
+      "rulebook-paired_weapons": "Paired Weapons",
+      "rulebook-spear": "Spear"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Taurukh Ritual",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "10",
+          "Hgt": "2"
+        },
+        "RuleIds": {
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",          
+          "id-keys_to_the_citadel": "Keys to the Citadel"
+        }
+      },
+      {
+        "Name": "Taurukh Ritual",
+        "Values": {
+          "HP": "3",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "3"
+        },
+        "RuleIds": {
+          "id-infernal_armour": "Infernal Armour"          
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "25",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "80c85ad6-2293-4b17-a9ac-37023840ce52",
+    "Name": "Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Large",
+      "totalcost": "360"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-fearless": "Fearless",
+      "id-keys_to_the_citadel": "Keys to the Citadel",      
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (5+)",
+      "id-infernal_armour": "Infernal Armour",      
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "10",
+          "Hgt": "4"
+        },
+        "RuleIds": {          
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "id-keys_to_the_citadel": "Keys to the Citadel",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-solitary": "Solitary",          
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "HP": "5",
+          "Df": "7",
+          "Re": "5",
+          "Arm": "4"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "id-infernal_armour": "Infernal Armour"          
+        }
+      },
+      {
+        "Name": "Bull of Shamut",
+        "Values": {
+          "At": "4",
+          "Of": "4",
+          "St": "5",
+          "AP": "2",
+          "Ag": "3"
+        },
+        "RuleIds": {          
+          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (1)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "50",
+        "length": "50"
+      }
+    }
+  },
+  {
+    "Id": "85fd36f7-3d9a-488a-9fc7-c03a2e794923",
+    "Name": "Great Bull of Shamut",
+    "Attributes": {
+      "type": "",
+      "height": "Gigantic",
+      "totalcost": "580"
+    },
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-disciplined": "Disciplined",
+      "rulebook-fearless": "Fearless",
+      "rulebook-fly": "Fly",
+      "id-keys_to_the_citadel": "Keys to the Citadel",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+      "rulebook-divine_attacks": "Divine Attacks",
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "Ad": "7",
+          "Ma": "7",
+          "Di": "10",
+          "Hgt": "5"
+        },
+        "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-disciplined": "Disciplined",
+          "id-keys_to_the_citadel": "Keys to the Citadel",
+          "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "rulebook-supernal": "Supernal",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "HP": "7",
+          "Df": "5",
+          "Re": "6",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)",
+          "id-infernal_armour": "Infernal Armour"          
+        }
+      },
+      {
+        "Name": "Great Bull of Shamut",
+        "Values": {
+          "At": "5",
+          "Of": "5",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+          "rulebook-divine_attacks": "Divine Attacks",                   
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-impact_hits": "Impact Hits (D3)",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"         
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "60",
+        "length": "100"
       }
     }
   },
@@ -268,11 +327,10 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "id-vassal_governor": "Vassal Governor",
-      "rulebook-disciplined": "Disciplined",
+      "rulebook-commanding_presence": "Commanding Presence (12\", Insignificant)",
+      "rulebook-disciplined": "Disciplined",            
       "id-prophet_of_shamut": "Prophet of Shamut",
-      "rulebook-light_troops": "Light Troops",
+      "id-vassal_governor": "Vassal Governor",
       "rulebook-wizard_adept": "Wizard Adept",
       "id-infernal_armour": "Infernal Armour"
     },
@@ -288,11 +346,10 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "id-vassal_governor": "Vassal Governor",
+          "rulebook-commanding_presence": "Commanding Presence (12\", Insignificant)",
           "rulebook-disciplined": "Disciplined",
           "id-prophet_of_shamut": "Prophet of Shamut",
-          "rulebook-light_troops": "Light Troops",
+          "id-vassal_governor": "Vassal Governor",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -340,16 +397,17 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
       "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-solitary": "Solitary",      
+      "rulebook-swiftstride": "Swiftstride",
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-aegis": "Aegis (3+ against Flaming Attacks)",
       "id-infernal_armour": "Infernal Armour",
-      "rulebook-aegis": "Aegis (3+ against Flaming Attacks)"
+      "rulebook-flaming_attacks": "Flaming Attacks)",
+      "rulebook-impact_hits": "Impact Hits (D6+1)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "id-volcanic_embrace":"Volcanic Embrace (2)"     
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -363,11 +421,11 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",          
+          "rulebook-light_troops": "Light Troops",          
           "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-solitary": "Solitary",
+          "rulebook-swiftstride": "Swiftstride",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -380,21 +438,21 @@
           "Arm": "5"
         },
         "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
-          "rulebook-aegis": "Aegis (3+ against Flaming Attacks)"
+          "rulebook-aegis": "Aegis (3+ against Flaming Attacks)",
+          "id-infernal_armour": "Infernal Armour"          
         }
       },
       {
         "Name": "Kadim Beast",
         "Values": {
-          "At": "3",
+          "At": "2",
           "Of": "3",
           "St": "5",
           "AP": "2",
           "Ag": "4"
         },
         "RuleIds": {
-          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-flaming_attacks": "Flaming Attacks",
           "rulebook-magical_attacks": "Magical Attacks"
         }
       },
@@ -409,8 +467,9 @@
         },
         "RuleIds": {
           "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
+          "rulebook-impact_hits": "Impact Hits (D6+1)",
+          "rulebook-magical_attacks": "Magical Attacks",          
+          "id-volcanic_embrace": "Volcanic Embrace (2)"
         }
       }
     ],
@@ -433,21 +492,21 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
       "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
+      "rulebook-fly": "Fly",
+      "rulebook-light_troops": "Light Troops",
       "id-prophet_of_shamut": "Prophet of Shamut",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",      
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-aegis": "Aegis (5+)",
+      "id-infernal_armour": "Infernal Armour",      
       "rulebook-divine_attacks": "Divine Attacks",
       "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-impact_hits": "Impact Hits (D3)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "id-infernal_armour": "Infernal Armour",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -462,13 +521,13 @@
         },
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
+          "rulebook-fly": "Fly",          
+          "rulebook-light_troops": "Light Troops",          
+          "rulebook-fearless": "Fearless",          
           "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -481,8 +540,8 @@
           "Arm": "4"
         },
         "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
-          "rulebook-aegis": "Aegis (5+)"
+          "rulebook-aegis": "Aegis (5+)",
+          "id-infernal_armour": "Infernal Armour"          
         }
       },
       {
@@ -494,10 +553,10 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)",
-          "rulebook-divine_attacks": "Divine Attacks",
+        "RuleIds": {          
+          "rulebook-divine_attacks": "Divine Attacks",          
           "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-impact_hits": "Impact Hits (D3)",
           "rulebook-magical_attacks": "Magical Attacks",
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
@@ -521,16 +580,15 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-strider": "Strider (Wall)",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",      
       "id-firing_platform": "Firing Platform",
       "id-prophet_of_shamut": "Prophet of Shamut",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-strider": "Strider (Wall)",
+      "rulebook-war_platform": "War Platform",
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-impact_hits": "Impact Hits (D3+1)",
+      "id-infernal_armour": "Infernal Armour",
       "rulebook-crush_attack": "Crush Attack",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-impact_hits": "Impact Hits (D3+1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -544,12 +602,12 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-war_platform": "War Platform",
-          "rulebook-strider": "Strider (Wall)",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",                              
           "id-firing_platform": "Firing Platform",
-          "id-prophet_of_shamut": "Prophet of Shamut",
           "rulebook-light_troops": "Light Troops",
+          "id-prophet_of_shamut": "Prophet of Shamut",
+          "rulebook-strider": "Strider (Wall)",
+          "rulebook-war_platform": "War Platform",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -587,8 +645,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3+1)",
-          "rulebook-crush_attack": "Crush Attack"
+          "rulebook-crush_attack": "Crush Attack",
+          "rulebook-impact_hits": "Impact Hits (D3+1)"          
         }
       }
     ],
@@ -611,23 +669,22 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
       "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
+      "rulebook-fly": "Fly",      
       "id-prophet_of_shamut": "Prophet of Shamut",
-      "rulebook-light_troops": "Light Troops",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-terror": "Terror",      
       "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-impact_hits": "Impact Hits (D3)",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-flaming_attacks": "Flaming Attacks",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+      "rulebook-aegis": "Aegis (5+)",
       "id-infernal_armour": "Infernal Armour",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+      "rulebook-divine_attacks": "Divine Attacks",      
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "rulebook-stomp_attack": "Stomp Attack (D6)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -642,14 +699,13 @@
         },
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-fearless": "Fearless",
+          "rulebook-fly": "Fly",
+          "id-prophet_of_shamut": "Prophet of Shamut",          
           "rulebook-supernal": "Supernal",
-          "rulebook-terror": "Terror",
           "rulebook-solitary": "Solitary",
-          "id-prophet_of_shamut": "Prophet of Shamut",
-          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",
+          "rulebook-terror": "Terror",
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -662,8 +718,8 @@
           "Arm": "2"
         },
         "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
-          "rulebook-aegis": "Aegis (5+)"
+          "rulebook-aegis": "Aegis (5+)",
+          "id-infernal_armour": "Infernal Armour"          
         }
       },
       {
@@ -676,12 +732,12 @@
           "Ag": "3"
         },
         "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)",
-          "rulebook-divine_attacks": "Divine Attacks",
+          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)",
+          "rulebook-divine_attacks": "Divine Attacks",                    
           "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-impact_hits": "Impact Hits (D3)",
           "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)"
+          "rulebook-stomp_attack": "Stomp Attack (D6)"          
         }
       }
     ],
@@ -700,8 +756,8 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "id-prophet_of_shamut": "Prophet of Shamut",
       "rulebook-light_troops": "Light Troops",
+      "id-prophet_of_shamut": "Prophet of Shamut",      
       "rulebook-wizard_adept": "Wizard Adept",
       "id-infernal_armour": "Infernal Armour"
     },
@@ -718,8 +774,8 @@
         },
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "id-prophet_of_shamut": "Prophet of Shamut",
           "rulebook-light_troops": "Light Troops",
+          "id-prophet_of_shamut": "Prophet of Shamut",          
           "rulebook-wizard_adept": "Wizard Adept"
         }
       },
@@ -766,12 +822,12 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "id-vassal_governor": "Vassal Governor",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-disciplined": "Disciplined",
       "rulebook-light_troops": "Light Troops",
+      "id-vassal_governor": "Vassal Governor",
       "id-infernal_armour": "Infernal Armour"
     },
     "EquipmentIds": [],
@@ -786,12 +842,12 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "id-vassal_governor": "Vassal Governor",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-captain": "Captain",
           "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-captain": "Captain",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-light_troops": "Light Troops",
+          "id-vassal_governor": "Vassal Governor"
         }
       },
       {
@@ -837,22 +893,22 @@
     },
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
       "rulebook-swiftstride": "Swiftstride",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-fearless": "Fearless",
-      "rulebook-supernal": "Supernal",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-impact_hits": "Impact Hits (D3)",
+      "rulebook-solitary": "Solitary",      
+      "rulebook-supernal": "Supernal",            
+      "rulebook-aegis": "Aegis (5+)",
+      "id-infernal_armour": "Infernal Armour",      
       "rulebook-divine_attacks": "Divine Attacks",
       "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-impact_hits": "Impact Hits (D3)",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "id-infernal_armour": "Infernal Armour",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -866,15 +922,15 @@
           "Hgt": "4"
         },
         "RuleIds": {
+          "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
           "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
-          "rulebook-fearless": "Fearless",
           "rulebook-supernal": "Supernal",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached"
+          "rulebook-swiftstride": "Swiftstride"          
         }
       },
       {
@@ -886,8 +942,8 @@
           "Arm": "4"
         },
         "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
-          "rulebook-aegis": "Aegis (5+)"
+          "rulebook-aegis": "Aegis (5+)",
+          "id-infernal_armour": "Infernal Armour"         
         }
       },
       {
@@ -899,10 +955,10 @@
           "AP": "2",
           "Ag": "3"
         },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)",
+        "RuleIds": {          
           "rulebook-divine_attacks": "Divine Attacks",
           "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-impact_hits": "Impact Hits (D3)",
           "rulebook-magical_attacks": "Magical Attacks",
           "rulebook-stomp_attack": "Stomp Attack (1)"
         }
@@ -926,16 +982,16 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-strider": "Strider (Wall)",
-      "id-firing_platform": "Firing Platform",
-      "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "id-firing_platform": "Firing Platform",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-impact_hits": "Impact Hits (D3+1)",
+      "rulebook-war_platform": "War Platform",
+      "rulebook-strider": "Strider (Wall)",      
+      "id-infernal_armour": "Infernal Armour",
       "rulebook-crush_attack": "Crush Attack",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-impact_hits": "Impact Hits (D3+1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -949,13 +1005,13 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-war_platform": "War Platform",
-          "rulebook-strider": "Strider (Wall)",
-          "id-firing_platform": "Firing Platform",
-          "rulebook-captain": "Captain",
           "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
+            "rulebook-captain": "Captain",
+            "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+            "id-firing_platform": "Firing Platform",
+            "rulebook-light_troops": "Light Troops",
+            "rulebook-war_platform": "War Platform",
+            "rulebook-strider": "Strider (Wall)"
         }
       },
       {
@@ -992,8 +1048,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3+1)",
-          "rulebook-crush_attack": "Crush Attack"
+          "rulebook-crush_attack": "Crush Attack",
+          "rulebook-impact_hits": "Impact Hits (D3+1)"         
         }
       }
     ],
@@ -1011,9 +1067,9 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-captain": "Captain",
       "rulebook-attached": "Attached",
+      "rulebook-captain": "Captain",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",      
       "rulebook-light_troops": "Light Troops",
       "id-infernal_armour": "Infernal Armour"
     },
@@ -1029,9 +1085,9 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-captain": "Captain",
           "rulebook-attached": "Attached",
+          "rulebook-captain": "Captain",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",       
           "rulebook-light_troops": "Light Troops"
         }
       },
@@ -1076,9 +1132,9 @@
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
       "rulebook-swiftstride": "Swiftstride",
+      "id-infernal_armour": "Infernal Armour",
       "rulebook-impact_hits": "Impact Hits (1)",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1141,14 +1197,14 @@
     },
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-exclusive": "Exclusive (Insignificant)",
+      "rulebook-feigned_flight": "Feigned Flight",      
+      "rulebook-exclusive": "Exclusive (Insignificant)",      
       "rulebook-insignificant": "Insignificant",
-      "id-unbranded": "Unbranded",
-      "rulebook-feigned_flight": "Feigned Flight",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-swiftstride": "Swiftstride"
+      "rulebook-swiftstride": "Swiftstride",
+      "id-unbranded": "Unbranded",      
+      "rulebook-vanguard": "Vanguard",      
+      "rulebook-wizard_adept": "Wizard Adept"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1162,14 +1218,14 @@
           "Hgt": "2"
         },
         "RuleIds": {
-          "rulebook-wizard_adept": "Wizard Adept",
-          "rulebook-exclusive": "Exclusive (Insignificant)",
+          "rulebook-feigned_flight": "Feigned Flight",      
+          "rulebook-exclusive": "Exclusive (Insignificant)",      
           "rulebook-insignificant": "Insignificant",
-          "id-unbranded": "Unbranded",
-          "rulebook-feigned_flight": "Feigned Flight",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-swiftstride": "Swiftstride"
+          "rulebook-swiftstride": "Swiftstride",
+          "id-unbranded": "Unbranded",      
+          "rulebook-vanguard": "Vanguard",      
+          "rulebook-wizard_adept": "Wizard Adept"
         }
       },
       {
@@ -1208,12 +1264,12 @@
     "Name": "Vassal Conjurer",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-wizard_adept": "Wizard Adept",
+    "RuleIds": {      
       "rulebook-exclusive": "Exclusive (Insignificant)",
       "rulebook-insignificant": "Insignificant",
+      "rulebook-light_troops": "Light Troops",
       "id-unbranded": "Unbranded",
-      "rulebook-light_troops": "Light Troops"
+      "rulebook-wizard_adept": "Wizard Adept"     
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1227,11 +1283,11 @@
           "Hgt": "1"
         },
         "RuleIds": {
-          "rulebook-wizard_adept": "Wizard Adept",
           "rulebook-exclusive": "Exclusive (Insignificant)",
           "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
           "id-unbranded": "Unbranded",
-          "rulebook-light_troops": "Light Troops"
+          "rulebook-wizard_adept": "Wizard Adept"   
         }
       },
       {
@@ -1273,15 +1329,15 @@
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
       "rulebook-fly": "Fly",
-      "id-riddle_of_the_lamassu": "Riddle of the Lamassu",
-      "rulebook-solitary": "Solitary",
       "rulebook-light_troops": "Light Troops",
+      "id-riddle_of_the_lamassu": "Riddle of the Lamassu",
+      "rulebook-solitary": "Solitary",      
       "rulebook-wizard_conclave": "Wizard Conclave (3)",
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-regeneration": "Regeneration (5+)",
       "id-infernal_weapon": "Infernal Weapon",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-regeneration": "Regeneration (5+)",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-stomp_attack": "Stomp Attack (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1297,9 +1353,9 @@
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
           "rulebook-fly": "Fly",
-          "id-riddle_of_the_lamassu": "Riddle of the Lamassu",
-          "rulebook-solitary": "Solitary",
           "rulebook-light_troops": "Light Troops",
+          "id-riddle_of_the_lamassu": "Riddle of the Lamassu",
+          "rulebook-solitary": "Solitary",          
           "rulebook-wizard_conclave": "Wizard Conclave (3)"
         }
       },
@@ -1312,8 +1368,8 @@
           "Arm": "3"
         },
         "RuleIds": {
-          "rulebook-regeneration": "Regeneration (5+)",
-          "id-infernal_armour": "Infernal Armour"
+          "id-infernal_armour": "Infernal Armour",
+          "rulebook-regeneration": "Regeneration (5+)"
         }
       },
       {
@@ -1366,9 +1422,9 @@
       "id-the_riddle_of_peace" : "The Riddle of Peace",
       "rulebook-unstable": "Unstable",
       "rulebook-wizard_master": "Wizard Master",
-      "rulebook-magical_attacks": "Magical Attacks",
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
-      "rulebook-grind_attack": "Grind Attack (3D3 hits)"
+      "rulebook-grind_attack": "Grind Attack (3D3 hits)",
+      "rulebook-magical_attacks": "Magical Attacks"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1610,10 +1666,10 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-first_strike": "First Strike (Stubborn)",
-      "rulebook-pistol": "Pistol (4+)",
+      "rulebook-first_strike": "First Strike (Stubborn)",      
       "id-infernal_armour": "Infernal Armour",
-      "rulebook-shield": "Shield"
+      "rulebook-shield": "Shield",
+      "rulebook-pistol": "Pistol (4+)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1671,11 +1727,11 @@
     "Name": "Vassal Levies",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
+    "RuleIds": {      
       "rulebook-exclusive": "Exclusive (Insignificant, Vassal Governor)",
+      "rulebook-insignificant": "Insignificant",
       "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "id-oil_flasks": "Oil Flasks (2)",
+      "id-oil_flasks": "Oil Flasks",
       "rulebook-paired_weapons": "Paired Weapons"
     },
     "EquipmentIds": [],
@@ -1689,9 +1745,9 @@
           "Di": "7",
           "Hgt": "1"
         },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
+        "RuleIds": {          
           "rulebook-exclusive": "Exclusive (Insignificant, Vassal Governor)",
+          "rulebook-insignificant": "Insignificant",
           "rulebook-weakness": "Weakness (Flaming Attacks)"
         }
       },
@@ -1715,7 +1771,7 @@
           "Ag": "3"
         },
         "RuleIds": {
-          "id-oil_flasks": "Oil Flasks (2)",
+          "id-oil_flasks": "Oil Flasks",
           "rulebook-paired_weapons": "Paired Weapons"
         }
       }
@@ -1734,10 +1790,10 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "id-chained_together": "Chained Together",
       "rulebook-insignificant": "Insignificant",
       "rulebook-solitary": "Solitary",
-      "rulebook-unruly": "Unruly",
-      "id-chained_together": "Chained Together",
+      "rulebook-unruly": "Unruly",      
       "rulebook-unstable": "Unstable",
       "rulebook-paired_weapons": "Paired Weapons"
     },
@@ -1753,10 +1809,10 @@
           "Hgt": "1"
         },
         "RuleIds": {
+          "id-chained_together": "Chained Together",
           "rulebook-insignificant": "Insignificant",
           "rulebook-solitary": "Solitary",
-          "rulebook-unruly": "Unruly",
-          "id-chained_together": "Chained Together",
+          "rulebook-unruly": "Unruly",          
           "rulebook-unstable": "Unstable"
         }
       },
@@ -1792,21 +1848,98 @@
       }
     }
   },
+    {
+    "Id": "68357f58790d8280c4b22740",
+    "Name": "Kadim Incarnates",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {      
+      "rulebook-exclusive": "Exclusive (Supernal)",
+      "rulebook-fearless": "Fearless",      
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-supernal": "Supernal",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
+      "rulebook-aegis": "Aegis (5+)",      
+      "rulebook-flaming_attacks": "Flaming Attacks",
+      "rulebook-magical_attacks": "Magical Attacks",
+      "id-volcanic_embrace": "Volcanic Embrace (2)"
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kadim Incarnates",
+        "Values": {
+          "Ad": "6",
+          "Ma": "6",
+          "Di": "6",
+          "Hgt": "3"
+        },
+        "RuleIds": {
+          "rulebook-exclusive": "Exclusive (Supernal)",
+          "rulebook-fearless": "Fearless",      
+          "rulebook-ghost_step": "Ghost Step",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-supernal": "Supernal",
+          "rulebook-swiftstride": "Swiftstride"
+        }
+      },
+      {
+        "Name": "Kadim Incarnates",
+        "Values": {
+          "HP": "3",
+          "Df": "3",
+          "Re": "4",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Kadim Incarnate",
+        "Values": {
+          "At": "2",
+          "Of": "3",
+          "St": "5",
+          "AP": "2",
+          "Ag": "4"
+        },
+        "RuleIds": {          
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
+          "id-volcanic_embrace": "Volcanic Embrace (2)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "40",
+        "length": "40"
+      }
+    }
+  },
   {
     "Id": "68357f57790d8280c4b226c0",
     "Name": "Kadim Chariot",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
       "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",   
+      "rulebook-aegis": "Aegis (5+)",
       "rulebook-flaming_attacks": "Flaming Attacks",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-paired_weapons": "Paired Weapons",
       "rulebook-impact_hits": "Impact Hits (D6+1)",
-      "rulebook-aegis": "Aegis (5+)"
+      "id-volcanic_embrace":"Volcanic Embrace (2)", 
+      "rulebook-paired_weapons": "Paired Weapons"     
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1820,10 +1953,10 @@
           "Hgt": "4"
         },
         "RuleIds": {
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
           "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)"
+          "rulebook-swiftstride": "Swiftstride"         
         }
       },
       {
@@ -1835,6 +1968,7 @@
           "Arm": "2"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
           "rulebook-aegis": "Aegis (5+)"
         }
       },
@@ -1856,14 +1990,14 @@
       {
         "Name": "Kadim Beast",
         "Values": {
-          "At": "3",
+          "At": "2",
           "Of": "3",
           "St": "5",
           "AP": "2",
           "Ag": "4"
         },
         "RuleIds": {
-          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-flaming_attacks": "Flaming Attacks",
           "rulebook-magical_attacks": "Magical Attacks"
         }
       },
@@ -1878,8 +2012,9 @@
         },
         "RuleIds": {
           "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
+          "rulebook-impact_hits": "Impact Hits (D6+1)",
+          "rulebook-magical_attacks": "Magical Attacks",          
+          "id-volcanic_embrace":"Volcanic Embrace (2)"
         }
       }
     ],
@@ -1899,13 +2034,12 @@
     "RuleIds": {
       "rulebook-bodyguard": "Bodyguard (General, Overlord, Vizier)",
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-first_strike": "First Strike (Stubborn)",
-      "rulebook-disciplined": "Disciplined",
-      "cl-fury": "Fury",
-      "rulebook-great_weapon": "Great Weapon",
-      "id-infernal_armour": "Infernal Armour",
+      "rulebook-disciplined": "Disciplined",      
       "id-defy_death": "Defy Death",
-      "rulebook-shield": "Shield"
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-shield": "Shield",
+      "rulebook-first_strike": "First Strike (Stubborn)",      
+      "rulebook-great_weapon": "Great Weapon"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1921,8 +2055,8 @@
         "RuleIds": {
           "rulebook-bodyguard": "Bodyguard (General, Overlord, Vizier)",
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-first_strike": "First Strike (Stubborn)",
-          "rulebook-disciplined": "Disciplined"
+          "rulebook-disciplined": "Disciplined",
+          "rulebook-first_strike": "First Strike (Stubborn)"          
         }
       },
       {
@@ -1934,8 +2068,9 @@
           "Arm": "3"
         },
         "RuleIds": {
-          "id-infernal_armour": "Infernal Armour",
           "id-defy_death": "Defy Death",
+          "id-infernal_armour": "Infernal Armour",
+          
           "rulebook-shield": "Shield"
         }
       },
@@ -1950,7 +2085,6 @@
           "Agi": "0"
         },
         "RuleIds": {
-          "cl-fury": "Fury",
           "rulebook-great_weapon": "Great Weapon"
         }
       }
@@ -1973,10 +2107,11 @@
       "rulebook-first_strike": "First Strike (Stubborn)",
       "rulebook-ghost_step": "Ghost Step",
       "id-theocratic_litigators": "Theocratic Litigators",
+      "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
+      "rulebook-aegis": "Aegis (5+)",
       "rulebook-flaming_attacks": "Flaming Attacks",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-aegis": "Aegis (5+)"
+      "rulebook-paired_weapons": "Paired Weapons"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2005,6 +2140,7 @@
           "Arm": "0"
         },
         "RuleIds": {
+          "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
           "rulebook-aegis": "Aegis (5+)"
         }
       },
@@ -2033,90 +2169,17 @@
     }
   },
   {
-    "Id": "68357f58790d8280c4b22740",
-    "Name": "Kadim Incarnates",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-exclusive": "Exclusive (Supernal)",
-      "id-volcanic_embrace": "Volcanic Embrace (1)",
-      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Kadim Incarnates",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-supernal": "Supernal",
-          "rulebook-fearless": "Fearless",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-exclusive": "Exclusive (Supernal)"
-        }
-      },
-      {
-        "Name": "Kadim Incarnates",
-        "Values": {
-          "HP": "3",
-          "Df": "2",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
-      },
-      {
-        "Name": "Kadim Incarnate",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "id-volcanic_embrace": "Volcanic Embrace (1)",
-          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
-  },
-  {
     "Id": "68357f58790d8280c4b2274e",
     "Name": "Taurukh Enforcers",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-first_strike": "First Strike (Stubborn)",
       "rulebook-disciplined": "Disciplined",
+      "rulebook-first_strike": "First Strike (Stubborn)",      
       "rulebook-swiftstride": "Swiftstride",
-      "rulebook-impact_hits": "Impact Hits (1)",
-      "id-infernal_armour": "Infernal Armour"
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-impact_hits": "Impact Hits (1)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2131,8 +2194,8 @@
         },
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-first_strike": "First Strike (Stubborn)",
           "rulebook-disciplined": "Disciplined",
+          "rulebook-first_strike": "First Strike (Stubborn)",          
           "rulebook-swiftstride": "Swiftstride"
         }
       },
@@ -2176,14 +2239,14 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-first_strike": "First Strike (Stubborn)",
       "rulebook-bodyguard": "Bodyguard (Taurukh Commissioner)",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",      
+      "rulebook-first_strike": "First Strike (Stubborn)",
       "rulebook-swiftstride": "Swiftstride",
+      "id-infernal_armour": "Infernal Armour",      
       "rulebook-impact_hits": "Impact Hits (1)",
       "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-great_weapon": "Great Weapon",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-great_weapon": "Great Weapon"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2197,9 +2260,9 @@
           "Hgt": "4"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-first_strike": "First Strike (Stubborn)",
           "rulebook-bodyguard": "Bodyguard (Taurukh Commissioner)",
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-first_strike": "First Strike (Stubborn)",          
           "rulebook-swiftstride": "Swiftstride"
         }
       },
@@ -2247,15 +2310,16 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-hit_and_run": "Hit and Run",
+      "rulebook-insignificant": "Insignificant",      
       "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-insignificant": "Insignificant",
+      "rulebook-swiftstride": "Swiftstride",
+      "rulebook-vanguard": "Vanguard",      
       "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "id-oil_flasks": "Oil Flasks (2)",
+      "rulebook-shield": "Shield",
+      "id-oil_flasks": "Oil Flasks",
       "rulebook-light_lance": "Light Lance",
-      "rulebook-bow": "Bow (4+)",
-      "rulebook-shield": "Shield"
+      "rulebook-bow": "Bow (4+)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2270,10 +2334,11 @@
         },
         "RuleIds": {
           "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-vanguard": "Vanguard",
+          "rulebook-hit_and_run": "Hit and Run",
           "rulebook-insignificant": "Insignificant",
+          "rulebook-light_troops": "Light Troops",
+          "rulebook-swiftstride": "Swiftstride",          
+          "rulebook-vanguard": "Vanguard",          
           "rulebook-weakness": "Weakness (Flaming Attacks)"
         }
       },
@@ -2299,7 +2364,7 @@
           "Ag": "3"
         },
         "RuleIds": {
-          "id-oil_flasks": "Oil Flasks (2)",
+          "id-oil_flasks": "Oil Flasks",
           "rulebook-light_lance": "Light Lance",
           "rulebook-bow": "Bow (4+)"
         }
@@ -2331,12 +2396,13 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-war_platform": "War Platform",
-      "rulebook-strider": "Strider (Wall)",
+      "rulebook-attached":"Attached",
       "id-firing_platform": "Firing Platform",
+      "rulebook-strider": "Strider (Wall)",
+      "rulebook-war_platform": "War Platform",
+      "id-infernal_armour": "Infernal Armour",
       "rulebook-impact_hits": "Impact Hits (D3+1)",
-      "rulebook-crush_attack": "Crush Attack",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-crush_attack": "Crush Attack"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2350,9 +2416,10 @@
           "Hgt": "5"
         },
         "RuleIds": {
-          "rulebook-war_platform": "War Platform",
+          "rulebook-attached":"Attached",
+          "id-firing_platform": "Firing Platform",
           "rulebook-strider": "Strider (Wall)",
-          "id-firing_platform": "Firing Platform"
+          "rulebook-war_platform": "War Platform"          
         }
       },
       {
@@ -2389,8 +2456,8 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3+1)",
-          "rulebook-crush_attack": "Crush Attack"
+          "rulebook-crush_attack": "Crush Attack",
+          "rulebook-impact_hits": "Impact Hits (D3+1)"          
         }
       }
     ],
@@ -2409,8 +2476,8 @@
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-emplacement": "Emplacement",
-      "rulebook-solitary": "Solitary",
       "rulebook-insignificant": "Insignificant",
+      "rulebook-solitary": "Solitary",      
       "id-vassal_slingshot": "Vassal Slingshot (4+)",
       "rulebook-weakness": "Weakness (Flaming Attacks)"
     },
@@ -2427,8 +2494,8 @@
         },
         "RuleIds": {
           "rulebook-emplacement": "Emplacement",
-          "rulebook-solitary": "Solitary",
-          "rulebook-insignificant": "Insignificant"
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-solitary": "Solitary"         
         }
       },
       {
@@ -2471,15 +2538,15 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-war_platform": "War Platform",
       "rulebook-attached": "Attached",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
       "rulebook-exclusive": "Exclusive (Citadel Guard, Immortals, Infernal Warriors)",
-      "rulebook-grind_attack": "Grind Attack (3)",
-      "rulebook-quick_to_fire": "Quick to Fire",
+      "rulebook-war_platform": "War Platform",   
+      "id-infernal_armour": "Infernal Armour",
+      "rulebook-grind_attack": "Grind Attack (3)",      
       "rulebook-march_and_shoot": "March and Shoot",
       "id-naphtha_thrower": "Naphtha Thrower",
-      "id-infernal_armour": "Infernal Armour"
+      "rulebook-quick_to_fire": "Quick to Fire"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2493,10 +2560,10 @@
           "Hgt": "3"
         },
         "RuleIds": {
-          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-war_platform": "War Platform",
           "rulebook-attached": "Attached",
-          "rulebook-exclusive": "Exclusive (Citadel Guard, Immortals, Infernal Warriors)"
+          "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+          "rulebook-exclusive": "Exclusive (Citadel Guard, Immortals, Infernal Warriors)",
+          "rulebook-war_platform": "War Platform"          
         }
       },
       {
@@ -2521,10 +2588,10 @@
           "Ag": "2"
         },
         "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (3)",
-          "rulebook-quick_to_fire": "Quick to Fire",
+          "rulebook-grind_attack": "Grind Attack (3)",          
           "rulebook-march_and_shoot": "March and Shoot",
-          "id-naphtha_thrower": "Naphtha Thrower"
+          "id-naphtha_thrower": "Naphtha Thrower",
+          "rulebook-quick_to_fire": "Quick to Fire"
         }
       }
     ],
@@ -2542,13 +2609,13 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-emplacement": "Emplacement",
       "rulebook-accurate": "Accurate",
+      "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
+      "rulebook-emplacement": "Emplacement",
+      "rulebook-solitary": "Solitary",
+      "id-infernal_armour": "Infernal Armour",
       "id-higher_calibre": "Higher Calibre",
-      "id-naphtha_thrower": "Naphtha Thrower (2+)",
-      "id-infernal_armour": "Infernal Armour"
+      "id-naphtha_thrower": "Naphtha Thrower (2+)"      
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2563,8 +2630,8 @@
         },
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (6\", Insignificant)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-emplacement": "Emplacement"
+          "rulebook-emplacement": "Emplacement",
+          "rulebook-solitary": "Solitary"          
         }
       },
       {
@@ -2604,89 +2671,18 @@
     }
   },
   {
-    "Id": "68357f5a790d8280c4b22836",
-    "Name": "Kadim Titan",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-solitary": "Solitary",
-      "rulebook-terror": "Terror",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
-      "rulebook-magical_attacks": "Magical Attacks (Melee & Shooting)",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Kadim Titan",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-supernal": "Supernal",
-          "rulebook-fearless": "Fearless",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-solitary": "Solitary",
-          "rulebook-terror": "Terror"
-        }
-      },
-      {
-        "Name": "Kadim Titan",
-        "Values": {
-          "HP": "7",
-          "Df": "3",
-          "Re": "6",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
-      },
-      {
-        "Name": "Kadim Titan",
-        "Values": {
-          "At": "6",
-          "Of": "4",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
-          "rulebook-magical_attacks": "Magical Attacks (Melee & Shooting)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "100",
-        "length": "150"
-      }
-    }
-  },
-  {
     "Id": "68357f5a790d8280c4b2283c",
     "Name": "Infernal Engine",
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
       "rulebook-commanding_presence": "Commanding Presence (12\", Insignificant)",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-terror": "Terror",
-      "rulebook-unstable": "Unstable",
       "rulebook-fearless": "Fearless",
       "id-full_steam_ahead": "Full Steam Ahead!",
       "rulebook-solitary": "Solitary",
+      "rulebook-stubborn": "Stubborn",
+      "rulebook-terror": "Terror",
+      "rulebook-unstable": "Unstable",      
       "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
       "rulebook-grind_attack": "Grind Attack (3D3)",
       "id-naphtha_thrower": "Naphtha Thrower"
@@ -2704,12 +2700,12 @@
         },
         "RuleIds": {
           "rulebook-commanding_presence": "Commanding Presence (12\", Insignificant)",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-terror": "Terror",
-          "rulebook-unstable": "Unstable",
           "rulebook-fearless": "Fearless",
           "id-full_steam_ahead": "Full Steam Ahead!",
-          "rulebook-solitary": "Solitary"
+          "rulebook-solitary": "Solitary",
+          "rulebook-stubborn": "Stubborn",
+          "rulebook-terror": "Terror",
+          "rulebook-unstable": "Unstable"          
         }
       },
       {
@@ -2747,6 +2743,77 @@
     }
   },
   {
+    "Id": "68357f5a790d8280c4b22836",
+    "Name": "Kadim Titan",
+    "Attributes": {},
+    "AttributeLists": {},
+    "RuleIds": {
+      "rulebook-fearless": "Fearless",
+      "rulebook-insignificant": "Insignificant",
+      "rulebook-solitary": "Solitary",
+      "rulebook-supernal": "Supernal",      
+      "rulebook-terror": "Terror",
+      "rulebook-aegis": "Aegis (5+)",      
+      "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+      "rulebook-magical_attacks": "Magical Attacks (Melee & Shooting)",
+      "rulebook-stomp_attack": "Stomp Attack (D6)",
+    },
+    "EquipmentIds": [],
+    "OptionListIds": [],
+    "Statlines": [
+      {
+        "Name": "Kadim Titan",
+        "Values": {
+          "Ad": "7",
+          "Ma": "4",
+          "Di": "7",
+          "Hgt": "5"
+        },
+        "RuleIds": {          
+          "rulebook-fearless": "Fearless",
+          "rulebook-insignificant": "Insignificant",
+          "rulebook-solitary": "Solitary",
+          "rulebook-supernal": "Supernal",
+          "rulebook-terror": "Terror"
+        }
+      },
+      {
+        "Name": "Kadim Titan",
+        "Values": {
+          "HP": "7",
+          "Df": "4",
+          "Re": "6",
+          "Arm": "2"
+        },
+        "RuleIds": {
+          "rulebook-aegis": "Aegis (5+)"
+        }
+      },
+      {
+        "Name": "Kadim Titan",
+        "Values": {
+          "At": "6",
+          "Of": "4",
+          "St": "6",
+          "AP": "3",
+          "Ag": "3"
+        },
+        "RuleIds": {          
+          "rulebook-flaming_attacks": "Flaming Attacks (Melee & Shooting)",
+          "rulebook-magical_attacks": "Magical Attacks (Melee & Shooting)",
+          "rulebook-stomp_attack": "Stomp Attack (D6)"
+        }
+      }
+    ],
+    "Base": {
+      "Shape": "square",
+      "Size": {
+        "width": "100",
+        "length": "150"
+      }
+    }
+  },
+  {
     "Id": "68357f5a790d8280c4b2285a",
     "Name": "Citizen Giant",
     "Attributes": {},
@@ -2754,8 +2821,8 @@
     "RuleIds": {
       "id-giant_see_giant_do": "Giant See, Giant Do",
       "rulebook-light_troops": "Light Troops",
-      "rulebook-terror": "Terror",
       "rulebook-solitary": "Solitary",
+      "rulebook-terror": "Terror",      
       "rulebook-rage": "Rage",
       "rulebook-stomp_attack": "Stomp Attack (D6)",
       "id-infernal_lash": "Infernal Lash"
@@ -2774,8 +2841,8 @@
         "RuleIds": {
           "id-giant_see_giant_do": "Giant See, Giant Do",
           "rulebook-light_troops": "Light Troops",
-          "rulebook-terror": "Terror",
-          "rulebook-solitary": "Solitary"
+          "rulebook-solitary": "Solitary",
+          "rulebook-terror": "Terror"          
         }
       },
       {

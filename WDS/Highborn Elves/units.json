@@ -130,7 +130,7 @@
   },
   {
     "Id": "a3b4e6d1f8c2b9a5d7e0f3c4a2b",
-    "Name": "Tenacla and Baluruth",
+    "Name": "Dhaenala, the Wyrmkin",
     "Attributes": {
       "totalCost": "700",
       "category": "Characters",
@@ -148,58 +148,6 @@
       "e7d9f1b6a8c2d3a9f4e5b7a6e"
     ]
   },  
-  {
-    "Id": "68357f4b790d8280c4b218a1",
-    "Name": "Citizen Spears",
-    "Attributes": {
-      "totalCost": "22",
-      "category": "Core Units",
-      "army": "Highborn Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "0ba099fe-be59-4d22-bc37-4c5e5c9480f3",
-      "2bb5d048-0bd8-4702-add8-296546f84ffc"
-    ],
-    "ProfileIds": [
-      "68357f4b790d8280c4b218a3"
-    ]
-  },
-  {
-    "Id": "68357f4c790d8280c4b218d1",
-    "Name": "Highborn Lancers",
-    "Attributes": {
-      "totalCost": "106",
-      "category": "Core Units",
-      "army": "Highborn Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "7ee6f34a-a305-4f3b-bedd-53ee5da608fa",
-      "3065a633-dd3f-4568-9109-5f0dcbc556eb"
-    ],
-    "ProfileIds": [
-      "68357f4c790d8280c4b218d3"
-    ]
-  },
   {
     "Id": "68357f4c790d8280c4b21901",
     "Name": "Citizen Archers",
@@ -224,6 +172,32 @@
     ],
     "ProfileIds": [
       "68357f4c790d8280c4b21903"
+    ]
+  },
+  {
+    "Id": "68357f4b790d8280c4b218a1",
+    "Name": "Citizen Spears",
+    "Attributes": {
+      "totalCost": "22",
+      "category": "Core Units",
+      "army": "Highborn Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "0ba099fe-be59-4d22-bc37-4c5e5c9480f3",
+      "2bb5d048-0bd8-4702-add8-296546f84ffc"
+    ],
+    "ProfileIds": [
+      "68357f4b790d8280c4b218a3"
     ]
   },
   {
@@ -253,6 +227,32 @@
     ]
   },
   {
+    "Id": "68357f4c790d8280c4b218d1",
+    "Name": "Highborn Lancers",
+    "Attributes": {
+      "totalCost": "106",
+      "category": "Core Units",
+      "army": "Highborn Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "5"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Standard Bearer",
+        "Musician"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "7ee6f34a-a305-4f3b-bedd-53ee5da608fa",
+      "3065a633-dd3f-4568-9109-5f0dcbc556eb"
+    ],
+    "ProfileIds": [
+      "68357f4c790d8280c4b218d3"
+    ]
+  },
+  {
     "Id": "68357f4c790d8280c4b21961",
     "Name": "Erlein Reavers",
     "Attributes": {
@@ -276,35 +276,6 @@
     ],
     "ProfileIds": [
       "68357f4c790d8280c4b21963"
-    ]
-  },
-  {
-    "Id": "68357f4c790d8280c4b21997u",
-    "Name": "Phoenix",
-    "Attributes": {
-      "totalCost": "340",
-      "category": "Special",
-      "army": "Highborn Elves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": [
-        "Frost Phoenix",
-        "Fire Phoenix",
-        "Warden's Bond"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
-      "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
-      "9da8b6f8-ae3f-4614-9d41-ed0b430eee5cwb",
-      "02e7b8d5-bd1b-40e9-bd65-7d66549020cewb"
-    ],
-    "ProfileIds": [
-      "68357f4c790d8280c4b21997"
     ]
   },
   {
@@ -478,26 +449,6 @@
     ]
   },
   {
-    "Id": "68357f4e790d8280c4b21a8e",
-    "Name": "Sea Guard Reaper",
-    "Attributes": {
-      "totalCost": "220",
-      "category": "Special",
-      "army": "Highborn Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
-    },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
-      "68357f4e790d8280c4b21a8e"
-    ]
-  },
-  {
     "Id": "68357f4e790d8280c4b21a8f",
     "Name": "Initiate of the Fiery Heart",
     "Attributes": {
@@ -515,6 +466,55 @@
     "OptionListIds": [],
     "ProfileIds": [
       "68357f4e790d8280c4b21a8f"
+    ]
+  },
+  {
+    "Id": "68357f4c790d8280c4b21997u",
+    "Name": "Phoenix",
+    "Attributes": {
+      "totalCost": "340",
+      "category": "Special",
+      "army": "Highborn Elves",
+      "height": "Gigantic",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": [
+        "Frost Phoenix",
+        "Fire Phoenix",
+        "Warden's Bond"
+      ]
+    },
+    "RuleIds": {},
+    "OptionListIds": [
+      "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
+      "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
+      "9da8b6f8-ae3f-4614-9d41-ed0b430eee5cwb",
+      "02e7b8d5-bd1b-40e9-bd65-7d66549020cewb"
+    ],
+    "ProfileIds": [
+      "68357f4c790d8280c4b21997"
+    ]
+  },
+  {
+    "Id": "68357f4e790d8280c4b21a8e",
+    "Name": "Sea Guard Reaper",
+    "Attributes": {
+      "totalCost": "220",
+      "category": "Special",
+      "army": "Highborn Elves",
+      "height": "Standard",
+      "type": "",
+      "defaultFront": "1"
+    },
+    "AttributeLists": {
+      "FullOptions": []
+    },
+    "RuleIds": {},
+    "OptionListIds": [],
+    "ProfileIds": [
+      "68357f4e790d8280c4b21a8e"
     ]
   },
   {
