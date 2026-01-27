@@ -21,7 +21,7 @@
     "Id": "rulebook-light_troops",
     "Name": "Light Troops",
     "Type": "Global",
-    "Description": " A unit entirely with <u><link=\"rulebook-light_troops\">Light Troops</link></u> can perform Reform <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility. (instead of the normal half Mobility).\n\n-   If its centre moves further than its Mobility, the move is considered a <u><link=\"march_move\">March Move</link></u> for the purpose of rules triggering due to Marching. E.g. <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"rulebook-undead\">Undead</link></u> being restricted from performing a <u><link=\"march_move\">March Move</link></u>.\\\nFor the purpose of shooting, this is still considered a <u><link=\"reform_move\">Reform Move</link></u>.\\\nNote: This rule has no effect on other <u><link=\"move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"march_move\">March Moves</link></u>\n-   If the <u><link=\"reform_move\">Reform Move</link></u> is started within 3\" of a non-Shaken enemy unit  containing a <u><link=\"rulebook-musician\">Musician;</link></u> the <u><link=\"reform_move\">Reform Move</link></u> is instead limited to its Mobility.\nAu nits containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks. Ignore <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"attachable_models\">Attachable Models</link></u>."
+    "Description": "A unit entirely with Light Troops can perform Reform <u><link=\"rulebook-move_manoeuvres\">Move Manoeuvres</link></u> at twice its Mobility (instead of the normal half Mobility).\n\nIf, while doing a Reform Move Manoeuvre, its centre moves further than its Mobility, the move is considered a <u><link=\"rulebook-march_move\">March Move</link></u> for the purpose of rules triggering due to Marching (e.g. <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain</link></u> Test, and if <u><link=\"rulebook-undead\">Undead</link></u> being restricted from performing a <u><link=\"rulebook-march_move\">March Move</link></u>.\nFor the purpose of shooting, this is still considered a <u><link=\"rulebook-reform_move\">Reform Move</link></u>.\nNote: This rule has no effect on other <u><link=\"rulebook-move_manoeuvres\">Move Manoeuvres</link></u>, including <u><link=\"rulebook-march_move\">March Moves</link></u>\n\nA unit containing <u><link=\"rulebook-light_troops\">Light Troops</link></u> is always considered to have zero Proper Ranks ; ignore <u><link=\"rulebook-attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-light_troops\">Light Troops</link></u> joined to a unit for this, unless the unit consists of only <u><link=\"rulebook-attachable_models\">Attachable Models</link></u>."
   },
   {
     "Id": "rulebook-swiftstride",
@@ -99,13 +99,19 @@
     "Id": "rulebook-captain",
     "Name": "Captain",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
+    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "rulebook-attached",
     "Name": "Attached",
     "Type": "Global",
     "Description": "This <u><link=\"model\">model</link></u> must be Deployed inside a unit with at least one Rank-and-File <u><link=\"model\">model</link></u>, and it cannot voluntarily leave its unit."
+  },
+  {
+    "Id": "rulebook-beacon_of_courage",
+    "Name": "Beacon of Courage (X\")",
+    "Type": "Global",
+    "Description": "Friendly models in units within X\" of a non-Shaken model with Beacon of Courage benefit from <u><link=\"rulebook-courageous\">Courageous</link></u>."
   },
   {
     "Id": "bh-blood_offering",
@@ -207,13 +213,13 @@
     "Id": "rulebook-vanguard",
     "Name": "Vanguard",
     "Type": "Global",
-    "Description": "After Deployment, units entirely with <u><link=\"rulebook-vanguard\">Vanguard</link></u> may perform a pre-game Move Manoeuvre (Reform, Advance, or <u><link=\"march_move\">March Move)</link></u>, with the following exceptions:\n\n-   If an X is given, the unit’s Mobility is set to always X\" during this move.\n-   No <u><link=\"model\">model</link></u> can move further than 12\" during this move, regardless of its Mobility.\n-   It cannot end a move within 6\" of an enemy unit.\n-   <u><link=\"attachable_models\">Attachable Models</link></u> cannot leave a unit as part of this move.\nIf both players have units entirely with <u><link=\"rulebook-vanguard\">Vanguard</link></u>, they alternate moving units one by one, starting with the  unit that the Defender chose for <u><link=\"defenders_advantage\">Defender's Advantage</link></u>.\nA unit that starts the game outside its own Deployment Zone cannot declare a Charge in the first Player Turn of the first Game Turn."
+    "Description": "After Deployment, units entirely with Vanguard may perform a pre-game Move Manoeuvre (Reform, Advance, or <u><link=\"rulebook-march_move\">March Move)</link></u>, with the following exceptions:\n\n • If an X is given, the unit’s Mobility is set to always X\" during this move.\n\n • No <u><link=\"model\">model</link></u> can move further than 12\" during this move, regardless of its Mobility.\n\n • It cannot end a move within 6\" of an enemy unit.\n\n • <u><link=\"rulebook-attachable_models\">Attachable Models</link></u> cannot leave a unit as part of this move.\n\nIf both players have units entirely with <u><link=\"rulebook-vanguard\">Vanguard</link></u>, they alternate moving units one by one, starting with the unit the Defender has given Vanguard (3 Mob)to.\n\nA unit that starts the game outside its own Deployment Zone cannot declare a Charge in the first Player Turn of the first Game Turn."
   },
   {
     "Id": "rulebook-bodyguard",
-    "Name": "Bodyguard",
+    "Name": "Bodyguard (X)",
     "Type": "Global",
-    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
+    "Description": "While a Character is joined to a unit containing Bodyguard and the Character fulfills at least one of the requirements defined by ‘X’, that Character benefits from <u><link=\"rulebook-stubborn\">Stubborn</link></u>.\nIn addition, if the unit it is joined to has at least one <u><link=\"rulebook-proper_ranks\">Proper Rank</link></u>, the unit is considered to be <u><link=\"rulebook-steadfast\">Steadfast</link></u> for the purposes of Break Tests.\nNote: units entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> do not take Break Tests."
   },
   {
     "Id": "rulebook-halberd",
@@ -249,7 +255,7 @@
     "Id": "rulebook-unstable",
     "Name": "Unstable",
     "Type": "Global",
-    "Description": "When a unit entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u> can only join units containing <u><link=\"rulebook-unstable\">Unstable</link></u>, and units containing <u><link=\"rulebook-unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u>."
+    "Description": "When a unit entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> would take a Break Test, instead it suffers a number of Health Point losses equal to the amount by which the Combat was lost, with no <u><link=\"saves\">saves</link></u> of any kind allowed.\nThese Health Point losses are first allocated towards Rank-and-File <u><link=\"model\">models</link></u>, and once enough Health Points losses are suffered to remove all Rank-and-File <u><link=\"model\">models</link></u>, remaining Health Point losses are allocated by the owner towards <u><link=\"attachable_models\">Attachable Models</link></u>, as evenly as possible.\nThe Health Point losses can be reduced in the following ways:\n\n-   If the unit contains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, the Health Point losses are halved, rounding fractions up.\n-   If the unit is affected by <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>, reduce the Health Point losses by 1.\n-   If the unit is Steady while affected by <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>, reduce the Health Point loss by an additional 1.\n-   If the unit is Solid while affected by <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>, reduce the Health Point loss by an additional 1.\n- \nI.e. a unit that is affected by <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u> while being Steady and Solid reduces the Health Point losses by a total of 3.\n<u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u> can only join units containing <u><link=\"rulebook-unstable\">Unstable</link></u>, and units containing <u><link=\"rulebook-unstable\">Unstable</link></u> can only be joined by <u><link=\"attachable_models\">Attachable Models</link></u> with <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "bh-sleeper",
@@ -297,7 +303,7 @@
     "Id": "rulebook-magic_resistance",
     "Name": "Magic Resistance",
     "Type": "Defense",
-    "Description": "When an enemy <u><link=\"model\">model</link></u> casts a spell that targets one or more units containing <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>, the Casting Roll of the spell is modified by X, where X is the highest <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u> value across all targets ."
+    "Description": "Whenever an enemy spell targets one or more friendly units containing Magic Resistance:\n\n • Identify the highest Magic Resistance value across all targeted friendly units.\n\n • Reduce the Casting Roll by this value"
   },
   {
     "Id": "rulebook-aegis",
@@ -477,7 +483,7 @@
     "Id": "captain",
     "Name": "Captain",
     "Type": "General",
-    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
+    "Description": "A unit containing <u><link=\"captain\">Captain</link></u> gains the following additions rules.\n\n-   If the unit has a <u><link=\"standard_bearer\">Standard Bearer</link></u>, it is considered to be within range of its Battle <u><link=\"standard_bearer\">Standard Bearer</link></u>’s* <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>.\n-   If the unit has a <u><link=\"musician\">Musician</link></u>, it is considered to be within range of its General’s* <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>.\nA unit can only contain a single Attachable <u><link=\"model\">Model</link></u> with <u><link=\"captain\">Captain</link></u>.\n*Provided such a <u><link=\"model\">model</link></u> is on the Battlefield at all."
   },
   {
     "Id": "standard_bearer",
@@ -552,12 +558,6 @@
     "Description": "The Defender must choose a single of its Deployed units to gain <u><link=\"rulebook-vanguard\">Vanguard(3\")</link></u>. This unit cannot contain any <u><link=\"characters\">Characters</link></u>. Remember a unit that already has <u><link=\"rulebook-vanguard\">Vanguard</link></u> may still be chosen, the effects are just not cumulative."
   },
   {
-    "Id": "bodyguard",
-    "Name": "Bodyguard",
-    "Type": "General",
-    "Description": "While a Character, that fulfils the criteria defined in brackets (X), is joined to a unit containing <u><link=\"bodyguard\">Bodyguard</link></u>, that Character gains <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and if the unit it is joined to has at least one Proper Rank, the unit is considered  Steady and Solid for the purposes of Break Tests."
-  },
-  {
     "Id": "pursue_moves",
     "Name": "Pursue Moves",
     "Type": "General",
@@ -628,12 +628,6 @@
     "Name": "Virulent Fumes",
     "Type": "Global",
     "Description": " - Universal Rule\nInfantry models in friendly units within 6\" of the model gain Regeneration(+1, max. 4+).\nInfantry models in friendly units within 6\" of the model gain Regeneration(+1, max. 4+)."
-  },
-  {
-    "Id": "rulebook-rally_around_the_flag",
-    "Name": "Rally Around the Flag",
-    "Type": "Global",
-    "Description": "<u><link=\"model\">Models</link></u> within 12\" of a friendly non-Shaken <u><link=\"model\">model</link></u> with <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u> must reroll failed <u><link=\"courage_tests\">Courage Tests</link></u>."
   },
   {
     "Id": "er-bloodpox_blades",
@@ -747,7 +741,7 @@
     "Id": "courage_tests",
     "Name": "Courage tests",
     "Type": "General",
-    "Description": "Courage Test represent warriors ability to hold their position in the face of adversity.\nThere are two primary types of Courage Tests:\n-   Panic Tests: Panic Test are taken immediately whenever a unit is called upon to take a Panic Tests, see below for the most common situations. A failed Panic Test puts a unit in the Shaken state.\n- \nBreak Tests: Taken by units on the losing side of a Combat. See Melee Phase chapter for details.\nCommon Model Rules that affect Courage Tests: Rally Around the Flag, Commanding Presence. See Model Rules for details.\nat (current page.south east)\n-1\n;\n\nPanic Tests\nA Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly Shaken unit performs a Flee Move through the unit.\n-   A Flee Move that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a model containing Terror), and voluntary Breaking from Combat with a unit entirely with Feigned Flight. Note that a Flee Move due to a failed Rally Test is not considered a voluntary Flee Move, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the Flee Move.\n-   The unit suffered enough Health Point losses in a single phase from Ranged Attacks originating from enemy models, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible casualties have been removed. Ignore Health Point losses suffered while Engaged in Combat.\n-   An enemy unit entirely with Terror declares a Charge against the unit in the Charge Phase.\nUnits do not take Panic Tests if\n-   they are Engaged in Combat, or\n-   they are already Shaken, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes Shaken.\nNote that this normally does not mean the unit performs a Flee Move."
+    "Description": "Courage Test represent warriors ability to hold their position in the face of adversity.\nThere are two primary types of Courage Tests:\n-   Panic Tests: Panic Test are taken immediately whenever a unit is called upon to take a Panic Tests, see below for the most common situations. A failed Panic Test puts a unit in the Shaken state.\n- \nBreak Tests: Taken by units on the losing side of a Combat. See Melee Phase chapter for details.\nCommon Model Rules that affect Courage Tests: Beacon of Courage, Commanding Presence. See Model Rules for details.\nat (current page.south east)\n-1\n;\n\nPanic Tests\nA Panic test is a type of Courage Test taken in certain situations. These situations include:\n-   A friendly Shaken unit performs a Flee Move through the unit.\n-   A Flee Move that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a model containing Terror), and voluntary Breaking from Combat with a unit entirely with Feigned Flight. Note that a Flee Move due to a failed Rally Test is not considered a voluntary Flee Move, even if originally due to a Charge Reaction Flee!.\n-   Take the test after completing the Flee Move.\n-   The unit suffered enough Health Point losses in a single phase from Ranged Attacks originating from enemy models, to fulfill both of the following criteria:\n-   At least 3 Health Points losses, and\n-   At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\nTake the Panic Test immediately after possible casualties have been removed. Ignore Health Point losses suffered while Engaged in Combat.\n-   An enemy unit entirely with Terror declares a Charge against the unit in the Charge Phase.\nUnits do not take Panic Tests if\n-   they are Engaged in Combat, or\n-   they are already Shaken, or\n-   they already passed a Panic Test during this phase.\nIf a unit fails a Panic test, it immediately becomes Shaken.\nNote that this normally does not mean the unit performs a Flee Move."
   },
   {
     "Id": "cult_of_errahman",
@@ -789,19 +783,19 @@
     "Id": "rulebook-feigned_flight",
     "Name": "Feigned Flight",
     "Type": "Global",
-    "Description": "At the end of a Round of Combat, if a unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> is still Engaged with an enemy unit, before rolling any Break Tests, any unit entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> may choose to voluntarily break from the Combat. If so, the unit is considered to have failed a Break Test. If the unit was on the winning side of the Combat, the enemy cannot Pursue.\nIn addition, any <u><link=\"rally_test\">Rally Tests</link></u> taken by units entirely with <u><link=\"feigned_flight\">Feigned Flight</link></u> after voluntarily becoming <u><link=\"rulebook-shaken\">Shaken</link></u>, are automatically passed. This cannot be used if the unit has performed another <u><link=\"flee_move\">Flee move</link></u> before rolling the <u><link=\"rally_test\">Rally Test</link></u>.\n<u><link=\"model\">Models</link></u> with <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"feigned_flight\">Feigned Flight</link></u> are not prevented from choosing Charge Reaction Flee! due to <u><link=\"rulebook-fearless\">Fearless</link></u>.\nRemember that a voluntary <u><link=\"flee_move\">Flee Move</link></u> does not cause a Panic Test in friendly units that the Fleeing unit moves through."
+    "Description": "A unit entirely with Feigned Flight automatically passes any <u><link=\"rulebook-rally_test\">Rally Test</link></u> it takes after voluntarily becoming <u><link=\"rulebook-shaken\">Shaken</link></u>.\nIn addition, models with <u><link=\"rulebook-fearless\">Fearless</link></u> and Feigned Flight ignore Fearless for the purposes of choosing ’Flee!’ as a <u><link=\"rulebook-charge\">Charge</link></u> reaction, i.e. if every model with <u><link=\"rulebook-fearless\">Fearless</link></u> in a (combined) unit has Feigned Flight, the unit can <u><link=\"rulebook-flee\">’Flee!’</link></u>."
+  },
+  {
+    "Id": "rulebook-hit_and_run",
+    "Name": "Hit and Run",
+    "Type": "Global",
+    "Description": "A unit entirely with Hit and Run in contact with an enemy unit may choose to voluntarily become “Broken” at the start of ‘Take Break Tests’ (step 4.C of a Round of Combat). In that case, the unit is considered to have failed a Break Tet and is ignored for the rest of step 4.C.\nIf the unit was on the winning side of the Round of Combat, the enemy cannot <u><link=\"rulebook-pursue_moves\">Pursue</link></u>.\nNote: this means units with <u><link=\"rulebook-supernal\">Supernal</link></u> or <u><link=\"rulebook-unstable\">Unstable</link></u> suffer no Health Point loss if they voluntarily become “Broken”."
   },
   {
     "Id": "rulebook-magical_attacks",
     "Name": "Magical Attacks",
     "Type": "Equipment",
     "Description": "This Attack Attribute does not confer any direct effects, but instead interacts with other rules, such as Aegis(X, against Magical Attacks)."
-  },
-  {
-    "Id": "rulebook-protean_magic",
-    "Name": "Protean Magic",
-    "Type": "Global",
-    "Description": "The <u><link=\"model\">model</link></u> knows X Learned <u><link=\"spells\">Spells</link></u> and is a Wizard. It does not choose a Path of Magic, instead it can select the Apprentice Spell (#1) from all Paths available to it. See Battle Preparation chapter for details."
   },
   {
     "Id": "dl-know_thyself",
@@ -849,7 +843,7 @@
     "Id": "rulebook-musician",
     "Name": "Musician",
     "Type": "Global",
-    "Description": "<u><link=\"musician\">Musician</link></u> is a unit-wide upgrade, normally represented by the presence of a regimental <u><link=\"musician\">musician</link></u>.When performing a <u><link=\"reform_move\">Reform Move</link></u> or Combat Reform, units containing a <u><link=\"musician\">Musician</link></u> may change their files by 4 rather than the normal 2"
+    "Description": "Musician is a unit-wide upgrade, normally represented by the presence of a regimental musician.\nWhen performing a <u><link=\"rulebook-reform_move\">Reform Move</link></u> or Combat Reform, units containing a Musician</link></u> may change their files by ±5 rather than the normal ±1.\nIn addition, units containing Musician benefit from a +1 Discipline modifier when taking Command Tests."
   },
   {
     "Id": "dl-razor_tentacles",
@@ -1317,7 +1311,7 @@
     "Id": "rulebook-wizard_conclave",
     "Name": "Wizard Conclave",
     "Type": "Global",
-    "Description": "The unit knows X Learned <u><link=\"spells\">Spells</link></u>, chosen from the list of available <u><link=\"spells\">spells</link></u> in its unit entry, is a Wizard and if X is 2 or more it also gains <u><link=\"rulebook-channel\">Channel(1)</link></u>. The unit may only do a Hereditary Swap if it could have picked the Hereditary Spell during 1.B.a <u><link=\"spell_selection\">Spell Selections</link></u>. It is always eligible for a <u><link=\"universal\">Universal</link></u> Swap. See Battle Preparation chapter for details.\nDespite the whole unit knowing <u><link=\"spells\">spells</link></u> only one <u><link=\"model\">model</link></u> is a Caster. Just before choosing targets for a spell, select one Rank-and-File <u><link=\"model\">model</link></u> as the Caster for this spell.\nWhen a <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> suffers a Miscast, treat the entire unit as the Caster."
+    "Description": "The only type of Wizard that does not select a Path of Magic is a Wizard Conclave (X). It instead select spells from the list specified in its Unit Entry."
   },
   {
     "Id": "df-sirens_song",
@@ -1360,12 +1354,6 @@
     "Name": null,
     "Type": "General",
     "Description": null
-  },
-  {
-    "Id": "spell_selection",
-    "Name": "Spell Selection",
-    "Type": "General",
-    "Description": "<u><link=\"model\">Models</link></u> that can cast <u><link=\"spells\">spells</link></u> of any kind are called Casters. Casters able to cast Learned <u><link=\"spells\">Spells</link></u> are called Wizards.\nIf a Caster has a choice between <u><link=\"spells\">spells</link></u>, or knows Learned <u><link=\"spells\">Spells</link></u>, the chosen <u><link=\"spells\">spells</link></u> must be written on the Army List. Casters know different numbers of <u><link=\"spells\">spells</link></u>, and select them as described in their unit entries, except for Wizards. They all follow the same <u><link=\"rulebook-general\">general</link></u> rules for selecting their Learned <u><link=\"spells\">Spells</link></u>:\nEach  of the following Wizard types must choose a Path of Magic to select <u><link=\"spells\">spells</link></u> from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\nWizards know  different numbers of Learned <u><link=\"spells\">Spells</link></u>, and can choose <u><link=\"spells\">spells</link></u> depending on their type:\n-   Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n-   <u><link=\"rulebook-wizard_adept\">Wizard Adept</link></u>: 3 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell and Adept <u><link=\"spells\">Spells</link></u> (#1 - #4).\n-   Wizard Master:  5 <u><link=\"spells\">spells</link></u> chosen from Apprentice Spell,  Adept <u><link=\"spells\">Spells</link></u>, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6).\nIf either of the following types, then the Wizard does not select a Path of Magic:\n-   <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u> (X): X <u><link=\"spells\">spells</link></u> from the list of Learned <u><link=\"spells\">spells</link></u> specified under each unit entry with <u><link=\"rulebook-wizard_conclave\">Wizard Conclave</link></u>.\n-   <u><link=\"rulebook-protean_magic\">Protean Magic</link></u> (X): X Apprentice <u><link=\"spells\">spells</link></u>, chosen from any Path it has access to.\nDuring <u><link=\"pregame_selections\">Pre-game Selections</link></u>, Casters may  swap <u><link=\"spells\">spells</link></u>. See 3.2 <u><link=\"pregame_selections\">Pregame Selections</link></u> for details.\nTo save time and space on Army List writing, we recommend that the wizard level of a <u><link=\"model\">model</link></u> is followed by the path name with the numbers of the selected <u><link=\"spells\">spells</link></u> in brackets. \\\nFor example, <u><link=\"rulebook-wizard_adept\">Wizard Adept</link></u>, Alchemy (2, 3, 4)."
   },
   {
     "Id": "universal",
@@ -1419,7 +1407,7 @@
     "Id": "rulebook-resolute",
     "Name": "Resolute",
     "Type": "Global",
-    "Description": "A unit containing <u><link=\"rulebook-resolute\">Resolute</link></u>, that has at least one Proper Rank is considered to have X additional Proper Ranks, when Engaged."
+    "Description": "A unit containing Resolute and that has at least one Proper Rank is considered to have one additional <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u> when Engaged in Combat.\nNote: this is applied before applying the effects of <u><link=\"rulebook-surrounded\">Surrounded</link></u>."
   },
   {
     "Id": "dh-runic_anvil",
@@ -1773,7 +1761,7 @@
     "Id": "he-rogue_heroine",
     "Name": "Rogue Heroine",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"rulebook-frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>."
+    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"rulebook-frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rulebook-beacon_of_courage\"></link></u>."
   },
   {
     "Id": "he-scourge_of_fleets",
@@ -1791,7 +1779,7 @@
     "Id": "hg-hob_cohesion",
     "Name": "Hob Cohesion",
     "Type": "Global",
-    "Description": "For the purpose of receiving Commanding Presence and Rally Around the Flag from friendly models, the model counts as 6\" closer to those models."
+    "Description": "For the purpose of receiving Commanding Presence and Beacon of Courage from friendly models, the model counts as 6\" closer to those models."
   },
   {
     "Id": "hg-cavalry_commander",
@@ -1935,13 +1923,13 @@
     "Id": "id-oil_flasks",
     "Name": "Oil Flasks",
     "Type": "Equipment",
-    "Description": "After resolving all simultaneous attacks, any unit hit by at least one attack with Oil Flasks gains an <u><link=\"id-incendiary\">Incendiary Marker</link></u>."
+    "Description": "Attack Attribute – Melee, Shooting.\nAfter resolving all simultaneous attacks, any unit hit by at least one attack with Oil Flasks gains an <u><link=\"id-incendiary\">Incendiary Marker</link></u>."
   },
   {
     "Id": "id-chained_together",
     "Name": "Chained Together",
     "Type": "Global",
-    "Description": "The model's unit may never voluntarily change its number of files. After performing a March Move, the unit loses D6 HP."
+    "Description": "The model's unit may never voluntarily change its number of files.\nAfter performing a March Move, the unit loses D6 HP."
   },
   {
     "Id": "id-defy_death",
@@ -2232,12 +2220,6 @@
     "Description": "  The bearer gains Holy Vows and Fearless. If the bearer’s unit is the target of an Orison while Engaged in Combat, add one Blessing Token to your pool."
   },
   {
-    "Id": "scorpion",
-    "Name": "\n    Scorpion",
-    "Type": "General",
-    "Description": "    <u><link=\"scorpion\">Scorpion</link></u>\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"scorpion\">Scorpion</link></u>448\"1310Area Attack(1×5), Direct Hit(Str 6, Multiple Wounds(D3))\nTrebuchet\n- Shooting Weapon\n\nNameAimRangeShotsStrAPAttack AttributesTrebuchet448\"173Artillery, Area Attack(2×2), Direct Hit(Multiple Wounds(2))"
-  },
-  {
     "Id": "bastard_sword",
     "Name": "Bastard Sword",
     "Type": "General",
@@ -2307,7 +2289,7 @@
     "Id": "mh-follow_the_herd",
     "Name": "Follow The Herd",
     "Type": "Global",
-    "Description": " - Universal Rule\n\nThe unit can never benefits from Commanding Presence or Rally Around the Flag. The unit gains +1 Discipline for each Full Rank."
+    "Description": " - Universal Rule\n\nThe unit can never benefits from Commanding Presence or Beacon of Courage. The unit gains +1 Discipline for each Full Rank."
   },
   {
     "Id": "mh-stampede",
@@ -2505,7 +2487,7 @@
     "Id": "ok-erus_secret_recipes",
     "Name": "Eru's Secret Recipes",
     "Type": "General",
-    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit. Duration: One Turn.\n\n * Bluehoove Goat Stew: Mobility +2, <u><link=\"rulebook-strider\">Strider</link></u>.\n * Trollbear Goulash: <u><link=\"rulebook-regeneration\">Regeneration (6+)</link></u>, <u><link=\"rulebook-recover\">Recover</link></u> a single HP on a model in Valish's unit.\n   Note: Attached models cannot be <u><link=\"raise\">Raised</link></u> unless specified.\n * Stonecold Soup: <u><link=\"rulebook-channel\">Channel (1)</link></u>, <u><link=\"rulebook-disciplined\">Disciplined</link></u> and <u><link=\"rulebook-rally_around the Flag\">Rally Around the Flag (0″)</link></u>."
+    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit. Duration: One Turn.\n\n * Bluehoove Goat Stew: Mobility +2, <u><link=\"rulebook-strider\">Strider</link></u>.\n * Trollbear Goulash: <u><link=\"rulebook-regeneration\">Regeneration (6+)</link></u>, <u><link=\"rulebook-recover\">Recover</link></u> a single HP on a model in Valish's unit.\n   Note: Attached models cannot be <u><link=\"raise\">Raised</link></u> unless specified.\n * Stonecold Soup: <u><link=\"rulebook-channel\">Channel (1)</link></u>, <u><link=\"rulebook-disciplined\">Disciplined</link></u> and <u><link=\"rulebook-rally_around the Flag\">Beacon of Courage (0″)</link></u>."
   },
   {
     "Id": "ok-ghost_pepper",
@@ -2584,12 +2566,6 @@
     "Name": "Brood Rivalry",
     "Type": "Equipment",
     "Description": "The model part gains +1 Att while another friendly unit is Engaged in Combat, anywhere on the Battlefield. Units composed entirely of Characters cannot benefit from this rule."
-  },
-  {
-    "Id": "rulebook-general",
-    "Name": "General",
-    "Type": "Global",
-    "Description": "An army may include a <u><link=\"rulebook-general\">General</link></u>, and this upgrade is One of a Kind. A <u><link=\"rulebook-general\">General</link></u> gains <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>."
   },
   {
     "Id": "ong-crude_weapons",
@@ -5152,7 +5128,7 @@
     "Id": "koe-bannerman",
     "Name": "Bannerman",
     "Type": "General",
-    "Description": "The model becomes the Battle Standard Bearer."
+    "Description": "The model becomes the <u><link=\"rulebook-battle_standard_bearer\"></link>Battle Standard Bearer</u>."
   },
   {
     "Id": "koe-minstrel",
@@ -5663,12 +5639,6 @@
     "Name": "Shoot Spikes",
     "Type": "General",
     "Description": "Range 12\", Shots 4, Str 5, AP 2, Quick to Fire."
-  },
-  {
-    "Id": "sa-span_classtextbfwalking_mountainspan",
-    "Name": "<span class=\"textbf\">Walking Mountain</span>",
-    "Type": "General",
-    "Description": "Enemy units do not gain any Combat Score bonus for Fighting in Flanks or Rear of this model, and the model can never be Surrounded. The model cannot benefit from Cover."
   },
   {
     "Id": "sa-monolith_of_vitalism",
@@ -6598,7 +6568,7 @@
     "Id": "ud-the_golden_chariot",
     "Name": "The Golden Chariot",
     "Type": "General",
-    "Description": "Rehnepeh gains +2 HP, <u><link=\"rulebook-distracting\">Distracting</link></u> and <u><link=\"rulebook-rally_around_the_flag\">Rally Around the Flag</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
+    "Description": "Rehnepeh gains +2 HP, <u><link=\"rulebook-distracting\">Distracting</link></u> and <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
   },
   {
     "Id": "ud-in_your_name",
@@ -7692,7 +7662,7 @@
     "Id": "al-harp_of_bragi",
     "Name": "Harp of Bragi",
     "Type": "General",
-    "Description": "The range of the bearer's Commanding Presence or Rally Around the Flag is always 18\"."
+    "Description": "The range of the bearer's Commanding Presence or Beacon of Courage is always 18\"."
   },
   {
     "Id": "hg-slingers",
@@ -9312,8 +9282,8 @@
     "Id": "rulebook-artillery",
     "Name": "Artillery",
     "Type": "General",
-    "Description": "The attack ignores to-hit modifiers from Cover. In addition, it gains +1 to-hit when shooting at units that are either Solid, Height 5 or both."
-  },
+    "Description": "Shooting Attack\nThe attack ignores to-hit modifiers from Cover.\nIn addition, it gains +1 to-hit when shooting at units that are either <link=\"rulebook-solid\">Solid</link></u>, Height 5 or both."
+  },  
   {
     "Id": "rulebook-area_attack",
     "Name": "Area Attack",
@@ -9414,7 +9384,7 @@
     "Id": "rulebook-duplicate_model_rules",
     "Name": "Duplicate Model Rules",
     "Type": "General",
-    "Description": "Most Model Rules are not cumulative. This means that if a model gains the same rule multiple times, the effects do not stack or provide extra benefits. This includes Model Rules with different keywords attached (such as Multiple Wounds(against Height 2) and Multiple Wounds(against Height 3)), which are considered to be the same Model Rule and thus both instances cannot be applied simultaneously. In such cases, the owner may choose which instance of the Model Rule to use at any point in time."
+    "Description": "Most Model Rules are not cumulative. This means that if a model or a model part gains the same rule multiple times, the effects do not stack or provide extra benefits.\nThis includes Model Rules with different keywords attached (such as Multiple Wounds(against Height 2) and Multiple Wounds(against Height 3)), which are considered to be the same Model Rule and thus both instances cannot be applied simultaneously.\nIn such cases, the owner may choose which instance of the Model Rule to use at any point in time."
   },
   {
     "Id": "rulebook-model_rules_and_units",
@@ -9474,13 +9444,13 @@
     "Id": "rulebook-build_an_army",
     "Name": "Build an Army",
     "Type": "General",
-    "Description": "As the player, it is your duty to command your army on the battlefield, but first you will have to pick one of the different factions available to you. Each Army Book contains a description of the different units that are available to its faction, as well as their characteristics and special rules that apply to them.\n\nTo start building your army, you create an Army List, which includes the selection of units, spells and options you want to use along with their point costs. Every unit, weapon, upgrade, and Magic Item has a specific point cost, which is used to balance the game and ensure fair play between players.\n\n\tPlanning, strategy, knowing terrain, learning about the ponent – very useful for a heist! What? You were asking about battles? Oh yes, Klepa knows them too. We goblins are Warborn after all – that’s the name us and orc pals call ourselves together. Klepa has seen all the great battles, seen loads of action! Normally from quite far away – so you know I had a good view.\n\tMain thing I’ve learned is you’ve got to get there early if you want the best spot for hiding and picking over the loot at the end. You want some loot? Genuine, authentikarated battle gear, picked from the choiciest corpses! Just step quietly over to Appendicitis Numero Two and we’ll have a little chat about the low low prices.\n\t\n\nArmy Books\nThe rules for playing the various factions are detailed in Army Books and supplement Army Books (remember that using a supplement requires the agreement of your opponent or event organiser).\n\nUnit Entries\nEach entry in an Army Book is categorised into different Army Categories, each represented by specific icons in the unit entries of the Army Book. Each Army Category has its own points limit, as defined in the Army Book, determining how many points a player can allocate to that particular category. This allows players to create a balanced and strategic army composition for their games.\n\n\t\n\t\n\t\n\ncharacterCharactersThis category typically allows players to spend up to 40% of the Army Size. All entries that belong to this Category follow the rules for Characters and Attachable Models.Characters are the leaders and exceptional individuals in the army, wielding various skills such as brute force, tactical acumen, spellcasting ability, or engineering knowledge. They play a crucial role in influencing the outcome of battles, and one of them usually  serves as the army's General, responsible for leading and inspiring your forces.\n\ncoreCoreThis Army Category always has a minimum amount of points that must be spent on it, usually 25% of the Army Size.\n\nCore units represent the most readily available warriors in the faction, serving as essential rank-and-file troops under the command of the Characters. They are always present in some combination as part of your fighting force.specialSpecialThis Army Category has no maximum or minimum limit. You are free to spend any amount of points on units in this Category.\n\nThe Special Army Category represents less common and more unique forces that are found in some but not all of your faction's armies. While they might make up the largest portion of your host, the availability of each unit is still limited. They generally fill a range of useful and impactful roles.\n\nEoSArmy-SpecificThis Army Category has a maximum amount of points that can be spent on it; the limit is defined within individual Army Books.\n\nArmy-Specific Categories introduce additional options and limitations in army building, reflecting the nature of the faction. Army-Specific Categories can include thematic groupings of units, limitations based on specific functions, and sometimes the faction’s most rare and powerful forces.\n\nBelonging to more than one Army Category\nSome units can be included in more than one Army Category, which is represented by more than one icon in their entry. In these cases, simply count the unit’s Point Cost towards the limits of all its Army Categories, but only once towards the army’s Point Cost.\n\nAdding Army Categories to a Unit\nChoosing certain options can make a unit count towards another Army Category in addition to its original Army Category. For example, giving a unit Shooting Weapons might make it also count towards the Ranged Support Army Category. This is marked by a small icon of the additional Army Category, displayed underneath the original Army Category icon(s), together with the conditions for counting towards this additional Army Category.\n\nSplitting Point Cost between Army Categories\nIn some rare cases, a unit’s Point Cost can be split between different Army Categories, where the Point Cost for some particular option is additionally counted towards a different Army Category than the unit. This is marked in the unit entry by a split icon, with the two halves representing the two Army Categories the unit counts towards.\n\nFor example, a 250 pts Elf Character, counted towards the Characters Army Category, decides to ride a 500 pts Dragon, which is an option marked to count additionally towards Beasts and Monsters. In this case, the player must count the entire unit’s Point Cost (250 + 500 = 750 pts) towards Characters, and the Dragon’s Point Cost (500 pts) towards “Beasts and Monsters”. Here too, of course, only 750 pts are added towards the army’s total limit.\n\nRarity - Restrictions for Units and Items\n\nCertain units and options in the army have limitations on how many times they can be included.\n\n\t\n  •  Maximum Points cost: Unless mentioned otherwise, no unit can have a points cost above 600 points.  A unit entry with a different maximum points cost different than this, follows its own defined limits instead. For example, a unit with (max. 800 pts) listed next to its unit size limits can cost up to 800 points.\n\n\t\n  •  Max. X Items per Army: Some items have an amount of Max. X allowed per army. For example, it might be Max. 2 Units, Max. 2 Models, or Max. 2 Mounts per Army. This means you can choose to include a maximum of X instances of these items in your army.\n\t\n  •  Regular: These items are limited to a maximum of once per 500 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 8 per Army. Unless noted otherwise, all units taken from Core are Regular.\n\t\n  •  Common: These items are limited to a maximum of once per 1000 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 4 per Army. Unless noted otherwise, all units taken from outside Core are Common.\n\t\n  •  Uncommon: These items are limited to a maximum of once per 1500 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 3 per Army.\n\t\n  •  Rare: These items are limited to a maximum of once per 2500 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 2 per Army.\n\t\n  •  Extraordinary: These items are limited to a maximum of once per 5000 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 1 per Army.\n\t\n  •  Legendary: These items can only be taken once per army.\n\t\n\t\n\t\n  •  Max. X Combined Items per Army: Some combinations of items may be restricted in combination. In these cases this will be detailed in the Army Organisation part of the Army Book.\n\t\n  •  Max. X Items per Unit: Some items have a maximum limitation allowed per unit. This means you can choose to include up to X instances of these items for each unit.\n\t\n\n1.10orcKing.png\n\n/subsubsection{spell_selection}"
+    "Description": "As the player, it is your duty to command your army on the battlefield, but first you will have to pick one of the different factions available to you. Each Army Book contains a description of the different units that are available to its faction, as well as their characteristics and special rules that apply to them.\n\nTo start building your army, you create an Army List, which includes the selection of units, spells and options you want to use along with their point costs. Every unit, weapon, upgrade, and Magic Item has a specific point cost, which is used to balance the game and ensure fair play between players.\n\t\n\nArmy Books\nThe rules for playing the various factions are detailed in Army Books and supplement Army Books (remember that using a supplement requires the agreement of your opponent or event organiser).\n\nUnit Entries\nEach entry in an Army Book is categorised into different Army Categories, each represented by specific icons in the unit entries of the Army Book. Each Army Category has its own points limit, as defined in the Army Book, determining how many points a player can allocate to that particular category. This allows players to create a balanced and strategic army composition for their games.\n\nCharacters\nThis category typically allows players to spend up to 40% of the Army Size. All entries that belong to this Category follow the rules for Characters and Attachable Models.Characters are the leaders and exceptional individuals in the army, wielding various skills such as brute force, tactical acumen, spellcasting ability, or engineering knowledge. They play a crucial role in influencing the outcome of battles, and one of them usually  serves as the army's General, responsible for leading and inspiring your forces.\n\nCore\nThis Army Category always has a minimum amount of points that must be spent on it, usually 25% of the Army Size.\n\nCore units represent the most readily available warriors in the faction, serving as essential rank-and-file troops under the command of the Characters. They are always present in some combination as part of your fighting force.specialSpecialThis Army Category has no maximum or minimum limit. You are free to spend any amount of points on units in this Category.\n\nThe Special Army Category represents less common and more unique forces that are found in some but not all of your faction's armies. While they might make up the largest portion of your host, the availability of each unit is still limited. They generally fill a range of useful and impactful roles.\n\nArmy-Specific\nThis Army Category has a maximum amount of points that can be spent on it; the limit is defined within individual Army Books.\n\nArmy-Specific Categories introduce additional options and limitations in army building, reflecting the nature of the faction. Army-Specific Categories can include thematic groupings of units, limitations based on specific functions, and sometimes the faction’s most rare and powerful forces.\n\nBelonging to more than one Army Category\nSome units can be included in more than one Army Category, which is represented by more than one icon in their entry. In these cases, simply count the unit’s Point Cost towards the limits of all its Army Categories, but only once towards the army’s Point Cost.\n\nAdding Army Categories to a Unit\nChoosing certain options can make a unit count towards another Army Category in addition to its original Army Category. For example, giving a unit Shooting Weapons might make it also count towards the Ranged Support Army Category. This is marked by a small icon of the additional Army Category, displayed underneath the original Army Category icon(s), together with the conditions for counting towards this additional Army Category.\n\nSplitting Point Cost between Army Categories\nIn some rare cases, a unit’s Point Cost can be split between different Army Categories, where the Point Cost for some particular option is additionally counted towards a different Army Category than the unit. This is marked in the unit entry by a split icon, with the two halves representing the two Army Categories the unit counts towards.\n\nFor example, a 250 pts Elf Character, counted towards the Characters Army Category, decides to ride a 500 pts Dragon, which is an option marked to count additionally towards Beasts and Monsters. In this case, the player must count the entire unit’s Point Cost (250 + 500 = 750 pts) towards Characters, and the Dragon’s Point Cost (500 pts) towards “Beasts and Monsters”. Here too, of course, only 750 pts are added towards the army’s total limit.\n\nRarity - Restrictions for Units and Items\n\nCertain units and options in the army have limitations on how many times they can be included.\n\t\n  •  Max. X Items per Army: Some items have an amount of Max. X allowed per army. For example, it might be Max. 2 Units, Max. 2 Models, or Max. 2 Mounts per Army. This means you can choose to include a maximum of X instances of these items in your army.\n\t\n  •  Regular: These items are limited to a maximum of once per 500 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 8 per Army. Unless noted otherwise, all units taken from Core are Regular.\n\t\n  •  Common: These items are limited to a maximum of once per 1000 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 4 per Army. Unless noted otherwise, all units taken from outside Core are Common.\n\t\n  •  Uncommon: These items are limited to a maximum of once per 1500 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 3 per Army.\n\t\n  •  Rare: These items are limited to a maximum of once per 2500 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 2 per Army.\n\t\n  •  Extraordinary: These items are limited to a maximum of once per 5000 Army Points, rounding fractions up. For example, at 4000 Army Points Regular items are restricted to Max. 1 per Army.\n\t\n  •  Legendary: These items can only be taken once per army.\n\t\n  •  Max. X Combined Items per Army: Some combinations of items may be restricted in combination. In these cases this will be detailed in the Army Organisation part of the Army Book.\n\t\n  •  Max. X Items per Unit: Some items have a maximum limitation allowed per unit. This means you can choose to include up to X instances of these items for each unit.\nIf a single model part has multiple items that count against the same limit, it only counts once against this limit using the highest ratio."
   },
   {
     "Id": "rulebook-spell_selection",
     "Name": "Spell Selection",
     "Type": "General",
-    "Description": "Models that can cast spells of any kind are called Casters. Casters able to cast Learned Spells are called Wizards.\n\nIf a Caster has a choice between spells, or knows Learned Spells, the chosen spells must be written on the Army List. Casters know different numbers of spells, and select them as described in their unit entries, except for Wizards. They all follow the same general rules for selecting their Learned Spells:\n\nEach  of the following Wizard types must choose a Path of Magic to select spells from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\n\nWizards know  different numbers of Learned Spells, and can choose spells depending on their type:\n\n  •  Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n\n  •  Wizard Adept: 3 spells chosen from Apprentice Spell and Adept Spells (#1 - #4).\n\n  •  Wizard Master:  5 spells chosen from Apprentice Spell,  Adept Spells, and Master Spells (#1 - #6).\n\nIf either of the following types, then the Wizard does not select a Path of Magic:\n\n  •  Wizard Conclave (X): X spells from the list of Learned spells specified under each unit entry with Wizard Conclave.\n\n  •  Protean Magic (X): X Apprentice spells, chosen from any Path it has access to.\n\nDuring Pre-game Selections, Casters may  swap spells. See 3.2 Pregame Selections for details.\n\nTo save time and space on Army List writing, we recommend that the wizard level of a model is followed by the path name with the numbers of the selected spells in brackets. \\\nFor example, Wizard Adept, Alchemy (2, 3, 4)."
+    "Description": "Models that can cast spells of any kind are called Casters. Casters able to cast Learned Spells are called Wizards.\n\nIf a Caster has a choice between spells, or knows Learned Spells, the chosen spells must be written on the Army List. Casters know different numbers of spells, and select them as described in their unit entries, except for Wizards. They all follow the same general rules for selecting their Learned Spells:\n\nEach of the following Wizard types must choose a Path of Magic to select spells from. Which Paths it has access to is specified under each Wizard's unit entry. The chosen Path of Magic must be written on the Army List.\n\nWizards know different numbers of Learned Spells, and can choose spells depending on their type:\n\n •  Wizard Apprentice: 1 spell  that is the Apprentice Spell (#1).\n\n •  Wizard Adept: 3 spells chosen from Apprentice Spell and Adept Spells (#1 - #4).\n\n •  Wizard Master:  5 spells chosen from Apprentice Spell,  Adept Spells, and Master Spells (#1 - #6).\n\n • Wizard Conclave (X) is the only kind of Wizard that does not select a Path. It instead select spells from the list specified in its Unit Entry.\n\nDuring Pre-game Selections, Casters may  swap spells. See 3.2 Pregame Selections for details.\n\nTo save time and space on Army List writing, we recommend that the wizard level of a model is followed by the path name with the numbers of the selected spells in brackets.\nFor example, Wizard Adept, Alchemy (2, 3, 4)."
   },
   {
     "Id": "rulebook-community_tools",
@@ -9735,10 +9705,16 @@
     "Description": "Casting and Dispelling Bound Spells follow the normal procedure for Casting a Learned Spell, with the following exceptions:\n\n  •  When trying to cast a Bound Spell one Magic Die is a D6, the rest are D3. For example, if Casting a Bound Spell with 3 Magic Dice, roll 1D6 and 2D3.\n\n  •  A rolled D3 can never fizzle.\n\n  •  Bound Spells have their own Casting Values, defined in the brackets following Bound Spell.\n\n  •  Bound Spells can never Miscast.\n\nWhen Casting a Bound Spell version of a Learned Spell that was already cast in the same Magic Phase, the Casting Roll is decreased only by 1 (instead of by 3).\n\nNote: When Casting a Learned Spell version of a Bound Spell that was already cast in the same Magic Phase, the Casting Roll is decreased by 3, as usual.  This is ignored if the Bound Spell is Replicable.\n\nBound Spells are designed to offer low-resource and low-risk casting opportunities to the players. They typically require fewer dice for casting and never cause Miscasts. However, they are also easier to dispel. As a result, Bound Spells are the perfect tool when the opponent is out of Magic Dice for dispelling.\n\nWhen casting Bound Spells, it is important to clearly differentiate between the D6 and D3 dice. Announce to the opponent how you roll your dice, and either roll them separately, use differently coloured dice, or use dedicated D3-only dice."
   },
   {
+    "Id": "rulebook-miscast",
+    "Name": "Miscast",
+    "Type": "General",
+    "Description": "A Miscast occurs if the following conditions are met while casting a Learned Spell:\n\nA. The Casting Value is met\n\nB. The spell is successfully cast and is not dispelled, and\n\nC. Three-of-a-Kind: three or more Magic Dice show the same result.\n\nThe effect of a Miscast depends on the Casting Roll. Apply all results equal to and below the Casting Roll (including modifiers) from the <u><link=\"rulebook-miscast_table\">Miscast Table</link></u>. Resolve the effects one at a time, starting from the top."
+  },
+  {
     "Id": "rulebook-miscast_table",
     "Name": "Miscast Table",
     "Type": "General",
-    "Description": "A Casting Roll for a Learned Spell can result in a Miscast if the following conditions are all met:\n\n\t\n  •  Three-of-a-Kind or Two-of-a-Kind: It includes three or more Magic Dice that rolled the same  result. If the Casting Attempt was made with only two Magic Dice, then it is sufficient for both of them to roll the same result.\n\t\n  •  Successful: The Casting Roll is successful and the spell is not dispelled.\n\nThe effect of the Miscast is dependent on the total sum of the Casting Roll (including potential modifiers). Apply the effects that correspond to the total rolled.\n\n\t      Casting Roll    Miscast effect\n        1214.49 or less    Drained\nYour opponent gains 2 Magic Dice.\n\n        1214.41019    Witchfire\nThe Caster's unit suffers 2*X hits with Str 3, AP 2, and Magical Attacks. X is the number of Magic Dice used for the Casting Roll.\n\t\n\t\n\t\n        1214.42024    Amnesia\nThe Caster cannot cast this Spell again.  Duration: Permanent.\n\n        1214.425+    Breach in the Veil\nAll units within 3\" of the Caster  suffer the effect of Witchfire. After resolving this effect, the Caster is removed as a casualty.  \n\nKlepa tells you a story, everyone knows it where we’re from, absolootelly true tale, no extra charge. Once upon times, there’s a wizard. Very powerful, very scary. Eats poor honest goblins for snacks, probably. No other wizard could do anything about him. In every battle he munches up armies with big, dreadfullest spells.\nOne day he decides to visit special lovely Garden of law-biding goblins. He wants to burn up happy home with fireballs. Everyone in big panic, running around, bumping into things. But one goblin, faverit of cunning Karuka, she pays a visit to the mean old wizard the night before he comes. He’s much too strong to fight straight-on, so she sneaks into his tower and hides in the cupboard.\nAnd when he tries to make himself some toast for dinner with a baby fireball, she nudges the spell, just a little, so it fizzies away. And when he heats his water for a bath, she sends the magic off, so he has to wash cold. When he makes the broom come to life to clean his chamber, she makes it stumble and fall down. Madder and madder, finally he tries biggest spell he knows. Clever goblin lets it go, and the magic shakes the whole tower into rubble, with the nasty wizard inside, squished. And the goblins lived happily ever after, the end.\n\nSome players prefer to know their odds before casting spells. Below are the probabilities for the most common casting values in the game. Recommended target probability to optimise the number of dice used in a typical Magic Phase is around 80-90%.\n\n&   &   &   &    & 72% & 95% & 98% & 99%   & 58% & 91% & 98% & 99%   & 42% & 84% & 97% & 99%   & 28% & 74% & 94% & 99%   & 17% & 63% & 90% & 98%   & 8% & 50% & 84% & 97%   & 3% & 38% & 76% & 94%   & 0% & 26% & 66% & 90%\n\n&   &   &   &    & 92% & 100% & 100% & 100%   & 83% & 99% & 100% & 100%   & 66% & 97% & 100% & 100%   & 48% & 93% & 100% & 100%   & 31% & 86% & 99% & 100%   & 16% & 75% & 98% & 100%   & 6% & 75% & 94% & 94%   & 0% & 61% & 89% & 99%\n\n&   &   &   &    & 94% & 100% & 100% & 100%   & 83% & 98% & 100% & 100%   & 66% & 93% & 99% & 100%   & 50% & 81% & 97% & 100%   & 33% & 67% & 91% & 99%\n\n\tat (current page.south) \t \t;"
+    "Description": "Roll\tMiscast Table - Resolve one effect at a time, starting from the top.\n\nAll\tWeaken the Veil\n\tAny further Miscast this Player Turn counts as having a Casting Roll with a value of +5.\n\tThis effect is cumulative.\n\n10+\tWitchfire\n\tThe Caster's unit suffers a number of hits equal to twice the number of (Magical Dice used),\n\twith Str 3, AP 2, and Magical Attacks.\n\n15+\tMagical Mishap\n\tControlled by the opponent, the Caster casts the Apprentice Spell (#1) from the Path* of the\n\tMiscast spell, with the following changes:\n\n\t• Treat the miscasting model as if it was owned by the Reactive Player (i.e. the opponent\n\tchooses the target, makes relevant choices for the spell, any spell with the Augment Type\n\tcan target the opponent's models, and so on).\n\n\t• Ignore any Range and Line of Sight restrictions. If there is no viable target,\n\tMagical Mishap has no effect.\n\n\t• The spell is immediately successfully cast, and cannot be dispelled.\n\n\t• It does not count as a “Casting Attempt”, nor as a “Successful Casting”.\n\n\t* If the Miscast spell is not from a Path of Magic, use instead the Path that the Miscasting\n\tmodel currently knows the highest number of Learned Spells from; in case of a tie,\n\tpick one at random. If the model knows no Learned Spells belonging to any Path of Magic,\n\tignore Magical Mishap and apply Amnesia instead.\n\n20+\tAmnesia\n\tThe Caster cannot cast this spell again. Duration: Permanent.\n\n25+\tBreach in the Veil\n\tAll units within 12″ of the Caster must immediately take a Dangerous Terrain Test.\n\tThe Caster is then removed as a casualty."
   },
   {
     "Id": "rulebook-shooting_phase",
@@ -9786,7 +9762,7 @@
     "Id": "rulebook-rally_test",
     "Name": "Rally Test",
     "Type": "General",
-    "Description": "During the Rally Phase, the Active Player's Shaken units must take a  Command Test, called a Rally Test. Roll tests one by one in any order. Units Engaged in Combat cannot take Rally Tests.\n\n  •  If the Rally Test is passed, the unit stops being Shaken and may immediately Pivot (see Movement Phase chapter).\n\n  •  If the Rally Test is failed, the unit Pivots to face directly away from the centre of the closest non-Shaken enemy unit and then performs a Flee Move (see Psychology chapter).\n\nRemember that Decimated units that perform Flee Moves are removed as casualties."
+    "Description": "During the Rally Phase, the Active Player's Shaken units must take a Command Test, called a Rally Test. Roll tests one by one in any order. Units Engaged in Combat cannot take Rally Tests.\n\n  •  If the Rally Test is passed, the unit stops being Shaken and may immediately Pivot (see Movement Phase chapter).\n\n  •  If the Rally Test is failed, the unit Pivots to face directly away from the centre of the closest non-Shaken enemy unit and then performs a Flee Move (see Psychology chapter).\n\nRemember that Decimated units that perform Flee Moves are removed as a casualty."
   },
   {
     "Id": "rulebook-melee_phase",
@@ -9818,6 +9794,36 @@
     "Type": "General",
     "Description": "/subsection{choose_equipment_and_abilities}/subsection{combat_formations}/subsection{static_combat_score}"
   },
+    {
+    "Id": "rulebook-proper_ranks",
+    "Name": "Proper Ranks",
+    "Type": "General",
+    "Description": "The number of models required to form a Proper Rank depends on the unit’s Height:\n\n • 5 models for Height 0-2.\n\n • 3 models for Height 3-4.\n\n • 1 model for Height 5."
+  },
+  {
+    "Id": "rulebook-steady",
+    "Name": "Steady",
+    "Type": "General",
+    "Description": "A unit is Steady if it has more <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u> than each individual enemy unit <u><link=\"rulebook-engaged_in_combat\">Engaged</link></u> in contact with it.\nIf, at the end of a Round of Combat, the unit is Steady and was on the losing side, Discipline modifiers from the Combat Score difference are set to a minimum of -2 (i.e. cannot be a smaller number than -2)."
+  },
+  {
+    "Id": "rulebook-solid",
+    "Name": "Solid",
+    "Type": "General",
+    "Description": "A unit is Solid if its number of <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u> is at least:\n\n • 4 – for units of Height 0-1.\n\n • 3 – for units of Height 2.\n\n • 2 – for units of Height 3-5.\n\nIf a Height 1 unit is Solid at the start of a Round of Combat, then all Height 1 models in the unit gain <u><link=\"rulebook-press_of_ranks\">Press of Ranks</link></u> (+1 to wound, max. 3+) until the end of the Round of Combat."
+  },
+  {
+    "Id": "rulebook-steadfast",
+    "Name": "Steadfast",
+    "Type": "General",
+    "Description": "If, at the end of a Round of Combat, the unit is both <u><link=\"rulebook-rulebook-steady\">Steady</link></u> and <u><link=\"rulebook-solid\">Solid</link></u>, it is said to be Steadfast: modifiers to the unit’s Discipline from the Combat Score difference are ignored when rolling Break Tests."
+  },
+  {
+    "Id": "rulebook-surrounded",
+    "Name": "Surrounded",
+    "Type": "General",
+    "Description": "A unit is considered Surrounded when it has enemies <u><link=\"rulebook-engaged_in_combat\">Engaged</link></u> with either its Flank and/or Rear Facing.\n\nA Surrounded unit counts as having X fewer <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u>, where ‘X’ is the combined number of <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u> of all the enemy units Engaged on its Flank and/or Rear.\n\nIf multiple units in the same Combat are Surrounded, first apply Surrounded from units that are themselves not Surrounded. Then apply Surrounded from unitsthat are Surrounded.\nThe Active Player chooses the order in which to per form each of these steps.\n\nThe primary effects of this are on the amount of Combat Score the unit will get for <u><link=\"rulebook-proper_ranks\">Proper Ranks</link></u> (i.e. Rank Bonus), and whether the unit and its enemies are Steady and/or Solid.\n\nNote that a unit that has 0 Proper Ranks would be unaffected by this reduction."
+  },  
   {
     "Id": "rulebook-choose_equipment_and_abilities",
     "Name": "Choose Equipment and Abilities",
@@ -9894,7 +9900,7 @@
     "Id": "rulebook-determine_who_breaks_or_pursues",
     "Name": "Determine who Breaks or Pursues",
     "Type": "General",
-    "Description": "If any unit failed its Break test or were wiped out during the Combat, follow the steps below in order.\\\n\t1 -  Determine Flee Direction: Each Broken (any unit that failed its Break Test) unit will Flee away from an enemy unit it is in contact with. If there are more than one unit to Flee away from, the owner of those enemy units chooses which is used to establish the Flee direction.\n2 -  Roll Flee Distance, typically 2D6. Place the resulting dice next to the unit, but do not move the unit yet.\n3 -  Determine which units will Pursue. Each unit in contact with one or more Broken units, and no non-Broken units, may choose to Pursue. Declare which unit is Pursuing which Broken unit.\n\n  •  A Charging unit that is no longer in contact with any enemy unit, normally due to them all being wiped out, may choose to perform a special type of Pursue called an Overrun. An Overrun will always be directed straight forward.\n\n4 -  Roll Pursue Distance, typically 2D6. Place the resulting dice next to the unit, but do not move the unit yet.\n5 -  Remove caught Broken units: Compare the Flee Distance of each Broken unit with the Pursue Distance of any units that declared a Pursue against it. If the Flee Distance is greater than all Pursue Distances, the Broken unit managed to get away. Otherwise, the unit was caught and is now removed as a casualty."
+    "Description": "If any unit failed its Break test or were wiped out during the Combat, follow the steps below in order.\\\n\t1 -  Determine Flee Direction: Each Broken (any unit that failed its Break Test) unit will Flee away from an enemy unit it is in contact with. If there are more than one unit to Flee away from, the owner of those enemy units chooses which is used to establish the Flee direction.\n2 - Roll Flee Distance, typically 1D6+4\". Place the resulting dice next to the unit, but do not move the unit yet.\n3 -  Determine which units will Pursue. Each unit in contact with one or more Broken units, and no non-Broken units, may choose to Pursue. Declare which unit is Pursuing which Broken unit.\n\n  •  A Charging unit that is no longer in contact with any enemy unit, normally due to them all being wiped out, may choose to perform a special type of Pursue called an Overrun. An Overrun will always be directed straight forward.\n\n4 -  Roll Pursue Distance, typically 1D6+4. Place the resulting dice next to the unit, but do not move the unit yet.\n5 -  Remove caught Broken units: Compare the Flee Distance of each Broken unit with the Pursue Distance of any units that declared a Pursue against it. If the Flee Distance is greater than all Pursue Distances, the Broken unit managed to get away. Otherwise, the unit was caught and is now removed as a casualty."
   },
   {
     "Id": "rulebook-unfreeze_unit_boundaries",
@@ -9936,7 +9942,7 @@
     "Id": "rulebook-combat_reforms",
     "Name": "Combat Reforms",
     "Type": "General",
-    "Description": "After all Fleeing and Pursuing units have been moved, units still remaining Engaged in the Combat may attempt to perform a Combat Reform.\n\n  •  Units Engaged in more than one of its Facings can never Combat Reform.\n\n  •  Units on the losing side of the Combat, and units Engaged in their Flank or Rear Facing, must pass a Command Test to be able to Combat Reform. If failed, the unit cannot Combat Reform.\n\nFirst, the Active player declares which of their units will attempt to make a Combat Reform, taking Command Test where needed. After this, Reactive Player declares which of their units will attempt to make a Combat Reform, taking Command Test where needed. Any units that are not perfectly aligned with the target facing of an enemy they are Engaged with, at the time of declaring which units that will attempt a Combat Reform, must attempt to do so, following the usual rules for Combat Reforms.\n\nOnce it has been established which units will perform a Combat Reforms, Active Player chooses which player performs all of their Combat Reforms first, and each player chooses the order of their own units' Combat Reforms.\n\nWhen performing a Combat Reform, remove the unit from the Battlefield and place it back into contact with the enemy, following the rules below:\n\n  •  In any viable formation as long as the number of Files has not changed by more than 2 .\n  •  At least as many models, from both the reforming unit, and all units it was in contact with before the reform, must still be in contact with enemy models, but they do not have to be the same models.\n  •  Any Attachable Models (from either side) that were in contact with an enemy before the Combat Reform, must remain in contact after the Combat Reform.\n\n  •  The unit can ignore the Unit Spacing rule, but it can not move into base contact with enemy units it was not in contact with before the reform, nor can it overlap with other units.\n  •  The unit must maintain contact with the same enemy units as before the reform, and with the same Facings of the enemy units.\n  •  A Combat Reform must end with the Combat Reforming unit perfectly aligned against the enemy facing it is engaged with.\n\nIf multiple units are performing Combat Reforms, ensure  that the requirements mentioned above are fulfilled at the end of all Combat Reforms  by the first player, and then again after all Combat Reforms by the second player, rather than after each individual unit has reformed.\n\n\t\n\t\n\t\n\\\n\nCombat Reforms.a) At the end of a Round of Combat, unit A is Engaged with unit B and Unit C. Unit A performs a Combat Reform.\\\nb) After unit A has made its Combat Reform: the unit has added a file on its right flank, and the Character joined to the unit has changed position so as to be located on its front-right corner."
+    "Description": "After all Fleeing and Pursuing units have been moved, units still remaining Engaged in the Combat may attempt to perform a Combat Reform.\n\n  •  Units Engaged in more than one of its Facings can never Combat Reform.\n\n  •  Units on the losing side of the Combat, and units Engaged in their Flank or Rear Facing, must pass a Command Test to be able to Combat Reform. If failed, the unit cannot Combat Reform.\n\nFirst, the Active player declares which of their units will attempt to make a Combat Reform, taking Command Test where needed. After this, Reactive Player declares which of their units will attempt to make a Combat Reform, taking Command Test where needed. Any units that are not perfectly aligned with the target facing of an enemy they are Engaged with, at the time of declaring which units that will attempt a Combat Reform, must attempt to do so, following the usual rules for Combat Reforms.\n\nOnce it has been established which units will perform a Combat Reforms, Active Player chooses which player performs all of their Combat Reforms first, and each player chooses the order of their own units' Combat Reforms.\n\nWhen performing a Combat Reform, remove the unit from the Battlefield and place it back into contact with the enemy, following the rules below:\n\n  •  In any viable formation as long as the number of Files has not changed by more than ±1 .\n  •  At least as many models, from both the reforming unit, and all units it was in contact with before the reform, must still be in contact with enemy models, but they do not have to be the same models.\n  •  Any Attachable Models (from either side) that were in contact with an enemy before the Combat Reform, must remain in contact after the Combat Reform.\n\n  •  The unit can ignore the Unit Spacing rule, but it can not move into base contact with enemy units it was not in contact with before the reform, nor can it overlap with other units.\n  •  The unit must maintain contact with the same enemy units as before the reform, and with the same Facings of the enemy units.\n  •  A Combat Reform must end with the Combat Reforming unit perfectly aligned against the enemy facing it is engaged with.\n\nIf multiple units are performing Combat Reforms, ensure  that the requirements mentioned above are fulfilled at the end of all Combat Reforms  by the first player, and then again after all Combat Reforms by the second player, rather than after each individual unit has reformed.\n\n\t\n\t\n\t\n\\\n\nCombat Reforms.a) At the end of a Round of Combat, unit A is Engaged with unit B and Unit C. Unit A performs a Combat Reform.\\\nb) After unit A has made its Combat Reform: the unit has added a file on its right flank, and the Character joined to the unit has changed position so as to be located on its front-right corner."
   },
   {
     "Id": "rulebook-after_the_game",
@@ -10020,7 +10026,7 @@
     "Id": "rulebook-modifiers",
     "Name": "Modifiers",
     "Type": "General",
-    "Description": "Modifiers can affect the values of Characteristics, dice rolls, or other numerical values in the game. They can set values, add or subtract from them, multiply or divide them, and are applied in the following order.\n\n  •  A Value Set to a Fixed Number:  When a value or roll is set to a specific number, replace the original value or roll with that number. When a value is \"set to at least a number\" do not set the value if it would result in a reduction to the value.\n\n  •  Multiplication and Division: Values or rolls can be modified by multiplication or division.\n\n  •  Addition and Subtraction: Values or rolls can be modified by addition or subtraction.\n\n  •  If a limit is defined in the rule, apply the operation after operations without limits, and only up to the limit. E.g. if a Charging Model is in contact with a Wall and rolling to hit towards an opponent with Distracting (1), first apply the -1 from being in contact with a Wall, then apply the -1 from Distracting, unless the model already hits on 5+\n\n  •  You can modify difficulties (things in the form of X+) by addition or subtraction. To work out how a modifier applies to a difficulty of X+ we use the following formula: [difficulty score] - [modifier] = new difficulty score. For example an attack wounding on 4+ with a +1 to wound modifier, now wounds on 3+.\n\n  •  Always and Never: Rolls always or never succeeding or failing on certain results.\nCharacteristics always or never set to a certain value or range of values.\n\n  •  Restrictions: After applying all modifications, there are certain limits for specific Characteristics:\n\n  •  Use only whole numbers.  Round any fractions up.\n\n  •  No Characteristics can be below 0 , not even temporarily. Set values below 0 to 0.\n\n  •  Armour can never be higher than 6, not even temporary.\n\n  •  Agility and Discipline can never be higher than 10, not even temporary.\n\n  •  A Melee Attack always hits on a natural roll of ‘6’.\n\nWhen multiple modifiers have the same priority step, apply them in the order that results in the lowest value or success chance."
+    "Description": "Modifiers can affect the values of Characteristics, dice rolls, or other numerical values in the game. They can set values, add or subtract from them, multiply or divide them, and are applied in the following order:\n\n1. A Value Set to a Fixed Number: when a value or roll is set to a specific number, replace the original value or roll with that number. When a value is \"set to at least a number\" do not set the value if it would result in a reduction to the value.\n\n2. Multiplication and Division: values or rolls can be modified by multiplication or division.\n\n3. Addition and Subtraction: values or rolls can be modified by addition or subtraction.\n\n(a) If a limit is defined in the rule, apply the operation after operations without limits, and only up to the limit, e.g. if a Charging Model is in contact with a Wall and rolling to hit towards an opponent with Distracting (1), first apply the -1 from being in contact with a Wall, then apply the -1 from Distracting, unless the model already hits on 5+.\n\n(b) Difficulties (i.e. things in the form of X+) can also be modified by addition or subtraction.\nTo work out how a modifier applies to a difficulty of X+ we use the following formula: [difficulty score] - [modifier] = new difficulty score. For example an attack wounding on 4+ with a +1 to wound modifier, now wounds on 3+.\n\n4. Always and Never: some rolls always or never succeeding or failing on certain results, whereas some Characteristics always or never have a certain value or range of values.\n\n5. Restrictions: after applying all modifications, certain limits apply to some Characteristics:\n\n(a) Use only whole numbers: round any fractions up.\n\n(b) No Characteristics can be below 0 , not even temporarily. Set values below 0 to 0.\n\n(c) Armour can never be higher than 6, not even temporary.\n\n(d) Agility and Discipline can never be higher than 10, not even temporary.\n\n(e) Melee Attack always hits on a natural roll of ‘6’ ’, and always fails on a ‘1’.\n\n6. Global and Defensive: when a modifier is referencing a specific model part, but influences Global and/or Defensive Characteristics, apply those modifiers only once for the whole model.\n\nWhen multiple modifiers have the same priority step, apply them in the order that results in the lowest value or success chance."
   },
   {
     "Id": "rulebook-definition_of_a_move",
@@ -10116,25 +10122,25 @@
     "Id": "rulebook-characters",
     "Name": "Characters",
     "Type": "General",
-    "Description": "A Character is a significant and unique individual in the army, often possessing special abilities, skills, or powers that set them apart from regular troops. Characters are a special type of models that are purchased as part of the Characters Army Category of an Army Book.\n\nUnless stated otherwise, Characters follow the rules for Attachable Models, which means they can fight as part of another unit.\n\n/section{make_way}/section{general}/section{battle_standard_bearer}/section{leadership_skills}/section{character_mounts}"
+    "Description": "A Character is a significant and unique individual in the army, often possessing special abilities, skills, or powers that set them apart from regular troops. Characters are a special type of models that are purchased as part of the Characters Army Category of an Army Book.\n\nUnless stated otherwise, Characters follow the rules for Attachable Models, which means they can fight as part of another unit."
   },
   {
     "Id": "rulebook-make_way",
     "Name": "Make Way",
     "Type": "General",
-    "Description": "Sometimes characters find themselves Engaged in Combat, but not in contact with any enemy models. When this happens, the Character may be eligible for a Make Way move.\n\nTo be able to perform a Make Way move, the Character:\n\n  •  Must be in the First Rank of its unit.\n\n  •  Must not be in contact with any enemy models.\n\n  •  Must not have a Mismatching Bases.\n\nMake Way moves are performed when Choosing Equipment and Abilities. The Character switches positions with a Rank-and-File model or models in its unit that is in contact with an enemy. The Characters must end up in a legal position. Normally this means that the Character can only swap positions with models in the Front Rank."
+    "Description": "It can happen that a Character's unit is Engaged in Combat, while that Character is not itself in contact with any enemy models. When this happens, the Character may be eligible for a Make Way move.\n\nTo be able to perform a Make Way move, the Character:\n\n •  Must be in the First Rank of its unit.\n\n •  Must not be in contact with any enemy models.\n\n •  Must not have a Mismatching Base.\n\nMake Way moves are performed when Choosing Equipment and Abilities.\nThe Character switches positions with a Rank-and-File model (or models) in its unit that is in contact with an enemy.\nThe Character must end up in a legal position.\nNormally this means that the Character can only swap positions with models in the Front Rank."
+  },
+  {
+    "Id": "rulebook-general",
+    "Name": "General",
+    "Type": "Global",
+    "Description": "An army may include a General.\nThis upgrade is Legendary.\nA General gains <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u>."
   },
   {
     "Id": "rulebook-battle_standard_bearer",
-    "Name": "Battle Standard Bearer",
+    "Name": "Battle Standard Bearer (BSB)",
     "Type": "General",
-    "Description": "1beastmanBSB_Hardstyle.pngHardstyle\nAn army may include a Battle Standard Bearer, and this upgrade is  Legendary.\n\nA Battle Standard Bearer gives +1 Combat Resolution to the model's unit and gains Rally Around the Flag (see  Model Rules), and if the model has the option to buy Magic Items, it is allowed to buy a Banner Enchantment."
-  },
-  {
-    "Id": "rulebook-leadership_skills",
-    "Name": "Leadership Skills",
-    "Type": "General",
-    "Description": "Battleline HeroGeneral only30\n\tThe range of the model's Commanding Presence is increased to 18\".\n\nInnovative LeaderGeneral only60    In an army with an Innovative Leader units may use different base sizes from those listed in the unit entries. Any unit entry using this option must have the new base size noted on the Army List, and all models in the  unit must have the same base size. The new bases must adhere to the following restrictions:\n\n  •  100% -- 125% of the original width\n\n  •  100% -- 150% of the original depth\n\n  •  Both width and depth must be divisible by 5mm\n\nRecruiting officerfreeAny unit in your Army List that is not a single model unit (i.e. unit entries without unit size Single model) may take the following upgrade:\\Fresh Meat (35 pts / unit); The unit gains Exclusive, changes its Maximum Points Cost to 800 points, and increases its maximum unit size with +20%, rounding fractions up.\n\\\nExample a unit entry with unit size 10–24 models increases the maximum with +4.8 models, to 10–29 models.\n\nThe Innovative Leader upgrade is designed to give players more flexibility in using their existing miniature collections when playing T9A. For example, a player that is coming from a different gaming system where slightly different bases are used can play T9A without a need to rebase their whole army. It can also be used to give players more freedom for what miniatures they use, such as using a miniature that is too large for the intended original base.\n\tHowever, using the Innovative Leader upgrade to significantly impact the playstyles of an Army Book should be done with caution. Rebasing miniatures with the express intent of exploiting unintended playstyles is discouraged and may be subject to future adjustments."
+    "Description": "An army may include a Battle Standard Bearer. This upgrade is Legendary.\nA BSB gives +1 Combat Resolution to its side in combat, and gains <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>(12\").\nIf the model has the option to buy Magic Items, it is allowed to buy a Banner Enchantment."
   },
   {
     "Id": "rulebook-character_mounts",
@@ -10254,7 +10260,7 @@
     "Id": "rulebook-covering_terrain",
     "Name": "Covering Terrain",
     "Type": "General",
-    "Description": "Covering Terrain contributes to Cover when drawing Line of Sight through it. The bracket (X) indicates if the terrain contributes to Soft Cover or Hard Cover.\n\nCertain Terrain Features (such as Ruins and Fields) only count as Covering Terrain for units in contact with them. Ignore any Terrain Feature the shooter itself is located in for Cover purposes.\n\nCovering Terrain always has a bracket (Height Y) associated with it that corresponds to the largest Height where this Terrain Feature can contribute to Cover. For example, Fields are Covering Terrain (Height 3), this means that anything with a Height of 4 or above cannot claim Soft Cover from Line of Sight drawn through a Field they are in contact with."
+    "Description": "Covering Terrain contributes to Cover when drawing Line of Sight through it. The bracket (X) indicates if the terrain contributes to Soft Cover or Hard Cover.\n\nCertain Terrain Features (such as Ruins and Fields) only count as Covering Terrain for units in contact with them. Ignore any Terrain Feature the shooter itself is located in for Cover purposes.\n\nCovering Terrain always has a bracket (Height Y) associated with it that corresponds to the largest Height where this Terrain Feature can contribute to Cover. For example, Fields are Covering Terrain (Height 3), this means that anything with a Height of 4 or above cannot claim Soft Cover from Line of Sight drawn through a Field they are in contact with.\n\nSometimes terrain will have “Covering terrain (X) for units in contact”. This rule is meant to represent terrain that can be used for Cover, but is not tall enough to always provide it. Therefore, a unit needs to be close enough to benefit from it."
   },
   {
     "Id": "rulebook-disruptive",
@@ -10326,13 +10332,13 @@
     "Id": "rulebook-courage_tests",
     "Name": "Courage tests",
     "Type": "General",
-    "Description": "Courage Test represent warriors ability to hold their position in the face of adversity.\n\nThere are two primary types of Courage Tests:\n\n  •  Panic Tests: Panic Test are taken immediately whenever a unit is called upon to take a Panic Tests, see below for the most common situations. A failed Panic Test puts a unit in the Shaken state.\n\n  •\nBreak Tests: Taken by units on the losing side of a Combat. See Melee Phase chapter for details.\n\nCommon Model Rules that affect Courage Tests: Rally Around the Flag, Commanding Presence. See Model Rules for details.\n\n\t\tat (current page.south east)\n\t-1\n\t \t;\n\t\n\t\n/subsection{panic_tests}"
+    "Description": "Courage Test represent warriors ability to hold their position in the face of adversity.\n\nThere are two primary types of Courage Tests:\n\n  •  Panic Tests: Panic Test are taken immediately whenever a unit is called upon to take a Panic Tests, see below for the most common situations. A failed Panic Test puts a unit in the Shaken state.\n\n  •\nBreak Tests: Taken by units on the losing side of a Combat. See Melee Phase chapter for details.\n\nCommon Model Rules that affect Courage Tests: Beacon of Courage, Commanding Presence. See Model Rules for details.\n\n\t\tat (current page.south east)\n\t-1\n\t \t;\n\t\n\t\n/subsection{panic_tests}"
   },
   {
     "Id": "rulebook-panic_tests",
     "Name": "Panic Tests",
     "Type": "General",
-    "Description": "A Panic test is a type of Courage Test taken in certain situations. These situations include:\n\n  •  A friendly Shaken unit performs a Flee Move through the unit.\n\n  •  A Flee Move that is the direct consequence of a voluntary decision does not cause a Panic Test to friendly units.\nThis includes Charge Reaction Flee! (unless caused by a failed Panic Test when charged by a model containing Terror), and voluntary Breaking from Combat with a unit entirely with Feigned Flight. Note that a Flee Move due to a failed Rally Test is not considered a voluntary Flee Move, even if originally due to a Charge Reaction Flee!.\n\n  •  Take the test after completing the Flee Move.\n\n  •  The unit suffered enough Health Point losses in a single phase from Ranged Attacks originating from enemy models, to fulfill both of the following criteria:\n\n  •  At least 3 Health Points losses, and\n\n  •  At least an amount of Health Points losses to equal 25% of the number of HP the unit has at the start of the Phase.\n\nTake the Panic Test immediately after possible casualties have been removed. Ignore Health Point losses suffered while Engaged in Combat.\n\n  •  An enemy unit entirely with Terror declares a Charge against the unit in the Charge Phase.\n\nUnits do not take Panic Tests if\n\n  •  they are Engaged in Combat, or\n\n  •  they are already Shaken, or\n\n  •  they already passed a Panic Test during this phase.\n\nIf a unit fails a Panic test, it immediately becomes Shaken.\nNote that this normally does not mean the unit performs a Flee Move."
+    "Description": "A Panic test is a type of Courage Test taken in certain situations, such as:\n\n• A friendly Shaken unit performs a Flee Move through the unit.\n\n  - Take the test after completing the Flee Move.\n\n• The unit suffered enough Health Point losses in a single phase from Ranged Attacks originating from enemy models, to fulfill both of the following criteria:\n\n  - The unit suffered at least 3 Health Points losses, and\n\n  - The unit suffered an amount of Health Points losses at least to equal 25% of the number of HP the unit had at the start of the Phase.\n\nTake the Panic Test immediately after possible casualties have been removed. Ignore Health Point losses suffered while Engaged in Combat.\n\n • An enemy unit entirely with Terror declares a Charge against the unit in the Charge Phase.\n\nUnits do not take Panic Tests if\n\n • They are Engaged in Combat, or\n\n • They are already Shaken, or\n\n • They already passed a Panic Test during this phase.\n\nIf a unit fails a Panic test, it immediately becomes Shaken.\nNote that this normally does not mean the unit performs a Flee Move."
   },
   {
     "Id": "rulebook-psychology_states",
@@ -10350,7 +10356,7 @@
     "Id": "rulebook-flee_move",
     "Name": "Flee Move",
     "Type": "General",
-    "Description": "A Flee Move is a specific type of move performed in certain situations. The most common instances are failing a Rally Test, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a Flee Move, follow these steps:\n\t1 -  Roll Flee Distance. Normally 2D6.\n2 -  Each Flee Move starts by Pivoting the unit to face a certain direction.\n\n  •  Failed Rally Test: Pivot the unit to face directly away from the closest non-Shaken enemy unit.\n\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n\n  •  Charge Reaction Flee! and failed Terror Tests: Pivot the unit to face directly away from the Charging enemy.\n\nThe direction is specified by a line from Centre of Unit to Centre of Unit.\n\n  •  Failed Break Test: Pivot the Shaken unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy.\n\nIf multiple units are eligible, the opponent chooses which of their units is chosen for this.\n\n3 -  Move the Shaken unit straight forward by the distance rolled.\n4 -  A Flee Move, including the initial Pivot, ignores the Unit Spacing rule, and can move through any obstructions. However, the move cannot end overlapping other units or Impassable Terrain, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the Unit Spacing rule, which means it can be placed within 1\" of other units or Impassable Terrain.\n\n  •  If the obstruction  encountered was a friendly unit, this unit must take a Panic Test.\n\n  •  If the obstruction  encountered at any point of the move was an enemy unit or Impassable Terrain, treat these as Dangerous Terrain (4+)(note that enemy units that declared a Charge against the Fleeing unit is handled differently, see below).\n\n5 -  If the Flee Move takes the unit into contact with the Table Edge, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is removed as a casualty."
+    "Description": "A Flee Move is a specific type of move performed in certain situations. The most common instances are failing a Rally Test, choosing to Flee! as a Charge Reaction or failing a Break Test without being caught by any enemies. When making a Flee Move, follow these steps:\n\n1. Roll the Flee Distance (normally this is 1D6+4\").\n\n2. Each Flee Move starts by Pivoting the unit to face a certain direction.\n\n(a) Failed Rally Test: Pivot the unit to face directly away from the closest non-Shaken enemy unit.\nThe direction is specified by a line from Centre of Unit to Centre of Unit. If there are multiple enemy units at equal distances, the opponent chooses which one of its units will be used for direction of flight.\n\n(b) Flee! Charge Reaction and failed Terror Tests: Pivot the unit to face directly away from the Charging enemy. The direction is specified by a line from Centre of Unit to Centre of Unit.\n\n(c) Failed Break Test: Pivot the Shaken unit so that its Rear Facing is parallel with the Facing it was Engaged in of the enemy. If multiple units are eligible, the opponent chooses which of their units is chosen for this.\n\n3. Move the Shaken unit straight forward by the distance rolled.\n\n4. A Flee Move, including the initial Pivot, ignores the Unit Spacing rule, and can move through any obstructions. However, the move cannot end overlapping other units or Impassable Terrain, continue the move in a straight line until the unit can be placed on the battlefield without overlapping obstructions. Remember that the unit ignores the Unit Spacing rule, which means it can be placed within 1\" of other units or Impassable Terrain.\n\n(a) If the Fleeing unit moves through any friendly unit, this unit must take a Panic Test.\n\n(b) If the Fleeing unit moves through any enemy unit or Impassable Terrain, treat these as Dangerous Terrain (4+).\n\n5. If the Flee Move takes the unit into contact with the Table Edge, or an enemy unit that has declared a Charge against the Fleeing unit in this phase, the unit is removed as a casualty."
   },
   {
     "Id": "rulebook-magical_effects",
@@ -10419,34 +10425,10 @@
     "Description": "/subsection{battle_focus}"
   },
   {
-    "Id": "rulebook-rally_around_the_flag_aura",
-    "Name": "Rally Around the Flag",
+    "Id": "rulebook-beacon_of_courage_aura",
+    "Name": "Beacon of Courage",
     "Type": "General",
-    "Description": "/subsection{rally_around_the_flag}"
-  },
-  {
-    "Id": "special-battleline_hero",
-    "Name": "Battleline Hero",
-    "Type": "General",
-    "Description": "The range of the model's Commanding Presence is increased to 18\"."
-  },
-  {
-    "Id": "special-innovative_leader",
-    "Name": "Innovative Leader",
-    "Type": "General",
-    "Description": "In an army with an Innovative Leader units may use different base sizes from those listed in the unit entries. Any unit entry using this option must have the new base size noted on the Army List, and all models in the  unit must have the same base size. The new bases must adhere to the following restrictions:\n\n  •  100% -- 125% of the original width\n\n  •  100% -- 150% of the original depth\n\n  •  Both width and depth must be divisible by 5mm"
-  },
-  {
-    "Id": "special-recruiting_officer",
-    "Name": "Recruiting Officer",
-    "Type": "General",
-    "Description": "Any unit in your Army List  may take the following upgrade:"
-  },
-  {
-    "Id": "special-fresh_meat",
-    "Name": "Fresh Meat",
-    "Type": "General",
-    "Description": "The unit gains Solitary and changes its maximum Points Cost to 800 points."
+    "Description": "/subsection{beacon_of_courage}"
   },
   {
     "Id": "special-properties_of_magic_items",
@@ -10560,7 +10542,7 @@
     "Id": "special-warding_of_unity",
     "Name": "Warding of Unity",
     "Type": "General",
-    "Description": "Attached, which cannot be lost, and Resistance(Melee Attacks)."
+    "Description": "Attached, which cannot be lost, and Resistance (Melee Attacks)."
   },
   {
     "Id": "special-wild_warding",
@@ -10584,7 +10566,7 @@
     "Id": "special-sheltering_standard",
     "Name": "Sheltering Standard",
     "Type": "General",
-    "Description": "Attacks with AP 2 or less can never reduce the Armour Save roll of the bearer's unit to worse than 6+."
+    "Description": "Attacks with AP 3 or less can never reduce the Armour Save roll of the bearer's unit to worse than 6+.\nNote: this does not grant an Armour Save to models with a 7+Armour Save."
   },
   {
     "Id": "special-banner_of_courage",
@@ -10608,19 +10590,13 @@
     "Id": "special-aether_icon",
     "Name": "Aether Icon",
     "Type": "General",
-    "Description": "The bearer's unit gains Magic Resistance(1)."
+    "Description": "The bearer's unit gains Magic Resistance (1)."
   },
   {
     "Id": "special-rending_banner",
     "Name": "Rending Banner",
     "Type": "General",
-    "Description": "One use only. May be activated when Choosing Equipment and Abilities. Rank-and-File models in the bearer's unit gain +1 AP until the End of Combat."
-  },
-  {
-    "Id": "special-banner_of_recruitment",
-    "Name": "Banner of Recruitment",
-    "Type": "General",
-    "Description": "The bearer's unit gains Solitary and changes its Maximum Points Cost to 800 points."
+    "Description": "One use only. May be activated when Choosing Equipment and Abilities.\nRank-and-File models in the bearer's unit gain +1 AP until the End of Combat."
   },
   {
     "Id": "special-mask_of_mindless_violence",
@@ -10632,7 +10608,7 @@
     "Id": "special-mimic_cloak",
     "Name": "Mimic Cloak",
     "Type": "General",
-    "Description": "Stand Behind. The wearer's model loses Stubborn, Bodyguard, and cannot gain either in any way. In addition, the model cannot make any Supporting Attacks."
+    "Description": "Model gets Stand Behind.\nThe wearer’s model loses <u><link=\"rulebook-bodyguard\">Bodyguard</link></u> and <u><link=\"rulebook-stubborn\">Stubborn</link></u>, cannot gain either in any way, and is never considered to fulfil the criteria of <u><link=\"rulebook-bodyguard\">Bodyguard</link></u>. In addition, the model cannot make any Supporting Attacks."
   },
   {
     "Id": "special-binding_scroll",
@@ -10789,30 +10765,6 @@
     "Name": "Recommended Army Size and Table Size",
     "Type": "General",
     "Description": "This Season Pack was prepared for a Field Army of 4000 points to be used on a 48\"x72\" Battlefield."
-  },
-  {
-    "Id": "season-specialist_skills",
-    "Name": "Specialist Skills",
-    "Type": "General",
-    "Description": "When playing with Season Packs - Season 1, a single Character in your Army List may take one of the upgrades listed below."
-  },
-  {
-    "Id": "season-trusted_adviser",
-    "Name": "Trusted Adviser",
-    "Type": "General",
-    "Description": "During Pre-game Selections: Randomise one Secondary Objective, following the rules for Random Selection of Secondary Objective.\n\tYou may choose this Secondary Objective, instead of one previously selected Secondary Objective."
-  },
-  {
-    "Id": "season-glory_hunter",
-    "Name": "Glory Hunter",
-    "Type": "General",
-    "Description": "When Choosing Weapons and Equipment, if the model's unit is Engaged with an enemy unit that contains a Character, it must issue a Duel. The opponent may either accept or refuse the Duel.\n\nIf refused; the model that issued the Duel gains +1 to their side's Combat Score this Round of Combat.\n\n\tIf accepted; the opponent selects a Character in a unit Engaged with the model that issued the Duel. Apply the following rules to the two models: Duellists (the model issuing the Duel, and the model chosen to accept the Duel) during this Round of Combat:\n\n  •  Other models may not allocate Standard Melee Attacks towards the Duellists.\n\n  •  The Duellists are considered to be in base contact with each other.\n\n  •  The Duellists must allocate their Standard Melee Attacks towards each other (even if their models are not physically in contact).\n\n  •  Other Melee Attacks, such as Grind Attacks, Impact Hits, and Stomp Attacks, follow their normal rules for allocation.\n\n  •  If either or both Duellists cause the last HP loss to the opposing Duellist, it has won the Duel. The winner(s) count as having completed one Secondary Objective of their choice.\n\nIf both players have models with Glory Hunter Engaged in the same Combat, the Active Player must issue a Duel with their model with Glory Hunter first, and the Reactive Player must accept the Duel with their model with Glory Hunter."
-  },
-  {
-    "Id": "season-curse_of_lycanthropy",
-    "Name": "Curse of Lycanthropy",
-    "Type": "General",
-    "Description": "One use only. Duration: One Turn. You may activate this ability when Choosing Equipment and Abilities. Set the model part's Att to 4, Str to 5, and AP to 3. The model part also gains Regeneration(4+) and Innate Weapons. While active, the model part can only use Innate Weapons."
   },
   {
     "Id": "season-deployment_types",
