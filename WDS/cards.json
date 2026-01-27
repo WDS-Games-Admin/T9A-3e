@@ -210,7 +210,7 @@
     "Attributes": {},
     "Description": "The target suffers -1 Arm and loses Metal Armour.",
     "CastingValue": "5",
-    "Range": "24",
+    "Range": "18",
     "Duration": "1 Turn",
     "Level": "2",
     "PathName": "Alchemy"
@@ -390,7 +390,7 @@
     "Attributes": {},
     "Description": "The target's side gains a bonus to its Static Combat Score bonus equal to the Game Turn number.",
     "CastingValue": "10",
-    "Range": "24",
+    "Range": "18",
     "Duration": "1 Turn",
     "Level": "5",
     "PathName": "Divination"
@@ -403,7 +403,7 @@
     "Description": "* This spell only ever affects the marked Health Pool.\n\nMark a Health Pool in the target unit, which has to be Rank-and-File if possible. Place one “Doom” Token on the marked Health Pool, and one at the start of each friendly Magic Phase.\n\nAt the end of any friendly Magic Phase, if the target is Unengaged, the Caster may end the spell. If so, remove all corresponding Doom Tokens: for each removed token, the marked Health Pool suffers 3 hits with Str 6, AP3, and Magical Attacks.",
     "CastingValue": "11",
     "Range": "24",
-    "Duration": "Permanent *",
+    "Duration": "Permanent*",
     "Level": "6",
     "PathName": "Divination"
   },
@@ -690,7 +690,7 @@
     "Attributes": {},
     "Description": "The target suffers 1 hit with Str 3, AP 0, Area Attack (5×5), Direct Hit (Str 6, AP2, Multiple Wounds (2)), Flaming Attacks, and Magical Attacks.",
     "CastingValue": "10",
-    "Range": "25",
+    "Range": "24",
     "Duration": "Instant",
     "Level": "6",
     "PathName": "Pyromancy"
@@ -738,7 +738,7 @@
     "Attributes": {},
     "Description": "The target gains +3\" Cha and Resistance (Ranged Attacks).",
     "CastingValue": "8",
-    "Range": "18",
+    "Range": "24",
     "Duration": "1 Turn",
     "Level": "4",
     "PathName": "Shamanism"
@@ -881,7 +881,7 @@
     "Type": "Augment",
     "Attributes": {},
     "Description": "The target gains Hard Target (1).\nIn addition, it may immediately perform a Magical Move (6 Mob).",
-    "CastingValue": "5",
+    "CastingValue": "8",
     "Range": "18",
     "Duration": "Instant",
     "Level": "4",
