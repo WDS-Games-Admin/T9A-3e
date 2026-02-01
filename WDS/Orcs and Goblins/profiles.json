@@ -2570,18 +2570,22 @@
   },
   {
     "Id": "d2a6fcb9238d9f4a7b12c8e17",
-    "Name": "Mokrog, the Only King",
+    "Name": "Mokrog, the Only King?",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {
-      "ong-born_in_fire": "Born in Fire",
+    "RuleIds": {      
+      "ong-chosen_warlord": "Chosen Warlord",
       "rulebook-disciplined": "Disciplined",
       "rulebook-exclusive": "Exclusive (Orc)",
       "rulebook-fearless": "Fearless",
       "rulebook-general": "General",
+      "ong-orc_horde": "Orc Horde",
       "rulebook-stubborn": "Stubborn",
-      "ong-the_bigger_the_Axe": "The bigger the Axe…",
-      "ong-tis_but_a_scratch": "Tis but a scratch",
+      "rulebook-aegis": "Aegis (5+)",
+      "rulebook-resistance": "Resistance (Flaming Attacks)",
+      "ong-born_in_fire": "Born in Fire",
+      "rulebook-fury": "Fury",
+      "ong-the_bigger_the_Axe": "The bigger the Axe…",      
       "ong-the_only_king": "The Only King",
       "rulebook-ong-tribe_leader": "Tribe Leader"
     },
@@ -2589,7 +2593,7 @@
     "OptionListIds": [],
     "Statlines": [
       {
-        "Name": "Mokrog, the Only King",
+        "Name": "Mokrog, the Only King?",
         "Values": {
           "Ad": "4",
           "Ma": "4",
@@ -2597,17 +2601,19 @@
           "Hgt": "1"
         },
         "RuleIds": {
+        "ong-chosen_warlord": "Chosen Warlord",
         "rulebook-disciplined": "Disciplined",
         "rulebook-exclusive": "Exclusive (Orc)",
         "rulebook-fearless": "Fearless",
         "rulebook-general": "General",
+        "ong-orc_horde": "Orc Horde",
         "rulebook-stubborn": "Stubborn",
         "ong-the_only_king": "The Only King",
         "ong-tribe_leader": "Tribe Leader"
         }
       },
       {
-        "Name": "Mokrog, the Only King",
+        "Name": "Mokrog, the Only King?",
         "Values": {
           "HP": "3",
           "Df": "7",
@@ -2615,8 +2621,8 @@
           "Arm": "3"
         },
         "RuleIds": {
-          "ong-born_in_fire": "Born in Fire",
-          "ong-tis_but_a_scratch": "Tis but a scratch"
+          "rulebook-aegis": "Aegis (5+)",
+          "rulebook-resistance": "Resistance (Flaming Attacks)"
         }
       },
       {
@@ -2629,8 +2635,9 @@
           "Ag": "4"
         },
         "RuleIds": {
+          "ong-born_in_fire": "Born in Fire",
           "ong-brood_rivalry": "Brood Rivalry",
-          "cl-fury": "Fury",
+          "rulebook-fury": "Fury",
           "ong-the_bigger_the_axe": "The bigger the Axe…"
         }
       }
@@ -2799,6 +2806,7 @@
       "rulebook-aegis": "Aegis (4+)",
       "rulebook-attached": "Attached",
       "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+      "ong-brilliant_agitator": "Brilliant Agitator",
       "ong-darrmu": "Darrmu",
       "rulebook-disciplined": "Disciplined",
       "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -2806,6 +2814,7 @@
       "rulebook-general": "General",
       "ong-goblin_cunning": "Goblin Cunning",
       "ong-goblin_gardens": "Goblin Gardens",
+      "rulebook-hit_and_run": "Hit and Run",
       "ong-still_kickin": "Still Kickin'",
       "rulebook-stubborn": "Stubborn",
       "rulebook-lance": "Lance"
@@ -2824,6 +2833,7 @@
         "RuleIds": {
           "rulebook-attached": "Attached",
           "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+          "ong-brilliant_agitator": "Brilliant Agitator",
           "ong-darrmu": "Darrmu",
           "rulebook-disciplined": "Disciplined",
           "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -2831,6 +2841,7 @@
           "rulebook-general": "General",
           "ong-goblin_cunning": "Goblin Cunning",
           "ong-goblin_gardens": "Goblin Gardens",
+          "rulebook-hit_and_run": "Hit and Run",
           "ong-still_kickin": "Still Kickin'",
           "rulebook-stubborn": "Stubborn"
         }
@@ -2869,7 +2880,7 @@
       }
     }
   },
-{
+  {
     "Id": "a3b72d9f-8c7e-4b2a-9f0d-2e88f7b2c9d1",
     "Name": "Beastie",
     "Attributes": {
@@ -2882,6 +2893,7 @@
       "rulebook-aegis": "Aegis (4+)",
       "rulebook-attached": "Attached",
       "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+      "ong-brilliant_agitator": "Brilliant Agitator",
       "ong-darrmu": "Darrmu",
       "rulebook-disciplined": "Disciplined",
       "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -2889,6 +2901,7 @@
       "rulebook-general": "General",
       "ong-goblin_cunning": "Goblin Cunning",
       "ong-goblin_gardens": "Goblin Gardens",
+      "rulebook-hit_and_run": "Hit and Run",
       "ong-still_kickin": "Still Kickin'",
       "rulebook-stubborn": "Stubborn",
       "rulebook-lance": "Lance",
@@ -2909,6 +2922,7 @@
         "RuleIds": {
           "rulebook-attached": "Attached",
           "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+          "ong-brilliant_agitator": "Brilliant Agitator",
           "ong-darrmu": "Darrmu",
           "rulebook-disciplined": "Disciplined",
           "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -2916,6 +2930,7 @@
           "rulebook-general": "General",
           "ong-goblin_cunning": "Goblin Cunning",
           "ong-goblin_gardens": "Goblin Gardens",
+          "rulebook-hit_and_run": "Hit and Run",
           "ong-still_kickin": "Still Kickin'",
           "rulebook-stubborn": "Stubborn"
         }
@@ -2952,7 +2967,7 @@
       }
     }
   },
-{
+  {
     "Id": "d72f1c5a-2e3b-4d8d-85c6-6a9a42d3bf1d",
     "Name": "The Splendid Palanquin",
     "Attributes": {
@@ -2965,6 +2980,7 @@
        "rulebook-aegis": "Aegis (4+)",
        "rulebook-attached": "Attached",
        "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+       "ong-brilliant_agitator": "Brilliant Agitator",
        "ong-darrmu": "Darrmu",
        "rulebook-disciplined": "Disciplined",
        "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -2972,6 +2988,7 @@
        "rulebook-general": "General",
        "ong-goblin_cunning": "Goblin Cunning",
        "ong-goblin_gardens": "Goblin Gardens",
+       "rulebook-hit_and_run": "Hit and Run",
        "ong-still_kickin": "Still Kickin'",
        "rulebook-stubborn": "Stubborn",
        "rulebook-lance": "Lance",
@@ -2991,6 +3008,7 @@
         "RuleIds": {
           "rulebook-attached": "Attached",
           "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+          "ong-brilliant_agitator": "Brilliant Agitator",
           "ong-darrmu": "Darrmu",
           "rulebook-disciplined": "Disciplined",
           "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -2998,6 +3016,7 @@
           "rulebook-general": "General",
           "ong-goblin_cunning": "Goblin Cunning",
           "ong-goblin_gardens": "Goblin Gardens",
+          "rulebook-hit_and_run": "Hit and Run",
           "ong-still_kickin": "Still Kickin'",
           "rulebook-stubborn": "Stubborn"
         }
@@ -3049,6 +3068,7 @@
       "rulebook-aegis": "Aegis (4+)",
       "rulebook-attached": "Attached",
       "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+      "ong-brilliant_agitator": "Brilliant Agitator",
       "ong-darrmu": "Darrmu",
       "rulebook-disciplined": "Disciplined",
       "rulebook-exclusive": "Exclusive (Goblin, Troll)",
@@ -3056,6 +3076,7 @@
       "rulebook-general": "General",
       "ong-goblin_cunning": "Goblin Cunning",
       "ong-goblin_gardens": "Goblin Gardens",
+      "rulebook-hit_and_run": "Hit and Run",
       "ong-still_kickin": "Still Kickin'",
       "rulebook-stubborn": "Stubborn",
       "rulebook-lance": "Lance",
@@ -3076,6 +3097,7 @@
         "RuleIds": {
           "rulebook-attached": "Attached",
           "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+          "ong-brilliant_agitator": "Brilliant Agitator",
           "ong-creepycrawlies": "Creepy-Crawlies",
           "ong-darrmu": "Darrmu",
           "rulebook-disciplined": "Disciplined",
@@ -3084,6 +3106,7 @@
           "rulebook-general": "General",
           "ong-goblin_cunning": "Goblin Cunning",
           "ong-goblin_gardens": "Goblin Gardens",
+          "rulebook-hit_and_run": "Hit and Run",
           "ong-still_kickin": "Still Kickin'",
           "rulebook-stubborn": "Stubborn"
         }
@@ -3135,6 +3158,7 @@
       "rulebook-aegis": "Aegis (4+)",
       "rulebook-attached": "Attached",
       "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+      "ong-brilliant_agitator": "Brilliant Agitator",
       "ong-darrmu": "Darrmu",
       "rulebook-disciplined": "Disciplined",
       "rulebook-exclusive": "Exclusive (Beastie Chariot, Goblin Chariots)",
@@ -3142,6 +3166,7 @@
       "rulebook-general": "General",
       "ong-goblin_cunning": "Goblin Cunning",
       "ong-goblin_gardens": "Goblin Gardens",
+      "rulebook-hit_and_run": "Hit and Run",
       "rulebook-light_troops": "Light Troops",
       "ong-still_kickin": "Still Kickin'",
       "rulebook-stubborn": "Stubborn",
@@ -3163,6 +3188,7 @@
         "RuleIds": {
           "rulebook-attached": "Attached",
           "ong-beastie_whisperer": "Beastie Whisperer (Gogtuk Neophyte)",
+          "ong-brilliant_agitator": "Brilliant Agitator",
           "ong-darrmu": "Darrmu",
           "rulebook-disciplined": "Disciplined",
           "rulebook-exclusive": "Exclusive (Beastie Chariot, Goblin Chariots)",
@@ -3170,6 +3196,7 @@
           "rulebook-general": "General",
           "ong-goblin_cunning": "Goblin Cunning",
           "ong-goblin_gardens": "Goblin Gardens",
+          "rulebook-hit_and_run": "Hit and Run",
           "rulebook-light_troops": "Light Troops",
           "ong-still_kickin": "Still Kickin'",
           "rulebook-stubborn": "Stubborn",

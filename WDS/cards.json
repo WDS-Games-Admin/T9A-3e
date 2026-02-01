@@ -1869,11 +1869,47 @@
     "Name": "Stonecold Soup",
     "Type": "",
     "Attributes": {},
-    "Description": "Valish's unit gains Channel (1), Disciplined, and Rally Around the Flag (0″)",
+    "Description": "Valish's unit gains Channel (1), Courageous and Disciplined",
     "Range": "",
     "Duration": "One Turn",
     "Level": "3",
     "PathName": "OK - Valish's Eru's Secret Recipes"
+  },
+  {
+    "Id": "colony of frogs/se - ancient dawael, the world tree",
+    "Name": "Colony of Frogs",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Add the following Offensive Model Part to Ancient Dawael:\n\nFrog (6): Att 1, Off 2, Str 2, AP 0, Agi 4, Toxic Attacks\n\nAncient Dawael gains Strider (Water Terrain).\n\nOne use only. Duration: One Turn. May be activated at the start of any Player Turn. Friendly units entirely with Sylvan Spirit within 12\" of Ancient Dawael gain Immune (Flaming Attacks).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Permanent",
+    "Level": "1",
+    "PathName": "SE - Ancient Dawael, the World Tree"
+  },
+  {
+    "Id": "murder of crows/se - ancient dawael, the world tree",
+    "Name": "Murder of Crows",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Add the following Offensive Model Part to Ancient Dawael:\n\nCrow (6): Att 1, Off 2, Str 2, AP 0, Agi 4, Afflict (−1 Combat Resolution).\n\nAncient Dawael gains Hatred (against Flying) and Afflict (−1 Def).\n\nOne use only. Duration: One Turn. May be activated at the start of any Player Turn. Choose an enemy unit within 24\" of Ancient Dawael. All models with Fly in the chosen unit halve their Charge Range and Mobility, rounding fractions up.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Permanent",
+    "Level": "2",
+    "PathName": "SE - Ancient Dawael, the World Tree"
+  },
+  {
+    "Id": "nest of vipers/se - ancient dawael, the world tree",
+    "Name": "Nest of Vipers",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Add the following Offensive Model Part to Ancient Dawael:\n\nViper (6): Att 1, Off 2, Str 2, AP 0, Agi 4, Poison Attacks.\n\nAncient Dawael gains Immune (Poison Attacks).\n\nOne use only. Duration: One Turn. May be activated at the start of any Player Turn. Friendly units entirely with Sylvan Spirit within 12″ of Ancient Dawael gain: ‘Enemy units in contact with this unit lose Devastating Charge.'",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Permanent",
+    "Level": "3",
+    "PathName": "SE - Ancient Dawael, the World Tree"
   },
   {
     "Id": "dance of bedevilments/se - dances of cenyrn",
@@ -2041,7 +2077,7 @@
     "PathName": "WDG - Exalted Herald Manifestations"
   },
   {
-      "Id": "supernal shield/wdg - klaas's father's gifts",
+      "Id": "supernal shield/wdg - joulgrim's father's gifts",
       "Name": "Supernal Shield",
       "Type": "",
       "Attributes": {},
@@ -2049,10 +2085,10 @@
       "Range": "12",
       "Duration": "1 Turn",
       "Level": "1",
-      "PathName": "WDG - Klaas's Father's Gifts"
+      "PathName": "WDG - Joulgrim's Father's Gifts"
   },
   {
-      "Id": "unholy edge/wdg - klaas's father's gifts",
+      "Id": "unholy edge/wdg - joulgrim's father's gifts",
       "Name": "Unholy Edge",
       "Type": "",
       "Attributes": {},
@@ -2060,10 +2096,10 @@
       "Range": "12",
       "Duration": "1 Turn",
       "Level": "2",
-      "PathName": "WDG - Klaas's Father's Gifts"
+      "PathName": "WDG - Joulgrim's Father's Gifts"
   },
   {
-      "Id": "the eight-point crown/wdg - klaas's father's gifts",
+      "Id": "the eight-point crown/wdg - joulgrim's father's gifts",
       "Name": "The Eight-Point Crown",
       "Type": "",
       "Attributes": {},
@@ -2071,6 +2107,54 @@
       "Range": "12",
       "Duration": "1 Turn",
       "Level": "3",
-      "PathName": "WDG - Klaas's Father's Gifts"
-  }    
+      "PathName": "WDG - Joulgrim's Father's Gifts"
+  },
+  {
+    "Id": "false hydra/wdg - mraven's cibaresh's curse",
+    "Name": "False Hydra",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Mraven gains Breath Attack (Str 3, AP 1), Rage, and Regeneration (4+).",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "1 Turn",
+    "Level": "1",
+    "PathName": "WDG - Mraven's Cibaresh's Curse"
+  },
+  {
+    "Id": "giant yeti/wdg - mraven's cibaresh's curse",
+    "Name": "Giant Yeti",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Mraven sets his Height to 5, gains +1 Res, Stomp Attack (D6 hits), and Touch of Frost.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "1 Turn",
+    "Level": "2",
+    "PathName": "WDG - Mraven's Cibaresh's Curse"
+  },
+  {
+    "Id": "wasteland spearback/wdg - mraven's cibaresh's curse",
+    "Name": "Wasteland Spearback",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Mraven gains Channel (1), and the following shooting weapon:\n\nShoot Spikes: Aim 3+, Range 12\", Shots 2D3+2, Str 5, AP 2, March and Shoot",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "1 Turn",
+    "Level": "3",
+    "PathName": "WDG - Mraven's Cibaresh's Curse"
+  },
+  {
+    "Id": "debauched gortach/wdg - mraven's cibaresh's curse",
+    "Name": "Debauched Gortach",
+    "Type": "",
+    "Attributes": {},
+    "Description": "Mraven gains Hatred, Lethal Strike, and Strength from Flesh.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "1 Turn",
+    "Level": "4",
+    "PathName": "WDG - Mraven's Cibaresh's Curse"
+  }
 ]

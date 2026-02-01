@@ -1954,11 +1954,11 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
+      "rulebook-courageous": "Courageous",
       "rulebook-disciplined": "Disciplined",
       "rulebook-fearless": "Fearless",
       "rulebook-fly": "Fly",
       "rulebook-general": "General",
-      "wdg-legendary_beasts": "Legendary Beasts (3)",
       "rulebook-light_troops": "Light Troops",
       "rulebook-solitary": "Solitary",
       "rulebook-strider": "Strider (Water Terrain)",
@@ -1981,11 +1981,11 @@
           "Hgt": "4"  
         },
         "RuleIds": {
+          "rulebook-courageous": "Courageous",
           "rulebook-disciplined": "Disciplined",
           "rulebook-fearless": "Fearless",
           "rulebook-fly": "Fly",
           "rulebook-general": "General",
-          "wdg-legendary_beasts": "Legendary Beasts (3)",
           "rulebook-light_troops": "Light Troops",
           "rulebook-solitary": "Solitary",
           "rulebook-strider": "Strider (Water Terrain)",
@@ -2060,16 +2060,17 @@
     "Attributes": {},
     "AttributeLists": {},
     "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "wdg-legendary_beasts": "Legendary Beasts (2)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-unstable": "Unstable",
-      "rulebook-regeneration": "Regeneration (5+)",
+      "wdg-cibareshs_curse": "Cibaresh's Curse",
+      "rulebook-courageous": "Courageous",      
+      "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
+      "rulebook-fearless": "Fearless",            
+      "rulebook-light_troops": "Light Troops",      
+      "wdg-hellforged_armour": "Hell-Forged Armour",
+      "rulebook-shield": "Shield",
       "rulebook-dying_blow": "Dying Blow",
-      "rulebook-stomp_attack": "Stomp Attack (D6 hits)", 
-      "wdg-protean_limbs": "Protean Limbs"
+      "rulebook-handandahalf": "Hand-and-a-Half Weapon",
+      "dl-smother": "Smother (2)",
+      "rulebook-great_weapon": "Great Weapon"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -2083,12 +2084,12 @@
           "Hgt": "5"
         },
         "RuleIds": {
+          "wdg-cibareshs_curse": "Cibaresh's Curse",
+          "rulebook-courageous": "Courageous",
+          "rulebook-dying_blow": "Dying Blow",
+          "rulebook-exclusive": "Exclusive (Path of the Exiled, Human)",
           "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "wdg-legendary_beasts": "Legendary Beasts (2)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-unstable": "Unstable"
+          "rulebook-light_troops": "Light Troops"
         }
       },
       {
@@ -2100,7 +2101,8 @@
           "Arm": "0"
         },
         "RuleIds": {
-          "rulebook-regeneration": "Regeneration (5+)"
+          "wdg-hellforged_armour": "Hell-Forged Armour",
+          "rulebook-shield": "Shield"
         }
       },
       {
@@ -2114,8 +2116,9 @@
         },
         "RuleIds": {
           "rulebook-dying_blow": "Dying Blow",
-          "rulebook-stomp_attack": "Stomp Attack (D6 hits)", 
-          "wdg-protean_limbs": "Protean Limbs"
+          "rulebook-handandahalf": "Hand-and-a-Half Weapon",
+          "dl-smother": "Smother (2)",
+          "rulebook-great_weapon": "Great Weapon"
         }
       }  
     ],

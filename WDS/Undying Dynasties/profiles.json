@@ -997,7 +997,28 @@
     "Name": "Ashotet, Custodian of Souls",
     "Attributes": {},
     "AttributeLists": {},
-    "RuleIds": {},
+    "RuleIds": {
+      "rulebook-resurrect": "Resurrect (1)",
+      "ud-assailed_sanity": "Assailed Sanity",
+      "rulebook-channel": "Channel (1)",
+      "ud-death_is_only_the_beginning": "Death is only the Beginning",
+      "rulebook-exclusive": "Exclusive (Tormented Souls)",
+      "rulebook-fearless": "Fearless",
+      "rulebook-general": "General",
+      "rulebook-ghost_step": "Ghost Step",
+      "rulebook-light_troops": "Light Troops",
+      "ud-soul_conduit": "Soul Conduit",
+      "ud-the_lost_and_damned": "The Lost and Damned",
+      "ud-the_pyramidion": "The Pyramidion",
+      "ud-tormented_souls": "Tormented Souls",
+      "rulebook-undead": "Undead",
+      "rulebook-unstable": "Unstable",
+      "rulebook-warplatform": "War Platform",
+      "rulebook-wizard_master": "Wizard Master",
+      "rulebook-aegis": "Aegis (5+, against Magical Attacks)",
+      "rulebook-hatred": "Hatred",
+      "rulebook-magical_attacks": "Magical Attacks"
+    },
     "EquipmentIds": [],
     "OptionListIds": [],
     "Statlines": [
@@ -1018,6 +1039,7 @@
           "rulebook-exclusive": "Exclusive (Tormented Souls)",
           "rulebook-fearless": "Fearless",
           "rulebook-general": "General",
+          "rulebook-ghost_step": "Ghost Step",
           "rulebook-light_troops": "Light Troops",
           "ud-soul_conduit": "Soul Conduit",
           "ud-the_lost_and_damned": "The Lost and Damned",
@@ -1026,10 +1048,7 @@
           "rulebook-undead": "Undead",
           "rulebook-unstable": "Unstable",
           "rulebook-warplatform": "War Platform",
-          "rulebook-wizard_master": "Wizard Master",
-          "rulebook-aegis": "Aegis (5+, against Magical Attacks)",
-          "rulebook-hatred": "Hatred",
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-wizard_master": "Wizard Master"
         }
       },  
       {
@@ -1050,7 +1069,7 @@
           "At": "1",
           "Of": "3",
           "St": "3",
-          "AP": "0",
+          "AP": "1",
           "Ag": "2"
         },
         "RuleIds": {
@@ -1064,7 +1083,7 @@
           "At": "1",
           "Of": "3",
           "St": "3",
-          "AP": "0",
+          "AP": "1",
           "Ag": "2"
         },
         "RuleIds": {
@@ -1125,7 +1144,7 @@
       {
         "Name": "Rehnepeh, the Undying Sun",
         "Values": {
-          "HP": "4",
+          "HP": "6",
           "Df": "6",
           "Re": "5",
           "Arm": "3"
