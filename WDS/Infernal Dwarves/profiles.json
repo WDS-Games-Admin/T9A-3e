@@ -1513,7 +1513,8 @@
       "id-blivet_lance": "Blivet Lance",
       "rulebook-flaming_attacks": "Flaming Attacks",
       "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6+2 hits)"
+      "rulebook-impact_hits": "Impact Hits (D6+2 hits)",
+      "id-volcanic_embrace": "Volcanic Embrace (2)"
     },
     "EquipmentIds": [],
     "OptionListIds": [],
@@ -1560,13 +1561,15 @@
         },
         "RuleIds": {
           "rulebook-first_strike": "First Strike (Hatred)",
+          "rulebook-flaming_attacks": "Flaming Attacks",
+          "rulebook-magical_attacks": "Magical Attacks",
           "id-blivet_lance" : "Blivet Lance"
         }
       },
       {
         "Name": "Winged Kadim (2)",
         "Values": {
-          "At": "3",
+          "At": "2",
           "Of": "3",
           "St": "5",
           "AP": "2",
@@ -1574,7 +1577,8 @@
         },
         "RuleIds": {
           "rulebook-flaming_attacks": "Flaming Attacks",
-          "rulebook-magical_attacks": "Magical Attacks"
+          "rulebook-magical_attacks": "Magical Attacks",
+          "id-volcanic_embrace": "Volcanic Embrace (2)"
         }
       },
       {

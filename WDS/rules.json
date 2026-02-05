@@ -81,7 +81,7 @@
     "Id": "bh-tales_of_the_fallen",
     "Name": "Tales of the Fallen",
     "Type": "General",
-    "Description": "Moohoarrgh has the following Scrolls of Power:\n\n • Danse Macabre (Evocation)\n • Umbral Majesty (Occultism)\n • Dragon’s Roar (Pyromancy)\n • Wild Spikes (Shamanism)\n\nIf a friendly Character anywhere on the Battlefield is removed as a casualty or removes an enemy Character as a casualty whilst being Engaged in Combat, select one of Moohoarrgh’s used Scroll of Power: the selected Scroll can be used again."
+    "Description": "Mooarrgh has the following Scrolls of Power:\n\n • Danse Macabre (Evocation)\n • Umbral Majesty (Occultism)\n • Dragon’s Roar (Pyromancy)\n • Wild Giuardian (Shamanism)\n\nIf a friendly Character anywhere on the Battlefield is removed as a casualty or removes an enemy Character as a casualty whilst being Engaged in Combat, select one of Mooarrgh's used Scroll of Power: the selected Scroll can be used again."
   },
   {
     "Id": "bh-standing_in_wait",
@@ -93,8 +93,8 @@
     "Id": "bh-teach_by_example",
     "Name": "Teach by Example",
     "Type": "General",
-    "Description": "Any unit containing Ghâá! benefits from <u><link=\"rulebook-mindless\">Mindless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>.\nIn addition, choose a single Minotaurs unit with a maximum of 5 models. The chosen unit gains <u><link=\"rulebook-ambush\">Ambush</link></u>, and Ghâá must enter the Battlefield joined to it."
-  },    
+    "Description": "Any unit containing Ghâá! benefits from <u><link=\"rulebook-mindless\">Mindless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>.\nIn addition, choose a single Minotaurs unit with a maximum of 5 models. The selected unit gains <u><link=\"rulebook-ambush\">Ambush</link></u>, and Ghâá must enter the Battlefield joined to it."
+  },
   {
     "Id": "rulebook-captain",
     "Name": "Captain",
@@ -261,7 +261,7 @@
     "Id": "bh-sleeper",
     "Name": "Sleeper",
     "Type": "Global",
-    "Description": "Starting on Game Turn 1, a model with <u><link=\"bh-sleeper\">Sleeper</link></u> may decide whether its arrival from <u><link=\"rulebook-ambush\">Ambush</link></u> succeeds or fails, without rolling."
+    "Description": "Starting on Game Turn 1, a model with Sleeper may decide whether its arrival from <u><link=\"rulebook-ambush\">Ambush</link></u> succeeds or fails, without rolling."
   },
   {
     "Id": "rulebook-fly",
@@ -1035,7 +1035,7 @@
     "Id": "de-a_watery_grave",
     "Name": "A Watery Grave",
     "Type": "General",
-    "Description": "Rolls for arrival on the Battlefield are always considered to have rolled a 3+ for Techainin. In addition, at the beginning of 'Post Combat' (Step 6 of a Round of Combat), if Techainin won the Round of Combat and an Enemy Character in that Combat was removed as a casualty, then Techainin may be placed in Ambush."
+    "Description": "Tethaen is always considered to have rolled a 3+ when rolling for whether he arrives using Ambush.\nIn addition, at the beginning of “Post Combat” (Round of Combat, Step 6), if Tethaen won the Round of Combat and an enemy Character in that Combat was removed as a casualty, Tethaen may then be placed in Ambush."
   },
   {
     "Id": "de-barbed_nets",
@@ -1047,13 +1047,13 @@
     "Id": "de-blessed_by_harag",
     "Name": "Blessed by Harag",
     "Type": "General",
-    "Description": "Techainin's rags and strange hat never stop dripping water, even when out of water.\n<u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-resistance\">Resistance</link></u> (against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
+    "Description": "<u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-resistance\">Resistance</link></u> (against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
     "Id": "de-grim_harpoon",
     "Name": "Grim Harpoon",
     "Type": "General",
-    "Description": "Aim 3+, Range 18\", Shots 1, Str 6, AP 3, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\nCounts as a Great Weapon in Melee. +1 Att.\nAny unit that suffers one or more hits from this weapon loses <u><link=\"swiftstride\">Swiftstride</link></u>, and cannot regain it in any way, until the start of the Active Player’s next Turn."
+    "Description": "Counts as a Great Weapon in Melee. +1 Att.\nAny unit that suffers one or more hits from this weapon loses <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, and cannot regain it in any way, until the start of the Active Player’s next Turn.\n\nShooting Weapon.\nAim 3+, Range 18\", Shots 1, Str 6, AP 3, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "de-aembeghen_s_blades",
@@ -1065,14 +1065,32 @@
     "Id": "de-dance_of_the_rose",
     "Name": "Dance of the Rose",
     "Type": "General",
-    "Description": "During Choose Equipment and Abilities, The Black Rose must choose one of the following Dances, with Duration: Round of Combat.\nThe Black Rose cannot select a specific Dance again until either or both of the following has occurred:\n\n• She is not Engaged in Combat.\n• She has selected all Dances.\n• She can only select Dance of Caedhren, and it is not possible to do the <u><link=\"rulebook-make_way\">Make Way</link></u>.\n\n• “Dance of Caedhren” - The Black Rose can use <u><link=\"rulebook-make_way\">Make Way</link></u>, even when in contact with enemy models, provided she moves into contact with an enemy Character in her Unit's front facing.\n\n• “Dance of Cenyrn” - Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either. At Agility Step 0 The Black Rose rolls D3 with Maximized and the selected Character rolls D3. If either model rolls lower, it loses the difference number of Health Points.\n\n• “Dance of Nabh” - The Black Rose gains <u><link=\"rulebook-hatred\">Hatred (against Characters)</link></u>, <u><link=\"rulebook-zeal\">Zeal (against Characters)</link></u>. Attacks against The Black Rose gain +1 To Hit."
+    "Description": "During Choose Equipment and Abilities, The Black Rose must choose one of the following Dances, with Duration: Round of Combat.\nThe Black Rose cannot select a specific Dance again until either or both of the following has occurred:\n\n• She is not Engaged in Combat.\n\t• She has selected all Dances.\n\t• She can only select Dance of Caedhren, and it is not possible to do the <u><link=\"rulebook-make_way\">Make Way</link></u>.\n\nDances:\n\n\t• <link=\"de-dance_of_caedhren\">Dance of Caedhren</link></u>: The Black Rose can use <u><link=\"rulebook-make_way\">Make Way</link></u>, even when in contact with enemy models, provided she moves into contact with an enemy Character in her Unit's front facing.\n\n• <link=\"de-dance_of_cenyrn\">Dance of Cenyrn</link></u>: Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either. At Agility Step 0, The Black Rose rolls D3 with Maximized and the selected Character rolls D3. If either model rolls lower, it loses the difference number of Health Points equal to the difference between the two rolls.\n\n• <link=\"de-dance_of_nabh\">Dance of Nabh</link></u>: The Black Rose gains <u><link=\"rulebook-hatred\">Hatred (against Characters)</link></u>, <u><link=\"rulebook-zeal\">Zeal (against Characters)</link></u>.\nAttacks against The Black Rose gain +1 To Hit."
+  },
+  {
+    "Id": "de-dance_of_caedhren",
+    "Name": "Dance of Caedhren",
+    "Type": "General",
+    "Description": "The Black Rose can use <u><link=\"rulebook-make_way\">Make Way</link></u>, even when in contact with enemy models, provided she moves into contact with an enemy Character in her Unit's front facing."
+  },
+  {
+    "Id": "de-dance_of_cenyrn",
+    "Name": "Dance of Cenyrn",
+    "Type": "General",
+    "Description": "Nominate one enemy Character model in contact with The Black Rose. The Black Rose and the selected Character always have 0 Attacks, and no attacks nor hits can be assigned to either. At Agility Step 0, The Black Rose rolls D3 with Maximized and the selected Character rolls D3. If either model rolls lower, it loses the difference number of Health Points equal to the difference between the two rolls."
+  },
+  {
+    "Id": "de-dance_of_nabh",
+    "Name": "Dance of Nabh",
+    "Type": "General",
+    "Description": "The Black Rose gains <u><link=\"rulebook-hatred\">Hatred (against Characters)</link></u>, <u><link=\"rulebook-zeal\">Zeal (against Characters)</link></u>.\nAttacks against The Black Rose gain +1 To Hit."
   },
   {
     "Id": "de-the_obsidian_thorns",
     "Name": "The Obsidian Thorns",
     "Type": "General",
-    "Description": "The Black Rose is <u><link=\"rulebook-exclusive\">Exclusive (Obsidian Guard)</link></u>, has <u><link=\"rulebook-magic_resistance\">Magic Resistance (1)</link></u> and all Models in a Unit containing her gain +1 Charge Speed.\nIn addition, Enemy Units are not allowed to choose the Flee! Charge Reaction when selected as a target by the Black Rose unless they are <u><link=\"rulebook-shaken\">Shaken</link></u>.\nNote: This has no influence on Charge Reactions to against other Units."
-  },        
+    "Description": "The Black Rose gains <u><link=\"rulebook-exclusive\">Exclusive (Obsidian Guard)</link></u>, <u><link=\"rulebook-magic_resistance\">Magic Resistance (1)</link></u> and all models in her unit gain +1 Charge Speed.\nIn addition, Enemy Units are not allowed to choose the Flee! Charge Reaction to Charges declared on them by the Black Rose's unit, unless they are <u><link=\"rulebook-shaken\">Shaken</link></u>.\nNote: This has no influence on Charge Reactions from other Units."
+  },     
   {
     "Id": "rulebook-first_strike",
     "Name": "First Strike",
@@ -1563,7 +1581,7 @@
     "Id": "eos-officially_not_a_miracle",
     "Name": "Officially Not A Miracle",
     "Type": "General",
-    "Description": "Brother Tomaz’s unit <u><link=\"rulebook-raise\">Raises</link></u> 1 HP at the start of each friendly Magic Phase. Note: <u><link=\"rulebook-attached\">Attached</link></u> models cannot be Raised unless specified."
+    "Description": "The Rank-and-File Health Pool Brother Tomaz is joined to <u><link=\"rulebook-raise\">Raises</link></u> 1 HP at the start of each friendly Magic Phase."
   },
   {
     "Id": "eos-repent",
@@ -1575,8 +1593,8 @@
     "Id": "eos-shepherding_the_flock",
     "Name": "Shepherding the Flock",
     "Type": "General",
-    "Description": "Brother Tomaz can join Zealots as if <u><link=\"rulebook-unstable\">Unstable</link></u>, and as long as he is joined to Zealots he is <u><link=\"rulebook-unstable\">Unstable</link></u>."
-  },          
+    "Description": "Brother Tomaz can join Flagellants as if <u><link=\"rulebook-unstable\">Unstable</link></u>, and as long as he is joined to Flagellants he is <u><link=\"rulebook-unstable\">Unstable</link></u>."
+  },
   {
     "Id": "rulebook-handgun",
     "Name": "Handgun",
@@ -1743,13 +1761,13 @@
     "Id": "he-asfada_headmaster",
     "Name": "Asfada Headmaster",
     "Type": "General",
-    "Description": "Instead of selecting spells, the Asfada Headmaster knows Cosmology: #1, #2, #3, #5, and Divination: #1, #2, #3, #5. Note: he can still Hereditary Swap."
+    "Description": "The Headmaster's knowledge is so vast, he is a Wizard Conclave (8) by himself.\nNote: He has a total of Channel (3)\n\n • Altered Sight (Cosmology)\n • Truth of Time (Cosmology)\n • Weal and Woe(Cosmology)\n • Cosmic Scales (Cosmology)\n • Foresight (Divination)\n • Immortal's Bane (Divination)\n • The Stars Align (Divination)\n • Augury of Triumph (Divination)\n • Favour of Meladys (Hereditary Spell)"
   },
   {
     "Id": "he-commander_of_the_veil",
     "Name": "Commander of the Veil",
     "Type": "General",
-    "Description": "Acadnath gains the following Magic Items: Obsidian Rock, Potion of Power Preservation, and Scroll of Power. These Magic Items cannot be used by other Friendly Models. Duration: Permanent."
+    "Description": "Acadnah is equipped with the following Magic Items:\n<u><link=\"special-obsidian_rock\">Obsidian Rock</link></u>, <u><link=\"special-potion_of_power_preservation\">Potion of Power Preservation</link></u>, and <u><link=\"special-scroll_of_power\"></link>Scroll of Power</u>.\nThese Magic Items cannot be used by other friendly models."
   },
   {
     "Id": "he-shroud_seekers",
@@ -1761,7 +1779,7 @@
     "Id": "he-rogue_heroine",
     "Name": "Rogue Heroine",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"rulebook-frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rulebook-beacon_of_courage\"></link></u>."
+    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u> and <u><link=\"rulebook-frenzy\">Frenzy</link></u>, and is unaffected by <u><link=\"rulebook-bacon_of_courage\">Beacon of Courage</link></u>."
   },
   {
     "Id": "he-scourge_of_fleets",
@@ -1773,7 +1791,7 @@
     "Id": "he-the_lance_of_tears",
     "Name": "The Lance of Tears",
     "Type": "General",
-    "Description": "Lance. The model gains <u><link=\"rulebook-afflict\">Afflict</link></u> (-1 Dis), Tenacla gains +1 Att and <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"hatred\">Hatred</link></u>. In addition, she loses 1 Attack at the end of every Game Turn in which she was NOT Engaged in Combat. Duration: Permanent."
+    "Description": "Lance. The model gains <u><link=\"rulebook-afflict\">Afflict</link></u> (-1 Dis), Dhaenala gains +1 Att and <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"rulebook-hatred\">Hatred</link></u>.\nIn addition, she loses 1 Attack at the end of every Game Turn in which she was NOT Engaged in Combat. Duration: Permanent."
   },
   {
     "Id": "hg-hob_cohesion",
@@ -1989,7 +2007,7 @@
     "Id": "id-full_steam_ahead",
     "Name": "Full Steam Ahead!",
     "Type": "Global",
-    "Description": "The model cannot choose to Pursue, unless it is the first Round of Combat and it is is Charging, in which case it must Pursue (including Overrun)."
+    "Description": "The model cannot choose to <u><link=\"rulebook-pursue_moves\">Pursue</link></u>, unless it is its First Round of Combat and it is Charging. In that case it must <u><link=\"rulebook-pursue_moves\">Pursue</link></u> (including Overrun)."
   },
   {
     "Id": "id-giant_see_giant_do",
@@ -2093,23 +2111,29 @@
     "Type": "Equipment",
     "Description": "    Counts as a Hand Weapon with the following additional rules: +1 Str, Devastating Charge(+1 AP)."
   },
-  {
-    "Id": "koe-a_worthy_foe",
-    "Name": "A Worthy Foe",
-    "Type": "",
-    "Description": "Knightly Principle. During Pre-game Selections, choose a Character or a single Height 4-5 Model containing <u><link=\"rulebook-solitary\">Solitary</link></u>. King Henry gains <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (10)</link></u> against the chosen model."
+    {
+    "Id": "koe-fae_breasplate",
+    "Name": "Fae Breasplate",
+    "Type": "General",
+    "Description": "+1 Arm and <u><link=\"rulebook-distracting\">Distracting</link></u> (1)."
   },
   {
     "Id": "koe-feyforged_lance",
     "Name": "Feyforged Lance",
-    "Type": "",
-    "Description": "Lance. AP 10."
+    "Type": "Equipment",
+    "Description": "Lance. <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+2 Att), <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
   },
   {
     "Id": "koe-new_guard",
     "Name": "New Guard",
-    "Type": "",
-    "Description": "Dukes cannot be taken in an Army List containing King Henry the Young.\n In addition, while joined to a unit of Knights of the Court, King Henry benefits from <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1Att, +1Off, +1 Agi)."
+    "Type": "General",
+    "Description": "Dukes cannot be taken in an Army List containing King Henry the Young.\nIn addition, friendly units containing a Folk Hero with Castellan benefit from +1 Mob."
+  },
+  {
+    "Id": "koe-our_brave_king",
+    "Name": "Our Brave King",
+    "Type": "General",
+    "Description": "Combats containing a friendly unit where the Rank-and-File models contains Common folk within 12\" of King Henry the Young gain a bonus to <u><link=\"rulebook-static_combat_score\">Static Combat Resolution</link></u> equal to the number of unsaved wounds inflicted by King Henry the Young in the current Melee Phase. This does not apply to Combats King Henry is a part of."
   },
   {
     "Id": "koe-borrowed_steed",
@@ -2126,9 +2150,9 @@
   {
     "Id": "koe-leprechaun_companion",
     "Name": "Leprechaun Companion",
-    "Type": "",
-    "Description": "Each Standard Melee Attack allocated against Hernaut that misses, is instead allocated to the attacking model’s Health Pool with <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>."
-  },  
+    "Type": "General",
+    "Description": "Each Standard Melee Attack allocated against Hernaut that fails its to-hit roll is instead allocated to the attacking model’s Health Pool with <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>."
+  },
   {
     "Id": "rulebook-handandahalf",
     "Name": "Hand-and-a-Half",
@@ -2460,22 +2484,16 @@
     "Description": "<u><link=\"hand_cannon\">Hand Cannon</link></u> - Shooting Weapon\nNameAimRangeShotsStrAPAttack Attributes<u><link=\"hand_cannon\">Hand Cannon</link></u>512\"353Accurate, March and Shoot, Stand and Shoot, Quick to Fire"
   },
   {
-    "Id": "ok-been_the_done_that",
+    "Id": "ok-been_there_done_that",
     "Name": "Been There, Done That.",
     "Type": "General",
-    "Description": "Every friendly unit of Mercenary Veterans and Mercenary Gunners gains <u><link=\"rulebook-bodyguard\">Bodyguard (Ganzorig)</link></u>. In addition, Ganzorig benefits from any Extraordinary Model Rule upgrades the unit has."
+    "Description": "Every friendly unit of Mercenary Veterans and Mercenary Gunners gains <u><link=\"rulebook-bodyguard\">Bodyguard (Ganzorig)</link></u>.\nIn addition, when joined to one of these units, Ganzorig benefits from any Extraordinary Model Rule upgrades the unit has."
   },
   {
     "Id": "ok-get_the_job_done",
     "Name": "Get the Job Done!",
     "Type": "General",
     "Description": "One use only. During ’Calculate Final Combat Score’ (Round of Combat, Step 4.B), Ganzorig may <u><link=\"rulebook-recover\">Recover</link></u> up to 2 Health Points and adds +2 Combat Resolution to his side."
-  },
-  {
-    "Id": "ok-the_ironbond",
-    "Name": "The Ironbond",
-    "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-resistance\">Resistance</link></u> and <u><link=\"rulebook-stubborn\">Stubborn</link></u>."
   },
   {
     "Id": "ok-young_mercenaries",
@@ -2487,7 +2505,25 @@
     "Id": "ok-erus_secret_recipes",
     "Name": "Eru's Secret Recipes",
     "Type": "General",
-    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit. Duration: One Turn.\n\n * Bluehoove Goat Stew: Mobility +2, <u><link=\"rulebook-strider\">Strider</link></u>.\n * Trollbear Goulash: <u><link=\"rulebook-regeneration\">Regeneration (6+)</link></u>, <u><link=\"rulebook-recover\">Recover</link></u> a single HP on a model in Valish's unit.\n   Note: Attached models cannot be <u><link=\"raise\">Raised</link></u> unless specified.\n * Stonecold Soup: <u><link=\"rulebook-channel\">Channel (1)</link></u>, <u><link=\"rulebook-disciplined\">Disciplined</link></u> and <u><link=\"rulebook-rally_around the Flag\">Beacon of Courage (0″)</link></u>."
+    "Description": "At the start of each Friendly turn, pick one of the following to affect the Chefling's Unit.\nDuration: One Turn.\n\n • <u><link=\"ok-bluehoove_goat_stew\">Bluehoove Goat Stew</link></u>: +2 Mob, <u><link=\"rulebook-strider\">Strider</link></u>.\n • <u><link=\"ok-trollbear_goulash\">Trollbear Goulash</link></u>: <u><link=\"rulebook-regeneration\">Regeneration (6+)</link></u>, <u><link=\"rulebook-recover\">Recover</link></u> a single HP on a model in Valish's unit.\n • <u><link=\"ok-stonecold_soup\">Stonecold Soup</link></u>: <u><link=\"rulebook-channel\">Channel (1)</link></u>, <u><link=\"rulebook-courageous\">Courageous</link></u>. and <u><link=\"rulebook-disciplined\">Disciplined</link></u>."
+  },
+  {
+    "Id": "ok-bluehoove_goat_stew",
+    "Name": "Bluehoove Goat Stew",
+    "Type": "General",
+    "Description": "+2 Mob, <u><link=\"rulebook-strider\">Strider</link></u>."
+  },
+  {
+    "Id": "ok-trollbear_goulash",
+    "Name": "Trollbear Goulash",
+    "Type": "General",
+    "Description": "<u><link=\"rulebook-regeneration\">Regeneration (6+)</link></u>, <u><link=\"rulebook-recover\">Recover</link></u> a single HP on a model in Valish's unit"
+  },
+  {
+    "Id": "ok-stonecold_soup",
+    "Name": "Stonecold Soup",
+    "Type": "General",
+    "Description": ": <u><link=\"rulebook-channel\">Channel (1)</link></u>, <u><link=\"rulebook-courageous\">Courageous</link></u>. and <u><link=\"rulebook-disciplined\">Disciplined</link></u>."
   },
   {
     "Id": "ok-ghost_pepper",
@@ -3681,7 +3717,7 @@
     "Id": "ong-orc_horde",
     "Name": "Orc Horde",
     "Type": "General",
-    "Description": "The model gains Fearless.\nUnits entirely with Orc do not cause Panic Test on units entirely with Orc when making Flee Moves through them."
+    "Description": "The model gains <u><link=\"rulebook-fearless\">Fearless</link></u>.\nUnits entirely with Orc do not cause <u><link=\"rulebook-panic_tests\">Panic Test</link></u> on units entirely with Orc when making <link=\"rulebook-flee_move\">Flee Moves</link></u> through them."
   },
   {
     "Id": "ong-huntsman_spider",
@@ -3738,6 +3774,12 @@
     "Description": "One use only. Duration: One Turn. May be activated at the start of any friendly Player Turn, provided the General is on the Battlefield and not Shaken. Apply the following effects:\t\n\t\t\n  •  Friendly units gain +1\" Cha and +1\" Mob.\n\t\t\n  •  If the General is a Goblin Demagogue or a Goblin Witch,  friendly units entirely with Goblin, while not Engaged in Combat, gain Light Troops.\n\t\t\n  •  If the General is an Orc Warlord or an Orc Shaman, friendly units entirely with Orc have their Charge Range rolls Maximised."
   },
   {
+    "Id": "ong-chosen_warlord",
+    "Name": "Chosen Warlord",
+    "Type": "General",
+    "Description": "Mokrog counts as an Orc Warlord for the purpose of <u><link=\"ong-war_cry\">War Cry!</link></u>"
+  },
+  {
     "Id": "ong-guile_and_fury",
     "Name": "Guile and Fury",
     "Type": "General",
@@ -3748,6 +3790,12 @@
     "Name": "Omen of the Apocalypse",
     "Type": "General",
     "Description": "+X Att, +X Str, and +X AP. X is equal to the number of friendly units containing Orc that are Engaged in Combat anywhere on the Battlefield, up to a maximum of +3."
+  },
+    {
+    "Id": "ong-orc_horde",
+    "Name": "Orc Horde",
+    "Type": "General",
+    "Description": "The model gains Fearless.\nUnits entirely with Orc do not cause Panic Test on units entirely with Orc when making Flee Moves through them."
   },
   {
     "Id": "ong-attack_gnasher",
@@ -3825,25 +3873,25 @@
     "Id": "ong-born_in_fire",
     "Name": "Born in Fire",
     "Type": "General",
-    "Description": "Amokek gains <u><link=\"resistance\">Resistance</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>).\n\nIn addition, when Choosing Equipment and Abilities, he may gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>.\nDuration: Round of Combat."
+    "Description": "When Choosing Equipment and Abilities, Mokrog may gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>. Duration: Round of Combat."
   },
-    {
+  {
     "Id": "ong-the_bigger_the_axe",
     "Name": "The bigger the Axe…",
     "Type": "General",
-    "Description": "Great Weapon.\nWhen Choosing Equipment and Abilities, Amokek may choose to gain either <u><link=\"rulebook-hatred\">Hatred</link></u> or <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>.\nDuration: Round of Combat."
+    "Description": "Great Weapon.\nWhen Choosing Equipment and Abilities, Mokrog may choose to gain either <u><link=\"rulebook-hatred\">Hatred</link></u> or <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>.\nDuration: Round of Combat."
   },
   {
     "Id": "ong-the_only_king",
     "Name": "The Only King",
     "Type": "General",
-    "Description": "All models in the Only King’s unit benefit from <u><link=\"rulebook-dying_blow\">Dying Blow</link></u>.\nIn addition, if The Only King is removed as a casualty, all friendly units lose <u><link=\"ong-brood_rivalry\">Brood Rivalry</link></u>.\nThis effect persists for the Duration of One Turn after Amokek is removed as a casualty.\nThis is an exception to the rule 4.C of the “Attacks” chapter: “Losing the Last Health Point”."
+    "Description": "All models in the Only King's unit benefit from <u><link=\"rulebook-dying_blow\">Dying Blow</link></u>.\nIn addition, if The Only King is removed as a casualty, all friendly units lose <u><link=\"ong-brood_rivalry\">Brood Rivalry</link></u>.\nThis effect persists for the Duration of One Turn after Mokrog is removed as a casualty.\nThis is an exception to the rule 4.C of the “Attacks” chapter: “Losing the Last Health Point”."
   },
   {
-    "Id": "ong-tis_but_a_scratch",
-    "Name": "Tis but a scratch",
+    "Id": "ong-brilliant_agitator",
+    "Name": "Brilliant Agitator",
     "Type": "General",
-    "Description": "Amokek gains <u><link=\"rulebook-aegis\">Aegis (5+)</link></u>."
+    "Description": "The Splendid Leader counts as a Goblin Demagogue for the purpose of <u><link=\"ong-war_cry\">War Cry!</link></u>"
   },
   {
     "Id": "ong-higher_standards",
@@ -4065,7 +4113,7 @@
     "Id": "id-burning_armour",
     "Name": "Burning Armour",
     "Type": "General",
-    "Description": "For each Standard Melee Attack allocated against Ibat-Sokavum that rolls a ‘1’ to-hit, the attacking model’s Health Pool suffers a hit with Str 4, AP 0 and <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>."
+    "Description": "Each time a Standard Melee Attack allocated against Ibat-Sokavum that rolls a ‘1’, the attacking model’s Health Pool suffers a hit with Str 4, AP 0, <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u> and <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>."
   },
   {
     "Id": "id-helm_of_kadim_command",
@@ -4335,7 +4383,7 @@
     "Id": "dl-golden_helm",
     "Name": "Golden Helm",
     "Type": "General",
-    "Description": "Discipline Tests taken by the unit gain Minimised."
+    "Description": "<u><link=\"rulebook-courage_tests\">Courage Tests</link></u> taken by the unit gain <u><link=\"rulebook-minimised\">Minimised</link></u>."
   },
   {
     "Id": "dl-bronze_backbone",
@@ -4419,13 +4467,13 @@
     "Id": "dl-commander_of_the_steppes",
     "Name": "Commander of the Steppes",
     "Type": "General",
-    "Description": "At the Beginning of ’Moving Vanguarding Units’ (Battle Setup, Step 3.F), choose two units within 12″ of Tergon Khan entirely with Mount or entirely with Height 2: they gain <u><link=\"rulebook-vanguard\">Vanguard</link></u> (3″)"
+    "Description": "The unit containing Tergon Khan benefits from <u><link=\"rulebook-extra_support\">Extra Support</link></u> (+1) and <u><link=\"rulebook-strider\">Strider</link></u>.\nAt the start of each friendly Player Turn, you may choose a friendly unit within 12\" of Tergon Khan.\nThe chosen unit gains <u><link=\"rulebook-extra_support\">Extra Support</link></u> (+1) and <u><link=\"rulebook-strider\">Strider</link></u> instead of Tergon Khan's own unit, with Duration: One Turn."
   },
   {
     "Id": "dl-revoke_the_mandate_of_heaven",
     "Name": "Revoke the Mandate of Heaven",
     "Type": "General",
-    "Description": "One use only.\nMaybe activated at the start of the opponent's Player Turn.\nChoose a single enemy unit within 24″ of Tergon Khan.\nThe Mobility of all models with <u><link=\"rulebook-fly\">Fly</link></u> in that unit is halved, rounding fractions up. Duration: End of Turn."
+    "Description": "Each Character or model with Dragon that either:\n\n • Breaks from a <u><link=\"rulebook-round_of_combat\">Round of Combat</link></u> in which a unit containing Tergon Khan was Engaged, or\n • Selects <u><link=\"rulebook-flee_move\">Flee!</link></u> as a <u><link=\"rulebook-charge_reactions\"></link>Charge Reaction</u> when a unit containing Tergon Khan declared a Charge,\n\nSuffers D3 hits with Str 6, AP 3, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-zeal\">Zeal</link></u> (against Dragon)."
   },
   {
     "Id": "bh-big_brother",
@@ -4671,7 +4719,7 @@
     "Id": "eos-imperial_authority",
     "Name": "Imperial Authority",
     "Type": "General",
-    "Description": "At the start of each friendly Player Turn, each model with Imperial Authority may select one Order and apply it to a single unit. Duration: One Turn. The target unit must:\n\n • Be a <u><link=\"eos-parent_unit\">Parent</link></u> or <u><link=\"eos-support_unit\">Support Unit</link></u>.\n • Be the model's own unit or be within Range of the model's <u><link=\"rulebook-commading_presence\">Commanding Presence</link></u> or <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u> (if it has one of these rules).\n • The chosen target cannot already be under the effect of an Order.\n\nOrders\t\t\tEffect:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u>\tThe target gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u> and <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>.\n • <u><link=\"eos-on_the_double\">On The Double!</link></u>\t\tThe target gains +1\" Cha and +2\" Mob.\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u>\tThe target gains <u><link=\"rulebook-accurate\">Accurate</link></u>.\n • <u><link=\"eos-steady_men\">Steady, Men!</link></u>\t\tThe target gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>, and its <u><link=\"courage_tests\">Courage Tests</link></u> are Minimised."
+    "Description": "At the start of each friendly Player Turn, each model with Imperial Authority may select one of the following effects, called 'Orders', and apply it to a single unit with duration: One Turn. The target unit must:\n\n • Be a <u><link=\"eos-parent_unit\">Parent</link></u> or <u><link=\"eos-support_unit\">Support Unit</link></u>.\n • Be the model's own unit or be within Range of the model's <u><link=\"rulebook-commading_presence\">Commanding Presence</link></u> or <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u> (if it has one of these rules).\n • The chosen target cannot already be under the effect of an Order.\n\nOrders\t\t\tEffect:\n\n • <u><link=\"eos-brace_for_impact\">Brace For Impact!</link></u>\tThe target gains <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u> and <u><link=\"rulebook-shoot_in_extra_rank\">Shoot in Extra Rank</link></u>.\n • <u><link=\"eos-on_the_double\">On The Double!</link></u>\t\tThe target gains +1\" Cha and +2\" Mob.\n • <u><link=\"eos-ready_aim_fire\">Ready! Aim! Fire!</link></u>\tThe target gains <u><link=\"rulebook-accurate\">Accurate</link></u>.\n • <u><link=\"eos-steady_men\">Steady, Men!</link></u>\t\tThe target gains <u><link=\"rulebook-disciplined\">Disciplined</link></u>, and its <u><link=\"courage_tests\">Courage Tests</link></u> are Minimised."
   },
   {
     "Id": "eos-long_rifle",
@@ -4917,7 +4965,7 @@
     "Id": "he-asfad_scholar",
     "Name": "Asfad Scholar",
     "Type": "General",
-    "Description": "The model gains <u><link=\"rulebook-channel\">Channel</link></u>(1).\nThe Range of the Wizard's Learned Spells is increased by 6\". Aura spells gain +3\" Range instead, and spells with type Caster are unaffected."
+    "Description": "The model gains <u><link=\"rulebook-channel\">Channel</link></u> (1).\nThe Range of the Wizard's Learned Spells is increased by 6\". Aura spells gain +3\" Range instead, while spells with type 'Caster' are unaffected."
   },
   {
     "Id": "he-order_of_the_fiery_heart",
@@ -5755,12 +5803,6 @@
     "Description": "Carved Wisdom (see Howdah Devices)."
   },
   {
-    "Id": "sa-eternity_chamber",
-    "Name": "Eternity Chamber",
-    "Type": "General",
-    "Description": "Anurarch Destined gains +2 HP, +3 Arm, and <u><link=\"rulebook-regeneration\">Regeneration (4+)</link></u>."
-  },
-  {
     "Id": "sa-greater_guiding_mastery",
     "Name": "Greater Guiding Mastery",
     "Type": "General",
@@ -5770,7 +5812,7 @@
     "Id": "sa-like_the_tyrants_of_old",
     "Name": "Like the Tyrants of Old",
     "Type": "General",
-    "Description": "Anurarch Destined is both <u><link=\"rulebook-general\">General</link></u> and <u><link=\"rulebook-battle_standard_bearer\">Battle Standard Bearer</link></u>.\nIn addition, an Army List containing Anurarch Destined can not include any other Character, neither the Monolith of Vitalism nor a Koru Stone."
+    "Description": "Anurarch Destined is both <u><link=\"rulebook-general\">General</link></u> and <u><link=\"rulebook-battle_standard_bearer\">Battle Standard Bearer</link></u>.\nIn addition, an Army List containing Anurarch Destined cannot include any other Character, neither the Monolith of Vitalism nor a Koru Stone."
   },
   {
     "Id": "sa-utterly_ruthless",
@@ -5794,13 +5836,13 @@
     "Id": "sa-harmony_of_the_sun",
     "Name": "Harmony of the Sun",
     "Type": "General",
-    "Description": "All other friendly models in units within 8″ of Shade and Stone benefit from <u><link=\"rulebook-regeneration\">General</link></u>."
+    "Description": "All other friendly models in units within 8\" of Shade and Stone benefit from <u><link=\"rulebook-regeneration\">Regeneration (+1, max. 4+)</link></u>."
   },
   {
     "Id": "sa-violence_of_the_storm",
     "Name": "Violence of the Storm",
     "Type": "General",
-    "Description": "The Conjuring Shade model part is always considered affected by Awaken the Beast (Shamanism)."
+    "Description": "The Conjuring Shade model part is always considered affected by <u><link=\"rulebook-awaken_the_beast\">Awaken the Beast</link></u> (Shamanism)."
   },
   {
     "Id": "se-clearing_spirits",
@@ -6022,31 +6064,43 @@
     "Id": "se-the_world_tree",
     "Name": "The World Tree",
     "Type": "General",
-    "Description": "Instead of the usual Spell Selection (including Spell Swapping), Dwatobel knows the following spells:\n\n • Chance of Redemption (Divination)\n • Veil of Mist (Druidism)\n • Illusory Paths (Witchcraft)\n • Forest Embrace (Hereditary Spell)"
+    "Description": "Ancient Dawael does not select his <u><link=\"rulebook-flaming_attacks\">Wizard Conclave</link></u> spells during <u><link=\"rulebook-spell_selection\">Spell Selection</link></u> step of list building. Instead, he always knows the following 3 spells: Forest Embrace, Fountain of Youth, and Veil of Mist.\n\nDuring Pre-game Selections, Ancient Dawael must select one of the following model rules with duration: Permanent. He also knows the associated spell to this rule:\n • <u><link=\"se-colony_of_frogs\">Colony of Frogs</link></u> and <u><link=\"rulebook-corruption_of_tin\">Corruption of Tin</link></u>\n • <u><link=\"se-murder_of_crows\">Murder of Crows</link></u> and <u><link=\"rulebook-illusory_paths\">Illusory Paths</link></u>\n • <u><link=\"se-nest_of_vipers\">Nest of Vipers</link></u> and <u><link=\"rulebook-chorus_of_the_damned\">Chorus of the Damned</link></u>"
+  },
+    {
+    "Id": "se-colony_of_frogs",
+    "Name": "Colony of Frogs",
+    "Type": "General",
+    "Description": "Add the following Offensive Model Part to Ancient Dawael:\n\nFrog (6): Att 1, Off 2, Str 2, AP 0, Agi 4, <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>\n\nAncient Dawael gains <u><link=\"rulebook-strider\">Strider</link></u> (Water Terrain).\n\nOne use only. Duration: One Turn. May be activated at the start of any Player Turn. Friendly units entirely with Sylvan Spirit within 12\" of Ancient Dawael gain <u><link=\"rulebook-immune\">Immune</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)."
   },
   {
-    "Id": "se-thickened_brush",
-    "Name": "Thickened Brush",
+    "Id": "se-murder_of_crows",
+    "Name": "Murder of Crows",
     "Type": "General",
-    "Description": "One use only. Can be activated at the beginning of the enemy’s turn.\nFor each friendly unit within 12″and entirely with Sylvan Spirit, any enemy unit in contact with it loses <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>. Duration: One Turn."
+    "Description": "Add the following Offensive Model Part to Ancient Dawael:\n\nCrow (6): Att 1, Off 2, Str 2, AP 0, Agi 4, <u><link=\"rulebook-afflict\">Afflict</link></u> (−1 Combat Resolution).\n\nAncient Dawael gains <u><link=\"rulebook-hatred\">Hatred</link></u> (against <u><link=\"rulebook-fly\">Flying</link></u>) and <u><link=\"rulebook-afflict\">Afflict</link></u> (−1 Def).\n\nOne use only. Duration: One Turn. May be activated at the start of any Player Turn. Choose an enemy unit within 24\" of Ancient Dawael. All models with <u><link=\"rulebook-fly\">Fly</link></u> in the chosen unit halve their Charge Range and Mobility, rounding fractions up."
+  },
+  {
+    "Id": "se-nest_of_vipers",
+    "Name": "Nest of Vipers",
+    "Type": "General",
+    "Description": "Add the following Offensive Model Part to Ancient Dawael:\n\nViper (6): Att 1, Off 2, Str 2, AP 0, Agi 4, <u><link=\"rulebook-poison_attacks\">Poison Attacks</link></u>.\n\nAncient Dawael gains <u><link=\"rulebook-immune\">Immune</link></u> (<link=\"rulebook-poison_attacks\">Poison Attacks</link></u>).\n\nOne use only. Duration: One Turn. May be activated at the start of any Player Turn. Friendly units entirely with Sylvan Spirit within 12″ of Ancient Dawael gain: ‘Enemy units in contact with this unit lose <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>.'"
   },
   {
     "Id": "se-the_unicorns_fury",
     "Name": "The Unicorn’s Fury",
     "Type": "General",
-    "Description": "Melee Weapon. HandWeapon.\n<u><link=\"rulebook-devastating_charge\">Devastating Charge (+1 Str, +1 AP, and+ X Att, where “X” is equal to the number of Ranks in a single enemy unit in contact, up to a maximum of 4)</link></u> and <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>."
+    "Description": "Melee Weapon.\nHand Weapon. <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (+1 Str, +1 AP, and+ X Att, where “X” is equal to the number of Ranks in a single enemy unit in contact, up to a maximum of 4) and <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>."
   },
   {
     "Id": "se-the_unicorns_horn",
     "Name": "The Unicorn’s Horn",
     "Type": "General",
-    "Description": "Melee Weapon. Spear. +1 Str, +1 AP."
+    "Description": "Melee Weapon.\nSpear. +1 Str, +1 AP."
   },
   {
     "Id": "se-the_unicornpath",
     "Name": "The Unicorn’s Path",
     "Type": "General",
-    "Description": "One use only. When initiating or ending a Move Manoeuvre in a friendly Movement Phase, Domethloc can change a Fields, Ruins, or Water Terrain Feature he is in contact with to a Forest of the same size."
+    "Description": "One use only. When initiating or ending a Move Manoeuvre in a friendly Movement Phase, Domethil can change a Fields, Ruins, or Water Terrain Feature he is in contact with to a Forest of the same size."
   },
   {
     "Id": "vc-extended_chassis",
@@ -6298,13 +6352,13 @@
     "Id": "vc-dance_of_death",
     "Name": "Dance of Death",
     "Type": "General",
-    "Description": "For every Health Point Lady Chryselie inflicts with a Standard Melee Attack:\n\n • Immediately roll another Standard Melee Attack allocated at the same Health Pool as the initial attack.\n • Resolve these attacks before removing any casualties.\n • These newattacks do not generate any further attacks."
+    "Description": "For every Health Point Lady Chryselie inflicts with a Standard Melee Attack:\n\n • Immediately roll another Standard Melee Attack allocated at the same Health Pool as the initial attack.\n • Resolve these attacks before removing any casualties.\n • These new attacks do not generate any further attacks."
   },
   {
     "Id": "vc-coven_of_skulls",
     "Name": "Coven of Skulls",
     "Type": "General",
-    "Description": "When the Collective of Varyag casts Arise! (Hereditary Spell), they may choose to set the spell’s Range to 6″ and give it the Type: Aura. This choice is declared when choosing targets."
+    "Description": "When the Collective of Varyag casts Arise! (Hereditary Spell), they may choose to set the spell’s Range to 6\" and give it the Type: Aura. This choice is declared when choosing targets."
   },
   {
     "Id": "vc-ever_growing",
@@ -6316,7 +6370,7 @@
     "Id": "vc-cacophony_of_suffering",
     "Name": "Cacophony of Suffering",
     "Type": "General",
-    "Description": "Aim Auto, Range 12\", Shots HP/2 (Half of Varyag's HP, rounded up), Str *, AP 10, <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>, *To-wound-rolls are set to 5+"
+    "Description": "Shooting Weapon.\nAim X+, Range 12\", Shots *HP/2, Str **, AP 10\n\n<u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, * Half of Varyag's HP (rounded up), ** To-wound-rolls are set to 5+, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>"
   },
   {
     "Id": "vc-thirsty_rapiers",
@@ -6532,31 +6586,31 @@
     "Id": "ud-assailed_sanity",
     "Name": "Assailed Sanity",
     "Type": "General",
-    "Description": "The Custodian of Souls knows all spells from Evocation and cannot Hereditary Swap.\n In addition, once per turn, when she fails a Casting Roll using three or more Magic Dice, she can reroll the dice. If she does, she suffer a Miscast equal to the Casting Roll."
+    "Description": "Ashotet is a Wizard that knows all 6 Spells from Evocation, cannot perform Hereditary Swap, and has Channel (3).\nOnce per turn, when she fails a Casting Roll for a Learned Spell using three or more Magic Dice, she can reroll the dice.  If this reroll contains a double, she suffers a Miscast (equal to the Casting Roll as normal).\nNote that this applies even if the spell fails or is Dispelled, and that she only suffer a single Miscast per casting."
   },
   {
     "Id": "ud-the_lost_and_damned",
     "Name": "The Lost and Damned",
     "Type": "General",
-    "Description": "In an Army List containing Ashotet, Skeleton Warriors and Skeleton Cavalry gain <u><link=\"ud-tormented_souls\">Tormented Souls</link></u>.\n In addition, neither of the following unit entries may be included: Death Cult Hierarch, Casket of Phatep, Rehnepeh the Undying Sun, nor any model with <u><link=\"ud-undying_will\">Undying Will</link></u>."
+    "Description": "In an Army List containing Ashotet, Skeleton Warriors and Skeleton Cavalry gain <u><link=\"ud-tormented_souls\">Tormented Souls</link></u>.\nIn addition, neither of the following unit entries may be included: Death Cult Hierarch, Casket of Phatep, Rehnepeh the Undying Sun, nor any model with <u><link=\"ud-undying_will\">Undying Will</link></u>."
   },
   {
     "Id": "ud-the_pyramidion",
     "Name": "The Pyramidion",
     "Type": "General",
-    "Description": "Spells cast by Ashotet gain +6″ Range.\n In addition, Ashotet can cast a unique Bound Spell (6+): Surge of MadSpirits:\n\n  Range: 24\n  Type: Hex\n  Damage\n  Duration: Instant.\n The target must take a Courage Test rolling an additional D6. If failed, it suffers a number of hits equal to the amount by which the test was failed. Those hits wound automatically and have Armour Penetration 10."
+    "Description": "Spells cast by Ashotet gain +6\" Range.\nIn addition, Ashotet can cast a unique Bound Spell (6+):\nSurge of Mad Spirits: Range: 24\" ; Type: Hex, Damage. Duration: Instant.\nThe target must take a Courage Test rolling an additional D6. If failed, it suffers a number of hits equal to the amount by which the test was failed. Those hits wound automatically and have AP 10."
   },
   {
     "Id": "ud-tormented_souls",
     "Name": "Tormented Souls",
     "Type": "General",
-    "Description": "The model gains Aegis (5+, against non-<u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Tormented Souls)</link></u>, <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>, <u><link=\"rulebook-horror\">Horror</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u> and Spirit.\nThe model’s Armour is set to 0, it loses Shield, and Skeleton and its Resurrection value is halved.\n All model parts gain +1 AP, <u><link=\"rulebook-hatred\">Hatred</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, lose all their Weapons, and gain Innate Weapons."
+    "Description": "The model gains Aegis (5+, against non-<u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Tormented Souls)</link></u>, <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>, <u><link=\"rulebook-horror\">Horror</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u> and Spirit.\nThe model’s Armour is set to 0, it loses Shield, and Skeleton and its Resurrection value is halved.\nAll model parts gain +1 AP, <u><link=\"rulebook-hatred\">Hatred</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, lose all their Weapons, and gain Innate Weapons."
   },
   {
     "Id": "ud-charioteer_of_the_sun",
     "Name": "Charioteer of the Sun",
     "Type": "General",
-    "Description": "During ’Check Combat Formations’ (Round of Combat, 2.A), the Rehnepeh model part gains a bonus to its Att, Off, Str, AP, and gi equal to half the number of Rank-and-File Skeleton Chariot models in his unit, rounding fractions up."
+    "Description": "During ’Check Combat Formations’ (Round of Combat, 2.A), the Rehnepeh model part gains a bonus to its Att, Off, Str, AP, and Agi equal to half the number of Rank-and-File Skeleton Chariot models in his unit, rounding fractions up."
   },
   {
     "Id": "ud-staff_of_pi_ankh_khahiroth",
@@ -6568,7 +6622,7 @@
     "Id": "ud-the_golden_chariot",
     "Name": "The Golden Chariot",
     "Type": "General",
-    "Description": "Rehnepeh gains +2 HP, <u><link=\"rulebook-distracting\">Distracting</link></u> and <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
+    "Description": "Rehnepeh gains <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u> and <u><link=\"rulebook-distracting\">Distracting</link></u>.\nIn addition, a unit containing The Golden Chariot can never benefit from Cover."
   },
   {
     "Id": "ud-in_your_name",
@@ -6792,19 +6846,19 @@
     "Id": "vs-inergon_injection",
     "Name": "Inergon injection!",
     "Type": "General",
-    "Description": "One use only.\nIn the Movement Phase, before moving, Professor Mauss can gain <link=\"rulebook-random_movement\">Random Movement (3D6″)</link></u>.\nDuration: One Phase."
+    "Description": "One use only. Duration: One Phase.\nIn the Movement Phase, before moving, Professor Mauss can gain <link=\"rulebook-random_movement\">Random Movement (3D6\")</link></u>.."
   },
   {
     "Id": "vs-superior_darkstone_power",
     "Name": "Superior Darkstone Power",
     "Type": "General",
-    "Description": "Professor Mauss can choose not to move despite having <link=\"rulebook-random_movement\">Random Movement</link></u>.\nIn addition, Professor Mauss cannot choose to Pursue, unless he is Charging – in which case he must Pursue (including Overrun)."
+    "Description": "Professor Mauss can choose not to move despite having <link=\"rulebook-random_movement\">Random Movement</link></u>.\nThe model cannot choose to <link=\"rulebook-pursue_moves\">Pursue Moves</link></u>, unless it is its First Round of Combat and it is Charging. In that case it must <link=\"rulebook-pursue_moves\">Pursue</link></u> (including Overrun)."
   },
   {
     "Id": "vs-prototype_mauss_rifle",
     "Name": "Prototype Mauss Rifle",
     "Type": "Equipment",
-    "Description": "Aim 4+, Range 36\", Shots 1, Str 5, AP 2, <u><link=\"rulebook-area_attack\">Area Attack</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>), <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u>, <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm (To-Hit Roll)</link></u>."
+    "Description": "Shooting Weapon.\nAim 4+, Range 36\", Shots 1, Str 5, AP 2,\n<u><link=\"rulebook-area_attack\">Area Attack</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>), <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u>, <u><link=\"vs-maniacal_enthusiasm\">Maniacal Enthusiasm</link></u> (To-hit roll)."
   },
   {
     "Id": "vs-disorienting_scent",
@@ -6820,10 +6874,28 @@
   },
   {
     "Id": "vs-shadowslices_panoply",
-    "Name": "Shadowslice’s Panoply",
+    "Name": "Shadowslice's Panoply",
     "Type": "General",
-    "Description": "The Shadowslice Stalker is equipped with the most advanced selection of murderous weaponry known to any species.\nEach time the Stalker is Deployed from <u><link=\"rulebook-ambush\">Ambush</link></u> or using Hidden, she gains one of the following Magic Items. Duration: Permanent.\n\n • Countless Daggers: <u><link=\"rulebook-first_strike\">First Strike (+2 Att)</link></u>, Paired Weapons and Throwing Weapons (2+).\n • Darkstone Rod: +2 Str, <u><link=\"rulebook-lightning_attacks\"></link>Lightning Attacks</u> and <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>\n • Senator’s Toga: +2 Dis, <u><link=\"rulebook-commanding_presence\">Commanding Presence (6″)</link></u>."
+    "Description": "The Shadowslice Stalker is equipped with the most advanced selection of murderous weaponry known to any species.\nEach time the Stalker is Deployed using <u><link=\"rulebook-hidden\">Hidden</link></u>, she gains one of the following Magic Items. Duration: Permanent.\n\n • <u><link=\"vs-countless_daggers\">Countless Daggers</link></u>: <u><link=\"rulebook-first_strike\">First Strike</link></u> (+2 Att), <u><link=\"rulebook-paired_weapons\"></link>Paired Weapons</u> and <u><link=\"rulebook-throwing_weapons\"></link>Throwing Weapons</u> (2+).\n • <u><link=\"vs-darkstone_rod\">Darkstone Rod</link></u>: +2 Str, <u><link=\"rulebook-lightning_attacks\"></link>Lightning Attacks</u> and <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link> (2)</u>\n • <u><link=\"vs-senators_toga\">Senator's Toga</link></u>: +2 Dis, <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> (6\")."
+  },
+  {
+    "Id": "vs-countless_daggers",
+    "Name": "Countless Daggers",
+    "Type": "General",
+    "Description": "<u><link=\"rulebook-first_strike\">First Strike</link></u> (+2 Att), <u><link=\"rulebook-paired_weapons\"></link>Paired Weapons</u> and <u><link=\"rulebook-throwing_weapons\"></link>Throwing Weapons</u> (2+)."
   },  
+  {
+    "Id": "vs-darkstone_rod",
+    "Name": "Darkstone Rod",
+    "Type": "General",
+    "Description": "+2 Str, <u><link=\"rulebook-lightning_attacks\"></link>Lightning Attacks</u> and <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link> (2)</u>."
+  },  
+  {
+    "Id": "vs-senators_toga",
+    "Name": "Senator's Toga",
+    "Type": "General",
+    "Description": "+2 Dis, <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> (6\")."
+  }, 
   {
     "Id": "dh-monster_seeker",
     "Name": "Monster Seeker",
@@ -7140,19 +7212,37 @@
     "Id": "dh-wonders_of_the_age",
     "Name": "Wonders of the Age",
     "Type": "General",
-    "Description": "Dinaz Betegoz’s Paired Weapons have the following Runic Enchantments: Rune of Anger, Rune of Might, Rune of Precision.\nIn addition, Dinaz Betegoz has the following Runic Artefacts: Rune of Denial, Rune of Devouring, and Rune of Grounding. This is in addition to the usual limitation of Runic Items, however the Rune of Denial, Rune of Devouring, and Rune of Grounding cannot be activated by other friendly models."
+    "Description": "Duna Bregold’s Paired Weapons have the following Runic Enchantments: Rune of Anger, Rune of Might, Rune of Precision.\nIn addition, Duna Bregold has the following Runic Artefacts: Rune of Denial, Rune of Devouring, and Rune of Grounding. This is in addition to the usual limitation of Runic Items, however the Rune of Denial, Rune of Devouring, and Rune of Grounding cannot be activated by other friendly models."
   },
   {
     "Id": "dh-master_brewer",
     "Name": "Master Brewer",
     "Type": "General",
-    "Description": "During each friendly Magic Phase, before Casting Spells ('Step 5 of Magic Phase'), the Master Brewer may select a single of the following Ales to affect his unit. Duration: One Turn.\n\n * Stout Ale: <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n * Bitter Ale: <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n * Red Ale: <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
+    "Description": "During each friendly Magic Phase, at any time before ‘Casting and Dispelling Spells’ (Magic Phase,step 5), the Master Brewer may select a single of the following Ales to affect his unit. Duration: One Turn.\n\n • Stout Ale: <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n • Bitter Ale: <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n • Red Ale: <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
+  },
+    {
+    "Id": "dh-stout_ale",
+    "Name": "Stout Ale",
+    "Type": "General",
+    "Description": "<u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>."
+  },
+  {
+    "Id": "dh-bitter_ale",
+    "Name": "Bitter Ale",
+    "Type": "General",
+    "Description": "<u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>."
+  },
+  {
+    "Id": "dh-red_ale",
+    "Name": "Red Ale",
+    "Type": "General",
+    "Description": ": <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
   },          
   {
     "Id": "dh-the_aleward_crew",
     "Name": "The Aleward Crew",
     "Type": "General",
-    "Description": "When Tador Berafrig is Deployed, Tador and all Rank-and-File models in his unit gains +1 Armour and <u><link=\"rulebook-aegis\">Aegis</link></u> (3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>). Duration: Permanent."
+    "Description": "When Tador Berafrig is Deployed, all Rank-and-File models in his unit gains +1 Armour and <u><link=\"rulebook-aegis\">Aegis</link></u> (3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>). Duration: Permanent."
   },
   {
     "Id": "wdg-wings",
@@ -7428,7 +7518,7 @@
     "Id": "wdg-memory_of_a_hoarded_blade",
     "Name": "Memory of a Hoarded Blade",
     "Type": "General",
-    "Description": "If included in an Army List not containing <link=\"wdg-favour_of_greed\"></link>Favour of Greed</u>, Klaas gains +2 Str, +2AP and Always strikes at Agility Step 0."
+    "Description": "If included in an Army List not containing <link=\"wdg-favour_of_greed\">Favour of Greed</link></u>, Joulgrim gains +2 Str, +2 AP and Always strikes at Agility Step 0."
   },
   {
     "Id": "wdg-legendary_beasts",
@@ -7438,15 +7528,57 @@
   },
   {
     "Id": "wdg-the_fathers_gifts",
-    "Name": "The Father’s Gifts",
+    "Name": "The Father's Gifts",
     "Type": "General",
-    "Description": "At the beginning of each friendly Player Turn, Klaas can choose a single friendly unit within 12″ to gain one of the following abilities, with Duration : One Turn.\n\n • Supernal Shield: the chosen unit suffers -3 Arm and gains <link=\"rulebook-aegis\"></link>Aegis (5+)</u>.\n • Unholy Edge: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n • The Eight-Point Crown: the chosen unit suffers -1 Str and -1 AP, and gains <link=\"rulebook-stubborn\">Stubborn</link></u> and <link=\"rulebook-unstable\">Unstable</link></u>."
+    "Description": "At the beginning of each friendly Player Turn, Joulgrim can choose a single friendly unit within 12\" to gain one of the following abilities, with Duration : One Turn.\n\n • <u><link=\"wdg-supernal_shield\"></link>Supernal Shield</u>: the chosen unit suffers -3 Arm and gains <u><link=\"rulebook-aegis\"></link>Aegis</u> (5+).\n • <u><link=\"wdg-unholy_edge\"></link>Unholy Edge</u>: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n • <u><link=\"wdg-the_eight_point_crown\">The Eight-Point Crown</link>Aegis</u>: the chosen unit suffers -1 Str and -1 AP, and gains <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unstable\">Unstable</link></u>."
+  },
+    {
+    "Id": "wdg-supernal_shield",
+    "Name": "Supernal Shield",
+    "Type": "General",
+    "Description": "The chosen unit suffers -3 Arm and gains <u><link=\"rulebook-aegis\"></link>Aegis</u> (5+)."
   },
   {
-    "Id": "wdg-protean_limbs",
-    "Name": "Protean Limbs",
+    "Id": "wdg-unholy_edge",
+    "Name": "Unholy Edge",
     "Type": "General",
-    "Description": "Ook gains +D6 Att. Note: roll each time he is about to allocate attacks, as described on p. 45 of the Reference Handbook."
+    "Description": "The chosen unit always strikes at Agility Step 0 and gains +1 AP."
+  },
+  {
+    "Id": "wdg-the_eight_point_crown",
+    "Name": "The Eight-Point Crown",
+    "Type": "General",
+    "Description": "The chosen unit suffers -1 Str and -1 AP, and gains <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unstable\">Unstable</link></u>."
+  },
+  {
+    "Id": "wdg-cibareshs_curse",
+    "Name": "Cibaresh's Curse",
+    "Type": "General",
+    "Description": "At the start of your turn, choose one of the following options; Mraven gains that rule with Duration: One Turn. You cannot choose the same option twice in a row.\n\n • <u><link=\"wdg-false_hydra\">False Hydra</link></u>: Mraven gains <u><link=\"rulebook-breath_attack\">Breath Attack</link></u> (Str 3, AP 1), <u><link=\"rulebook-rage\">Rage</link></u>, and <u><link=\"rulebook-regeneration\">Regeneration</link></u> (4+).\n\n • <u><link=\"wdg-giant_yeti\">Giant Yeti</link></u>: Mraven sets his Height to 5, gains +1 Res, <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> (D6 hits), and <u><link=\"ok-touch_of_frost\">Touch of Frost</link></u>.\n\n • <u><link=\"wdg-wasteland_spearback\">Wasteland Spearback</link></u>: Mraven gains <u><link=\"rulebook-channel\">Channel</link></u> (1), and the following shooting weapon:\n\nShoot Spikes: Aim 3+, Range 12″, Shots 2D3+2, Str 5, AP 2, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>.\n\n • <u><link=\"wdg-debauched_gortach\">Debauched Gortach</link></u>: Mraven gains <u><link=\"rulebook-hatred\">Hatred</link></u>, <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, and <u><link=\"bh-strength_from_flesh\">Strength from Flesh</link></u>."
+  },
+  {
+    "Id": "wdg-false_hydra",
+    "Name": "False Hydra",
+    "Type": "General",
+    "Description": "Mraven gains <u><link=\"rulebook-breath_attack\">Breath Attack</link></u> (Str 3, AP 1), <u><link=\"rulebook-rage\">Rage</link></u>, and <u><link=\"rulebook-regeneration\">Regeneration</link></u> (4+)."
+  },
+  {
+    "Id": "wdg-giant_yeti",
+    "Name": "Giant Yeti",
+    "Type": "General",
+    "Description": "Mraven sets his Height to 5, gains +1 Res, <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> (D6 hits), and <u><link=\"ok-touch_of_frost\">Touch of Frost</link></u>."
+  },
+  {
+    "Id": "wdg-wasteland_spearback",
+    "Name": "Wasteland Spearback",
+    "Type": "General",
+    "Description": "Mraven gains <u><link=\"rulebook-channel\">Channel</link></u> (1), and the following shooting weapon:\n\nShoot Spikes: Aim 3+, Range 12\", Shots 2D3+2, Str 5, AP 2, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>."
+  },
+  {
+    "Id": "wdg-debauched_gortach",
+    "Name": "Debauched Gortach",
+    "Type": "General",
+    "Description": "Mraven gains <u><link=\"rulebook-hatred\">Hatred</link></u>, <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, and <u><link=\"bh-strength_from_flesh\">Strength from Flesh</link></u>."
   },
   {
     "Id": "mh-wings",
@@ -10668,7 +10800,7 @@
     "Id": "special-obsidian_rock",
     "Name": "Obsidian Rock",
     "Type": "General",
-    "Description": "Magic Resistance(2)."
+    "Description": "Magic Resistance (2)."
   },
   {
     "Id": "special-potion_of_str",
