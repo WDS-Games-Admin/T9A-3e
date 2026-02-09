@@ -1518,12 +1518,6 @@
     "Description": "Units within 8\" of one or more friendly models with <u><link=\"eos-aura_of_power\">Aura of Power</link></u> gain +2 Def and +2 Off. Model parts with Mount are not affected. The model can cast its chosen spell as a Bound Spell(5+)."
   },
   {
-    "Id": "rulebook-ice_and_fire",
-    "Name": "Ice and Fire",
-    "Type": "Global",
-    "Description": "The target suffers 2D6 hits with Str 4, AP 0, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. Successful [𝛼] against wounds caused by this spell must be rerolled.\\\n[𝛼]: Special Saves[𝛽]: <u><link=\"armour_saves\">Armour Saves</link></u>"
-  },
-  {
     "Id": "eos-master_artificer",
     "Name": "Master Artificer",
     "Type": "Global",
@@ -4903,7 +4897,7 @@
   },
   {
     "Id": "eos-foresight_aura",
-    "Name": "Foresight",
+    "Name": "Foresight Aura",
     "Type": "General",
     "Description": "Friendly units within 6″ of the model gain Lightning Reflexes."
   },
@@ -8994,25 +8988,25 @@
     "Id": "rulebook-living_steel",
     "Name": "Living Steel",
     "Type": "General",
-    "Description": "The target's Melee Attacks gains +1 to hit and Magical Attacks .\nNo model can be affected by more than one instance of this spell simultaneously."
+    "Description": "The target's <u><link=\"rulebook-standard_melee_attacks\">Standard Melee Attacks</link></u> gains +1 to hit, +1 AP, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>.\n\nNo model can be affected by more than one instance of this spell simultaneously."
   },
   {
     "Id": "rulebook-corruption_of_tin",
     "Name": "Corruption of Tin",
     "Type": "General",
-    "Description": "The target suffers -1 Arm and gains Metal Armour."
+    "Description": "The target suffers -1 Arm and loses Metal Armour."
   },
   {
-    "Id": "rulebook-wall_of_lead",
-    "Name": "Wall of Lead",
+    "Id": "rulebook-chalice_of_gold",
+    "Name": "Chalice of Gold",
     "Type": "General",
-    "Description": "Place a Wall with dimensions 1×6\" anywhere on the target.\n\n\tRemove the Terrain Feature when the spell ends."
+    "Description": "The target gains one of the Following Magic Items: <u><link=\"special-potion_of_swiftness\">Dragon’s Brew</link></u>, <u><link=\"special-potion_of_healing\">Potion of Healing</link></u>, <u><link=\"special-potion_of_power_preservation\"></link>Potion of Power Preservation</u>, or <u><link=\"special-potion_of_swiftness\">Potion of Swiftness</link></u>. See the Common Potions and Scrolls.\nNote: This spell allows a Character to have more than a single Scroll or Potion, including duplicates."
   },
   {
-    "Id": "rulebook-molten_copper",
-    "Name": "Molten Copper",
+    "Id": "rulebook-silver_spike",
+    "Name": "Silver Spike",
     "Type": "General",
-    "Description": "The target suffers D3+1 hits with AP 4, Flaming Attacks, Magical Attacks, Zeal(against Metal Armour). These hits always wound on 4+."
+    "Description": "The target suffers 1 hit with Str 3, AP 10, <u><link=\"rulebook-area_attack\">Area Attack (1×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>), and <u><link=\"rulebook-magical_ttacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-word_of_iron",
@@ -9024,241 +9018,247 @@
     "Id": "rulebook-quicksilver_lash",
     "Name": "Quicksilver Lash",
     "Type": "General",
-    "Description": "The target suffers 2D3+1 hits with AP 4, Flaming Attacks, Magical Attacks, Zeal(against Metal Armour). These hits always wound on 4+."
+    "Description": "The target suffers 2D3+1 hits with AP 4, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-zeal\">Zeal (against Metal Armour)</link></u>. These hits Always wound on 4+."
   },
   {
     "Id": "rulebook-duality",
     "Name": "Duality",
     "Type": "General",
-    "Description": "All Cosmology spells are divided into two versions, representing opposing aspects:\nCosmos\n\t\n\t\t\n\t\nand Chaos\n\t\t\n\t\n.\n\n\tWhen casting a Cosmology spell, always declare which version of the spell you are using, and substitute the square brackets ([𝛼]) with the content listed in the table at the bottom of each Spell Card corresponding to the chosen version (Cosmos or Chaos)."
+    "Description": "All Cosmology spells are divided into two versions, representing opposing aspects: Cosmos and Chaos\n\nWhen casting a Cosmology spell, always declare which version of the spell you are using, and substitute the square brackets ([α]) with the content listed in the table at the bottom of each Spell Card corresponding to the chosen version (Cosmos or Chaos)."
   },
   {
     "Id": "rulebook-altered_sight",
     "Name": "Altered Sight",
     "Type": "General",
-    "Description": "The target's Off is modified by [𝛼]. No model can be affected by more than one instance of each version of this spell simultaneously.\n\t\n[𝛼]: +2[𝛽]: -2"
+    "Description": "The target's Offensive Skill is modified by [α].\nNo model can be affected by more than one instance of each version of this spell simultaneously.\n\n\tCosmos: [α]: +3\n\n\tChaos: [α]: -3"
   },
   {
     "Id": "rulebook-truth_of_time",
     "Name": "Truth of Time",
     "Type": "General",
-    "Description": "The target's Cha and Mob are set to [𝛼].\\\n\t\n[𝛼]: 8\"[𝛽]: 4\""
+    "Description": "The target's Charge Speed and Mobility are set to [α]. \n\n\tCosmos: [α]: 8\"\n\n\tChaos: [α]: 4\""
   },
   {
     "Id": "rulebook-weal_and_woe",
     "Name": "Weal and Woe",
     "Type": "General",
-    "Description": "The target's Melee Attacks to-wound rolls are modified by [𝛼] and gain Magical Attacks.\n\t\n[𝛼]: +1[𝛽]: -1"
+    "Description": "The target's <u><link=\"rulebook-melee_attacks\"></link>Melee Attacks</u> to wound rolls are modified by [α] and gain <u><link=\"rulebook-magical_attacks\"></link>Magical Attacks</u>.\n\n\tCosmos: [α]: +1\n\n\tChaos: [α]: -1"
+  },
+  {
+    "Id": "rulebook-ice_and_fire",
+    "Name": "Ice and Fire",
+    "Type": "Global",
+    "Description": "The target suffers 2D6 hits with Str 4, AP 0, and <u><link=\"rulebook-magical_attacks\"></link>Magical Attacks</u>.\nSuccessful [α] against wounds caused by this spell must be rerolled.\n\n\tCosmos: [α]: <u><link=\"rulebook-regeneration\"></link>Regeneration</u> and <u><link=\"rulebook-aegis\">Aegis Saves</link></u>\n\n\tChaos: [α]: <u><link=\"armour_saves\">Armour Saves</link></u>"
   },
   {
     "Id": "rulebook-cosmic_scales",
     "Name": "Cosmic Scales",
     "Type": "General",
-    "Description": "The target must reroll natural to-hit and Armour Save rolls of [𝛼].\n\t\n[𝛼]: 1[𝛽]: 6"
+    "Description": "<u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u> [α] the target can never hit nor wound on better than 4.\n\n\tCosmos: [α]: allocated against\n\n\tChaos: [α]: allocated by"
   },
   {
     "Id": "rulebook-thunder_and_lightning",
     "Name": "Thunder and Lightning",
     "Type": "General",
-    "Description": "=1pt\n\tAll hits are resolved with Str 6, AP 2, Lightning Attacks, Magical Attacks. The target suffers 3 hits. Before removing casulties, apply [𝛼]\n\n[𝛼]: The target suffers 1 additional hit[𝛽]: Select a new Unengaged enemy unit within 6\" of the target: it suffers 2 hits. Before removing casualties, select a 3rd Unengaged enemy unit within 6\" of the 2nd unit: it suffers 1 hit."
+    "Description": "All hits are resolved with Str 6, AP 2, <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. The target suffers 3 hits. Before removing casualties, apply [α].\n\n\tCosmos: [α]: The target suffers 1 additional hit\n\n\tChaos: [α]: Select a new Unengaged enemy unit within 6\" of the target: it suffers 2 hits. Before removing casualties, select a 3rd Unengaged enemy unit within 6\" of the 2nd unit: it suffers 1 hit."
   },
   {
     "Id": "rulebook-foresight",
     "Name": "Foresight",
     "Type": "General",
-    "Description": "The target gains +2 Def and +2 Off.\n\n\tNo model can be affected by more than one instance of this spell simultaneously."
+    "Description": "The target gains +1 Def and +1 Off."
   },
   {
-    "Id": "rulebook-chance_of_redemption",
-    "Name": "Chance of Redemption",
+    "Id": "rulebook-immortals_bane",
+    "Name": "Immortal's Bane",
     "Type": "General",
-    "Description": "The target gains Divine Attacks.\n\n\tIn addition, it may immediately perform a 5\" Magical Move."
+    "Description": "The target gains <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u> and <u><link=\"rulebook-magic_resistance\">Magic Resistance (3)</link></u>."
   },
   {
     "Id": "rulebook-the_stars_align",
     "Name": "The Stars Align",
     "Type": "General",
-    "Description": "The target's Melee Attacks must reroll failed to-hit rolls."
+    "Description": "The target gains <u><link=\"rulebook-hatred\"></link>Hatred</u>"
   },
   {
     "Id": "rulebook-fates_judgement",
     "Name": "Fate's Judgement",
     "Type": "General",
-    "Description": "The target suffers 2D3+1 hits with AP 1 and Magical Attacks. These hits are set to wound on 6+, and gain  +1 to wound for each friendly Player Turn before the current one. E.g. in your fourth Magic Phase, it wounds on 3+."
+    "Description": "The target suffers a number of hits equal to the number of Magic Dice on this turn's Flux Card.\nThose hits are resolved with Str4, AP2, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-augury_of_despair",
     "Name": "Augury of Despair",
     "Type": "General",
-    "Description": "The target suffers -1 Off and -1 Agi, both to a minimum of 1.."
+    "Description": "The target's side gains a bonus to its Static Combat Score bonus equal to the Game Turn number."
   },
   {
     "Id": "rulebook-inescapable_doom",
     "Name": "Inescapable Doom",
     "Type": "General",
-    "Description": "Immediately when the spell is cast and at the start of each of the Caster's subsequent Magic Phases, the target suffers 1 hit that wounds automatically with AP 10 and Magical Attacks.\n\n\tNo model can be affected by more than one instance of this spell simultaneously."
+    "Description": "This spell only ever affects the marked <u><link=\"rulebook-health_pools\">Health Pool</link></u>.\n\nMark a Health Pool in the target unit, which has to be Rank-and-File if possible. Place one “Doom” Token on the marked Health Pool, and one at the start of each friendly Magic Phase.\n\nAt the end of any friendly Magic Phase, if the target is Unengaged, the Caster may end the spell. If so, remove all corresponding Doom Tokens: for each removed token, the marked Health Pool suffers 3 hits with Str 6, AP3, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-fountain_of_youth",
     "Name": "Fountain of Youth",
     "Type": "General",
-    "Description": "Choose one of the following effects for the target:\n\n\t\n  •  The Rank-and-File part of the target Raises 1 HP.\n\t\n  •  One Attachable Model in the target Recovers 1 HP.\n\nNo Health Pool can Raise or Recover more than 1 HP per Magic Phase from this spell."
+    "Description": "Choose one of the following effects for the target:\n\n• One <u><link=\"rulebook-health_pools\">Health Pool</link></u> in the target <u><link=\"rulebook-recover\">Recovers</link></u> 1 HP.\n\n\n• A Rank-and-File part of the target Raises 2 HP.\nThe Rank-and-File Health Pool cannot start the game as a single model unit.\n\nNo single Health Pool can be chosen more than once in each <u><link=\"rulebook-magic_phase\">Magic Phase</link></u>."
   },
   {
     "Id": "rulebook-entwining_roots",
     "Name": "Entwining Roots",
     "Type": "General",
-    "Description": "The target suffers -2\" Cha and -2\" Mob, both to a minimum of 2\".\n\n\tIn addition the target suffers -2 Agi, to a minimum of 1."
+    "Description": "The target halves its Charge Speed and Mobility (rounding fractions up), and suffers -2 Agi, to a minimum of 1."
   },
   {
     "Id": "rulebook-veil_of_mist",
     "Name": "Veil of Mist",
     "Type": "General",
-    "Description": "All units within 12\" of the target when Casting or Shooting suffer - 1 to hit with Shooting Attacks and a - 1 modifier to their Casting Rolls."
-  },
-  {
-    "Id": "rulebook-gravel_storm",
-    "Name": "Gravel Storm",
-    "Type": "General",
-    "Description": "The target suffers 2D3+1 hits with Str 3, AP 1, and Magical Attacks. If the target contains a Rank-and-File model with Light Troops, these hits are instead resolved with Str 4, AP 2, and Magical Attacks."
+    "Description": "All units within 12\" of the target when Casting or Shooting suffer a -2 modifier to their Casting Rolls and a -1 to hit with <u><link=\"rulebook-shooting_attacks\">Shooting Attacks</link></u>."
   },
   {
     "Id": "rulebook-stone_skin",
     "Name": "Stone Skin",
     "Type": "General",
-    "Description": "The target gains +1 Res. In addition, Melee Attacks allocated towards it never wound on better than 4+."
+    "Description": "The target gains +1 Res.\nIn addition, <u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u> allocated towards it never wound on better than 4+."
   },
   {
-    "Id": "rulebook-quicksand",
-    "Name": "Quicksand",
+    "Id": "rulebook-shield_of_thorns",
+    "Name": "Shield of Thorns",
     "Type": "General",
-    "Description": "The target suffers -1 to-hit with its Melee Attacks. The first time in each Player Turn that it performs a Move (see Definitions and Terminology Chapter), each of its Health Pools must take a Dangerous Terrain(6+) Test."
+    "Description": "The target gains Parry.\nFor each <u><link=\"rulebook-standard_melee_attacks\">Standard Melee Attack</link></u> allocated against the model that rolls a ‘6’ to hit, the attacking model’s Health Pool suffers one hit at the same Agility Step, with Str 4, AP 2, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>."
+  },
+  {
+    "Id": "rulebook-mud_slide",
+    "Name": "Mud Slide",
+    "Type": "General",
+    "Description": "The target must immediately take a <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain (6+) Test</link></u>, and treats <u><link=\"rulebook-open_terrain\">Open Terrain</link></u> as <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain (6+)</link></u>.\nIn addition, the target suffers -1 to-hit with its <u><link=\"rulebook- melee_attacks\">Melee Attacks</link></u>"
   },
   {
     "Id": "rulebook-whispers_of_the_veil",
     "Name": "Whispers of the Veil",
     "Type": "General",
-    "Description": "The target suffers -1 Res.\n\n\t\n\n\tNo model can be affected by more than one instance of this spell simultaneously."
+    "Description": "The target suffers -1 Res.\nNo model can be affected by more than one instance of this spell simultaneously."
   },
   {
-    "Id": "rulebook-danse_macabre",
+    "Id": "rulebook-danse macabre",
     "Name": "Danse Macabre",
     "Type": "General",
-    "Description": "The target gains Dying Blow, Ghost Step.  In addition, it may immediately perform a  5\" Magical Move."
+    "Description": "The target gains <u><link=\"rulebook-ghost_step\">Ghost Step</link></u>.\nIn addition, it may immediately perform a <u><link=\"rulebook-magical_move\">Magical Move (4 Mob)</link></u>."
   },
   {
     "Id": "rulebook-chorus_of_the_damned",
     "Name": "Chorus of the Damned",
     "Type": "General",
-    "Description": "The target gains Distracting(1), Horror."
+    "Description": "The target gains <u><link=\"rulebook-distracting\">Distracting (1)</link></u>"
   },
   {
     "Id": "rulebook-touch_of_the_reaper",
     "Name": "Touch of the Reaper",
     "Type": "General",
-    "Description": "The target suffers D3+1 hits with Str 9, AP 10, Magical Attacks, Psychic Attacks."
+    "Description": "Select one or two models in the target unit.\nEach selected model suffers a single hit that wounds automatically, with AP 10 and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
-    "Id": "rulebook-spectral_blades",
+    "Id": "rulebook-spectral blades",
     "Name": "Spectral Blades",
     "Type": "General",
-    "Description": "Standard Melee Attacks from Rank-and-File models in the target are always at least Str 4, and always at least  AP 4, and gain Magical Attacks."
+    "Description": "The target gains <u><link=\"rulebook-dying_blow\">Dying Blow</link></u>, and its <u><link=\"rulebook-standard_melee_attacks\"></link>Standard Melee Attacks</u> always have at least AP 3 and gain <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>"
   },
   {
     "Id": "rulebook-soul_blight",
     "Name": "Soul Blight",
     "Type": "General",
-    "Description": "The target suffer 2D3+1 hits with Str 9, AP 10, Magical Attacks, Psychic Attacks."
+    "Description": "The target suffer 2D3+1 hits with Str 9, AP 10, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-psychic_attacks\">Psychic Attacks</link></u>."
   },
   {
     "Id": "rulebook-the_sacrifice",
     "Name": "The Sacrifice",
     "Type": "General",
-    "Description": "Before casting certain spells (marked on the spell itself), you may choose a friendly unit within 12\" of the Caster to immediately suffer from The Devouring Dark. No model or unit can be targeted by more than one instance during the same Magic Phase. If The Sacrifice was performed, the Range of the spell is increased by +6\"."
+    "Description": "Before casting any Occultism spell, the Caster may select a friendly unit within 18\": this unit loses a number of Health Points equal to 9 − its unmodified Discipline, to a minimum of 1.\nNo unit can be chosen more than once per <u><link=\"rulebook-magic_phase\">Magic Phase</link></u>.\nIf The Sacrifice was performed, the Range of the spell is increased by +6\"."
   },
   {
     "Id": "rulebook-the_devouring_dark",
     "Name": "The Devouring Dark",
     "Type": "General",
-    "Description": "The target suffers a hit with Area Attack(2×2), Str 5, AP 2, and Magical Attacks."
-  },
-  {
-    "Id": "rulebook-hand_of_glory",
-    "Name": "Hand of Glory",
-    "Type": "General",
-    "Description": "The target gains Aegis(6+) and Aegis(+1, max. 3+).\n\n\t\n\n\t\tThe Sacrifice may be performed for this spell."
+    "Description": "The target suffers a hit with <u><link=\"rulebook-area_attack\">Area Attack (3×2)</link></u>, Str 5, AP 2, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-blood_curse",
     "Name": "Blood Curse",
     "Type": "General",
-    "Description": "The target suffers -1 Str and -1 AP.\n\n\t\n\n\t\tThe Sacrifice may be performed for this spell."
+    "Description": "The target suffers -1 Off and -1 Def."
+  },
+  {
+    "Id": "rulebook-hand_of_glory",
+    "Name": "Hand of Glory",
+    "Type": "General",
+    "Description": "The target gains <u><link=\"rulebook-aegis\"></link>Aegis (6+)</u> and <u><link=\"rulebook-aegis\"></link>Aegis (+1, max. 3+)</u>."
   },
   {
     "Id": "rulebook-pentagram_of_pain",
     "Name": "Pentagram of Pain",
     "Type": "General",
-    "Description": "The target suffers 3 hits with Str 5, AP 2, and Magical Attacks.\n\n\t If one or more unsaved wounds are caused by this spell, the Caster of the spell Recovers 1 HP.\n\n\t\n\n\t\tThe Sacrifice may be performed for this spell."
+    "Description": "The target suffers 3 hits with Str 5, AP 2, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>.\nIf this spell causes at least one HP loss, the Caster of the spell <u><link=\"rulebook-recover\"></link>Recovers</u> 1 HP."
   },
   {
-    "Id": "rulebook-umbral_majesty",
+    "Id": "rulebook-umbral majesty",
     "Name": "Umbral Majesty",
     "Type": "General",
-    "Description": "Choose a single model part in the target unit when casting the spell. This model part gains Grind Attack(5, Str 5, AP 2, Unmodifiable).\n\t\n\t\tThe Sacrifice may be performed for this spell."
+    "Description": "In each Round of Combat, one model in the target unit gains a “Majesty” model part, with Duration: Round of Combat.\nSelect the affected model immediately before the “Majesty” model part allocates its attacks.\nThe “Majesty” model part has the following Offensive Profile: Att 6, Off 9, Str 5, AP 2, Agi 8."
   },
   {
     "Id": "rulebook-the_grave_calls",
     "Name": "The Grave Calls",
     "Type": "General",
-    "Description": "The target suffers 8 hits with Str 5, AP 2, and Magical Attacks.\n\t\n\t\tThe Sacrifice may be performed for this spell."
+    "Description": "The target suffers 8 hits with Str 5, AP 2, and<u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-fireball",
     "Name": "Fireball",
     "Type": "General",
-    "Description": "The target suffers 2D3+1\n\thits with Str 4, AP 0, Flaming Attacks, Magical Attacks, \n."
+    "Description": "The target suffers 2D3 hits with Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-flaming_swords",
     "Name": "Flaming Swords",
     "Type": "General",
-    "Description": "The target gains +1 to wound, Magical Attacks (Melee & Shooting), Flaming Attacks (Melee & Shooting)."
+    "Description": "The target gains +1 to wound, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> (Melee & Shooting) and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> (Melee & Shooting)."
   },
   {
-    "Id": "rulebook-dragons_roar",
+    "Id": "rulebook-dragons roar",
     "Name": "Dragon's Roar",
     "Type": "General",
-    "Description": "Choose a single model part in the target unit when casting the spell. This model part gains Breath Attack(Str 4,  AP 0, Flaming Attacks, Magical Attacks) and Grind Attack(2D6, Str 4, AP 0, Flaming Attacks, Magical Attacks and Unmodifiable)."
+    "Description": "Choose a single model part in the target unit when casting the spell.\nThis model part gains <u><link=\"rulebook-breat_attack\"></link>Breath Attack</u> (Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>) and <u><link=\"rulebook-grind_attack\"></link>Grind Attack</u> (2D6, Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-unmodifiable\"></link>Unmodifiable</u>)."
   },
   {
     "Id": "rulebook-pyroclastic_flow",
     "Name": "Pyroclastic Flow",
     "Type": "General",
-    "Description": "The target suffers 5D3\n\thits with Str 4, AP 0, Flaming Attacks, Magical Attacks, \n."
+    "Description": "The target suffers 5D3 hits with Str 4, AP 0, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "rulebook-pillars_of_fire",
     "Name": "Pillars of Fire",
     "Type": "General",
-    "Description": "Standard Melee Attacks from Rank-and-File models in the target hit automatically, are always Str 4, are always AP 0, and gain Flaming Attacks, Magical Attacks."
+    "Description": "<u><link=\"rulebook-standard_melee_attacks\">Standard Melee Attacks</link></u> from Rank-and-File models in the target are always Str 4 and AP 0, and gain <u><link=\"rulebook-automatic_hits\">Automatic Hits</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
-    "Id": "rulebook-cage_of_embers",
-    "Name": "Cage of Embers",
+    "Id": "rulebook-tidal_flame",
+    "Name": "Tidal Flame",
     "Type": "General",
-    "Description": "Immediately when the spell is cast, the target suffers 2D3\n\thits with Str 4, AP 0, Flaming Attacks, Magical Attacks, \n.\nAfter the initial hits the target gains Weakness(Flaming Attacks).\n\tIn addition, whenever the target moves (see Definitions and Terminology chapter), it suffers 2D3\n\thits with Str 4, AP 0, Flaming Attacks, Magical Attacks, \n."
+    "Description": "The target suffers 1 hit with Str 3, AP 0, <u><link=\"rulebook-area_attack\">Area Attack (5×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6, AP2, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>), <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
-    "Id": "rulebook-predators_instinct",
-    "Name": "Predator's Instinct",
+    "Id": "rulebook-swarm_of_insects",
+    "Name": "Swarm of Insects",
     "Type": "General",
-    "Description": "The target gains +2\" Cha and Resistance(Ranged Attacks).\n\n\t\n\n\tNo model can be affected by more than one instance of this spell simultaneously."
+    "Description": "Immediately when the spell is cast, the target suffers 5D6 hits with AP 0 and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, and that always wound on 6+.\nIn addition, it suffers -1 to hit with Shooting Attacks."
   },
   {
     "Id": "rulebook-savage_fury",
     "Name": "Savage Fury",
     "Type": "General",
-    "Description": "The target gains Fury, Fearless, Unruly, Frenzy. In addition, the target can never be wounded on better than 3+."
+    "Description": "The target gains <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-frenzy\">Frenzy</link></u>, <u><link=\"rulebook-fury\">Fury</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>."
   },
   {
     "Id": "rulebook-awaken_the_beast",
@@ -9267,100 +9267,100 @@
     "Description": "The target gains +1 Str and +1 AP."
   },
   {
-    "Id": "rulebook-swarm_of_insects",
-    "Name": "Swarm of Insects",
+    "Id": "rulebook-predators_instinct",
+    "Name": "Predator's Instinct",
     "Type": "General",
-    "Description": "Immediately when the spell is cast, the target suffers 5D6 hits with AP 0 and Magical Attacks. These hits always wound on 6+.\n\n\tIn addition, it suffers -1 to hit with Shooting Attacks."
+    "Description": "The target gains +3\" Cha and <u><link=\"rulebook-resistance\">Resistance</link></u> (Ranged Attacks)."
   },
   {
-    "Id": "rulebook-wild_spikes",
-    "Name": "Wild Spikes",
+    "Id": "rulebook-wild_guardian",
+    "Name": "Wild Guardian",
     "Type": "General",
-    "Description": "Choose a single model part in the target unit when casting the spell. This model part gains Grind Attack(4, Str 6, AP 3, Unmodifiable)"
+    "Description": "Mark a <u><link=\"rulebook-health_pools\">Health Pool</link></u> in the target. In each Round of Combat one model in the marked <u><link=\"rulebook-health_pools\">Health Pool</link></u> gains a Guardian Model Part with the Duration: Round of Combat. Select which model immediately before the Wild Guardian allocates its attacks. A unit can never have more than one Wild Guardian Model Part.\nThe Guardian model part has:Att 4, Off 3, Str 6, AP 3, Agi 3."
   },
   {
     "Id": "rulebook-totemic_summon",
     "Name": "Totemic Summon",
     "Type": "General",
-    "Description": "Summon a Totemic Beast (profile below)."
+    "Description": "Summon a Totemic Beast and immediately place it on the Battlefield using <u><link=\"rulebook-ambush\">Ambush</link></u> (Target Point)."
   },
   {
     "Id": "rulebook-divine_intervention",
     "Name": "Divine Intervention",
     "Type": "General",
-    "Description": "When resolving the effects of a Thaumaturgy spell, roll  either 1D6 or 2D6:\n\t\n\t\t\n  •  If every dice rolls a ‘5’ or ‘6’: Apply the Blessing effects, marked with a \n✠.\n\t\t\n  •  If every dice rolls a ‘1’: Apply the Admonition effects, marked with a \n×."
+    "Description": "During casting of a Thaumaturgy spell ‘Spell Effect’ (5.A Casting Spells - 6), first roll a D6 and apply the corresponding effect (if any) either 1D6 or 2D6:\n\n • ‘5’ or ‘6’: apply the ‘Blessing’ effect (marked with a ‘*’).\n\n • ‘1’: apply the ‘Admonition’ effect (marked with a ‘×’)."
   },
   {
     "Id": "rulebook-smite_the_unbeliever",
     "Name": "Smite the Unbeliever",
     "Type": "General",
-    "Description": "The target suffers D6 hits with Str 5, AP 2, and Magical Attacks.\n\t\n\t\t\n✠: These hits are instead resolved with Str 7, AP 2, and Magical Attacks.\n\t\t\n×: These hits are instead resolved with Str 3, AP 2, and Magical Attacks."
+    "Description": "The target suffers D6 hits with Str 5, AP 2, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>.\n\n* : choose an additional different target for the spell, following the normal targeting restrictions.\n\nx : choose a new target for the spell, following the normal targeting restrictions."
   },
   {
     "Id": "rulebook-light_of_faith",
     "Name": "Light of Faith",
     "Type": "General",
-    "Description": "The target counts as having one fewer Proper Ranks when Engaged.\n\t\n\t\t\n✠: Two fewer Proper Ranks instead\n\t\t\n×: Spell has no effect"
+    "Description": "The target adds +1 to the Combat Score of its side, and gains +1 Dis.\n\n* : the target gains <u><link=\"rulebook-courageous\">Courageous</link></u>.\n\nx : the target's <u><link=\"rulebook-charge_moves\">Charge</link></u>, <u><link=\"rulebook-flee_move\">Flee</link></u>, and <u><link=\"rulebook-pursue_moves\">Pursue</link></u> rolls are Minimised."
   },
   {
     "Id": "rulebook-weight_of_judgement",
     "Name": "Weight of Judgement",
     "Type": "General",
-    "Description": "The target suffers  -2 Agi, to a minimum of 1.\n\t\n\t\t\n✠: -3 Agi instead\n\t\t\n×: -1 Agi instead"
+    "Description": "The target suffers -2 Agi, to a minimum of 1, and -2 Def\n\n* : the target suffers -2 Off.\n\nx : the target does not suffer -2 Def (i.e. it only suffers -2 Agi)."
   },
   {
     "Id": "rulebook-holy_affliction",
     "Name": "Holy Affliction",
     "Type": "General",
-    "Description": "The target suffers -1 to wound.\n\t\n\t\t\n✠: The target suffers -1 AP.\n\t\t\n×: The target gains +1 AP."
+    "Description": "The target suffers -1 to wound with its <u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u>.\n\n* : the target suffers -1 AP.\n\nx : the target gains +1 AP"
   },
   {
     "Id": "rulebook-wrath_of_god",
     "Name": "Wrath of God",
     "Type": "General",
-    "Description": "Place a marker on the target point. You must roll for Divine Intervention at the start of each subsequent Magic Phase:\n\n\t\n✠: Each unit within 2D6\" of the centre of the marker suffers 2D6 hits with Str 5, AP 2, and Magical Attacks. Then remove the marker.\n\t\n×: The opponent may move the marker up to 3\" in any direction."
+    "Description": "Place a marker on the target point. Do not roll for <u><link=\"rulebook-divine_intervention\">Divine Intervention</link></u> when resolving the effects of this spell. You must roll for <u><link=\"rulebook-divine_intervention\">Divine Intervention</link></u> at the start of each subsequent <u><link=\"rulebook-magic_phase\">Magic Phase</link></u>:\n\n* : each unit with in 2D6\" of the centre of the marker suffers 2D6 hits with Str 5, AP 2, and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>. Then remove the marker.\n\nx : your opponent may move the marker up to 3\" in any direction."
   },
   {
     "Id": "rulebook-rain_of_fire",
     "Name": "Rain of Fire",
     "Type": "General",
-    "Description": "The target suffers D3+1 hits. All other units within 3\" of the target suffer 1 hit.\nAll hits are resolved with Str 9, AP 4, Magical Attacks, Flaming Attacks, .\n\t\n\t\t\n✠: Increase the number of hits each unit suffers by 1.\n\t\t\n×: Decrease the number of hits each unit suffers by 1."
+    "Description": "The target suffers D3+1 hits. All other units within 3\" of the target suffer 1 hit. All hits are resolved with Str 9, AP 4, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>.\n\n* : increase the number of hits each unit suffers by 1.\n\nx : decrease the number of hits each unit suffers by 1."
   },
   {
-    "Id": "rulebook-evil_eye",
-    "Name": "Evil Eye",
+    "Id": "rulebook-mind_fog",
+    "Name": "Mind Fog",
     "Type": "General",
-    "Description": "The target suffers -1 Cha and -1 Mob, both to a minimum of 3, and -1 Agi, to a minimum of 1 .\n\n\t\n\n\tNo model can be affected by more than one instance of this spell simultaneously."
+    "Description": "Each Range Attack made by the target that fails its to-hit roll is instead allocated towards the attacking model’s <u><link=\"rulebook-health_pools\">Health Pool</link></u> with <u><link=\"rulebook-automatic_hits\"></link>Automatic Hits</u>.\n\nEach <u><link=\"rulebook-standard_melee_attacks\"></link>Standard Melee Attack</u> made by the target that results in a to-hit roll of ‘1’ to hit, is instead allocated back at allocated towards the attacking model’s <u><link=\"rulebook-health_pools\">Health Pool</link></u> with <u><link=\"rulebook-automatic_hits\"></link>Automatic Hits</u>."
   },
   {
-    "Id": "rulebook-soured_luck",
-    "Name": "Soured Luck",
+    "Id": "rulebook-mirror_image",
+    "Name": "Mirror Image",
     "Type": "General",
-    "Description": "Melee Attacks against the target are set to hit on at least 3+ ."
+    "Description": "The next two hits the target would suffer are ignored.\nIf the target is hit by several simultaneous hits, the owner of the unit chooses which hits to ignore. (Hits that are multiplied into several hits (e.g. due to <u><link=\"rulebook-fury\">Fury</link></u> or <u><link=\"rulebook-area_attack\">Area Attack</link></u>) are ignored after multiplication.)"
   },
   {
     "Id": "rulebook-illusory_paths",
     "Name": "Illusory Paths",
     "Type": "General",
-    "Description": "Choose which effect to apply when casting the spell:\n\n\t\n  •  The target gains Random Movement(2D6\").\n\t\n  •  The target gains Random Movement(3D6\")."
+    "Description": "Choose which effect to apply when casting the spell:\n\n• The target gains <u><link=\"rulebook-random_movement\">Random Movement (2D6\")</link></u>.\n\n• The target gains <u><link=\"rulebook-random_movement\">Random Movement (3D6\")</link></u>."
   },
   {
-    "Id": "rulebook-cauldrons_curse",
-    "Name": "Cauldron's Curse",
+    "Id": "rulebook-shrouded_steps",
+    "Name": "Shrouded Steps",
     "Type": "General",
-    "Description": "The target gains Weakness(Ranged Attacks)."
+    "Description": "The target gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>.\nIn addition, it may immediately perform a <u><link=\"rulebook-magical_move\"></link>Magical Move (6 Mob)</u>."
   },
   {
     "Id": "rulebook-clouded_sight",
     "Name": "Clouded Sight",
     "Type": "General",
-    "Description": "The target cannot draw Line of Sight to a target more than 12\" away from it."
+    "Description": "The target cannot draw <u><link=\"rulebook-line_of_sight\">Line of Sight</link></u> to a target more than 12\" away from it."
   },
   {
-    "Id": "rulebook-mists_of_invisibility",
-    "Name": "Mists of Invisibility",
+    "Id": "rulebook-cauldrons_curse",
+    "Name": "Cauldron's Curse",
     "Type": "General",
-    "Description": "Mark the  point under the centre of the target. Remove the target from the Battlefield. Place it back using Ambush (within 12″ of the marked point) at the start of the next friendly Movement Phase.\n\t\n\n\t*Cannot target Shaken units"
+    "Description": "The target gains <u><link=\"rulebook-weakness\">Weakness</link></u>."
   },
   {
     "Id": "rulebook-removed",
@@ -10902,145 +10902,133 @@
     "Id": "season-deployment_types",
     "Name": "Deployment Types",
     "Type": "General",
-    "Description": "Follow the rules in the Rulebook, except where those rules are overridden by the details under each Deployment Type. Unless mentioned otherwise, a Central Line is the line drawn through the centre of the board and parallel to the Long Table Edges.\n\n1214.41. \n\nDeployment Zones are more than 12\" away from the Central Line, towards your Long Table Edge, and more than 6\" from the Short Table Edges.\n\n1214.42. \n\nPlayer A's Deployment Zone is more than 9\" away from the Central Line, towards your Long Table Edge, and more than 12\" from the Short Table Edges.\n\nPlayer B's Deployment Zone is more than 15\" away from the Central Line.\n\nWhoever chooses its Deployment Zone also chooses if they are player A or player B.\n\n1214.43. \n\nDeployment Zones are more than 15\" away from the Central Line.\n\nThe table is divided along the long Table Edge into 3 equal areas (west, centre, east). The player who chooses its Deployment Zone also chooses one of these thirds to be their Spearhead Area. The other player then chooses one of the remaining two thirds as their Spearhead Area.\nUnits deployed fully within their Spearhead Area gain Vanguard(3\").\n\n1214.44. \n\nDeployment Zones are more than 12\" away from the Central Line, towards your Long Table Edge, and more than 6\" from the Short Table Edges.\n\nWhen deploying, each player may Deploy up to two of their Core Scoring Units fully on their own half of the Battlefield and fully within any Forest, Ruins, Field (i.e. no parts of the Unit Boundary outside the Terrain Feature or on the opponent's half of the Battlefield).\n\nUnits Deployed in this way cannot declare a Charge, perform Advance Move, or perform a March Move in the first Player Turn of the first Game Turn.\n\n1214.45. \n\nDeployment Zones are more than 9\" away from the Central Line (see figure).\nThe Central Line is the line drawn from one corner to the opposite corner. The player that chooses its Deployment Zone also chooses which corners to use for the Central Line.\n\n1214.46. \n\nDeployment Zones are more than 12\" away from the Central Line, towards your Long Table Edge, and more than 6\" from the Short Table Edges.\n\nThe first unit each player deploys must be their most expensive Rank-and-File unit (on the Army List). This unit must be deployed within 6\" of the Central Line that is parallel to the Short Table Edges (dashed red line in the figure).\n\nWhen deployment is finished, each player must have deployed an as equal number of units as possible on each side of the first deployed unit. Which side a unit is deployed on is defined by which short table edge the unit's centre is closer to (compared to the first deployed unit). Ignore Attachable Models that start the game joined to a unit for this."
+    "Description": "Follow the rules in the Reference Handbook, except where those rules are overridden by the details under each Deployment Type.\nUnless mentioned otherwise, the 'Central Line' is the line drawn through the Battlefield Centre and parallel to the Long Battlefield Edges.\n\n<u><link=\"season-frontline_clash\">4.1. Frontline Clash</link></u>\n<u><link=\"season-bottleneck\">4.2. Bottleneck</link></u>\n<u><link=\"season-spearhead\">4.3. Spearhead</link></u>\n<u><link=\"season-spearhead\">4.4. Encircle</link></u>\n<u><link=\"season-refused_flank\">4.5. Refused Flank</link></u>\n<u><link=\"season-assault_at_first_light\">4.6. Assault at First Light</link></u>"
   },
   {
-    "Id": "season-selecting_terrain_map_and_deployment_types",
-    "Name": "Selecting Terrain Map and Deployment Types",
+    "Id": "season-frontline_clash",
+    "Name": "Frontline Clash",
     "Type": "General",
-    "Description": "In the absence of already chosen Deployment Types and/or Terrain Maps, e.g. due to players agreeing to play particular ones, or playing in a tournament where these are already set for each game, we recommend consulting the tables below:\n\nTerrain Map table\n\nRoll a single D6.\n\n  •\n\n  •\n\n  •\n\n  •\n\n  •\n\n  •\n\nDeployment Type table\n\nRoll a single D6.\n\n  •\n\n  •\n\n  •\n\n  •\n\n  •\n\n  •"
+    "Description": "Deployment Zones are more than 12\" away from the Central Line, and more than 6\" from the Short Battlefield Edges."
   },
   {
-    "Id": "season-spoils_of_war",
-    "Name": "Spoils of War",
+    "Id": "season-bottleneck",
+    "Name": "Bottleneck",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: None.\nRules: When an enemy Scoring Unit is Destroyed in Combat, the opposing player puts one Spoils Token on one of their Scoring Units (if there are any) that was just Engaged with the unit Destroyed in Combat. A unit loses all its Spoils Tokens when any of the following occurs:\n\n  •  The last Health Point on its Rank-and-File models (see Models and Units in the Definitions and Terminology chapter) is lost.\n\n  •  It becomes Shaken. Remember that units that perform a Flee Move automatically become Shaken.\n\nWin conditions: At the end of the game, the player with the most Spoils Token on their units wins this Primary Objective."
+    "Description": "Player A’s Deployment Zone is more than 9\" away from the Central Line, and more than 12\" from the Short Battlefield Edges.\nPlayer B’s Deployment Zone is more than 15\" away from the Central Line.\nThe Defender also chooses if they are player A or player B."
+  },
+  {
+    "Id": "season-spearhead",
+    "Name": "Spearhead",
+    "Type": "General",
+    "Description": "Deployment Zones are more than 15\" away from the Central Line.\nThe table is divided along the Long Battlefield Edge into three equal areas (‘west’, ‘centre’, ‘east’).\nThe Defender chooses one of those three areas to be their ‘Spearhead Area’.\nThe Attacker then immediately chooses one of the remaining two areas as their Spearhead Area.\nUnits Deployed entirely within their Spearhead Area gain Vanguard (3 Mob)."
+  },
+  {
+    "Id": "season-encircle",
+    "Name": "Encircle",
+    "Type": "General",
+    "Description": "Each Deployment Zone alternates between 9\" and 15\" from the Central Line.\nAlong with selecting a side, the Defender selects one of the two Deployment Zones.\nThe Attacker gets the other Deployment Zone."
+  },
+  {
+    "Id": "season-refused_flank",
+    "Name": "Refused Flank",
+    "Type": "General",
+    "Description": "Deployment Zones are more than 9\" away from the Central Line, which is the line drawn from one corner of the Battlefield to the opposite corner.\nThe Defender chooses which corners to use."
+  },
+  {
+    "Id": "season-assault_at_first_light",
+    "Name": "Assault at First Light",
+    "Type": "General",
+    "Description": "After choosing a side, the Defender selects a Short Battlefield Edge; the Attacker has the opposite one.\nThe Defender's Deployment Zone is more than 6\" away from the Central Line, and 18\" away from the Attacker's Short Battlefield Edge.\nThe Attacker's Deployment Zone is instead more than 12\" away from the Central Line, and 18\" away from the Defender's Short Battlefield Edge."
+  },
+  {
+    "Id": "season-determining_primary_and_secondary_objectives",
+    "Name": "Determining Primary and Secondary Objectives",
+    "Type": "General",
+    "Description": "If the Primary Objective and/or Secondary Objectives are not already determined (e.g. due to players agreeing to play particular ones, or playing in a tournament where these are already set for each game), we recommend consulting the lists below:\n\n<u>Primary Objective:</u> roll a D6 to determine which Primary Objective to play:\n\n5.1. <u><link=\"season-trophies_of_war\">Trophies of War</link></u>\n5.2. <u><link=\"season-divide_and_conquer\">Divide and Conquer</link></u>\n5.3. <u><link=\"season-breakthrough\">Breakthrough</link></u>\n5.4. <u><link=\"season-secure_targets\">Secure Targets</link></u>\n5.5. <u><link=\"season-hold_the_centre\">Hold the Centre</link></u>\n5.6. <u><link=\"season-skull_of_harald_redstub\">Skull of Harald Redstub</link></u>\n\nIf the players are tied for End of Game Objective Completion, neither player wins it.\n\n<u>Random Selection of Secondary Objective</u>\nAt the begining of 'Determine Secondary Objectives' (Battle Preparations- 3.B) randomise three different Secondary Objectives from the list below.\nDuring each players 'Pre-Game Selections' (Battle Preparations- 3.C and 3.D), they select one of the three previously determined Secondary Objectives.\nThe Attacker cannot select one the Defender has selected.\n\n6.1. <u><link=\"season-settle_the_score\">Settle the Score</link></u>\n6.2. <u><link=\"season-demonstrate_superiority\">Demonstrate Superiority</link></u>\n6.3. <u><link=\"season-slay_the_beast\">Slay the Beast</link></u>\n6.4. <u><link=\"season-assassinate\">Assassinate</link></u>\n6.5. <u><link=\"season-capture_their_banners\">Capture their Banners</link></u>\n6.6. <u><link=\"season-conserve_our_numbers\">Conserve our Numbers</link></u>\n\nIf an ArmyList does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
+    "Id": "season-primary_objectives",
+    "Name": "Primary Objectives",
+    "Type": "General",
+    "Description": "Roll a D6 to determine which Primary Objective to play:\n\n5.1. <u><link=\"season-trophies_of_war\">Trophies of War</link></u>\n5.2. <u><link=\"season-divide_and_conquer\">Divide and Conquer</link></u>\n5.3. <u><link=\"season-breakthrough\">Breakthrough</link></u>\n5.4. <u><link=\"season-secure_targets\">Secure Targets</link></u>\n5.5. <u><link=\"season-hold_the_centre\">Hold the Centre</link></u>\n5.6. <u><link=\"season-skull_of_harald_redstub\">Skull of Harald Redstub</link></u>\n\nIf the players are tied for End of Game Objective Completion, neither player wins it."
+  },
+  {
+    "Id": "season-secondary_objectives",
+    "Name": "Secondary Objectives",
+    "Type": "General",
+    "Description": "At the begining of 'Determine Secondary Objectives' (Battle Preparations- 3.B) randomise three different Secondary Objectives from the list below.\nDuring each players 'Pre-Game Selections' (Battle Preparations- 3.C and 3.D), they select one of the three previously determined Secondary Objectives.\nThe Attacker cannot select one the Defender has selected.\n\n6.1. <u><link=\"season-settle_the_score\">Settle the Score</link></u>\n6.2. <u><link=\"season-demonstrate_superiority\">Demonstrate Superiority</link></u>\n6.3. <u><link=\"season-slay_the_beast\">Slay the Beast</link></u>\n6.4. <u><link=\"season-assassinate\">Assassinate</link></u>\n6.5. <u><link=\"season-capture_their_banners\">Capture their Banners</link></u>\n6.6. <u><link=\"season-conserve_our_numbers\">Conserve our Numbers</link></u>\n\nIf an ArmyList does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },  
+  {
+    "Id": "season-trophies_of_war",
+    "Name": "Trophies of War",
+    "Type": "General",
+    "Description": "<u>Determine and Setup Victory Conditions:</u> none.\n\n<u>Rules:</u> whenever an Enemy unit Engaged in Combat, including all Attached Models, is removed as a casualty, put a single Trophy Token on a single Friendly Scoring unit that was just Engaged with the removed unit. A unit immediately loses all its Trophy Tokens if it loses Scoring.\n\n<u>End of Game Completion:</u> the player with the most Trophy Tokens on their units wins. If both players have no Tokens and one player also has no Scoring units remaining on the Battlefield, the other player wins."
+  },
+  {
+    "Id": "season-divide_and_conquer",
+    "Name": "Divide and Conquer",
+    "Type": "General",
+    "Description": "<u>Determine and Setup Victory Conditions:</u> mark the Battlefield Centre and divide the Battlefield into quarters.\n\n<u>Rules:</u> END of Game Turns 3 to 6, a player gains a single Objective Counter if they have more quarters touching Friendly Scoring units than the opponent has. Each unit can only touch a single quarter at a time, determined by the location of its Centre. A unit with its Centre within 9\" of the Battlefield Centre does not count as being in contact with any quarter.\n\n<u>End of Game Completion:</u> the player with the most Objective Counters wins."
   },
   {
     "Id": "season-breakthrough",
     "Name": "Breakthrough",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: Mark Deployment Zones.\nRules: None.\nWin conditions: At the end of the game, each player adds together the number of Scoring Units in their opponent’s Deployment Zone and the number of enemy units that were Scoring at the start of the game that were Destroyed in Combat. The player with the highest total wins the Primary Objective."
+    "Description": "<u>Determine and Setup Victory Conditions:</u> mark all Scoring units on the opponent’s Army List.\n\n<u>Rules:</u> none.\n\n<u>End of Game Completion:</u> combine the number of:\n\n1. marked Enemy units that were removed as a casualty whilst Engaged in Combat and\n2. Friendly Scoring units in Contact with the Enemy’s Deployment Zone.\n\nThe player with the highest total wins."
   },
   {
-    "Id": "season-secure_target",
-    "Name": "Secure Target",
+    "Id": "season-secure_targets",
+    "Name": "Secure Targets",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: Place two markers with their centers on the line dividing the Battlefield into halves (the dashed line in the figures describing Deployment Types), one on each side of the centre of the Battlefield, as close as possible to a sixth of the length of the long Table Edge away from the Short Table Edges, and more than 1\" away from Impassable Terrain. Note: The markers are 12\" away from the Short Table Edges and 48\" away from each other on a standard 72\" Battlefield.\nRules: A marker is controlled if a player has at least one Scoring Unit within 6\" of the centre of the marker, and the other player does not.\nWin conditions: At the end of Game Turns 3--6, a Victory Counter is awarded to a Player which controls an Objective. The player with the most such Victory Counters at the end of the game wins this Primary Objective."
-  },
-  {
-    "Id": "season-forage_and_plunder",
-    "Name": "Forage and Plunder",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: Nominate a total of three different Terrain Features that are not Walls or Impassible Terrain: First the Terrain Feature closest to the centre of the Battlefield is nominated. Then each player nominates one Terrain Feature that is fully outside of their Deployment zone.\nRules: You automatically plunder a nominated Terrain Feature, that you have not already plundered, when a friendly Scoring Units starts any of its Player Turns 3-6 in contact with it. Both players can plunder all nominated Terrain Features once, even if the other player has already done so.\nWin conditions: At the end of the game, the player that has plundered more nominated Terrain Features than the other player wins this Primary Objective."
+    "Description": "<u>Determine and Setup Victory Conditions:</u> place two markers on opposite sides of the Battlefield, with their centres on the Central Line and 18\"* from the Battlefield Centre.\n\n<u>Rules:</u> END of Game Turns 3 to 6, a player gains a single Objective Counter if they control more markers than their opponent. A marker is controlled if there are any Friendly Scoring units and no Enemy Scoring units within 6\" of a marker.\n\n<u>End of Game Completion:</u> the player with the most Objective Counters wins.\n\n* For Battlefields of a larger or smaller size than the standard 72\"×48\", replace 18\" with a distance equal to a quarter of the Long Battlefield Edge."
   },
   {
     "Id": "season-hold_the_centre",
     "Name": "Hold the Centre",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: Mark the centre of the Battlefield.\nRules: The Battlefield is controlled by the player with the most Scoring Units within 9\" of the centre of the Battlefield (if both players have an equal number of Scoring Units, no one controls it).\nWin conditions: At the end of Game Turns 3--6, a\nVictory Counter is awarded to a Player who controls  at least one marker. The player with the most such Victory Counters at the end of the game wins this Primary Objective."
+    "Description": "<u>Determine and Setup Victory Conditions:</u> mark the Battlefield Centre.\n\n<u>Rules:</u> END of Game Turns 3 to 6, the player with the most Scoring units within 9\" of the Battlefield Centre gains a single Objective Counter.\n\n<u>End of Game Completion:</u> the player with the most Objective Counters wins."
   },
   {
-    "Id": "season-hidden_agendas",
-    "Name": "Hidden Agendas",
+    "Id": "season-skull_of_harald_redstub",
+    "Name": "Skull of Harald Redstub",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: None.\nRules: Each player randomises one Secondary Objective, following the rules for Random Selection of Secondary Objective.\nWin conditions: For each completed Secondary Objective, each player scores 2 Battle Points, and their opponent loses 2 Battle Points.\nThis replaces the normal scoring and losing of Battle Points for both Primary- and Secondary Objectives."
-  },
-  {
-    "Id": "season-capture_the_flag",
-    "Name": "Capture the Flag",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: None.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if you have more Standard Bearers and Battle Standard Bearers on the Battlefield, than the opponent has."
-  },
-  {
-    "Id": "season-commit_to_battle",
-    "Name": "Commit to Battle",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: None.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if you have more Scoring Units in your opponent’s Deployment Zone than the opponent has (in their own Deployment Zone)."
-  },
-  {
-    "Id": "season-demonstrate_superiority",
-    "Name": "Demonstrate Superiority",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: The opponent nominates the two most expensive Scoring Units from their Army List. In case of a tie, randomize. If there are no Scoring Units, nominate the most expensive Rank-and-File unit instead.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if at least one of the nominated units is  Destroyed, Decimated, Shaken, or if it is touching its own Deployment Zone."
-  },
-  {
-    "Id": "season-enslave_and_ransom",
-    "Name": "Enslave and Ransom",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: None.\nRules: You gain an Enslaved Counter each time an enemy unit is Destroyed in Combat.\nIf the unit is Destroyed in step 5 of the Round of Combat sequence (Breaking and Pursuing) you gain an additional Enslaved Counter. This includes failing a Break Test and being caught or dying during the Flee Move, Supernal unit failing a Break Test or Unstable unit losing a Combat and being wiped due to HP loss. This does not include units being destroyed as a direct result of Melee Attacks. Ignore Attachable Models joined to units with Rank-and-File models.\nWin conditions: At the end of the game, you win this Secondary Objective if you have at least four Enslaved Counters."
-  },
-  {
-    "Id": "season-forbid_trespass",
-    "Name": "Forbid Trespass",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: You nominate a Terrain Feature on the Battlefield that is fully outside your Deployment Zone. Impassable Terrain and Walls cannot be nominated.\nRules: A nominated Terrain Feature is plundered when an enemy Scoring Unit starts any of its Player Turn 3--6 in contact with it.\nWin conditions: At the end of the game, you win this Secondary Objective if the nominated Terrain Feature was not plundered."
-  },
-  {
-    "Id": "season-master_the_veil",
-    "Name": "Master the Veil",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: Mark the centre of the Battlefield.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if you have a model with Channel, or that knows a spell (Learned Spell or Bound Spell), within 9\" of the centre of Battlefield, and the opponent has not."
-  },
-  {
-    "Id": "season-seize_and_secure",
-    "Name": "Seize and Secure",
-    "Type": "General",
-    "Description": "Setup during Pre-game Selections: The opponent nominates a Terrain Feature on the Battlefield that is fully outside their Deployment Zone. Impassable Terrain and Walls cannot be nominated.\nRules: A nominated Terrain Feature is plundered when a friendly Scoring Unit starts any of its Player Turn 3--6 in contact with it.\nWin conditions: At the end of the game, you win this Secondary Objective if the nominated Terrain Feature was plundered."
+    "Description": "<u>Determine and Setup Victory Conditions:</u> place a marker on the Battlefield Centre and two markers on opposite sides of the Battlefield, with their centres on the Central Line and 18\"* from the Battlefield Centre. Then place a single Clue Token on each Terrain Feature except Impassable Terrain.\n\n<u>Rules:</u> START of each Friendly Player Turn, pick up a Clue Token from each Terrain Feature where:\n\n • there is a Clue Token,\n • a Friendly Scoring unit is in Contact, and\n • no Enemy Scoring units are in Contact.\n\nEND of Game Turn 3, the player with the most Clue Token selects which marker holds the Skull. In case of a tie, the marker at the Battlefield Centre is selected.\n\n<u>End of Game Completion:</u> the player with the most Scoring units within 6″ of the Skull wins.\n\n* For Battlefields of a larger or smaller size the standard 72″x48″, replace 18″ with a distance equal to a quarter of the Long Battlefield Edge."
   },
   {
     "Id": "season-settle_the_score",
     "Name": "Settle the Score",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: You nominate a unit from the opponent's Army List.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective, if the nominated unit is  Destroyed, Decimated, or Shaken."
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List mark any TWO Rank-and-File units.\n\n<u>End of Game Completion:</u> BOTH marked units are removed as a casualty, Decimated,or Shaken."
+  },
+  {
+    "Id": "season-demonstrate_superiority",
+    "Name": "Demonstrate Superiority",
+    "Type": "General",
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List mark the TWO most expensive Scoring units.\n\n<u>End of Game Completion:</u> at least one of the marked units is removed as a casualty, Decimated, or Shaken."
   },
   {
     "Id": "season-slay_the_beast",
     "Name": "Slay the Beast",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: The opponent nominates the two most expensive non-Scoring Units from their Army List. In case of a tie, randomize. If there are not enough non-Scoring Units, nominate the most expensive Scoring Units instead.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective, if at least one of the nominated units is  Destroyed, Decimated, Shaken, or if it is touching its own Deployment Zone."
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List mark the TWO most expensive Non-Scoring Rank-and-File units or Characters of Height 4-5 with Solitary.\n\n<u>End of Game Completion:</u> at least one of the marked units is removed as a casualty, Decimated, or Shaken."
   },
   {
-    "Id": "season-stand_firm",
-    "Name": "Stand Firm",
+    "Id": "season-assassinate",
+    "Name": "Assassinate",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: The opponent nominates two Rank-and-File Units from your Army List. If possible, each of these should be a Scoring Unit.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if neither of the nominated units are Destroyed, Decimated, or Shaken."
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List mark TWO Characters. These must be: Characters who can be Deployed during Battle Setup. (Note: you cannot mark Hidden Characters.)\n\n<u>End of Game Completion:</u> at least one of the marked units is removed as a casualty, Decimated, or Shaken."
   },
   {
-    "Id": "season-unleash_the_big_guns",
-    "Name": "Unleash the Big Guns",
+    "Id": "season-capture_their_banners",
+    "Name": "Capture their Banners",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: You nominate two Terrain Features on the Battlefield that are not fully within your Deployment Zone. Impassable Terrain and Walls cannot be nominated. Then mark all non-Characters units from your Army List that have Shooting Weapons and one Scoring unit without Shooting Weapons. If less than five units have been marked, you may mark one additional Scoring Unit.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if you have a non-Shaken marked unit in both nominated Terrain Features."
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List mark ALL Scoring units and The Battle Standard Bearer. At least 3 units must be marked.\n\n<u>End of Game Completion:</u> three or more of the marked units are removed as a casualty, Decimated, or Shaken."
   },
   {
-    "Id": "season-work_as_one",
-    "Name": "Work as One",
+    "Id": "season-conserve_our_numbers",
+    "Name": "Conserve our Numbers",
     "Type": "General",
-    "Description": "Setup during Pre-game Selections: Mark the centre of the Battlefield.\nRules: None.\nWin conditions: At the end of the game, you win this Secondary Objective if you have more Scoring Units within 9\" of the centre of Battlefield than the opponent has."
-  },
-  {
-    "Id": "season-selecting_primary_and_secondary_objectives",
-    "Name": "Selecting Primary and Secondary Objectives",
-    "Type": "General",
-    "Description": "In the absence of already chosen Primary Objective and/or Secondary Objectives, e.g. due to players agreeing to play particular ones, or playing in a tournament where these are already set for each game, we recommend consulting the lists below:\n\nPrimary Objective\n\nRoll a D6 to determine what Primary Objective to play.\n\n\t\n  •\n\t\n  •\n\t\n  •\n\t\n  •\n\t\n  •\n\t\n  •\n\nRandom Selection of Secondary Objective\n\nEach player rolls a D3, and consults the column corresponding to their Army Book, re-rolling until they roll a Secondary Objective that they do not already have.\n\nDesigner's Note: If playing with Secondary Objective Cards then do this instead: Draw one card from your Secondary Objective Deck, made from all Secondary Objectives available to your faction. If you have already chosen one or more Secondary Objectives, remove the corresponding cards before drawing.\n\nTable of Secondary Objectives\n\n\t    1whiteblack!5\n\n& BH & DE & DH & DL & EOS & HE & KOE & ID & OK & ONG & SA & SE & UD & VC & VS & WDG\n           & 1 -  1 -    & 1 -    &   &   &   &   & 1 -    &   &   &   &   &\n           & 2 -    &   &   &   &   &   &   & 1 -  2 -    &   &   &   &   & 1\n   &   & 2 -    &   &   & 1 -    &   &   &   &   &   &   & 1 -    & 2\n         &   & 3 -    &   &   &   &   & 1 -  2 -    &   &   &   &   & 1 -\n            &   &   &   & 2 -    & 2 -    &   &   &   &   &   & 1 -  2 -    &\n           & 3 -    &   &   &   &   & 1 -    &   &   & 1 -  1 -    &   &   &\n           &   &   &   & 3 -    &   & 2 -    &   &   &   & 2 -  2 -    &   &\n           &   &   & 1 -    &   &   &   & 2 -    &   &   & 3 -    & 3 -    &\n             &   &   &   &   &   &   & 3 -    & 3 -  3 -    &   &   &   &   & 3\n                &   &   & 2 -    & 1 -  3 -    &   &   &   & 2 -    &   &   &   &\n        &   &   & 3 -    & 2 -    &   & 3 -    &   &   &   &   &   & 2 -\n                &   &   &   &   & 3 -    &   &   &   &   & 3 -    & 3 -    & 3 -"
-  },
-  {
-    "Id": "season-terrain_feature_sizes",
-    "Name": "Terrain Feature Sizes",
-    "Type": "General",
-    "Description": "The table below gives a recommendation for the size of Terrain Features.\n\nHill & Forest & Ruin & Impassable Terrain & Impassable Terrain & Water Terrain & Field & Wall\nhill15mm90 -  forest15mm90 -  ruins15mm90 -  impassableterrain15mm0 -  impassableterrain_small15mm90 -  waterterrain15mm90 -  field15mm90 -  wall5mm90\n15×20m & 15×25m & 20×20m & 15×20m & 15×15m & 15×25m & 15×20m & 2.5×20m"
-  },
-  {
-    "Id": "season-maps",
-    "Name": "Maps",
-    "Type": "General",
-    "Description": "Map 1 -  \n\nMap 2 -  \n\nMap 3 -  \n\nMap 4 -  \n\nMap 5 -  \n\nMap 6 -"
-  },
-  {
-    "Id": "season-ancient_ruins",
-    "Name": "Ancient Ruins",
-    "Type": "General",
-    "Description": "Ancient Ruins follows the rules for Ruins, with the following addition.\n\nExploration\n\nThe first time a unit ends their Movement in contact with an Ancient Ruin:\n\n  •  Roll a D6 to determine the Ancient Ruin type:\n\t\n\t\t\n  •\n\t\t\n  •\n\t\t\n  •\n\t\t\n  •\n\t\t\n  •\n\t\t\n  •\n\t\n\n  •  Apply the determined  effect to the unit.\n\n  •  : Place an Artefact Marker at the centre of the Ruin. The Character model that is the closest to the centre of this marker can cast the Bound Spell corresponding to the determined ruin. If multiple Characters are equally close to the centre of the marker, no model can cast the Bound Spell.\n\n1214.41. \n\n - Booby-traps\n\nThe  unit suffers D6 hits with Str 5 and AP 1.\n\n\n\nForesight (Divination). Bound Spell(4+).\n\n1214.42. \n\n - Hidden Roots\n\nThe Ancient Ruin becomes a Forest, and ceases to be a Ruin. The  unit gains Magic Resistance(2). Duration: Permanent.\n\n\n\nAltered Sight (Cosmology). Bound Spell(4+).\n\n1214.43. \n\n - Curse\n\nThe  unit gains Unruly, Horror. Duration: Permanent.\n\n\n\nWhispers of the Veil (Evocation). Bound Spell(4+).\n\n1214.44. \n\n - No effect\n\n\n\nFountain of Youth (Druidism). Bound Spell(4+).\n\n1214.45. \n\n - Aquila\n\nThe  unit gains +1 Combat Score and Disciplined. This only affects Rank-and-File models. Duration: Permanent.\n\n\n\nWall of Lead (Alchemy). Bound Spell(4+).\n\n1214.46. \n\n - The Roads Beneath\n\nThe  unit gains Ambush(Table Edge).  Duration: Permanent.  The unit may choose to be removed from the Battlefield and placed in Ambush. To arrive at the Battlefield, it must use Ambush(Table Edge) (if e.g. the unit has multiple instances of Ambush).\n\n\n\nSmite the Unbeliever (Thaumaturgy). Bound Spell(4+)."
+    "Description": "<u>Pre-game Selections:</u> on YOUR Army List the opponent marks ALL Scoring units and The Battle Standard Bearer. At least 3 units must be marked.\n\n<u>End of Game Completion:</u> three or more of the marked units are NEITHER removed as acasualty,nor Decimated, nor Shaken."
   },
   {
     "Id": "custom-netted",
