@@ -1,250 +1,177 @@
 [
   {
-    "Id": "8535a67d-b56f-4c6d-bcfb-6fbdb194ae60",
-    "Name": "On Foot",
-    "Type": "Mount",
-    "OwnerId": "68357f77790d8280c4b25074",
-    "WDSDataId": null,
-    "StatlineIndex": "0"
-  },
-  {
     "Id": "1987b953-3936-4757-983e-279c65000596",
     "Name": "Anurarch Wardens",
-    "Type": "Mount",
-    "OwnerId": "68357f77790d8280c4b25074",
-    "WDSDataId": "8d8db790-7e15-40ea-8cdc-ecb24c2a3741",
-    "StatlineIndex": "0"
-  },
-  {
-    "Id": "46532765-3a50-4db3-b23e-86465040c16a",
-    "Name": "On Foot",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b25137",
-    "WDSDataId": null,
-    "StatlineIndex": "0"
-  },
-  {
-    "Id": "7f256b1a-23cf-4329-a9f7-d431715fd3e8",
-    "Name": "Mountain Pteradon",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b25137",
-    "WDSDataId": "fc177375-9618-4371-82cb-265e63d8bd8d",
-    "StatlineIndex": "0"
-  },
-  {
-    "Id": "4d9c70bf-6ecb-41af-914d-bb21d4e418a3",
-    "Name": "Pouakai Sky Tyrant",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b25137",
-    "WDSDataId": "a096573a-a475-4135-8732-d138666bea48",
-    "StatlineIndex": "0"
-  },
-  {
-    "Id": "c246627d-c651-4eae-827e-f4d5b00bcfe8",
-    "Name": "Taurosaur",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b25137",
-    "WDSDataId": "41400bed-e605-4b98-a755-97905d9c5061",
-    "StatlineIndex": "0"
-  },
-  {
-    "Id": "36c62f72-ddcd-4867-ac69-73132c5d1954",
-    "Name": "On Foot",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b2533a",
-    "WDSDataId": null,
-    "StatlineIndex": "0"
+    "Type": 0
   },
   {
     "Id": "9ff5512b-61d3-4066-a976-2ceeb9b054e0",
     "Name": "Saurian Raptor",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b2533a",
-    "WDSDataId": "245f8dfc-4960-409e-add1-6db5cd3b9776",
-    "StatlineIndex": "0"
+    "Type": 0
   },
   {
     "Id": "4a50008c-09af-4a4e-a2d5-af0e92dd7d41",
     "Name": "Alpha Carnosaur",
-    "Type": "Mount",
-    "OwnerId": "68357f78790d8280c4b2533a",
-    "WDSDataId": "b762d243-8937-4fc7-ae59-313fb77b57fb",
-    "StatlineIndex": "0"
+    "Type": 0
   },
   {
-    "Id": "f4b8a3d2-1c9e-4b7f-9e5d-8c3a6b7d4f2e",
-    "Name": "On Foot",
-    "Type": "Mount",
-    "OwnerId": "a3b7c1d9e2f4a8d5f0c6b7d2a",
-    "WDSDataId": null,
-    "StatlineIndex": "0"
+    "Id": "7f256b1a-23cf-4329-a9f7-d431715fd3e8",
+    "Name": "Mountain Pteradon",
+    "Type": 0
+  },
+  {
+    "Id": "4d9c70bf-6ecb-41af-914d-bb21d4e418a3",
+    "Name": "Pouakai Sky Tyrant",
+    "Type": 0
+  },
+  {
+    "Id": "c246627d-c651-4eae-827e-f4d5b00bcfe8",
+    "Name": "Taurosaur",
+    "Type": 0
   },
   {
     "Id": "b7f9c1a2-d2e8-4c3d-9a2f-5e8d3a1b0e7c",
     "Name": "Stone",
-    "Type": "Mount",
-    "OwnerId": "f3a2b9c7d4e1a8f5b6d0c3a9d",
-    "WDSDataId": null,
-    "StatlineIndex": "0"
+    "Type": 0
   },
   {
-    "Id": "3b4d7fed-8fbf-413b-831a-8a705aeec595",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b25475",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "bd495621-e26a-4acc-8af6-3691036cc44c",
+    "Name": "Blowpipe",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-blowpipe"
+      }
+    ]
   },
   {
-    "Id": "dd81c970-5dbb-4efd-ae5d-feec40d826b1",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b25475",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "8baffebb-a595-45a6-ace0-5c3130bcd579",
+    "Name": "Carved Wisdom",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-carved_wisdom"
+      }
+    ]
   },
   {
-    "Id": "2cf134cf-6af2-4744-b072-f2954ea4797b",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b254b1",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "674a30ec-bee5-4082-a58d-dc68b07e0ace",
+    "Name": "Chameleon",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-chameleon"
+      }
+    ]
   },
   {
-    "Id": "4d601b0d-a335-40dd-8bd0-31bb86a0d85c",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b254c7",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "a8b276f3-07cb-4a94-9d38-770605b92d7e",
+    "Name": "Champion with Enclave Wizard",
+    "Type": 1
   },
   {
-    "Id": "2d84c605-0326-412e-bcaa-7cf2a0f9e81b",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b254c7",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "c8038512-053e-4b5f-8a60-e55300b3f195",
+    "Name": "Enclave Wizard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-enclave_wizard"
+      }
+    ]
   },
   {
-    "Id": "fb9e4984-e785-4252-a0ee-cce61720dab5",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b25506",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "d46b95c3-d85e-4537-9773-651fd92a8ac6",
+    "Name": "Enclave Wizard (50x50)",
+    "Type": 1
   },
   {
-    "Id": "4242961e-b014-4b60-933b-99cec0ce4f1b",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f79790d8280c4b25506",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "a0cd909d-96ce-4e6e-8777-0bf6d2c04f1e",
+    "Name": "Engine of the Ancients",
+    "Type": 1
   },
   {
-    "Id": "2a2bdffc-7ef4-4a73-903d-e2aca1b3a824",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7a790d8280c4b25546",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "4492a4b9-4315-4442-859c-4cba42e63f8a",
+    "Name": "Lodestone Shield",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-lodestone_shield"
+      }
+    ]
   },
   {
-    "Id": "4a6d68dc-1c5c-4e91-a210-6f2900c7499d",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7a790d8280c4b25546",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "b5f70a96-7387-4fa8-ac71-7091a90ce232",
+    "Name": "Magnetic Great Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-magnetic_great_bow"
+      }
+    ]
   },
   {
-    "Id": "88ce3ff0-ba15-42e5-8bb5-95f945a6efd5",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7a790d8280c4b25581",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "0384de8f-7458-49a6-9fad-eca07021e38a",
+    "Name": "Magnetic Short Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-magnetic_short_bow"
+      }
+    ]
   },
   {
-    "Id": "83412235-f035-4f13-97c6-d4d91ed8ebfe",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7a790d8280c4b25581",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "684c765c-0377-4829-a2b4-d0177cfd9c5b",
+    "Name": "Marking Bolas",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-marking_bolas"
+      }
+    ]
   },
   {
-    "Id": "892b9743-bb56-4330-8e66-e75c1b974f7b",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7a790d8280c4b255ae",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "0d4d578d-a839-4d07-a43b-bc8708f1d207",
+    "Name": "Monolith of Vitalism",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-monolith_of_vitalism"
+      }
+    ]
   },
   {
-    "Id": "ff33e6d6-f1d0-4f5c-9582-60c19acfb469",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7b790d8280c4b255c1",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "e1d4c873-caa7-4b24-a68b-36e71e5fbf0b",
+    "Name": "Salamander and Aegis",
+    "Type": 1
   },
   {
-    "Id": "06b7ac2a-2a58-405c-84d3-9f43a6bf9fbc",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7b790d8280c4b255c1",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "7acac5e7-3478-4413-a67d-93d9fd7ff1c4",
+    "Name": "Standard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "custom-standard"
+      }
+    ]
   },
   {
-    "Id": "c2aa18d6-7d66-453d-9f82-cf6028217903",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7b790d8280c4b255ee",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
+    "Id": "ccdca7f5-8526-4115-a69d-e6a018d10e5f",
+    "Name": "Suncatcher Crystal",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-suncatcher_crystal"
+      }
+    ]
   },
   {
-    "Id": "35977ba4-2e55-41dc-bf8a-d8488149862f",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7b790d8280c4b255ee",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
-  },
-  {
-    "Id": "5fd1a40f-5570-4c9d-a281-1ec319bb626d",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7b790d8280c4b2563b",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
-  },
-  {
-    "Id": "a7e6acb2-671b-46ad-8805-3ef5da3a22f3",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7b790d8280c4b25657",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
-  },
-  {
-    "Id": "2f9fd621-817d-46a4-b9ea-c58722e063d3",
-    "Name": "Musician",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7c790d8280c4b2567f",
-    "WDSDataId": "musician",
-    "StatlineIndex": "1"
-  },
-  {
-    "Id": "617e3b0b-6a85-4ea6-a56e-d1ba681c78d0",
-    "Name": "Standard Bearer",
-    "Type": "ModelAddRule",
-    "OwnerId": "68357f7c790d8280c4b2567f",
-    "WDSDataId": "standard_bearer",
-    "StatlineIndex": "1"
+    "Id": "510182ec-c90b-4fbf-8221-af9232712bc4",
+    "Name": "Venomous Fortress",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-venomous_fortress"
+      }
+    ]
   }
 ]

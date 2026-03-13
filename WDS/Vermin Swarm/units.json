@@ -2,653 +2,409 @@
   {
     "Id": "68357f94790d8280c4b27059",
     "Name": "Ruinous Dictator",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "440",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f94790d8280c4b27059"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f94790d8280c4b2708e",
     "Name": "Vermin Senator",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "90",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Senatorial Litter"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "e677c6f8-95b1-46ba-b381-a09cf449afb0",
-      "5ca23719-28e6-44bf-8f44-8c2e484b8740"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f94790d8280c4b2708e"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f94790d8280c4b2708e_senatorial_litter",
+    "Name": "Vermin Senator on Senatorial Litter",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "98f9185f-d679-4f4b-b7c9-a8b4dd5ccf17"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f94790d8280c4b27101",
     "Name": "Bloodfur Legate",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "150",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Praetorian Brute",
-        "Triumphal Platform"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "b890390f-9a1e-4d8b-a564-3cc00cb5e96f",
-      "b456d864-e6be-48d2-806b-7b38821d961b",
-      "761c8357-cd97-4898-a327-296ce8bbad8b"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f94790d8280c4b27101"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f94790d8280c4b27101_praetorian_brute",
+    "Name": "Bloodfur Legate on Praetorian Brute",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "aa6c52e2-7df4-4d17-acf2-a0e295b275f0"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f94790d8280c4b27101_triumphal_platform",
+    "Name": "Bloodfur Legate on Triumphal Platform",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "eaa11109-74a1-44e9-988a-a1efb6c7a1c9"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f94790d8280c4b27221",
     "Name": "House Prefect",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "60",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Praetorian Brute"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "7d2e38f9-4aab-4906-b4a2-5a2aefc3f2b2",
-      "8c09e73c-7623-467d-bb06-16bc06c60549"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f94790d8280c4b27221"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f94790d8280c4b27221_praetorian_brute",
+    "Name": "House Prefect on Praetorian Brute",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "87f2a3f4-6b6d-4401-aec8-12e496805699"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f95790d8280c4b272aa",
     "Name": "Swarm Priest",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "200",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Sacred Platform"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "d3df2cf9-47b6-481f-9744-cb22f881885c",
-      "65b11506-b568-4cad-9f4f-12cdce0b3815"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f95790d8280c4b272aa"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f95790d8280c4b272aa_sacred_platform",
+    "Name": "Swarm Priest on Sacred Platform",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "1ecfe8f5-f44b-44aa-a4c9-661d3718d76c"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f95790d8280c4b27348",
     "Name": "Duskblade Assassin",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "120",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f95790d8280c4b27348"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "b2f9a4d8c3e1b5a7d0c9e6f3",
     "Name": "Professor Mauss",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "600",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "d4f8a2b7c3e1d9a0f5b6c4d3e"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a9b3d7e1c4f8b2e6a0d9f5c7a",
     "Name": "The Shadowslice Stalker",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "250",
-      "category": "Characters",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "d3f9e2b4a6d1f8c9b5a7d2c9b"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f96790d8280c4b27402",
     "Name": "Vermin Slingers",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "27",
-      "category": "Core Units",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "47ad7eb1-fdd1-41b7-ab15-175c591b7769",
-      "3f87b2c1-2d0c-4067-b336-1b4c5478ea13"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f96790d8280c4b27404"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f96790d8280c4b273b7",
     "Name": "Vermin Legionaries",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "22",
-      "category": "Core Units",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "8b14d8a9-914b-4636-8ab4-a18e468ef42a",
-      "c8ce265a-104b-4330-8c49-5df159764574"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f96790d8280c4b273b9"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f95790d8280c4b27351",
     "Name": "Blackfur Veterans",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "11",
-      "category": "Core Units",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "ab2b4207-b82b-4f41-99e6-3b2b2812b570",
-      "b6575e93-2fe9-4720-b3b2-dae6e9525681"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f95790d8280c4b27353"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f96790d8280c4b273f0",
     "Name": "Vermin Slaves",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "83",
-      "category": "Core Units",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "16241041-cb6b-47a7-938f-f5832a3afca9"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f96790d8280c4b273f2"
-    ]
-  },  
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
   {
     "Id": "68357f95790d8280c4b27384",
     "Name": "Plague Cultists",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "11",
-      "category": "Core Units",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "9c5215f2-3cc1-4133-ae3c-1b27a6eaf2a1",
-      "06355f4c-04e2-4c88-bf51-0646d311fd41"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f95790d8280c4b27386"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f96790d8280c4b2741a",
     "Name": "Bloodfur Praetorians",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "31",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "696b3e37-686f-44b9-892f-2e1c2e4b7f9f",
-      "a15494bb-f9ad-42ed-8811-32f3f1c29105"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f96790d8280c4b2741c"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f97790d8280c4b2745c",
     "Name": "Rat Swarm",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "110",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f97790d8280c4b2745e"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f97790d8280c4b27452",
     "Name": "Giant Rats",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "54",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f97790d8280c4b27454"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f97790d8280c4b27457",
     "Name": "Fire Rats",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "45",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f97790d8280c4b27459"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f97790d8280c4b2744d",
     "Name": "Vermin Brutes",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-60",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f97790d8280c4b2744f"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f97790d8280c4b27462",
     "Name": "Gladiator Brutes",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "5a94059d-d715-4665-8350-779d70be636e",
-      "91301e1c-3143-46d7-9acb-21512aaa7d19"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f97790d8280c4b27464"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f97790d8280c4b27461",
     "Name": "Legionary Drill Team",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "80",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f97790d8280c4b27461"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f98790d8280c4b274c9",
     "Name": "Shadowfur Stalkers",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "77",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "6e5e530c-6dae-4cf2-8b88-91ec1ea62ef5"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f98790d8280c4b274cb"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f98790d8280c4b274c8",
     "Name": "Doomspark Device",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "240",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f98790d8280c4b274c8"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f98790d8280c4b274dd",
     "Name": "Thunder Brutes",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "130",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "f9dda526-221d-4a57-b63e-f45e9cd39c1e",
-      "3dc3befb-de1b-45db-815c-71ef4e32c693"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f98790d8280c4b274df"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f99790d8280c4b27529",
     "Name": "Ignifier Grenadiers",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "90",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f99790d8280c4b2752b"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f99790d8280c4b2751f",
     "Name": "Experimental Weapon Teams",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "52",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f99790d8280c4b27521"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f99790d8280c4b2752e",
     "Name": "Vermin Artillery",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "180",
-      "category": "Special",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f99790d8280c4b2752e"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f99790d8280c4b27532",
     "Name": "Arena Beast",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "280",
-      "category": "Bread and Games",
-      "army": "Vermin Swarm",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f99790d8280c4b27532"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f99790d8280c4b27535",
     "Name": "Dreadmill Chariots",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "100",
-      "category": "Bread and Games",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f99790d8280c4b27537"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f99790d8280c4b2753a",
     "Name": "Stygian Earthbreaker",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "260",
-      "category": "Bread and Games",
-      "army": "Vermin Swarm",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f99790d8280c4b2753a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   }
 ]

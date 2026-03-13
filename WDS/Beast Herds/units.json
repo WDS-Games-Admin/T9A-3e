@@ -2,552 +2,349 @@
   {
     "Id": "68357f25790d8280c4b1e20c",
     "Name": "Wildhorn Lord",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "195",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Raiding Chariot",
-        "Razortusk Chariot"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "aafcb435-471c-462e-9c8b-2644ae4dc5eb",
-      "a7f23b55-4c6f-4808-81f0-c1dfb771dafe",
-      "429d8862-81a3-4c5f-b461-6d18393fca94"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f25790d8280c4b1e20c"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f25790d8280c4b1e20c_raiding_chariot",
+    "Name": "Wildhorn Lord on Raiding Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "a2600f11-2540-44f6-ad33-2acbc6e213aa"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f25790d8280c4b1e20c_razortusk_chariot",
+    "Name": "Wildhorn Lord on Razortusk Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "d0efe3cd-1302-415c-b002-08a98574ed70"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f25790d8280c4b1e32c",
     "Name": "Wildhorn Chieftain",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "60",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Raiding Chariot"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "955f2e39-038a-4ef5-a2db-36e77ca1e3e3",
-      "4c4f165d-e41d-405a-b637-9c9bdf0632f4"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f25790d8280c4b1e32c"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f25790d8280c4b1e32c_raiding_chariot",
+    "Name": "Wildhorn Chieftain on Raiding Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "08f722f6-aea9-43bf-b995-7fde6dc0e6ae"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f26790d8280c4b1e403",
     "Name": "Soothsayer",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "270",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Raiding Chariot"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "84eac890-333d-44a8-9c1e-e31b6fea4a1e",
-      "9f53928f-ec95-4a37-8f94-cf3d3b789fd1"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f26790d8280c4b1e403"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f26790d8280c4b1e403_raiding_chariot",
+    "Name": "Soothsayer on Raiding Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "035dfa56-3979-4ae1-a0b4-07f4dc3f0607"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f26790d8280c4b1e535",
     "Name": "Centaur Chieftain",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "160",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f26790d8280c4b1e535"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f26790d8280c4b1e492",
     "Name": "Minotaur Warlord",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "450",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f26790d8280c4b1e492"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f26790d8280c4b1e4dd",
     "Name": "Minotaur Chieftain",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "160",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f26790d8280c4b1e4dd"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "f7d2b4e0a3c9d5f3e8c1a4b9d",
-    "Name": "Moohoarrgh, the Perpetuator of Heroes",
+    "Name": "Mooarrgh, The Perpetuator of Heroes",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "380",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "b1d4e8a9237c5f2a9d8b1c3d4"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "t1x4y2u6v7w5q3m9r0p8s4b",
-    "Name": "Ghaa, the Quiet Muzzle",
+    "Name": "Ghaa!, THE Quiet Muzzle",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "380",
-      "category": "Characters",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "a7d8f9b2c4a1e3f9d6c8b0e5"
-    ]
-  }, 
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
   {
     "Id": "68357f26790d8280c4b1e595",
     "Name": "Wildhorn Herd",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "24",
-      "category": "Core Units",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "3a074005-878f-422e-a475-42dd13ce86ce",
-      "c9519cd5-2b08-4a2e-9017-51463bfb9821"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f26790d8280c4b1e597"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f26790d8280c4b1e5e9",
     "Name": "Mongrel Herd",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "17",
-      "category": "Core Units",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "ceddb2e5-7075-4c2e-a901-8161a1a9e388",
-      "5105539f-ab43-4993-a149-3e1c2f015bc2"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f26790d8280c4b1e5eb"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f27790d8280c4b1e625",
     "Name": "Mongrel Raiders",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "75",
-      "category": "Core Units",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "443c5aa7-76bd-4979-8bb6-79239bfc818c"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f27790d8280c4b1e627"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f27790d8280c4b1e637",
     "Name": "Feral Hounds",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "68",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f27790d8280c4b1e639"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f27790d8280c4b1e63c",
     "Name": "Longhorn Herd",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "6",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "0d72c41f-56f3-4bea-9fb1-235e60cc8ef3",
-      "da2204b7-8f51-4dd5-ab87-9855f2d181aa"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f27790d8280c4b1e63e"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f27790d8280c4b1e68a",
     "Name": "Minotaurs",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "90",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "bb7894b1-fed9-4780-b91d-c04747b8e65c",
-      "db326ef2-813d-4f25-b138-6b3d7585aecd"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f27790d8280c4b1e68c"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f27790d8280c4b1e6d5",
     "Name": "Centaurs",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "80",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "4e396bf1-8ae9-4ca7-8d43-8600afb94e10",
-      "41181a66-7d2a-4b38-a2e9-4b52bca8a5c0"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f27790d8280c4b1e6d7"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e72c",
     "Name": "Raiding Chariots",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "120",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e72e"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e731",
     "Name": "Razortusk Herd",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "75",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e733"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e736",
     "Name": "Razortusk Chariot",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "230",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e736"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e737",
     "Name": "Briar Beast",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "120",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e737"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e738",
     "Name": "Gargoyles",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "111",
-      "category": "Special",
-      "army": "Beast Herds",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e73a"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e73d",
     "Name": "Cyclops",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "340",
-      "category": "Terrors of the Wild",
-      "army": "Beast Herds",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e73d"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e73e",
     "Name": "Gortach",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "420",
-      "category": "Terrors of the Wild",
-      "army": "Beast Herds",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e73e"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f28790d8280c4b1e73f",
     "Name": "Jabberwock",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "270",
-      "category": "Terrors of the Wild",
-      "army": "Beast Herds",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f28790d8280c4b1e73f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f29790d8280c4b1e740",
     "Name": "Beast Giant",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "270",
-      "category": "Terrors of the Wild",
-      "army": "Beast Herds",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f29790d8280c4b1e740"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f29790d8280c4b1e74f",
     "Name": "Totemic Beast",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "0",
-      "category": "Extra",
-      "army": "Beast Herds",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f29790d8280c4b1e74f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   }
 ]

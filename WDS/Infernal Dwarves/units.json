@@ -2,639 +2,457 @@
   {
     "Id": "68357f54790d8280c4b21fd3",
     "Name": "Overlord",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "180",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Taurukh Ritual",
-        "Bull of Shamut",
-        "Great Bull of Shamut"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "185bed4c-06db-4caa-8919-e8fcd5bf1e49",
-      "a9d4e1c7-2f8b-4a3e-b6c9-0d5f7e1a2b84",
-      "53c99c8d-f55f-4e43-9563-a9f2a79339ca",
-      "17670b8f-1ca2-4e14-989b-ed41e7acbf9f"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f54790d8280c4b21fd3"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b21fd3_taurukh_ritual",
+    "Name": "Overlord on Taurukh Ritual",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "7f3c9d2a-4b61-4f8e-9c2a-1e6b0a8d5f42"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b21fd3_bull_of_shamut",
+    "Name": "Overlord on Bull of Shamut",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "80c85ad6-2293-4b17-a9ac-37023840ce52"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b21fd3_great_bull_of_shamut",
+    "Name": "Overlord on Great Bull of Shamut",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "85fd36f7-3d9a-488a-9fc7-c03a2e794923"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f54790d8280c4b220ed",
     "Name": "Prophet",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "290",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Seat of Authority",
-        "Kadim Chariot",
-        "Bull of Shamut",
-        "Infernal Bastion",
-        "Great Bull of Shamut"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "ec35e166-93f2-4e3f-86d5-f7fc13b38aeb",
-      "c0c06f7f-1113-4c85-95c1-781e0e368215",
-      "3bbfda03-45b4-4386-816f-96502a253837",
-      "68ba6bfd-c7bd-4f9f-b914-74c099c92304",
-      "03a5d88e-3f8c-4c7d-860e-e39791ad165a",
-      "1194ae41-c10f-4c26-9bf9-338b9b0015ed"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f54790d8280c4b220ed"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b220ed_seat_of_authority",
+    "Name": "Prophet on Seat of Authority",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "99c40cac-affe-442d-b6e0-1c3634ca0ba7"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b220ed_kadim_chariot",
+    "Name": "Prophet on Kadim Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "5272868e-879b-4e9b-a190-34311eee413b"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b220ed_bull_of_shamut",
+    "Name": "Prophet on Bull of Shamut",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "78bcc17d-0365-4ec9-9101-ce29dd9a197e"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b220ed_infernal_bastion",
+    "Name": "Prophet on Infernal Bastion",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "5eca85fa-e8f0-4dc6-8930-9e5362bede1b"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f54790d8280c4b220ed_great_bull_of_shamut",
+    "Name": "Prophet on Great Bull of Shamut",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "f00c7d46-8174-404d-a8a2-80d7525e7192"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f55790d8280c4b2235a",
     "Name": "Vizier",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "70",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Seat of Authority",
-        "Bull of Shamut",
-        "Infernal Bastion"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "56884758-1e18-4659-9b53-96ee44135fd7",
-      "7c564539-e70d-44d3-805a-7cbfe401dace",
-      "2b1c2e43-9e6a-4770-85e5-fb7a1a530b04",
-      "7b13ac28-5927-46b9-9ce5-b01115cfcb20"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f55790d8280c4b2235a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f55790d8280c4b2235a_seat_of_authority",
+    "Name": "Vizier on Seat of Authority",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "2db2ff45-8048-403f-9ad8-614d4d56b959"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f55790d8280c4b2235a_bull_of_shamut",
+    "Name": "Vizier on Bull of Shamut",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "2908d7d1-e131-4320-b253-50faa68c5101"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f55790d8280c4b2235a_infernal_bastion",
+    "Name": "Vizier on Infernal Bastion",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "079a609a-f23a-4785-8a41-7546afc40f69"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f56790d8280c4b2250f",
     "Name": "Taurukh Commissioner",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "220",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f56790d8280c4b2250f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f56790d8280c4b22567",
     "Name": "Vassal Conjurer",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "250",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Vassal Steed"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "827b925c-e653-4552-a047-d1814113cf11",
-      "76fb7091-c79a-4b81-9fbb-39e3f811d47b"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f56790d8280c4b22567"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f56790d8280c4b22567_vassal_steed",
+    "Name": "Vassal Conjurer on Vassal Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "20b14159-c797-4f9e-82b8-cc189c2223e5"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f56790d8280c4b225d2",
     "Name": "Lamassu Scholar",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "300",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f56790d8280c4b225d2"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a2f5e3b1d8c7a6e9b4c2d1f8b",
     "Name": "Abazzalem, the Mechanical Lamassu",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "800",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "b4d2a7e3f9c1d6a5b9c4e7d3f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a7d9b3e6f1c4a8f2b9d3c5e7a",
     "Name": "Ibat-Sokavum, the Flying Charioteer",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "800",
-      "category": "Characters",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "a3f9b7c2e6d1a4f5b8c2d9e7a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f56790d8280c4b225e9",
     "Name": "Infernal Warriors",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "71",
-      "category": "Core Units",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "baf10ee8-b401-4187-8fd2-f52579173a0c",
-      "f32f1d67-7307-43d6-acb4-c30b9b28151a"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f56790d8280c4b225eb"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f56790d8280c4b22628",
     "Name": "Citadel Guard",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "70",
-      "category": "Core Units",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "c3e3545b-82c3-4641-aa4a-ffa072f2218f",
-      "759255e8-200b-4f0a-9dc2-27aca6f4a6ff"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f56790d8280c4b2262a"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f57790d8280c4b22667",
     "Name": "Vassal Levies",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "56",
-      "category": "Core Units",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "2f222bad-dee8-445e-9c09-28c9faf6e87d",
-      "6c2f8e16-af0a-4ec7-8f4a-f6d5d3df87cc"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f57790d8280c4b22669"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f57790d8280c4b226ac",
     "Name": "Shackled Slaves",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "46",
-      "category": "Core Units",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "46286e05-4a4b-400f-97e0-e3708fa3e7f6"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f57790d8280c4b226ae"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f58790d8280c4b2273e",
     "Name": "Kadim Incarnates",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "20aa6507-2cad-49e9-b270-814e22fa4df1"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f58790d8280c4b22740"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f57790d8280c4b226c0",
     "Name": "Kadim Chariot",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "220",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f57790d8280c4b226c0"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f57790d8280c4b226c3",
     "Name": "Immortals",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-7",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "4b270534-a1d2-48af-a1c9-9a7fe42da6f5",
-      "d3e7b6d1-4b3d-455a-aa7d-9bf8b69dbf0a"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f57790d8280c4b226c5"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f58790d8280c4b22702",
     "Name": "Disciples of Lugar",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "68",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "ad5db304-ae05-4822-b0a2-5d9c1b206b21",
-      "e7b2d4c7-8d09-499b-b8a0-a05ce9af0f2c"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f58790d8280c4b22704"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f58790d8280c4b2274c",
     "Name": "Taurukh Enforcers",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "99",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "8a8120fa-5154-4407-a726-7035758e5ebd",
-      "7e06ea06-b03c-4516-8cbf-cf12eaa6603b"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f58790d8280c4b2274e"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f58790d8280c4b22794",
     "Name": "Taurukh Anointed",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "130",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "c70e93db-711c-4765-90f7-82ec6d431b84",
-      "1654bbbf-6db4-4822-aab5-de41f3794a5e"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f58790d8280c4b22796"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f59790d8280c4b227d9",
     "Name": "Vassal Cavalry",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "124",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "bb660b4d-d82a-4683-af16-08e3c0dec078",
-      "b66944c2-c23c-487c-9445-0a4467787d1f"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f59790d8280c4b227db"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f59790d8280c4b2280d",
     "Name": "Vassal Slingshot",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "80",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f59790d8280c4b2280d"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f59790d8280c4b2280e",
     "Name": "Gunnery Team",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "170",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Naphtha Thrower",
-        "Titan Mortar",
-        "Rocket Battery"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "917ec788-7217-4b89-b46c-5bf569d5f69f",
-      "ac003b72-9f89-4cdc-87a6-9f06f7dd9949",
-      "35d29e01-5d2e-4eaa-adb7-574233873482"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f59790d8280c4b2280e"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f59790d8280c4b22822",
     "Name": "Infernal Artillery",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "170",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Naphtha Thrower",
-        "Titan Mortar",
-        "Rocket Battery"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "c55fc6c9-10f7-41a5-8bf3-72bae58f970b",
-      "da08bb1d-24ea-4d97-a123-ee3e172d45ca",
-      "d9f8fc81-65eb-4f35-886c-a797cfad99b5"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f59790d8280c4b22822"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f59790d8280c4b2280c",
     "Name": "Infernal Bastion",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "380",
-      "category": "Special",
-      "army": "Infernal Dwarves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f59790d8280c4b2280c"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5a790d8280c4b2283c",
     "Name": "Infernal Engine",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "440",
-      "category": "Instruments of Destruction",
-      "army": "Infernal Dwarves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Naphtha Thrower",
-        "Titan Mortar",
-        "Rocket Battery",
-        "Rock Crusher"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "da31a4ba-89d0-4cef-87c2-491a6b4fd8b5",
-      "58b6bcbb-290d-479f-a635-0489e2502f57",
-      "3be6462e-175a-4fee-994b-c17b79ad270f",
-      "045654e4-b100-4cf9-810b-9ea0ce32084e"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5a790d8280c4b2283c"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5a790d8280c4b22836",
     "Name": "Kadim Titan",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "500",
-      "category": "Instruments of Destruction",
-      "army": "Infernal Dwarves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5a790d8280c4b22836"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5a790d8280c4b2285a",
     "Name": "Citizen Giant",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "300",
-      "category": "Instruments of Destruction",
-      "army": "Infernal Dwarves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5a790d8280c4b2285a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   }
 ]

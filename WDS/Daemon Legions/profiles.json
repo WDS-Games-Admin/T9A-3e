@@ -2,2919 +2,675 @@
   {
     "Id": "68357f2e790d8280c4b1ec4a",
     "Name": "Harbinger of Father Chaos",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Harbinger of Father Chaos",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_87"
       },
       {
-        "Name": "Harbinger of Father Chaos",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_88"
       },
       {
-        "Name": "Harbinger",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_89"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "6731dc76-26c1-4354-8968-3d106b0b0139",
-    "Name": "Hellsteed",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "160"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-strider": "Strider",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-hit_and_run": "Hit and Run",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Harbinger of Father Chaos on Hellsteed",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Hellsteed",
-        "Values": {
-          "Ad": "10",
-          "Ma": "10",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-fearless": "Fearless",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-hit_and_run": "Hit and Run",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard"          
-        }
+        "Id": "statline_90"
       },
       {
-        "Name": "Hellsteed",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_91"
       },
       {
-        "Name": "Hellsteed",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_89"
+      },
+      {
+        "Id": "statline_92"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "75afaeaa-4824-4969-946c-7ffc1dd490e5",
-    "Name": "Great Beast",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "190"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Harbinger of Father Chaos on Great Beast of Prophecy",
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Great Beast",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_93"
       },
       {
-        "Name": "Great Beast",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_94"
       },
       {
-        "Name": "Great Beast",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_89"
+      },
+      {
+        "Id": "statline_95"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "ca83a9a1-281d-4d5e-9bea-a02e05e65700",
-    "Name": "Burning Wheel",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "205"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-captain": "Captain",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Harbinger of Father Chaos on Burning Wheel",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Burning Wheel",
-        "Values": {
-          "Ad": "10",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-captain": "Captain",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",          
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard"          
-        }
+        "Id": "statline_96"
       },
       {
-        "Name": "Burning Wheel",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "1",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_97"
       },
       {
-        "Name": "Burning Wheel",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_89"
+      },
+      {
+        "Id": "statline_98"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "d996d1ef-02e9-456a-8b33-134c7235afea",
-    "Name": "Dark Pulpit",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "210"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-exclusive": "Exclusive (Core unit)",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Harbinger of Father Chaos on Dark Pulpit",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Dark Pulpit",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {  
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-exclusive": "Exclusive (Core unit)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride",          
-          "rulebook-war_platform": "War Platform"         
-        }
+        "Id": "statline_99"
       },
       {
-        "Name": "Dark Pulpit",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "1",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_100"
       },
       {
-        "Name": "Dark Pulpit",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_89"
+      },
+      {
+        "Id": "statline_101"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f2e790d8280c4b1ee41",
     "Name": "Kuulima's Deceiver",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-channel": "Channel (1)",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-protean_magic": "Protean Magic (2)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "dl-know_thyself": "Know Thyself",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Kuulima's Deceiver",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {          
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_conclave": "Wizard Conclave"
-        }
+        "Id": "statline_102"
       },
       {
-        "Name": "Kuulima's Deceiver",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_103"
       },
       {
-        "Name": "Kuulima's Deceiver",
-        "Values": {
-          "At": "1",
-          "Of": "7",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "dl-know_thyself": "Know Thyself",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-poison_attacks": "Poison Attacks"          
-        }
+        "Id": "statline_104"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f2e790d8280c4b1ee6d",
     "Name": "Maw of Akaan",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "dl-path_of_destruction": "Path of Destruction",
-      "dl-devour": "Devour",
-      "rulebook-regeneration": "Regeneration (5+)",
-      "rulebook-aegis": "Aegis (5+ against Magical Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "8",
+    "Children": [
       {
-        "Name": "Maw of Akaan",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {          
-          "rulebook-fearless": "Fearless",          
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_105"
       },
       {
-        "Name": "Maw of Akaan",
-        "Values": {
-          "HP": "10",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "0",
-          "Aeg": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
-          "dl-devour": "Devour",
-          "rulebook-regeneration": "Regeneration (5+)"          
-        }
+        "Id": "statline_106"
       },
       {
-        "Name": "Maw of Akaan",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "7",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-path_of_destruction": "Path of Destruction",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"          
-        }
+        "Id": "statline_107"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "150",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f2e790d8280c4b1ee9b",
     "Name": "Miser of Sugulag",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-terror": "Terror",
-      "dl-bribed_enchantments": "Bribed Enchantments",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-resistance": "Resistance ( against Attacks From Front Facing)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Miser of Sugulag",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "dl-bribed_enchantments": "Bribed Enchantments",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride",          
-          "rulebook-terror": "Terror",          
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_108"
       },
       {
-        "Name": "Miser of Sugulag",
-        "Values": {
-          "HP": "7",
-          "Df": "7",
-          "Re": "6",
-          "Arm": "3",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-resistance": "Resistance (against Melee Attacks from models engaged in the Front Facing)"
-        }
+        "Id": "statline_109"
       },
       {
-        "Name": "Miser of Sugulag",
-        "Values": {
-          "At": "5",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_110"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f2f790d8280c4b1eec8",
     "Name": "Courtesan of Cibaresh",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-strider": "Strider",
-      "rulebook-solitary": "Solitary",
-      "rulebook-terror": "Terror",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-musician": "Musician",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "dl-razor_tentacles": "Razor Tentacles",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-sweeping_attack": "Sweeping Attack (Att 6 hits, Str 5, AP 1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Courtesan of Cibaresh",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {          
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-musician": "Musician",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_111"
       },
       {
-        "Name": "Courtesan of Cibaresh",
-        "Values": {
-          "HP": "7",
-          "Df": "7",
-          "Re": "6",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_112"
       },
       {
-        "Name": "Courtesan of Cibaresh",
-        "Values": {
-          "At": "6",
-          "Of": "7",
-          "St": "5",
-          "AP": "4",
-          "Ag": "7"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-razor_tentacles": "Razor Tentacles",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-sweeping_attack": "Sweeping Attack (Att 6 hits, Str 5, AP 1)"
-        }
+        "Id": "statline_113"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f2f790d8280c4b1eef5",
     "Name": "Omen of Savar",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "dl-divine_right": "Divine Right",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-lethal_strike": "Lethal Strike (towards Characters)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, towards Characters)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Omen of Savar",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {          
-          "rulebook-disciplined": "Disciplined",
-          "dl-divine_right": "Divine Right",
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_114"
       },
       {
-        "Name": "Omen of Savar",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
-        }
+        "Id": "statline_115"
       },
       {
-        "Name": "Omen of Savar",
-        "Values": {
-          "At": "D3+3",
-          "Of": "D6+4",
-          "St": "6",
-          "AP": "3",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike (towards Characters)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, towards Characters)"
-        }
+        "Id": "statline_116"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "af0a6cf2-d137-49ae-b130-febc4e5760e5",
-    "Name": "Hellsteed (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "450"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "dl-trophy_for_the_collection": "Trophy for the Collection",   
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "dl-divine_right": "Divine Right",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-fly": "Fly",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (2D3)",
-      "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Omen of Savar on Throne of Overwhelming Splendour",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Hellsteed (2)",
-        "Values": {
-          "Ad": "10",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "dl-trophy_for_the_collection": "Trophy for the Collection",
-          "rulebook-disciplined": "Disciplined",
-          "dl-divine_right": "Divine Right",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",          
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_117"
       },
       {
-        "Name": "Hellsteed (2)",
-        "Values": {
-          "HP": "6",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+ against Magical Attacks)"
-        }
+        "Id": "statline_118"
       },
       {
-        "Name": "Hellsteed (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_116"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "4",
-          "AP": "3",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (2D3)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_119"
+      },
+      {
+        "Id": "statline_120"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
-    {
+  {
     "Id": "68357f2f790d8280c4b1ef54",
     "Name": "Sentinel of Nukuja",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-wizard_master": "Wizard Master",
-      "dl-omniscience": "Omniscience",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-channel": "Channel (1)",
-      "rulebook-grind_attack": "Grind Attack (3)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Sentinel of Nukuja",
-        "Values": {
-          "Ad": "0",
-          "Ma": "0",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-channel": "Channel (1)",
-          "rulebook-fearless": "Fearless",
-          "dl-omniscience": "Omniscience",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_master": "Wizard Master"
-        }
+        "Id": "statline_121"
       },
       {
-        "Name": "Sentinel of Nukuja",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_122"
       },
       {
-        "Name": "Sentinel of Nukuja",
-        "Values": {
-          "At": "0",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "0"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (3)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_123"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "88f8d128-71d9-4dfe-8dc2-174e970fb704",
-    "Name": "Dark Pulpit",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "650"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-wizard_master": "Wizard Master",
-      "dl-omniscience": "Omniscience",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-channel": "Channel (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sentinel of Nukuja on Dark Pulpit",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Dark Pulpit",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-channel": "Channel (1)",
-          "rulebook-fearless": "Fearless",          
-          "dl-omniscience": "Omniscience",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_master": "Wizard Master"
-        }
+        "Id": "statline_124"
       },
       {
-        "Name": "Dark Pulpit",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "1",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_125"
       },
       {
-        "Name": "Dark Pulpit",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_123"
+      },
+      {
+        "Id": "statline_101"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "88f8d128-71d9-4dfe-8dc2-174e970fb704ss",
-    "Name": "Strixian Spirit",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "650"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-wizard_master": "Wizard Master",
-      "dl-omniscience": "Omniscience",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-channel": "Channel (1)",
-      "rulebook-exclusive": "Exclusive (Core unit)",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-terror": "Terror"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sentinel of Nukuja on Strixian Spirit",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Strixian Spirit",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-channel": "Channel (1)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "dl-omniscience": "Omniscience",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-wizard_master": "Wizard Master"          
-        }
+        "Id": "statline_126"
       },
       {
-        "Name": "Strixian Spirit",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_127"
       },
       {
-        "Name": "Strixian Spirit",
-        "Values": {
-          "At": "0",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "0"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (3)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_123"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f2f790d8280c4b1efb2",
     "Name": "Vanadra's Scourge",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "dl-swift_anger": "Swift Anger",
-      "rulebook-fly": "Fly",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-rage": "Rage",
-      "rulebook-fury": "Fury",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-aegis": "Aegis (4+ against Melee Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Vanadra's Scourge",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-supernal": "Supernal",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror"
-        }
+        "Id": "statline_128"
       },
       {
-        "Name": "Vanadra's Scourge",
-        "Values": {
-          "HP": "7",
-          "Df": "4",
-          "Re": "6",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-aegis": "Aegis (4+ against Melee Attacks)"
-        }
+        "Id": "statline_129"
       },
       {
-        "Name": "Vanadra's Scourge",
-        "Values": {
-          "At": "5",
-          "Of": "8",
-          "St": "7",
-          "AP": "4",
-          "Ag": "0"
-        },
-        "RuleIds": {
-          "rulebook-fury": "Fury",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-rage": "Rage",          
-          "rulebook-stomp_attack": "Stomp Attack (D6)",          
-          "dl-swift_anger": "Swift Anger"
-        }
+        "Id": "statline_130"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "d2a8f4b12d3c5e7a9f9b0c4d2",
     "Name": "Tristitia",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-aegis": "Aegis (5+)",
-      "dl-abandon_all_hope": "Abandon All Hope",
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "dl-growing_despair": "Growing Despair",
-      "rulebook-Hard Target": "Hard Target (1)",
-      "rulebook-horror": "Horror",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-march_and_shoot": "March and Shoot",
-      "rulebook-psychic_attacks": "Psychic Attacks",
-      "rulebook-solitary": "Solitary",
-      "rulebook-supernal": "Supernal",
-      "rulebook-stomp_attacks_attack": "Stomp Attacks (D6 hits)",
-      "rulebook-swiftstride": "Swiftride",
-      "rulebook-terror": "Terror",
-      "rulebook-wizard_master": "Wizard Master"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Tristitia",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "dl-abandon_all_hope": "Abandon All Hope",
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "dl-growing_despair": "Growing Despair",
-          "rulebook-horror": "Horror",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftride",
-          "rulebook-terror": "Terror",
-          "rulebook-wizard_master": "Wizard Master (Evocation)"
-        }
+        "Id": "statline_131"
       },
       {
-        "Name": "Tristitia",
-        "Values": {
-          "HP": "7",
-          "Df": "4",
-          "Re": "6",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_132"
       },
       {
-        "Name": "Tristitia",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "9",
-          "AP": "10",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-march_and_shoot": "March and Shoot",
-          "rulebook-psychic_attacks": "Psychic Attacks",
-          "rulebook-stomp_attacks_attack": "Stomp Attacks (D6 hits)"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
+        "Id": "statline_133"
       }
-    }
+    ]
   },
-{
+  {
     "Id": "e2937d5b4f6a9c882ab9b1f70",
     "Name": "Tergon Khan",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "dl-commander_of_the_steppes": "Commander of the Steppes",
-      "rulebook-disciplined": "Disciplined", 
-      "dl-divine_right": "Divine Right", 
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "dl-golden_helm": "Golden Helm",
-      "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
-      "rulebook-supernal": "Supernal",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept (Divination)",
-      "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
-      "dl-bronze_backbone": "Bronze Backbone (Dominant)",
-      "rulebook-lethal_strike": "Lethal Strike (against Characters)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-      "rulebook-zeal": "Zeal (Dragons)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Tergon Khan",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "dl-commander_of_the_steppes": "Commander of the Steppes",
-          "rulebook-disciplined": "Disciplined", 
-          "dl-divine_right": "Divine Right", 
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "dl-golden_helm": "Golden Helm",
-          "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_adept": "Wizard Adept (Divination)",
-          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
-          "dl-bronze_backbone": "Bronze Backbone (Dominant)",
-          "rulebook-lethal_strike": "Lethal Strike (against Characters)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-          "rulebook-zeal": "Zeal (Dragons)"
-        }
+        "Id": "statline_134"
       },
       {
-        "Name": "Tergon Khan",
-        "Values": {
-          "HP": "4",
-          "Df": "9",
-          "Re": "2",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {          
-          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)"
-        }
+        "Id": "statline_135"
       },
       {
-        "Name": "Tergon Khan",
-        "Values": {
-          "At": "3D3+3",
-          "Of": "3D3+3",
-          "St": "6",
-          "AP": "3",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "dl-bronze_backbone": "Bronze Backbone (Dominant)",
-          "rulebook-lethal_strike": "Lethal Strike (against Characters)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-          "rulebook-zeal": "Zeal (Dragons)"
-        }
+        "Id": "statline_136"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "f39d2ac4-5b99-42e1-b0f7-7b0adf5d6d9b",
-    "Name": "Hellsteed",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "160"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "dl-commander_of_the_steppes": "Commander of the Steppes",
-      "rulebook-disciplined": "Disciplined", 
-      "dl-divine_right": "Divine Right", 
-      "rulebook-fearless": "Fearless",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-general": "General",
-      "dl-golden_helm": "Golden Helm",
-      "rulebook-hit_and_run": "Hit and Run",
-      "rulebook-light_troops": "Light Troops",
-      "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
-      "rulebook-strider": "Strider",
-      "rulebook-supernal": "Supernal",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-wizard_adept": "Wizard Adept (Divination)",
-      "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
-      "dl-bronze_backbone": "Bronze Backbone (Dominant)",
-      "rulebook-lethal_strike": "Lethal Strike (against Characters)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-      "rulebook-zeal": "Zeal (Dragons)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Tergon Khan on Hellsteed",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Hellsteed",
-        "Values": {
-          "Ad": "10",
-          "Ma": "10",
-          "Di": "10",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "dl-commander_of_the_steppes": "Commander of the Steppes",
-          "rulebook-disciplined": "Disciplined", 
-          "dl-divine_right": "Divine Right",
-          "rulebook-fearless": "Fearless",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-general": "General",
-          "dl-golden_helm": "Golden Helm",
-          "rulebook-hit_and_run": "Hit and Run",
-          "rulebook-light_troops": "Light Troops",
-          "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
-          "rulebook-strider": "Strider",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-wizard_adept": "Wizard Adept (Divination)"
-        }
-      },  
-      {
-        "Name": "Hellsteed",
-        "Values": {
-          "HP": "4",
-          "Df": "9",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)"
-        }
+        "Id": "statline_137"
       },
       {
-        "Name": "Hellsteed",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_138"
+      },
+      {
+        "Id": "statline_136"
+      },
+      {
+        "Id": "statline_92"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
-{
+  {
     "Id": "b39e2b7f-7a6c-49b0-b57a-3e6c79d8abf7",
-    "Name": "Great Beast",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "190"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "dl-commander_of_the_steppes": "Commander of the Steppes",
-      "rulebook-disciplined": "Disciplined", 
-      "dl-divine_right": "Divine Right", 
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "dl-golden_helm": "Golden Helm",
-      "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
-      "rulebook-supernal": "Supernal",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept (Divination)",
-      "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)",
-      "dl-bronze_backbone": "Bronze Backbone (Dominant)",
-      "rulebook-lethal_strike": "Lethal Strike (against Characters)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-      "rulebook-zeal": "Zeal (Dragons)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-impact_hits": "Impact Hits (2 hits)",
-      "rulebook-stomp_attack": "Stomp Attack (1 hit)"
-      },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Tergon Khan on Great Beast of Prophecy",
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Great Beast",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "dl-commander_of_the_steppes": "Commander of the Steppes",
-          "rulebook-disciplined": "Disciplined", 
-          "dl-divine_right": "Divine Right", 
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "dl-golden_helm": "Golden Helm",
-          "dl-revoke_the_mandate_of_heaven": "Revoke the Mandate of Heaven",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_adept": "Wizard Adept (Divination)"
-        }
+        "Id": "statline_139"
       },
       {
-        "Name": "Great Beast",
-        "Values": {
-          "HP": "4",
-          "Df": "9",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+, against Magical Attacks ; 5+)"
-        }
+        "Id": "statline_140"
       },
       {
-        "Name": "Great Beast",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-impact_hits": "Impact Hits (2 hits)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1 hit)"
-        }
+        "Id": "statline_136"
+      },
+      {
+        "Id": "statline_141"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f30790d8280c4b1efe2",
     "Name": "Imps",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "dl-energy_bolts": "Energy Bolts (4+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Imps",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_142"
       },
       {
-        "Name": "Imps",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-aegis": "Aegis (3+ against Ranged Attacks)"
-        }
+        "Id": "statline_143"
       },
       {
-        "Name": "Imp",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "2",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-energy_bolts": "Energy Bolts (4+)"          
-        }
+        "Id": "statline_144"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f30790d8280c4b1f012",
     "Name": "Succubi",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "dl-smother": "Smother (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Succubi",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_145"
       },
       {
-        "Name": "Succubi",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_146"
       },
       {
-        "Name": "Succubus",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "3",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-smother": "Smother (1)"
-        }
+        "Id": "statline_147"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f30790d8280c4b1f03c",
     "Name": "Lemures",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Lemures",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_148"
       },
       {
-        "Name": "Lemures",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_149"
       },
       {
-        "Name": "Lemure",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_150"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f30790d8280c4b1f066",
     "Name": "Myrmidons",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
-      "cl-fury": "Fury",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Myrmidons",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_151"
       },
       {
-        "Name": "Myrmidons",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-        }
+        "Id": "statline_152"
       },
       {
-        "Name": "Myrmidon",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
-          "rulebook-fury": "Fury",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_153"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f31790d8280c4b1f090",
     "Name": "Eidolons",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-stand_and_shoot": "Stand and Shoot",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "dl-dark_fire": "Dark Fire (3+)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Eidolons",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-stand_and_shoot": "Stand and Shoot",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_154"
       },
       {
-        "Name": "Eidolons",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_155"
       },
       {
-        "Name": "Eidolon",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "2",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "dl-dark_fire": "Dark Fire (3+)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stand_and_shoot": "Stand and Shoot"          
-        }
+        "Id": "statline_156"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f31790d8280c4b1f09d",
     "Name": "Hellhounds",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-horror": "Horror",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Hellhounds",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-horror": "Horror",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_157"
       },
       {
-        "Name": "Hellhounds",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_158"
       },
       {
-        "Name": "Hellhound",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_159"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f31790d8280c4b1f0b7",
     "Name": "Threshing Engine",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "dl-smother": "Smother (1)",
-      "rulebook-impact_hits": "Impact Hits (2D3)",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Threshing Engine",
-        "Values": {
-          "Ad": "10",
-          "Ma": "5",
-          "Di": "7",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_160"
       },
       {
-        "Name": "Threshing Engine",
-        "Values": {
-          "HP": "4",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_161"
       },
       {
-        "Name": "Tiller (2)",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "3",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-smother": "Smother (1)"
-        }
+        "Id": "statline_162"
       },
       {
-        "Name": "Hellsteed (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_119"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "4",
-          "AP": "3",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (2D3)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_120"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f31790d8280c4b1f10a",
     "Name": "Titanslayer Chariot",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "dl-mountain_breaker": "Mountain Breaker",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "cl-fury": "Fury",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-devastating_charge": "Devastating Charge (+2Att, +1AP)",
-      "rulebook-devastating_charge": "Devastating Charge (+1Str, +1AP)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-impact_hits": "Impact Hits (D3+1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Titanslayer Chariot",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "dl-mountain_breaker": "Mountain Breaker",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_163"
       },
       {
-        "Name": "Titanslayer Chariot",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_164"
       },
       {
-        "Name": "Myrmidon (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-fury": "Fury",
-          "rulebook-devastating_charge": "Devastating Charge (+2Att, +1AP)",
-          "rulebook-magical_attacks": "Magical Attacks"          
-        }
+        "Id": "statline_165"
       },
       {
-        "Name": "Beast",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1Str, +1AP)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_166"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "7",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3+1)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_167"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f31790d8280c4b1f11e",
     "Name": "Mageblight Gremlins",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Table Edge, or unit containing Wizard)",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-poison_attacks": "Poison Attacks (towards units containing Wizard)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "dl-veil_stalker": "Veil Stalker",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-distracting": "Distracting (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Mageblight Gremlins",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "4",
-          "Hgt": "0"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Ta(Battlefield Edge, or unit containing Wizard)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-supernal": "Supernal"
-        }
+        "Id": "statline_168"
       },
       {
-        "Name": "Mageblight Gremlins",
-        "Values": {
-          "HP": "5",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-hard_target": "Hard Target (1)",
-          "dl-veil_stalker": "Veil Stalker"          
-        }
+        "Id": "statline_169"
       },
       {
-        "Name": "Mageblight Gremlin",
-        "Values": {
-          "At": "6",
-          "Of": "2",
-          "St": "2",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-poison_attacks": "Poison Attacks (towards units containing Wizard)"          
-        }
+        "Id": "statline_170"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f32790d8280c4b1f12a",
     "Name": "Clawed Fiends",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "dl-smother": "Smother (3, 4)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Clawed Fiends",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "7",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_171"
       },
       {
-        "Name": "Clawed Fiends",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-        }
+        "Id": "statline_172"
       },
       {
-        "Name": "Clawed Fiend",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "2",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "dl-smother": "Smother (3, 4)",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_173"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f32790d8280c4b1f154",
     "Name": "Hoarders",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-strider": "Strider",
-      "rulebook-swiftstride": "Swiftstride",
-      "dl-tightening_grasp": "Tightening Grasp",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-parry": "Parry"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Hoarders",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",
-          "rulebook-strider": "Strider",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_174"
       },
       {
-        "Name": "Hoarders",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "0",
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-parry": "Parry"
-        }
+        "Id": "statline_175"
       },
       {
-        "Name": "Hoarder",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "4",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-tightening_grasp": "Tightening Grasp"
-        }
+        "Id": "statline_176"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f32790d8280c4b1f187",
     "Name": "Succubi Tempters",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-strider": "Strider",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-hit_and_run": "Hit and Run",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "dl-smother": "Smother (2)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Succubi Tempters",
-        "Values": {
-          "Ad": "10",
-          "Ma": "10",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-hit_and_run": "Hit and Run",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard"          
-        }
+        "Id": "statline_177"
       },
       {
-        "Name": "Succubi Tempters",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_178"
       },
       {
-        "Name": "Succubus",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "3",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "dl-smother": "Smother (2)"
-        }
+        "Id": "statline_147"
       },
       {
-        "Name": "Hellsteed",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_92"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f32790d8280c4b1f1b5",
     "Name": "Blazing Glory",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-solitary": "Solitary",
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "dl-falling_star": "Falling Star",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Blazing Glory",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "dl-falling_star": "Falling Star",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_179"
       },
       {
-        "Name": "Blazing Glory",
-        "Values": {
-          "HP": "5",
-          "Df": "*",
-          "Re": "5",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-aegis": "Aegis (4+ against Magical Attacks)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_180"
       },
       {
-        "Name": "Blazing Glory",
-        "Values": {
-          "At": "5",
-          "Of": "*",
-          "St": "5",
-          "AP": "5",
-          "Ag": "0"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"          
-        }
+        "Id": "statline_181"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f32790d8280c4b1f1bf",
     "Name": "Hope Harvester",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-attached": "Attached",
-      "rulebook-exclusive": "Exclusive (Core Unit)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "dl-aether_battery": "Aether Battery (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Hope Harvester",
-        "Values": {
-          "Ad": "0",
-          "Ma": "7",
-          "Di": "7",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-exclusive": "Exclusive (Core Unit)",
-          "rulebook-supernal": "Supernal",
-          "rulebook-fearless": "Fearless",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-war_platform": "War Platform"
-        }
+        "Id": "statline_182"
       },
       {
-        "Name": "Hope Harvester",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "3",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_183"
       },
       {
-        "Name": "Hope Harvester",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "6",
-          "AP": "3",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "dl-aether_battery": "Aether Battery (3+)",
-          "rulebook-magical_attacks": "Magical Attacks"          
-        }
+        "Id": "statline_184"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f33790d8280c4b1f1cc",
     "Name": "Brazen Beasts",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "cl-fury": "Fury",
-      "rulebook-impact_hits": "Impact Hits (2)",
-      "rulebook-stomp_attack": "Stomp Attack (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Brazen Beasts",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_185"
       },
       {
-        "Name": "Brazen Beasts",
-        "Values": {
-          "HP": "4",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_186"
       },
       {
-        "Name": "Myrmidon",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+2 Att, +1 AP)",
-          "rulebook-fury": "Fury",
-          "rulebook-magical_attacks": "Magical Attacks"          
-        }
+        "Id": "statline_187"
       },
       {
-        "Name": "Beast",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-impact_hits": "Impact Hits (2)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_188"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f33790d8280c4b1f23c",
     "Name": "Furies",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-fly": "Fly",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Furies",
-        "Values": {
-          "Ad": "10",
-          "Ma": "10",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-supernal": "Supernal",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_189"
       },
       {
-        "Name": "Furies",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_190"
       },
       {
-        "Name": "Fury",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str)"          
-        }
+        "Id": "statline_191"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f33790d8280c4b1f247",
     "Name": "Veil Serpents",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-fly": "Fly",
-      "dl-morphlings": "Morphlings",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Veil Serpents",
-        "Values": {
-          "Ad": "9",
-          "Ma": "6",
-          "Di": "7",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "dl-morphlings": "Morphlings",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_192"
       },
       {
-        "Name": "Veil Serpents",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_193"
       },
       {
-        "Name": "Veil Serpent",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_194"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f33790d8280c4b1f24e",
     "Name": "Bloat Flies",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-supernal": "Supernal",
-      "rulebook-fearless": "Fearless",
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "dl-acid_blood": "Acid Blood",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
-      "rulebook-regeneration": "Regeneration (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Bloat Flies",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "dl-acid_blood": "Acid Blood",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-supernal": "Supernal",          
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_195"
       },
       {
-        "Name": "Bloat Flies",
-        "Values": {
-          "HP": "4",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "0",
-          "Aeg": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+ against Magical Attacks)",
-          "rulebook-regeneration": "Regeneration (5+)"
-        }
+        "Id": "statline_196"
       },
       {
-        "Name": "Bloat Fly",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"          
-        }
+        "Id": "statline_197"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   }
 ]

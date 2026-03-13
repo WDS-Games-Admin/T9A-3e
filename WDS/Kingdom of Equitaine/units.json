@@ -2,638 +2,565 @@
   {
     "Id": "68357f5b790d8280c4b2288d",
     "Name": "Damsel",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "270",
-      "category": "Characters",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Heraldic Steed",
-        "Pegasus Charger",
-        "Fey Steed",
-        "Destrier",
-        "Revered Unicorn"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "264185ad-088b-4696-bd78-f49df3710711",
-      "3d85bdf8-2e0c-44cc-84fd-ddb278afdaf8",
-      "7f1ce4d7-cad9-4948-be12-ef1c2f1be8dd",
-      "24af0e5b-61b7-4479-865c-9e3a8fdd43f1",
-      "024b2e1c-1ea5-4156-83a9-7009ad6e9bd5",
-      "c57185e6-202b-4ebd-9911-008230961770"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5b790d8280c4b2288d"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5b790d8280c4b2288d_heraldic_steed",
+    "Name": "Damsel on Heraldic Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "8b6580b9-d6a7-44e9-9b2d-ecb971ec1dbb"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5b790d8280c4b2288d_pegasus_charger",
+    "Name": "Damsel on Pegasus Charger",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "9878ca60-afce-49b7-afb5-3b1f4ecfe328"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5b790d8280c4b2288d_fey_steed",
+    "Name": "Damsel on Fey Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "d274e90f-750a-47da-8ab3-cbda0f6b100a"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5b790d8280c4b2288d_destrier",
+    "Name": "Damsel on Destrier",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "bfc34144-110c-4af6-b787-bb804c9f5654"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5b790d8280c4b2288d_revered_unicorn",
+    "Name": "Damsel on Revered Unicorn",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "d3365057-b218-4a88-a8b6-cfa0da3f372d"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5c790d8280c4b229f8",
     "Name": "Duke",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "140",
-      "category": "Characters",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Revered Unicorn",
-        "Destrier",
-        "Fey Steed",
-        "Pegasus Charger",
-        "Hippogriff"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "f55e5c12-6c62-449c-bef9-d76dd5728d80",
-      "9b7c9fd8-f2e4-495c-99c2-203c8ed6c16e",
-      "11a0baa6-b7ce-4a3c-822b-8dacd5b29b0d",
-      "2d8b60bf-45ea-479b-a0ad-4879b5bdc119",
-      "ebbddfb3-32c7-4277-8686-1dd6a75eff81",
-      "19970e4b-baaf-4bb4-93e0-b1e34bd19e81"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5c790d8280c4b229f8"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5c790d8280c4b229f8_revered_unicorn",
+    "Name": "Duke on Revered Unicorn",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "d24bec2c-dc9d-4885-a43e-4df271d7aa0f"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5c790d8280c4b229f8_destrier",
+    "Name": "Duke on Destrier",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "c97769f4-6178-45a3-95d2-78602e0593ea"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5c790d8280c4b229f8_fey_steed",
+    "Name": "Duke on Fey Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "d4ef7b34-11cb-4b99-8384-8c951b260b84"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5c790d8280c4b229f8_pegasus_charger",
+    "Name": "Duke on Pegasus Charger",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "31aee4eb-8972-4f4f-802d-be564a531da8"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5c790d8280c4b229f8_hippogriff",
+    "Name": "Duke on Hippogriff",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "0cffc4ca-16a4-4ba3-8e03-2bca6701c742"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5d790d8280c4b22cc5",
     "Name": "Paladin",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "140",
-      "category": "Characters",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Destrier",
-        "Revered Unicorn",
-        "Pegasus Charger",
-        "Fey Steed",
-        "Hippogriff"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "34f4803d-9946-4895-b1c6-5a0b194f8310",
-      "82d1d718-82c2-448b-a17c-f949b6e2cbb9",
-      "ff2dd573-83a3-41b8-9970-6f86bb888d4c",
-      "555ff474-0494-4986-b418-65d9505f3a5f",
-      "8ea51580-6b1e-4a03-92d7-a879e1a6b660",
-      "f2f9f58c-7430-4cfb-bafd-58651a4bf25e"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5d790d8280c4b22cc5"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22cc5_destrier",
+    "Name": "Paladin on Destrier",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "f7d9942e-c9b4-4391-821f-4e2d347ef54b"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22cc5_revered_unicorn",
+    "Name": "Paladin on Revered Unicorn",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "e13a111d-4aee-4280-87aa-8f5dfc141bfe"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22cc5_pegasus_charger",
+    "Name": "Paladin on Pegasus Charger",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "6148e84e-6750-421f-a299-cc9f5f76653a"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22cc5_fey_steed",
+    "Name": "Paladin on Fey Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "76b17237-af80-4828-964d-8ac9baf37146"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22cc5_hippogriff",
+    "Name": "Paladin on Hippogriff",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "be287238-82c5-4d1d-9845-6b4be711f1a1"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5d790d8280c4b22f14",
     "Name": "Folk Hero",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "250",
-      "category": "Characters",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Pegasus Charger",
-        "Heraldic Steed",
-        "Destrier",
-        "Revered Unicorn",
-        "Fey Steed"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "7f3ace74-1298-482c-b07b-7467e3a101fb",
-      "0e2b150a-f74d-4718-801c-2585355e22a4",
-      "40e44062-816e-4fe8-bac7-be1f2531bbab",
-      "ba8f1eda-03ae-4edd-9515-78cd0c05ae3d",
-      "11f8f20c-bcdc-43a4-bfc3-f1ff3d33f5ea",
-      "aff64e43-fc2f-4be8-9ddb-47eebf0978ab"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5d790d8280c4b22f14"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22f14_pegasus_charger",
+    "Name": "Folk Hero on Pegasus Charger",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "3f0972be-1fe1-4df3-ae39-7348c8c618aa"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22f14_heraldic_steed",
+    "Name": "Folk Hero on Heraldic Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "73f4d3f4-fa19-446a-958e-178f67812b84"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22f14_destrier",
+    "Name": "Folk Hero on Destrier",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "2ee8d0e4-cb81-419e-ac4a-b4c74607dd7b"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22f14_revered_unicorn",
+    "Name": "Folk Hero on Revered Unicorn",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "f4164ed7-9200-4a91-87e7-694004b40680"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f5d790d8280c4b22f14_fey_steed",
+    "Name": "Folk Hero on Fey Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "dbfd81c7-57d3-47b5-a9d0-4ec7ed40a243"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a4d3f8b2c9e1a7d4b3c5e9a2f",
     "Name": "King Henry the Young",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "650",
-      "category": "Characters",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "a2b4c9d5e7f8a3d6b2c9e4f7a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "a4d3f8b2c9e1a7d4b3c5e9a2f_destrier",
+    "Name": "King Henry the Young on Destrier",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "m1n2o3p4-q5r6s7t8-u9v0w1x2-y3z4a5b6c7d"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a4d3f8b2c9e1a7d4b3c5e9a2f",
     "Name": "Hernaut Le Rouquin",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "280",
-      "category": "Characters",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "On Foot",
-        "Destrier"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "b1c2a3d4-e5f6-7a8b-9c0d-1e2f3g4h5i6j",
-      "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p"
-
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "a3b7c5d8e2f6a4d9b3e7f9a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "a4d3f8b2c9e1a7d4b3c5e9a2f_destrier",
+    "Name": "Hernaut Le Rouquin on Destrier",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "m1n2o3p4-q5r6s7t8-u9v0w1x2-y3z4a5b6c7d"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f5e790d8280c4b23241",
     "Name": "Knights of the Realm",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "75",
-      "category": "Core Units",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "9421f5e8-20ef-4906-b65c-b7eec18557f2",
-      "b9886633-db2a-40bf-ad7f-258b8d350bc8"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5e790d8280c4b23243"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f5f790d8280c4b23325",
     "Name": "Hedge Knights",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "125",
-      "category": "Core Units",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "d5f36e8a-ae73-4b70-be9a-2cc05a8365c9",
-      "4eeab3a5-1321-4a55-88a4-d76d7f975261"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5f790d8280c4b23327"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f5f790d8280c4b232e0",
     "Name": "Mounted Serjeants",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "110",
-      "category": "Core Units",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "bcd6c69e-d507-43e3-8cab-96d24acb8c30",
-      "d331c7a6-34aa-415b-9fc9-7bd9f726e171"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5f790d8280c4b232e2"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f5f790d8280c4b232b9",
     "Name": "Lowborn Levies",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-12",
-      "category": "Core Units",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "12aca10d-e6e0-4715-b3c3-3c0472ddd4d0",
-      "c8345f54-fd0c-4b5e-a772-12c6b71e3ece"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5f790d8280c4b232bb"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f5e790d8280c4b23292",
     "Name": "Lowborn Archers",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "34",
-      "category": "Core Units",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "68ad8cd6-217a-465e-b4f0-6a74693e76be",
-      "7aaf8b02-33ef-42b6-8de4-b86f423d24cf"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5e790d8280c4b23294"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f60790d8280c4b23455",
     "Name": "Men-at-Arms",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-50",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "2b1634b7-e95c-4e91-8a4c-d7a0ada24a5b",
-      "03b57c34-e840-4471-b0b7-2c9e0b629489"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f60790d8280c4b23457"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f61790d8280c4b234fd",
     "Name": "Sacred Reliquary",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "180",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f61790d8280c4b234fd"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f60790d8280c4b23407",
     "Name": "Knights of the Court",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "95",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "84213cf9-ad25-4bdb-a7c4-631ffc792600",
-      "ff65ad17-5000-4a55-b096-c4d4790c8006"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f60790d8280c4b23409"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f60790d8280c4b233cb",
     "Name": "Knights Penitent",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "1a9eb37d-b5c4-4957-8994-17300f3271e4",
-      "e2fefebb-2d7d-4ae9-9ad0-be60fa2b8896"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f60790d8280c4b233cd"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f5f790d8280c4b2337d",
     "Name": "Knights of the Quest",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "25",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "7906eb3e-d216-4f29-8e4a-8f319ef606b2",
-      "a2fa00c0-f425-45b1-aad0-89f36cd75a63"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5f790d8280c4b2337f"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f61790d8280c4b2352b",
     "Name": "Yeoman Outriders",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "118",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "a84d13b4-8bc7-4319-b086-add6ad605502",
-      "06a2bbee-dc96-447a-a2f1-59dbeb7dd1dd"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f61790d8280c4b2352d"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f5f790d8280c4b23373",
     "Name": "Enlisted Outlaws",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "96",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f5f790d8280c4b23375"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f61790d8280c4b234fe",
     "Name": "Siege Weapon",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "110",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Scorpion",
-        "Trebuchet and change its Height to 3"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "80899070-314d-463e-a377-0a38c9aeb757",
-      "5bcd5860-6eaf-4f5f-9221-91576af79b9a"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f61790d8280c4b234fe"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f60790d8280c4b234af",
     "Name": "Pegasus Knights",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "150",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "9d0549aa-1958-41f6-aa31-fc225d6bfe21",
-      "69271c56-6ba2-42bd-9724-c6fcc2f2e78f"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f60790d8280c4b234b1"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f61790d8280c4b2350a",
     "Name": "Sky Heralds",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "140",
-      "category": "Special",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "e48c9a79-9d58-476d-87a3-c25768fcdb0f",
-      "44437097-1a74-4b8f-bd2b-235012c378a6"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f61790d8280c4b2350c"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f62790d8280c4b23563",
     "Name": "Naiads",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "70",
-      "category": "Fey",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f62790d8280c4b23565"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f62790d8280c4b2355e",
     "Name": "Friar's Lanterns",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "145",
-      "category": "Fey",
-      "army": "Kingdom of Equitaine",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f62790d8280c4b23560"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f62790d8280c4b2356a",
     "Name": "The Lady's Courtier",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "400",
-      "category": "Fey",
-      "army": "Kingdom of Equitaine",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f62790d8280c4b2356a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
-    {
+  {
     "Id": "68357f62790d8280c4b23559",
     "Name": "Fey Knight",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "360",
-      "category": "Fey",
-      "army": "Kingdom of Equitaine",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f62790d8280c4b23559"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   }
 ]

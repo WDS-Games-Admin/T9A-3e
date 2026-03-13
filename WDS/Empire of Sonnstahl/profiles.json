@@ -2,2516 +2,696 @@
   {
     "Id": "68357f43790d8280c4b2056b",
     "Name": "Marshal",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Marshal",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",                   
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_401"
       },
       {
-        "Name": "Marshal",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_402"
       },
       {
-        "Name": "Marshal",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_403"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "99a749a6-c6f2-4c25-97ec-15ae88638eb3",
-    "Name": "Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "100"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Marshal on Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_404"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "5"
-        },
-        "RuleIds": {}
+        "Id": "statline_405"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_403"
+      },
+      {
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "30b54ddd-d92f-40d1-a2cc-f2fa0fd58ee6",
-    "Name": "Pegasus",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "130"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",      
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Marshal on Pegasus",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Pegasus",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_407"
       },
       {
-        "Name": "Pegasus",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_408"
       },
       {
-        "Name": "Pegasus",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_403"
+      },
+      {
+        "Id": "statline_409"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "a7ea5646-a50a-4dd0-bf24-be47034c25e3",
-    "Name": "Great Griffon",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "190"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-solitary": "Solitary",      
-      "rulebook-swiftstride": "Swiftstride",           
-      "rulebook-stomp_attack": "Stomp Attack (D3)",
-      "eos-trained_ferocity": "Trained Ferocity"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Marshal on Great Griffon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Great Griffon",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_410"
       },
       {
-        "Name": "Great Griffon",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_411"
       },
       {
-        "Name": "Great Griffon",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "3",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D3)",
-          "eos-trained_ferocity": "Trained Ferocity"          
-        }
+        "Id": "statline_403"
+      },
+      {
+        "Id": "statline_412"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "93f57ebe-0725-4b88-b18d-e44e4b438e67",
-    "Name": "Commanding Dragon",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "410"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "eos-meeting_of_minds": "Meeting of Minds",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",      
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Marshal on Commanding Dragon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Commanding Dragon",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "eos-meeting_of_minds": "Meeting of Minds",          
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror"          
-        }
+        "Id": "statline_413"
       },
       {
-        "Name": "Commanding Dragon",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_414"
       },
       {
-        "Name": "Commanding Dragon",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_403"
+      },
+      {
+        "Id": "statline_415"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f44790d8280c4b2077a",
     "Name": "Knight Commander",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "eos-first_knight": "First Knight",      
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Knight Commander",
-        "Values": {
-          "Ad": "0",
-          "Ma": "0",
-          "Di": "9",
-          "Hgt": "0"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "eos-first_knight": "First Knight",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_416"
       },
       {
-        "Name": "Knight Commander",
-        "Values": {
-          "HP": "3",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_417"
       },
       {
-        "Name": "Knight Commander",
-        "Values": {
-          "At": "4",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_418"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "761cdac2-8ec2-45ce-b096-929b3e761aa4",
-    "Name": "Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "180"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "eos-first_knight": "First Knight",      
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Knight Commander on Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "eos-first_knight": "First Knight",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_419"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "5"
-        },
-        "RuleIds": {}
+        "Id": "statline_420"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_418"
+      },
+      {
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "3c33ac6c-c1cd-4b72-8937-a19c16076a37",
-    "Name": "Young Griffon",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "205"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "eos-first_knight": "First Knight",
-      "rulebook-stomp_attack":"Stomp Attack (1)",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Knight Commander on Young Griffon",
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Young Griffon",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "eos-first_knight": "First Knight",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_421"
       },
       {
-        "Name": "Young Griffon",
-        "Values": {
-          "HP": "3",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_422"
       },
       {
-        "Name": "Young Griffon",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack":"Stomp Attack (1)"
-        }
+        "Id": "statline_418"
+      },
+      {
+        "Id": "statline_423"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f44790d8280c4b2094e",
     "Name": "Battlefield Wizard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_apprentice": "Wizard Apprentice"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Battlefield Wizard",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_424"
       },
       {
-        "Name": "Battlefield Wizard",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_425"
       },
       {
-        "Name": "Battlefield Wizard",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_426"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "f88733d7-bafd-4d9c-b50c-bdbd3e382a2a",
-    "Name": "Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "260"
-    },
-    "AttributeLists": {},
-    "RuleIds": {      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_apprentice": "Wizard Apprentice"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Battlefield Wizard on Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",          
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_427"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_428"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_426"
+      },
+      {
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "4bc5b111-e57d-4cd9-ace5-ac573a6d4201",
-    "Name": "Pegasus",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "290"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Battlefield Wizard on Pegasus",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Pegasus",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_429"
       },
       {
-        "Name": "Pegasus",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_430"
       },
       {
-        "Name": "Pegasus",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_426"
+      },
+      {
+        "Id": "statline_409"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "1a66fe57-1332-469c-b4c5-3b57b134cce2",
-    "Name": "Great Griffon",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "375"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-stomp_attack": "Stomp Attack (D3)",
-      "eos-trained_ferocity": "Trained Ferocity"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Battlefield Wizard on Great Griffon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Great Griffon",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",          
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_431"
       },
       {
-        "Name": "Great Griffon",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_432"
       },
       {
-        "Name": "Great Griffon",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "3",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "eos-trained_ferocity": "Trained Ferocity",
-          "rulebook-stomp_attack": "Stomp Attack (D3)"
-        }
+        "Id": "statline_426"
+      },
+      {
+        "Id": "statline_412"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "26547df1-f207-4498-9952-89118b545a1f",
-    "Name": "Horse (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "400"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "eos-aura_of_power": "Aura of Power",
-      "rulebook-channel": "Channel (1)",
-      "rulebook-light_troops": "Light Troops",            
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-chalice_of_gold": "Chalice of Gold",
-      "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-impact_hits": "Impact Hits (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Battlefield Wizard on Arcane Engine",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "Ad": "8",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "eos-aura_of_power": "Aura of Power",
-          "rulebook-channel": "Channel (1)",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-chalice_of_gold": "Chalice of Gold",          
-          "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_433"
       },
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_434"
       },
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_426"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
+        "Id": "statline_435"
+      },
+      {
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
-    {
+  {
     "Id": "68357f44790d8280c4b2086d",
     "Name": "Prelate",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "eos-blessings": "Blessings",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-divine_attacks": "Divine Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Prelate",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "eos-blessings": "Blessings",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_436"
       },
       {
-        "Name": "Prelate",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_437"
       },
       {
-        "Name": "Prelate",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-divine_attacks": "Divine Attacks"
-        }
+        "Id": "statline_438"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "56ec7566-841b-4188-947a-91fd27dcb480",
-    "Name": "Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "190"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "eos-blessings": "Blessings",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Prelate on Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "eos-blessings": "Blessings",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_439"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "5"
-        },
-        "RuleIds": {}
+        "Id": "statline_440"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_438"
+      },
+      {
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "698b79f4-a60b-4744-8b2c-5b84b774f4c7",
-    "Name": "Horse (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "380"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "eos-blessings": "Blessings",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-swiftstride": "Swiftstride",      
-      "eos-holy_relic": "Holy Relic",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-impact_hits": "Impact Hits (D6)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Prelate on Altar of Battle",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "Ad": "8",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "eos-blessings": "Blessings",
-          "eos-holy_relic": "Holy Relic",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_441"
       },
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "HP": "5",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_442"
       },
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_438"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
+        "Id": "statline_435"
+      },
+      {
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
-{
+  {
     "Id": "68357f45790d8280c4b20aad",
     "Name": "Artificer",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-engineer": "Engineer (Blackpowder Artillery)",
-      "rulebook-light_troops": "Light Troops",
-      "eos-master_artificer": "Master Artificer"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Artificer",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops",          
-          "rulebook-engineer": "Engineer (Blackpowder Artillery)",
-          "eos-master_artificer": "Master Artificer"
-        }
+        "Id": "statline_443"
       },
       {
-        "Name": "Artificer",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_444"
       },
       {
-        "Name": "Artificer",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_445"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "6ec9e5b8-5247-4108-bc20-d1e8532ce238",
-    "Name": "Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "100"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-engineer": "Engineer (Blackpowder Artillery)",
-      "eos-master_artificer": "Master Artificer",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Artificer on Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",          
-          "rulebook-engineer": "Engineer (Blackpowder Artillery)",          
-          "rulebook-light_troops": "Light Troops",
-          "eos-master_artificer": "Master Artificer",
-          "rulebook-swiftstride": "Swiftstride"         
-        }
+        "Id": "statline_446"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_447"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_445"
+      },
+      {
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f45790d8280c4b20b20",
     "Name": "Inquisitor",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",            
-      "rulebook-exclusive": "Exclusive (units without Inquisitor)",
-      "rulebook-fearless": "Fearless",      
-      "rulebook-lethal_strike": "Lethal Strike",      
-      "rulebook-march_and_shoot": "March and Shoot",      
-      "eos-silver_shots": "Silver Shots",
-      "rulebook-zeal": "Zeal"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Inquisitor",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-exclusive": "Exclusive (units without Inquisitor)",
-          "rulebook-fearless": "Fearless",          
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_448"
       },
       {
-        "Name": "Inquisitor",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_449"
       },
       {
-        "Name": "Inquisitor",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",          
-          "rulebook-march_and_shoot": "March and Shoot",
-          "eos-silver_shots": "Silver Shots",
-          "rulebook-zeal": "Zeal"
-        }
+        "Id": "statline_450"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "a4d85a37-52e3-422d-b947-6df68cc73585",
-    "Name": "Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "135"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-exclusive": "Exclusive (units without Inquisitor)",
-      "rulebook-fearless": "Fearless",      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Inquisitor on Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-exclusive": "Exclusive (units without Inquisitor)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_451"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "5"
-        },
-        "RuleIds": {}
+        "Id": "statline_405"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_450"
+      },
+      {
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "d3a9f6b7c4e2d8a3c1f5b7a9c",
     "Name": "Heinrich Falkenbach",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-aegis": "Aegis (4+)",
-      "eos-a_koelhunds_chase": "A Koelhund's chase",
-      "eos-divine_jurisdiction": "Divine Jurisdiction",
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "eos-gregors_holy_hammer": "Gregor's Holy Hammer",
-      "rulebook-imperial_authority,": "Imperial Authority",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-march_and_shoot": "March and Shoot",
-      "rulebook-shield": "Shield",
-      "eos-silver_shots": "Silver Shots",
-      "rulebook-repeater_pistol": "Repeater Pistol",
-      "rulebook-zeal": "Zeal"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Heinrich Falkenbach",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "eos-a_koelhunds_chase": "A Koelhund's chase",
-          "eos-divine_jurisdiction": "Divine Jurisdiction",
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "rulebook-imperial_authority,": "Imperial Authority",
-          "rulebook-light_troops": "Light Troops"
-       }
+        "Id": "statline_452"
       },
       {
-        "Name": "Heinrich Falkenbach",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)",
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_453"
       },
       {
-        "Name": "Heinrich Falkenbach",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "eos-gregors_holy_hammer": "Gregor's Holy Hammer",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-march_and_shoot": "March and Shoot",
-          "eos-silver_shots": "Silver Shots",
-          "rulebook-repeater_pistol": "Repeater Pistol",
-          "rulebook-zeal": "Zeal"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
+        "Id": "statline_454"
       }
-    }
+    ]
   },
   {
     "Id": "e4b8f2a7d9e1f6c3a4d5b8a7c",
     "Name": "Brother Tomaz",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-attached": "Attached",
-      "rulebook-general": "Captain",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-exclusive": "Exclusive (Units without other Characters)",
-      "eos-fanatical_devotion": "Fanatical Devotion",      
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "eos-officially_not_a_miracle": "Officially Not A Miracle",
-      "eos-repent": "Repent!",
-      "rulebook-resistance": "Resistance",
-      "eos-shepherding_the_flock": "Shepherding the Flock"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Brother Tomaz",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-exclusive": "Exclusive (Units without other Characters)",
-          "eos-fanatical_devotion": "Fanatical Devotion",      
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "eos-officially_not_a_miracle": "Officially Not A Miracle",
-          "eos-shepherding_the_flock": "Shepherding the Flock"
-       }
+        "Id": "statline_455"
       },
       {
-        "Name": "Brother Tomaz",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-resistance": "Resistance"
-        }
+        "Id": "statline_456"
       },
       {
-        "Name": "Brother Tomaz",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-divine_attacks": "Divine Attacks",
-          "eos-repent": "Repent!"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
+        "Id": "statline_457"
       }
-    }
+    ]
   },
   {
     "Id": "68357f45790d8280c4b20bc5",
     "Name": "State Infantry",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "eos-parent_unit": "Parent Unit",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "State Infantry",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "eos-parent_unit": "Parent Unit"
-        }
+        "Id": "statline_458"
       },
       {
-        "Name": "State Infantry",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_459"
       },
       {
-        "Name": "State Infantry",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_460"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f45790d8280c4b20c01",
     "Name": "State Detachment",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "eos-support_unit": "Support Unit",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "State Detachment",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
-          "eos-support_unit": "Support Unit"
-        }
+        "Id": "statline_461"
       },
       {
-        "Name": "State Detachment",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_462"
       },
       {
-        "Name": "State Detachment",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_463"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f46790d8280c4b20c3d",
     "Name": "State Marksmen",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "eos-support_unit": "Support Unit",
-      "rulebook-handgun": "Handgun (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "State Marksmen",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
-          "eos-support_unit": "Support Unit"
-        }
+        "Id": "statline_464"
       },
       {
-        "Name": "State Marksmen",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_465"
       },
       {
-        "Name": "State Marksman",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-handgun": "Handgun (4+)"
-        }
+        "Id": "statline_466"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f46790d8280c4b20c79",
     "Name": "Local Militia",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-unruly": "Unruly",
-      "rulebook-bow": "Bow (4+)",
-      "rulebook-paired_weapons": "Paired Weapons",      
-      "rulebook-pistol": "Pistol (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Local Militia",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-unruly": "Unruly"
-        }
+        "Id": "statline_467"
       },
       {
-        "Name": "Local Militia",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_468"
       },
       {
-        "Name": "Local Militia",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-bow": "Bow (4+)",
-          "rulebook-paired_weapons": "Paired Weapons",          
-          "rulebook-pistol": "Pistol (4+)"
-        }
+        "Id": "statline_469"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f46790d8280c4b20c8b",
     "Name": "Electoral Cavalry",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Electoral Cavalry",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_470"
       },
       {
-        "Name": "Electoral Cavalry",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "5"
-        },
-        "RuleIds": {}
+        "Id": "statline_471"
       },
       {
-        "Name": "Knight",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_472"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f46790d8280c4b20cca",
     "Name": "Knightly Orders",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Knightly Orders",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_473"
       },
       {
-        "Name": "Knightly Orders",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "5"
-        },
-        "RuleIds": {}
+        "Id": "statline_474"
       },
       {
-        "Name": "Knight",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_475"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f46790d8280c4b20d09",
     "Name": "Imperial Guard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
-      "rulebook-disciplined": "Disciplined",
-      "eos-parent_unit": "Parent Unit",      
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Imperial Guard",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
-          "rulebook-disciplined": "Disciplined",
-          "eos-parent_unit": "Parent Unit"          
-        }
+        "Id": "statline_476"
       },
       {
-        "Name": "Imperial Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_477"
       },
       {
-        "Name": "Imperial Guard",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_478"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f47790d8280c4b20d45",
     "Name": "Imperial Detachment",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-bodyguard": "Bodyguard (General, Marshal)",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-insignificant": "Insignificant",
-      "eos-support_unit": "Support Unit",
-            "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Imperial Guard",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (General, Marshal)",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-insignificant": "Insignificant",
-          "eos-support_unit": "Support Unit"
-        }
+        "Id": "statline_479"
       },
       {
-        "Name": "Imperial Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_477"
       },
       {
-        "Name": "Imperial Guard",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_478"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f47790d8280c4b20d81",
     "Name": "Knights of the Sun Griffon",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-shield": "Shield",
-      "rulebook-halberd": "Halberd",
-      "rulebook-stomp_attack": "Stomp Attack (1)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Knights of the Sun Griffon",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_480"
       },
       {
-        "Name": "Knights of the Sun Griffon",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_481"
       },
       {
-        "Name": "Knight",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_482"
       },
       {
-        "Name": "Young Griffon",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {          
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_423"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f47790d8280c4b20dbb",
     "Name": "Arcane Engine",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "eos-aura_of_power": "Aura of Power",
-      "rulebook-channel": "Channel (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",      
-      "rulebook-chalice_of_gold": "Chalice of Gold",
-      "rulebook-ice_and_fire": "Ice and Fire (Cosmology)",
-      "rulebook-impact_hits": "Impact Hits (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Arcane Engine",
-        "Values": {
-          "Ad": "8",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "eos-aura_of_power": "Aura of Power",
-          "rulebook-channel": "Channel (1)",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",          
-          "rulebook-chalice_of_gold": "Chalice of Gold",
-          "rulebook-ice_and_fire": "Ice and Fire (Cosmology)"
-        }
+        "Id": "statline_483"
       },
       {
-        "Name": "Arcane Engine",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_484"
       },
       {
-        "Name": "Crew (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_485"
       },
       {
-        "Name": "Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_435"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f47790d8280c4b20dc1",
     "Name": "Imperial Rangers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",      
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-scout": "Scout",
-      "rulebook-solitary": "Solitary",
-      "rulebook-skirmisher": "Skirmisher",      
-      "eos-support_unit": "Support Unit",
-      "eos-wilderness_guides": "Wilderness Guides",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-bow": "Bow (3+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Imperial Rangers",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-scout": "Scout",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-solitary": "Solitary",
-          "eos-support_unit": "Support Unit",
-          "eos-wilderness_guides": "Wilderness Guides"
-        }
+        "Id": "statline_486"
       },
       {
-        "Name": "Imperial Rangers",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_487"
       },
       {
-        "Name": "Imperial Ranger",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-bow": "Bow (3+)"
-        }
+        "Id": "statline_488"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f48790d8280c4b20dcf",
     "Name": "Reiters",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-hit_and_run": "Hit and Run",
-      "rulebook-light_troops": "Light Troops",            
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-vanguard": "Vanguard",
-      "eos-brace_of_pistols": "Brace of Pistols (4+)",
-      "eos-fire_on_impact": "Fire on Impact!"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Reiters",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-hit_and_run": "Hit and Run",
-          "rulebook-light_troops": "Light Troops",          
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_489"
       },
       {
-        "Name": "Reiters",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_490"
       },
       {
-        "Name": "Reiter",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "eos-brace_of_pistols": "Brace of Pistols (4+)",
-          "eos-fire_on_impact": "Fire on Impact!"
-        }
+        "Id": "statline_491"
       },
       {
-        "Name": "Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_406"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f48790d8280c4b20de1",
     "Name": "Blackpowder Artillery",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-solitary": "Solitary",
-      "eos-imperial_rocketeer": "Imperial Rocketeer (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "11",
+    "Children": [
       {
-        "Name": "Blackpowder Artillery",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "7",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-solitary": "Solitary"
-        }
+        "Id": "statline_492"
       },
       {
-        "Name": "Blackpowder Artillery",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_493"
       },
       {
-        "Name": "Crew",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "eos-imperial_rocketeer": "Imperial Rocketeer (5+)"
-        }
+        "Id": "statline_494"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "60"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f48790d8280c4b20e01",
     "Name": "Flagellants",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-exclusive": "Exclusive (Zealot)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-frenzy": "Frenzy",
-      "rulebook-resistance": "Resistance (against Str 1-5)",
-      "rulebook-stubborn": "Stubborn",      
-      "rulebook-unruly": "Unruly",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-fury": "Fury",
-      "rulebook-great_weapon": "Great Weapon"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Flagellants",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-exclusive": "Exclusive (Zealot)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-frenzy": "Frenzy",
-          "rulebook-resistance": "Resistance (against Str 1-5)",
-          "rulebook-stubborn": "Stubborn",          
-          "rulebook-unruly": "Unruly",
-          "rulebook-unstable": "Unstable"          
-        }
+        "Id": "statline_495"
       },
       {
-        "Name": "Flagellants",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_496"
       },
       {
-        "Name": "Flagellant",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "3",
-          "Agi": "0"
-        },
-        "RuleIds": {
-          "rulebook-fury": "Fury",
-          "rulebook-great_weapon": "Great Weapon"
-        }
+        "Id": "statline_497"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f48790d8280c4b20e0d",
     "Name": "Steam Tank",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-beacon_of_courage": "Beacon of Courage (6\")",
-      "rulebook-fearless": "Fearless",
-      "rulebook-random_movement": "Random Movement (2D6\")",
-      "rulebook-solitary": "Solitary",
-      "eos-steam_powered": "Steam Powered",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-terror": "Terror",
-      "rulebook-unstable": "Unstable",            
-      "rulebook-breath_attack": "Breath Attack (Str 2, AP 3, Stand and Shoot)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
-      "rulebook-grind_attack": "Grind Attack (3D3)",      
-      "eos-steam_cannon": "Steam Cannon (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Steam Tank",
-        "Values": {
-          "Ad": "2D6",
-          "Ma": "2D6",
-          "Di": "7",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-beacon_of_courage": "Beacon of Courage (6\")",
-          "rulebook-fearless": "Fearless",
-          "rulebook-random_movement": "Random Movement (2D6\")",
-          "rulebook-solitary": "Solitary",
-          "eos-steam_powered": "Steam Powered",
-          "rulebook-stubborn": "Stubborn",                    
-          "rulebook-terror": "Terror",
-          "rulebook-unstable": "Unstable"          
-        }
+        "Id": "statline_498"
       },
       {
-        "Name": "Steam Tank",
-        "Values": {
-          "HP": "8",
-          "Df": "1",
-          "Re": "8",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_499"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 2, AP 3, Stand and Shoot)",
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
-          "rulebook-grind_attack": "Grind Attack (3D3)",          
-          "eos-steam_cannon": "Steam Cannon (3+)"
-        }
+        "Id": "statline_500"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   }
 ]

@@ -2,2649 +2,628 @@
   {
     "Id": "68357f84790d8280c4b25ec3",
     "Name": "Pharaoh",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-undead": "Undead",
-      "ud-undying_will": "Undying Will",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-weakness": "Weakness (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Pharaoh",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "9",
-          //"Rsr": "1",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "ud-undying_will": "Undying Will",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1289"
       },
       {
-        "Name": "Pharaoh",
-        "Values": {
-          "HP": "4",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1290"
       },
       {
-        "Name": "Pharaoh",
-        "Values": {
-          "At": "4",
-          "Of": "6",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1291"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "b6d46a1f-8bf9-4f79-9c64-a584b96af6fc",
-    "Name": "Skeletal Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "240"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "ud-undying_will": "Undying Will",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-weakness": "Weakness (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Pharaoh on Skeletal Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          //"Rsr": "1",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "ud-undying_will": "Undying Will",
-          "rulebook-unstable": "Unstable"          
-        }
+        "Id": "statline_1292"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "HP": "4",
-          "Df": "8",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1293"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1291"
+      },
+      {
+        "Id": "statline_1294"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "faeeb918-063d-4fcb-82b6-22d17a782464",
-    "Name": "Skeletal Horse (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "315"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-autonomous": "Autonomous",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-exclusive": "Exclusive (Skeleton Chariots)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "ud-undying_will": "Undying Will",
-      "rulebook-unstable": "Unstable",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-impact_hits": "Impact Hits (D3+3)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Pharaoh on Skeleton Chariot",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "Ad": "8",
-          "Ma": "5",
-          "Di": "9",
-          //"Rsr": "1",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "ud-autonomous": "Autonomous",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-exclusive": "Exclusive (Skeleton Chariots)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "ud-undying_will": "Undying Will",
-         "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1295"
       },
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "HP": "4",
-          "Df": "8",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1296"
       },
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1291"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": "2",
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3+3)"
-        }
+        "Id": "statline_1297"
+      },
+      {
+        "Id": "statline_1298"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "8361dbfe-f13a-48ba-9155-3edfdba97609",
-    "Name": "Sha Guardian",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "540"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn":"Stubborn",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-undead": "Undead",
-      "ud-undying_will": "Undying Will",
-      "rulebook-unstable": "Unstable",
-      "ud-eternal_guardian": "Eternal Guardian",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",      
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Pharaoh on Sha Guardian",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Sha Guardian",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "9",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn":"Stubborn",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-undead": "Undead",
-          "ud-undying_will": "Undying Will",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1299"
       },
       {
-        "Name": "Sha Guardian",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "8",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "ud-eternal_guardian": "Eternal Guardian",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"          
-        }
+        "Id": "statline_1300"
       },
       {
-        "Name": "Sha Guardian",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "1"
-        },
-        "RuleIds": {          
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_1291"
+      },
+      {
+        "Id": "statline_1301"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f84790d8280c4b2602b",
     "Name": "Nomarch",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "ud-tomb_harbinger": "Tomb Harbinger",
-      "ud-aspis_arrows": "Aspis Arrows"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Nomarch",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",      
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1302"
       },
       {
-        "Name": "Nomarch",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1303"
       },
       {
-        "Name": "Nomarch",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "ud-tomb_harbinger": "Tomb Harbinger",
-          "ud-aspis_arrows": "Aspis Arrows"
-        }
+        "Id": "statline_1304"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "acece582-6e0e-4e06-a015-64fb11f4ceb0",
-    "Name": "Skeletal Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "70"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",           
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "ud-tomb_harbinger": "Tomb Harbinger"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Nomarch on Skeletal Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"                    
-        }
+        "Id": "statline_1305"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1306"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "ud-tomb_harbinger": "Tomb Harbinger"
-        }
+        "Id": "statline_1304"
+      },
+      {
+        "Id": "statline_1307"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "ec4efaf4-aa40-4d14-b321-2813ac068d81",
-    "Name": "Skeletal Horse (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "120"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "ud-autonomous": "Autonomous",
-      "rulebook-captain": "Captain",
-      "rulebook-exclusive": "Exclusive (Skeleton Chariots)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-impact_hits": "Impact Hits (D3)",
-      "ud-tomb_harbinger": "Tomb Harbinger"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Nomarch on Skeleton Chariot",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "Ad": "8",
-          "Ma": "5",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "ud-autonomous": "Autonomous",
-          "rulebook-captain": "Captain",
-          "rulebook-exclusive": "Exclusive (Skeleton Chariots)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1308"
       },
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1309"
       },
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1304"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)",
-          "ud-tomb_harbinger": "Tomb Harbinger"
-        }
+        "Id": "statline_1310"
+      },
+      {
+        "Id": "statline_1311"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "f0908543-75cd-4824-8fa4-fe14d95b706c",
-    "Name": "Amuut",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "140"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-captain": "Captain",
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",       
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "ud-tomb_harbinger": "Tomb Harbinger"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Nomarch on Amuut",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Amuut",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-captain": "Captain",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1312"
       },
       {
-        "Name": "Amuut",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1313"
       },
       {
-        "Name": "Amuut",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)",
-          "ud-tomb_harbinger": "Tomb Harbinger"
-        }
+        "Id": "statline_1304"
+      },
+      {
+        "Id": "statline_1314"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "37338895-29a6-462f-b894-9552f450e647",
-    "Name": "Sha Guardian",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "330"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn":"Stubborn",
-      "rulebook-terror": "Terror",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "ud-eternal_guardian": "Eternal Guardian",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "ud-tomb_harbinger": "Tomb Harbinger"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Nomarch on Sha Guardian",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Sha Guardian",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",      
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn":"Stubborn",
-          "rulebook-terror": "Terror",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1315"
       },
       {
-        "Name": "Sha Guardian",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "8",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "ud-eternal_guardian": "Eternal Guardian",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"          
-        }
+        "Id": "statline_1300"
       },
       {
-        "Name": "Sha Guardian",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "1"
-        },
-        "RuleIds": {          
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_1304"
+      },
+      {
+        "Id": "statline_1301"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f85790d8280c4b2624c",
     "Name": "Death Cult Hierarch",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-death_is_only_the_beginning": "Death is Only the Beginning",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-wizard_apprentice": "Wizard Apprentice"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Death Cult Hierarch",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          //"Rsr": "1",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "ud-death_is_only_the_beginning": "Death is Only the Beginning",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",      
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_1316"
       },
       {
-        "Name": "Death Cult Hierarch",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1317"
       },
       {
-        "Name": "Death Cult Hierarch",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1318"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "45808f95-a5ba-489c-8676-2a37ee58aac0",
-    "Name": "Skeletal Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "290"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-death_is_only_the_beginning": "Death is Only the Beginning",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-wizard_apprentice": "Wizard Apprentice"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Death Cult Hierarch on Skeletal Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "7",
-          //"Rsr": "1",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "ud-death_is_only_the_beginning": "Death is Only the Beginning",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_1319"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1320"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1318"
+      },
+      {
+        "Id": "statline_1321"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "115604f7-b1d0-4583-9c87-f3d842f5ecee",
-    "Name": "Necropolis Guard (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "370"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-death_is_only_the_beginning": "Death is Only the Beginning",
-      "rulebook-exclusive": "Exclusive (Height 1)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "ud-sacred_ark": "Sacred Ark",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-war_platform": "War Platform",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-aegis": "Aegis (5+)",
-      "ud-aspis_arrows": "Aspis Arrows",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-bow": "Bow (4+)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-impact_hits": "Impact Hits (D6)"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Death Cult Hierarch on Ark of Ages",
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
       {
-        "Name": "Necropolis Guard (2)",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "7",
-          //"Rsr": "1",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "ud-death_is_only_the_beginning": "Death is Only the Beginning",
-          "rulebook-exclusive": "Exclusive (Height 1)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "ud-sacred_ark": "Sacred Ark",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",      
-          "rulebook-war_platform": "War Platform",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_1322"
       },
       {
-        "Name": "Necropolis Guard (2)",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_1323"
       },
       {
-        "Name": "Necropolis Guard (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "ud-aspis_arrows": "Aspis Arrows",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-bow": "Bow (4+)"
-        }
+        "Id": "statline_1318"
       },
       {
-        "Name": "Bound Spirits",
-        "Values": {
-          "At": "2",
-          "Of": "2",
-          "St": "2",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1324"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
+        "Id": "statline_1325"
+      },
+      {
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "a7d1c3f8b2e6d9a4c1f5e7d8b",
     "Name": "Ashotet, Custodian of Souls",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-resurrect": "Resurrect (1)",
-      "ud-assailed_sanity": "Assailed Sanity",
-      "rulebook-channel": "Channel (1)",
-      "ud-death_is_only_the_beginning": "Death is only the Beginning",
-      "rulebook-exclusive": "Exclusive (Tormented Souls)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "rulebook-ghost_step": "Ghost Step",
-      "rulebook-light_troops": "Light Troops",
-      "ud-soul_conduit": "Soul Conduit",
-      "ud-the_lost_and_damned": "The Lost and Damned",
-      "ud-the_pyramidion": "The Pyramidion",
-      "ud-tormented_souls": "Tormented Souls",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-warplatform": "War Platform",
-      "rulebook-wizard_master": "Wizard Master",
-      "rulebook-aegis": "Aegis (5+, against Magical Attacks)",
-      "rulebook-hatred": "Hatred",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
       {
-        "Name": "Ashotet, Custodian of Souls",
-        "Values": {
-          "Ad": "4",
-          "Ma": "7",
-          "Di": "1",
-          //"Rsr": "1",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (1)",
-          "ud-assailed_sanity": "Assailed Sanity",
-          "rulebook-channel": "Channel (1)",
-          "ud-death_is_only_the_beginning": "Death is only the Beginning",
-          "rulebook-exclusive": "Exclusive (Tormented Souls)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "rulebook-ghost_step": "Ghost Step",
-          "rulebook-light_troops": "Light Troops",
-          "ud-soul_conduit": "Soul Conduit",
-          "ud-the_lost_and_damned": "The Lost and Damned",
-          "ud-the_pyramidion": "The Pyramidion",
-          "ud-tormented_souls": "Tormented Souls",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-warplatform": "War Platform",
-          "rulebook-wizard_master": "Wizard Master"
-        }
-      },  
-      {
-        "Name": "Ashotet, Custodian of Souls",
-        "Values": {
-          "HP": "5",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+, against Magical Attacks)"
-        }
+        "Id": "statline_1326"
       },
       {
-        "Name": "Ashotet",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-hatred": "Hatred",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1327"
       },
       {
-        "Name": "Spectral Guard (6)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-hatred": "Hatred",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1328"
+      },
+      {
+        "Id": "statline_1329"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-       "Size": {
-        "width": "60",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "b4e2c8f7d1a5b9c3e6d7f2a1c",
     "Name": "Rehnepeh, the Undying Sun",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "ud-staff_of_pi_ankh_khahiroth": "Staff of Pi-Ankh Khahiroth",
-      "ud-the_golden_chariot" : "The Golden Chariot",
-      "rulebook-unstable": "Unstable",
-      "rulebook-rRegeneration": "Regeneration (5+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)",
-      "rulebook-shield": "Shield",
-      "ud-charioteer_of_the_sun": "Charioteer of the Sun",
-      "rulebook-grind_attack": "Grind Attack (1 hit)",
-      "rulebook-impact_hits": "Impact Hits (2D3 + 3 hits)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "12",
+    "Children": [
       {
-        "Name": "Rehnepeh, the Undying Sun",
-        "Values": {
-          "Ad": "8",
-          "Ma": "5",
-          "Di": "9",
-          //"Rsr": "1",
-          "Hgt": "4"
-        },
-        "RuleIds": {    
-          "rulebook-resurrect": "Resurrect (1)",  
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "ud-staff_of_pi_ankh_khahiroth": "Staff of Pi-Ankh Khahiroth",
-          "ud-the_golden_chariot" : "The Golden Chariot",
-          "rulebook-unstable": "Unstable"
-        }
-      },  
-      {
-        "Name": "Rehnepeh, the Undying Sun",
-        "Values": {
-          "HP": "6",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-rRegeneration": "Regeneration (5+)",
-          "rulebook-resistance": "Resistance (Flaming Attacks)",
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1330"
       },
       {
-        "Name": "Rehnepeh",
-        "Values": {
-          "At": "4",
-          "Of": "6",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "ud-charioteer_of_the_sun": "Charioteer of the Sun"
-        }
+        "Id": "statline_1331"
       },
       {
-        "Name": "Skeletal Horse (4)",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (1 hit)"
-        }
+        "Id": "statline_1332"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": "",
-          "Of": "",
-          "St": "5"	,
-          "AP": "2",
-          "Ag": ""
-        },
-        "RuleIds": {
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1333"
+      },
+      {
+        "Id": "statline_1334"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-       "Size": {
-        "width": "100",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f86790d8280c4b26320",
     "Name": "Skeleton Warriors",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-fearless": "Fearless",
-      "rulebook-resurrect": "Resurrect (6)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Skeleton Warriors",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "4",
-          //"Rsr": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-fearless": "Fearless",
-          "rulebook-resurrect": "Resurrect (6)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1335"
       },
       {
-        "Name": "Skeleton Warriors",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1336"
       },
       {
-        "Name": "Skeleton Warrior",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1337"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f86790d8280c4b26374",
     "Name": "Skeleton Archers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-fearless": "Fearless",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-resurrect": "Resurrect (6)",
-      "ud-aspis_arrows": "Aspis Arrows",
-      "rulebook-bow": "Bow (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Skeleton Archers",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "4",
-          //"Rsr": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-fearless": "Fearless",
-          "rulebook-resurrect": "Resurrect (6)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"          
-        }
+        "Id": "statline_1338"
       },
       {
-        "Name": "Skeleton Archers",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1339"
       },
       {
-        "Name": "Skeleton Archer",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "ud-aspis_arrows": "Aspis Arrows",
-          "rulebook-bow": "Bow (5+)"
-        }
+        "Id": "statline_1340"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f86790d8280c4b263bf",
     "Name": "Skeleton Cavalry",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-fearless": "Fearless",
-      "rulebook-resurrect": "Resurrect (4)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-lance": "Lance",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Skeleton Cavalry",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "4",
-          //"Rsr": "4",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-fearless": "Fearless",
-          "rulebook-resurrect": "Resurrect (4)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1341"
       },
       {
-        "Name": "Skeleton Cavalry",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1342"
       },
       {
-        "Name": "Rider",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-lance": "Lance"
-        }
+        "Id": "statline_1343"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1321"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f86790d8280c4b263fe",
     "Name": "Skeleton Scouts",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (4)",
-      "rulebook-scout": "Scout",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "ud-aspis_arrows": "Aspis Arrows",
-      "rulebook-bow": "Bow (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Skeleton Scouts",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "4",
-          //"Rsr": "4",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (4)",
-          "rulebook-scout": "Scout",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1344"
       },
       {
-        "Name": "Skeleton Scouts",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1345"
       },
       {
-        "Name": "Rider",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "ud-aspis_arrows": "Aspis Arrows",
-          "rulebook-bow": "Bow (4+)"
-        }
+        "Id": "statline_1346"
       },
       {
-        "Name": "Skeletal Horse",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1321"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f87790d8280c4b26437",
     "Name": "Skeleton Chariots",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-autonomous": "Autonomous",
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (3)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-impact_hits": "Impact Hits (D3)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Skeleton Chariots",
-        "Values": {
-          "Ad": "8",
-          "Ma": "5",
-          "Di": "7",
-          //"Rsr": "3",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "ud-autonomous": "Autonomous",
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (3)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1347"
       },
       {
-        "Name": "Skeleton Chariots",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1348"
       },
       {
-        "Name": "Charioteer (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1349"
       },
       {
-        "Name": "Skeletal Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1310"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D3)"
-        }
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f87790d8280c4b26490",
     "Name": "Necropolis Guard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {      
-      "rulebook-bodyguard": "Bodyguard (Nomarch, Pharaoh)",
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-fearless": "Fearless",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "ud-in_your_name": "In Your Name",
-      "rulebook-lethal_strike": "Lethal Strike"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Necropolis Guard",
-        "Values": {
-          "Ad": "4",
-          "Ma": "4",
-          "Di": "7",
-          //"Rsr": "4",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (Nomarch, Pharaoh)",
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-fearless": "Fearless",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1350"
       },
       {
-        "Name": "Necropolis Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1351"
       },
       {
-        "Name": "Necropolis Guard",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "ud-in_your_name": "In Your Name",
-          "rulebook-lethal_strike": "Lethal Strike"
-        }
+        "Id": "statline_1352"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f87790d8280c4b264de",
     "Name": "Tomb Cataphracts",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-halberd": "Halberd"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Tomb Cataphracts",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "7",
-          //"Rsr": "2",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-resurrect": "Resurrect (2)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1353"
       },
       {
-        "Name": "Tomb Cataphracts",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_1354"
       },
       {
-        "Name": "Rider",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_1355"
       },
       {
-        "Name": "Amuut",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_1356"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f87790d8280c4b26520",
     "Name": "Shabtis",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Shabtis",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          //"Rsr": "2",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (2)",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1357"
       },
       {
-        "Name": "Shabtis",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1358"
       },
       {
-        "Name": "Shabti",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1359"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f88790d8280c4b2657b",
     "Name": "Shabti Archers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "ud-great_aspis_bow": "Great Aspis Bow (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Shabti Archers",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          //"Rsr": "2",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (2)",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1360"
       },
       {
-        "Name": "Shabti Archers",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1361"
       },
       {
-        "Name": "Shabti Archer",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "ud-great_aspis_bow": "Great Aspis Bow (4+)"
-        }
+        "Id": "statline_1362"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f88790d8280c4b2656b",
     "Name": "Great Vultures",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-fearless": "Fearless",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (3)",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-undead": "Undead",
-      "rulebook-unruly": "Unruly",
-      "rulebook-unstable": "Unstable",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Great Vultures",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "4",
-          //"Rsr": "3",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-resurrect": "Resurrect (3)",
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "rulebook-undead": "Undead",
-          "rulebook-unruly": "Unruly",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1363"
       },
       {
-        "Name": "Great Vultures",
-        "Values": {
-          "HP": "2",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1364"
       },
       {
-        "Name": "Great Vulture",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1365"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f88790d8280c4b26572",
     "Name": "Scarab Swarms",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-afflict": "Afflict (-1 Agi)",
-      "rulebook-fearless": "Fearless",
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (4)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unruly": "Unruly",
-      "rulebook-unstable": "Unstable",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-poison_attacks": "Poison Attacks"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Scarab Swarms",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "4",
-          //"Rsr": "4",
-          "Hgt": "0"
-        },
-        "RuleIds": {
-          
-          "rulebook-afflict": "Afflict (-1 Agi)",
-          "rulebook-fearless": "Fearless",
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (4)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unruly": "Unruly",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1366"
       },
       {
-        "Name": "Scarab Swarms",
-        "Values": {
-          "HP": "5",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1367"
       },
       {
-        "Name": "Scarab Swarm",
-        "Values": {
-          "At": "6",
-          "Of": "2",
-          "St": "2",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks"
-        }
+        "Id": "statline_1368"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f88790d8280c4b265a2",
     "Name": "Sand Stalkers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-autonomous": "Autonomous",
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "ud-petrifying_gaze": "Petrifying Gaze"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Sand Stalkers",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          //"Rsr": "2",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "ud-autonomous": "Autonomous",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-fearless": "Fearless",
-          "rulebook-resurrect": "Resurrect (2)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1369"
       },
       {
-        "Name": "Sand Stalkers",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1370"
       },
       {
-        "Name": "Sand Stalker",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "ud-petrifying_gaze": "Petrifying Gaze"
-        }
+        "Id": "statline_1371"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f87790d8280c4b26489",
     "Name": "Casket of Phatep",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-curse_of_phatep": "Curse of Phatep",
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-fearless": "Fearless",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-wizard_conclave": "Wizard Conclave (2)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-halberd": "Halberd"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "15",
+    "Children": [
       {
-        "Name": "Casket of Phatep",
-        "Values": {
-          "Ad": "0",
-          "Ma": "0",
-          "Di": "7",
-          //"Rsr": "1",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "ud-curse_of_phatep": "Curse of Phatep",
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-fearless": "Fearless",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable",
-          "rulebook-wizard_conclave": "Wizard Conclave (2)"
-        }
+        "Id": "statline_1372"
       },
       {
-        "Name": "Casket of Phatep",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_1373"
       },
       {
-        "Name": "Necropolis Guards (3)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_1374"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f88790d8280c4b265bc",
     "Name": "Charnel Catapult",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-dust_to_dust": "Dust to Dust",
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-fearless": "Fearless",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "ud-charnel_catapult": "Charnel Catapult (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "15",
+    "Children": [
       {
-        "Name": "Charnel Catapult",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "4",
-          //"Rsr": "2",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "ud-dust_to_dust": "Dust to Dust",
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-fearless": "Fearless",
-          "rulebook-resurrect": "Resurrect (2)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1375"
       },
       {
-        "Name": "Charnel Catapult",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1376"
       },
       {
-        "Name": "Crew",
-        "Values": {
-          "At": "3",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "ud-charnel_catapult": "Charnel Catapult (4+)"
-        }
+        "Id": "statline_1377"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f89790d8280c4b265cb",
     "Name": "Battle Sphinx",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6, Maximised)",
-      "rulebook-halberd": "Halberd"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Battle Sphinx",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {          
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1378"
       },
       {
-        "Name": "Battle Sphinx",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "8",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_1379"
       },
       {
-        "Name": "Rider (5)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_1380"
       },
       {
-        "Name": "Battle Sphinx",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "1"
-        },
-        "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6, Maximised)"
-        }
+        "Id": "statline_1381"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f89790d8280c4b265c8",
     "Name": "Dread Sphinx",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-autonomous": "Autonomous",
-      "ud-ensouled_statue": "Ensouled Statue",            
-      "rulebook-fearless": "Fearless",
-      "rulebook-fly": "Fly",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-multiple_wounds": "Multiple Wounds (D3, towards Height 4-5 or towards Characters)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-great_weapon": "Great Weapon"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Dread Sphinx",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {          
-          "ud-autonomous": "Autonomous",
-          "ud-ensouled_statue": "Ensouled Statue",            
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1382"
       },
       {
-        "Name": "Dread Sphinx",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "8",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1383"
       },
       {
-        "Name": "Dread Sphinx",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "1",
-          "Agi": "0"
-        },
-        "RuleIds": {
-          "rulebook-multiple_wounds": "Multiple Wounds (D3, towards Height 4-5 with 5 or towards Characters)",
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "rulebook-great_weapon": "Great Weapon"
-        }
+        "Id": "statline_1384"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f89790d8280c4b265cf",
     "Name": "Tomb Reapers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-autonomous": "Autonomous",
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-fly": "Fly",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-vanguard": "Vanguard (3 Mob)",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-stomp_attack": "Stomp Attack (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Tomb Reapers",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          //"Rsr": "2",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "ud-autonomous": "Autonomous",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-fly": "Fly",
-          "rulebook-resurrect": "Resurrect (2)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard (3 Mob)",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1385"
       },
       {
-        "Name": "Tomb Reapers",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1386"
       },
       {
-        "Name": "Tomb Reaper",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_1387"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f8a790d8280c4b265d8",
     "Name": "Colossus",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (1)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-terror": "Terror",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-grind_attack": "Grind Attack (D3)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Colossus",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          //"Rsr": "1",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (1)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-terror": "Terror",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1388"
       },
       {
-        "Name": "Colossus",
-        "Values": {
-          "HP": "5",
-          "Df": "4",
-          "Re": "6",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_1389"
       },
       {
-        "Name": "Colossus",
-        "Values": {
-          "At": "6",
-          "Of": "4",
-          "St": "6",
-          "AP": "3",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (D3)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_1390"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f89790d8280c4b265c2",
     "Name": "Sand Scorpion",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Open Terrain)",
-      "ud-ensouled_statue": "Ensouled Statue",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-resurrect": "Resurrect (2)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-undead": "Undead",
-      "rulebook-unstable": "Unstable",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-poison_attacks": "Poison Attacks",      
-      "rulebook-stomp_attack": "Stomp Attack (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Sand Scorpion",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          //"Rsr": "2",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Open Terrain)",
-          "ud-ensouled_statue": "Ensouled Statue",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resurrect": "Resurrect (2)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-undead": "Undead",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1391"
       },
       {
-        "Name": "Sand Scorpion",
-        "Values": {
-          "HP": "4",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1392"
       },
       {
-        "Name": "Sand Scorpion",
-        "Values": {
-          "At": "4",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-poison_attacks": "Poison Attacks",          
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_1393"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   }
 ]

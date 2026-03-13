@@ -2,666 +2,529 @@
   {
     "Id": "68357f34790d8280c4b1f29f",
     "Name": "Dread Prince",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "210",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Elven Horse",
-        "Raptor",
-        "Blackmane Pegasus",
-        "Raptor Chariot",
-        "Manticore",
-        "Imperious Dragon"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "9b6c2d5b-0f11-4dce-9cd9-96f71d811fc5",
-      "8c3953a8-f297-4ea5-aebf-5983fff4f53a",
-      "e0875364-9ca1-4d1c-b7f7-c61ad558d8d8",
-      "d3218025-a32c-476e-878f-1d40b31d606c",
-      "bbe9c4e9-872d-4d2a-b1a5-65488366b7d1",
-      "0aba87c2-0773-47c7-ba5e-2637c502d9d6",
-      "d3983233-b1fd-42d5-a43a-2af47dc81f96"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f34790d8280c4b1f29f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f34790d8280c4b1f29f_elven_horse",
+    "Name": "Dread Prince on Elven Horse",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "24a131fd-2693-4bb1-bcc6-6c71778b306f"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f34790d8280c4b1f29f_raptor",
+    "Name": "Dread Prince on Raptor",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "5791888a-5807-4a4b-8a4b-b435125b3058"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f34790d8280c4b1f29f_blackmane_pegasus",
+    "Name": "Dread Prince on Blackmane Pegasus",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "4464f45d-2919-4694-bc98-c923fa77d49c"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f34790d8280c4b1f29f_raptor_chariot",
+    "Name": "Dread Prince on Raptor Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "f8bb37a7-0034-431e-9f0b-7f00a09c568d"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f34790d8280c4b1f29f_manticore",
+    "Name": "Dread Prince on Manticore",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "0066d85f-e91c-4797-a6d5-2ed186a7cd30"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f34790d8280c4b1f29f_imperious_dragon",
+    "Name": "Dread Prince on Imperious Dragon",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "7e30d4e8-80b0-4cc7-a3b3-90d12f7feffd"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f35790d8280c4b1f585",
     "Name": "Silexian Officer",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "80",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Elven Horse",
-        "Raptor",
-        "Blackmane Pegasus",
-        "Raptor Chariot",
-        "Manticore"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "739b5689-7a46-40d3-987c-70814f97b1d5",
-      "6f524ac9-9fc0-4d96-a2a4-55e88ea53c5a",
-      "8949a175-aec2-4cc4-9596-4123c7882e90",
-      "8917b37a-e634-4567-b443-a9a38b6fea00",
-      "d43989d8-e80e-433f-a5e3-6b0000007f34",
-      "72a9ba81-4e51-4bfc-a1c4-cdffab3e2ab3"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f35790d8280c4b1f585"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f585_elven_horse",
+    "Name": "Silexian Officer on Elven Horse",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "c3c0b50c-41f1-430f-a0dd-3664abc2ea74"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f585_raptor",
+    "Name": "Silexian Officer on Raptor",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "b0c1f253-740c-4440-8008-f7366c468b00"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f585_blackmane_pegasus",
+    "Name": "Silexian Officer on Blackmane Pegasus",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "d17510b0-4e88-4724-9e63-dddc31197283"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f585_raptor_chariot",
+    "Name": "Silexian Officer on Raptor Chariot",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "1cc0abae-72e7-49cf-b1cf-498b42643103"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f585_manticore",
+    "Name": "Silexian Officer on Manticore",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "29c58cb1-860c-4d7c-95a9-b5b35d78b0e1"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f35790d8280c4b1f858",
     "Name": "Temple Exarch",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "200",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f35790d8280c4b1f858"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f35790d8280c4b1f8ba",
     "Name": "Sanctioned Warlock",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "290",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Elven Horse",
-        "Raptor",
-        "Blackmane Pegasus",
-        "Manticore",
-        "Imperious Dragon"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "1f201c02-fd0c-4017-9485-b4c3aea710d5",
-      "f803ef16-e33d-4fd8-ad8d-6051bcd7d66a",
-      "fd177d19-cd4d-430f-8e0f-e0f77c572826",
-      "4a2277ea-be7c-4f57-9e76-6c5742169c11",
-      "da926e9b-941e-47de-bd5e-e2eedb61860c",
-      "8d2cfedf-3d00-4657-aa5e-d2b162ef7948"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f35790d8280c4b1f8ba"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f8ba_elven_horse",
+    "Name": "Sanctioned Warlock on Elven Horse",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "6226c787-b9da-442a-b315-a0b86d19e627"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f8ba_raptor",
+    "Name": "Sanctioned Warlock on Raptor",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "2388658f-4aa9-4a11-97af-8bf43d8b71b5"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f8ba_blackmane_pegasus",
+    "Name": "Sanctioned Warlock on Blackmane Pegasus",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "2d928d87-90ae-4b0f-9e6e-5c256f8d602a"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f8ba_manticore",
+    "Name": "Sanctioned Warlock on Manticore",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "8be0d7a7-5501-4ebb-9d77-3a5ba71f98b9"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f35790d8280c4b1f8ba_imperious_dragon",
+    "Name": "Sanctioned Warlock on Imperious Dragon",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "4cd8651f-7fca-48b1-b7b3-f703b1fb7f5b"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f35790d8280c4b1f84f",
     "Name": "Silent Assassin",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "130",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f35790d8280c4b1f84f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "b3f7e1a9d2c6d8e4a1b7c9f6d",
     "Name": "Tethaen, the Ocean Terror",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "600",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "b1c3d8a7e9f4c5a2b6d3e8f9a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "b9e2f3d0a7c1e8f4d2b6c0a5f",
     "Name": "The Black Rose",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "440",
-      "category": "Characters",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "b1d4e8a9237c5f2a9d8b1c3d4b"
-    ]
-  },    
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
   {
     "Id": "68357f36790d8280c4b1fa7c",
     "Name": "Silexian Spears",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-1",
-      "category": "Core Units",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "17794192-7447-419e-b6ec-f15b1d821309",
-      "cc986e3c-3797-41e5-bac5-4f5701738cd3"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f36790d8280c4b1fa7e"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f36790d8280c4b1faaf",
     "Name": "Silexian Auxiliaries",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "84",
-      "category": "Core Units",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "90898bc9-e1a9-4485-a8c7-0c88f58c5bc8",
-      "d18506de-01a0-437d-886b-8e0235fc3be1"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f36790d8280c4b1fab1"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f36790d8280c4b1fb1b",
     "Name": "Temple Militants",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "24",
-      "category": "Core Units",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "c9c0d26e-a206-4388-843f-203ffc2ff707",
-      "8ec182d4-09f2-4723-836b-4c71dfc7e0b9"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f36790d8280c4b1fb1d"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f36790d8280c4b1fae2",
     "Name": "Corsairs",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "47",
-      "category": "Core Units",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "baf7af6e-ebfd-439d-9ab2-7e38113a46b5",
-      "f7a58f28-6883-4f0f-a67a-acca5b5fcaf8"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f36790d8280c4b1fae4"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f37790d8280c4b1fb51",
     "Name": "Shadow Riders",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "117",
-      "category": "Core Units",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "78d5a4b0-f8c4-4eb5-869d-c5327c96b1cc",
-      "2ea82f50-8332-4e7e-8d9b-04c284a0fe1e"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f37790d8280c4b1fb53"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f38790d8280c4b1fc30",
     "Name": "Dread Acolytes",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "57",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "ef30c64d-d17e-4275-bcdb-edbf84cc12d9",
-      "13a9f4e5-8038-44b4-beaa-58c47fa1aee5"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f38790d8280c4b1fc32"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f37790d8280c4b1fb79",
     "Name": "Dread Knights",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "104",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "6884f2b3-199b-4400-b4f6-23f790043967",
-      "a20dbd2b-69f5-457b-baba-056d7b106c8e"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f37790d8280c4b1fb7b"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f38790d8280c4b1fbf8",
     "Name": "Obsidian Guard",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "40",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "48ccbf66-83b4-46a5-900c-eac8f20924b3",
-      "5cbbd4e4-c030-40d6-92f0-acb77e23d2bb"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f38790d8280c4b1fbfa"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f38790d8280c4b1fbc5",
     "Name": "Judicators",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "21",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "f0e8ba04-c8a4-436f-a17f-493513eb1875",
-      "9144a362-5a7c-4285-9f3c-d752287cf1cb"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f38790d8280c4b1fbc7"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "d12c74273609ac8bf517f573e",
     "Name": "Dancers of Yema",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "24",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "f3a8b1d4-7c9e-4a62-9e15-6b2f0d8c4a91",
-      "f3a9c6b1-7e42-4d8a-9c51-2b6e8a0d4f93"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "a3f9c1e7b4d0a8c6e2f5b9d7e"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f37790d8280c4b1fbb8",
     "Name": "Harpies",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "100",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f37790d8280c4b1fbba"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f38790d8280c4b1fbbd",
     "Name": "Gorgons",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "110",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f38790d8280c4b1fbbf"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f38790d8280c4b1fc2b",
     "Name": "Thunder Pack",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "90",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f38790d8280c4b1fc2d"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f37790d8280c4b1fb72",
     "Name": "Raptor Chariot",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "190",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f37790d8280c4b1fb72"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f37790d8280c4b1fb75",
     "Name": "Divine Altar",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "230",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f37790d8280c4b1fb75"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f39790d8280c4b1fc69",
     "Name": "Hunting Chariot",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "210",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f39790d8280c4b1fc69"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f39790d8280c4b1fc6a",
     "Name": "Repeater Battery",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "210",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f39790d8280c4b1fc6a"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f39790d8280c4b1fc6b",
     "Name": "Black Cloaks",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "12",
-      "category": "Special",
-      "army": "Dread Elves",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [        
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [      
-      "b8768eef-101b-4450-a164-64908244232b"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f39790d8280c4b1fc6d"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f39790d8280c4b1fc86",
     "Name": "Kraken",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "380",
-      "category": "The Menagerie",
-      "army": "Dread Elves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f39790d8280c4b1fc86"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f39790d8280c4b1fc88",
     "Name": "Hydra",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "400",
-      "category": "The Menagerie",
-      "army": "Dread Elves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f39790d8280c4b1fc88"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f39790d8280c4b1fc89",
     "Name": "Mist Leviathan",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "230",
-      "category": "The Menagerie",
-      "army": "Dread Elves",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f39790d8280c4b1fc89"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   }
 ]

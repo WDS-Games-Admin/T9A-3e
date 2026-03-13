@@ -2,647 +2,529 @@
   {
     "Id": "68357f8b790d8280c4b26614",
     "Name": "Vampire Count",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "280",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Skeletal Steed",
-        "Spectral Steed",
-        "Monstrous Revenant",
-        "Court of the Damned",
-        "Zombie Dragon",
-        "Shrieking Horror",
-        "Colossal Zombie Dragon"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "09c9afbe-3618-4277-bc21-ac88b888d0cb",
-      "0935a016-e6a4-4b16-a63f-7b574b7bab36",
-      "3bea8472-7589-433a-8f4b-cfb7a8bb78f1",
-      "0173a441-7cf2-4293-b88a-7a3bfeb498ab",
-      "1e83bb97-324b-48b4-ae19-1e7fc3542921",
-      "a9090797-378c-43ea-97c8-e91b631ca01f",
-      "6e753a75-1a13-42ec-b12f-8d6b9bd424e9",
-      "3fb5dcaa-0d68-4328-9082-282a233c2d29"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8b790d8280c4b26614"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_skeletal_steed",
+    "Name": "Vampire Count on Skeletal Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "fa697a3b-8c97-41f6-962f-9ef1ffc02a06"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_spectral_steed",
+    "Name": "Vampire Count on Spectral Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "94ad039b-dd93-4f8b-8565-6f0b276b7c4a"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_monstrous_revenant",
+    "Name": "Vampire Count on Monstrous Revenant",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "206cfc11-417f-48f2-9fde-f40029e93149"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_court_of_the_damned",
+    "Name": "Vampire Count on Court of the Damned",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "aa936f8f-8b71-498f-a7e3-7fe4396bb24c"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_zombie_dragon",
+    "Name": "Vampire Count on Zombie Dragon",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "c97a3879-e522-4dff-8b2c-5577b4c885b2"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_shrieking_horror",
+    "Name": "Vampire Count on Shrieking Horror",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "1510e39a-213b-4d51-afa9-a0e93c28700b"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8b790d8280c4b26614_colossal_zombie_dragon",
+    "Name": "Vampire Count on Colossal Zombie Dragon",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "399a4460-b2e3-41c2-9944-3251a56a0dc5"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f8c790d8280c4b26a24",
     "Name": "Vampire Courtier",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "140",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Skeletal Steed",
-        "Spectral Steed",
-        "Monstrous Revenant",
-        "Court of the Damned"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "5440d4c1-6749-4a91-8eaa-e08cf6d7b55b",
-      "b324c6a1-d662-43f4-9dfb-ad3a25956e95",
-      "509751e7-9c7c-4c43-b829-d151c2d64068",
-      "71a167aa-5cd6-4c3c-8ffb-a20c6c067425",
-      "cb82fa38-3d72-4907-aa12-403ba1901430"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8c790d8280c4b26a24"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8c790d8280c4b26a24_skeletal_steed",
+    "Name": "Vampire Courtier on Skeletal Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "34657fff-38c4-4c53-b199-be941b45eca5"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8c790d8280c4b26a24_spectral_steed",
+    "Name": "Vampire Courtier on Spectral Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "eeb7b63d-537e-4ad0-b675-fa8a5ea95ee3"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8c790d8280c4b26a24_monstrous_revenant",
+    "Name": "Vampire Courtier on Monstrous Revenant",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "9f43fddd-d6a2-4144-a1f2-a2ec791648a1"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8c790d8280c4b26a24_court_of_the_damned",
+    "Name": "Vampire Courtier on Court of the Damned",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "b7348151-e871-421f-a584-4ed287dd0321"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f8d790d8280c4b26ccc",
     "Name": "Necromancer",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "270",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Skeletal Steed",
-        "Monstrous Revenant",
-        "Cadaver Wagon",
-        "Zombie Dragon"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "10956b7d-0b2f-4067-bd2e-9c960ead09e1",
-      "503838aa-7411-449a-897f-185f1e8237c8",
-      "12752dbb-5264-431a-b082-ed934f722f35",
-      "9e7cc8b1-af28-4346-b9b2-fd92ca8092a9",
-      "2b38a10d-c3b9-4363-8906-b42a9c28d541"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8d790d8280c4b26ccc"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8d790d8280c4b26ccc_skeletal_steed",
+    "Name": "Necromancer on Skeletal Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "9a1ef4a2-b4f2-46a7-a4c9-5846a8e6b94e"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8d790d8280c4b26ccc_monstrous_revenant",
+    "Name": "Necromancer on Monstrous Revenant",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "eeec692b-711a-4064-a4b7-fb7afda22395"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8d790d8280c4b26ccc_cadaver_wagon",
+    "Name": "Necromancer on Cadaver Wagon",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "493766de-0023-4109-8396-6995bc45283e"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8d790d8280c4b26ccc_zombie_dragon",
+    "Name": "Necromancer on Zombie Dragon",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "7e0e0aef-04b9-43d2-a9fd-49934ca2bd6e"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f8d790d8280c4b26e16",
     "Name": "Barrow King",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "60",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Skeletal Steed"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "a445b7ed-acbd-4f8d-ae44-5a16084fa562",
-      "f15e9e3b-527e-4bd4-b36d-eecc61c43e0c"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8d790d8280c4b26e16"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "68357f8d790d8280c4b26e16_skeletal_steed",
+    "Name": "Barrow King on Skeletal Steed",
+    "Type": "Unit",
+    "Attributes": {
+    },
+    "BasicProfileIds": [
+      "f678c876-4549-408f-8341-4b3c54546072"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f8e790d8280c4b26ed3",
     "Name": "Banshee",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "150",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8e790d8280c4b26ed3"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a3d7b4f8e1c9d6a5f3b2e9c1a",
-    "Name": "Lady Chryselie",
+    "Name": "Lady Chrysélie",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "350",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "a7b4f3c1e8d9f6a2b7d3c9e5f"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "a7b2f8c1d6e3a9f5b2c4e8d3a",
     "Name": "The Collective of Varyag the Sainted",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "350",
-      "category": "Characters",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "d3f7b1e9c4a2d8f6e5c9a0b3d"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f8e790d8280c4b26edd",
     "Name": "Zombies",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "55",
-      "category": "Core Units",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "75d95f4f-6370-4494-82e2-99cd7b607060",
-      "5d611a06-600a-45e8-add1-0f93c9b98713"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8e790d8280c4b26edf"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f8e790d8280c4b26ef5",
     "Name": "Skeletons",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "18",
-      "category": "Core Units",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "ba78ee17-d5ee-4ea9-919b-3b2189c30eb2",
-      "1da6ec8d-705d-4771-bfe3-4cef7a215952"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8e790d8280c4b26ef7"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f8e790d8280c4b26f2e",
     "Name": "Ghouls",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-30",
-      "category": "Core Units",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "68e942b0-60c5-425c-a881-673124636a79",
-      "0c03f181-61ea-47ee-9920-8758b2d49765"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8e790d8280c4b26f30"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f8f790d8280c4b26f4e",
     "Name": "Bat Swarms",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "120",
-      "category": "Core Units",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8f790d8280c4b26f50"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f8f790d8280c4b26f49",
     "Name": "Dire Wolves",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "40",
-      "category": "Core Units",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8f790d8280c4b26f4b"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f90790d8280c4b26fd1",
     "Name": "Great Bats",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "85",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f90790d8280c4b26fd3"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f90790d8280c4b26fb9",
     "Name": "Ghasts",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "10",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "a9e2e4bd-b50d-4542-9ea9-019620e06e1b",
-      "7f811085-bda7-460b-8bd7-c867794cc677"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f90790d8280c4b26fbb"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f8f790d8280c4b26f53",
     "Name": "Barrow Guard",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "-74",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "54d25df1-49d6-4729-986b-15391bfb28b9",
-      "4d4ee146-c4a6-43af-89bc-7b8585da60ef"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8f790d8280c4b26f55"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f8f790d8280c4b26f8c",
     "Name": "Barrow Knights",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "40",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "e5268931-b0f6-4a1d-8807-a73c78944c5b",
-      "c52808c6-cff2-4285-80d1-6f517c504cfe"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f8f790d8280c4b26f8e"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f90790d8280c4b26fd6",
     "Name": "Cadaver Wagon",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "260",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f90790d8280c4b26fd6"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f91790d8280c4b26fd9",
     "Name": "Dark Coach",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "380",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f91790d8280c4b26fd9"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f90790d8280c4b26fd7",
     "Name": "Court of the Damned",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "300",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f90790d8280c4b26fd7"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f91790d8280c4b26fd8",
     "Name": "Altar of Undeath",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "300",
-      "category": "Special",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f91790d8280c4b26fd8"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f91790d8280c4b26fe3",
     "Name": "Phantom Hosts",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "110",
-      "category": "The Suffering",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f91790d8280c4b26fe5"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f91790d8280c4b26fe8",
     "Name": "Wraiths",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "50",
-      "category": "The Suffering",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f91790d8280c4b26fea"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f91790d8280c4b26ff0",
     "Name": "Spectral Hunters",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "25",
-      "category": "The Suffering",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f91790d8280c4b26ff2"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f92790d8280c4b26ff9",
     "Name": "Vampire Knights",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "140",
-      "category": "Swift Death",
-      "army": "Vampire Covenant",
-      "height": "Standard",
-      "type": "",
-      "defaultFront": "5"
     },
-    "AttributeLists": {
-      "FullOptions": [
-        "Standard Bearer",
-        "Musician"
-      ]
-    },
-    "RuleIds": {},
-    "OptionListIds": [
-      "47f1c79e-ca68-401e-8e42-0743d474e7c8",
-      "7b756095-b3e8-4867-b599-60f9ffd40533"
-    ],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f92790d8280c4b26ffb"
-    ]
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
   },
   {
     "Id": "68357f93790d8280c4b2702e",
     "Name": "Vampire Spawn",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "70",
-      "category": "Swift Death",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f93790d8280c4b27030"
-    ]
-  },  
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
+  },
   {
     "Id": "68357f92790d8280c4b2702d",
     "Name": "Varkolak",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "340",
-      "category": "Swift Death",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f92790d8280c4b2702d"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   },
   {
     "Id": "68357f92790d8280c4b27026",
     "Name": "Winged Reapers",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "120",
-      "category": "Swift Death",
-      "army": "Vampire Covenant",
-      "height": "Large",
-      "type": "",
-      "defaultFront": "3"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f92790d8280c4b27028"
-    ]
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
   },
   {
     "Id": "68357f92790d8280c4b26ff8",
     "Name": "Shrieking Horror",
+    "Type": "Unit",
     "Attributes": {
-      "totalCost": "420",
-      "category": "Swift Death",
-      "army": "Vampire Covenant",
-      "height": "Gigantic",
-      "type": "",
-      "defaultFront": "1"
     },
-    "AttributeLists": {
-      "FullOptions": []
-    },
-    "RuleIds": {},
-    "OptionListIds": [],
-    "ProfileIds": [
+    "BasicProfileIds": [
       "68357f92790d8280c4b26ff8"
-    ]
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
   }
 ]
