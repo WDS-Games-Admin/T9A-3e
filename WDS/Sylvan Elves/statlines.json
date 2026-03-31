@@ -1,2136 +1,2318 @@
 [
   {
-    "Id": "statline_1194",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "10",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1195",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "8",
-      "Res": "3",
-      "Arm": "1"
-    }
-  },
-  {
-    "Id": "statline_1196",
-    "Name": "Forest Prince",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "4",
-      "Off": "8",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "8"
-    }
-  },
-  {
-    "Id": "statline_1197",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "10",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1198",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "8",
-      "Res": "3",
-      "Arm": "2"
-    }
-  },
-  {
-    "Id": "statline_1199",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "8",
-      "Mob": "8",
-      "Dis": "10",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1200",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "8",
-      "Res": "5",
-      "Arm": "2"
-    }
-  },
-  {
-    "Id": "statline_1201",
-    "Name": "Great Elk",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "2",
-      "Off": "4",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-impact_hits",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1202",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "10",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1203",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "4",
-      "Def": "8",
-      "Res": "4",
-      "Arm": "2"
-    }
-  },
-  {
-    "Id": "statline_1204",
-    "Name": "Forest Eagle",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "3",
-      "Off": "5",
-      "Str": "5",
-      "AP": "1",
-      "Agi": "4"
-    }
-  },
-  {
-    "Id": "statline_1205",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "7",
-      "Mob": "7",
-      "Dis": "10",
-      "Hgt": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "se-meeting_of_minds"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-terror"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1206",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "7",
-      "Def": "5",
-      "Res": "6",
-      "Arm": "4"
-    }
-  },
-  {
-    "Id": "statline_1207",
-    "Name": "Forest Dragon",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "6",
-      "Off": "5",
-      "Str": "6",
-      "AP": "3",
-      "Agi": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-breath_attack",
-        "Info": "(Str 4, AP 1, Flaming Attacks)"
-      },
-      {
-        "Id": "rulebook-stomp_attack",
-        "Info": "(D6)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1208",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1209",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "7",
-      "Res": "3",
-      "Arm": "1"
-    }
-  },
-  {
-    "Id": "statline_1210",
-    "Name": "Chieftain",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "3",
-      "Off": "7",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "7"
-    }
-  },
-  {
-    "Id": "statline_1211",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "9",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1212",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "7",
-      "Res": "3",
-      "Arm": "2"
-    }
-  },
-  {
-    "Id": "statline_1213",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "8",
-      "Mob": "8",
-      "Dis": "9",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1214",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "7",
-      "Res": "5",
-      "Arm": "2"
-    }
-  },
-  {
-    "Id": "statline_1215",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "9",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1216",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "4",
-      "Def": "7",
-      "Res": "4",
-      "Arm": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1217",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "se-tree_singing"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1218",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "0"
-    }
-  },
-  {
-    "Id": "statline_1219",
-    "Name": "Druid",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    }
-  },
-  {
-    "Id": "statline_1220",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "9",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "se-tree_singing"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1221",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "1"
-    }
-  },
-  {
-    "Id": "statline_1222",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "9",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "se-tree_singing"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
-      },
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1223",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "4",
-      "Def": "5",
-      "Res": "4",
-      "Arm": "1"
-    }
-  },
-  {
-    "Id": "statline_1224",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "10",
-      "Mob": "10",
-      "Dis": "9",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "se-herald_of_sura"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-stand_behind"
-      },
-      {
-        "Id": "rulebook-strider"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "se-tree_singing"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1225",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "5",
-      "Res": "4",
-      "Arm": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-magic_resistance",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1226",
-    "Name": "Sylvan Unicorn",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "2",
-      "Off": "5",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-magical_attacks"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1227",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "7",
-      "Mob": "7",
-      "Dis": "9",
-      "Hgt": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "se-meeting_of_minds"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-terror"
-      },
-      {
-        "Id": "se-tree_singing"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1228",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
-        "Id": "rulebook-exclusive",
-        "Info": "(Sylvan Spirit)"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "se-tree_singing"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1229",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "6",
-      "Res": "4",
-      "Arm": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1230",
-    "Name": "Dryad Ancient",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "3",
-      "Off": "6",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "7"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-hatred"
-      },
-      {
-        "Id": "rulebook-magical_attacks"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1231",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-stubborn"
-      },
-      {
-        "Id": "rulebook-terror"
-      },
-      {
-        "Id": "se-tree_singing"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1232",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "6",
-      "Def": "6",
-      "Res": "7",
-      "Arm": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1233",
-    "Name": "Avatar of Nature",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "6",
-      "Off": "6",
-      "Str": "7",
-      "AP": "4",
-      "Agi": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-crush_attack"
-      },
-      {
-        "Id": "rulebook-magical_attacks"
-      },
-      {
-        "Id": "rulebook-stomp_attack",
-        "Info": "(D6)"
-      },
-      {
-        "Id": "se-impaling_roots"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1234",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-stubborn"
-      },
-      {
-        "Id": "rulebook-terror"
-      },
-      {
-        "Id": "se-tree_singing"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1235",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "6",
-      "Def": "4",
-      "Res": "7",
-      "Arm": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1236",
-    "Name": "Treefather Ancient",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "3",
-      "Off": "4",
-      "Str": "5",
-      "AP": "2",
-      "Agi": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-crush_attack"
-      },
-      {
-        "Id": "rulebook-magical_attacks"
-      },
-      {
-        "Id": "rulebook-stomp_attack",
-        "Info": "(D6)"
-      },
-      {
-        "Id": "se-impaling_roots"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1237",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-exclusive",
-        "Info": "(Sylvan Spirit)"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "se-tree_singing"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1238",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "4",
-      "Def": "5",
-      "Res": "5",
-      "Arm": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1239",
-    "Name": "Thicket Shepherd",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "4",
-      "Off": "5",
-      "Str": "5",
-      "AP": "2",
-      "Agi": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-magical_attacks"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1240",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-stubborn"
-      },
-      {
-        "Id": "se-sylvan_beasts",
-        "Info": "(1)"
-      },
-      {
-        "Id": "rulebook-terror"
-      },
-      {
-        "Id": "se-the_world_tree"
-      },
-      {
-        "Id": "se-tree_singing"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1241",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "6",
-      "Def": "4",
-      "Res": "7",
-      "Arm": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1242",
-    "Name": "Ancient Dawael",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "3",
-      "Off": "4",
-      "Str": "5",
-      "AP": "2",
-      "Agi": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-crush_attack"
-      },
-      {
-        "Id": "se-impaling_roots"
-      },
-      {
-        "Id": "rulebook-magical_attacks"
-      },
-      {
-        "Id": "rulebook-stomp_attack",
-        "Info": "(D6 hits)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1243",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "8",
-      "Mob": "8",
-      "Dis": "9",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider"
-      },
-      {
-        "Id": "se-the_unicornpath"
-      },
-      {
-        "Id": "rulebook-vanguard"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1244",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "8",
-      "Res": "4",
-      "Arm": "0"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-magic_resistance",
-        "Info": "(3)"
-      },
-      {
-        "Id": "rulebook-resistance",
-        "Info": "(against Magical Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1245",
-    "Name": "Domethil",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "4",
-      "Off": "8",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "8"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-weapon_master"
-      },
-      {
-        "Id": "se-the_unicorns_fury"
-      },
-      {
-        "Id": "se-the_unicorns_horn"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1246",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1247",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "1"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1248",
-    "Name": "Forest Guard",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-weapon_master"
-      },
-      {
-        "Id": "rulebook-spear"
-      },
-      {
-        "Id": "se-sylvan_blades"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1249",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1250",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "0"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1251",
-    "Name": "Sylvan Archer",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "se-sylvan_bow",
-        "Info": "(3+)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1252",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "8",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1253",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "2"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1254",
-    "Name": "Heath Rider",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-devastating_charge",
-        "Info": "(Fury)"
-      },
-      {
-        "Id": "se-heath_lancers"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1255",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-exclusive",
-        "Info": "(Sylvan Spirit)"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1256",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "4",
-      "Res": "4",
-      "Arm": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1257",
-    "Name": "Dryad",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "2",
-      "Off": "4",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-magical_attacks"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1258",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1259",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "6",
-      "Res": "3",
-      "Arm": "1"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1260",
-    "Name": "Forest Ranger",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "2",
-      "Off": "6",
-      "Str": "3",
-      "AP": "1",
-      "Agi": "0"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-elven_finesse"
-      },
-      {
-        "Id": "rulebook-great_weapon"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1261",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-bodyguard",
-        "Info": "(Thicket Shepherd)"
-      },
-      {
-        "Id": "rulebook-exclusive",
-        "Info": "(Sylvan Spirit)"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1262",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "3",
-      "Def": "4",
-      "Res": "5",
-      "Arm": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1263",
-    "Name": "Thicket Beast",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "3",
-      "Off": "4",
-      "Str": "5",
-      "AP": "2",
-      "Agi": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-magical_attacks"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1264",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "8",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-unruly"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1265",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "4",
-      "Def": "5",
-      "Res": "4",
-      "Arm": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1266",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "9",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-exclusive",
-        "Info": "(Blade Dancer Kindred)"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-magic_resistance",
-        "Info": "(1)"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1267",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "6",
-      "Res": "3",
-      "Arm": "0"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(6+)"
-      },
-      {
-        "Id": "rulebook-magic_resistance",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1268",
-    "Name": "Blade Dancer",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "6",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "6"
-    },
-    "Children": [
-      {
-        "Id": "se-dances_of_cenyrn"
-      },
-      {
-        "Id": "se-sylvan_blades"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1269",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "5"
-    },
-    "Children": [
-      {
-        "Id": "se-forest_dweller"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-stubborn"
-      },
-      {
-        "Id": "rulebook-terror"
-      },
-      {
-        "Id": "se-tree_singing"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1270",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "5",
-      "Def": "5",
-      "Res": "7",
-      "Arm": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(5+)"
-      },
-      {
-        "Id": "rulebook-weakness",
-        "Info": "(Flaming Attacks)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1271",
-    "Name": "Treefather",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "5",
-      "Off": "5",
-      "Str": "6",
-      "AP": "3",
-      "Agi": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-crush_attack"
-      },
-      {
-        "Id": "rulebook-magical_attacks"
-      },
-      {
-        "Id": "rulebook-stomp_attack",
-        "Info": "(D6)"
-      },
-      {
-        "Id": "se-impaling_roots"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1272",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "8",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "rulebook-frenzy"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-unruly"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1273",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "6",
-      "Res": "3",
-      "Arm": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(6+)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1274",
-    "Name": "Wild Huntsman",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "2",
-      "Off": "6",
-      "Str": "3",
-      "AP": "1",
-      "Agi": "6"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-devastating_charge",
-        "Info": "(+1 Att)"
-      },
-      {
-        "Id": "rulebook-fury"
-      },
-      {
-        "Id": "rulebook-lethal_strike"
-      },
-      {
-        "Id": "se-sylvan_blades"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1275",
-    "Name": "Elven Deer",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "3",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "4"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-impact_hits",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1276",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "9",
-      "Hgt": "3"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-disciplined"
-      },
-      {
-        "Id": "rulebook-feigned_flight"
-      },
-      {
-        "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-hit_and_run"
-      },
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-skirmisher"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-vanguard"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1277",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "2",
-      "Def": "6",
-      "Res": "4",
-      "Arm": "2"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      },
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1278",
-    "Name": "Kestrel Knight",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "6",
-      "Str": "4",
-      "AP": "1",
-      "Agi": "6"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-devastating_charge",
-        "Info": "(+1 Att)"
-      },
-      {
-        "Id": "rulebook-light_lance"
-      },
-      {
-        "Id": "se-sylvan_bow",
-        "Info": "(3+)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1279",
-    "Name": "Kestrel",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "2",
-      "Off": "4",
-      "Str": "4",
-      "AP": "2",
-      "Agi": "4"
-    }
-  },
-  {
-    "Id": "statline_1280",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "9",
-      "Mob": "9",
-      "Dis": "8",
-      "Hgt": "2"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-solitary"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-swiftstride"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1281",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-aegis",
-        "Info": "(4+)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1282",
-    "Name": "Briar Maiden",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-poison_attacks"
-      },
-      {
-        "Id": "se-poisoned_thorn"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1283",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-skirmisher"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1284",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "0"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      },
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1285",
-    "Name": "Sylvan Sentinel",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "se-big_game_hunters",
-        "Info": "(Shooting)"
-      },
-      {
-        "Id": "se-sylvan_bow",
-        "Info": "(3+)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1286",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "Cha": "5",
-      "Mob": "5",
-      "Dis": "8",
-      "Hgt": "1"
-    },
-    "Children": [
-      {
-        "Id": "rulebook-light_troops"
-      },
-      {
-        "Id": "rulebook-scout"
-      },
-      {
-        "Id": "rulebook-skirmisher"
-      },
-      {
-        "Id": "rulebook-strider",
-        "Info": "(Forest)"
-      },
-      {
-        "Id": "rulebook-vanguard"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1287",
-    "Name": "",
-    "Type": "Statline",
-    "Attributes": {
-      "HP": "1",
-      "Def": "5",
-      "Res": "3",
-      "Arm": "0"
-    },
-    "Children": [
-      {
-        "Id": "se-elven_cloak"
-      },
-      {
-        "Id": "rulebook-hard_target",
-        "Info": "(1)"
-      }
-    ]
-  },
-  {
-    "Id": "statline_1288",
-    "Name": "Pathfinder",
-    "Type": "Statline",
-    "Attributes": {
-      "Att": "1",
-      "Off": "5",
-      "Str": "3",
-      "AP": "0",
-      "Agi": "5"
-    },
-    "Children": [
-      {
-        "Id": "se-forests_thorns"
-      },
-      {
-        "Id": "rulebook-stand_and_shoot"
-      },
-      {
-        "Id": "se-sylvan_blades"
-      },
-      {
-        "Id": "se-sylvan_bow",
-        "Info": "(2+)"
-      }
-    ]
+    "Id":  "statline_1194",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "10",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1195",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "8",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1196",
+    "Name":  "Forest Prince",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "8",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "8"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1197",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "10",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1198",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "8",
+               "Res":  "3",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1199",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "10",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1200",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "8",
+               "Res":  "5",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1201",
+    "Name":  "Great Elk",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1202",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "10",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1203",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "8",
+               "Res":  "4",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1204",
+    "Name":  "Forest Eagle",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1205",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "10",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "se-meeting_of_minds"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1206",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "7",
+               "Def":  "5",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1207",
+    "Name":  "Forest Dragon",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "5",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-breath_attack",
+               "Info":  "(Str 4, AP 1, Flaming Attacks)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_dragon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1208",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-captain"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1209",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1210",
+    "Name":  "Chieftain",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "7",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "7"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1211",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-captain"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1212",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "3",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1213",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-captain"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1214",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1215",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-captain"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1216",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "7",
+               "Res":  "4",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1217",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "se-tree_singing"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1218",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1219",
+    "Name":  "Druid",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_elf"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1220",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "se-tree_singing"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1221",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1222",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "se-tree_singing"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1223",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1224",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "10",
+               "Mob":  "10",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-herald_of_sura"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-stand_behind"
+             },
+             {
+               "Id":  "rulebook-strider"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "se-tree_singing"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1225",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "1",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1226",
+    "Name":  "Sylvan Unicorn",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1227",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "se-meeting_of_minds"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "se-tree_singing"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1228",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-captain"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Sylvan Spirit)"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "se-tree_singing"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1229",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "6",
+               "Res":  "4",
+               "Arm":  "1",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1230",
+    "Name":  "Dryad Ancient",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "7"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hatred"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1231",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "se-tree_singing"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1232",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "6",
+               "Def":  "6",
+               "Res":  "7",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1233",
+    "Name":  "Avatar of Nature",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "6",
+               "Str":  "7",
+               "AP":  "4",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-crush_attack"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "se-impaling_roots"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1234",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "se-tree_singing"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1235",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "6",
+               "Def":  "4",
+               "Res":  "7",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1236",
+    "Name":  "Treefather Ancient",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-crush_attack"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "se-impaling_roots"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1237",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Sylvan Spirit)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "se-tree_singing"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1238",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "5",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1239",
+    "Name":  "Thicket Shepherd",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1240",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "se-sylvan_beasts",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "se-the_world_tree"
+             },
+             {
+               "Id":  "se-tree_singing"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1241",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "6",
+               "Def":  "4",
+               "Res":  "7",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1242",
+    "Name":  "Ancient Dawael",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-crush_attack"
+             },
+             {
+               "Id":  "se-impaling_roots"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6 hits)"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1243",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider"
+             },
+             {
+               "Id":  "se-the_unicornpath"
+             },
+             {
+               "Id":  "rulebook-vanguard"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1244",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "8",
+               "Res":  "4",
+               "Arm":  "0",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(3)"
+             },
+             {
+               "Id":  "rulebook-resistance",
+               "Info":  "(against Magical Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1245",
+    "Name":  "Domethil",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "8",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "8"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-weapon_master"
+             },
+             {
+               "Id":  "se-the_unicorns_fury"
+             },
+             {
+               "Id":  "se-the_unicorns_horn"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1246",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1247",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1248",
+    "Name":  "Forest Guard",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-weapon_master"
+             },
+             {
+               "Id":  "rulebook-spear"
+             },
+             {
+               "Id":  "se-sylvan_blades"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1249",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1250",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1251",
+    "Name":  "Sylvan Archer",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "se-sylvan_bow",
+               "Info":  "(3+)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1252",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1253",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1254",
+    "Name":  "Heath Rider",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(Fury)"
+             },
+             {
+               "Id":  "se-heath_lancers"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1255",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Sylvan Spirit)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1256",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "1",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1257",
+    "Name":  "Dryad",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1258",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1259",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "6",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1260",
+    "Name":  "Forest Ranger",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "6",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-elven_finesse"
+             },
+             {
+               "Id":  "rulebook-great_weapon"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1261",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-bodyguard",
+               "Info":  "(Thicket Shepherd)"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Sylvan Spirit)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1262",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "4",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1263",
+    "Name":  "Thicket Beast",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1264",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1265",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1266",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Blade Dancer Kindred)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1267",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "6",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(6+)"
+             },
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1268",
+    "Name":  "Blade Dancer",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "se-dances_of_cenyrn"
+             },
+             {
+               "Id":  "se-sylvan_blades"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1269",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "se-tree_singing"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1270",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "5",
+               "Res":  "7",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1271",
+    "Name":  "Treefather",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "5",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-crush_attack"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "se-impaling_roots"
+             },
+             {
+               "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1272",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-frenzy"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1273",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "6",
+               "Res":  "3",
+               "Arm":  "2",
+               "Aeg":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(6+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1274",
+    "Name":  "Wild Huntsman",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "6",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(+1 Att)"
+             },
+             {
+               "Id":  "rulebook-fury"
+             },
+             {
+               "Id":  "rulebook-lethal_strike"
+             },
+             {
+               "Id":  "se-sylvan_blades"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1275",
+    "Name":  "Elven Deer",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1276",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-hit_and_run"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-vanguard"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1277",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "2",
+               "Def":  "6",
+               "Res":  "4",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1278",
+    "Name":  "Kestrel Knight",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(+1 Att)"
+             },
+             {
+               "Id":  "rulebook-light_lance"
+             },
+             {
+               "Id":  "se-sylvan_bow",
+               "Info":  "(3+)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1279",
+    "Name":  "Kestrel",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1280",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1281",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(4+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1282",
+    "Name":  "Briar Maiden",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-poison_attacks"
+             },
+             {
+               "Id":  "se-poisoned_thorn"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1283",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1284",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1285",
+    "Name":  "Sylvan Sentinel",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "se-big_game_hunters",
+               "Info":  "(Shooting)"
+             },
+             {
+               "Id":  "se-sylvan_bow",
+               "Info":  "(3+)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1286",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-scout"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-vanguard"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1287",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1288",
+    "Name":  "Pathfinder",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "se-forests_thorns"
+             },
+             {
+               "Id":  "rulebook-stand_and_shoot"
+             },
+             {
+               "Id":  "se-sylvan_blades"
+             },
+             {
+               "Id":  "se-sylvan_bow",
+               "Info":  "(2+)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             }
+           ]
   }
 ]

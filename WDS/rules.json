@@ -10201,7 +10201,7 @@
   },
   {
     "Id": "rulebook-battle_standard_bearer",
-    "Name": "Battle Standard Bearer (BSB)",
+    "Name": "Battle Standard Bearer",
     "Type": "Rule",
     "Description": "An army may include a Battle Standard Bearer. This upgrade is Legendary.\nA BSB gives +1 Combat Resolution to its side in combat, and gains <u><link=\"rulebook-beacon_of_courage\">Beacon of Courage</link></u>(12\").\nIf the model has the option to buy Magic Items, it is allowed to buy a Banner Enchantment."
   },
@@ -11332,5 +11332,425 @@
     "Name": "Splatterer",
     "Type": "Rule",
     "Description": "Splatterer"
-  }
+  },
+    {
+        "Id": "rule_tag_beast",
+        "Name": "Beast",
+        "Type": "Rule",
+        "Description": "Tag Beast"
+    },
+    {
+        "Id": "rule_tag_centauroid",
+        "Name": "Centauroid",
+        "Type": "Rule",
+        "Description": "Tag Centauroid"
+    },
+    {
+        "Id": "rule_tag_construct",
+        "Name": "Construct",
+        "Type": "Rule",
+        "Description": "Tag Construct"
+    },
+    {
+        "Id": "rule_tag_cyclops",
+        "Name": "Cyclops",
+        "Type": "Rule",
+        "Description": "Tag Cyclops"
+    },
+    {
+        "Id": "rule_tag_giant",
+        "Name": "Giant",
+        "Type": "Rule",
+        "Description": "Tag Giant"
+    },
+    {
+        "Id": "rule_tag_light_armour",
+        "Name": "Light Armour",
+        "Type": "Rule",
+        "Description": "Tag Light Armour"
+    },
+    {
+        "Id": "rule_tag_metal_armour",
+        "Name": "Metal Armour",
+        "Type": "Rule",
+        "Description": "Tag Metal Armour"
+    },
+    {
+        "Id": "rule_tag_minotaur",
+        "Name": "Minotaur",
+        "Type": "Rule",
+        "Description": "Tag Minotaur"
+    },
+    {
+        "Id": "rule_tag_wildhorn",
+        "Name": "Wildhorn",
+        "Type": "Rule",
+        "Description": "Tag Wildhorn"
+    },
+    {
+        "Id": "rule_tag_academy",
+        "Name": "Academy",
+        "Type": "Rule",
+        "Description": "Tag Academy"
+    },
+    {
+        "Id": "rule_tag_dragon",
+        "Name": "Dragon",
+        "Type": "Rule",
+        "Description": "Tag Dragon"
+    },
+    {
+        "Id": "rule_tag_elf",
+        "Name": "Elf",
+        "Type": "Rule",
+        "Description": "Tag Elf"
+    },
+    {
+        "Id": "rule_tag_mount",
+        "Name": "Mount",
+        "Type": "Rule",
+        "Description": "Tag Mount"
+    },
+    {
+        "Id": "rule_tag_slaver",
+        "Name": "Slaver",
+        "Type": "Rule",
+        "Description": "Tag Slaver"
+    },
+    {
+        "Id": "rule_tag_temple",
+        "Name": "Temple",
+        "Type": "Rule",
+        "Description": "Tag Temple"
+    },
+    {
+        "Id": "rule_tag_warlock",
+        "Name": "Warlock",
+        "Type": "Rule",
+        "Description": "Tag Warlock"
+    },
+    {
+        "Id": "rule_tag_dwarf",
+        "Name": "Dwarf",
+        "Type": "Rule",
+        "Description": "Tag Dwarf"
+    },
+    {
+        "Id": "rule_tag_daemon",
+        "Name": "Daemon",
+        "Type": "Rule",
+        "Description": "Tag Daemon"
+    },
+    {
+        "Id": "rule_tag_swarm",
+        "Name": "Swarm",
+        "Type": "Rule",
+        "Description": "Tag Swarm"
+    },
+    {
+        "Id": "rule_tag_human",
+        "Name": "Human",
+        "Type": "Rule",
+        "Description": "Tag Human"
+    },
+    {
+        "Id": "rule_tag_kadim",
+        "Name": "Kadim",
+        "Type": "Rule",
+        "Description": "Tag Kadim"
+    },
+    {
+        "Id": "rule_tag_slave",
+        "Name": "Slave",
+        "Type": "Rule",
+        "Description": "Tag Slave"
+    },
+    {
+        "Id": "rule_tag_vassal",
+        "Name": "Vassal",
+        "Type": "Rule",
+        "Description": "Tag Vassal"
+    },
+    {
+        "Id": "rule_tag_fey",
+        "Name": "Fey",
+        "Type": "Rule",
+        "Description": "Tag Fey"
+    },
+    {
+        "Id": "rule_tag_holy_vows",
+        "Name": "Holy Vows",
+        "Type": "Rule",
+        "Description": "Tag Holy Vows"
+    },
+    {
+        "Id": "rule_tag_siege",
+        "Name": "Siege",
+        "Type": "Rule",
+        "Description": "Tag Siege"
+    },
+    {
+        "Id": "rule_tag_halfling",
+        "Name": "Halfling",
+        "Type": "Rule",
+        "Description": "Tag Halfling"
+    },
+    {
+        "Id": "rule_tag_ogre",
+        "Name": "Ogre",
+        "Type": "Rule",
+        "Description": "Tag Ogre"
+    },
+    {
+        "Id": "rule_tag_scrapling",
+        "Name": "Scrapling",
+        "Type": "Rule",
+        "Description": "Tag Scrapling"
+    },
+    {
+        "Id": "rule_tag_yeti",
+        "Name": "Yeti",
+        "Type": "Rule",
+        "Description": "Tag Yeti"
+    },
+    {
+        "Id": "rule_tag_goblin",
+        "Name": "Goblin",
+        "Type": "Rule",
+        "Description": "Tag Goblin"
+    },
+    {
+        "Id": "rule_tag_grotling",
+        "Name": "Grotling",
+        "Type": "Rule",
+        "Description": "Tag Grotling"
+    },
+    {
+        "Id": "rule_tag_orc",
+        "Name": "Orc",
+        "Type": "Rule",
+        "Description": "Tag Orc"
+    },
+    {
+        "Id": "rule_tag_troll",
+        "Name": "Troll",
+        "Type": "Rule",
+        "Description": "Tag Troll"
+    },
+    {
+        "Id": "rule_tag_anurarch",
+        "Name": "Anurarch",
+        "Type": "Rule",
+        "Description": "Tag Anurarch"
+    },
+    {
+        "Id": "rule_tag_caiman",
+        "Name": "Caiman",
+        "Type": "Rule",
+        "Description": "Tag Caiman"
+    },
+    {
+        "Id": "rule_tag_magnasaur",
+        "Name": "Magnasaur",
+        "Type": "Rule",
+        "Description": "Tag Magnasaur"
+    },
+    {
+        "Id": "rule_tag_saurian",
+        "Name": "Saurian",
+        "Type": "Rule",
+        "Description": "Tag Saurian"
+    },
+    {
+        "Id": "rule_tag_skink",
+        "Name": "Skink",
+        "Type": "Rule",
+        "Description": "Tag Skink"
+    },
+    {
+        "Id": "rule_tag_tegu",
+        "Name": "Tegu",
+        "Type": "Rule",
+        "Description": "Tag Tegu"
+    },
+    {
+        "Id": "rule_tag_titanopod",
+        "Name": "Titanopod",
+        "Type": "Rule",
+        "Description": "Tag Titanopod"
+    },
+    {
+        "Id": "rule_tag_sylvan_spirit",
+        "Name": "Sylvan Spirit",
+        "Type": "Rule",
+        "Description": "Tag Sylvan Spirit"
+    },
+    {
+        "Id": "rule_tag_hierophant",
+        "Name": "Hierophant",
+        "Type": "Rule",
+        "Description": "Tag Hierophant"
+    },
+    {
+        "Id": "rule_tag_skeleton",
+        "Name": "Skeleton",
+        "Type": "Rule",
+        "Description": "Tag Skeleton"
+    },
+    {
+        "Id": "rule_tag_spirit",
+        "Name": "Spirit",
+        "Type": "Rule",
+        "Description": "Tag Spirit"
+    },
+    {
+        "Id": "rule_tag_statue",
+        "Name": "Statue",
+        "Type": "Rule",
+        "Description": "Tag Statue"
+    },
+    {
+        "Id": "rule_tag_greater_lich",
+        "Name": "Greater Lich",
+        "Type": "Rule",
+        "Description": "Tag Greater Lich"
+    },
+    {
+        "Id": "rule_tag_vampire",
+        "Name": "Vampire",
+        "Type": "Rule",
+        "Description": "Tag Vampire"
+    },
+    {
+        "Id": "rule_tag_zombie",
+        "Name": "Zombie",
+        "Type": "Rule",
+        "Description": "Tag Zombie"
+    },
+    {
+        "Id": "rule_tag_caelysian_pantheon",
+        "Name": "Caelysian Pantheon",
+        "Type": "Rule",
+        "Description": "Tag Caelysian Pantheon"
+    },
+    {
+        "Id": "rule_tag_cult_of_errahman",
+        "Name": "Cult Of Errahman",
+        "Type": "Rule",
+        "Description": "Tag Cult Of Errahman"
+    },
+    {
+        "Id": "rule_tag_legionary",
+        "Name": "Legionary",
+        "Type": "Rule",
+        "Description": "Tag Legionary"
+    },
+    {
+        "Id": "rule_tag_mutant",
+        "Name": "Mutant",
+        "Type": "Rule",
+        "Description": "Tag Mutant"
+    },
+    {
+        "Id": "rule_tag_supernal",
+        "Name": "Supernal",
+        "Type": "Rule",
+        "Description": "Tag Supernal"
+    },
+    {
+        "Id": "rule_tag_vermin",
+        "Name": "Vermin",
+        "Type": "Rule",
+        "Description": "Tag Vermin"
+    },
+    {
+        "Id": "rule_tag_feldrak",
+        "Name": "Feldrak",
+        "Type": "Rule",
+        "Description": "Tag Feldrak"
+    },
+    {
+        "Id": "rule_tag_irredeemable",
+        "Name": "Irredeemable",
+        "Type": "Rule",
+        "Description": "Tag Irredeemable"
+    },
+    {
+        "Id": "rule_tag_path_of_the_exiled",
+        "Name": "Path Of The Exiled",
+        "Type": "Rule",
+        "Description": "Tag Path Of The Exiled"
+    },
+    {
+        "Id": "rule_tag_path_of_the_favoured",
+        "Name": "Path Of The Favoured",
+        "Type": "Rule",
+        "Description": "Tag Path Of The Favoured"
+    },
+    {
+        "Id": "rule_tag_pathof_the_exiled",
+        "Name": "Pathof The Exiled",
+        "Type": "Rule",
+        "Description": "Tag Pathof The Exiled"
+    },
+    {
+        "Id": "rule_path_of_alchemy",
+        "Name": "Path of Alchemy",
+        "Type": "Rule",
+        "Description": "Path of Alchemy"
+    },
+    {
+        "Id": "rule_path_of_cosmology",
+        "Name": "Path of Cosmology",
+        "Type": "Rule",
+        "Description": "Path of Cosmology"
+    },
+    {
+        "Id": "rule_path_of_divination",
+        "Name": "Path of Divination",
+        "Type": "Rule",
+        "Description": "Path of Divination"
+    },
+    {
+        "Id": "rule_path_of_druidism",
+        "Name": "Path of Druidism",
+        "Type": "Rule",
+        "Description": "Path of Druidism"
+    },
+    {
+        "Id": "rule_path_of_evocation",
+        "Name": "Path of Evocation",
+        "Type": "Rule",
+        "Description": "Path of Evocation"
+    },
+    {
+        "Id": "rule_path_of_occultism",
+        "Name": "Path of Occultism",
+        "Type": "Rule",
+        "Description": "Path of Occultism"
+    },
+    {
+        "Id": "rule_path_of_pyromancy",
+        "Name": "Path of Pyromancy",
+        "Type": "Rule",
+        "Description": "Path of Pyromancy"
+    },
+    {
+        "Id": "rule_path_of_shamanism",
+        "Name": "Path of Shamanism",
+        "Type": "Rule",
+        "Description": "Path of Shamanism"
+    },
+    {
+        "Id": "rule_path_of_thaumaturgy",
+        "Name": "Path of Thaumaturgy",
+        "Type": "Rule",
+        "Description": "Path of Thaumaturgy"
+    },
+    {
+        "Id": "rule_path_of_witchcraft",
+        "Name": "Path of Witchcraft",
+        "Type": "Rule",
+        "Description": "Path of Witchcraft"
+    }
 ]

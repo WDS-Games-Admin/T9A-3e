@@ -102,10 +102,15 @@
   {
     "Id": "84a37c03-d418-48db-b532-d248c05f17a4",
     "Name": "Master of Canreig Tower",
-    "Type": 1,
-    "ItemsToAdd": [
+    "Type": 7,
+    "ExtraItems": [
       {
-        "Id": "he-master_of_canreig_tower"
+        "Id": "he-master_of_canreig_tower",
+        "Type": "Rule"
+      },
+      {
+        "Id": "favour of meladys/hereditary spells",
+        "Type": "Card"
       }
     ]
   },
