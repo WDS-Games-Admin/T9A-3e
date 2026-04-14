@@ -45,7 +45,17 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "rule_frost_phoenix_fc453d98"
+        "Id": "rulebook-afflict",
+        "Info": "(−2 Def, −2 Off, and −2 Agi)"
+      },
+      {
+        "Id": "rulebook-fearless"
+      },
+      {
+        "Id": "rulebook-magical_attacks"
+      },
+      {
+        "Id": "rulebook-supernal"
       }
     ]
   },
@@ -55,27 +65,15 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "rule_fire_phoenix_e6f73dd5"
-      }
-    ]
-  },
-  {
-    "Id": "9da8b6f8-ae3f-4614-9d41-ed0b430eee5cwb",
-    "Name": "Frost Phoenix Warden’s Bond",
-    "Type": 1,
-    "ItemsToAdd": [
+        "Id": "rulebook-flaming_attacks"
+      },
       {
-        "Id": "rule_frost_phoenix_warden’s_bond_6ca4eab0"
-      }
-    ]
-  },
-  {
-    "Id": "02e7b8d5-bd1b-40e9-bd65-7d66549020cewb",
-    "Name": "Fire Phoenix Warden’s Bond",
-    "Type": 1,
-    "ItemsToAdd": [
+        "Id": "rulebook-grind_attack",
+        "Info": " (D6 hits, Str 4, AP 1, Flaming Attacks, Unmodifiable)"
+      },
       {
-        "Id": "rule_fire_phoenix_warden’s_bond_a14499f4"
+        "Id": "rulebook-sweeping_attack",
+        "Info": "(Sweeping Attack (XD3*+1 hits, Str 4, AP 1, Flaming Attacks)"
       }
     ]
   },
@@ -141,6 +139,9 @@
     "ItemsToAdd": [
       {
         "Id": "he-wardens_bond"
+      },
+      {
+        "Id": "statline_600"
       }
     ]
   },

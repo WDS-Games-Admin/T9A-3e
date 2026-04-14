@@ -1,2728 +1,2624 @@
 [
   {
-    "Id":  "statline_501",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "10",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_502",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "8",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_503",
-    "Name":  "High Prince",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "8",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "8"
-             },
-    "Children":  [
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_504",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "7",
-               "Dis":  "10",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Reaver Chariots)"
-             },
-             {
-               "Id":  "rulebook-feigned_flight"
-             },
-             {
-               "Id":  "rulebook-hit_and_run"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_505",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "8",
-               "Res":  "4",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_506",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "4",
-               "Dis":  "10",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_507",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "8",
-               "Res":  "4",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_508",
-    "Name":  "Lion (2)",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "5",
-               "Str":  "5",
-               "AP":  "2",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rule_tag_mount"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_509",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "10",
-               "Hgt":  "3",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Giant Eagles)"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_510",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "8",
-               "Res":  "4",
-               "Arm":  "3",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_511",
-    "Name":  "Giant Eagle",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "3",
-               "Off":  "5",
-               "Str":  "5",
-               "AP":  "1",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rule_tag_beast"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_512",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "5",
-               "Dis":  "10",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_513",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "8",
-               "Res":  "4",
-               "Arm":  "3",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_514",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "10",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_515",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "5",
-               "Def":  "8",
-               "Res":  "5",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_516",
-    "Name":  "Griffon",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "5",
-               "Str":  "5",
-               "AP":  "3",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-first_strike",
-               "Info":  "(+1 Att, Hatred)"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_517",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "7",
-               "Mob":  "7",
-               "Dis":  "10",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(2)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-meeting_of_minds"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_518",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "7",
-               "Def":  "5",
-               "Res":  "6",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_519",
-    "Name":  "Regal Dragon",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "6",
-               "Off":  "5",
-               "Str":  "6",
-               "AP":  "3",
-               "Agi":  "3"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-breath_attack",
-               "Info":  "(Str 4, AP 1, Flaming Attacks)"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_dragon"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_520",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "7",
-               "Mob":  "7",
-               "Dis":  "10",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(2)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-meeting_of_minds"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_521",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "8",
-               "Def":  "6",
-               "Res":  "6",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_522",
-    "Name":  "Ancient Dragon",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "6",
-               "Off":  "6",
-               "Str":  "7",
-               "AP":  "4",
-               "Agi":  "3"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-breath_attack",
-               "Info":  "(Str 4, AP 1, Flaming Attacks)"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_dragon"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_523",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_524",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "7",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_525",
-    "Name":  "Commander",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "3",
-               "Off":  "7",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "7"
-             },
-    "Children":  [
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_526",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "7",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Reaver Chariots)"
-             },
-             {
-               "Id":  "rulebook-feigned_flight"
-             },
-             {
-               "Id":  "rulebook-hit_and_run"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_527",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "7",
-               "Res":  "4",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_528",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "9",
-               "Hgt":  "3",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Giant Eagles)"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_529",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "7",
-               "Res":  "4",
-               "Arm":  "3",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_530",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "4",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_531",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "7",
-               "Res":  "4",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_532",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_533",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "5",
-               "Def":  "7",
-               "Res":  "5",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_534",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_535",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "7",
-               "Res":  "4",
-               "Arm":  "3",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_536",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "7",
-               "Mob":  "7",
-               "Dis":  "9",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(2)"
-             },
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-meeting_of_minds"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_537",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_538",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "0",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_539",
-    "Name":  "Mage",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rule_tag_elf"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_540",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "9",
-               "Hgt":  "2",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_541",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "7",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Reaver Chariots)"
-             },
-             {
-               "Id":  "rulebook-feigned_flight"
-             },
-             {
-               "Id":  "rulebook-hit_and_run"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_542",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "5",
-               "Res":  "4",
-               "Arm":  "2",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_543",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "9",
-               "Hgt":  "3",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Giant Eagles)"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_544",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "5",
-               "Res":  "4",
-               "Arm":  "1",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_545",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_546",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "5",
-               "Def":  "5",
-               "Res":  "5",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_547",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "7",
-               "Mob":  "7",
-               "Dis":  "9",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(2)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "he-meeting_of_minds"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_548",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-asfada_headmaster"
-             },
-             {
-               "Id":  "he-asfad_scholar"
-             },
-             {
-               "Id":  "rulebook-channel",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "he-commander_of_the_veil"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "he-shroud_seekers"
-             },
-             {
-               "Id":  "rulebook-wizard_master"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_549",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "0",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_550",
-    "Name":  "Arcanadh",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rule_tag_elf"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_551",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "7",
-               "Mob":  "7",
-               "Dis":  "10",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "he-meeting_of_minds"
-             },
-             {
-               "Id":  "he-queens_cavalier"
-             },
-             {
-               "Id":  "he-rogue_heroine"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_552",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "8",
-               "Def":  "6",
-               "Res":  "6",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_553",
-    "Name":  "Dhaenala",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "8",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "8"
-             },
-    "Children":  [
-             {
-               "Id":  "he-the_lance_of_tears"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_554",
-    "Name":  "Balûruth, Ancient Dragon",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "6",
-               "Off":  "6",
-               "Str":  "7",
-               "AP":  "1",
-               "Agi":  "3"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-breath_attack",
-               "Info":  "(Str4, AP1, Flaming Attacks)"
-             },
-             {
-               "Id":  "he-scourge_of_fleets"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6 hits)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_dragon"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_555",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_556",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "1",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_557",
-    "Name":  "Citizen Archer",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-longbow",
-               "Info":  "(3+)"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_558",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_559",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "1",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_560",
-    "Name":  "Citizen Spear",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-fight_in_extra_rank"
-             },
-             {
-               "Id":  "rulebook-spear"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_561",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_562",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "1",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_563",
-    "Name":  "Sea Guard",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-resolute"
-             },
-             {
-               "Id":  "rulebook-stand_and_shoot"
-             },
-             {
-               "Id":  "rulebook-bow",
-               "Info":  "(3+)"
-             },
-             {
-               "Id":  "rulebook-spear"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_564",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "8",
-               "Hgt":  "2",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_565",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "4",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_566",
-    "Name":  "Highborn Lancer",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-lance"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_567",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "8",
-               "Hgt":  "2",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-feigned_flight"
-             },
-             {
-               "Id":  "rulebook-hit_and_run"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-vanguard"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_568",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "5",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_569",
-    "Name":  "Erlein Reaver",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-light_lance"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_570",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_571",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "6",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_572",
-    "Name":  "Sword Master",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "6",
-               "Str":  "3",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-elven_finesse"
-             },
-             {
-               "Id":  "rulebook-first_strike",
-               "Info":  "(+1 Def, +1 Off)"
-             },
-             {
-               "Id":  "he-sword_sworn"
-             },
-             {
-               "Id":  "rulebook-great_weapon"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_573",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-bodyguard",
-               "Info":  "(General)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Forest)"
-             },
-             {
-               "Id":  "he-valiant"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_574",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "6",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-lions_fur"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_575",
-    "Name":  "Lion Guard",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "6",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-elven_finesse"
-             },
-             {
-               "Id":  "rulebook-multiple_wounds",
-               "Info":  "(2, towards Height 4-5)"
-             },
-             {
-               "Id":  "rulebook-great_weapon"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_576",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fearless"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_577",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "6",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-aegis",
-               "Info":  "(4+)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_578",
-    "Name":  "Flame Warden",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "6",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-halberd"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_579",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "9",
-               "Hgt":  "2",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_580",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "6",
-               "Res":  "3",
-               "Arm":  "4",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-dragonforged_armour"
-             },
-             {
-               "Id":  "rulebook-shield"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_581",
-    "Name":  "Knight of Rymâ",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "6",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-first_strike",
-               "Info":  "(+1 Att, +1 Off)"
-             },
-             {
-               "Id":  "rulebook-lance"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_582",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "7",
-               "Dis":  "8",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Reaver Chariots)"
-             },
-             {
-               "Id":  "rulebook-feigned_flight"
-             },
-             {
-               "Id":  "rulebook-hit_and_run"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_583",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "5",
-               "Res":  "4",
-               "Arm":  "2",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_584",
-    "Name":  "Crew (2)",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-light_lance"
-             },
-             {
-               "Id":  "rulebook-longbow",
-               "Info":  "(3+)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_585",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "4",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "he-valiant"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_586",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "6",
-               "Res":  "4",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_587",
-    "Name":  "Crew (2)",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "6",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-elven_finesse"
-             },
-             {
-               "Id":  "rulebook-multiple_wounds",
-               "Info":  "(2, towards Height 4-5)"
-             },
-             {
-               "Id":  "rulebook-great_weapon"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_588",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "9",
-               "Dis":  "8",
-               "Hgt":  "3",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Giant Eagles)"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-unruly"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_589",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "5",
-               "Res":  "4",
-               "Arm":  "2",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_590",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "7",
-               "Mob":  "7",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-master_of_spellcrafting"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_conclave",
-               "Info":  "(2)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_591",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "5",
-               "Def":  "5",
-               "Res":  "5",
-               "Arm":  "4",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_592",
-    "Name":  "Dragon Mage",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-flaming_attacks"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_593",
-    "Name":  "Young Dragon",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "5",
-               "Str":  "5",
-               "AP":  "2",
-               "Agi":  "3"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-flaming_attacks"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D3)"
-             },
-             {
-               "Id":  "rulebook-breath_attack",
-               "Info":  "(Str 4, AP 1, Flaming Attacks)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_594",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "8",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-afflict",
-               "Info":  "(-2 Def, -2 Off, and -2 Agi)"
-             },
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "he-frost_phoenix"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-rebirth",
-               "Info":  "(5+)"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-supernal"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_595",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "5",
-               "Def":  "5",
-               "Res":  "5",
-               "Arm":  "0",
-               "Aeg":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-aegis",
-               "Info":  "(4+)"
-             },
-             {
-               "Id":  "rulebook-resistance",
-               "Info":  "(Flaming Attacks)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_596",
-    "Name":  "Phoenix",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "5",
-               "Str":  "5",
-               "AP":  "2",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-magical_attacks"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_597",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "8",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "he-fire_phoenix"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-rebirth",
-               "Info":  "(5+)"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_598",
-    "Name":  "Phoenix",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "5",
-               "Str":  "5",
-               "AP":  "2",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-flaming_attacks"
-             },
-             {
-               "Id":  "rulebook-grind_attack",
-               "Info":  "(D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6)"
-             },
-             {
-               "Id":  "rulebook-sweeping_attack",
-               "Info":  "(XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_599",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "9",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-afflict",
-               "Info":  "(-2 Def, -2 Off, and -2 Agi)"
-             },
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "he-frost_phoenix"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-rebirth",
-               "Info":  "(3+)"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-supernal"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_600",
-    "Name":  "Warden",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "6",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-halberd"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_601",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "9",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "he-ancient_allies",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "he-frost_phoenix"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "he-rebirth",
-               "Info":  "(3+)"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "he-wardens_bond"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_602",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "0",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "2",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-emplacement"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_603",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "1",
-               "Res":  "4",
-               "Arm":  "1",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_604",
-    "Name":  "Crew",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "he-elven_bolt_thrower",
-               "Info":  "(3+)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_605",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "9",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water)"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_606",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "4",
-               "Def":  "5",
-               "Res":  "4",
-               "Arm":  "2",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_607",
-    "Name":  "Crew (2)",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "5",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "5"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-light_lance"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_608",
-    "Name":  "Chassis",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  null,
-               "Off":  null,
-               "Str":  "5",
-               "AP":  "2",
-               "Agi":  null
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-impact_hits",
-               "Info":  "(D6)"
-             },
-             {
-               "Id":  "he-sky_reaper",
-               "Info":  "(3+)"
-             },
-             {
-               "Id":  "rule_tag_construct"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_609",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_610",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "6",
-               "Res":  "3",
-               "Arm":  "1",
-               "Aeg":  "-"
-             }
-  },
-  {
-    "Id":  "statline_611",
-    "Name":  "Queen's Guard",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "1",
-               "Off":  "6",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "he-moonlight_arrows"
-             },
-             {
-               "Id":  "rulebook-longbow",
-               "Info":  "(2+)"
-             },
-             {
-               "Id":  "rulebook-spear"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_612",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "8",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-scout"
-             },
-             {
-               "Id":  "rulebook-skirmisher"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Ruins, Walls)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_613",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "1",
-               "Def":  "6",
-               "Res":  "3",
-               "Arm":  "1",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_614",
-    "Name":  "Grey Watcher",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "6",
-               "Str":  "3",
-               "AP":  "1",
-               "Agi":  "6"
-             },
-    "Children":  [
-             {
-               "Id":  "he-fae_miasma"
-             },
-             {
-               "Id":  "rulebook-longbow",
-               "Info":  "(2+)"
-             },
-             {
-               "Id":  "rulebook-paired_weapons"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
-             }
-           ]
+    "Id": "statline_501",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "10",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      }
+    ]
+  },
+  {
+    "Id": "statline_502",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "8",
+      "Res": "3",
+      "Arm": "2",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_503",
+    "Name": "High Prince",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "8",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "8"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_504",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "7",
+      "Dis": "10",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Reaver Chariots)"
+      },
+      {
+        "Id": "rulebook-feigned_flight"
+      },
+      {
+        "Id": "rulebook-hit_and_run"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_505",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "8",
+      "Res": "4",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_506",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "4",
+      "Dis": "10",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_507",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "8",
+      "Res": "4",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_508",
+    "Name": "Lion (2)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "5",
+      "Str": "5",
+      "AP": "2",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "statline_509",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "10",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Giant Eagles)"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_510",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "8",
+      "Res": "4",
+      "Arm": "3",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_511",
+    "Name": "Giant Eagle",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "3",
+      "Off": "5",
+      "Str": "5",
+      "AP": "1",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "statline_512",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "5",
+      "Dis": "10",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_513",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "8",
+      "Res": "4",
+      "Arm": "3",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_514",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "10",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_515",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "8",
+      "Res": "5",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_516",
+    "Name": "Griffon",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "5",
+      "AP": "3",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(+1 Att, Hatred)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "statline_517",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "10",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(2)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-meeting_of_minds"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_518",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "7",
+      "Def": "5",
+      "Res": "6",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_519",
+    "Name": "Regal Dragon",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "6",
+      "Off": "5",
+      "Str": "6",
+      "AP": "3",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-breath_attack",
+        "Info": "(Str 4, AP 1, Flaming Attacks)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_dragon"
+      }
+    ]
+  },
+  {
+    "Id": "statline_520",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "10",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(2)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-meeting_of_minds"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_521",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "6",
+      "Res": "6",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_522",
+    "Name": "Ancient Dragon",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "6",
+      "Off": "6",
+      "Str": "7",
+      "AP": "4",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-breath_attack",
+        "Info": "(Str 4, AP 1, Flaming Attacks)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_dragon"
+      }
+    ]
+  },
+  {
+    "Id": "statline_523",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      }
+    ]
+  },
+  {
+    "Id": "statline_524",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "7",
+      "Res": "3",
+      "Arm": "2",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_525",
+    "Name": "Commander",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "3",
+      "Off": "7",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "7"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_526",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "7",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Reaver Chariots)"
+      },
+      {
+        "Id": "rulebook-feigned_flight"
+      },
+      {
+        "Id": "rulebook-hit_and_run"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_527",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "7",
+      "Res": "4",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_528",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "9",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Giant Eagles)"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_529",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "7",
+      "Res": "4",
+      "Arm": "3",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_530",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "4",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-solitary"
+      }
+    ]
+  },
+  {
+    "Id": "statline_531",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "7",
+      "Res": "4",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_532",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_533",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "7",
+      "Res": "5",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_534",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_535",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "7",
+      "Res": "4",
+      "Arm": "3",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_536",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "9",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(2)"
+      },
+      {
+        "Id": "rulebook-attached"
+      },
+      {
+        "Id": "rulebook-captain"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-meeting_of_minds"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_537",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "rulebook-wizard_adept"
+      }
+    ]
+  },
+  {
+    "Id": "statline_538",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "0",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_539",
+    "Name": "Mage",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_elf"
+      }
+    ]
+  },
+  {
+    "Id": "statline_540",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "9",
+      "Hgt": "2",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-wizard_adept"
+      }
+    ]
+  },
+  {
+    "Id": "statline_541",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "7",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Reaver Chariots)"
+      },
+      {
+        "Id": "rulebook-feigned_flight"
+      },
+      {
+        "Id": "rulebook-hit_and_run"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-wizard_adept"
+      }
+    ]
+  },
+  {
+    "Id": "statline_542",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "5",
+      "Res": "4",
+      "Arm": "2",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_543",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "9",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Giant Eagles)"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-wizard_adept"
+      }
+    ]
+  },
+  {
+    "Id": "statline_544",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "5",
+      "Res": "4",
+      "Arm": "1",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_545",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-wizard_adept"
+      }
+    ]
+  },
+  {
+    "Id": "statline_546",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_547",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "9",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(2)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "he-meeting_of_minds"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      },
+      {
+        "Id": "rulebook-wizard_adept"
+      }
+    ]
+  },
+  {
+    "Id": "statline_548",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-asfada_headmaster"
+      },
+      {
+        "Id": "he-asfad_scholar"
+      },
+      {
+        "Id": "rulebook-channel",
+        "Info": "(1)"
+      },
+      {
+        "Id": "he-commander_of_the_veil"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "he-shroud_seekers"
+      },
+      {
+        "Id": "rulebook-wizard_master"
+      }
+    ]
+  },
+  {
+    "Id": "statline_549",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "0",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_550",
+    "Name": "Arcanadh",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_elf"
+      }
+    ]
+  },
+  {
+    "Id": "statline_551",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "10",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "he-meeting_of_minds"
+      },
+      {
+        "Id": "he-queens_cavalier"
+      },
+      {
+        "Id": "he-rogue_heroine"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_552",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "6",
+      "Res": "6",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_553",
+    "Name": "Dhaenala",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "8",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "8"
+    },
+    "Children": [
+      {
+        "Id": "he-the_lance_of_tears"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_554",
+    "Name": "Balûruth, Ancient Dragon",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "6",
+      "Off": "6",
+      "Str": "7",
+      "AP": "1",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-breath_attack",
+        "Info": "(Str4, AP1, Flaming Attacks)"
+      },
+      {
+        "Id": "he-scourge_of_fleets"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6 hits)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_dragon"
+      }
+    ]
+  },
+  {
+    "Id": "statline_555",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      }
+    ]
+  },
+  {
+    "Id": "statline_556",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "1",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_557",
+    "Name": "Citizen Archer",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-longbow",
+        "Info": "(3+)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_558",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      }
+    ]
+  },
+  {
+    "Id": "statline_559",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "1",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
+  },
+  {
+    "Id": "statline_560",
+    "Name": "Citizen Spear",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-fight_in_extra_rank"
+      },
+      {
+        "Id": "rulebook-spear"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_561",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_562",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "1",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
+  },
+  {
+    "Id": "statline_563",
+    "Name": "Sea Guard",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-resolute"
+      },
+      {
+        "Id": "rulebook-stand_and_shoot"
+      },
+      {
+        "Id": "rulebook-bow",
+        "Info": "(3+)"
+      },
+      {
+        "Id": "rulebook-spear"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_564",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "8",
+      "Hgt": "2",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_565",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "4",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
+  },
+  {
+    "Id": "statline_566",
+    "Name": "Highborn Lancer",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-lance"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_567",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "8",
+      "Hgt": "2",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-feigned_flight"
+      },
+      {
+        "Id": "rulebook-hit_and_run"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      }
+    ]
+  },
+  {
+    "Id": "statline_568",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "2",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_569",
+    "Name": "Erlein Reaver",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-light_lance"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_570",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      }
+    ]
+  },
+  {
+    "Id": "statline_571",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "2",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_572",
+    "Name": "Sword Master",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "6",
+      "Str": "3",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-elven_finesse"
+      },
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(+1 Def, +1 Off)"
+      },
+      {
+        "Id": "he-sword_sworn"
+      },
+      {
+        "Id": "rulebook-great_weapon"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_573",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-bodyguard",
+        "Info": "(General)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Forest)"
+      },
+      {
+        "Id": "he-valiant"
+      }
+    ]
+  },
+  {
+    "Id": "statline_574",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "2",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-lions_fur"
+      }
+    ]
+  },
+  {
+    "Id": "statline_575",
+    "Name": "Lion Guard",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-elven_finesse"
+      },
+      {
+        "Id": "rulebook-multiple_wounds",
+        "Info": "(2, towards Height 4-5)"
+      },
+      {
+        "Id": "rulebook-great_weapon"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_576",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fearless"
+      }
+    ]
+  },
+  {
+    "Id": "statline_577",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "2",
+      "Aeg": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(4+)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_578",
+    "Name": "Flame Warden",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-halberd"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_579",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "9",
+      "Hgt": "2",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_580",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "4",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-dragonforged_armour"
+      },
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
+  },
+  {
+    "Id": "statline_581",
+    "Name": "Knight of Rymâ",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(+1 Att, +1 Off)"
+      },
+      {
+        "Id": "rulebook-lance"
+      }
+    ]
+  },
+  {
+    "Id": "statline_582",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "7",
+      "Dis": "8",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Reaver Chariots)"
+      },
+      {
+        "Id": "rulebook-feigned_flight"
+      },
+      {
+        "Id": "rulebook-hit_and_run"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_583",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "5",
+      "Res": "4",
+      "Arm": "2",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_584",
+    "Name": "Crew (2)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-light_lance"
+      },
+      {
+        "Id": "rulebook-longbow",
+        "Info": "(3+)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_585",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "4",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "he-valiant"
+      }
+    ]
+  },
+  {
+    "Id": "statline_586",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "6",
+      "Res": "4",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_587",
+    "Name": "Crew (2)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-elven_finesse"
+      },
+      {
+        "Id": "rulebook-multiple_wounds",
+        "Info": "(2, towards Height 4-5)"
+      },
+      {
+        "Id": "rulebook-great_weapon"
+      }
+    ]
+  },
+  {
+    "Id": "statline_588",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "8",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-exclusive",
+        "Info": "(Giant Eagles)"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-unruly"
+      }
+    ]
+  },
+  {
+    "Id": "statline_589",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "5",
+      "Res": "4",
+      "Arm": "2",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_590",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-master_of_spellcrafting"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-wizard_conclave",
+        "Info": "(2)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_591",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "4",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_592",
+    "Name": "Dragon Mage",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-flaming_attacks"
+      }
+    ]
+  },
+  {
+    "Id": "statline_593",
+    "Name": "Young Dragon",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "5",
+      "AP": "2",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-flaming_attacks"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D3)"
+      },
+      {
+        "Id": "rulebook-breath_attack",
+        "Info": "(Str 4, AP 1, Flaming Attacks)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_594",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "8",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "he-rebirth",
+        "Info": "(5+)"
+      },
+      {
+        "Id":  "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_595",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "0",
+      "Aeg": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(4+)"
+      },
+      {
+        "Id": "rulebook-resistance",
+        "Info": "(Flaming Attacks)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_596",
+    "Name": "Phoenix",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "5",
+      "AP": "2",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "statline_597",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "8",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "he-fire_phoenix"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-rebirth",
+        "Info": "(5+)"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_598",
+    "Name": "Phoenix",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "5",
+      "AP": "2",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-flaming_attacks"
+      },
+      {
+        "Id": "rulebook-grind_attack",
+        "Info": "(D6 hits Str 4, AP 1, Flaming Attacks, Unmodifiable)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rulebook-sweeping_attack",
+        "Info": "(XD3 + 1 hits, Str4, AP 1, Flaming Attacks)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "statline_599",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-afflict",
+        "Info": "(-2 Def, -2 Off, and -2 Agi)"
+      },
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fearless"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "he-frost_phoenix"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-rebirth",
+        "Info": "(3+)"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-supernal"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "statline_600",
+    "Name": "Warden",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-halberd"
+      },
+      {
+        "Id": "rule_tag_elf"
+      }
+    ]
+  },
+  {
+    "Id": "statline_601",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "he-ancient_allies",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "he-frost_phoenix"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "he-rebirth",
+        "Info": "(3+)"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      },
+      {
+        "Id": "he-wardens_bond"
+      }
+    ]
+  },
+  {
+    "Id": "statline_602",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "0",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "2",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-emplacement"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_603",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "1",
+      "Res": "4",
+      "Arm": "1",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_604",
+    "Name": "Crew",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "he-elven_bolt_thrower",
+        "Info": "(3+)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_605",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "statline_606",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "4",
+      "Def": "5",
+      "Res": "4",
+      "Arm": "2",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_607",
+    "Name": "Crew (2)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-light_lance"
+      }
+    ]
+  },
+  {
+    "Id": "statline_608",
+    "Name": "Chassis",
+    "Type": "Statline",
+    "Attributes": {
+      "Str": "5",
+      "AP": "2"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-impact_hits",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "he-sky_reaper",
+        "Info": "(3+)"
+      },
+      {
+        "Id": "rule_tag_construct"
+      }
+    ]
+  },
+  {
+    "Id": "statline_609",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      }
+    ]
+  },
+  {
+    "Id": "statline_610",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "1",
+      "Aeg": "-"
+    }
+  },
+  {
+    "Id": "statline_611",
+    "Name": "Queen's Guard",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "he-moonlight_arrows"
+      },
+      {
+        "Id": "rulebook-longbow",
+        "Info": "(2+)"
+      },
+      {
+        "Id": "rulebook-spear"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "statline_612",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-scout"
+      },
+      {
+        "Id": "rulebook-skirmisher"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Ruins, Walls)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_613",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "1",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_614",
+    "Name": "Grey Watcher",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "6",
+      "Str": "3",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "he-fae_miasma"
+      },
+      {
+        "Id": "rulebook-longbow",
+        "Info": "(2+)"
+      },
+      {
+        "Id": "rulebook-paired_weapons"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
   }
 ]
