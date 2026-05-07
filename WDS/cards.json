@@ -1617,6 +1617,18 @@
     }
   },
   {
+    "Id": "carved wisdom - the devouring dark/bound spells",
+    "Name": "Carved Wisdom - The Devouring Dark",
+    "Type": "Damage, Hex, Missile",
+    "Attributes": {},
+    "Description": "The model can cast The Devouring Dark (Occultism) as a Bound Spell.\n\nThe target suffers a hit with Area Attack (3x2), Str 5, AP 2, and Magical Attacks.",
+    "CastingValue": "4",
+    "Range": "02",
+    "Duration": "Instant",
+    "Level": "B",
+    "PathName": "Bound Spells"
+  },
+  {
     "Id": "ceinran's scales/bound spells",
     "Name": "Ceinran's Scales",
     "Type": "Card",
@@ -1883,6 +1895,18 @@
     "UIConfig": {
       "Color": "#D9D9CE"
     }
+  },
+  {
+    "Id": "ritual bloodletter/bound spells",
+    "Name": "Ritual Bloodletter",
+    "Type": "Augment",
+    "Attributes": {},
+    "Description": "While the wielder's unit is Engaged in Combat, the wielder can cast Hand of Glory (Occultism) as a Bound Spell.\n\nThe target gains Aegis (6+) and Aegis (+1, max. 3+).",
+    "CastingValue": "4",
+    "Range": "12",
+    "Duration": "1 Turn",
+    "Level": "B",
+    "PathName": "Bound Spells"
   },
   {
     "Id": "rod of battle/bound spells",
@@ -2295,6 +2319,30 @@
       "Duration": "Round of Combat"
     },
     "Description": "The bearer gains +1 Res, -1 Str, and -1 AP."
+  },
+  {
+    "Id": "wild form - strength/bh - wild form armour",
+    "Name": "Wild Form - Strength",
+    "Type": "",
+    "Attributes": {},
+    "Description": "The bearer gains -1 Res, +1 Str, and +1 AP.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Round of Combat",
+    "Level": "1",
+    "PathName": "BH - Wild Form Armour"
+  },
+  {
+    "Id": "wild form - resilience/bh - wild form armour",
+    "Name": "Wild Form - Resilience",
+    "Type": "",
+    "Attributes": {},
+    "Description": "The bearer gains +1 Res, -1 Str, and -1 AP.",
+    "CastingValue": "",
+    "Range": "",
+    "Duration": "Round of Combat",
+    "Level": "2",
+    "PathName": "BH - Wild Form Armour"
   },
   {
     "Id": "dance of c a edhren/de - the black rose's dances",
