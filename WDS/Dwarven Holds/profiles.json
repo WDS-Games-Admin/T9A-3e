@@ -2,1674 +2,441 @@
   {
     "Id": "68357f3e790d8280c4b20006",
     "Name": "King",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "dh-ancient_grudge": "Ancient Grudge (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "King",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "dh-ancient_grudge": "Ancient Grudge (1)",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_325"
       },
       {
-        "Name": "King",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_326"
       },
       {
-        "Name": "King",
-        "Values": {
-          "At": "4",
-          "Of": "7",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_327"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "ae8b8657-432d-4387-8eb8-ac492b856eb6",
-    "Name": "Shield Bearer (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "290"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "dh-ancient_grudge": "Ancient Grudge (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "King on Shield Bearers",
+    "Type": "Profile",
+    "BaseId": "13",
+    "Children": [
       {
-        "Name": "Shield Bearer (2)",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "dh-ancient_grudge": "Ancient Grudge (1)",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_328"
       },
       {
-        "Name": "Shield Bearer (2)",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "5"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_329"
       },
       {
-        "Name": "Shield Bearer (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_327"
+      },
+      {
+        "Id": "statline_330"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "da4bc9e1-5418-48d9-a7d6-a11644d236d1",
-    "Name": "Throne Bearer (4)",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "370"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "dh-ancient_grudge": "Ancient Grudge (1)",
-      "rulebook-exclusive": "Exclusive (Height 1)",
-      "rulebook-attached": "Attached",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "King on War Throne",
+    "Type": "Profile",
+    "BaseId": "9",
+    "Children": [
       {
-        "Name": "Throne Bearer (4)",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "10",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "dh-ancient_grudge": "Ancient Grudge (1)",
-          "rulebook-exclusive": "Exclusive (Height 1)",
-          "rulebook-attached": "Attached",
-          "rulebook-war_platform": "War Platform",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_331"
       },
       {
-        "Name": "Throne Bearer (4)",
-        "Values": {
-          "HP": "6",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "5"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_332"
       },
       {
-        "Name": "Throne Bearer (4)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_327"
+      },
+      {
+        "Id": "statline_333"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "60"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f3e790d8280c4b200b7",
     "Name": "Thane",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Thane",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_334"
       },
       {
-        "Name": "Thane",
-        "Values": {
-          "HP": "3",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_335"
       },
       {
-        "Name": "Thane",
-        "Values": {
-          "At": "3",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_336"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "dd537738-5c32-4a1c-9880-eeb3a4d7555b",
-    "Name": "Shield Bearer (2)",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "150"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Thane on Shield Bearers",
+    "Type": "Profile",
+    "BaseId": "13",
+    "Children": [
       {
-        "Name": "Shield Bearer (2)",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-captain": "Captain",
-          "rulebook-attached": "Attached",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_337"
       },
       {
-        "Name": "Shield Bearer (2)",
-        "Values": {
-          "HP": "4",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "5"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_338"
       },
       {
-        "Name": "Shield Bearer (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_336"
+      },
+      {
+        "Id": "statline_330"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f3f790d8280c4b20169",
     "Name": "Runic Smith",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-channel": "Channel (1)",
-      "rulebook-magic_resistance": "Magic Resistance (1)",
-      "dh-rune_craft_mastery": "Rune Craft Mastery",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Runic Smith",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-channel": "Channel (1)",
-          "rulebook-magic_resistance": "Magic Resistance (1)",
-          "dh-rune_craft_mastery": "Rune Craft Mastery"
-        }
+        "Id": "statline_339"
       },
       {
-        "Name": "Runic Smith",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_340"
       },
       {
-        "Name": "Runic Smith",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_341"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
-    {
+  {
     "Id": "68357f3f790d8280c4b2019a",
     "Name": "Engineer",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-engineer": "Engineer (Field Artillery)",
-      "rulebook-entrench": "Entrench",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Engineer",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-engineer": "Engineer (Field Artillery)",
-          "rulebook-entrench": "Entrench",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_342"
       },
       {
-        "Name": "Engineer",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_343"
       },
       {
-        "Name": "Engineer",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_344"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f3f790d8280c4b20150",
     "Name": "Dragon Seeker",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-unstable": "Unstable",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-fearless": "Fearless",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-zeal": "Zeal",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-aegis": "Aegis (6+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Dragon Seeker",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-unstable": "Unstable",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-fearless": "Fearless",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_345"
       },
       {
-        "Name": "Dragon Seeker",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)"
-        }
+        "Id": "statline_346"
       },
       {
-        "Name": "Dragon Seeker",
-        "Values": {
-          "At": "5",
-          "Of": "7",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-zeal": "Zeal",
-          "rulebook-great_weapon": "Great Weapon",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_347"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "f3e9b1a8d2c4e7b5f9a2d6b1f3d",
     "Name": "Duna Bregold, Master of the Guild of Lorekeepers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "dh-the_living_law": "The Living Law",
-      "dh-wonders_of_the_age": "Wonders of the Age",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-paired_weapons": "Paired Weapons"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Duna Bregold, Master of the Guild of Lorekeepers",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "dh-the_living_law": "The Living Law",
-          "dh-wonders_of_the_age": "Wonders of the Age"
-        }
+        "Id": "statline_348"
       },
       {
-        "Name": "Duna Bregold, Master of the Guild of Lorekeepers",
-        "Values": {
-          "HP": "4",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "5"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_349"
       },
       {
-        "Name": "Duna Bregold",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
-      },  
+        "Id": "statline_350"
+      },
       {
-        "Name": "Shield Bearers (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_351"
       }
     ]
   },
   {
     "Id": "f2d8c1b9a6e3f7a4c2d1b9f5d7b",
     "Name": "Brewmaster Tador Berafrig",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Battlefield Edge)",
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",      
-      "rulebook-exclusive": "Exclusive (Miners)",      
-      "rulebook-light_troops": "Light Troops",
-      "dh-master_brewer": "Master Brewer",
-      "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
-      "rulebook-shield": "Shield",
-      "dh-the_aleward_crew": "The Aleward Crew",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-handandahalf": "Hand-and-a-Half",
-      "rulebook-great_weapon": "Great Weapon"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Tador Berafrig",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Battlefield Edge)",
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-exclusive": "Exclusive (Miners)",          
-          "rulebook-light_troops": "Light Troops",
-          "dh-master_brewer": "Master Brewer"
-       }
+        "Id": "statline_352"
       },
       {
-        "Name": "Brewmaster Tador Berafrig",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (3+, against Flaming Attacks)",
-          "rulebook-shield": "Shield",
-          "dh-the_aleward_crew": "The Aleward Crew"
-        }
+        "Id": "statline_353"
       },
       {
-        "Name": "Tador Berafrig",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-handandahalf": "Hand-and-a-Half",
-          "rulebook-great_weapon": "Great Weapon"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
+        "Id": "statline_354"
       }
-    }
+    ]
   },
   {
     "Id": "68357f3f790d8280c4b201d3",
     "Name": "Clan Warriors",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Clan Warriors",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_355"
       },
       {
-        "Name": "Clan Warriors",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_356"
       },
       {
-        "Name": "Clan Warrior",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_357"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f3f790d8280c4b20236",
     "Name": "Greybeards",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-beacon_of_curage": "Beacon of Courage",
-      "rulebook-fearless": "Fearless",
-      "rulebook-shield": "Shield",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Greybeards",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-beacon_of_curage": "Beacon of Courage",
-          "rulebook-fearless": "Fearless"
-        }
+        "Id": "statline_358"
       },
       {
-        "Name": "Greybeards",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_359"
       },
       {
-        "Name": "Greybeard",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_360"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f40790d8280c4b20293",
     "Name": "Clan Marksmen",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-crossbow": "Crossbow (4+)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Clan Marksmen",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_361"
       },
       {
-        "Name": "Clan Marksmen",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_362"
       },
       {
-        "Name": "Clan Marksman",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-crossbow": "Crossbow (4+)"
-        }
+        "Id": "statline_363"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f40790d8280c4b2033d",
     "Name": "King's Guard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-bodyguard": "Bodyguard (General, King)",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-hatred": "Hatred",
-      "dh-kingsoath": "Kingsoath",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "King's Guard",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (General, King)",
-          "rulebook-disciplined": "Disciplined"
-        }
+        "Id": "statline_364"
       },
       {
-        "Name": "King's Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_365"
       },
       {
-        "Name": "King's Guard",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-hatred": "Hatred",
-          "dh-kingsoath": "Kingsoath",
-          "rulebook-great_weapon": "Great Weapon"
-        }
+        "Id": "statline_366"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f40790d8280c4b202f0",
     "Name": "Deep Watch",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-resolute": "Resolute",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-aegis": "Aegis (5+, against Melee Attacks from models Engaged in their Front Facing)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Deep Watch",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (General, King, Thane)",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-resolute": "Resolute"
-        }
+        "Id": "statline_367"
       },
       {
-        "Name": "Deep Watch",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+, against Melee Attacks from models Engaged in their Front Facing)",
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_368"
       },
       {
-        "Name": "Deep Watch",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_369"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f41790d8280c4b203b2",
     "Name": "Seekers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "dh-brothers_of_vengeance": "Brothers of Vengeance",
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-fearless": "Fearless",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-zeal": "Zeal",
-      "rulebook-aegis": "Aegis (6+)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-paired_weapons": "Paired Weapons"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Seekers",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-dying_blow": "Dying Blow",
-          "rulebook-fearless": "Fearless",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-unstable": "Unstable"                    
-        }
+        "Id": "statline_370"
       },
       {
-        "Name": "Seekers",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)"
-        }
+        "Id": "statline_371"
       },
       {
-        "Name": "Seeker",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-zeal": "Zeal",          
-          "rulebook-great_weapon": "Great Weapon",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_372"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f41790d8280c4b203ec",
     "Name": "Vengeance Seeker",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-dying_blow": "Dying Blow",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-solitary": "Solitary",
-      "rulebook-resistance": "Resistance (Melee)",
-      "rulebook-unstable": "Unstable",
-      "rulebook-vanguard": "Vanguard",      
-      "rulebook-aegis": "Aegis (6+)",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-grind_attack":"Grind Attack (2D3)",
-      "dh-whirling_chains_of_doom": "Whirling Chains of Doom",
-      "rulebook-zeal": "Zeal"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Vengeance Seeker",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-resistance": "Resistance (Melee)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-unstable": "Unstable",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_373"
       },
       {
-        "Name": "Vengeance Seeker",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)",
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_374"
       },
       {
-        "Name": "Vengeance Seeker",
-        "Values": {
-          "At": "3D3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack":"Grind Attack (2D3)",
-          "dh-whirling_chains_of_doom": "Whirling Chains of Doom",
-          "rulebook-zeal": "Zeal"
-        }
+        "Id": "statline_375"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f41790d8280c4b203ef",
     "Name": "Hold Guardians",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "dh-runic_engravings": "Runic Engravings",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Hold Guardians",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "dh-runic_engravings": "Runic Engravings"
-        }
+        "Id": "statline_376"
       },
       {
-        "Name": "Hold Guardians",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_377"
       },
       {
-        "Name": "Hold Guardian",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "1"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_378"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f42790d8280c4b20438",
     "Name": "Grudge Buster",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-grind_attack": "Grind Attack (3D3)",
-      "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
-      "dh-forge_repeater": "Forge Repeater (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Grudge Buster",
-        "Values": {
-          "Ad": "8",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary"
-        }
+        "Id": "statline_379"
       },
       {
-        "Name": "Grudge Buster",
-        "Values": {
-          "HP": "5",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_380"
       },
       {
-        "Name": "Crew (2)",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_381"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (3D3)",
-          "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
-          "dh-forge_repeater": "Forge Repeater (4+)"
-        }
+        "Id": "statline_382"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f41790d8280c4b20388",
     "Name": "Miners",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Table Edge)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Miners",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Table Edge)"
-        }
+        "Id": "statline_383"
       },
       {
-        "Name": "Miners",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_384"
       },
       {
-        "Name": "Miner",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-great_weapon": "Great Weapon"
-        }
+        "Id": "statline_385"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f40790d8280c4b20339",
     "Name": "Anvil of Power",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-channel": "Channel (2)",
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-fearless": "Fearless",           
-      "rulebook-magic_resistance": "Magic Resistance (2)",
-      "dh-runic_anvil": "Runic Anvil",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-great_weapon": "Great Weapon",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "11",
+    "Children": [
       {
-        "Name": "Anvil of Power",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-channel": "Channel (2)",
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-fearless": "Fearless",
-          "rulebook-magic_resistance": "Magic Resistance (2)",
-          "dh-runic_anvil": "Runic Anvil",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn"
-        }
+        "Id": "statline_386"
       },
       {
-        "Name": "Anvil of Power",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_387"
       },
       {
-        "Name": "Anvil Guard (3)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-great_weapon": "Great Weapon"
-        }
+        "Id": "statline_388"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "60"
-      }
-    }
+    ]
   },
-    {
+  {
     "Id": "68357f42790d8280c4b204c6",
     "Name": "Rangers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-scout": "Scout",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-quick_to_fire": "Quick to Fire",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Rangers",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-scout": "Scout",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_389"
       },
       {
-        "Name": "Rangers",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_390"
       },
       {
-        "Name": "Ranger",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "rulebook-quick_to_fire": "Quick to Fire"
-        }
+        "Id": "statline_391"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f42790d8280c4b204f9",
     "Name": "Forge Wardens",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "dh-forge_gun": "Forge Gun (3+)",
-      "rulebook-resistance": "Resistance (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Forge Wardens",
-        "Values": {
-          "Ad": "3",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined"
-        }
+        "Id": "statline_392"
       },
       {
-        "Name": "Forge Wardens",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-resistance": "Resistance (Flaming Attacks)"
-        }
+        "Id": "statline_393"
       },
       {
-        "Name": "Forge Warden",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-          "dh-forge_gun": "Forge Gun (3+)"
-        }
+        "Id": "statline_394"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f43790d8280c4b20544",
     "Name": "Steam Copters",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "dh-shrapnel_grenades": "Shrapnel Grenades",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "dh-forge_repeater": "Forge Repeater (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Steam Copters",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "dh-shrapnel_grenades": "Shrapnel Grenades"
-        }
+        "Id": "statline_395"
       },
       {
-        "Name": "Steam Copters",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_396"
       },
       {
-        "Name": "Crew",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-paired_weapons": "Paired Weapons",
-          "dh-forge_repeater": "Forge Repeater (4+)"
-        }
+        "Id": "statline_397"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f42790d8280c4b20439",
     "Name": "Field Artillery",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-solitary": "Solitary"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "11",
+    "Children": [
       {
-        "Name": "Field Artillery",
-        "Values": {
-          "Ad": "0",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-solitary": "Solitary"
-        }
+        "Id": "statline_398"
       },
       {
-        "Name": "Field Artillery",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_399"
       },
       {
-        "Name": "Crew",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_400"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "60"
-      }
-    }
+    ]
   }
 ]

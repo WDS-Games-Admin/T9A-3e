@@ -2,2441 +2,624 @@
   {
     "Id": "68357f7d790d8280c4b256f8",
     "Name": "Forest Prince",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Forest Prince",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)"          
-        }
+        "Id": "statline_1194"
       },
       {
-        "Name": "Forest Prince",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1195"
       },
       {
-        "Name": "Forest Prince",
-        "Values": {
-          "At": "4",
-          "Of": "8",
-          "St": "4",
-          "AP": "1",
-          "Ag": "8"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1196"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "e0eeac97-e245-4524-8809-6449f4744717",
-    "Name": "Elven Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "235"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Forest Prince on Elven Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "10",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1197"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1198"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1196"
+      },
+      {
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "4d235dd8-2fdb-4f93-8abc-6d6296f697c4",
-    "Name": "Great Elk",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "300"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-impact_hits": "Impact Hits (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Forest Prince on Great Elk",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Great Elk",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "10",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",          
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1199"
       },
       {
-        "Name": "Great Elk",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1200"
       },
       {
-        "Name": "Great Elk",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (1)"
-        }
+        "Id": "statline_1196"
+      },
+      {
+        "Id": "statline_1201"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "b387e8fc-8ed5-4cf7-a549-3386b3059390",
-    "Name": "Forest Eagle",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "310"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Forest Prince on Forest Eagle",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "10",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-hard_target": "Hard Target (1)"         
-        }
+        "Id": "statline_1202"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "HP": "4",
-          "Df": "8",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1203"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1196"
+      },
+      {
+        "Id": "statline_1204"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "09388320-b0e0-4310-a584-b876d69a9788",
-    "Name": "Forest Dragon",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "600"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",      
-      "se-meeting_of_minds": "Meeting of Minds",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider (Forest)",  
-      "rulebook-swiftstride": "Swiftstride",           
-      "rulebook-terror": "Terror",      
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Forest Prince on Forest Dragon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Forest Dragon",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "10",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",      
-          "se-meeting_of_minds": "Meeting of Minds",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",  
-          "rulebook-swiftstride": "Swiftstride",      
-          "rulebook-terror": "Terror"
-        }
+        "Id": "statline_1205"
       },
       {
-        "Name": "Forest Dragon",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_1206"
       },
       {
-        "Name": "Forest Dragon",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_1196"
+      },
+      {
+        "Id": "statline_1207"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f7e790d8280c4b25907",
     "Name": "Chieftain",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Chieftain",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)"          
-        }
+        "Id": "statline_1208"
       },
       {
-        "Name": "Chieftain",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1209"
       },
       {
-        "Name": "Chieftain",
-        "Values": {
-          "At": "3",
-          "Of": "7",
-          "St": "4",
-          "AP": "1",
-          "Ag": "7"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1210"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "3b533f44-091d-41a9-9700-4635e21cc0f0",
-    "Name": "Elven Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "120"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Chieftain on Elven Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",      
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1211"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1212"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1210"
+      },
+      {
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "5dd5eca8-a437-4cdb-8bb2-f5b2270e7387",
-    "Name": "Great Elk",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "180"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-impact_hits": "Impact Hits (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Chieftain on Great Elk",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Great Elk",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",      
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1213"
       },
       {
-        "Name": "Great Elk",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_1214"
       },
       {
-        "Name": "Great Elk",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (1)"
-        }
+        "Id": "statline_1210"
+      },
+      {
+        "Id": "statline_1201"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "869ac7b9-326b-4fa5-94e7-9172a72193b1",
-    "Name": "Forest Eagle",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "200"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Chieftain on Forest Eagle",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride"
-          
-        }
+        "Id": "statline_1215"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1216"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1210"
+      },
+      {
+        "Id": "statline_1204"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f7e790d8280c4b25ad8",
     "Name": "Druid",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "se-tree_singing": "Tree Singing",      
-      "rulebook-wizard_adept": "Wizard Adept"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Druid",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "se-tree_singing": "Tree Singing",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_1217"
       },
       {
-        "Name": "Druid",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1218"
       },
       {
-        "Name": "Druid",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1219"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "b21fd689-a365-4753-9ee5-4a3665902942",
-    "Name": "Elven Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "300"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-swiftstride": "Swiftstride",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-wizard_adept": "Wizard Adept"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Druid on Elven Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",                    
-          "rulebook-swiftstride": "Swiftstride",
-          "se-tree_singing": "Tree Singing",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_1220"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1221"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1219"
+      },
+      {
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "ac82d1fb-4a60-487b-98b0-f234b5671ccd",
-    "Name": "Forest Eagle",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "320"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Druid on Forest Eagle",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",                       
-          "rulebook-swiftstride": "Swiftstride",
-          "se-tree_singing": "Tree Singing",
-          "rulebook-wizard_adept": "Wizard Adept",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1222"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1223"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1219"
+      },
+      {
+        "Id": "statline_1204"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "e8d09249-d3a0-4ffa-b1fe-f19502c7c9c4",
-    "Name": "Sylvan Unicorn",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "320"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "se-herald_of_sura": "Herald of Sura",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stand_behind": "Stand Behind",
-      "rulebook-strider": "Strider",
-      "rulebook-swiftstride": "Swiftstride",
-      "se-tree_singing": "Tree Singing",      
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-magic_resistance": "Magic Resistance (1)",      
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Druid on Sylvan Unicorn",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Sylvan Unicorn",
-        "Values": {
-          "Ad": "10",
-          "Ma": "10",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "se-herald_of_sura": "Herald of Sura",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-stand_behind": "Stand Behind",
-          "rulebook-strider": "Strider",
-          "rulebook-swiftstride": "Swiftstride",
-          "se-tree_singing": "Tree Singing",      
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_1224"
       },
       {
-        "Name": "Sylvan Unicorn",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-magic_resistance": "Magic Resistance (1)"
-        }
+        "Id": "statline_1225"
       },
       {
-        "Name": "Sylvan Unicorn",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1219"
+      },
+      {
+        "Id": "statline_1226"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "f28b2d0e-3ee4-4e35-a32c-d6b5dc829569",
-    "Name": "Forest Dragon",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "650"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "se-meeting_of_minds": "Meeting of Minds",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",      
-      "rulebook-terror": "Terror",
-      "se-tree_singing": "Tree Singing",      
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Druid on Forest Dragon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Forest Dragon",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "se-meeting_of_minds": "Meeting of Minds",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride",          
-          "rulebook-terror": "Terror",
-          "se-tree_singing": "Tree Singing",      
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_1227"
       },
       {
-        "Name": "Forest Dragon",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_1206"
       },
       {
-        "Name": "Forest Dragon",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_1219"
+      },
+      {
+        "Id": "statline_1207"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f7f790d8280c4b25c8a",
     "Name": "Dryad Ancient",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-fearless": "Fearless",      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-hatred": "Hatred",
-      "rulebook-magical_attacks": "Magical Attacks"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Dryad Ancient",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-fearless": "Fearless",      
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "se-tree_singing": "Tree Singing"
-        }
+        "Id": "statline_1228"
       },
       {
-        "Name": "Dryad Ancient",
-        "Values": {
-          "HP": "3",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1229"
       },
       {
-        "Name": "Dryad Ancient",
-        "Values": {
-          "At": "3",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "7"
-        },
-        "RuleIds": {
-          "rulebook-hatred": "Hatred",
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1230"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f7f790d8280c4b25c79",
     "Name": "Avatar of Nature",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-terror": "Terror",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-crush_attack": "Crush Attack",      
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "se-impaling_roots": "Impaling Roots"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "20",
+    "Children": [
       {
-        "Name": "Avatar of Nature",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-terror": "Terror",
-          "se-tree_singing": "Tree Singing"
-        }
+        "Id": "statline_1231"
       },
       {
-        "Name": "Avatar of Nature",
-        "Values": {
-          "HP": "6",
-          "Df": "6",
-          "Re": "7",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1232"
       },
       {
-        "Name": "Avatar of Nature",
-        "Values": {
-          "At": "6",
-          "Of": "6",
-          "St": "7",
-          "AP": "4",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-crush_attack": "Crush Attack",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",
-          "se-impaling_roots": "Impaling Roots"
-        }
+        "Id": "statline_1233"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f7f790d8280c4b25c60",
     "Name": "Treefather Ancient",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-stubborn": "Stubborn",      
-      "rulebook-terror": "Terror",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-crush_attack": "Crush Attack",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "se-impaling_roots": "Impaling Roots"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "20",
+    "Children": [
       {
-        "Name": "Treefather Ancient",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-stubborn": "Stubborn",      
-          "rulebook-terror": "Terror",
-          "se-tree_singing": "Tree Singing"
-        }
+        "Id": "statline_1234"
       },
       {
-        "Name": "Treefather Ancient",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "7",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1235"
       },
       {
-        "Name": "Treefather Ancient",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-crush_attack": "Crush Attack",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",          
-          "se-impaling_roots": "Impaling Roots"
-        }
+        "Id": "statline_1236"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f80790d8280c4b25ca4",
     "Name": "Thicket Shepherd",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-      "rulebook-fearless": "Fearless",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Thicket Shepherd",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-          "rulebook-fearless": "Fearless",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "se-tree_singing": "Tree Singing"
-        }
+        "Id": "statline_1237"
       },
       {
-        "Name": "Thicket Shepherd",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1238"
       },
       {
-        "Name": "Thicket Shepherd",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1239"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "d2f7e1a8b3c9f4d6e2a1c9b7f",
     "Name": "Ancient Dawael, the World Tree",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-stubborn": "Stubborn",
-      "se-sylvan_beasts": "Sylvan Beasts (1)",
-      "rulebook-terror": "Terror",
-      "se-the_world_tree": "The World Tree",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-crush_attack": "Crush Attack",
-      "se-impaling_roots": "Impaling Roots",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-afflict": "Afflict (-1 Combat Resolution)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6 hits)",
-      "rulebook-toxic_attacks": "Toxic Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "20",
+    "Children": [
       {
-        "Name": "Ancient Dawael, the World Tree",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-stubborn": "Stubborn",
-          "se-sylvan_beasts": "Sylvan Beasts (1)",
-          "rulebook-terror": "Terror",
-          "se-the_world_tree": "The World Tree",
-          "se-tree_singing": "Tree Singing",
-          "rulebook-wizard_adept": "Wizard Adept"
-}
+        "Id": "statline_1240"
       },
       {
-        "Name": "Ancient Dawael, the World Tree",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "7",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1241"
       },
       {
-        "Name": "Ancient Dawael",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-crush_attack": "Crush Attack",
-          "se-impaling_roots": "Impaling Roots",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6 hits)"
-        }
-      }      
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "50"
+        "Id": "statline_1242"
       }
-    }
+    ]
   },
   {
     "Id": "a3b2e4d8f1c9e7a3b2d1c9a5b",
     "Name": "Domethil, the Unicorn Shapeshifter",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider",
-      "se-the_unicornpath": "The Unicorn's Path",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-magic_resistance": "Magic Resistance (3)",
-      "rulebook-resistance": "Resistance (against Magical Attacks)",
-      "rulebook-weapon_master": "Weapon Master",
-      "se-the_unicorns_fury": "The Unicorn's Fury",
-      "se-the_unicorns_horn": "The Unicorn's Horn"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Domethil, the Unicorn Shapeshifter",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-         "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider",
-          "se-the_unicornpath": "The Unicorn's Path",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_1243"
       },
       {
-        "Name": "Domethil, the Unicorn Shapeshifter",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-magic_resistance": "Magic Resistance (3)",
-          "rulebook-resistance": "Resistance (against Magical Attacks)"
-        }
+        "Id": "statline_1244"
       },
       {
-        "Name": "Domethil",
-        "Values": {
-          "At": "4",
-          "Of": "8",
-          "St": "4",
-          "AP": "1",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "rulebook-weapon_master": "Weapon Master",
-          "se-the_unicorns_fury": "The Unicorn's Fury",
-          "se-the_unicorns_horn": "The Unicorn's Horn"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
+        "Id": "statline_1245"
       }
-    }
+    ]
   },
   {
     "Id": "68357f80790d8280c4b25cb8",
     "Name": "Forest Guard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-strider": "Strider (Forest)",
-      "se-elven_cloak": "Elven Cloak",      
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-spear": "Spear",
-      "se-sylvan_blades": "Sylvan Blades"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Forest Guard",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_1246"
       },
       {
-        "Name": "Forest Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak"
-        }
+        "Id": "statline_1247"
       },
       {
-        "Name": "Forest Guard",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-spear": "Spear",
-          "se-sylvan_blades": "Sylvan Blades"          
-        }
+        "Id": "statline_1248"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f80790d8280c4b25ceb",
     "Name": "Sylvan Archers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-strider": "Strider (Forest)",
-      "se-elven_cloak": "Elven Cloak",
-      "se-sylvan_bow": "Sylvan Bow (3+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Sylvan Archers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_1249"
       },
       {
-        "Name": "Sylvan Archers",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak"
-        }
+        "Id": "statline_1250"
       },
       {
-        "Name": "Sylvan Archer",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "se-sylvan_bow": "Sylvan Bow (3+)"
-        }
+        "Id": "statline_1251"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f80790d8280c4b25d1b",
     "Name": "Heath Riders",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {      
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "se-elven_cloak": "Elven Cloak",
-      "rulebook-devastating_charge": "Devastating Charge (Fury)",
-      "se-heath_lancers": "Heath Lancers"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Heath Riders",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1252"
       },
       {
-        "Name": "Heath Riders",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak"
-        }
+        "Id": "statline_1253"
       },
       {
-        "Name": "Heath Rider",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (Fury)",
-          "se-heath_lancers": "Heath Lancers"
-        }
+        "Id": "statline_1254"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f81790d8280c4b25d57",
     "Name": "Dryads",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-      "rulebook-fearless": "Fearless",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-magical_attacks": "Magical Attacks"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
       {
-        "Name": "Dryads",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-          "rulebook-fearless": "Fearless",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_1255"
       },
       {
-        "Name": "Dryads",
-        "Values": {
-          "HP": "1",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1256"
       },
       {
-        "Name": "Dryad",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1257"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "25"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f81790d8280c4b25d75",
     "Name": "Forest Rangers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-strider": "Strider (Forest)",
-      "se-elven_cloak": "Elven Cloak",
-      "rulebook-elven_finesse": "Elven Finesse",
-      "rulebook-great_weapon": "Great Weapon"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Forest Rangers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_1258"
       },
       {
-        "Name": "Forest Rangers",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak"
-        }
+        "Id": "statline_1259"
       },
       {
-        "Name": "Forest Ranger",
-        "Values": {
-          "At": "2",
-          "Of": "6",
-          "St": "3",
-          "AP": "1",
-          "Ag": "6",
-          "Agi": "0"
-        },
-        "RuleIds": {
-          "rulebook-elven_finesse": "Elven Finesse",
-          "rulebook-great_weapon": "Great Weapon"
-        }
+        "Id": "statline_1260"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f81790d8280c4b25dab",
     "Name": "Thicket Beasts",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-bodyguard": "Bodyguard (Thicket Shepherd)",
-      "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-      "rulebook-fearless": "Fearless",
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-strider": "Strider (Forest)",      
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-magical_attacks": "Magical Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Thicket Beasts",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (Thicket Shepherd)",
-          "rulebook-exclusive": "Exclusive (Sylvan Spirit)",
-          "rulebook-fearless": "Fearless",
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_1261"
       },
       {
-        "Name": "Thicket Beasts",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1262"
       },
       {
-        "Name": "Thicket Beast",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks"
-        }
+        "Id": "statline_1263"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f81790d8280c4b25dc3",
     "Name": "Forest Eagles",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-unruly": "Unruly",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Forest Eagles",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-unruly": "Unruly"
-        }
+        "Id": "statline_1264"
       },
       {
-        "Name": "Forest Eagles",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1265"
       },
       {
-        "Name": "Forest Eagle",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "5",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1204"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f81790d8280c4b25dc8",
     "Name": "Blade Dancers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-exclusive": "Exclusive (Blade Dancer Kindred)",
-      "rulebook-fearless": "Fearless",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-aegis": "Aegis (6+)",
-      "rulebook-magic_resistance": "Magic Resistance (1)",
-      "se-dances_of_cenyrn": "Dances of Cenyrn",
-      "se-sylvan_blades": "Sylvan Blades"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Blade Dancers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-exclusive": "Exclusive (Blade Dancer Kindred)",
-          "rulebook-fearless": "Fearless",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-magic_resistance": "Magic Resistance (1)",
-          "rulebook-strider": "Strider (Forest)"         
-        }
+        "Id": "statline_1266"
       },
       {
-        "Name": "Blade Dancers",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)",
-          "rulebook-magic_resistance": "Magic Resistance (1)"
-        }
+        "Id": "statline_1267"
       },
       {
-        "Name": "Blade Dancer",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "se-dances_of_cenyrn": "Dances of Cenyrn",
-          "se-sylvan_blades": "Sylvan Blades"
-        }
+        "Id": "statline_1268"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f82790d8280c4b25df6",
     "Name": "Treefather",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {      
-      "se-forest_dweller": "Forest Dweller",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-terror": "Terror",
-      "se-tree_singing": "Tree Singing",
-      "rulebook-crush_attack": "Crush Attack",
-      "se-impaling_roots": "Impaling Roots",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "20",
+    "Children": [
       {
-        "Name": "Treefather",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "se-forest_dweller": "Forest Dweller",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-terror": "Terror",
-          "se-tree_singing": "Tree Singing"
-        }
+        "Id": "statline_1269"
       },
       {
-        "Name": "Treefather",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "7",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)",
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1270"
       },
       {
-        "Name": "Treefather",
-        "Values": {
-          "At": "5",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-crush_attack": "Crush Attack",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)",          
-          "se-impaling_roots": "Impaling Roots"
-        }
+        "Id": "statline_1271"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f82790d8280c4b25df9",
     "Name": "Wild Huntsmen",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fearless": "Fearless",
-      "rulebook-frenzy": "Frenzy",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-unruly": "Unruly",      
-      "rulebook-aegis": "Aegis (6+)",
-      "se-elven_cloak": "Elven Cloak",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "rulebook-fury": "Fury",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "se-sylvan_blades": "Sylvan Blades",
-      "rulebook-impact_hits": "Impact Hits (1)"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Wild Huntsmen",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-frenzy": "Frenzy",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-unruly": "Unruly"
-        }
+        "Id": "statline_1272"
       },
       {
-        "Name": "Wild Huntsmen",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (6+)"
-        }
+        "Id": "statline_1273"
       },
       {
-        "Name": "Wild Huntsman",
-        "Values": {
-          "At": "2",
-          "Of": "6",
-          "St": "3",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-          "rulebook-fury": "Fury",
-          "rulebook-lethal_strike": "Lethal Strike",
-          "se-sylvan_blades": "Sylvan Blades"
-        }
+        "Id": "statline_1274"
       },
       {
-        "Name": "Elven Deer",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (1)"
-        }
+        "Id": "statline_1275"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f82790d8280c4b25e38",
     "Name": "Kestrel Knights",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-fly": "Fly",
-      "rulebook-hit_and_run": "Hit and Run",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-vanguard": "Vanguard",
-      "se-elven_cloak": "Elven Cloak",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "rulebook-light_lance": "Light Lance",
-      "se-sylvan_bow": "Sylvan Bow (3+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Kestrel Knights",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-fly": "Fly",
-          "rulebook-hit_and_run": "Hit and Run",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_1276"
       },
       {
-        "Name": "Kestrel Knights",
-        "Values": {
-          "HP": "2",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1277"
       },
       {
-        "Name": "Kestrel Knight",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-          "rulebook-light_lance": "Light Lance",
-          "se-sylvan_bow": "Sylvan Bow (3+)"
-        }
+        "Id": "statline_1278"
       },
       {
-        "Name": "Kestrel",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1279"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f82790d8280c4b25e71",
     "Name": "Briar Maidens",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",      
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-aegis": "Aegis (4+)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "se-poisoned_thorn": "Poisoned Thorn",
-      "rulebook-impact_hits": "Impact Hits (1)"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Briar Maidens",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1280"
       },
       {
-        "Name": "Briar Maidens",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (4+)"
-        }
+        "Id": "statline_1281"
       },
       {
-        "Name": "Briar Maiden",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-poison_attacks": "Poison Attacks",
-          "se-poisoned_thorn": "Poisoned Thorn"
-        }
+        "Id": "statline_1282"
       },
       {
-        "Name": "Elven Deer",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (1)"
-        }
+        "Id": "statline_1275"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f83790d8280c4b25e8f",
     "Name": "Sylvan Sentinels",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-strider": "Strider (Forest)",      
-      "se-elven_cloak": "Elven Cloak",
-      "rulebook-hard_target": "Hard Target (1)",
-      "se-big_game_hunters": "Big Game Hunters (Shooting)",
-      "se-sylvan_bow": "Sylvan Bow (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Sylvan Sentinels",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-strider": "Strider (Forest)"
-        }
+        "Id": "statline_1283"
       },
       {
-        "Name": "Sylvan Sentinels",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1284"
       },
       {
-        "Name": "Sylvan Sentinel",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "se-big_game_hunters": "Big Game Hunters (Shooting)",
-          "se-sylvan_bow": "Sylvan Bow (3+)"
-        }
+        "Id": "statline_1285"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f83790d8280c4b25e97",
     "Name": "Pathfinders",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-scout": "Scout",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-strider": "Strider (Forest)",
-      "rulebook-vanguard": "Vanguard",
-      "se-elven_cloak": "Elven Cloak",
-      "rulebook-hard_target": "Hard Target (1)",
-      "se-forests_thorns": "Forest's Thorns",
-      "rulebook-stand_and_shoot": "Stand and Shoot",
-      "se-sylvan_blades": "Sylvan Blades",
-      "se-sylvan_bow": "Sylvan Bow (2+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Pathfinders",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-scout": "Scout",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-strider": "Strider (Forest)",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_1286"
       },
       {
-        "Name": "Pathfinders",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "se-elven_cloak": "Elven Cloak",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1287"
       },
       {
-        "Name": "Pathfinder",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "se-forests_thorns": "Forest's Thorns",
-          "rulebook-stand_and_shoot": "Stand and Shoot",
-          "se-sylvan_blades": "Sylvan Blades",
-          "se-sylvan_bow": "Sylvan Bow (2+)"          
-        }
+        "Id": "statline_1288"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   }
 ]

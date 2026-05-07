@@ -1,1922 +1,859 @@
 {
-  "Id": null,
-  "Name": null,
   "Factions": {
-    "faction-beast-herds": {
-      "Name": "Beast Herds",
-      "Children": {
-        "faction-beast-herds-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-wildhorn-lord": {
-              "Name": "Wildhorn Lord",
-              "Children": {}
-            },
-            "unit-wildhorn-chieftain": {
-              "Name": "Wildhorn Chieftain",
-              "Children": {}
-            },
-            "unit-soothsayer": {
-              "Name": "Soothsayer",
-              "Children": {}
-            },
-            "unit-minotaur-warlord": {
-              "Name": "Minotaur Warlord",
-              "Children": {}
-            },
-            "unit-minotaur-chieftain": {
-              "Name": "Minotaur Chieftain",
-              "Children": {}
-            },
-            "unit-centaur-chieftain": {
-              "Name": "Centaur Chieftain",
-              "Children": {}
-            }
-          }
-        },
-        "faction-beast-herds-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-wildhorn-herd": {
-              "Name": "Wildhorn Herd",
-              "Children": {}
-            },
-            "unit-mongrel-herd": {
-              "Name": "Mongrel Herd",
-              "Children": {}
-            },
-            "unit-mongrel-raiders": {
-              "Name": "Mongrel Raiders",
-              "Children": {}
-            }
-          }
-        },
-        "faction-beast-herds-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-feral-hounds": {
-              "Name": "Feral Hounds",
-              "Children": {}
-            },
-            "unit-longhorn-herd": {
-              "Name": "Longhorn Herd",
-              "Children": {}
-            },
-            "unit-minotaurs": {
-              "Name": "Minotaurs",
-              "Children": {}
-            },
-            "unit-centaurs": {
-              "Name": "Centaurs",
-              "Children": {}
-            },
-            "unit-raiding-chariots": {
-              "Name": "Raiding Chariots",
-              "Children": {}
-            },
-            "unit-razortusk-herd": {
-              "Name": "Razortusk Herd",
-              "Children": {}
-            },
-            "unit-razortusk-chariot": {
-              "Name": "Razortusk Chariot",
-              "Children": {}
-            },
-            "unit-briar-beast": {
-              "Name": "Briar Beast",
-              "Children": {}
-            },
-            "unit-gargoyles": {
-              "Name": "Gargoyles",
-              "Children": {}
-            }
-          }
-        },
-        "faction-beast-herds-category-3": {
-          "Name": "Terrors of the Wild",
-          "Children": {
-            "unit-cyclops": {
-              "Name": "Cyclops",
-              "Children": {}
-            },
-            "unit-gortach": {
-              "Name": "Gortach",
-              "Children": {}
-            },
-            "unit-jabberwock": {
-              "Name": "Jabberwock",
-              "Children": {}
-            },
-            "unit-beast-giant": {
-              "Name": "Beast Giant",
-              "Children": {}
-            }
-          }
-        },
-        "faction-beast-herds-category-4": {
-          "Name": "Extra",
-          "Children": {
-            "unit-totemic-beast": {
-              "Name": "Totemic Beast",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Beast Herds": {
+      "Characters": [
+        "68357f25790d8280c4b1e20c",
+        "68357f25790d8280c4b1e32c",
+        "68357f26790d8280c4b1e403",
+        "68357f26790d8280c4b1e492",
+        "68357f26790d8280c4b1e4dd",
+        "68357f26790d8280c4b1e535",
+        "f7d2b4e0a3c9d5f3e8c1a4b9d",
+        "t1x4y2u6v7w5q3m9r0p8s4b"
+      ],
+      "Core Units": [
+        "68357f26790d8280c4b1e595",
+        "68357f26790d8280c4b1e5e9",
+        "68357f27790d8280c4b1e625"
+      ],
+      "Special": [
+        "68357f27790d8280c4b1e637",
+        "68357f27790d8280c4b1e63c",
+        "68357f27790d8280c4b1e68a",
+        "68357f27790d8280c4b1e6d5",
+        "68357f28790d8280c4b1e72c",
+        "68357f28790d8280c4b1e731",
+        "68357f28790d8280c4b1e736",
+        "68357f28790d8280c4b1e737",
+        "68357f28790d8280c4b1e738"
+      ],
+      "Terrors of the Wild": [
+        "68357f28790d8280c4b1e73d",
+        "68357f28790d8280c4b1e73e",
+        "68357f28790d8280c4b1e73f",
+        "68357f29790d8280c4b1e740"
+      ],
+      "Extra": [
+        "68357f29790d8280c4b1e74f"
+      ]
     },
-    "faction-daemon-legions": {
-      "Name": "Daemon Legions",
-      "Children": {
-        "faction-daemon-legions-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-harbinger-of-father-chaos": {
-              "Name": "Harbinger of Father Chaos",
-              "Children": {}
-            },
-            "unit-kuulima's-deceiver": {
-              "Name": "Kuulima's Deceiver",
-              "Children": {}
-            },
-            "unit-maw-of-akaan": {
-              "Name": "Maw of Akaan",
-              "Children": {}
-            },
-            "unit-miser-of-sugulag": {
-              "Name": "Miser of Sugulag",
-              "Children": {}
-            },
-            "unit-courtesan-of-cibaresh": {
-              "Name": "Courtesan of Cibaresh",
-              "Children": {}
-            },
-            "unit-omen-of-savar": {
-              "Name": "Omen of Savar",
-              "Children": {}
-            },
-            "unit-sentinel-of-nukuja": {
-              "Name": "Sentinel of Nukuja",
-              "Children": {}
-            },
-            "unit-vanadra's-scourge": {
-              "Name": "Vanadra's Scourge",
-              "Children": {}
-            }
-          }
-        },
-        "faction-daemon-legions-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-imps": {
-              "Name": "Imps",
-              "Children": {}
-            },
-            "unit-succubi": {
-              "Name": "Succubi",
-              "Children": {}
-            },
-            "unit-lemures": {
-              "Name": "Lemures",
-              "Children": {}
-            },
-            "unit-myrmidons": {
-              "Name": "Myrmidons",
-              "Children": {}
-            }
-          }
-        },
-        "faction-daemon-legions-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-eidolons": {
-              "Name": "Eidolons",
-              "Children": {}
-            },
-            "unit-hellhounds": {
-              "Name": "Hellhounds",
-              "Children": {}
-            },
-            "unit-threshing-engine": {
-              "Name": "Threshing Engine",
-              "Children": {}
-            },
-            "unit-titanslayer-chariot": {
-              "Name": "Titanslayer Chariot",
-              "Children": {}
-            },
-            "unit-mageblight-gremlins": {
-              "Name": "Mageblight Gremlins",
-              "Children": {}
-            },
-            "unit-clawed-fiends": {
-              "Name": "Clawed Fiends",
-              "Children": {}
-            },
-            "unit-hoarders": {
-              "Name": "Hoarders",
-              "Children": {}
-            },
-            "unit-succubi-tempters": {
-              "Name": "Succubi Tempters",
-              "Children": {}
-            },
-            "unit-blazing-glory": {
-              "Name": "Blazing Glory",
-              "Children": {}
-            },
-            "unit-hope-harvester": {
-              "Name": "Hope Harvester",
-              "Children": {}
-            },
-            "unit-brazen-beasts": {
-              "Name": "Brazen Beasts",
-              "Children": {}
-            }
-          }
-        },
-        "faction-daemon-legions-category-3": {
-          "Name": "Aves",
-          "Children": {
-            "unit-furies": {
-              "Name": "Furies",
-              "Children": {}
-            },
-            "unit-veil-serpents": {
-              "Name": "Veil Serpents",
-              "Children": {}
-            },
-            "unit-bloat-flies": {
-              "Name": "Bloat Flies",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Daemon Legions": {
+      "Characters": [
+        "68357f2e790d8280c4b1ec4a",
+        "68357f2e790d8280c4b1ee41",
+        "68357f2e790d8280c4b1ee6d",
+        "68357f2e790d8280c4b1ee9b",
+        "68357f2f790d8280c4b1eec8",
+        "68357f2f790d8280c4b1eef5",
+        "68357f2f790d8280c4b1ef54",
+        "68357f2f790d8280c4b1efb2",
+        "e9a1c7b4d2f6e8c3b0d7f2c5a",
+        "b5d2f0938a7d6c51e8b7a0e34f"
+      ],
+      "Core Units": [
+        "68357f30790d8280c4b1efe0",
+        "68357f30790d8280c4b1f010",
+        "68357f30790d8280c4b1f03a",
+        "68357f30790d8280c4b1f064"
+      ],
+      "Special": [
+        "68357f31790d8280c4b1f08e",
+        "68357f31790d8280c4b1f09b",
+        "68357f31790d8280c4b1f0b5",
+        "68357f31790d8280c4b1f10a",
+        "68357f31790d8280c4b1f11c",
+        "68357f32790d8280c4b1f128",
+        "68357f32790d8280c4b1f152",
+        "68357f32790d8280c4b1f185",
+        "68357f32790d8280c4b1f1b5",
+        "68357f32790d8280c4b1f1bf",
+        "68357f33790d8280c4b1f1ca"
+      ],
+      "Aves": [
+        "68357f33790d8280c4b1f23a",
+        "68357f33790d8280c4b1f245",
+        "68357f33790d8280c4b1f24c"
+      ]
     },
-    "faction-dread-elves": {
-      "Name": "Dread Elves",
-      "Children": {
-        "faction-dread-elves-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-dread-prince": {
-              "Name": "Dread Prince",
-              "Children": {}
-            },
-            "unit-silexian-officer": {
-              "Name": "Silexian Officer",
-              "Children": {}
-            },
-            "unit-silent-assassin": {
-              "Name": "Silent Assassin",
-              "Children": {}
-            },
-            "unit-temple-exarch": {
-              "Name": "Temple Exarch",
-              "Children": {}
-            },
-            "unit-sanctioned-warlock": {
-              "Name": "Sanctioned Warlock",
-              "Children": {}
-            }
-          }
-        },
-        "faction-dread-elves-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-silexian-spears": {
-              "Name": "Silexian Spears",
-              "Children": {}
-            },
-            "unit-silexian-auxiliaries": {
-              "Name": "Silexian Auxiliaries",
-              "Children": {}
-            },
-            "unit-corsairs": {
-              "Name": "Corsairs",
-              "Children": {}
-            },
-            "unit-temple-militants": {
-              "Name": "Temple Militants",
-              "Children": {}
-            },
-            "unit-shadow-riders": {
-              "Name": "Shadow Riders",
-              "Children": {}
-            }
-          }
-        },
-        "faction-dread-elves-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-raptor-chariot": {
-              "Name": "Raptor Chariot",
-              "Children": {}
-            },
-            "unit-divine-altar": {
-              "Name": "Divine Altar",
-              "Children": {}
-            },
-            "unit-dread-knights": {
-              "Name": "Dread Knights",
-              "Children": {}
-            },
-            "unit-harpies": {
-              "Name": "Harpies",
-              "Children": {}
-            },
-            "unit-gorgons": {
-              "Name": "Gorgons",
-              "Children": {}
-            },
-            "unit-judicators": {
-              "Name": "Judicators",
-              "Children": {}
-            },
-            "unit-obsidian-guard": {
-              "Name": "Obsidian Guard",
-              "Children": {}
-            },
-            "unit-thunder-pack": {
-              "Name": "Thunder Pack",
-              "Children": {}
-            },
-            "unit-dread-acolytes": {
-              "Name": "Dread Acolytes",
-              "Children": {}
-            },
-            "unit-hunting-chariot": {
-              "Name": "Hunting Chariot",
-              "Children": {}
-            },
-            "unit-repeater-battery": {
-              "Name": "Repeater Battery",
-              "Children": {}
-            },
-            "unit-black-cloaks": {
-              "Name": "Black Cloaks",
-              "Children": {}
-            }
-          }
-        },
-        "faction-dread-elves-category-3": {
-          "Name": "The Menagerie",
-          "Children": {
-            "unit-kraken": {
-              "Name": "Kraken",
-              "Children": {}
-            },
-            "unit-hydra": {
-              "Name": "Hydra",
-              "Children": {}
-            },
-            "unit-mist-leviathan": {
-              "Name": "Mist Leviathan",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Dread Elves": {
+      "Characters": [
+        "68357f34790d8280c4b1f29f",
+        "68357f35790d8280c4b1f585",
+        "68357f35790d8280c4b1f84f",
+        "68357f35790d8280c4b1f858",
+        "68357f35790d8280c4b1f8ba",
+        "b3f7e1a9d2c6d8e4a1b7c9f6d"
+      ],
+      "Core Units": [
+        "68357f36790d8280c4b1fa7c",
+        "68357f36790d8280c4b1faaf",
+        "68357f36790d8280c4b1fae2",
+        "68357f36790d8280c4b1fb1b",
+        "68357f37790d8280c4b1fb51"
+      ],
+      "Special": [
+        "68357f37790d8280c4b1fb72",
+        "68357f37790d8280c4b1fb75",
+        "68357f37790d8280c4b1fb79",
+        "68357f37790d8280c4b1fbb8",
+        "68357f38790d8280c4b1fbbd",
+        "68357f38790d8280c4b1fbc5",
+        "68357f38790d8280c4b1fbf8",
+        "68357f38790d8280c4b1fc2b",
+        "68357f38790d8280c4b1fc30",
+        "68357f39790d8280c4b1fc69",
+        "68357f39790d8280c4b1fc6a",
+        "68357f39790d8280c4b1fc6b",
+        "d12c74273609ac8bf517f573e"
+      ],
+      "The Menagerie": [
+        "68357f39790d8280c4b1fc86",
+        "68357f39790d8280c4b1fc88",
+        "68357f39790d8280c4b1fc89"
+      ]
     },
-    "faction-dwarven-holds": {
-      "Name": "Dwarven Holds",
-      "Children": {
-        "faction-dwarven-holds-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-king": {
-              "Name": "King",
-              "Children": {}
-            },
-            "unit-thane": {
-              "Name": "Thane",
-              "Children": {}
-            },
-            "unit-dragon-seeker": {
-              "Name": "Dragon Seeker",
-              "Children": {}
-            },
-            "unit-runic-smith": {
-              "Name": "Runic Smith",
-              "Children": {}
-            },
-            "unit-engineer": {
-              "Name": "Engineer",
-              "Children": {}
-            }
-          }
-        },
-        "faction-dwarven-holds-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-clan-warriors": {
-              "Name": "Clan Warriors",
-              "Children": {}
-            },
-            "unit-greybeards": {
-              "Name": "Greybeards",
-              "Children": {}
-            },
-            "unit-clan-marksmen": {
-              "Name": "Clan Marksmen",
-              "Children": {}
-            }
-          }
-        },
-        "faction-dwarven-holds-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-deep-watch": {
-              "Name": "Deep Watch",
-              "Children": {}
-            },
-            "unit-anvil-of-power": {
-              "Name": "Anvil of Power",
-              "Children": {}
-            },
-            "unit-king's-guard": {
-              "Name": "King's Guard",
-              "Children": {}
-            },
-            "unit-miners": {
-              "Name": "Miners",
-              "Children": {}
-            },
-            "unit-seekers": {
-              "Name": "Seekers",
-              "Children": {}
-            },
-            "unit-brothers-of-vengeance": {
-              "Name": "Brothers of Vengeance",
-              "Children": {}
-            },
-            "unit-vengeance-seeker": {
-              "Name": "Vengeance Seeker",
-              "Children": {}
-            },
-            "unit-hold-guardians": {
-              "Name": "Hold Guardians",
-              "Children": {}
-            },
-            "unit-grudge-buster": {
-              "Name": "Grudge Buster",
-              "Children": {}
-            },
-            "unit-field-artillery": {
-              "Name": "Field Artillery",
-              "Children": {}
-            },
-            "unit-rangers": {
-              "Name": "Rangers",
-              "Children": {}
-            },
-            "unit-forge-wardens": {
-              "Name": "Forge Wardens",
-              "Children": {}
-            },
-            "unit-steam-copters": {
-              "Name": "Steam Copters",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Dwarven Holds": {
+      "Characters": [
+        "68357f3e790d8280c4b20006",
+        "68357f3e790d8280c4b200b7",
+        "68357f3f790d8280c4b20150",
+        "68357f3f790d8280c4b20169",
+        "68357f3f790d8280c4b2019a",
+        "a5d9b2c1e7f0a3d6f4b8c0a9f"
+      ],
+      "Core Units": [
+        "68357f3f790d8280c4b201d1",
+        "68357f3f790d8280c4b20234",
+        "68357f40790d8280c4b20291"
+      ],
+      "Special": [
+        "68357f40790d8280c4b202ee",
+        "68357f40790d8280c4b20339",
+        "68357f40790d8280c4b2033b",
+        "68357f41790d8280c4b20386",
+        "68357f41790d8280c4b203b0",
+        "68357f41790d8280c4b203ec",
+        "68357f41790d8280c4b203ed",
+        "68357f42790d8280c4b20438",
+        "68357f42790d8280c4b20439",
+        "68357f42790d8280c4b204c4",
+        "68357f42790d8280c4b204f7",
+        "68357f43790d8280c4b20542"
+      ]
     },
-    "faction-empire-of-sonnstahl": {
-      "Name": "Empire of Sonnstahl",
-      "Children": {
-        "faction-empire-of-sonnstahl-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-marshal": {
-              "Name": "Marshal",
-              "Children": {}
-            },
-            "unit-knight-commander": {
-              "Name": "Knight Commander",
-              "Children": {}
-            },
-            "unit-prelate": {
-              "Name": "Prelate",
-              "Children": {}
-            },
-            "unit-battlefield-wizard": {
-              "Name": "Battlefield Wizard",
-              "Children": {}
-            },
-            "unit-artificer": {
-              "Name": "Artificer",
-              "Children": {}
-            },
-            "unit-inquisitor": {
-              "Name": "Inquisitor",
-              "Children": {}
-            }
-          }
-        },
-        "faction-empire-of-sonnstahl-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-state-infantry": {
-              "Name": "State Infantry",
-              "Children": {}
-            },
-            "unit-state-detachment": {
-              "Name": "State Detachment",
-              "Children": {}
-            },
-            "unit-state-marksmen": {
-              "Name": "State Marksmen",
-              "Children": {}
-            },
-            "unit-local-militia": {
-              "Name": "Local Militia",
-              "Children": {}
-            },
-            "unit-electoral-cavalry": {
-              "Name": "Electoral Cavalry",
-              "Children": {}
-            },
-            "unit-knightly-orders": {
-              "Name": "Knightly Orders",
-              "Children": {}
-            }
-          }
-        },
-        "faction-empire-of-sonnstahl-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-imperial-guard": {
-              "Name": "Imperial Guard",
-              "Children": {}
-            },
-            "unit-imperial-detachment": {
-              "Name": "Imperial Detachment",
-              "Children": {}
-            },
-            "unit-knights-of-the-sun-griffon": {
-              "Name": "Knights of the Sun Griffon",
-              "Children": {}
-            },
-            "unit-arcane-engine": {
-              "Name": "Arcane Engine",
-              "Children": {}
-            },
-            "unit-imperial-rangers": {
-              "Name": "Imperial Rangers",
-              "Children": {}
-            },
-            "unit-reiters": {
-              "Name": "Reiters",
-              "Children": {}
-            },
-            "unit-blackpowder-artillery": {
-              "Name": "Blackpowder Artillery",
-              "Children": {}
-            }
-          }
-        },
-        "faction-empire-of-sonnstahl-category-3": {
-          "Name": "Sunna's Fury",
-          "Children": {
-            "unit-flagellants": {
-              "Name": "Flagellants",
-              "Children": {}
-            },
-            "unit-steam-tank": {
-              "Name": "Steam Tank",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Empire of Sonnstahl": {
+      "Characters": [
+        "68357f43790d8280c4b2056b",
+        "68357f44790d8280c4b2077a",
+        "68357f44790d8280c4b2086d",
+        "68357f44790d8280c4b2094e",
+        "68357f45790d8280c4b20aad",
+        "68357f45790d8280c4b20b20",
+        "a3b6d2e4f7a1c9b8d5e0f2c7d",
+        "b7c4e2d8f6a3b9d1e5f0c6a4d"
+      ],
+      "Core Units": [
+        "68357f45790d8280c4b20bc3",
+        "68357f45790d8280c4b20bff",
+        "68357f46790d8280c4b20c3b",
+        "68357f46790d8280c4b20c77",
+        "68357f46790d8280c4b20c89",
+        "68357f46790d8280c4b20cc8"
+      ],
+      "Special": [
+        "68357f46790d8280c4b20d07",
+        "68357f47790d8280c4b20d43",
+        "68357f47790d8280c4b20d7f",
+        "68357f47790d8280c4b20dbb",
+        "68357f47790d8280c4b20dbf",
+        "68357f48790d8280c4b20dcd",
+        "68357f48790d8280c4b20de1"
+      ],
+      "Sunna's Fury": [
+        "68357f48790d8280c4b20dff",
+        "68357f48790d8280c4b20e0d"
+      ]
     },
-    "faction-highborn-elves": {
-      "Name": "Highborn Elves",
-      "Children": {
-        "faction-highborn-elves-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-high-prince": {
-              "Name": "High Prince",
-              "Children": {}
-            },
-            "unit-commander": {
-              "Name": "Commander",
-              "Children": {}
-            },
-            "unit-mage": {
-              "Name": "Mage",
-              "Children": {}
-            }
-          }
-        },
-        "faction-highborn-elves-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-citizen-spears": {
-              "Name": "Citizen Spears",
-              "Children": {}
-            },
-            "unit-highborn-lancers": {
-              "Name": "Highborn Lancers",
-              "Children": {}
-            },
-            "unit-citizen-archers": {
-              "Name": "Citizen Archers",
-              "Children": {}
-            },
-            "unit-sea-guard": {
-              "Name": "Sea Guard",
-              "Children": {}
-            },
-            "unit-erlein-reavers": {
-              "Name": "Erlein Reavers",
-              "Children": {}
-            }
-          }
-        },
-        "faction-highborn-elves-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-phoenix": {
-              "Name": "Phoenix",
-              "Children": {}
-            },
-            "unit-sword-masters": {
-              "Name": "Sword Masters",
-              "Children": {}
-            },
-            "unit-lion-guard": {
-              "Name": "Lion Guard",
-              "Children": {}
-            },
-            "unit-flame-wardens": {
-              "Name": "Flame Wardens",
-              "Children": {}
-            },
-            "unit-knights-of-rymâ": {
-              "Name": "Knights of Rymâ",
-              "Children": {}
-            },
-            "unit-reaver-chariots": {
-              "Name": "Reaver Chariots",
-              "Children": {}
-            },
-            "unit-lion-chariot": {
-              "Name": "Lion Chariot",
-              "Children": {}
-            },
-            "unit-giant-eagles": {
-              "Name": "Giant Eagles",
-              "Children": {}
-            },
-            "unit-sea-guard-reaper": {
-              "Name": "Sea Guard Reaper",
-              "Children": {}
-            },
-            "unit-initiate-of-the-fiery-heart": {
-              "Name": "Initiate of the Fiery Heart",
-              "Children": {}
-            },
-            "unit-sky-sloop": {
-              "Name": "Sky Sloop",
-              "Children": {}
-            },
-            "unit-queen's-guard": {
-              "Name": "Queen's Guard",
-              "Children": {}
-            },
-            "unit-grey-watchers": {
-              "Name": "Grey Watchers",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Highborn Elves": {
+      "Characters": [
+        "68357f49790d8280c4b20e30",
+        "68357f4a790d8280c4b21289",
+        "68357f4b790d8280c4b216be",
+        "a2b5e7d3f9c1b4a6d8e2f0c5a",
+        "a3b4e6d1f8c2b9a5d7e0f3c4a2b"
+      ],
+      "Core Units": [
+        "68357f4b790d8280c4b218a1",
+        "68357f4c790d8280c4b218d1",
+        "68357f4c790d8280c4b21901",
+        "68357f4c790d8280c4b21931",
+        "68357f4c790d8280c4b21961"
+      ],
+      "Special": [
+        "68357f4c790d8280c4b21997u",
+        "68357f4d790d8280c4b219a9",
+        "68357f4d790d8280c4b219d9",
+        "68357f4d790d8280c4b21a09",
+        "68357f4d790d8280c4b21a39",
+        "68357f4e790d8280c4b21a69",
+        "68357f4e790d8280c4b21a81",
+        "68357f4e790d8280c4b21a82",
+        "68357f4e790d8280c4b21a8e",
+        "68357f4e790d8280c4b21a8f",
+        "68357f4e790d8280c4b21a91",
+        "68357f4f790d8280c4b21a92",
+        "68357f4f790d8280c4b21ac5"
+      ]
     },
-    "faction-infernal-dwarves": {
-      "Name": "Infernal Dwarves",
-      "Children": {
-        "faction-infernal-dwarves-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-overlord": {
-              "Name": "Overlord",
-              "Children": {}
-            },
-            "unit-prophet": {
-              "Name": "Prophet",
-              "Children": {}
-            },
-            "unit-vizier": {
-              "Name": "Vizier",
-              "Children": {}
-            },
-            "unit-taurukh-commissioner": {
-              "Name": "Taurukh Commissioner",
-              "Children": {}
-            },
-            "unit-vassal-conjurer": {
-              "Name": "Vassal Conjurer",
-              "Children": {}
-            },
-            "unit-lamassu-scholar": {
-              "Name": "Lamassu Scholar",
-              "Children": {}
-            }
-          }
-        },
-        "faction-infernal-dwarves-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-infernal-warriors": {
-              "Name": "Infernal Warriors",
-              "Children": {}
-            },
-            "unit-citadel-guard": {
-              "Name": "Citadel Guard",
-              "Children": {}
-            },
-            "unit-vassal-levies": {
-              "Name": "Vassal Levies",
-              "Children": {}
-            },
-            "unit-shackled-slaves": {
-              "Name": "Shackled Slaves",
-              "Children": {}
-            }
-          }
-        },
-        "faction-infernal-dwarves-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-kadim-chariot": {
-              "Name": "Kadim Chariot",
-              "Children": {}
-            },
-            "unit-immortals": {
-              "Name": "Immortals",
-              "Children": {}
-            },
-            "unit-disciples-of-lugar": {
-              "Name": "Disciples of Lugar",
-              "Children": {}
-            },
-            "unit-kadim-incarnates": {
-              "Name": "Kadim Incarnates",
-              "Children": {}
-            },
-            "unit-taurukh-enforcers": {
-              "Name": "Taurukh Enforcers",
-              "Children": {}
-            },
-            "unit-taurukh-anointed": {
-              "Name": "Taurukh Anointed",
-              "Children": {}
-            },
-            "unit-vassal-cavalry": {
-              "Name": "Vassal Cavalry",
-              "Children": {}
-            },
-            "unit-infernal-bastion": {
-              "Name": "Infernal Bastion",
-              "Children": {}
-            },
-            "unit-vassal-slingshot": {
-              "Name": "Vassal Slingshot",
-              "Children": {}
-            },
-            "unit-gunnery-team": {
-              "Name": "Gunnery Team",
-              "Children": {}
-            },
-            "unit-infernal-artillery": {
-              "Name": "Infernal Artillery",
-              "Children": {}
-            }
-          }
-        },
-        "faction-infernal-dwarves-category-3": {
-          "Name": "Instruments of Destruction",
-          "Children": {
-            "unit-kadim-titan": {
-              "Name": "Kadim Titan",
-              "Children": {}
-            },
-            "unit-infernal-engine": {
-              "Name": "Infernal Engine",
-              "Children": {}
-            },
-            "unit-citizen-giant": {
-              "Name": "Citizen Giant",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Infernal Dwarves": {
+      "Characters": [
+        "68357f54790d8280c4b21fd3",
+        "68357f54790d8280c4b220ed",
+        "68357f55790d8280c4b2235a",
+        "68357f56790d8280c4b2250f",
+        "68357f56790d8280c4b22567",
+        "68357f56790d8280c4b225d2",
+        "a2f5e3b1d8c7a6e9b4c2d1f8b",
+        "a7d9b3e6f1c4a8f2b9d3c5e7a"
+      ],
+      "Core Units": [
+        "68357f56790d8280c4b225e9",
+        "68357f56790d8280c4b22628",
+        "68357f57790d8280c4b22667",
+        "68357f57790d8280c4b226ac"
+      ],
+      "Special": [
+        "68357f57790d8280c4b226c0",
+        "68357f57790d8280c4b226c3",
+        "68357f58790d8280c4b22702",
+        "68357f58790d8280c4b2273e",
+        "68357f58790d8280c4b2274c",
+        "68357f58790d8280c4b22794",
+        "68357f59790d8280c4b227d9",
+        "68357f59790d8280c4b2280c",
+        "68357f59790d8280c4b2280d",
+        "68357f59790d8280c4b2280e",
+        "68357f59790d8280c4b22822"
+      ],
+      "Instruments of Destruction": [
+        "68357f5a790d8280c4b22836",
+        "68357f5a790d8280c4b2283c",
+        "68357f5a790d8280c4b2285a"
+      ]
     },
-    "faction-kingdom-of-equitaine": {
-      "Name": "Kingdom of Equitaine",
-      "Children": {
-        "faction-kingdom-of-equitaine-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-damsel": {
-              "Name": "Damsel",
-              "Children": {}
-            },
-            "unit-duke": {
-              "Name": "Duke",
-              "Children": {}
-            },
-            "unit-paladin": {
-              "Name": "Paladin",
-              "Children": {}
-            },
-            "unit-folk-hero": {
-              "Name": "Folk Hero",
-              "Children": {}
-            }
-          }
-        },
-        "faction-kingdom-of-equitaine-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-knights-of-the-realm": {
-              "Name": "Knights of the Realm",
-              "Children": {}
-            },
-            "unit-lowborn-archers": {
-              "Name": "Lowborn Archers",
-              "Children": {}
-            },
-            "unit-lowborn-levies": {
-              "Name": "Lowborn Levies",
-              "Children": {}
-            },
-            "unit-mounted-serjeants": {
-              "Name": "Mounted Serjeants",
-              "Children": {}
-            },
-            "unit-hedge-knights": {
-              "Name": "Hedge Knights",
-              "Children": {}
-            }
-          }
-        },
-        "faction-kingdom-of-equitaine-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-enlisted-outlaws": {
-              "Name": "Enlisted Outlaws",
-              "Children": {}
-            },
-            "unit-knights-of-the-quest": {
-              "Name": "Knights of the Quest",
-              "Children": {}
-            },
-            "unit-knights-penitent": {
-              "Name": "Knights Penitent",
-              "Children": {}
-            },
-            "unit-knights-of-the-court": {
-              "Name": "Knights of the Court",
-              "Children": {}
-            },
-            "unit-men-at-arms": {
-              "Name": "Men-at-Arms",
-              "Children": {}
-            },
-            "unit-pegasus-knights": {
-              "Name": "Pegasus Knights",
-              "Children": {}
-            },
-            "unit-sacred-reliquary": {
-              "Name": "Sacred Reliquary",
-              "Children": {}
-            },
-            "unit-siege-weapon": {
-              "Name": "Siege Weapon",
-              "Children": {}
-            },
-            "unit-sky-heralds": {
-              "Name": "Sky Heralds",
-              "Children": {}
-            },
-            "unit-yeoman-outriders": {
-              "Name": "Yeoman Outriders",
-              "Children": {}
-            }
-          }
-        },
-        "faction-kingdom-of-equitaine-category-3": {
-          "Name": "Fey",
-          "Children": {
-            "unit-fey-knight": {
-              "Name": "Fey Knight",
-              "Children": {}
-            },
-            "unit-friar's-lanterns": {
-              "Name": "Friar's Lanterns",
-              "Children": {}
-            },
-            "unit-naiads": {
-              "Name": "Naiads",
-              "Children": {}
-            },
-            "unit-the-lady's-courtier": {
-              "Name": "The Lady's Courtier",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Kingdom of Equitaine": {
+      "Characters": [
+        "68357f5b790d8280c4b2288d",
+        "68357f5c790d8280c4b229f8",
+        "68357f5d790d8280c4b22cc5",
+        "68357f5d790d8280c4b22f14",
+        "a4d3f8b2c9e1a7d4b3c5e9a2f",
+        "a4d3f8b2c9e1a7d4b3c5e9a2f-bis",
+        "68357f62790d8280c4b2356a"
+      ],
+      "Core Units": [
+        "68357f5e790d8280c4b23241",
+        "68357f5e790d8280c4b23292",
+        "68357f5f790d8280c4b232b9",
+        "68357f5f790d8280c4b232e0",
+        "68357f5f790d8280c4b23325"
+      ],
+      "Special": [
+        "68357f5f790d8280c4b23373",
+        "68357f5f790d8280c4b2337d",
+        "68357f60790d8280c4b233cb",
+        "68357f60790d8280c4b23407",
+        "68357f60790d8280c4b23455",
+        "68357f60790d8280c4b234af",
+        "68357f61790d8280c4b234fd",
+        "68357f61790d8280c4b234fe",
+        "68357f61790d8280c4b2350a",
+        "68357f61790d8280c4b2352b"
+      ],
+      "Fey": [
+        "68357f62790d8280c4b23559",
+        "68357f62790d8280c4b2355e",
+        "68357f62790d8280c4b23563",
+        "68357f62790d8280c4b2356a"
+      ]
     },
-    "faction-ogre-khans": {
-      "Name": "Ogre Khans",
-      "Children": {
-        "faction-ogre-khans-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-great-khan": {
-              "Name": "Great Khan",
-              "Children": {}
-            },
-            "unit-khan": {
-              "Name": "Khan",
-              "Children": {}
-            },
-            "unit-shaman": {
-              "Name": "Shaman",
-              "Children": {}
-            },
-            "unit-mammoth-hunter": {
-              "Name": "Mammoth Hunter",
-              "Children": {}
-            }
-          }
-        },
-        "faction-ogre-khans-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-tribesmen": {
-              "Name": "Tribesmen",
-              "Children": {}
-            },
-            "unit-bruisers": {
-              "Name": "Bruisers",
-              "Children": {}
-            },
-            "unit-scraplings": {
-              "Name": "Scraplings",
-              "Children": {}
-            }
-          }
-        },
-        "faction-ogre-khans-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-mercenary-veterans": {
-              "Name": "Mercenary Veterans",
-              "Children": {}
-            },
-            "unit-tusker-cavalry": {
-              "Name": "Tusker Cavalry",
-              "Children": {}
-            },
-            "unit-yetis": {
-              "Name": "Yetis",
-              "Children": {}
-            },
-            "unit-scrapling-trappers": {
-              "Name": "Scrapling Trappers",
-              "Children": {}
-            },
-            "unit-sabretooth-tigers": {
-              "Name": "Sabretooth Tigers",
-              "Children": {}
-            },
-            "unit-kin-eater": {
-              "Name": "Kin-Eater",
-              "Children": {}
-            },
-            "unit-mercenary-gunners": {
-              "Name": "Mercenary Gunners",
-              "Children": {}
-            },
-            "unit-thunder-cannon": {
-              "Name": "Thunder Cannon",
-              "Children": {}
-            },
-            "unit-scratapult": {
-              "Name": "Scratapult",
-              "Children": {}
-            },
-            "unit-bombardiers": {
-              "Name": "Bombardiers",
-              "Children": {}
-            }
-          }
-        },
-        "faction-ogre-khans-category-3": {
-          "Name": "Chained Beasts",
-          "Children": {
-            "unit-rock-aurochs": {
-              "Name": "Rock Aurochs",
-              "Children": {}
-            },
-            "unit-frost-mammoth": {
-              "Name": "Frost Mammoth",
-              "Children": {}
-            },
-            "unit-mercenary-giant": {
-              "Name": "Mercenary Giant",
-              "Children": {}
-            }
-          }
-        },
-        "faction-ogre-khans-category-4": {
-          "Name": "Extra",
-          "Children": {
-            "unit-scrapling-foreman": {
-              "Name": "Scrapling Foreman",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Ogre Khans": {
+      "Characters": [
+        "68357f6a790d8280c4b24070",
+        "68357f6a790d8280c4b240d1",
+        "68357f6a790d8280c4b2413e",
+        "68357f6a790d8280c4b2419b",
+        "d4f8b2e6c9a1d3f7b2c5a8d1"
+      ],
+      "Core Units": [
+        "68357f6b790d8280c4b242f4",
+        "68357f6b790d8280c4b24330",
+        "68357f6b790d8280c4b24363"
+      ],
+      "Special": [
+        "68357f6c790d8280c4b243a5",
+        "68357f6c790d8280c4b243ff",
+        "68357f6c790d8280c4b2443b",
+        "68357f6c790d8280c4b24449",
+        "68357f6c790d8280c4b24457",
+        "68357f6d790d8280c4b2445c",
+        "68357f6d790d8280c4b2445d",
+        "68357f6d790d8280c4b244a8",
+        "68357f6d790d8280c4b244a9",
+        "68357f6d790d8280c4b244aa"
+      ],
+      "Chained Beasts": [
+        "68357f6d790d8280c4b244dd",
+        "68357f6e790d8280c4b244e2",
+        "68357f6e790d8280c4b244e6"
+      ],
+      "Extra": [
+        "unit-scrapling-foreman"
+      ]
     },
-    "faction-orcs-and-goblins": {
-      "Name": "Orcs and Goblins",
-      "Children": {
-        "faction-orcs-and-goblins-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-goblin-demagogue": {
-              "Name": "Goblin Demagogue",
-              "Children": {}
-            },
-            "unit-goblin-witch": {
-              "Name": "Goblin Witch",
-              "Children": {}
-            },
-            "unit-gogtuk-initiate": {
-              "Name": "Gogtuk Initiate",
-              "Children": {}
-            },
-            "unit-mad-git": {
-              "Name": "Mad Git",
-              "Children": {}
-            },
-            "unit-orc-shaman": {
-              "Name": "Orc Shaman",
-              "Children": {}
-            },
-            "unit-orc-warlord": {
-              "Name": "Orc Warlord",
-              "Children": {}
-            },
-            "unit-iron-orc-loner": {
-              "Name": "Iron Orc Loner",
-              "Children": {}
-            },
-            "unit-brood-alpha": {
-              "Name": "Brood Alpha",
-              "Children": {}
-            }
-          }
-        },
-        "faction-orcs-and-goblins-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-feral-orcs": {
-              "Name": "Feral Orcs",
-              "Children": {}
-            },
-            "unit-feral-orc-marauders": {
-              "Name": "Feral Orc Marauders",
-              "Children": {}
-            },
-            "unit-goblin-rabble": {
-              "Name": "Goblin Rabble",
-              "Children": {}
-            },
-            "unit-goblin-reavers": {
-              "Name": "Goblin Reavers",
-              "Children": {}
-            },
-            "unit-veteran-orcs": {
-              "Name": "Veteran Orcs",
-              "Children": {}
-            },
-            "unit-veteran-orc-marauders": {
-              "Name": "Veteran Orc Marauders",
-              "Children": {}
-            }
-          }
-        },
-        "faction-orcs-and-goblins-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-giant": {
-              "Name": "Giant",
-              "Children": {}
-            },
-            "unit-gnashers": {
-              "Name": "Gnashers",
-              "Children": {}
-            },
-            "unit-gnasher-dashers": {
-              "Name": "Gnasher Dashers",
-              "Children": {}
-            },
-            "unit-goblin-artillery": {
-              "Name": "Goblin Artillery",
-              "Children": {}
-            },
-            "unit-goblin-chariots": {
-              "Name": "Goblin Chariots",
-              "Children": {}
-            },
-            "unit-gogtuk-neophytes": {
-              "Name": "Gogtuk Neophytes",
-              "Children": {}
-            },
-            "unit-great-green-idol": {
-              "Name": "Great Green Idol",
-              "Children": {}
-            },
-            "unit-grotlings": {
-              "Name": "Grotlings",
-              "Children": {}
-            },
-            "unit-grotling-scrap-wagon": {
-              "Name": "Grotling Scrap Wagon",
-              "Children": {}
-            },
-            "unit-guardian-behemoth": {
-              "Name": "Guardian Behemoth",
-              "Children": {}
-            },
-            "unit-iron-orc-chariots": {
-              "Name": "Iron Orc Chariots",
-              "Children": {}
-            },
-            "unit-iron-orcs": {
-              "Name": "Iron Orcs",
-              "Children": {}
-            },
-            "unit-trolls": {
-              "Name": "Trolls",
-              "Children": {}
-            },
-            "unit-wrecking-team": {
-              "Name": "Wrecking Team",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Orcs and Goblins": {
+      "Characters": [
+        "68357f6f790d8280c4b24525",
+        "68357f6f790d8280c4b2475e",
+        "68357f70790d8280c4b248ca",
+        "68357f70790d8280c4b2492d",
+        "68357f71790d8280c4b24936",
+        "68357f71790d8280c4b24a62",
+        "68357f71790d8280c4b24bba",
+        "68357f72790d8280c4b24cfe",
+        "a2b8d1f3701d5c8e4a7e3d905",
+        "f3g2h7a9b4c5d1e6z8k0j2l4"
+      ],
+      "Core Units": [
+        "68357f72790d8280c4b24e0c",
+        "68357f73790d8280c4b24e48",
+        "68357f73790d8280c4b24e7e",
+        "68357f73790d8280c4b24ec0",
+        "68357f73790d8280c4b24eff",
+        "68357f73790d8280c4b24f47"
+      ],
+      "Special": [
+        "68357f74790d8280c4b24f7d",
+        "68357f74790d8280c4b24f84",
+        "68357f74790d8280c4b24f8e",
+        "68357f75790d8280c4b24fa2",
+        "68357f75790d8280c4b24fa7",
+        "68357f75790d8280c4b24fc5",
+        "68357f75790d8280c4b24fc6",
+        "68357f75790d8280c4b24fcb",
+        "68357f76790d8280c4b24fcc",
+        "68357f76790d8280c4b24fd3",
+        "68357f76790d8280c4b25009",
+        "68357f76790d8280c4b25045",
+        "68357f76790d8280c4b2504e"
+      ]
     },
-    "faction-saurian-ancients": {
-      "Name": "Saurian Ancients",
-      "Children": {
-        "faction-saurian-ancients-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-anurarch-archmage": {
-              "Name": "Anurarch Archmage",
-              "Children": {}
-            },
-            "unit-caiman-mentor": {
-              "Name": "Caiman Mentor",
-              "Children": {}
-            },
-            "unit-skink-veteran": {
-              "Name": "Skink Veteran",
-              "Children": {}
-            },
-            "unit-tegu-veteran": {
-              "Name": "Tegu Veteran",
-              "Children": {}
-            }
-          }
-        },
-        "faction-saurian-ancients-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-caiman-warriors": {
-              "Name": "Caiman Warriors",
-              "Children": {}
-            },
-            "unit-skink-hunters": {
-              "Name": "Skink Hunters",
-              "Children": {}
-            },
-            "unit-skink-warriors": {
-              "Name": "Skink Warriors",
-              "Children": {}
-            },
-            "unit-tegu-warriors": {
-              "Name": "Tegu Warriors",
-              "Children": {}
-            }
-          }
-        },
-        "faction-saurian-ancients-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-caiman-elders": {
-              "Name": "Caiman Elders",
-              "Children": {}
-            },
-            "unit-raptor-pack": {
-              "Name": "Raptor Pack",
-              "Children": {}
-            },
-            "unit-raptor-riders": {
-              "Name": "Raptor Riders",
-              "Children": {}
-            },
-            "unit-rhamphodon-riders": {
-              "Name": "Rhamphodon Riders",
-              "Children": {}
-            },
-            "unit-saurian-swarms": {
-              "Name": "Saurian Swarms",
-              "Children": {}
-            },
-            "unit-tegu-guards": {
-              "Name": "Tegu Guards",
-              "Children": {}
-            },
-            "unit-tegu-mystics": {
-              "Name": "Tegu Mystics",
-              "Children": {}
-            },
-            "unit-thyroscutus-herd": {
-              "Name": "Thyroscutus Herd",
-              "Children": {}
-            },
-            "unit-pteradon-riders": {
-              "Name": "Pteradon Riders",
-              "Children": {}
-            },
-            "unit-skink-guerrillas": {
-              "Name": "Skink Guerrillas",
-              "Children": {}
-            },
-            "unit-weapon-beasts": {
-              "Name": "Weapon Beasts",
-              "Children": {}
-            }
-          }
-        },
-        "faction-saurian-ancients-category-3": {
-          "Name": "Magna Sauria",
-          "Children": {
-            "unit-carnosaur": {
-              "Name": "Carnosaur",
-              "Children": {}
-            },
-            "unit-stygiosaur-pack": {
-              "Name": "Stygiosaur Pack",
-              "Children": {}
-            },
-            "unit-taurosaur": {
-              "Name": "Taurosaur",
-              "Children": {}
-            },
-            "unit-titanopod": {
-              "Name": "Titanopod",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Saurian Ancients": {
+      "Characters": [
+        "68357f77790d8280c4b25074",
+        "68357f78790d8280c4b250fd",
+        "68357f78790d8280c4b25137",
+        "68357f78790d8280c4b2533a",
+        "a3b7c1d9e2f4a8d5f0c6b7d2a",
+        "f3a2b9c7d4e1a8f5b6d0c3a9d"
+      ],
+      "Core Units": [
+        "68357f79790d8280c4b25475",
+        "68357f79790d8280c4b254b1",
+        "68357f79790d8280c4b254c7",
+        "68357f79790d8280c4b25506"
+      ],
+      "Special": [
+        "68357f7a790d8280c4b25546",
+        "68357f7a790d8280c4b25579",
+        "68357f7a790d8280c4b25581",
+        "68357f7a790d8280c4b255ae",
+        "68357f7a790d8280c4b255bc",
+        "68357f7b790d8280c4b255c1",
+        "68357f7b790d8280c4b255ee",
+        "68357f7b790d8280c4b25621",
+        "68357f7b790d8280c4b2563b",
+        "68357f7b790d8280c4b25657",
+        "68357f7c790d8280c4b25671"
+      ],
+      "Magna Sauria": [
+        "68357f7c790d8280c4b25679",
+        "68357f7c790d8280c4b2567f",
+        "68357f7c790d8280c4b256b2",
+        "68357f7c790d8280c4b256c5"
+      ]
     },
-    "faction-sylvan-elves": {
-      "Name": "Sylvan Elves",
-      "Children": {
-        "faction-sylvan-elves-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-forest-prince": {
-              "Name": "Forest Prince",
-              "Children": {}
-            },
-            "unit-chieftain": {
-              "Name": "Chieftain",
-              "Children": {}
-            },
-            "unit-druid": {
-              "Name": "Druid",
-              "Children": {}
-            },
-            "unit-treefather-ancient": {
-              "Name": "Treefather Ancient",
-              "Children": {}
-            },
-            "unit-avatar-of-nature": {
-              "Name": "Avatar of Nature",
-              "Children": {}
-            },
-            "unit-dryad-ancient": {
-              "Name": "Dryad Ancient",
-              "Children": {}
-            },
-            "unit-thicket-shepherd": {
-              "Name": "Thicket Shepherd",
-              "Children": {}
-            }
-          }
-        },
-        "faction-sylvan-elves-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-forest-guard": {
-              "Name": "Forest Guard",
-              "Children": {}
-            },
-            "unit-sylvan-archers": {
-              "Name": "Sylvan Archers",
-              "Children": {}
-            },
-            "unit-heath-riders": {
-              "Name": "Heath Riders",
-              "Children": {}
-            },
-            "unit-dryads": {
-              "Name": "Dryads",
-              "Children": {}
-            }
-          }
-        },
-        "faction-sylvan-elves-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-forest-rangers": {
-              "Name": "Forest Rangers",
-              "Children": {}
-            },
-            "unit-thicket-beasts": {
-              "Name": "Thicket Beasts",
-              "Children": {}
-            },
-            "unit-forest-eagles": {
-              "Name": "Forest Eagles",
-              "Children": {}
-            },
-            "unit-blade-dancers": {
-              "Name": "Blade Dancers",
-              "Children": {}
-            },
-            "unit-treefather": {
-              "Name": "Treefather",
-              "Children": {}
-            },
-            "unit-wild-huntsmen": {
-              "Name": "Wild Huntsmen",
-              "Children": {}
-            },
-            "unit-kestrel-knights": {
-              "Name": "Kestrel Knights",
-              "Children": {}
-            }
-          }
-        },
-        "faction-sylvan-elves-category-3": {
-          "Name": "Unseen Arrows",
-          "Children": {
-            "unit-briar-maidens": {
-              "Name": "Briar Maidens",
-              "Children": {}
-            },
-            "unit-sylvan-sentinels": {
-              "Name": "Sylvan Sentinels",
-              "Children": {}
-            },
-            "unit-pathfinders": {
-              "Name": "Pathfinders",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Sylvan Elves": {
+      "Characters": [
+        "68357f7d790d8280c4b256f8",
+        "68357f7e790d8280c4b25907",
+        "68357f7e790d8280c4b25ad8",
+        "68357f7f790d8280c4b25c60",
+        "68357f7f790d8280c4b25c79",
+        "68357f7f790d8280c4b25c8a",
+        "68357f80790d8280c4b25ca4",
+        "a4f2b6c9e1d3f5a8b7d6c2e1f",
+        "a3b5c7d9e2f4a6b8d1e9f3g"
+      ],
+      "Core Units": [
+        "68357f80790d8280c4b25cb6",
+        "68357f80790d8280c4b25ce9",
+        "68357f80790d8280c4b25d19",
+        "68357f81790d8280c4b25d55"
+      ],
+      "Special": [
+        "68357f81790d8280c4b25d73",
+        "68357f81790d8280c4b25da9",
+        "68357f81790d8280c4b25dc1",
+        "68357f81790d8280c4b25dc6",
+        "68357f82790d8280c4b25df6",
+        "68357f82790d8280c4b25df7",
+        "68357f82790d8280c4b25e36"
+      ],
+      "Unseen Arrows": [
+        "68357f82790d8280c4b25e6f",
+        "68357f83790d8280c4b25e8d",
+        "68357f83790d8280c4b25e95"
+      ]
     },
-    "faction-undying-dynasties": {
-      "Name": "Undying Dynasties",
-      "Children": {
-        "faction-undying-dynasties-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-pharaoh": {
-              "Name": "Pharaoh",
-              "Children": {}
-            },
-            "unit-nomarch": {
-              "Name": "Nomarch",
-              "Children": {}
-            },
-            "unit-death-cult-hierarch": {
-              "Name": "Death Cult Hierarch",
-              "Children": {}
-            }
-          }
-        },
-        "faction-undying-dynasties-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-skeleton-warriors": {
-              "Name": "Skeleton Warriors",
-              "Children": {}
-            },
-            "unit-skeleton-archers": {
-              "Name": "Skeleton Archers",
-              "Children": {}
-            },
-            "unit-skeleton-cavalry": {
-              "Name": "Skeleton Cavalry",
-              "Children": {}
-            },
-            "unit-skeleton-scouts": {
-              "Name": "Skeleton Scouts",
-              "Children": {}
-            },
-            "unit-skeleton-chariots": {
-              "Name": "Skeleton Chariots",
-              "Children": {}
-            }
-          }
-        },
-        "faction-undying-dynasties-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-casket-of-phatep": {
-              "Name": "Casket of Phatep",
-              "Children": {}
-            },
-            "unit-necropolis-guard": {
-              "Name": "Necropolis Guard",
-              "Children": {}
-            },
-            "unit-tomb-cataphracts": {
-              "Name": "Tomb Cataphracts",
-              "Children": {}
-            },
-            "unit-shabtis": {
-              "Name": "Shabtis",
-              "Children": {}
-            },
-            "unit-great-vultures": {
-              "Name": "Great Vultures",
-              "Children": {}
-            },
-            "unit-scarab-swarms": {
-              "Name": "Scarab Swarms",
-              "Children": {}
-            },
-            "unit-shabti-archers": {
-              "Name": "Shabti Archers",
-              "Children": {}
-            },
-            "unit-sand-stalkers": {
-              "Name": "Sand Stalkers",
-              "Children": {}
-            },
-            "unit-charnel-catapult": {
-              "Name": "Charnel Catapult",
-              "Children": {}
-            }
-          }
-        },
-        "faction-undying-dynasties-category-3": {
-          "Name": "Entombed",
-          "Children": {
-            "unit-sand-scorpion": {
-              "Name": "Sand Scorpion",
-              "Children": {}
-            }
-          }
-        },
-        "faction-undying-dynasties-category-4": {
-          "Name": "Mason's Menagerie",
-          "Children": {
-            "unit-dread-sphinx": {
-              "Name": "Dread Sphinx",
-              "Children": {}
-            },
-            "unit-battle-sphinx": {
-              "Name": "Battle Sphinx",
-              "Children": {}
-            },
-            "unit-tomb-reapers": {
-              "Name": "Tomb Reapers",
-              "Children": {}
-            },
-            "unit-colossus": {
-              "Name": "Colossus",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Undying Dynasties": {
+      "Characters": [
+        "68357f84790d8280c4b25ec3",
+        "68357f84790d8280c4b2602b",
+        "68357f85790d8280c4b2624c",
+        "a3b7f5e2d1c9a4b8d2e6f3c",
+        "b7a9e2f6d3a1c4f8b5d7e2c9a"
+      ],
+      "Core Units": [
+        "68357f86790d8280c4b2631e",
+        "68357f86790d8280c4b26372",
+        "68357f86790d8280c4b263bd",
+        "68357f86790d8280c4b263fc",
+        "68357f87790d8280c4b26435"
+      ],
+      "Special": [
+        "68357f87790d8280c4b26489",
+        "68357f87790d8280c4b2648e",
+        "68357f87790d8280c4b264dc",
+        "68357f87790d8280c4b2651e",
+        "68357f88790d8280c4b26569",
+        "68357f88790d8280c4b26570",
+        "68357f88790d8280c4b26579",
+        "68357f88790d8280c4b265a0",
+        "68357f88790d8280c4b265bc"
+      ],
+      "Entombed": [
+        "68357f89790d8280c4b265c2"
+      ],
+      "Mason's Menagerie": [
+        "68357f89790d8280c4b265c8",
+        "68357f89790d8280c4b265cb",
+        "68357f89790d8280c4b265cd",
+        "68357f8a790d8280c4b265d8"
+      ]
     },
-    "faction-vampire-covenant": {
-      "Name": "Vampire Covenant",
-      "Children": {
-        "faction-vampire-covenant-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-vampire-count": {
-              "Name": "Vampire Count",
-              "Children": {}
-            },
-            "unit-vampire-courtier": {
-              "Name": "Vampire Courtier",
-              "Children": {}
-            },
-            "unit-necromancer": {
-              "Name": "Necromancer",
-              "Children": {}
-            },
-            "unit-barrow-king": {
-              "Name": "Barrow King",
-              "Children": {}
-            },
-            "unit-banshee": {
-              "Name": "Banshee",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vampire-covenant-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-zombies": {
-              "Name": "Zombies",
-              "Children": {}
-            },
-            "unit-skeletons": {
-              "Name": "Skeletons",
-              "Children": {}
-            },
-            "unit-ghouls": {
-              "Name": "Ghouls",
-              "Children": {}
-            },
-            "unit-dire-wolves": {
-              "Name": "Dire Wolves",
-              "Children": {}
-            },
-            "unit-bat-swarms": {
-              "Name": "Bat Swarms",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vampire-covenant-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-barrow-guard": {
-              "Name": "Barrow Guard",
-              "Children": {}
-            },
-            "unit-barrow-knights": {
-              "Name": "Barrow Knights",
-              "Children": {}
-            },
-            "unit-ghasts": {
-              "Name": "Ghasts",
-              "Children": {}
-            },
-            "unit-great-bats": {
-              "Name": "Great Bats",
-              "Children": {}
-            },
-            "unit-cadaver-wagon": {
-              "Name": "Cadaver Wagon",
-              "Children": {}
-            },
-            "unit-court-of-the-damned": {
-              "Name": "Court of the Damned",
-              "Children": {}
-            },
-            "unit-altar-of-undeath": {
-              "Name": "Altar of Undeath",
-              "Children": {}
-            },
-            "unit-dark-coach": {
-              "Name": "Dark Coach",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vampire-covenant-category-3": {
-          "Name": "The Suffering",
-          "Children": {
-            "unit-phantom-hosts": {
-              "Name": "Phantom Hosts",
-              "Children": {}
-            },
-            "unit-wraiths": {
-              "Name": "Wraiths",
-              "Children": {}
-            },
-            "unit-spectral-hunters": {
-              "Name": "Spectral Hunters",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vampire-covenant-category-4": {
-          "Name": "Swift Death",
-          "Children": {
-            "unit-shrieking-horror": {
-              "Name": "Shrieking Horror",
-              "Children": {}
-            },
-            "unit-vampire-knights": {
-              "Name": "Vampire Knights",
-              "Children": {}
-            },
-            "unit-winged-reapers": {
-              "Name": "Winged Reapers",
-              "Children": {}
-            },
-            "unit-varkolak": {
-              "Name": "Varkolak",
-              "Children": {}
-            },
-            "unit-vampire-spawn": {
-              "Name": "Vampire Spawn",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Vampire Covenant": {
+      "Characters": [
+        "68357f8b790d8280c4b26614",
+        "68357f8c790d8280c4b26a24",
+        "68357f8d790d8280c4b26ccc",
+        "68357f8d790d8280c4b26e16",
+        "68357f8e790d8280c4b26ed3",
+        "a7b2f8c1d6e3a9f5b2c4e8d3a"
+      ],
+      "Core Units": [
+        "68357f8e790d8280c4b26edd",
+        "68357f8e790d8280c4b26ef5",
+        "68357f8e790d8280c4b26f2e",
+        "68357f8f790d8280c4b26f49",
+        "68357f8f790d8280c4b26f4e"
+      ],
+      "Special": [
+        "68357f8f790d8280c4b26f53",
+        "68357f8f790d8280c4b26f8c",
+        "68357f90790d8280c4b26fb9",
+        "68357f90790d8280c4b26fd1",
+        "68357f90790d8280c4b26fd6",
+        "68357f90790d8280c4b26fd7",
+        "68357f91790d8280c4b26fd8",
+        "68357f91790d8280c4b26fd9"
+      ],
+      "The Suffering": [
+        "68357f91790d8280c4b26fe3",
+        "68357f91790d8280c4b26fe8",
+        "68357f91790d8280c4b26ff0"
+      ],
+      "Swift Death": [
+        "68357f92790d8280c4b26ff8",
+        "68357f92790d8280c4b26ff9",
+        "68357f92790d8280c4b27026",
+        "68357f92790d8280c4b2702d",
+        "68357f93790d8280c4b2702e"
+      ]
     },
-    "faction-vermin-swarm": {
-      "Name": "Vermin Swarm",
-      "Children": {
-        "faction-vermin-swarm-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-ruinous-dictator": {
-              "Name": "Ruinous Dictator",
-              "Children": {}
-            },
-            "unit-vermin-senator": {
-              "Name": "Vermin Senator",
-              "Children": {}
-            },
-            "unit-bloodfur-legate": {
-              "Name": "Bloodfur Legate",
-              "Children": {}
-            },
-            "unit-house-prefect": {
-              "Name": "House Prefect",
-              "Children": {}
-            },
-            "unit-swarm-priest": {
-              "Name": "Swarm Priest",
-              "Children": {}
-            },
-            "unit-duskblade-assassin": {
-              "Name": "Duskblade Assassin",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vermin-swarm-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-blackfur-veterans": {
-              "Name": "Blackfur Veterans",
-              "Children": {}
-            },
-            "unit-plague-cultists": {
-              "Name": "Plague Cultists",
-              "Children": {}
-            },
-            "unit-vermin-legionaries": {
-              "Name": "Vermin Legionaries",
-              "Children": {}
-            },
-            "unit-vermin-slaves": {
-              "Name": "Vermin Slaves",
-              "Children": {}
-            },
-            "unit-vermin-slingers": {
-              "Name": "Vermin Slingers",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vermin-swarm-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-bloodfur-praetorians": {
-              "Name": "Bloodfur Praetorians",
-              "Children": {}
-            },
-            "unit-vermin-brutes": {
-              "Name": "Vermin Brutes",
-              "Children": {}
-            },
-            "unit-giant-rats": {
-              "Name": "Giant Rats",
-              "Children": {}
-            },
-            "unit-fire-rats": {
-              "Name": "Fire Rats",
-              "Children": {}
-            },
-            "unit-rat-swarm": {
-              "Name": "Rat Swarm",
-              "Children": {}
-            },
-            "unit-legionary-drill-team": {
-              "Name": "Legionary Drill Team",
-              "Children": {}
-            },
-            "unit-gladiator-brutes": {
-              "Name": "Gladiator Brutes",
-              "Children": {}
-            },
-            "unit-plague-disciples": {
-              "Name": "Plague Disciples",
-              "Children": {}
-            },
-            "unit-doomspark-device": {
-              "Name": "Doomspark Device",
-              "Children": {}
-            },
-            "unit-shadowfur-stalkers": {
-              "Name": "Shadowfur Stalkers",
-              "Children": {}
-            },
-            "unit-thunder-brutes": {
-              "Name": "Thunder Brutes",
-              "Children": {}
-            },
-            "unit-experimental-weapon-teams": {
-              "Name": "Experimental Weapon Teams",
-              "Children": {}
-            },
-            "unit-ignifier-grenadiers": {
-              "Name": "Ignifier Grenadiers",
-              "Children": {}
-            },
-            "unit-vermin-artillery": {
-              "Name": "Vermin Artillery",
-              "Children": {}
-            }
-          }
-        },
-        "faction-vermin-swarm-category-3": {
-          "Name": "Bread and Games",
-          "Children": {
-            "unit-arena-beast": {
-              "Name": "Arena Beast",
-              "Children": {}
-            },
-            "unit-dreadmill-chariots": {
-              "Name": "Dreadmill Chariots",
-              "Children": {}
-            },
-            "unit-stygian-earthbreaker": {
-              "Name": "Stygian Earthbreaker",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Vermin Swarm": {
+      "Characters": [
+        "68357f94790d8280c4b27059",
+        "68357f94790d8280c4b2708e",
+        "68357f94790d8280c4b27101",
+        "68357f94790d8280c4b27221",
+        "68357f95790d8280c4b272aa",
+        "68357f95790d8280c4b27348",
+        "a9b3d7e1c4f8b2e6a0d9f5c7a"
+      ],
+      "Core Units": [
+        "68357f95790d8280c4b27351",
+        "68357f95790d8280c4b27384",
+        "68357f96790d8280c4b273b7",
+        "68357f96790d8280c4b273f0",
+        "68357f96790d8280c4b27402"
+      ],
+      "Special": [
+        "68357f96790d8280c4b2741a",
+        "68357f97790d8280c4b2744d",
+        "68357f97790d8280c4b27452",
+        "68357f97790d8280c4b27457",
+        "68357f97790d8280c4b2745c",
+        "68357f97790d8280c4b27461",
+        "68357f97790d8280c4b27462",
+        "68357f98790d8280c4b274c8",
+        "68357f98790d8280c4b274c9",
+        "68357f98790d8280c4b274dd",
+        "68357f99790d8280c4b2751f",
+        "68357f99790d8280c4b27529",
+        "68357f99790d8280c4b2752e"
+      ],
+      "Bread and Games": [
+        "68357f99790d8280c4b27532",
+        "68357f99790d8280c4b27535",
+        "68357f99790d8280c4b2753a"
+      ]
     },
-    "faction-warriors-of-the-dark-gods": {
-      "Name": "Warriors of the Dark Gods",
-      "Children": {
-        "faction-warriors-of-the-dark-gods-category-0": {
-          "Name": "Characters",
-          "Children": {
-            "unit-exalted-herald": {
-              "Name": "Exalted Herald",
-              "Children": {}
-            },
-            "unit-feldrak-ancestor": {
-              "Name": "Feldrak Ancestor",
-              "Children": {}
-            },
-            "unit-chosen-lord": {
-              "Name": "Chosen Lord",
-              "Children": {}
-            },
-            "unit-doomlord": {
-              "Name": "Doomlord",
-              "Children": {}
-            },
-            "unit-sorcerer": {
-              "Name": "Sorcerer",
-              "Children": {}
-            },
-            "unit-barbarian-chief": {
-              "Name": "Barbarian Chief",
-              "Children": {}
-            }
-          }
-        },
-        "faction-warriors-of-the-dark-gods-category-1": {
-          "Name": "Core Units",
-          "Children": {
-            "unit-warriors": {
-              "Name": "Warriors",
-              "Children": {}
-            },
-            "unit-fallen": {
-              "Name": "Fallen",
-              "Children": {}
-            },
-            "unit-barbarians": {
-              "Name": "Barbarians",
-              "Children": {}
-            },
-            "unit-barbarian-horsemen": {
-              "Name": "Barbarian Horsemen",
-              "Children": {}
-            }
-          }
-        },
-        "faction-warriors-of-the-dark-gods-category-2": {
-          "Name": "Special",
-          "Children": {
-            "unit-warrior-knights": {
-              "Name": "Warrior Knights",
-              "Children": {}
-            },
-            "unit-warrior-chariot": {
-              "Name": "Warrior Chariot",
-              "Children": {}
-            },
-            "unit-chosen": {
-              "Name": "Chosen",
-              "Children": {}
-            },
-            "unit-chosen-knights": {
-              "Name": "Chosen Knights",
-              "Children": {}
-            },
-            "unit-chosen-chariot": {
-              "Name": "Chosen Chariot",
-              "Children": {}
-            },
-            "unit-forsworn": {
-              "Name": "Forsworn",
-              "Children": {}
-            },
-            "unit-wretched-ones": {
-              "Name": "Wretched Ones",
-              "Children": {}
-            },
-            "unit-battleshrine": {
-              "Name": "Battleshrine",
-              "Children": {}
-            },
-            "unit-flayers": {
-              "Name": "Flayers",
-              "Children": {}
-            },
-            "unit-warhounds": {
-              "Name": "Warhounds",
-              "Children": {}
-            },
-            "unit-chimera": {
-              "Name": "Chimera",
-              "Children": {}
-            },
-            "unit-feldraks": {
-              "Name": "Feldraks",
-              "Children": {}
-            },
-            "unit-feldrak-elder": {
-              "Name": "Feldrak Elder",
-              "Children": {}
-            },
-            "unit-marauding-giant": {
-              "Name": "Marauding Giant",
-              "Children": {}
-            },
-            "unit-forsaken-one": {
-              "Name": "Forsaken One",
-              "Children": {}
-            },
-            "unit-hellmaw": {
-              "Name": "Hellmaw",
-              "Children": {}
-            }
-          }
-        }
-      }
+    "Warriors of the Dark Gods": {
+      "Characters": [
+        "68357f9b790d8280c4b2756b",
+        "68357f9b790d8280c4b27576",
+        "68357f9b790d8280c4b275a3",
+        "68357f9c790d8280c4b27963",
+        "68357f9c790d8280c4b27a1f",
+        "68357f9d790d8280c4b27ce2",
+        "b3d9a6e8f2c7a5b4e1d3c9f0a",
+        "a4d9b2c7e5f1c8d3a0b6e2f7"
+      ],
+      "Core Units": [
+        "68357f9e790d8280c4b27fe7",
+        "68357f9e790d8280c4b2803e",
+        "68357f9e790d8280c4b28043",
+        "68357f9f790d8280c4b28088"
+      ],
+      "Special": [
+        "68357f9f790d8280c4b280c4",
+        "68357f9f790d8280c4b28118",
+        "68357f9f790d8280c4b28121",
+        "68357fa0790d8280c4b28178",
+        "68357fa0790d8280c4b281c0",
+        "68357fa0790d8280c4b281c9",
+        "68357fa0790d8280c4b2820e",
+        "68357fa0790d8280c4b28213",
+        "68357fa1790d8280c4b28217",
+        "68357fa1790d8280c4b28231",
+        "68357fa1790d8280c4b28236",
+        "68357fa1790d8280c4b28238",
+        "68357fa2790d8280c4b28274",
+        "68357fa2790d8280c4b28279",
+        "68357fa2790d8280c4b28288",
+        "68357fa2790d8280c4b28289"
+      ]
     }
+  },
+  "Cards": {
+    "Flux": [
+      "flux card 1/flux",
+      "flux card 10/flux",
+      "flux card 11/flux",
+      "flux card 12/flux",
+      "flux card 13/flux",
+      "flux card 14/flux",
+      "flux card 15/flux",
+      "flux card 16/flux",
+      "flux card 2/flux",
+      "flux card 3/flux",
+      "flux card 4/flux",
+      "flux card 5/flux",
+      "flux card 6/flux",
+      "flux card 7/flux",
+      "flux card 8/flux",
+      "flux card 9/flux"
+    ],
+    "Alchemy": [
+      "living steel/alchemy",
+      "corruption of tin/alchemy",
+      "chalice of gold/alchemy",
+      "silver spike/alchemy",
+      "word of iron/alchemy",
+      "quicksilver lash/alchemy"
+    ],
+    "Cosmology": [
+      "altered sight/cosmology",
+      "truth of time/cosmology",
+      "weal and woe/cosmology",
+      "ice and fire/cosmology",
+      "cosmic scales/cosmology",
+      "thunder and lightning/cosmology"
+    ],
+    "Divination": [
+      "foresight/divination",
+      "immortal's bane/divination",
+      "the stars align/divination",
+      "fate's judgement/divination",
+      "augury of triumph/divination",
+      "inescapable doom/divination"
+    ],
+    "Druidism": [
+      "fountain of youth/druidism",
+      "entwining roots/druidism",
+      "veil of mist/druidism",
+      "stone skin/druidism",
+      "shield of thorns/druidism",
+      "mud slide/druidism"
+    ],
+    "Evocation": [
+      "whispers of the veil/evocation",
+      "danse macabre/evocation",
+      "chorus of the damned/evocation",
+      "touch of the reaper/evocation",
+      "spectral blades/evocation",
+      "soul blight/evocation"
+    ],
+    "Occultism": [
+      "the devouring dark/occultism",
+      "blood curse/occultism",
+      "hand of glory/occultism",
+      "pentagram of pain/occultism",
+      "umbral majesty/occultism",
+      "the grave calls/occultism"
+    ],
+    "Pyromancy": [
+      "fireball/pyromancy",
+      "flaming swords/pyromancy",
+      "dragon's roar/pyromancy",
+      "pyroclastic flow/pyromancy",
+      "pillars of fire/pyromancy",
+      "tidal flame/pyromancy"
+    ],
+    "Shamanism": [
+      "swarm of insects/shamanism",
+      "savage fury/shamanism",
+      "awaken the beast/shamanism",
+      "predator's instinct/shamanism",
+      "wild guardian/shamanism",
+      "totemic summon/shamanism"
+    ],
+    "Thaumaturgy": [
+      "smite the unbeliever/thaumaturgy",
+      "light of faith/thaumaturgy",
+      "weight of judgement/thaumaturgy",
+      "holy affliction/thaumaturgy",
+      "wrath of god/thaumaturgy",
+      "rain of fire/thaumaturgy"
+    ],
+    "Witchcraft": [
+      "mind fog/witchcraft",
+      "mirror image/witchcraft",
+      "illusory paths/witchcraft",
+      "shrouded steps/witchcraft",
+      "clouded sight/witchcraft",
+      "cauldron's curse/witchcraft"
+    ],
+    "Hereditary Spells": [
+      "arise!/hereditary spells",
+      "astral union/hereditary spells",
+      "breath of the lady/hereditary spells",
+      "breath of the steppe/hereditary spells",
+      "chains of pride/hereditary spells",
+      "children of umi/hereditary spells",
+      "curse of nezibkesh/hereditary spells",
+      "curse of the phantom queen/hereditary spells",
+      "duty is eternal/hereditary spells",
+      "echoes of the dark forest/hereditary spells",
+      "favour of meladys/hereditary spells",
+      "forest embrace/hereditary spells",
+      "frostbite/hereditary spells",
+      "guile and fury/hereditary spells",
+      "hellfire/hereditary spells",
+      "iovanis' thunder/hereditary spells",
+      "spear of infinity/hereditary spells",
+      "tempest of the storm witch/hereditary spells"
+    ],
+    "Bound Spells": [
+      "aura of power - chalice of gold/bound spells",
+      "aura of power - ice and fire/bound spells",
+      "book of the dead/bound spells",
+      "carved wisdom - silver spike/bound spells",
+      "carved wisdom - fate's judgement/bound spells",
+      "carved wisdom - swarm of insects/bound spells",
+      "carved wisdom - the devouring dark/bound spells",
+      "ceinran's scales/bound spells",
+      "dark prelate - blood curse/bound spells",
+      "dark prelate - pentagram of pain/bound spells",
+      "dengrai's ice storm/bound spells",
+      "exemplar's flame/bound spells",
+      "firebrand/bound spells",
+      "firestarter - spear of infinity/bound spells",
+      "firestarter - smite the unbeliever/bound spells",
+      "golden idol of shamut/bound spells",
+      "holy relic/bound spells",
+      "icon of the infinite/bound spells",
+      "kherp sceptre/bound spells",
+      "lash of souls/bound spells",
+      "monster munch/bound spells",
+      "necromantic staff/bound spells",
+      "relic shroud/bound spells",
+      "ritual bloodletter/bound spells",
+      "rod of battle/bound spells",
+      "soul tether/bound spells",
+      "surge of mad spirits/bound spells",
+      "symbol of the warborn alliance/bound spells",
+      "the dead arise/bound spells"
+    ],
+    "Potions & Scrolls": [
+      "potion of healing/potions & scrolls",
+      "potion of power preservation/potions & scrolls",
+      "potion of swiftness/potions & scrolls",
+      "dragon's brew/potions & scrolls",
+      "binding scroll/potions & scrolls",
+      "scroll of draining/potions & scrolls",
+      "scroll of power/potions & scrolls",
+      "scroll of the free mind/potions & scrolls",
+      "spell scroll/potions & scrolls",
+      "de - beastmaster's vial/potions & scrolls",
+      "eos - scroll of conquest/potions & scrolls",
+      "he - scroll of the pearl throne/potions & scrolls",
+      "koe - black knight's tonic/potions & scrolls",
+      "ong - moon shrooms/potions & scrolls",
+      "ong - gnasher bait/potions & scrolls",
+      "sa - stampede resonator crystal/potions & scrolls",
+      "sa - te aupouri smokestone/potions & scrolls",
+      "se - sacred seeds/potions & scrolls",
+      "se - song of cenyrn/potions & scrolls",
+      "ud - scroll of desiccation/potions & scrolls",
+      "vs - favanite powder/potions & scrolls",
+      "vs - potion of rat form/potions & scrolls",
+      "wdg - wyrd stone/potions & scrolls"
+    ],
+    "BH - Ghaa!, the Quiet Muzzle": [
+      "attached & teach by example/bh - ghaa!, the quiet muzzle",
+      "sleeper, solitary, & ambush/bh - ghaa!, the quiet muzzle"
+    ],
+    "BH - Totems": [
+      "gnarled hide totem/bh - totems",
+      "blooded horn totem/bh - totems",
+      "clouded eye totem/bh - totems",
+      "black wing totem/bh - totems"
+    ],
+    "BH - Wild Form Armour": [
+      "wild form - strength/bh - wild form armour",
+      "wild form - resilience/bh - wild form armour"
+    ],
+    "DE - The Black Rose's Dances": [
+      "dance of c a edhren/de - the black rose's dances",
+      "dance of c e inran/de - the black rose's dances",
+      "dance of nabh/de - the black rose's dances"
+    ],
+    "DH - Battle Runes": [
+      "rune of r e vocation/dh - battle runes",
+      "rune of r e ckoning/dh - battle runes",
+      "rune of oaths/dh - battle runes",
+      "rune of r e s olve/dh - battle runes",
+      "rune of gleaming/dh - battle runes",
+      "rune of r e s ilience/dh - battle runes"
+    ],
+    "DH - Runic Engravings": [
+      "strength & ap/dh - runic engravings",
+      "agility & vanguard/dh - runic engravings"
+    ],
+    "DH - Tador Berafrig's Ales": [
+      "stout ale/dh - tador berafrig's ales",
+      "bitter ale/dh - tador berafrig's ales",
+      "red ale/dh - tador berafrig's ales"
+    ],
+    "EoS - Blessings": [
+      "ullor's blessing/eos - blessings",
+      "sunna's blessing/eos - blessings",
+      "volund's blessing/eos - blessings"
+    ],
+    "EoS - Orders": [
+      "brace for impact!/eos - orders",
+      "on the double!/eos - orders",
+      "ready! aim! fire!/eos - orders",
+      "steady, men!/eos - orders"
+    ],
+    "EoS - Heinrich Falkenbach - Divine Jurisdiction": [
+      "cut the head of the snake!/eos - heinrich falkenbach - divine jurisdiction",
+      "aim for the weak spot!/eos - heinrich falkenbach - divine jurisdiction"
+    ],
+    "ID - Riddle of the Lamassu": [
+      "riddle of the lamassu - power/id - riddle of the lamassu",
+      "riddle of the lamassu - wisdom/id - riddle of the lamassu"
+    ],
+    "KoE - Blessing Tokens": [
+      "orison of s h ielding/koe - blessing tokens",
+      "orison of s t riking/koe - blessing tokens",
+      "orison of discipline/koe - blessing tokens"
+    ],
+    "OnG - Goblin Gardens": [
+      "goblin gardens - field/ong - goblin gardens",
+      "goblin gardens - forest/ong - goblin gardens",
+      "goblin gardens - ruins/ong - goblin gardens",
+      "goblin gardens - water terrain/ong - goblin gardens"
+    ],
+    "OK - Valish's Eru's Secret Recipes": [
+      "bluehoove goat stew/ok - valish's eru's secret recipes",
+      "trollbear goulash/ok - valish's eru's secret recipes",
+      "stonecold soup/ok - valish's eru's secret recipes"
+    ],
+    "SE - Ancient Dawael, the World Tree": [
+      "colony of frogs/se - ancient dawael, the world tree",
+      "murder of crows/se - ancient dawael, the world tree",
+      "nest of vipers/se - ancient dawael, the world tree"
+    ],
+    "SE - Dances of Cenyrn": [
+      "dance of bedevilments/se - dances of cenyrn",
+      "dance of biting wind/se - dances of cenyrn",
+      "dance of the parting mists/se - dances of cenyrn",
+      "dance of whirling blades/se - dances of cenyrn"
+    ],
+    "SE - Spirit Arrows": [
+      "spirit arrows/se - spirit arrows"
+    ],
+    "UD - Crown of the Pharaohs": [
+      "undying will/ud - crown of the pharaohs"
+    ],
+    "UD - Tomb Architect": [
+      "regeneration/ud - tomb architect"
+    ],
+    "VS - The Shadowslice Stalker's Panoply": [
+      "countless daggers/vs - the shadowslice stalker's panoply",
+      "Darkstone Rod/vs - the shadowslice stalker's panoply",
+      "senator's toga/vs - the shadowslice stalker's panoply"
+    ],
+    "WDG - Exalted Herald Manifestations": [
+      "abiding spirit/wdg - exalted herald manifestations",
+      "brand of the dragon/wdg - exalted herald manifestations",
+      "emissary of chaos/wdg - exalted herald manifestations",
+      "sorcerer immortal/wdg - exalted herald manifestations",
+      "unholy avatar/wdg - exalted herald manifestations"
+    ],
+    "WDG - Joulgrim's Father's Gifts": [
+      "supernal shield/wdg - joulgrim's father's gifts",
+      "unholy edge/wdg - joulgrim's father's gifts",
+      "the eight-point crown/wdg - joulgrim's father's gifts"
+    ],
+    "WDG - Mraven's Cibaresh's Curse": [
+      "false hydra/wdg - mraven's cibaresh's curse",
+      "giant yeti/wdg - mraven's cibaresh's curse",
+      "wasteland spearback/wdg - mraven's cibaresh's curse",
+      "debauched gortach/wdg - mraven's cibaresh's curse"
+    ]
   }
 }

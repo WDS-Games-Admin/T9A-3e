@@ -2,3154 +2,842 @@
   {
     "Id": "68357f34790d8280c4b1f29f",
     "Name": "Dread Prince",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "de-artistry_of_death": "Artistry of Death"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Dread Prince",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_198"
       },
       {
-        "Name": "Dread Prince",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_199"
       },
       {
-        "Name": "Dread Prince",
-        "Values": {
-          "At": "4",
-          "Of": "8",
-          "St": "4",
-          "AP": "1",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "de-artistry_of_death": "Artistry of Death"
-        }
+        "Id": "statline_200"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
-
   {
     "Id": "24a131fd-2693-4bb1-bcc6-6c71778b306f",
-    "Name": "Elven Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "250"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Dread Prince on Elven Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "10",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_201"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "3",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_202"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_200"
+      },
+      {
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "5791888a-5807-4a4b-8a4b-b435125b3058",
-    "Name": "Raptor",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "280"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Dread Prince on Raptor",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Raptor",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "10",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_204"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_205"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_200"
+      },
+      {
+        "Id": "statline_206"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "4464f45d-2919-4694-bc98-c923fa77d49c",
-    "Name": "Blackmane Pegasus",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "280"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Dread Prince on Blackmane Pegasus",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "10",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_207"
       },
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_208"
       },
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_200"
+      },
+      {
+        "Id": "statline_209"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "f8bb37a7-0034-431e-9f0b-7f00a09c568d",
-    "Name": "Chassis",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "330"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-impact_hits": "Impact Hits (D6+1)",      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Dread Prince on Raptor Chariot",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Chassis",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",          
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_210"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "HP": "4",
-          "Df": "8",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_211"
       },
       {
-        "Name": "Raptor (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_200"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
-        }
+        "Id": "statline_212"
+      },
+      {
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "0066d85f-e91c-4797-a6d5-2ed186a7cd30",
-    "Name": "Manticore",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "410"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-light_troops": "Light Troops",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stomp_attack": "Stomp Attack (1)",
-      "rulebook-swiftstride": "Swiftstride"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Dread Prince on Manticore",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Manticore",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_213"
       },
       {
-        "Name": "Manticore",
-        "Values": {
-          "HP": "5",
-          "Df": "8",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_214"
       },
       {
-        "Name": "Manticore",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_200"
+      },
+      {
+        "Id": "statline_215"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "7e30d4e8-80b0-4cc7-a3b3-90d12f7feffd",
-    "Name": "Imperious Dragon",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "610"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "de-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Dread Prince on Imperious Dragon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Imperious Dragon",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "10",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "de-meeting_of_minds": "Meeting of Minds",          
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror"
-        }
+        "Id": "statline_216"
       },
       {
-        "Name": "Imperious Dragon",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_217"
       },
       {
-        "Name": "Imperious Dragon",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_200"
+      },
+      {
+        "Id": "statline_218"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f35790d8280c4b1f585",
     "Name": "Silexian Officer",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-first_strike": "First Strike (Artistry of Death)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Silexian Officer",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",          
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_219"
       },
       {
-        "Name": "Silexian Officer",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_220"
       },
       {
-        "Name": "Silexian Officer",
-        "Values": {
-          "At": "3",
-          "Of": "7",
-          "St": "4",
-          "AP": "1",
-          "Ag": "7"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_221"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "c3c0b50c-41f1-430f-a0dd-3664abc2ea74",
-    "Name": "Elven Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "115"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Silexian Officer on Elven Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_222"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "3",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_223"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_221"
+      },
+      {
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "b0c1f253-740c-4440-8008-f7366c468b00",
-    "Name": "Raptor",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "120"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "rulebook-disciplined": "Disciplined",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Silexian Officer on Raptor",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Raptor",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_224"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_225"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_221"
+      },
+      {
+        "Id": "statline_206"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "d17510b0-4e88-4724-9e63-dddc31197283",
-    "Name": "Blackmane Pegasus",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "170"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Silexian Officer on Blackmane Pegasus",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_226"
       },
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_227"
       },
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_221"
+      },
+      {
+        "Id": "statline_209"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "1cc0abae-72e7-49cf-b1cf-498b42643103",
-    "Name": "Chassis",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "195"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Silexian Officer on Raptor Chariot",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Chassis",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",          
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_228"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "HP": "4",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_229"
       },
       {
-        "Name": "Raptor (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_221"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
-        }
+        "Id": "statline_212"
+      },
+      {
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "29c58cb1-860c-4d7c-95a9-b5b35d78b0e1",
-    "Name": "Manticore",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "300"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-captain": "Captain",
-      "rulebook-attached": "Attached",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-stomp_attack": "Stomp Attack (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Silexian Officer on Manticore",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Manticore",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fly": "Fly",
-          "rulebook-light_troops": "Light Troops",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_230"
       },
       {
-        "Name": "Manticore",
-        "Values": {
-          "HP": "5",
-          "Df": "7",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_231"
       },
       {
-        "Name": "Manticore",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_221"
+      },
+      {
+        "Id": "statline_215"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f35790d8280c4b1f858",
     "Name": "Temple Exarch",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "de-irresistible_will": "Irresistible Will",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-aegis": "Aegis (5+, against Melee Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Temple Exarch",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-irresistible_will": "Irresistible Will",
-          "rulebook-light_troops": "Light Troops",          
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_232"
       },
       {
-        "Name": "Temple Exarch",
-        "Values": {
-          "HP": "3",
-          "Df": "7",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+, against Melee Attacks)"
-        }
+        "Id": "statline_233"
       },
       {
-        "Name": "Temple Exarch",
-        "Values": {
-          "At": "3",
-          "Of": "7",
-          "St": "4",
-          "AP": "1",
-          "Ag": "7"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_234"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f35790d8280c4b1f8ba",
     "Name": "Sanctioned Warlock",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-irresistible_will": "Irresistible Will",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-first_strike": "First Strike (Artistry of Death)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Sanctioned Warlock",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-irresistible_will": "Irresistible Will",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_235"
       },
       {
-        "Name": "Sanctioned Warlock",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_236"
       },
       {
-        "Name": "Sanctioned Warlock",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_237"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "6226c787-b9da-442a-b315-a0b86d19e627",
-    "Name": "Elven Horse",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "310"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-irresistible_will": "Irresistible Will",      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sanctioned Warlock on Elven Horse",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "de-irresistible_will": "Irresistible Will",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_238"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_239"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_237"
+      },
+      {
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "2388658f-4aa9-4a11-97af-8bf43d8b71b5",
-    "Name": "Raptor",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "315"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-irresistible_will": "Irresistible Will",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sanctioned Warlock on Raptor",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Raptor",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "de-irresistible_will": "Irresistible Will",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_240"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_241"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_237"
+      },
+      {
+        "Id": "statline_206"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "2d928d87-90ae-4b0f-9e6e-5c256f8d602a",
-    "Name": "Blackmane Pegasus",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "325"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-irresistible_will": "Irresistible Will",
-      "rulebook-fly": "Fly",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sanctioned Warlock on Blackmane Pegasus",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "de-irresistible_will": "Irresistible Will",          
-          "rulebook-hard_target": "Hard Target (1)",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_242"
       },
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_243"
       },
       {
-        "Name": "Blackmane Pegasus",
-        "Values": {
-          "At": "2",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP)"
-        }
+        "Id": "statline_237"
+      },
+      {
+        "Id": "statline_209"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "8be0d7a7-5501-4ebb-9d77-3a5ba71f98b9",
-    "Name": "Manticore",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "390"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-irresistible_will": "Irresistible Will",
-      "rulebook-fly": "Fly",
-      "rulebook-light_troops": "Light Troops",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-stomp_attack": "Stomp Attack (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sanctioned Warlock on Manticore",
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Manticore",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "de-irresistible_will": "Irresistible Will",
-          "rulebook-light_troops": "Light Troops",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_244"
       },
       {
-        "Name": "Manticore",
-        "Values": {
-          "HP": "5",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_245"
       },
       {
-        "Name": "Manticore",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "5",
-          "AP": "2",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-lethal_strike": "Lethal Strike",
-          "rulebook-stomp_attack": "Stomp Attack (1)"
-        }
+        "Id": "statline_237"
+      },
+      {
+        "Id": "statline_215"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "4cd8651f-7fca-48b1-b7b3-f703b1fb7f5b",
-    "Name": "Imperious Dragon",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "670"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-irresistible_will": "Irresistible Will",
-      "rulebook-fly": "Fly",
-      "de-meeting_of_minds": "Meeting of Minds",
-      "rulebook-terror": "Terror",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Sanctioned Warlock on Imperious Dragon",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Imperious Dragon",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "de-irresistible_will": "Irresistible Will",          
-          "de-meeting_of_minds": "Meeting of Minds",          
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_246"
       },
       {
-        "Name": "Imperious Dragon",
-        "Values": {
-          "HP": "7",
-          "Df": "5",
-          "Re": "6",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_217"
       },
       {
-        "Name": "Imperious Dragon",
-        "Values": {
-          "At": "6",
-          "Of": "5",
-          "St": "6",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 4, AP 1, Flaming Attacks)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_237"
+      },
+      {
+        "Id": "statline_218"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
-    {
+  {
     "Id": "68357f35790d8280c4b1f84f",
     "Name": "Silent Assassin",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-exclusive": "Exclusive (Unit without Silent Assassin)",
-      "rulebook-hidden": "Hidden",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-zeal": "Zeal (towards Characters)",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "de-repeater_handbow": "Repeater Handbow (2+)",
-      "rulebook-distracting": "Distracting (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Silent Assassin",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-exclusive": "Exclusive (Unit without Silent Assassin)",
-          "rulebook-hidden": "Hidden",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_247"
       },
       {
-        "Name": "Silent Assassin",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-distracting": "Distracting (1)"
-        }
+        "Id": "statline_248"
       },
       {
-        "Name": "Silent Assassin",
-        "Values": {
-          "At": "4",
-          "Of": "8",
-          "St": "4",
-          "AP": "3",
-          "Ag": "9"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-paired_weapons": "Paired Weapons",
-          "rulebook-poison_attacks": "Poison Attacks",
-          "de-repeater_handbow": "Repeater Handbow (2+)",
-          "rulebook-zeal": "Zeal (towards Characters)"          
-        }
+        "Id": "statline_249"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "b1c3d8a7e9f4c5a2b6d3e8f9a",
     "Name": "Tethaen, the Ocean Terror",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Battlefield Edge, Water Terrain)",
-      "de-a_watery_grave": "A Watery Grave",
-      "de-barbed_nets": "Barbed Nets",
-      "de-coastal-predator": "Coastal Predator",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-horror": "Horror",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-soltary": "Solitary",
-      "rulebook-strider": "Strider (Water Terrain)",
-      "de-blessed_by_harag": "Blessed by Harag",
-      "de-artistry_of_death": "Artistry of Death",
-      "rulebook-elven_finesse": "Elven Finesse",
-      "de-grim_harpoon": "Grim Harpoon",
-      "rulebook-devastating_charge": "Devastating Charge (Distracting)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (1 hit)"
-  },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
       {
-        "Name": "Tethaen, the Ocean Terror",
-        "Values": {
-          "Ad": "8",
-          "Ma": "8",
-          "Di": "10",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Battlefield Edge, Water Terrain)",
-          "de-a_watery_grave": "A Watery Grave",
-          "de-barbed_nets": "Barbed Nets",
-          "de-coastal-predator": "Coastal Predator",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-horror": "Horror",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-soltary": "Solitary",
-          "rulebook-strider": "Strider (Water Terrain)"
-        }
+        "Id": "statline_250"
       },
       {
-        "Name": "Tethaen, the Ocean Terror",
-        "Values": {
-          "HP": "5",
-          "Df": "8",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "de-blessed_by_harag": "Blessed by Harag"
-        }
+        "Id": "statline_251"
       },
       {
-        "Name": "Tethaen",
-        "Values": {
-          "At": "4",
-          "Of": "8",
-          "St": "4",
-          "AP": "1",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "de-artistry_of_death": "Artistry of Death",
-          "rulebook-elven_finesse": "Elven Finesse",
-          "de-grim_harpoon": "Grim Harpoon"
-       }
+        "Id": "statline_252"
       },
       {
-        "Name": "Blaishoi",
-        "Values": {
-          "At": "4",
-          "Of": "4",
-          "St": "6",
-          "AP": "3",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (Distracting)",
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (1 hit)"
-        }
+        "Id": "statline_253"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-       "Size": {
-        "width": "50",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "b1d4e8a9237c5f2a9d8b1c3d4b",
     "Name": "The Black Rose",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-aembeghen_s_blades": "Aembeghen's Blades",
-      "de-artistry_of_death": "Artistry of Death",
-      "rulebook-aegis": "Aegis (5+)",
-      "de-dance_of_the_rose": "Dance of the Rose",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-general": "General",
-      "rulebook-light_troops": "Light Troops",
-      "de-the_obsidian_thorns": "The Obsidian Thorns"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "The Black Rose",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "10",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-general": "General",
-          "rulebook-light_troops": "Light Troops",
-          "de-the_obsidian_thorns": "The Obsidian Thorns"
-        }
+        "Id": "statline_254"
       },
       {
-        "Name": "The Black Rose",
-        "Values": {
-          "HP": "3",
-          "Df": "8",
-          "Re": "3",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_255"
       },
       {
-        "Name": "The Black Rose",
-        "Values": {
-          "At": "4",
-          "Of": "8",
-          "St": "4",
-          "AP": "1",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "de-aembeghen_s_blades": "Aembeghen's Blades",
-          "de-artistry_of_death": "Artistry of Death",
-          "de-dance_of_the_rose": "Dance of the Rose"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
+        "Id": "statline_256"
       }
-    }
+    ]
   },
   {
     "Id": "68357f36790d8280c4b1fa7e",
     "Name": "Silexian Spears",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-spear": "Spear",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Silexian Spears",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare"
-        }
+        "Id": "statline_257"
       },
       {
-        "Name": "Silexian Spears",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_258"
       },
       {
-        "Name": "Silexian Spear",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-spear": "Spear"
-        }
+        "Id": "statline_259"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f36790d8280c4b1fab1",
     "Name": "Silexian Auxiliaries",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-march_and_shoot": "March and Shoot",
-      "de-repeater_crossbow": "Repeater Crossbow (3+)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Silexian Auxiliaries",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare"
-        }
+        "Id": "statline_260"
       },
       {
-        "Name": "Silexian Auxiliaries",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_261"
       },
       {
-        "Name": "Silexian Auxiliary",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-march_and_shoot": "March and Shoot",
-          "de-repeater_crossbow": "Repeater Crossbow (3+)"
-        }
+        "Id": "statline_262"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f36790d8280c4b1fb1d",
     "Name": "Temple Militants",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-afflict": "Afflict (-2 Def)",
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-aegis": "Aegis (5+, against Melee Attacks)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Temple Militants",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-afflict": "Afflict (-2 Def)",
-          "de-daeb_warfare": "Daeb Warfare"
-        }
+        "Id": "statline_263"
       },
       {
-        "Name": "Temple Militants",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+, against Melee Attacks)"
-        }
+        "Id": "statline_264"
       },
       {
-        "Name": "Temple Militant",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_265"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f36790d8280c4b1fae4",
     "Name": "Corsairs",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-afflict": "Afflict (-1 Dis)",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "de-krakens_hide": "Kraken's Hide"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Corsairs",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-afflict": "Afflict (-1 Dis)",
-          "de-daeb_warfare": "Daeb Warfare",
-          "rulebook-light_troops": "Light Troops"          
-        }
+        "Id": "statline_266"
       },
       {
-        "Name": "Corsairs",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "de-krakens_hide": "Kraken's Hide"
-        }
+        "Id": "statline_267"
       },
       {
-        "Name": "Corsair",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_268"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f37790d8280c4b1fb53",
     "Name": "Shadow Riders",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-feigned_flight": "Feigned Flight",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-light_lance": "Light Lance"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Shadow Riders",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare",
-          "rulebook-feigned_flight": "Feigned Flight",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-vanguard": "Vanguard",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_269"
       },
       {
-        "Name": "Shadow Riders",
-        "Values": {
-          "HP": "1",
-          "Df": "5",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_270"
       },
       {
-        "Name": "Shadow Rider",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-light_lance": "Light Lance"
-        }
+        "Id": "statline_271"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f38790d8280c4b1fc32",
     "Name": "Dread Acolytes",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "de-temple_acolytes": "Temple Acolytes",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Dread Acolytes",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-solitary": "Solitary",
-          "de-temple_acolytes": "Temple Acolytes"
-        }
+        "Id": "statline_272"
       },
       {
-        "Name": "Dread Acolytes",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_273"
       },
       {
-        "Name": "Dread Acolyte",
-        "Values": {
-          "At": "2",
-          "Of": "6",
-          "St": "3",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_274"
       },
       {
-        "Name": "Elven Horse",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_203"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f37790d8280c4b1fb7b",
     "Name": "Dread Knights",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-disciplined": "Disciplined",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Dread Knights",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "9",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare",
-          "rulebook-disciplined": "Disciplined",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_275"
       },
       {
-        "Name": "Dread Knights",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_276"
       },
       {
-        "Name": "Dread Knight",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_277"
       },
       {
-        "Name": "Raptor",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_206"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f38790d8280c4b1fbfa",
     "Name": "Obsidian Guard",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-beacon_of_courage": "Beacon of Courage (6\")",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-halberd": "Halberd"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Obsidian Guard",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-rally_around_the_flag": "Beacon of Courage (6\")"
-        }
+        "Id": "statline_278"
       },
       {
-        "Name": "Obsidian Guard",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_279"
       },
       {
-        "Name": "Obsidian Guard",
-        "Values": {
-          "At": "2",
-          "Of": "6",
-          "St": "3",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_280"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f38790d8280c4b1fbc7",
     "Name": "Judicators",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-elven_finesse": "Elven Finesse",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-lethal_strike": "Lethal Strike",
-      "rulebook-great_weapon": "Great Weapon"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Judicators",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare"
-        }
+        "Id": "statline_281"
       },
       {
-        "Name": "Judicators",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_282"
       },
       {
-        "Name": "Judicator",
-        "Values": {
-          "At": "2",
-          "Of": "6",
-          "St": "3",
-          "AP": "1",
-          "Ag": "6",
-          "Agi": "0"
-        },
-        "RuleIds": {
-          "rulebook-elven_finesse": "Elven Finesse",
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-great_weapon": "Great Weapon",
-          "rulebook-lethal_strike": "Lethal Strike"
-        }
+        "Id": "statline_283"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "a3f9c1e7b4d0a8c6e2f5b9d7e",
     "Name": "Dancers of Yema",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-aegis": "Aegis (5+, against Melee Attacks)",
-      "rulebook-shield": "Shield",
-      "rulebook-first_strike": "First Strike (Artistry of Death, +1 Att)",
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-halberd": "Halberd",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-spear": "Spear"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Dancers of Yema",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare"
-        }
+        "Id": "statline_284"
       },
       {
-        "Name": "Dancers of Yema",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+, against Melee Attacks)",
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_285"
       },
       {
-        "Name": "Dancers of Yema",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-        "rulebook-first_strike": "First Strike (Artistry of Death, +1 Att)",
-        "rulebook-weapon_master": "Weapon Master",
-        "rulebook-halberd": "Halberd",
-        "rulebook-paired_weapons": "Paired Weapons",
-        "rulebook-spear": "Spear"
-        }
+        "Id": "statline_286"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f37790d8280c4b1fbba",
     "Name": "Harpies",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-fly": "Fly",
-      "rulebook-solitary": "Solitary",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-unruly": "Unruly",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "rulebook-sweeping_attack": "Sweeping Attack (1)",
-      "rulebook-hard_target": "Hard Target (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Harpies",
-        "Values": {
-          "Ad": "9",
-          "Ma": "9",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-fly": "Fly",
-          "rulebook-solitary": "Solitary",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-unruly": "Unruly",
-          "de-scent_of_blood": "Scent of Blood"
-        }
+        "Id": "statline_287"
       },
       {
-        "Name": "Harpies",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_288"
       },
       {
-        "Name": "Harpy",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "1",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-          "rulebook-sweeping_attack": "Sweeping Attack (1)"
-        }
+        "Id": "statline_289"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f38790d8280c4b1fbbf",
     "Name": "Gorgons",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-solitary": "Solitary",
-      "rulebook-fearless": "Fearless",
-      "rulebook-strider": "Strider",
-      "rulebook-supernal": "Supernal",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-magical_attacks": "Magical Attacks",
-      "de-petrifying_stare": "Petrifying Stare",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Gorgons",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-strider": "Strider",
-          "rulebook-supernal": "Supernal",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_290"
       },
       {
-        "Name": "Gorgons",
-        "Values": {
-          "HP": "3",
-          "Df": "6",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_291"
       },
       {
-        "Name": "Gorgon",
-        "Values": {
-          "At": "4",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-magical_attacks": "Magical Attacks",
-          "de-petrifying_stare": "Petrifying Stare"
-        }
+        "Id": "statline_292"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f38790d8280c4b1fc2d",
     "Name": "Thunder Pack",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-solitary": "Solitary",
-      "rulebook-first_strike": "First Strike (Hatred)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "9",
+    "Children": [
       {
-        "Name": "Thunder Pack",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_293"
       },
       {
-        "Name": "Thunder Pack",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {}
+        "Id": "statline_294"
       },
       {
-        "Name": "Thunder Beast",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "5",
-          "AP": "1",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Hatred)"
-        }
+        "Id": "statline_295"
       },
       {
-        "Name": "Lashmaster (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_296"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "60"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f37790d8280c4b1fb72",
     "Name": "Raptor Chariot",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-solitary": "Solitary",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-halberd": "Halberd",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Raptor Chariot",
-        "Values": {
-          "Ad": "7",
-          "Ma": "4",
-          "Di": "9",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare",
-          "rulebook-light_troops": "Light Troops",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"          
-        }
+        "Id": "statline_297"
       },
       {
-        "Name": "Raptor Chariot",
-        "Values": {
-          "HP": "4",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_298"
       },
       {
-        "Name": "Crew (2)",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_299"
       },
       {
-        "Name": "Raptor (2)",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_212"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
-        }
+        "Id": "statline_7"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f37790d8280c4b1fb75",
     "Name": "Divine Altar",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-terror": "Terror",      
-      "de-artistry_of_death": "Artistry of Death",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-aegis": "Aegis (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
       {
-        "Name": "Divine Altar",
-        "Values": {
-          "Ad": "0",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-terror": "Terror"
-        }
+        "Id": "statline_300"
       },
       {
-        "Name": "Divine Altar",
-        "Values": {
-          "HP": "5",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_301"
       },
       {
-        "Name": "Attendant (3)",
-        "Values": {
-          "At": "2",
-          "Of": "6",
-          "St": "3",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "de-artistry_of_death": "Artistry of Death",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_302"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": null,
-          "AP": null,
-          "Ag": null
-        },
-        "RuleIds": {}
+        "Id": "statline_303"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f39790d8280c4b1fc69",
     "Name": "Hunting Chariot",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-light_lance": "Light Lance",
-      "rulebook-impact_hits": "Impact Hits (D6)",
-      "de-harpoon_launcher": "Harpoon Launcher (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Hunting Chariot",
-        "Values": {
-          "Ad": "9",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_304"
       },
       {
-        "Name": "Hunting Chariot",
-        "Values": {
-          "HP": "4",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_305"
       },
       {
-        "Name": "Crew (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-light_lance": "Light Lance"
-        }
+        "Id": "statline_306"
       },
       {
-        "Name": "Elven Horse (2)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_307"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": null,
-          "Of": null,
-          "St": "5",
-          "AP": "2",
-          "Ag": null
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)",
-          "de-harpoon_launcher": "Harpoon Launcher (3+)"
-        }
+        "Id": "statline_308"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f39790d8280c4b1fc6a",
     "Name": "Repeater Battery",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-solitary": "Solitary",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "de-daeb_bolt_thrower": "Daeb Bolt Thrower (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "11",
+    "Children": [
       {
-        "Name": "Repeater Battery",
-        "Values": {
-          "Ad": "0",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "2"
-        },
-        "RuleIds": {
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-solitary": "Solitary"
-        }
+        "Id": "statline_309"
       },
       {
-        "Name": "Repeater Battery",
-        "Values": {
-          "HP": "4",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_310"
       },
       {
-        "Name": "Crew",
-        "Values": {
-          "At": "2",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "de-daeb_bolt_thrower": "Daeb Bolt Thrower (3+)"
-        }
+        "Id": "statline_311"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "60"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f39790d8280c4b1fc6d",
     "Name": "Black Cloaks",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "de-daeb_warfare": "Daeb Warfare",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-scout": "Scout",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-vanguard": "Vanguard",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-devastating_charge": "Devastating Charge (Distracting)",
-      "rulebook-poison_attacks": "Poison Attacks (Melee)",
-      "rulebook-paired_weapons": "Paired Weapons"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Black Cloaks",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "9",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "de-daeb_warfare": "Daeb Warfare",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-scout": "Scout",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-vanguard": "Vanguard"
-        }
+        "Id": "statline_312"
       },
       {
-        "Name": "Black Cloaks",
-        "Values": {
-          "HP": "1",
-          "Df": "6",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_313"
       },
       {
-        "Name": "Black Cloak",
-        "Values": {
-          "At": "1",
-          "Of": "6",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)",
-          "rulebook-devastating_charge": "Devastating Charge (Distracting)",
-          "rulebook-poison_attacks": "Poison Attacks (Melee)",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_314"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f39790d8280c4b1fc86",
     "Name": "Kraken",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-strider": "Strider (Water Terrain)",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-hatred": "Hatred (towards Height 3-5)",
-      "rulebook-multiple_wounds": "Multiple Wounds (D3, towards Height 3-5)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-hard_target": "Hard Target (1)",
-      "de-coastal_predator": "Coastal Predator"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Kraken",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",          
-          "rulebook-strider": "Strider (Water Terrain)",          
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror"
-        }
+        "Id": "statline_315"
       },
       {
-        "Name": "Kraken",
-        "Values": {
-          "HP": "6",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "de-coastal_predator": "Coastal Predator",
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-hard_target": "Hard Target (1)"         
-        }
+        "Id": "statline_316"
       },
       {
-        "Name": "Kraken",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "7",
-          "AP": "3",
-          "Ag": "3",
-          "undefined": "0"
-        },
-        "RuleIds": {
-          "rulebook-hatred": "Hatred (towards Height 3-5)",
-          "rulebook-multiple_wounds": "Multiple Wounds (D3, towards Height 3-5)",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_317"
       },
       {
-        "Name": "Lashmaster (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_296"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f39790d8280c4b1fc88",
     "Name": "Hydra",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "de-scent_of_blood": "Scent of Blood",
-      "rulebook-breath_attack": "Breath Attack (Str 3, AP 1)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "rulebook-rage": "Rage",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-regeneration": "Regeneration (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Hydra",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror"         
-        }
+        "Id": "statline_318"
       },
       {
-        "Name": "Hydra",
-        "Values": {
-          "HP": "6",
-          "Df": "4",
-          "Re": "6",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-regeneration": "Regeneration (4+)"
-        }
+        "Id": "statline_319"
       },
       {
-        "Name": "Hydra",
-        "Values": {
-          "At": "5",
-          "Of": "4",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-breath_attack": "Breath Attack (Str 3, AP 1)",
-          "rulebook-poison_attacks": "Poison Attacks",
-          "rulebook-rage": "Rage",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_320"
       },
       {
-        "Name": "Lashmaster (2)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_296"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f39790d8280c4b1fc89",
     "Name": "Mist Leviathan",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-solitary": "Solitary",
-      "rulebook-fly": "Fly",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "de-scent_of_blood": "Scent of Blood",
-      "de-under_the_cover_of_mists": "Under the Cover of Mists",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-first_strike": "First Strike (Artistry of Death)",
-      "rulebook-distracting": "Distracting (1)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "12",
+    "Children": [
       {
-        "Name": "Mist Leviathan",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-fly": "Fly",
-          "de-scent_of_blood": "Scent of Blood",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror",
-          "de-under_the_cover_of_mists": "Under the Cover of Mists"
-        }
+        "Id": "statline_321"
       },
       {
-        "Name": "Mist Leviathan",
-        "Values": {
-          "HP": "9",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-distracting": "Distracting (1)"
-        }
+        "Id": "statline_322"
       },
       {
-        "Name": "Mist Leviathan",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "4",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_323"
       },
       {
-        "Name": "Lashmaster (4)",
-        "Values": {
-          "At": "1",
-          "Of": "5",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-first_strike": "First Strike (Artistry of Death)"
-        }
+        "Id": "statline_324"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "100",
-        "length": "100"
-      }
-    }
+    ]
   }
 ]

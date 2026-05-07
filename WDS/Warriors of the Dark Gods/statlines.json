@@ -1,0 +1,3148 @@
+[
+  {
+    "Id":  "statline_1625",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "wdg-manifestation"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1626",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "8",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(4+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1627",
+    "Name":  "Exalted Herald",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "9",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "8"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1628",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1629",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1630",
+    "Name":  "Chosen Lord",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "8",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "7"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1631",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1632",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1633",
+    "Name":  "Scythed Skywheel",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "4",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(2D3+1)"
+             },
+             {
+               "Id":  "rulebook-sweeping_attack",
+               "Info":  "(2D3+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1634",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1635",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "6",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1636",
+    "Name":  "Karkadan",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1637",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1638",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "6",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1639",
+    "Name":  "War Dais",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1640",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1641",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "6",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1642",
+    "Name":  "Black Steed",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1643",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "4",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1644",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "6",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1645",
+    "Name":  "Black Steed (2)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1646",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "10",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1647",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "7",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1648",
+    "Name":  "Chimera",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D3)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1649",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Favoured, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "wdg-gluttony"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "wdg-meeting_of_minds"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1650",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "7",
+               "Def":  "5",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1651",
+    "Name":  "Wasteland Dragon",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "5",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-breath_attack",
+               "Info":  "(Str 4, AP 1, Flaming Attacks)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_dragon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1652",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Exiled, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1653",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "6",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1654",
+    "Name":  "Doomlord",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "7",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-handandahalf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_exiled"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1655",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Exiled, Human)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1656",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "3",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1657",
+    "Name":  "Wasteland Behemoth",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "3",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1658",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1659",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1660",
+    "Name":  "Sorcerer",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "4",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1661",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1662",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "5",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1663",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1664",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "5",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1665",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1666",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1667",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1668",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "4",
+               "Res":  "5",
+               "Arm":  "5",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1669",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-beacon_of_the_dark_gods"
+             },
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1670",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "4",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1671",
+    "Name":  "Wretched One (2)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "0",
+               "Off":  "0",
+               "Str":  "4",
+               "AP":  "0",
+               "Agi":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(D6+1)"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1672",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1673",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "3",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1674",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "wdg-meeting_of_minds"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1675",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "7",
+               "Def":  "5",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1676",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1677",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1678",
+    "Name":  "Barbarian Chief",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-deeds_not_words"
+             },
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1679",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1680",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1681",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1682",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1683",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "10",
+               "Mob":  "10",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider"
+             },
+             {
+               "Id":  "rulebook-vanguard",
+               "Info":  "(3 Mob)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1684",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1685",
+    "Name":  "Shadow Chaser",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1686",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1687",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "5",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1688",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "10",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1689",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "5",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1690",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1691",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "wdg-primal_legend"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1692",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "6",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-resistance",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1693",
+    "Name":  "Feldrak Ancestor",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "6",
+               "Str":  "7",
+               "AP":  "4",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-breath_attack",
+               "Info":  "(Str 4, AP 1, Dying Embers, Flaming Attacks)"
+             },
+             {
+               "Id":  "rulebook-hatred",
+               "Info":  "(against Fly)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_centauroid"
+             },
+             {
+               "Id":  "rule_tag_feldrak"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1694",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "10",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-general"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Water Terrain)"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "wdg-the_fathers_gifts"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1695",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "6",
+               "Def":  "8",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(4+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1696",
+    "Name":  "Joulgrim, the Giving",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "9",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "8"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "wdg-memory_of_a_hoarded_blade"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1697",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "",
+               "Off":  "",
+               "Str":  "4",
+               "AP":  "3",
+               "Agi":  ""
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(2D3 hits)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1698",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-cibareshs_curse"
+             },
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Path of the Exiled, Human)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1699",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "6",
+               "Res":  "6",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1700",
+    "Name":  "Mraven",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "7",
+               "Str":  "6",
+               "AP":  "2",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-handandahalf"
+             },
+             {
+               "Id":  "dl-smother",
+               "Info":  "(2)"
+             },
+             {
+               "Id":  "rulebook-great_weapon"
+             },
+             {
+               "Id":  "rule_tag_pathof_the_exiled"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1701",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1702",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1703",
+    "Name":  "Warrior",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1704",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1705",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "2",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1706",
+    "Name":  "Fallen",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-paired_weapons"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_exiled"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1707",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1708",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "4",
+               "Res":  "3",
+               "Arm":  "1",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1709",
+    "Name":  "Barbarian",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1710",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1711",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "4",
+               "Res":  "3",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1712",
+    "Name":  "Barbarian Horseman",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "3"
+             }
+  },
+  {
+    "Id":  "statline_1713",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "5",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-insignificant"
+             },
+             {
+               "Id":  "wdg-release_the_hounds"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1714",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "3",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1715",
+    "Name":  "Warhound",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1716",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1717",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "4",
+               "Arm":  "5",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1718",
+    "Name":  "Warrior Rider",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             }
+  },
+  {
+    "Id":  "statline_1719",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "4",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1720",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "5",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1721",
+    "Name":  "Warrior Crew (2)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1722",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "wdg-envy"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1723",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "2",
+               "Def":  "6",
+               "Res":  "4",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1724",
+    "Name":  "Chosen",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-extra_support",
+               "Info":  "(3)"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1725",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "wdg-envy"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1726",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "6",
+               "Res":  "4",
+               "Arm":  "5",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1727",
+    "Name":  "Chosen Rider",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1728",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "4",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "wdg-envy"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1729",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "6",
+               "Res":  "5",
+               "Arm":  "5",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1730",
+    "Name":  "Chosen Crew (2)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1731",
+    "Name":  "Karkadan",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1732",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "10",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1733",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "3",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1734",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "3D6",
+               "Mob":  "3D6",
+               "Dis":  "5",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-mindless"
+             },
+             {
+               "Id":  "rulebook-random_movement",
+               "Info":  "(3D6\")"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             },
+             {
+               "Id":  "wdg-writhing_mass"
+             },
+             {
+               "Id":  "rulebook-regeneration",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(D6+1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1735",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "4",
+               "Def":  "2",
+               "Res":  "4",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-regeneration",
+               "Info":  "(5+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1736",
+    "Name":  "Wretched One",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "0",
+               "Off":  "0",
+               "Str":  "4",
+               "AP":  "0",
+               "Agi":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(D6+1)"
+             },
+             {
+               "Id":  "rule_tag_irredeemable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1737",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-bodyguard",
+               "Info":  "(Doomlord)"
+             },
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1738",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-hellforged_armour"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1739",
+    "Name":  "Forsworn",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "5",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_exiled"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1740",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1741",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "4",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-resistance",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1742",
+    "Name":  "Feldrak",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hatred",
+               "Info":  "( against Fly)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_centauroid"
+             },
+             {
+               "Id":  "rule_tag_feldrak"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1743",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "wdg-veil_walker"
+             },
+             {
+               "Id":  "rulebook-wizard_conclave",
+               "Info":  "(2)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1744",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "5",
+               "Def":  "4",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1745",
+    "Name":  "Shrine Priest",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "4",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1746",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "10",
+               "Mob":  "10",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-vanguard",
+               "Info":  "(3 Mob)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1747",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "4",
+               "Res":  "3",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1748",
+    "Name":  "Flayer",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1749",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "7",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "wdg-gateway"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1750",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "6",
+               "Def":  "3",
+               "Res":  "6",
+               "Arm":  "2",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1751",
+    "Name":  "Hellmaw",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1752",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "3D6",
+               "Mob":  "3D6",
+               "Dis":  "5",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-dying_blow"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-mindless"
+             },
+             {
+               "Id":  "rulebook-random_movement",
+               "Info":  "(3D6\")"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1753",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "2",
+               "Res":  "6",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-regeneration",
+               "Info":  "(5+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1754",
+    "Name":  "Forsaken One",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "0",
+               "Off":  "0",
+               "Str":  "6",
+               "AP":  "2",
+               "Agi":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(D6+3)"
+             },
+             {
+               "Id":  "rule_tag_irredeemable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1755",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "wdg-giant_see_giant_do"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1756",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "3",
+               "Res":  "5",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_1757",
+    "Name":  "Marauding Giant",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-rage"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "wdg-giant_club"
+             },
+             {
+               "Id":  "rule_tag_giant"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1758",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "8",
+               "Dis":  "9",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-courageous"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1759",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "7",
+               "Def":  "5",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-resistance",
+               "Info":  "(Flaming Attacks)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_1760",
+    "Name":  "Feldrak Elder",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "5",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hatred",
+               "Info":  "(against Fly)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_centauroid"
+             },
+             {
+               "Id":  "rule_tag_feldrak"
+             }
+           ]
+  }
+]

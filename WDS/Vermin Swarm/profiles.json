@@ -2,2367 +2,612 @@
   {
     "Id": "68357f94790d8280c4b27059",
     "Name": "Ruinous Dictator",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-fearless": "Fearless",
-      "rulebook-general": "General",
-      "vs-girded_by_acratos": "Girded by Acratos",
-      "vs-imperator": "Imperator",
-      "rulebook-light_troops": "Light Troops",
-      "vs-pontifex_maximus": "Pontifex Maximus",
-      "rulebook-solitary": "Solitary",
-      "rulebook-supernal": "Supernal",      
-      "rulebook-terror": "Terror",
-      "rulebook-wizard_apprentice": "Wizard Apprentice",
-      "rulebook-aegis": "Aegis (5+)",      
-      "rulebook-magical_attacks": "Magical Attacks",
-      "rulebook-stomp_attack": "Stomp Attack (D6)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "15",
+    "Children": [
       {
-        "Name": "Ruinous Dictator",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-fearless": "Fearless",
-          "rulebook-general": "General",
-          "vs-girded_by_acratos": "Girded by Acratos",
-          "vs-imperator": "Imperator",
-          "rulebook-light_troops": "Light Troops",
-          "vs-pontifex_maximus": "Pontifex Maximus",
-          "rulebook-solitary": "Solitary",
-          "rulebook-supernal": "Supernal",      
-          "rulebook-terror": "Terror",
-          "rulebook-wizard_apprentice": "Wizard Apprentice"
-        }
+        "Id": "statline_1518"
       },
       {
-        "Name": "Ruinous Dictator",
-        "Values": {
-          "HP": "8",
-          "Df": "6",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_1519"
       },
       {
-        "Name": "Ruinous Dictator",
-        "Values": {
-          "At": "5",
-          "Of": "6",
-          "St": "5",
-          "AP": "3",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "rulebook-magical_attacks": "Magical Attacks",
-          "rulebook-stomp_attack": "Stomp Attack (D6)"          
-        }
+        "Id": "statline_1520"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "75"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f94790d8280c4b2708e",
     "Name": "Vermin Senator",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "vs-callous": "Callous",
-      "rulebook-captain": "Captain",      
-      "rulebook-commanding_presence": "Commanding Presence (6\")",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stand_behind": "Stand Behind",      
-      "rulebook-pistol": "Pistol (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Vermin Senator",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "vs-callous": "Callous",
-          "rulebook-captain": "Captain",
-          "rulebook-commanding_presence": "Commanding Presence (6\")",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-stand_behind": "Stand Behind"
-        }
+        "Id": "statline_1521"
       },
       {
-        "Name": "Vermin Senator",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "3",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1522"
       },
       {
-        "Name": "Vermin Senator",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-pistol": "Pistol (4+)"
-        }
+        "Id": "statline_1523"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "98f9185f-d679-4f4b-b7c9-a8b4dd5ccf17",
-    "Name": "Blackfur Veteran (4)",
-    "Attributes": {
-      "type": "",
-      "height": "Standard",
-      "totalcost": "120"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "vs-callous": "Callous",
-      "rulebook-captain": "Captain",      
-      "rulebook-commanding_presence": "Commanding Presence (6\")",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-stand_behind": "Stand Behind",      
-      "rulebook-pistol": "Pistol (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Vermin Senator on Senatorial Litter",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Blackfur Veteran (4)",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "vs-callous": "Callous",
-          "rulebook-captain": "Captain",
-          "rulebook-commanding_presence": "Commanding Presence (6\")",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-stand_behind": "Stand Behind"
-        }
+        "Id": "statline_1524"
       },
       {
-        "Name": "Blackfur Veteran (4)",
-        "Values": {
-          "HP": "4",
-          "Df": "3",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1525"
       },
       {
-        "Name": "Blackfur Veteran (4)",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1523"
+      },
+      {
+        "Id": "statline_1526"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f94790d8280c4b27101",
     "Name": "Bloodfur Legate",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Bloodfur Legate",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "8",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_1527"
       },
       {
-        "Name": "Bloodfur Legate",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1528"
       },
       {
-        "Name": "Bloodfur Legate",
-        "Values": {
-          "At": "4",
-          "Of": "5",
-          "St": "4",
-          "AP": "1",
-          "Ag": "6"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1529"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "aa6c52e2-7df4-4d17-acf2-a0e295b275f0",
-    "Name": "Praetorian Brute",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "205"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-shield": "Shield"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Bloodfur Legate on Praetorian Brute",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Praetorian Brute",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "8",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_1530"
       },
       {
-        "Name": "Praetorian Brute",
-        "Values": {
-          "HP": "3",
-          "Df": "5",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1531"
       },
       {
-        "Name": "Praetorian Brute",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1529"
+      },
+      {
+        "Id": "statline_1532"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "eaa11109-74a1-44e9-988a-a1efb6c7a1c9",
-    "Name": "Praetorian Brute (3)",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "410"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "vs-callous": "Callous",
-      "rulebook-disciplined": "Disciplined",
-      "rulebook-exclusive": "Exclusive (Blackfur Veterans, Bloodfur Praetorians, Vermin Brutes, Vermin Legionaries)",   
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-terror": "Terror",
-      "rulebook-war_platform": "War Platform",  
-      "rulebook-shield": "Shield",
-      "rulebook-impact_hits": "Impact Hits (D6+1)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Bloodfur Legate on Triumphal Platform",
+    "Type": "Profile",
+    "BaseId": "21",
+    "Children": [
       {
-        "Name": "Praetorian Brute (3)",
-        "Values": {
-          "Ad": "0",
-          "Ma": "3",
-          "Di": "8",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "vs-callous": "Callous",
-          "rulebook-disciplined": "Disciplined",
-          "rulebook-exclusive": "Exclusive (Blackfur Veterans, Bloodfur Praetorians, Vermin Brutes, Vermin Legionaries)",   
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-terror": "Terror",
-          "rulebook-war_platform": "War Platform"
-        }
+        "Id": "statline_1533"
       },
       {
-        "Name": "Praetorian Brute (3)",
-        "Values": {
-          "HP": "8",
-          "Df": "1",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1534"
       },
       {
-        "Name": "Praetorian Brute (3)",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1529"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": "0",
-          "Of": "0",
-          "St": "5",
-          "AP": "2",
-          "Ag": "0"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6+1)"
-        }
+        "Id": "statline_1535"
+      },
+      {
+        "Id": "statline_1536"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "80",
-        "length": "80"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f94790d8280c4b27221",
     "Name": "House Prefect",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "vs-callous": "Callous",
-      "vs-fetthis_fleshmaster": "Fetthis Fleshmaster",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-shield": "Shield",
-      "rulebook-pistol": "Pistol (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "House Prefect",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "7",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "vs-callous": "Callous",
-          "vs-fetthis_fleshmaster": "Fetthis Fleshmaster",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_1537"
       },
       {
-        "Name": "House Prefect",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "4",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1538"
       },
       {
-        "Name": "House Prefect",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-pistol": "Pistol (3+)"
-        }
+        "Id": "statline_1539"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
-  },  
+    ]
+  },
   {
     "Id": "87f2a3f4-6b6d-4401-aec8-12e496805699",
-    "Name": "Praetorian Brute",
-    "Attributes": {
-      "type": "",
-      "height": "Large",
-      "totalcost": "115"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-captain": "Captain",
-      "vs-callous": "Callous",
-      "vs-fetthis_fleshmaster": "Fetthis Fleshmaster",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-shield": "Shield",
-      "rulebook-pistol": "Pistol (3+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "House Prefect on Praetorian Brute",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Praetorian Brute",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "7",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-captain": "Captain",
-          "vs-callous": "Callous",
-          "vs-fetthis_fleshmaster": "Fetthis Fleshmaster",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_1540"
       },
       {
-        "Name": "Praetorian Brute",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "4"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1541"
       },
       {
-        "Name": "Praetorian Brute",
-        "Values": {
-          "At": "4",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1539"
+      },
+      {
+        "Id": "statline_1532"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f95790d8280c4b272aa",
     "Name": "Swarm Priest",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "vs-cutting_corners": "Cutting Corners",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-wizard_adept": "Wizard Adept"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Swarm Priest",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "vs-cutting_corners": "Cutting Corners",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_1542"
       },
       {
-        "Name": "Swarm Priest",
-        "Values": {
-          "HP": "3",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1543"
       },
       {
-        "Name": "Swarm Priest",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1544"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "1ecfe8f5-f44b-44aa-a4c9-661d3718d76c",
-    "Name": "Acolyte (8)",
-    "Attributes": {
-      "type": "",
-      "height": "Gigantic",
-      "totalcost": "440"
-    },
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "rulebook-channel": "Channel (1)",
-      "vs-callous": "Callous",
-      "vs-cutting_corners": "Cutting Corners",
-      "rulebook-fearless": "Fearless",
-      "rulebook-terror": "Terror",
-      "rulebook-war_platform": "War Platform",      
-      "rulebook-wizard_adept": "Wizard Adept",
-      "rulebook-aegis": "Aegis (5+)",
-      "rulebook-great_weapon": "Great Weapon",
-      "vs-whispering_bell": "Whispering Bell"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Name": "Swarm Priest on Sacred Platform",
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
       {
-        "Name": "Acolyte (8)",
-        "Values": {
-          "Ad": "0",
-          "Ma": "3",
-          "Di": "5",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "rulebook-channel": "Channel (1)",
-          "vs-callous": "Callous",
-          "vs-cutting_corners": "Cutting Corners",
-          "rulebook-fearless": "Fearless",
-          "rulebook-terror": "Terror",
-          "rulebook-war_platform": "War Platform",      
-          "rulebook-wizard_adept": "Wizard Adept"
-        }
+        "Id": "statline_1545"
       },
       {
-        "Name": "Acolyte (8)",
-        "Values": {
-          "HP": "7",
-          "Df": "1",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-aegis": "Aegis (5+)"
-        }
+        "Id": "statline_1546"
       },
       {
-        "Name": "Acolyte (8)",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4",
-          "Agi": "0"
-        },
-        "RuleIds": {
-          "rulebook-great_weapon": "Great Weapon",
-          "vs-whispering_bell": "Whispering Bell"
-        }
+        "Id": "statline_1544"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": "0",
-          "Of": "0",
-          "St": "5",
-          "AP": "2",
-          "Ag": "0"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1547"
+      },
+      {
+        "Id": "statline_1548"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f95790d8280c4b27348",
     "Name": "Duskblade Assassin",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "vs-callous": "Callous",     
-      "rulebook-hidden": "Hidden",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-hatred": "Hatred (against Characters)",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",      
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-throwing_weapons": "Throwing Weapons (2+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Duskblade Assassin",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "vs-callous": "Callous",     
-          "rulebook-hidden": "Hidden",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_1549"
       },
       {
-        "Name": "Duskblade Assassin",
-        "Values": {
-          "HP": "2",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-distracting": "Distracting (1)"
-        }
+        "Id": "statline_1550"
       },
       {
-        "Name": "Duskblade Assassin",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "3",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "rulebook-divine_attacks": "Divine Attacks",
-          "rulebook-hatred": "Hatred (against Characters)",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",      
-          "rulebook-paired_weapons": "Paired Weapons",
-          "rulebook-throwing_weapons": "Throwing Weapons (2+)"
-        }
+        "Id": "statline_1551"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "d4f8a2b7c3e1d9a0f5b6c4d3e",
     "Name": "Professor Mauss",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-beacon_of_courage": "Beacon of Courage (6\")",
-      "rulebook-fearless": "Fearless",
-      "vs-inergon_injection": "Inergon injection!",      
-      "rulebook-random_movement": "Random Movement (2D6)",
-      "rulebook-solitary": "Solitary",
-      "rulebook-stubborn": "Stubborn",
-      "vs-superior_darkstone_power": "Superior Darkstone Power",
-      "rulebook-terror": "Terror",
-      "rulebook-unstable": "Unstable",
-      "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-hit roll)",
-      "vs-rotary_gun": "Rotary Gun (3+)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
-      "rulebook-grind_attack": "Grind Attack (3D3 hits, Lightning Attacks)",
-      "vs-prototype_mauss_rifle": "Prototype Mauss Rifle"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
       {
-        "Name": "Professor Mauss",
-        "Values": {
-          "Ad": "2D6",
-          "Ma": "2d6",
-          "Di": "7",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "rulebook-beacon_of_courage": "Beacon of Courage (6\")",
-          "rulebook-fearless": "Fearless",
-          "vs-inergon_injection": "Inergon injection!",          
-          "rulebook-random_movement": "Random Movement (2D6)",
-          "rulebook-solitary": "Solitary",
-          "rulebook-stubborn": "Stubborn",
-          "vs-superior_darkstone_power": "Superior Darkstone Power",
-          "rulebook-terror": "Terror",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1552"
       },
       {
-        "Name": "Professor Mauss",
-        "Values": {
-          "HP": "8",
-          "Df": "1",
-          "Re": "8",
-          "Arm": "4"
-        },
-        "RuleIds": {}
+        "Id": "statline_1553"
       },
       {
-        "Name": "Professor Mauss",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-hit roll)",
-          "vs-rotary_gun": "Rotary Gun (3+)"
-        }
+        "Id": "statline_1554"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": "",
-          "Of": "",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Str, +1 AP, +10 Agi)",
-          "rulebook-grind_attack": "Grind Attack (3D3 hits, Lightning Attacks)",
-          "vs-prototype_mauss_rifle": "Prototype Mauss Rifle"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "60",
-        "length": "100"
+        "Id": "statline_1555"
       }
-    }
+    ]
   },
   {
     "Id": "d3f9e2b4a6d1f8c9b5a7d2c9b",
     "Name": "The Shadowslice Stalker",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {      
-      "vs-callous": "Callous",
-      "vs-disorienting_scent": "Disorienting Scent",
-      "rulebook-hidden": "Hidden",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-distracting": "Distracting",
-      "vs-mistress_of_smoke": "Mistress of Smoke",
-      "rulebook-divine_attacks": "Divine Attacks",
-      "rulebook-hatred": "Hatred (against Characters)",
-      "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-      "rulebook-poison_attacks": "Poison Attacks",
-      "vs-shadowslices_panoply" : "Shadowslice's Panoply"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "The Shadowslice Stalker",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {          
-          "vs-callous": "Callous",
-          "vs-disorienting_scent": "Disorienting Scent",
-          "rulebook-hidden": "Hidden",
-          "rulebook-light_troops": "Light Troops"
-        }
+        "Id": "statline_1556"
       },
       {
-        "Name": "The Shadowslice Stalker",
-        "Values": {
-          "HP": "2",
-          "Df": "4",
-          "Re": "3",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-distracting": "Distracting",
-          "vs-mistress_of_smoke": "Mistress of Smoke"
-        }
+        "Id": "statline_1557"
       },
       {
-        "Name": "The Shadowslice Stalker",
-        "Values": {
-          "At": "3",
-          "Of": "5",
-          "St": "4",
-          "AP": "3",
-          "Ag": "8"
-        },
-        "RuleIds": {
-          "rulebook-divine_attacks": "Divine Attacks",
-          "rulebook-hatred": "Hatred (against Characters)",
-          "rulebook-multiple_wounds": "Multiple Wounds (2, against Characters)",
-          "rulebook-poison_attacks": "Poison Attacks",
-          "vs-shadowslices_panoply" : "Shadowslice's Panoply"
-        }
-      }  
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
+        "Id": "statline_1558"
       }
-    }
+    ]
   },
   {
     "Id": "68357f96790d8280c4b27404",
     "Name": "Vermin Slingers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "vs-life_is_cheap": "Life is Cheap",      
-      "vs-cohort_coordination": "Cohort Coordination",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "vs-sling": "Sling (4+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Vermin Slingers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {          
-          "vs-callous": "Callous",
-          "vs-life_is_cheap": "Life is Cheap"
-        }
+        "Id": "statline_1559"
       },
       {
-        "Name": "Vermin Slingers",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "1"
-        },
-        "RuleIds": {}
+        "Id": "statline_1560"
       },
       {
-        "Name": "Vermin Slinger",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "vs-cohort_coordination": "Cohort Coordination",
-          "rulebook-paired_weapons": "Paired Weapons",
-          "vs-sling": "Sling (4+)"
-        }
+        "Id": "statline_1561"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f96790d8280c4b273b9",
     "Name": "Vermin Legionaries",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-life_is_cheap": "Life is Cheap",
-      "rulebook-shield": "Shield",
-      "vs-cohort_coordination": "Cohort Coordination"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Vermin Legionaries",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-life_is_cheap": "Life is Cheap"
-        }
+        "Id": "statline_1562"
       },
       {
-        "Name": "Vermin Legionaries",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "1"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1563"
       },
       {
-        "Name": "Vermin Legionary",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "vs-cohort_coordination": "Cohort Coordination"
-        }
+        "Id": "statline_1564"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f95790d8280c4b27353",
     "Name": "Blackfur Veterans",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-life_is_cheap": "Life is Cheap",
-      "rulebook-shield": "Shield",
-      "vs-cohort_coordination": "Cohort Coordination",
-      "vs-gladius": "Gladius",
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-halberd": "Halberd"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Blackfur Veterans",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-life_is_cheap": "Life is Cheap"
-        }
+        "Id": "statline_1565"
       },
       {
-        "Name": "Blackfur Veterans",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "2",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1566"
       },
       {
-        "Name": "Blackfur Veteran",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "vs-cohort_coordination": "Cohort Coordination",
-          "vs-gladius": "Gladius",
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_1567"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f96790d8280c4b273f2",
     "Name": "Vermin Slaves",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-cannon_fodder": "Cannon Fodder",
-      "rulebook-exclusive": "Exclusive (Cult of Errahman)",
-      "rulebook-insignificant": "Insignificant",
-      "vs-life_is_cheap": "Life is Cheap",      
-      "rulebook-unruly": "Unruly"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Vermin Slaves",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "4",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-cannon_fodder": "Cannon Fodder",
-          "rulebook-exclusive": "Exclusive (Cult of Errahman)",
-          "rulebook-insignificant": "Insignificant",
-          "vs-life_is_cheap": "Life is Cheap",      
-          "rulebook-unruly": "Unruly"
-        }
+        "Id": "statline_1568"
       },
       {
-        "Name": "Vermin Slaves",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1569"
       },
       {
-        "Name": "Vermin Slave",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1570"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f95790d8280c4b27386",
     "Name": "Plague Cultists",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {      
-      "vs-life_is_cheap": "Life is Cheap",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-regeneration":"Regeneration (5+)",
-      "rulebook-zeal": "Zeal",
-      "vs-bloodpox_blades": "Bloodpox Blades"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Plague Cultists",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "4",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-life_is_cheap": "Life is Cheap",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1571"
       },
       {
-        "Name": "Plague Cultists",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-regeneration":"Regeneration (5+)"
-        }
+        "Id": "statline_1572"
       },
       {
-        "Name": "Plague Cultist",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-zeal": "Zeal",
-          "vs-bloodpox_blades": "Bloodpox Blades"
-        }
+        "Id": "statline_1573"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f96790d8280c4b2741c",
     "Name": "Blackfur Pretorians",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-bodyguard": "Bodyguard (General)",
-      "vs-life_is_cheap": "Life is Cheap",
-      "rulebook-shield": "Shield",
-      "vs-cohort_coordination": "Cohort Coordination",
-      "vs-gladius": "Gladius",
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-halberd": "Halberd"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Blackfur Pretorians",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-bodyguard": "Bodyguard (General)",
-          "vs-life_is_cheap": "Life is Cheap"
-        }
+        "Id": "statline_1574"
       },
       {
-        "Name": "Blackfur Pretorians",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "2",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1575"
       },
       {
-        "Name": "Blackfur Pretorian",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "vs-cohort_coordination": "Cohort Coordination",
-          "vs-gladius": "Gladius",          
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_1576"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f97790d8280c4b2745e",
     "Name": "Rat Swarm",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-afflict": "Afflict (-1 Def, -1 Off)",
-      "rulebook-fearless": "Fearless",      
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-unruly": "Unruly",
-      "rulebook-unstable": "Unstable",
-      "rulebook-distracting": "Distracting (1)",
-      "rulebook-hard_target": "Hard Target (1)"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Rat Swarm",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "4",
-          "Hgt": "0"
-        },
-        "RuleIds": {
-          "rulebook-afflict": "Afflict (-1 Def, -1 Off)",
-          "rulebook-fearless": "Fearless",      
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-unruly": "Unruly",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1577"
       },
       {
-        "Name": "Rat Swarm",
-        "Values": {
-          "HP": "5",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-distracting": "Distracting (1)",
-          "rulebook-hard_target": "Hard Target (1)"          
-        }
+        "Id": "statline_1578"
       },
       {
-        "Name": "Rat Swarm",
-        "Values": {
-          "At": "6",
-          "Of": "2",
-          "St": "2",
-          "AP": "1",
-          "Ag": "2"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1579"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f97790d8280c4b27454",
     "Name": "Giant Rats",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-unruly": "Unruly",
-      "rulebook-unstable": "Unstable",      
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Giant Rats",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-unruly": "Unruly",
-          "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1580"
       },
       {
-        "Name": "Giant Rats",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1581"
       },
       {
-        "Name": "Giant Rat",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Att)"
-        }
+        "Id": "statline_1582"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f97790d8280c4b27459",
     "Name": "Fire Rats",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-furs_on_fire": "Furs on Fire!",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",      
-      "rulebook-unruly": "Unruly",
-      "rulebook-unstable": "Unstable",
-      "rulebook-weakness":"Weakness (Flaming Attacks)",
-      "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-      "rulebook-flaming_attacks": "Flaming Attacks"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Fire Rats",
-        "Values": {
-          "Ad": "7",
-          "Ma": "7",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-furs_on_fire": "Furs on Fire!",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",      
-          "rulebook-unruly": "Unruly",
-           "rulebook-unstable": "Unstable"
-        }
+        "Id": "statline_1583"
       },
       {
-        "Name": "Fire Rats",
-        "Values": {
-          "HP": "1",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-weakness":"Weakness (Flaming Attacks)"
-        }
+        "Id": "statline_1584"
       },
       {
-        "Name": "Fire Rat",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+1 Att)",
-          "rulebook-flaming_attacks": "Flaming Attacks"
-        }
+        "Id": "statline_1585"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f97790d8280c4b2744f",
     "Name": "Vermin Brutes",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-unruly": "Unruly",
-      "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
-      "rulebook-paired_weapons": "Paired Weapons"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Vermin Brutes",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "5",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-unruly": "Unruly"
-        }
+        "Id": "statline_1586"
       },
       {
-        "Name": "Vermin Brutes",
-        "Values": {
-          "HP": "3",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1587"
       },
       {
-        "Name": "Vermin Brute",
-        "Values": {
-          "At": "3",
-          "Of": "2",
-          "St": "4",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-fight_in_extra_rank": "Fight in Extra Rank",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_1588"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f97790d8280c4b27464",
     "Name": "Gladiator Brutes",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-shield": "Shield",
-      "vs-cohort_coordination": "Cohort Coordination",
-      "rulebook-weapon_master": "Weapon Master",
-      "rulebook-halberd": "Halberd",
-      "rulebook-paired_weapons": "Paired Weapons"      
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Gladiator Brutes",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1589"
       },
       {
-        "Name": "Gladiator Brutes",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1590"
       },
       {
-        "Name": "Gladiator Brute",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "vs-cohort_coordination": "Cohort Coordination",
-          "rulebook-weapon_master": "Weapon Master",
-          "rulebook-halberd": "Halberd",
-          "rulebook-paired_weapons": "Paired Weapons"
-        }
+        "Id": "statline_1591"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f97790d8280c4b27461",
     "Name": "Legionary Drill Team",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-attached": "Attached",
-      "vs-drill_down": "Drill Down!",
-      "rulebook-exclusive": "Exclusive (Legionary)",
-      "vs-life_is_cheap": "Life is Cheap",
-      "rulebook-war_platform": "War Platform",
-      "rulebook-grind_attack": "Grind Attack (3)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
       {
-        "Name": "Legionary Drill Team",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "5",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "rulebook-attached": "Attached",
-          "vs-drill_down": "Drill Down!",
-          "rulebook-exclusive": "Exclusive (Legionary)",
-          "vs-life_is_cheap": "Life is Cheap",
-          "rulebook-war_platform": "War Platform"
-        }
+        "Id": "statline_1592"
       },
       {
-        "Name": "Legionary Drill Team",
-        "Values": {
-          "HP": "4",
-          "Df": "2",
-          "Re": "3",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1593"
       },
       {
-        "Name": "Legionary Drill Team",
-        "Values": {
-          "At": "0",
-          "Of": "0",
-          "St": "6",
-          "AP": "3",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (3)"
-        }
+        "Id": "statline_1594"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "40",
-        "length": "40"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f98790d8280c4b274cb",
     "Name": "Shadowfur Stalkers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
-      "vs-callous": "Callous",
-      "rulebook-light_troops": "Light Troops",
-      "vs-life_is_cheap": "Life is Cheap",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-scout": "Scout",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-paired_weapons": "Paired Weapons",
-      "rulebook-throwing_weapons": "Throwing Weapons (4+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Shadowfur Stalkers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
-          "vs-callous": "Callous",
-          "rulebook-light_troops": "Light Troops",
-          "vs-life_is_cheap": "Life is Cheap",
-          "rulebook-skirmisher": "Skirmisher",
-          "rulebook-scout": "Scout"
-        }
+        "Id": "statline_1595"
       },
       {
-        "Name": "Shadowfur Stalkers",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "2",
-          "Arm": "0"
-        },
-        "RuleIds": {
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1596"
       },
       {
-        "Name": "Shadowfur Stalker",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-paired_weapons": "Paired Weapons",
-          "rulebook-throwing_weapons": "Throwing Weapons (4+)"
-        }
+        "Id": "statline_1597"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f98790d8280c4b274c8",
     "Name": "Doomspark Device",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-light_troops": "Light Troops",      
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-grind_attack": "Grind Attack (D6+1, Str D6+1, AP 3, Lightning Attacks, Unmodifiable)",
-      "vs-darkstone_generator": "Darkstone Generator"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Doomspark Device",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "4"
-        },
-        "RuleIds": {          
-          "vs-callous": "Callous",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride"
-        }
+        "Id": "statline_1598"
       },
       {
-        "Name": "Doomspark Device",
-        "Values": {
-          "HP": "4",
-          "Df": "2",
-          "Re": "5",
-          "Arm": "3"
-        },
-        "RuleIds": {}
+        "Id": "statline_1599"
       },
       {
-        "Name": "Rakachit Engineer (3)",
-        "Values": {
-          "At": "1",
-          "Of": "2",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-        }
+        "Id": "statline_1600"
       },
       {
-        "Name": "Chassis",
-        "Values": {
-          "At": "0",
-          "Of": "0",
-          "St": "5",
-          "AP": "2",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-grind_attack": "Grind Attack (D6+1, Str D6+1, AP 3, Lightning Attacks, Unmodifiable)",
-          "vs-darkstone_generator": "Darkstone Generator"
-        }
+        "Id": "statline_1601"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f98790d8280c4b274df",
     "Name": "Thunder Brutes",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-shield": "Shield",      
-      "vs-cohort_coordination": "Cohort Coordination",
-      "vs-jezail": "Jezail (4+)"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "6",
+    "Children": [
       {
-        "Name": "Thunder Brutes",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous"          
-        }
+        "Id": "statline_1602"
       },
       {
-        "Name": "Thunder Brutes",
-        "Values": {
-          "HP": "3",
-          "Df": "4",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1603"
       },
       {
-        "Name": "Thunder Brute",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "vs-cohort_coordination": "Cohort Coordination",
-          "vs-jezail": "Jezail (4+)"
-        }
+        "Id": "statline_1604"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f99790d8280c4b2752b",
     "Name": "Ignifier Grenadiers",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "vs-life_is_cheap": "Life is Cheap",      
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-skirmisher": "Skirmisher",
-      "rulebook-hard_target": "Hard Target (1)",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "vs-deepfire_grenades": "Deepfire Grenades (5+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
       {
-        "Name": "Ignifier Grenadiers",
-        "Values": {
-          "Ad": "5",
-          "Ma": "5",
-          "Di": "6",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "vs-life_is_cheap": "Life is Cheap",      
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-skirmisher": "Skirmisher"
-        }
+        "Id": "statline_1605"
       },
       {
-        "Name": "Ignifier Grenadiers",
-        "Values": {
-          "HP": "1",
-          "Df": "3",
-          "Re": "2",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)",
-          "rulebook-hard_target": "Hard Target (1)"
-        }
+        "Id": "statline_1606"
       },
       {
-        "Name": "Ignifier Grenadier",
-        "Values": {
-          "At": "1",
-          "Of": "4",
-          "St": "3",
-          "AP": "0",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "vs-deepfire_grenades": "Deepfire Grenades (5+)"
-        }
+        "Id": "statline_1607"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "20",
-        "length": "20"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f99790d8280c4b27521",
     "Name": "Experimental Weapon Teams",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-light_troops": "Light Troops",
-      "vs-unit_of_artillery": "Unit of Artillery",
-      "rulebook-shield": "Shield",
-      "vs-jezail": "Jezail (4+)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
       {
-        "Name": "Experimental Weapon Teams",
-        "Values": {
-          "Ad": "5",
-          "Ma": "4",
-          "Di": "5",
-          "Hgt": "1"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-light_troops": "Light Troops",
-          "vs-unit_of_artillery": "Unit of Artillery"
-        }
+        "Id": "statline_1608"
       },
       {
-        "Name": "Experimental Weapon Teams",
-        "Values": {
-          "HP": "3",
-          "Df": "2",
-          "Re": "2",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-shield": "Shield"
-        }
+        "Id": "statline_1609"
       },
       {
-        "Name": "Exp. Weapon Team",
-        "Values": {
-          "At": "2",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "vs-jezail": "Jezail (4+)"
-        }
+        "Id": "statline_1610"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "25",
-        "length": "50"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f99790d8280c4b2752e",
     "Name": "Vermin Artillery",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-emplacement": "Emplacement",
-      "rulebook-solitary": "Solitary",
-      "vs-tracking_telescope": "Tracking Telescope",
-      "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-hit roll)",
-      "vs-skorchit_ordnance": "Skorchit Ordnance (5+)"
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "15",
+    "Children": [
       {
-        "Name": "Vermin Artillery",
-        "Values": {
-          "Ad": "0",
-          "Ma": "5",
-          "Di": "6",
-          "Hgt": "3"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-emplacement": "Emplacement",
-          "rulebook-solitary": "Solitary",
-          "vs-tracking_telescope": "Tracking Telescope"
-        }
+        "Id": "statline_1611"
       },
       {
-        "Name": "Vermin Artillery",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "4",
-          "Arm": "0"
-        },
-        "RuleIds": {}
+        "Id": "statline_1612"
       },
       {
-        "Name": "Crew",
-        "Values": {
-          "At": "3",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "vs-maniacal_enthusiasm": "Maniacal Enthusiasm (To-hit roll)",
-          "vs-skorchit_ordnance": "Skorchit Ordnance (5+)"
-        }
+        "Id": "statline_1613"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "75",
-        "length": "75"
-      }
-    }
-  },
-  {
-    "Id": "68357f99790d8280c4b2753a",
-    "Name": "Stygian Earthbreaker",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
-      "vs-drill_down": "Drill Down!",
-      "rulebook-strider": "Strider",
-      "rulebook-stubborn": "Stubborn",
-      "rulebook-terror": "Terror",
-      "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
-      "rulebook-grind_attack": "Grind Attack (3D3)"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Stygian Earthbreaker",
-        "Values": {
-          "Ad": "6",
-          "Ma": "3",
-          "Di": "6",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "rulebook-ambush": "Ambush (Terrain Feature with a friendly Tunnel Marker)",
-          "vs-drill_down": "Drill Down!",
-          "rulebook-strider": "Strider",
-          "rulebook-stubborn": "Stubborn",
-          "rulebook-terror": "Terror"
-        }
-      },
-      {
-        "Name": "Stygian Earthbreaker",
-        "Values": {
-          "HP": "5",
-          "Df": "1",
-          "Re": "5",
-          "Arm": "5"
-        },
-        "RuleIds": {}
-      },
-      {
-        "Name": "Stygian Earthbreaker",
-        "Values": {
-          "At": "0",
-          "Of": "0",
-          "St": "6",
-          "AP": "4",
-          "Ag": "2"
-        },
-        "RuleIds": {
-          "rulebook-devastating_charge": "Devastating Charge (+10 Agi)",
-          "rulebook-grind_attack": "Grind Attack (3D3)"          
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
-  },
-  {
-    "Id": "68357f99790d8280c4b27537",
-    "Name": "Dreadmill Chariots",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-insignificant": "Insignificant",
-      "rulebook-light_troops": "Light Troops",
-      "rulebook-swiftstride": "Swiftstride",
-      "vs-unstable_engines": "Unstable Engines",
-      "rulebook-weakness": "Weakness (Flaming Attacks)",
-      "rulebook-pistol": "Pistol (4+)",
-      "rulebook-impact_hits": "Impact Hits (D6)"
-      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
-      {
-        "Name": "Dreadmill Chariots",
-        "Values": {
-          "Ad": "D6+7",
-          "Ma": "5",
-          "Di": "6",
-          "Hgt": "4"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-insignificant": "Insignificant",
-          "rulebook-light_troops": "Light Troops",
-          "rulebook-swiftstride": "Swiftstride",
-          "vs-unstable_engines": "Unstable Engines"
-        }
-      },
-      {
-        "Name": "Dreadmill Chariots",
-        "Values": {
-          "HP": "3",
-          "Df": "2",
-          "Re": "4",
-          "Arm": "3"
-        },
-        "RuleIds": {
-          "rulebook-weakness": "Weakness (Flaming Attacks)"
-        }
-      },
-      {
-        "Name": "Dreadmill Driver",
-        "Values": {
-          "At": "1",
-          "Of": "3",
-          "St": "3",
-          "AP": "0",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-pistol": "Pistol (4+)"
-        }
-      },
-      {
-        "Name": "Chassis",
-        "Values": {
-          "At": "0",
-          "Of": "0",
-          "St": "5",
-          "AP": "2",
-          "Ag": "4"
-        },
-        "RuleIds": {
-          "rulebook-impact_hits": "Impact Hits (D6)"
-        }
-      }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
-      }
-    }
+    ]
   },
   {
     "Id": "68357f99790d8280c4b27532",
     "Name": "Arena Beast",
-    "Attributes": {},
-    "AttributeLists": {},
-    "RuleIds": {
-      "vs-callous": "Callous",
-      "rulebook-fearless": "Fearless",
-      "rulebook-solitary": "Solitary",
-      "rulebook-swiftstride": "Swiftstride",
-      "rulebook-terror": "Terror",
-      "rulebook-regeneration": "Regeneration (5+)",
-      "rulebook-stomp_attack": "Stomp Attack (D6)",
-      "rulebook-halberd": "Halberd"      
-    },
-    "EquipmentIds": [],
-    "OptionListIds": [],
-    "Statlines": [
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
       {
-        "Name": "Arena Beast",
-        "Values": {
-          "Ad": "6",
-          "Ma": "6",
-          "Di": "6",
-          "Hgt": "5"
-        },
-        "RuleIds": {
-          "vs-callous": "Callous",
-          "rulebook-fearless": "Fearless",
-          "rulebook-solitary": "Solitary",
-          "rulebook-swiftstride": "Swiftstride",
-          "rulebook-terror": "Terror"
-        }
+        "Id": "statline_1614"
       },
       {
-        "Name": "Arena Beast",
-        "Values": {
-          "HP": "7",
-          "Df": "3",
-          "Re": "5",
-          "Arm": "2"
-        },
-        "RuleIds": {
-          "rulebook-regeneration": "Regeneration (5+)"
-        }
+        "Id": "statline_1615"
       },
       {
-        "Name": "Arena Beast",
-        "Values": {
-          "At": "2D3+1",
-          "Of": "3",
-          "St": "7",
-          "AP": "3",
-          "Ag": "3"
-        },
-        "RuleIds": {
-          "rulebook-stomp_attack": "Stomp Attack (D6)"
-        }
+        "Id": "statline_1616"
       },
       {
-        "Name": "Pitmaster",
-        "Values": {
-          "At": "3",
-          "Of": "4",
-          "St": "4",
-          "AP": "1",
-          "Ag": "5"
-        },
-        "RuleIds": {
-          "rulebook-halberd": "Halberd"
-        }
+        "Id": "statline_1617"
       }
-    ],
-    "Base": {
-      "Shape": "square",
-      "Size": {
-        "width": "50",
-        "length": "100"
+    ]
+  },
+  {
+    "Id": "68357f99790d8280c4b27537",
+    "Name": "Dreadmill Chariots",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
+      {
+        "Id": "statline_1618"
+      },
+      {
+        "Id": "statline_1619"
+      },
+      {
+        "Id": "statline_1620"
+      },
+      {
+        "Id": "statline_1621"
       }
-    }
+    ]
+  },
+  {
+    "Id": "68357f99790d8280c4b2753a",
+    "Name": "Stygian Earthbreaker",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
+      {
+        "Id": "statline_1622"
+      },
+      {
+        "Id": "statline_1623"
+      },
+      {
+        "Id": "statline_1624"
+      }
+    ]
   }
 ]
