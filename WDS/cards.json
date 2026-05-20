@@ -269,7 +269,7 @@
     "Type": "Card",
     "Attributes": {
       "Level": "1",
-      "CastingValue": "8",
+      "CastingValue": "9",
       "Range": "18",
       "Duration": "1 Turn",
       "Type": "Augment, Replicable"
@@ -360,6 +360,16 @@
     }
   },
   {
+    "Id": "duality/cosmology",
+    "Name": "Duality",
+    "Type": "Card",
+    "Attributes": {},
+    "Description": "All Cosmology spells are divided into two versions, representing opposing aspects: Cosmos and Chaos\n\nWhen casting a Cosmology spell, always declare which version of the spell you are using, and substitute the square brackets ([α]) with the content listed in the table at the bottom of each Spell Card corresponding to the chosen version (Cosmos or Chaos).",
+    "UIConfig": {
+      "Color": "#87A6EB"
+    }
+  },
+  {
     "Id": "altered sight/cosmology",
     "Name": "Altered Sight",
     "Type": "Card",
@@ -434,7 +444,7 @@
       "Duration": "1 Turn",
       "Type": "Universal"
     },
-    "Description": "Melee Attacks [α] the target can never hit nor wound on better than 4..\n\n\tCosmos: [α]: allocated against\n\n\tChaos: [α]: allocated by",
+    "Description": "Melee Attacks [α] the target can never hit nor wound on better than 4.\n\n\tCosmos: [α]: allocated against\n\n\tChaos: [α]: allocated by",
     "UIConfig": {
       "Color": "#87A6EB"
     }
@@ -514,7 +524,7 @@
       "Duration": "Instant",
       "Type": "Damage, Hex, Missile"
     },
-    "Description": "The target suffers a number of hits equal to the number of Magic Dice on this turn's Flux Card.\nThose hits are resolved with Str4, AP2, and Magical Attacks.",
+    "Description": "The target suffers a number of hits equal to the number of Magic Dice on this turn's Flux Card.\nThose hits are resolved with Str 4, AP 2, and Magical Attacks.",
     "UIConfig": {
       "Color": "#78D1EB"
     }
@@ -594,7 +604,7 @@
       "Duration": "1 Turn",
       "Type": "Hex"
     },
-    "Description": "* Alternatively, the Range can be set to 6\" and be measured from a Water Terrain Feature.\n\nAll units within 12″ of the target when Casting or Shooting suffer a -2 modifier to their Casting Rolls and a -1 to hit with Shooting Attacks.",
+    "Description": "* Alternatively, the Range can be set to 6\" and be measured from a Water Terrain Feature.\n\nAll units within 12\" of the target when the spell is cast suffer a −2 modifier to their Casting Rolls except spells with Augment and a −1 to hit with Shooting Attacks.",
     "UIConfig": {
       "Color": "#ADD49C"
     }
@@ -758,6 +768,16 @@
       "Color": "#E35CCE"
     }
   },
+  {
+    "Id": "the sacrifice/occultism",
+    "Name": "The Sacrifice",
+    "Type": "Card",
+    "Attributes": {},
+    "Description": "Before casting any Occultism spell, the Caster may select a friendly unit within 18\": this unit loses a number of Health Points equal to 9 − its unmodified Discipline, to a minimum of 1.\nNo Health Pool can be chosen more than once per Magic Phase.\nIf The Sacrifice was performed, the Range of the spell is increased by +6\".",
+    "UIConfig": {
+      "Color": "#E35CCE"
+    }
+  },    
   {
     "Id": "blood curse/occultism",
     "Name": "Blood Curse",
@@ -1030,6 +1050,16 @@
     }
   },
   {
+    "Id": "divine intervention/thaumaturgy",
+    "Name": "Divine Intervention",
+    "Type": "Card",
+    "Attributes": {},
+    "Description": "During casting of a Thaumaturgy spell 'Spell Effect' (5.A Casting Spells - 6), first roll a D6 and apply the corresponding effect (if any) either 1D6 or 2D6:\n\n • '5' or '6': apply the 'Blessing' effect (marked with a '*').\n\n • '1': apply the 'Admonition' effect (marked with a '×').",
+    "UIConfig": {
+      "Color": "#57996F"
+    }
+  },
+  {
     "Id": "smite the unbeliever/thaumaturgy",
     "Name": "Smite the Unbeliever",
     "Type": "Card",
@@ -1147,7 +1177,7 @@
     "Type": "Card",
     "Attributes": {
       "Level": "2",
-      "CastingValue": "8",
+      "CastingValue": "5",
       "Range": "24",
       "Duration": "1 Turn",
       "Type": "Augment *"
@@ -1402,7 +1432,7 @@
     "Attributes": {
       "Level": "H",
       "CastingValue": "8",
-      "Range": "24",
+      "Range": "18",
       "Duration": "1 Turn",
       "Type": "Augment"
     },
@@ -1579,7 +1609,7 @@
       "Duration": "Instant",
       "Type": "Damage, Hex, Missile"
     },
-    "Description": "The model can cast Fate's Judgement (Divination) as a Bound Spell.\n\nThe target suffers a number of hits equal to the number of Magic Dice on this turn’s Flux Card. Those hits are resolved with Str4, AP2, and Magical Attacks.",
+    "Description": "The model can cast Fate's Judgement (Divination) as a Bound Spell.\n\nThe target suffers a number of hits equal to the number of Magic Dice on this turn’s Flux Card. Those hits are resolved with Str 4, AP 2, and Magical Attacks.",
     "UIConfig": {
       "Color": "#D9D9CE"
     }
@@ -1685,7 +1715,7 @@
       "Duration": "1 Turn",
       "Type": "Hex"
     },
-    "Description": "The model can cast Veil of Mist (Druidism) as a Bound Spell.\n\n* Alternatively, the Range can be set to 6″ and be measured from a Water Terrain Feature.\n\nAll units within 12″ of the target when Casting or Shooting suffer a -2 modifier to their Casting Rolls and a -1 to hit with Shooting Attacks.",
+    "Description": "The model can cast Veil of Mist (Druidism) as a Bound Spell.\n\n* Alternatively, the Range can be set to 6″ and be measured from a Water Terrain Feature.\n\nAll units within 12\" of the target when the spell is cast suffer a −2 modifier to their Casting Rolls except spells with Augment and a −1 to hit with Shooting Attacks.",
     "UIConfig": {
       "Color": "#D9D9CE"
     }
@@ -1781,7 +1811,7 @@
       "Duration": "Instant",
       "Type": "Damage, Hex, Missile"
     },
-    "Description": "The model can cast Fate's Judgement (Divination) as a Bound Spell.\n\nThe target suffers a number of hits equal to the number of Magic Dice on this turn's Flux Card. Those hits are resolved with Str4, AP2, and Magical Attacks.",
+    "Description": "The model can cast Fate's Judgement (Divination) as a Bound Spell.\n\nThe target suffers a number of hits equal to the number of Magic Dice on this turn's Flux Card. Those hits are resolved with Str 4, AP 2, and Magical Attacks.",
     "UIConfig": {
       "Color": "#D9D9CE"
     }
@@ -2034,7 +2064,7 @@
       "Level": "",
       "Duration": "One Phase"
     },
-    "Description": "One use only. Duration: One Phase\n Can be activated during the opponent’s 'Siphon the Veil' (Magic Phase, step 2).\nWhen activated, choose a Caster and select one of their spells (Bound or Learned): the chosen Caster cannot voluntarily cast the selected instance of this spell, e.g. if a caster has the same spell more than one time, only a single instance cannot be cast, and this has no effect on Magical Mishap."
+    "Description": "One use only. Duration: One Phase\nCan be activated during the opponent’s 'Siphon the Veil' (Magic Phase, step 2).\nWhen activated, choose a Caster and select one of their spells (Bound or Learned): the chosen Caster cannot voluntarily cast the selected instance of this spell, e.g. if a caster has the same spell more than one time, only a single instance cannot be cast, and this has no effect on Magical Mishap."
   },
   {
     "Id": "scroll of draining/potions & scrolls",
@@ -2128,7 +2158,7 @@
   },
   {
     "Id": "ong - gnasher bait/potions & scrolls",
-    "Name": "ONG - Gnasher Bait",
+    "Name": "OnG - Gnasher Bait",
     "Type": "Card",
     "Attributes": {
       "Level": "",
