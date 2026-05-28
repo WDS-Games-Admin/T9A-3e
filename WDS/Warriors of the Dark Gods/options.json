@@ -60,16 +60,6 @@
     "Type": 0
   },
   {
-    "Id": "c0e1c834-4f7f-4f0e-a7d1-72a1a9bc9ab6",
-    "Name": "Monstrous Familiar",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "al-monstrous_familiar"
-      }
-    ]
-  },
-  {
     "Id": "e5ae8f10-bf7e-48d2-b7e8-85c0c8d41e18",
     "Name": "Skinning Lash",
     "Type": 1,
@@ -96,6 +86,48 @@
     "ItemsToAdd": [
       {
         "Id": "al-wings"
+      }
+    ]
+  },
+  {
+    "Id": "416ac8dd-38b8-4d25-9763-c1b88004ecf9",
+    "Name": "Monstrous Familiar",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "rulebook-wizard_conclave",
+        "Type": "Rule"
+      },
+      {
+        "Id": "hellfire/hereditary spells",
+        "Type": "Card"
+      },
+      {
+        "Id": "living steel/alchemy",
+        "Type": "Card"
+      },
+      {
+        "Id": "corruption of tin/alchemy",
+        "Type": "Card"
+      }
+    ]
+  },
+  {
+    "Id": "8e5bacd1-0eb5-4520-bc76-a14579902947",
+    "Name": "Dark Prelate",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "wdg-dark_prelate",
+        "Type": "Rule"
+      },
+      {
+        "Id": "dark prelate - blood curse/bound spells",
+        "Type": "Card"
+      },
+      {
+        "Id": "dark prelate - pentagram of pain/bound spells",
+        "Type": "Card"
       }
     ]
   }
