@@ -1537,6 +1537,21 @@
     }
   },
   {
+    "Id": "altar of undeath - pentagram of pain/bound spells",
+    "Name": "Altar of Undeath - Pentagram of Pain",
+    "Type": "Card",
+    "Attributes": {
+      "Level": "B",
+      "CastingValue": "5",
+      "Range": "12",
+      "Type": "Aura*, Universal"
+    },
+    "Description": "The bearer can cast Pentagram of Pain (Occultism) as a Bound Spell.\n\n* The Caster’s unit is not targeted.\n\nThe target suffers 3 hits with Str 5, AP 2, and Magical Attacks.\nIf this spell causes at least one HP loss, the Caster of the spell Recovers 1 HP.",
+    "UIConfig": {
+      "Color": "#D9D9CE"
+    }
+  },
+  {
     "Id": "aura of power - chalice of gold/bound spells",
     "Name": "Aura of Power - Chalice of Gold",
     "Type": "Card",
@@ -2656,22 +2671,28 @@
     "Name": "Cut the head of the Snake!",
     "Type": "Card",
     "Attributes": {
-      "Level": "4",
+      "Level": "5",
       "Duration": "1 Turn",
       "Type": "Order"
     },
-    "Description": "The target gains First Strike (Hatred (against Characters)) and Fury (Units containing a Character)."
+    "Description": "The target gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against Characters) and <u><link=\"rulebook-fury\">Fury</link></u> (Units containing a Character)",
+    "UIConfig": {
+      "Color": "#FFEDBA"
+    }
   },
   {
     "Id": "aim for the weak spot!/eos - heinrich falkenbach - divine jurisdiction",
     "Name": "Aim for the Weak Spot!",
     "Type": "Card",
     "Attributes": {
-      "Level": "5",
+      "Level": "6",
       "Duration": "1 Turn",
       "Type": "Order"
     },
-    "Description": "If an attack with Aim for the Weak Spot! wounds with a to-wound roll of '6', neither Aegis nor Regeneration Saves can be taken against it, including against models with Aegis or Regeneration Saves with conditional applications."
+    "Description": "If an attack with Aim for the Weak Spot! wounds with a to-wound roll of '6', neither Aegis nor Regeneration Saves can be taken against it, including against models with Aegis or Regeneration Saves with conditional applications.",
+    "UIConfig": {
+      "Color": "#FFEDBA"
+    }
   },
   {
     "Id": "riddle of the lamassu - power/id - riddle of the lamassu",
@@ -2700,7 +2721,7 @@
       "Duration": "1 Turn",
       "Type": "Blessing"
     },
-    "Description": "The target gains Aegis (5+)."
+    "Description": "The target gains Aegis (5+).\n\n\nAdd an additional coloured token next to the spell token.\nKoE player own turn: white token\nOpponent turn: purple token"
   },
   {
     "Id": "orison of s t riking/koe - blessing tokens",
@@ -2711,7 +2732,7 @@
       "Duration": "1 Turn",
       "Type": "Blessing"
     },
-    "Description": "The target gains +2 Off, Magical Attacks, and ignore Parry. Model parts with Mount are not affected."
+    "Description": "The target gains +2 Off, Magical Attacks, and ignore Parry.\nModel parts with Mount are not affected.\n\n\nAdd an additional coloured token next to the spell token.\nKoE player own turn: white token\nOpponent turn: purple token"
   },
   {
     "Id": "orison of discipline/koe - blessing tokens",
@@ -2722,7 +2743,7 @@
       "Duration": "1 Turn",
       "Type": "Blessing"
     },
-    "Description": "The target's Discipline is set to 9."
+    "Description": "The target's Discipline is set to 9.\n\n\nAdd an additional coloured token next to the spell token.\nKoE player own turn: white token\nOpponent turn: purple token"
   },
   {
     "Id": "goblin gardens - field/ong - goblin gardens",
@@ -2910,7 +2931,7 @@
     "Description": "The Shadowslice Stalker gains First Strike (+2 Att), Paired Weapons and Throwing Weapons (2+)."
   },
   {
-    "Id": "Darkstone Rod/vs - the shadowslice stalker's panoply",
+    "Id": "darkstone rod/vs - the shadowslice stalker's panoply",
     "Name": "Darkstone Rod",
     "Type": "Card",
     "Attributes": {
