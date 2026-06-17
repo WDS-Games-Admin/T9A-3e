@@ -2580,16 +2580,29 @@
                "Cha":  "0",
                "Mob":  "0",
                "Dis":  "7",
-               "Hgt":  "1",
+               "Hgt":  "2",
                "Rsr":  "-"
              },
     "Children":  [
              {
                "Id":  "rulebook-emplacement"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2833",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "0",
+               "Dis":  "7",
+               "Hgt":  "3",
+               "Rsr":  "-"
              },
+    "Children":  [
              {
-               "Id":  "koe-trebuchet",
-               "Info":  "(4+)"
+               "Id":  "rulebook-emplacement"
              }
            ]
   },

@@ -1665,6 +1665,29 @@
              }
            ]
   },
+    {
+    "Id":  "statline_2398",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "4",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-emplacement"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             }
+           ]
+  },
   {
     "Id":  "statline_399",
     "Name":  "",
@@ -1687,6 +1710,17 @@
                "Str":  "4",
                "AP":  "1",
                "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
+           ]
   }
 ]
