@@ -2380,7 +2380,7 @@
   },
   {
     "Id":  "statline_712",
-    "Name":  "Gunnery Team\t",
+    "Name":  "Gunnery Team",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  null,
@@ -2398,10 +2398,13 @@
                "Id":  "rulebook-march_and_shoot"
              },
              {
-               "Id":  "id-naphtha_thrower"
+               "Id":  "rulebook-quick_to_fire"
              },
              {
-               "Id":  "rulebook-quick_to_fire"
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -2465,8 +2468,10 @@
                "Id":  "id-higher_calibre"
              },
              {
-               "Id":  "id-naphtha_thrower",
-               "Info":  "(2+)"
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -2586,10 +2591,38 @@
                "Info":  "(3D3)"
              },
              {
-               "Id":  "id-naphtha_thrower"
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+    {
+    "Id":  "statline_1720",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(+1 Str, +1 AP, +10 Agi)"
+             },
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(3D3)"
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },

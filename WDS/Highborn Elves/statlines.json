@@ -205,6 +205,9 @@
     "Children": [
       {
         "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
       }
     ]
   },
@@ -2397,6 +2400,12 @@
       {
         "Id": "he-elven_bolt_thrower",
         "Info": "(3+)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
       }
     ]
   },
@@ -2463,6 +2472,12 @@
     "Children": [
       {
         "Id": "rulebook-light_lance"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
       }
     ]
   },
@@ -2471,8 +2486,11 @@
     "Name": "Chassis",
     "Type": "Statline",
     "Attributes": {
+      "Att": null,
+      "Off": null,
       "Str": "5",
-      "AP": "2"
+      "AP": "2",
+      "Agi": null
     },
     "Children": [
       {

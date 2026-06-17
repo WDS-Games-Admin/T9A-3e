@@ -1130,6 +1130,23 @@
     "Id": "68357f74790d8280c4b24f8e",
     "Name": "Goblin Artillery",
     "Type": "Profile",
+    "BaseId": "15",
+    "Children": [
+      {
+        "Id": "statline_1083"
+      },
+      {
+        "Id": "statline_1084"
+      },
+      {
+        "Id": "statline_1085"
+      }
+    ]
+  },
+  {
+    "Id": "68357f74790d8280c4b24f8f",
+    "Name": "Goblin Artillery",
+    "Type": "Profile",
     "BaseId": "11",
     "Children": [
       {
@@ -1140,6 +1157,9 @@
       },
       {
         "Id": "statline_1085"
+      },
+      {
+        "Id": "ong-skewerer"
       }
     ]
   },
