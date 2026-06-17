@@ -1053,7 +1053,7 @@
     "Id": "de-harpoon_launcher",
     "Name": "Harpoon Launcher",
     "Type": "Rule",
-    "Description": "Aim 3+, Range 18\", Shots 3, Str 6, AP 3, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\nAny unit that suffers one or more hits from this weapon loses <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, until the start of the Active Player’s next Turn."
+    "Description": "Aim 3+, Range 18\", Shots 3, Str 6, AP 3, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\n\nAny unit that suffers one or more hits from this weapon loses <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, and can not regain it in anyway, until the start of the Active Player’s next Turn."
   },
   {
     "Id": "rulebook-emplacement",
@@ -1443,7 +1443,7 @@
     "Id": "he-sky_reaper",
     "Name": "Sky Reaper",
     "Type": "Rule",
-    "Description": "Aim X+, Range 24\", Shots 4, Str 5, AP 3, <u><link=\"rulebook-quick_to_Fire\">Quick to Fire</link></u>"
+    "Description": "Aim X+, Range 24\", Shots 4, Str 5, AP 3, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "he-moonlight_arrows",
@@ -1869,7 +1869,7 @@
     "Id": "ok-thunder_cannon",
     "Name": "Thunder Cannon",
     "Type": "Rule",
-    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, Artillery, Area Attack(1×3), Direct Hit(Str 10, AP 4, Multiple Wounds(D3+1))"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (1×3)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>)"
   },
   {
     "Id": "ok-scratapult",
@@ -2049,7 +2049,7 @@
     "Id": "ong-skewerer",
     "Name": "Skewerer",
     "Type": "Rule",
-    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, <u><link=\"rulebook-area_attack\">Area Attack (1×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>)\nThe model's base is changed to 60×60 mm."
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, <u><link=\"rulebook-area_attack\">Area Attack (1×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>)\n\nThe model's base size is changed to 60×60 mm."
   },
   {
     "Id": "ong-poisoned_spear",
@@ -2859,7 +2859,7 @@
     "Id": "ong-git_launcher",
     "Name": "Git Launcher",
     "Type": "Rule",
-    "Description": "Aim 4+, Range 48\", Shots 1, Str -, AP -, <u><link=\"rulebook-artillery\">Artillery</link></u>\n\nA unit hit by a Git Launcher suffers 2D6 hits with Str 4 and AP 2.\nOn a to-hit roll of '6', you <b>may</b> instead place a Mad Git within 3\" of the target and more than 1\" away from any <u><link=\"rulebook-impassable_terrain\">Impassable Terrain</link></u> and from any other units, following the rules for <u><link=\"rulebook-summoned_units\">Summoned Units</link></u>."
+    "Description": "Aim 4+, Range 48\", Shots 1, Str -, AP -, <u><link=\"rulebook-artillery\">Artillery</link></u>\n\nA unit hit by a <u>Git Launcher</u> suffers 2D6 hits with Str 4 and AP 2.\nOn a to-hit roll of '6', you <b>may</b> instead place a Mad Git within 3\" of the target and more than 1\" away from any <u><link=\"rulebook-impassable_terrain\">Impassable Terrain</link></u> and from any other units, following the rules for <u><link=\"rulebook-summoned_units\">Summoned Units</link></u>."
   },
   {
     "Id": "ong-goblin_gardens",
@@ -3825,7 +3825,7 @@
     "Id": "eos-cannon",
     "Name": "Cannon",
     "Type": "Rule",
-    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (1×3)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>)"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 5, AP 2, <u><link=\"rulebook-area_attack\">Area Attack (1×3)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+1)</link></u>)"
   },
   {
     "Id": "eos-volley_gun",
@@ -5970,16 +5970,16 @@
     "Description": "The model gains +1 Att for each enemy model in contact with it.\nIn addition, when a unit containing this rule charges a unit containing a model with Height 0-2, its Charge Range roll is <b>Maximised</b>."
   },
   {
-    "Id": "dh-flaming_shot",
-    "Name": "Flaming Shot",
+    "Id": "dh-flaming_shots",
+    "Name": "Flaming Shots",
     "Type": "Rule",
     "Description": "The model’s Shooting Attacks become <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>."
   },
   {
     "Id": "dh-rune_crafted",
-    "Name": "Rune Crafted(X)",
+    "Name": "Rune Crafted",
     "Type": "Rule",
-    "Description": "The model’s Shooting Weapon gains Magical Attacks and the effects within brackets:\n   • Dwarf Ballista: +1 to hit towards Fly\n   • Flame Cannon: +1 AP\n   • Dwarf Catapult: +1 Str, +2 AP\n   • Dwarf Cannon: <u><link=\"rulebook-direct_hit\">Direct Hit</link></u>(Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+2)</link></u>) towards Height 5\n   • Organ Gun: +1 to wound"
+    "Description": "The model’s Shooting Weapon gains <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and the effects within brackets:\n\n• Dwarf Ballista: +1 to hit towards Fly\n• Flame Cannon: +1 AP\n• Dwarf Catapult: +1 Str, +2 AP\n• Dwarf Cannon: <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 10, AP 4, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3+2)</link></u>) towards Height 5\n• Organ Gun: +1 to wound"
   },
   {
     "Id": "dh-crag_warden",
@@ -6015,7 +6015,7 @@
     "Id": "dh-dwarf_ballista",
     "Name": "Dwarf Ballista",
     "Type": "Rule",
-    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, <u><link=\"rulebook-area_attack\">Area Attack (1×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6,<u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>)"
+    "Description": "Aim 4+, Range 48\", Shots 1, Str 3, AP 10, <u><link=\"rulebook-area_attack\">Area Attack (1×5)</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (Str 6, <u><link=\"rulebook-multiple_wounds\">Multiple Wounds (D3)</link></u>)"
   },
   {
     "Id": "dh-flame_cannon",
@@ -6027,7 +6027,7 @@
     "Id": "dh-dwarf_catapult",
     "Name": "Dwarf Catapult",
     "Type": "Rule",
-    "Description": "The model's Height is changed to 3.\nAim 4+, Range 48\", Shots 1, Str 7, AP 3, <u><link=\"rulebook-area_attack\">Area Attack (2×2)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (<u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>)"
+    "Description": "The model's Height is changed to 3.\n\nAim 4+, Range 48\", Shots 1, Str 7, AP 3, <u><link=\"rulebook-area_attack\">Area Attack (2×2)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-direct_hit\">Direct Hit</link></u> (<u><link=\"rulebook-multiple_wounds\">Multiple Wounds (2)</link></u>)"
   },
   {
     "Id": "dh-dwarf_cannon",
@@ -8742,60 +8742,6 @@
     "Description": "Additional characteristic on their statline which can interact with some other game effects"
   },
   {
-    "Id": "rule_dwarf_ballista_2c421ab5",
-    "Name": "Dwarf Ballista",
-    "Type": "Rule",
-    "Description": "Dwarf Ballista"
-  },
-  {
-    "Id": "rule_flame_cannon_d632b445",
-    "Name": "Flame Cannon",
-    "Type": "Rule",
-    "Description": "Flame Cannon"
-  },
-  {
-    "Id": "rule_dwarf_catapult_0e6ed3f1",
-    "Name": "Dwarf Catapult",
-    "Type": "Rule",
-    "Description": "Dwarf Catapult"
-  },
-  {
-    "Id": "rule_dwarf_cannon_e7c9aa58",
-    "Name": "Dwarf Cannon",
-    "Type": "Rule",
-    "Description": "Dwarf Cannon"
-  },
-  {
-    "Id": "rule_organ_gun_3bad83d9",
-    "Name": "Organ Gun",
-    "Type": "Rule",
-    "Description": "Organ Gun"
-  },
-  {
-    "Id": "rule_imperial_rocketeer_1b8e9f86",
-    "Name": "Imperial Rocketeer",
-    "Type": "Rule",
-    "Description": "Imperial Rocketeer"
-  },
-  {
-    "Id": "rule_volley_gun_86d887a1",
-    "Name": "Volley Gun",
-    "Type": "Rule",
-    "Description": "Volley Gun"
-  },
-  {
-    "Id": "rule_mortar_90232e67",
-    "Name": "Mortar",
-    "Type": "Rule",
-    "Description": "Mortar"
-  },
-  {
-    "Id": "rule_cannon_22ef5d94",
-    "Name": "Cannon",
-    "Type": "Rule",
-    "Description": "Cannon"
-  },
-  {
     "Id": "rule_frost_phoenix_fc453d98",
     "Name": "Frost Phoenix",
     "Type": "Rule",
@@ -8818,78 +8764,6 @@
     "Name": "Fire Phoenix Warden’s Bond",
     "Type": "Rule",
     "Description": "Fire Phoenix Warden’s Bond"
-  },
-  {
-    "Id": "rule_titan_mortar_14f7a9e5",
-    "Name": "Titan Mortar",
-    "Type": "Rule",
-    "Description": "Titan Mortar"
-  },
-  {
-    "Id": "rule_rocket_battery_1cadebc8",
-    "Name": "Rocket Battery",
-    "Type": "Rule",
-    "Description": "Rocket Battery"
-  },
-  {
-    "Id": "rule_naphtha_thrower_931ebf66",
-    "Name": "Naphtha Thrower",
-    "Type": "Rule",
-    "Description": "Naphtha Thrower"
-  },
-  {
-    "Id": "rule_titan_mortar_14f7a9e5",
-    "Name": "Titan Mortar",
-    "Type": "Rule",
-    "Description": "Titan Mortar"
-  },
-  {
-    "Id": "rule_rocket_battery_1cadebc8",
-    "Name": "Rocket Battery",
-    "Type": "Rule",
-    "Description": "Rocket Battery"
-  },
-  {
-    "Id": "rule_titan_mortar_14f7a9e5",
-    "Name": "Titan Mortar",
-    "Type": "Rule",
-    "Description": "Titan Mortar"
-  },
-  {
-    "Id": "rule_rocket_battery_1cadebc8",
-    "Name": "Rocket Battery",
-    "Type": "Rule",
-    "Description": "Rocket Battery"
-  },
-  {
-    "Id": "rule_scorpion_5d0f5219",
-    "Name": "Scorpion",
-    "Type": "Rule",
-    "Description": "Scorpion"
-  },
-  {
-    "Id": "rule_trebuchet_and_change_its_height_to_3_2fb8d623",
-    "Name": "Trebuchet and change its Height to 3",
-    "Type": "Rule",
-    "Description": "Trebuchet and change its Height to 3"
-  },
-  {
-    "Id": "rule_skewerer_7e193da1",
-    "Name": "Skewerer",
-    "Type": "Rule",
-    "Description": "Skewerer"
-  },
-  {
-    "Id": "rule_git_launcher_ef275917",
-    "Name": "Git Launcher",
-    "Type": "Rule",
-    "Description": "Git Launcher"
-  },
-  {
-    "Id": "rule_splatterer_606c454f",
-    "Name": "Splatterer",
-    "Type": "Rule",
-    "Description": "Splatterer"
   },
     {
         "Id": "rule_tag_beast",

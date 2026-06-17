@@ -1321,7 +1321,16 @@
                "Str":  "4",
                "AP":  "1",
                "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_light_armour"		
+             },
+             {
+               "Id":  "rule_tag_ogre"
              }
+           ]
+
   },
   {
     "Id":  "statline_916",
@@ -1336,10 +1345,10 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1416,7 +1425,12 @@
                "Str":  "2",
                "AP":  "0",
                "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_scrapling"
              }
+           ]
   },
   {
     "Id":  "statline_921",
