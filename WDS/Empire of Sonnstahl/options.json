@@ -132,16 +132,6 @@
     ]
   },
   {
-    "Id": "58081345-c242-4479-8314-6151651fc2a4",
-    "Name": "Horse and Light Troops",
-    "Type": 1
-  },
-  {
-    "Id": "887ae49f-cf35-400a-922e-2048c1b6083b",
-    "Name": "Light Lance and Shield",
-    "Type": 1
-  },
-  {
     "Id": "cbbacede-f1cd-4edb-b379-bf22800534f5",
     "Name": "Long Rifle",
     "Type": 1,
@@ -172,8 +162,22 @@
     ]
   },
   {
-    "Id": "43d380d7-1bd7-4768-91be-09640baa2367",
-    "Name": "Spear & Shield",
-    "Type": 1
+    "Id": "0b1872ab-76a3-497b-abef-6edb216accd2",
+    "Name": "Brace of Pistols and Fire on Impact!",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "eos-brace_of_pistols",
+          "Info": "(4+)"
+      },
+      {
+        "Id": "eos-eos-fire_on_impact"
+      }
+    ]
+  },
+  {
+    "Id": "3a9e4dfa-db90-4667-9e8b-897ee3d9b05c",
+    "Name": "Irregulars",
+    "Type": 3
   }
 ]

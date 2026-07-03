@@ -30,11 +30,6 @@
     "Type": 0
   },
   {
-    "Id": "75d60754-8b5f-4e45-9744-20e878264f58",
-    "Name": "Black Cloaks",
-    "Type": 1
-  },
-  {
     "Id": "382df3fc-40bc-4b98-8d4b-272c68529f37",
     "Name": "Blades of Darag",
     "Type": 1
@@ -50,7 +45,8 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "de-repeater_crossbow"
+        "Id": "de-repeater_crossbow",
+          "Info": "(3+)"
       }
     ]
   },
@@ -60,7 +56,34 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "df-repeater_handbow"
+        "Id": "de-repeater_handbow",
+          "Info": "(4+)"
+      }
+    ]
+  },
+  {
+    "Id": "a987f84b-8fe9-4bdb-ae10-936b8b454129",
+    "Name": "Repeater Handbow and Poison Attacks",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "de-repeater_handbow",
+          "Info": "(4+)"
+      },
+      {
+        "Id": "rulebook-poison_attacks",
+          "Info": "(Shooting)"
+      }
+    ]
+  },
+  {
+    "Id": "82921d62-760c-425b-b84a-2d0f276e64b9",
+    "Name": "Vanguard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-vanguard",
+          "Info": "(3\" Mob)"
       }
     ]
   },
@@ -69,10 +92,6 @@
     "Name": "Warlock Acolytes",
     "Type": 7,
     "ExtraItems": [
-      {
-        "Id": "rulebook-wizard_conclave",
-        "Type": "Rule"
-      },
       {
         "Id": "curse of the phantom queen/hereditary spells",
         "Type": "Card"
@@ -90,5 +109,25 @@
         "Type": "Card"
       }      
     ]
+  },
+  {
+    "Id": "82528c90-fc87-4820-8787-2a2cb32a6f4a",
+    "Name": "Temple Acolytes",
+    "Type": 3	 
+  },
+  {
+    "Id": "2a1def6d-507a-492a-a050-0247606fe406",
+    "Name": "Altar of Nabh",
+    "Type": 3   
+  },
+  {
+    "Id": "16602caa-2d45-4729-b590-a2036fe87a87",
+    "Name": "Altar of Tila",
+    "Type": 3    
+  },
+  {
+    "Id": "1f78713a-f6d0-4f3f-8c37-6980663bb5e5",
+    "Name": "Altar of Yema",
+    "Type": 3    
   }
 ]

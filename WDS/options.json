@@ -20,16 +20,6 @@
     ]
   },
   {
-    "Id": "189d97d0-5bae-4c61-a112-b3e51ff04318",
-    "Name": "Standard",
-    "Type": 4,
-    "ItemsToAdd": [
-      {
-        "Id": "standard_bearer"
-      }
-    ]
-  },
-  {
     "Id": "8c3953a8-f297-4ea5-aebf-5983fff4f53a",
     "Name": "Elven Horse",
     "Type": 0
@@ -145,6 +135,16 @@
     ]
   },
   {
+    "Id": "00b81bbf-1a60-4828-9410-6f9b106192a8",
+    "Name": "Scout",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-scout"
+      }
+    ]
+  },
+  {
     "Id": "0a524290-f2b9-4dcd-b206-95973c7d7fc6",
     "Name": "Shield",
     "Type": 1,
@@ -167,7 +167,15 @@
   {
     "Id": "70740192-9f3a-48b3-bb84-44e791f24665",
     "Name": "Spear and Shield",
-    "Type": 1
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-spear"
+      },
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
   },
   {
     "Id": "ccec9b8d-aec7-42b3-a393-6bd00769e4bd",

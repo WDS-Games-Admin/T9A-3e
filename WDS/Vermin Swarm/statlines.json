@@ -24,16 +24,10 @@
                "Id":  "rulebook-general"
              },
              {
-               "Id":  "vs-girded_by_acratos"
-             },
-             {
                "Id":  "vs-imperator"
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "vs-pontifex_maximus"
              },
              {
                "Id":  "rulebook-solitary"
@@ -88,9 +82,153 @@
              },
              {
                "Id":  "rule_tag_caelysian_pantheon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3518",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "vs-callous"
              },
              {
-               "Id":  "rule_tag_supernal"
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-general"
+             },
+             {
+               "Id":  "vs-imperator"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-wizard_adept"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4519",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "6",
+               "Res":  "5",
+               "Arm":  "2",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-regeneration",
+               "Info":  "(4+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_5519",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "6",
+               "Res":  "5",
+               "Arm":  "4",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-magic_resistance",
+               "Info":  "(2)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_5520",
+    "Name":  "Ruinous Dictator",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "6",
+               "Str":  "5",
+               "AP":  "3",
+               "Agi":  "8"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_caelysian_pantheon"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_6520",
+    "Name":  "Ruinous Dictator",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "6",
+               "Str":  "5",
+               "AP":  "3",
+               "Agi":  "8"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rulebook-multiple_wounds",
+                 "Info": "(D3, Standard Melee Attacks)"
+             }, 
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_caelysian_pantheon"
              }
            ]
   },
@@ -107,13 +245,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "vs-callous"
-             },
-             {
-               "Id":  "rulebook-captain"
              },
              {
                "Id":  "rulebook-commanding_presence",
@@ -156,10 +288,10 @@
                "Info":  "(4+)"
              },
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -176,20 +308,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "vs-callous"
-             },
-             {
-               "Id":  "rulebook-captain"
              },
              {
                "Id":  "rulebook-commanding_presence",
                "Info":  "(6\")"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-stand_behind"
@@ -221,7 +344,7 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -278,11 +401,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
-             }
+               "Id":  "rule_tag_vermin"
+             }             
            ]
   },
   {
@@ -302,9 +425,6 @@
              },
              {
                "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -316,7 +436,7 @@
                "HP":  "3",
                "Def":  "5",
                "Res":  "5",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "-"
              },
     "Children":  [
@@ -371,9 +491,6 @@
                "Info":  "(Blackfur Veterans, Bloodfur Praetorians, Vermin Brutes, Vermin Legionaries)"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-terror"
              },
              {
@@ -412,6 +529,9 @@
     "Children":  [
              {
                "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -420,11 +540,11 @@
     "Name":  "Chassis",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "-",
-               "Off":  "-",
+               "Att":  null,
+               "Off":  null,
                "Str":  "5",
                "AP":  "2",
-               "Agi":  "-"
+               "Agi":  null
              },
     "Children":  [
              {
@@ -449,16 +569,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "vs-callous"
-             },
-             {
-               "Id":  "vs-fetthis_fleshmaster"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -499,10 +610,10 @@
                "Info":  "(3+)"
              },
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -519,19 +630,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "vs-callous"
-             },
-             {
-               "Id":  "vs-fetthis_fleshmaster"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -543,7 +642,7 @@
                "HP":  "3",
                "Def":  "4",
                "Res":  "5",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "-"
              },
     "Children":  [
@@ -572,9 +671,6 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -640,9 +736,6 @@
              },
              {
                "Id":  "rulebook-war_platform"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -680,9 +773,6 @@
                "Id":  "rulebook-great_weapon"
              },
              {
-               "Id":  "vs-whispering_bell"
-             },
-             {
                "Id":  "rule_tag_vermin"
              }
            ]
@@ -692,15 +782,176 @@
     "Name":  "Chassis",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "-",
-               "Off":  "-",
+               "Att":  null,
+               "Off":  null,
                "Str":  "5",
                "AP":  "2",
-               "Agi":  "-"
+               "Agi":  null
              },
     "Children":  [
              {
                "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3545",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "3",
+               "Dis":  "5",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-channel",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "vs-callous"
+             },
+             {
+               "Id":  "vs-cutting_corners"
+             },
+             {
+               "Id":  "vs-diseased"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Plague Cultists)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-war_platform"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3547",
+    "Name":  "Acolyte (8)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-great_weapon"
+             },
+             {
+               "Id":  "rulebook-poison_attacks"
+             },
+             {
+               "Id":  "rule_tag_vermin"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3548",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+                 "Info": "(+10 Agi)"
+             }, 
+             {
+               "Id":  "rulebook-grind_attack",
+                 "Info": "(D3+1)"
+             }, 
+             {
+               "Id":  "rule_tag_construct"
+             },             
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4545",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "3",
+               "Dis":  "5",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-channel",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "vs-callous"
+             },
+             {
+               "Id":  "vs-cutting_corners"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Blackfur Veterans, Vermin Legionaries)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-musician"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-war_platform"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4548",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+                 "Info": "(D3+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -860,9 +1111,6 @@
              },
              {
                "Id":  "rule_tag_vermin"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -891,6 +1139,9 @@
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1029,13 +1280,13 @@
                "Info":  "(4+)"
              },
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_legionary"
              },
              {
                "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_legionary"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -1087,6 +1338,15 @@
     "Children":  [
              {
                "Id":  "vs-cohort_coordination"
+             },
+             {
+               "Id":  "rule_tag_legionary"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -1149,13 +1409,13 @@
                "Id":  "rulebook-halberd"
              },
              {
-               "Id":  "rule_tag_vermin"
-             },
-             {
                "Id":  "rule_tag_legionary"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -1270,9 +1530,6 @@
     "Children":  [
              {
                "Id":  "rulebook-zeal"
-             },
-             {
-               "Id":  "vs-bloodpox_blades"
              },
              {
                "Id":  "rule_tag_cult_of_errahman"
@@ -1621,10 +1878,10 @@
                "Id":  "rulebook-paired_weapons"
              },
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_mutant"
              },
              {
-               "Id":  "rule_tag_mutant"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -1682,13 +1939,13 @@
                "Id":  "rulebook-paired_weapons"
              },
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_metal_armour"
              },
              {
                "Id":  "rule_tag_mutant"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -1739,8 +1996,8 @@
     "Name":  "Legionary Drill Team",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "0",
-               "Off":  "0",
+               "Att":  null,
+               "Off":  null,
                "Str":  "6",
                "AP":  "3",
                "Agi":  "4"
@@ -1778,10 +2035,10 @@
                "Id":  "vs-callous"
              },
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "vs-life_is_cheap"
              },
              {
-               "Id":  "vs-life_is_cheap"
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-skirmisher"
@@ -1825,10 +2082,6 @@
                "Id":  "rulebook-paired_weapons"
              },
              {
-               "Id":  "rulebook-throwing_weapons",
-               "Info":  "(4+)"
-             },
-             {
                "Id":  "rule_tag_vermin"
              }
            ]
@@ -1850,6 +2103,9 @@
              },
              {
                "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1890,8 +2146,8 @@
     "Name":  "Chassis",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "0",
-               "Off":  "0",
+               "Att":  null,
+               "Off":  null,
                "Str":  "5",
                "AP":  "2",
                "Agi":  "2"
@@ -1906,6 +2162,9 @@
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1936,12 +2195,7 @@
                "Res":  "5",
                "Arm":  "2",
                "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
              }
-           ]
   },
   {
     "Id":  "statline_1604",
@@ -1959,17 +2213,13 @@
                "Id":  "vs-cohort_coordination"
              },
              {
-               "Id":  "vs-jezail",
-               "Info":  "(4+)"
-             },
-             {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_metal_armour"
              },
              {
                "Id":  "rule_tag_mutant"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -2012,13 +2262,13 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-weakness",
-               "Info":  "(Flaming Attacks)"
-             },
-             {
                "Id":  "rulebook-hard_target",
                "Info":  "(1)"
-             }
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
+             }             
            ]
   },
   {
@@ -2038,10 +2288,10 @@
                "Info":  "(5+)"
              },
              {
-               "Id":  "rule_tag_vermin"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -2078,12 +2328,7 @@
                "Res":  "2",
                "Arm":  "2",
                "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
              }
-           ]
   },
   {
     "Id":  "statline_1610",
@@ -2098,8 +2343,10 @@
              },
     "Children":  [
              {
-               "Id":  "vs-jezail",
-               "Info":  "(4+)"
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -2233,9 +2480,6 @@
              },
              {
                "Id":  "rule_tag_mutant"
-             },
-             {
-               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -2253,6 +2497,66 @@
     "Children":  [
              {
                "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_vermin"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3614",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "3D6",
+               "Mob":  "3D6",
+               "Dis":  "6",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "vs-callous"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-random_movement",
+                 "Info": "(3D6)"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3616",
+    "Name":  "Underworld Beast",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4D3",
+               "Off":  "3",
+               "Str":  "7",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mutant"
              }
            ]
   },
@@ -2279,6 +2583,9 @@
              },
              {
                "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2321,6 +2628,9 @@
              {
                "Id":  "rulebook-pistol",
                "Info":  "(4+)"
+             },
+             {
+               "Id":  "rule_tag_vermin"
              }
            ]
   },
@@ -2342,6 +2652,9 @@
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -2363,6 +2676,9 @@
              },
              {
                "Id":  "vs-drill_down"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-strider"
@@ -2392,8 +2708,8 @@
     "Name":  "Stygian Earthbreaker",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "0",
-               "Off":  "0",
+               "Att":  null,
+               "Off":  null,
                "Str":  "6",
                "AP":  "4",
                "Agi":  "2"

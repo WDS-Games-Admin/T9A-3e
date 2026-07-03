@@ -12,11 +12,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-disciplined"
-             },
-             {
                "Id":  "dh-ancient_grudge",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-disciplined"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -77,14 +77,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-disciplined"
-             },
-             {
                "Id":  "dh-ancient_grudge",
                "Info":  "(1)"
              },
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "rulebook-disciplined"
              }
            ]
   },
@@ -120,6 +117,9 @@
              {
                "Id":  "rulebook-devastating_charge",
                "Info":  "(+1 Str, +1 AP)"
+             },             
+             {
+               "Id":  "rule_tag_dwarf"
              },
              {
                "Id":  "rule_tag_mount"
@@ -139,24 +139,21 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-disciplined"
-             },
-             {
                "Id":  "dh-ancient_grudge",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-disciplined"
              },
              {
                "Id":  "rulebook-exclusive",
                "Info":  "(Height 1)"
              },
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "rulebook-war_platform"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -212,12 +209,6 @@
     "Children":  [
              {
                "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-attached"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -279,15 +270,6 @@
     "Children":  [
              {
                "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -321,11 +303,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-channel",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-magic_resistance",
@@ -394,6 +376,9 @@
                "Info":  "(Field Artillery)"
              },
              {
+               "Id":  "dh-entrench"
+             },
+             {
                "Id":  "rulebook-light_troops"
              }
            ]
@@ -452,19 +437,19 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-dying_blow"
              },
              {
-               "Id":  "rulebook-unstable"
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-stubborn"
              },
              {
-               "Id":  "rulebook-fearless"
+               "Id":  "rulebook-unstable"
              },
              {
                "Id":  "rulebook-vanguard"
@@ -584,12 +569,6 @@
              },
              {
                "Id":  "rule_tag_dwarf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             },
-             {
-               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -608,6 +587,9 @@
              {
                "Id":  "rulebook-devastating_charge",
                "Info":  "(+1 Str, +1 AP)"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
              },
              {
                "Id":  "rule_tag_mount"
@@ -657,7 +639,7 @@
                "Def":  "4",
                "Res":  "5",
                "Arm":  "4",
-               "Aeg":  "3"
+               "Aeg":  "-"
              },
     "Children":  [
              {
@@ -768,6 +750,10 @@
              },
     "Children":  [
              {
+               "Id":  "rulebook-beacon_of_courage",
+                 "Info": "6\""
+             },
+             {
                "Id":  "rulebook-fearless"
              }
            ]
@@ -859,8 +845,10 @@
                "Info":  "(+1 Str, +1 AP)"
              },
              {
-               "Id":  "rulebook-crossbow",
-               "Info":  "(4+)"
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1187,6 +1175,9 @@
              },
              {
                "Id":  "dh-runic_engravings"
+             },
+             {
+               "Id":  "rulebook-solitary"
              }
            ]
   },
@@ -1241,13 +1232,13 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
                "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
              }
            ]
   },
@@ -1277,6 +1268,12 @@
     "Children":  [
              {
                "Id":  "rulebook-paired_weapons"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1293,12 +1290,12 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-grind_attack",
-               "Info":  "(3D3)"
-             },
-             {
                "Id":  "rulebook-devastating_charge",
                "Info":  "(+10 Agi)"
+             },
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(3D3)"
              },
              {
                "Id":  "dh-forge_repeater",
@@ -1359,9 +1356,6 @@
              {
                "Id":  "rulebook-devastating_charge",
                "Info":  "(+1 Str, +1 AP)"
-             },
-             {
-               "Id":  "rulebook-great_weapon"
              },
              {
                "Id":  "rule_tag_dwarf"
@@ -1442,7 +1436,13 @@
                "Id":  "rulebook-great_weapon"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1459,17 +1459,17 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-scout"
-             },
-             {
-               "Id":  "rulebook-vanguard"
-             },
-             {
                "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-scout"
              },
              {
                "Id":  "rulebook-strider",
                "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-vanguard"
              }
            ]
   },
@@ -1596,16 +1596,13 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
                "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "dh-shrapnel_grenades"
+               "Id":  "rulebook-swiftstride"
              }
            ]
   },
@@ -1634,11 +1631,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-paired_weapons"
-             },
-             {
                "Id":  "dh-forge_repeater",
                "Info":  "(4+)"
+             },
+             {
+               "Id":  "rulebook-paired_weapons"
              }
            ]
   },

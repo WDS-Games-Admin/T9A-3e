@@ -5,6 +5,16 @@
     "Type": 0
   },
   {
+    "Id": "df6918b1-a463-46ea-8fca-fa298c9f8d44",
+    "Name": "Taurukh Ritual",
+    "Type": 0
+  },
+  {
+    "Id": "db076c2d-6547-4c16-ba93-475c45c5bda9",
+    "Name": "Taurukh Ritual",
+    "Type": 0
+  },
+  {
     "Id": "53c99c8d-f55f-4e43-9563-a9f2a79339ca",
     "Name": "Bull of Shamut",
     "Type": 0
@@ -85,7 +95,7 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "hg-blunderbuss"
+        "Id": "id-blunderbuss"
       }
     ]
   },
@@ -100,7 +110,7 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "hg-flintlock_axe"
+        "Id": "id-flintlock_axe"
       }
     ]
   },
@@ -111,6 +121,16 @@
     "ItemsToAdd": [
       {
         "Id": "id-infernal_lash"
+      }
+    ]
+  },
+  {
+    "Id": "b664c05a-1de2-4326-8ed5-d4d3f27027d7",
+    "Name": "Tower Shield",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "id-tower_shield"
       }
     ]
   },
@@ -127,7 +147,16 @@
   {
     "Id": "a496019a-268c-4ad3-8db2-365a7e3af7db",
     "Name": "Pistol and Spear",
-    "Type": 1
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-pistol",
+	  "Info": "(4+)"
+      },
+      {
+        "Id": "rulebook-spear"
+      }
+    ]
   },
   {
     "Id": "76666d61-15f6-4c02-9348-af03e1f66d18",
@@ -140,18 +169,13 @@
     ]
   },
   {
-    "Id": "16f18115-1c61-42ca-82ab-e0fb38911624",
-    "Name": "Vassal Chieftain",
-    "Type": 1
+    "Id": "edbafb42-93e3-4482-a649-f0a601e64dd7",
+    "Name": "Walking Earthquake",
+    "Type": 3
   },
   {
-    "Id": "ff8cf63b-2171-4393-a69f-0379bae8dda9",
-    "Name": "Vassal Chieftain on Vassal Steed",
-    "Type": 1
-  },
-  {
-    "Id": "3e2f2f40-9d06-4051-824f-49e97d852cc8",
-    "Name": "Ziggurat Regulars",
-    "Type": 1
+    "Id": "1276cc20-6fa1-40b7-8a2b-b4f1d937e6ea",
+    "Name": "Walking Volcano",
+    "Type": 3
   }
 ]

@@ -52,10 +52,10 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_ogre"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -109,10 +109,10 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_ogre"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -130,9 +130,6 @@
     "Children":  [
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -169,10 +166,10 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_ogre"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -233,14 +230,54 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "ok-hunting_spear",
-               "Info":  "(2+)"
+               "Id":  "rule_tag_light_armour"
              },
              {
                "Id":  "rule_tag_ogre"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2863",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "ok-animal_master"
              },
              {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Sabretooth Tigers)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2865",
+    "Name":  "Mammoth Hunter",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
                "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -258,10 +295,6 @@
     "Children":  [
              {
                "Id":  "ok-animal_master"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Yetis)"
              },
              {
                "Id":  "rulebook-solitary"
@@ -305,6 +338,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -324,10 +360,6 @@
                "Id":  "ok-animal_master"
              },
              {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Yetis)"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -344,9 +376,6 @@
              },
              {
                "Id":  "rulebook-unruly"
-             },
-             {
-               "Id":  "rulebook-fury"
              }
            ]
   },
@@ -360,7 +389,12 @@
                "Res":  "6",
                "Arm":  "3",
                "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "ok-mountain_hide"
              }
+           ]
   },
   {
     "Id":  "statline_871",
@@ -391,6 +425,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -406,6 +443,9 @@
                "Rsr":  "-"
              },
     "Children":  [
+             {
+               "Id":  "ok-been_there_done_that"
+             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -445,7 +485,7 @@
   },
   {
     "Id":  "statline_874",
-    "Name":  "Ganzorig, the Ironbond",
+    "Name":  "Ganzorig",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "5",
@@ -489,6 +529,12 @@
              },
              {
                "Id":  "rulebook-paired_weapons"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -515,6 +561,9 @@
              },
              {
                "Id":  "ok-gone_but_not_forgotten"
+             },
+             {
+               "Id":  "war_platform"
              }
            ]
   },
@@ -632,6 +681,12 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -689,10 +744,10 @@
                "Id":  "rulebook-great_weapon"
              },
              {
-               "Id":  "rule_tag_ogre"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -753,10 +808,6 @@
                "Agi":  "3"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-throwing_weapons",
-               "Info":  "(5+)"
-             },
              {
                "Id":  "rule_tag_scrapling"
              }
@@ -853,18 +904,6 @@
              },
              {
                "Id":  "rulebook-unruly"
-             },
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-lethal_strike",
-               "Info":  "(Shooting)"
-             },
-             {
-               "Id":  "rulebook-throwing_weapons",
-               "Info":  "(4+)"
              }
            ]
   },
@@ -990,7 +1029,7 @@
     "Children":  [
              {
                "Id":  "rulebook-ambush",
-               "Info":  "(Table Edge)"
+               "Info":  "(Battlefield Edge)"
              },
              {
                "Id":  "rulebook-fearless"
@@ -1093,7 +1132,15 @@
                "Str":  "4",
                "AP":  "1",
                "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_ogre"
              }
+           ]
   },
   {
     "Id":  "statline_904",
@@ -1201,22 +1248,14 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rulebook-lethal_strike",
-               "Info":  "(Shooting)"
-             },
-             {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(1)"
              },
              {
-               "Id":  "ok-brace_of_ogre_pistols",
-               "Info":  "(4+)"
+               "Id":  "rule_tag_metal_armour"
              },
              {
                "Id":  "rule_tag_ogre"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1269,10 +1308,10 @@
                "Info":  "(4+)"
              },
              {
-               "Id":  "rule_tag_ogre"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_ogre"
              }
            ]
   },
@@ -1519,10 +1558,6 @@
              },
     "Children":  [
              {
-               "Id":  "ok-ogre_crossbow",
-               "Info":  "(3+)"
-             },
-             {
                "Id":  "rule_tag_ogre"
              }
            ]
@@ -1544,6 +1579,9 @@
                "Info":  "(Strider; +1 Str, +1 AP)"
              },
              {
+               "Id":  "rulebook-fury"
+             },
+             {
                "Id":  "rulebook-impact_hits",
                "Info":  "(3D3)"
              },
@@ -1553,6 +1591,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1572,6 +1613,9 @@
                "Id":  "ok-dengrais_ice_storm"
              },
              {
+               "Id":  "ok-freezing_aura"
+             },
+             {
                "Id":  "rulebook-solitary"
              },
              {
@@ -1579,9 +1623,6 @@
              },
              {
                "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "ok-freezing_aura"
              }
            ]
   },
@@ -1610,10 +1651,6 @@
              },
     "Children":  [
              {
-               "Id":  "ok-hunting_spear",
-               "Info":  "(3+)"
-             },
-             {
                "Id":  "rule_tag_ogre"
              }
            ]
@@ -1640,6 +1677,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1662,10 +1702,10 @@
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "rulebook-terror"
+               "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-terror"
              }
            ]
   },
@@ -1694,15 +1734,15 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6)"
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(D3)"
              },
              {
                "Id":  "rulebook-rage"
              },
              {
-               "Id":  "rulebook-impact_hits",
-               "Info":  "(D3)"
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
              },
              {
                "Id":  "rule_tag_giant"

@@ -12,12 +12,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -82,12 +76,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -147,6 +135,9 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
+               "Id":  "rule_tag_daemon"
+             },
+             {
                "Id":  "rule_tag_mount"
              }
            ]
@@ -164,16 +155,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-supernal"
@@ -214,11 +196,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(1)"
+               "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rulebook-magical_attacks"
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(1)"
              },
              {
                "Id":  "rule_tag_mount"
@@ -237,9 +219,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-fearless"
              },
@@ -302,6 +281,9 @@
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -318,20 +300,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-exclusive",
                "Info":  "(Core unit)"
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-supernal"
@@ -378,7 +351,7 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rule_tag_construct"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -456,6 +429,38 @@
            ]
   },
   {
+    "Id":  "statline_2102",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-wizard_conclave"
+             }
+           ]
+  },
+  {
     "Id":  "statline_105",
     "Name":  "",
     "Type":  "Statline",
@@ -481,9 +486,6 @@
              },
              {
                "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -568,9 +570,6 @@
              },
              {
                "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -652,9 +651,6 @@
              },
              {
                "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -741,9 +737,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -779,14 +772,14 @@
     "Children":  [
              {
                "Id":  "rulebook-lethal_strike",
-               "Info":  "(towards Characters)"
+               "Info":  "(against Characters)"
              },
              {
                "Id":  "rulebook-magical_attacks"
              },
              {
                "Id":  "rulebook-multiple_wounds",
-               "Info":  "(2, towards Characters)"
+               "Info":  "(2, against Characters)"
              },
              {
                "Id":  "rule_tag_daemon"
@@ -805,9 +798,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "dl-trophy_for_the_collection"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -833,7 +823,7 @@
                "Id":  "rulebook-swiftstride"
              },
              {
-               "Id":  "rulebook-wizard_apprentice"
+               "Id":  "dl-trophy_for_the_collection"
              }
            ]
   },
@@ -851,7 +841,7 @@
     "Children":  [
              {
                "Id":  "rulebook-aegis",
-               "Info":  "(4+ against Magical Attacks)"
+               "Info":  "(4+)"
              }
            ]
   },
@@ -882,8 +872,8 @@
     "Attributes":  {
                "Att":  null,
                "Off":  null,
-               "Str":  "4",
-               "AP":  "3",
+               "Str":  "5",
+               "AP":  "2",
                "Agi":  null
              },
     "Children":  [
@@ -952,6 +942,30 @@
   },
   {
     "Id":  "statline_123",
+    "Name":  "Sentinel of Nukuja",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "0",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "0"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-grind_attack",
+               "Info":  "(3)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2123",
     "Name":  "Sentinel of Nukuja",
     "Type":  "Statline",
     "Attributes":  {
@@ -1111,10 +1125,10 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-supernal"
+               "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-supernal"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1691,6 +1705,9 @@
              {
                "Id":  "dl-smother",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
              }
            ]
   },
@@ -1844,9 +1861,6 @@
                "Id":  "rulebook-skirmisher"
              },
              {
-               "Id":  "rulebook-stand_and_shoot"
-             },
-             {
                "Id":  "rulebook-supernal"
              },
              {
@@ -1889,14 +1903,14 @@
              },
     "Children":  [
              {
-               "Id":  "dl-dark_fire",
-               "Info":  "(3+)"
-             },
-             {
                "Id":  "rulebook-magical_attacks"
              },
              {
                "Id":  "rulebook-stand_and_shoot"
+             },
+             {
+               "Id":  "dl-dark_fire",
+               "Info":  "(3+)"
              },
              {
                "Id":  "rule_tag_daemon"
@@ -2181,7 +2195,7 @@
     "Children":  [
              {
                "Id":  "rulebook-ambush",
-               "Info":  "(Ta(Battlefield Edge, or unit containing Wizard)"
+               "Info":  "(Battlefield Edge, or unit containing aWizard)"
              },
              {
                "Id":  "rulebook-fearless"
@@ -2193,10 +2207,10 @@
                "Id":  "rulebook-skirmisher"
              },
              {
-               "Id":  "rulebook-swiftstride"
+               "Id":  "rulebook-supernal"
              },
              {
-               "Id":  "rulebook-supernal"
+               "Id":  "rulebook-swiftstride"
              }
            ]
   },
@@ -2250,7 +2264,7 @@
              },
              {
                "Id":  "rulebook-poison_attacks",
-               "Info":  "(towards units containing Wizard)"
+               "Info":  "(towards units containing a Wizard)"
              },
              {
                "Id":  "rule_tag_daemon"
@@ -2314,11 +2328,14 @@
              },
     "Children":  [
              {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
                "Id":  "dl-smother",
                "Info":  "(3, 4)"
              },
              {
-               "Id":  "rulebook-magical_attacks"
+               "Id":  "rule_tag_centauroid"
              },
              {
                "Id":  "rule_tag_daemon"
@@ -2341,10 +2358,10 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-supernal"
+               "Id":  "rulebook-strider"
              },
              {
-               "Id":  "rulebook-strider"
+               "Id":  "rulebook-supernal"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2452,6 +2469,30 @@
            ]
   },
   {
+    "Id":  "statline_2147",
+    "Name":  "Succubus",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "dl-smother",
+               "Info":  "(2)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
     "Id":  "statline_179",
     "Name":  "",
     "Type":  "Statline",
@@ -2549,10 +2590,10 @@
                "Info":  "(Core Unit)"
              },
              {
-               "Id":  "rulebook-supernal"
+               "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-fearless"
+               "Id":  "rulebook-supernal"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2593,12 +2634,87 @@
              },
     "Children":  [
              {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
                "Id":  "dl-aether_battery",
                "Info":  "(3+)"
              },
              {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2182",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "7",
+               "Dis":  "7",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2183",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "9",
+               "Def":  "5",
+               "Res":  "5",
+               "Arm":  "3",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2184",
+    "Name":  "Hope Harvester",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "3",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
                "Id":  "rulebook-magical_attacks"
              },
+             {
+               "Id":  "dl-aether_battery",
+               "Info":  "(3+)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(6)"
+             },                
              {
                "Id":  "rule_tag_daemon"
              }
@@ -2729,10 +2845,10 @@
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "rulebook-supernal"
+               "Id":  "rulebook-skirmisher"
              },
              {
-               "Id":  "rulebook-skirmisher"
+               "Id":  "rulebook-supernal"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2774,11 +2890,14 @@
              },
     "Children":  [
              {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(+1 Str)"
+             },             
+             {
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rulebook-devastating_charge",
-               "Info":  "(+1 Str)"
+               "Id":  "rule_tag_daemon"
              }
            ]
   },
@@ -2925,6 +3044,9 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
              }
            ]
   }

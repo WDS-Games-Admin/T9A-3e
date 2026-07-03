@@ -12,12 +12,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -69,12 +63,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -128,12 +116,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -179,6 +161,9 @@
     "Children":  [
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -194,12 +179,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -250,6 +229,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -266,19 +248,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
                "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "eos-meeting_of_minds"
@@ -331,6 +304,9 @@
              },
              {
                "Id":  "rule_tag_dragon"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -477,6 +453,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -494,9 +473,6 @@
     "Children":  [
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -546,9 +522,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -584,9 +557,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -631,9 +601,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -676,9 +643,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -707,7 +671,7 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1078,6 +1042,9 @@
                "Id":  "rulebook-general"
              },
              {
+               "Id":  "eos-imperial_authority"
+             },
+             {
                "Id":  "rulebook-light_troops"
              }
            ]
@@ -1116,9 +1083,6 @@
              },
     "Children":  [
              {
-               "Id":  "eos-gregors_holy_hammer"
-             },
-             {
                "Id":  "rulebook-lethal_strike"
              },
              {
@@ -1129,6 +1093,12 @@
              },
              {
                "Id":  "rulebook-zeal"
+             },
+             {
+               "Id":  "eos-gregors_holy_hammer"
+             },             
+             {
+               "Id":  "eos-repeater_pistol"
              },
              {
                "Id":  "rule_tag_human"
@@ -1377,8 +1347,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-handgun",
-               "Info":  "(4+)"
+               "Id":  "rule_tag_human"
              }
            ]
   },
@@ -1442,6 +1411,49 @@
              },
              {
                "Id":  "rule_tag_human"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2467",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "6",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-insignificant"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2468",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "2",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target"
              }
            ]
   },
@@ -1681,9 +1693,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-halberd"
-             },
-             {
                "Id":  "rule_tag_human"
              },
              {
@@ -1743,7 +1752,12 @@
                "Str":  "3",
                "AP":  "0",
                "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
              }
+           ]
   },
   {
     "Id":  "statline_486",
@@ -1875,13 +1889,6 @@
                "Agi":  "3"
              },
     "Children":  [
-             {
-               "Id":  "eos-brace_of_pistols",
-               "Info":  "(4+)"
-             },
-             {
-               "Id":  "eos-fire_on_impact"
-             },
              {
                "Id":  "rule_tag_human"
              },
@@ -2100,6 +2107,9 @@
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   }

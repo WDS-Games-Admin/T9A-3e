@@ -126,12 +126,6 @@
     "Description": "A unit that includes at least one Character with Blood Offering <b>may</b> reroll failed Panic Tests at the cost of inflicting one wound with no saves of any kind allowed on a Character with Blood Offering in the unit."
   },
   {
-    "Id": "rulebook-wizard_adept",
-    "Name": "Wizard Adept",
-    "Type": "Rule",
-    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"rulebook-channel\">Channel(1)</link></u>, and knows 3 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell and the Adept <u><link=\"spells\">Spells</link></u> (#1 - #4) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
-  },
-  {
     "Id": "rulebook-fearless",
     "Name": "Fearless",
     "Type": "Rule",
@@ -610,12 +604,30 @@
     "Name": "Hatred",
     "Type": "Rule",
     "Description": "An attack with <u><link=\"rulebook-hatred\">Hatred</link></u> must reroll failed to-hit rolls."
+  },  
+  {
+    "Id": "rulebook-wizard_adept",
+    "Name": "Wizard Adept",
+    "Type": "Rule",
+    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"rulebook-channel\">Channel(1)</link></u>, and knows 3 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell and the Adept <u><link=\"spells\">Spells</link></u> (#1 - #4) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
   },
   {
     "Id": "rulebook-wizard_apprentice",
     "Name": "Wizard Apprentice",
     "Type": "Rule",
     "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, knows 1 Learned Spell, which is the Apprentice Spell (#1) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
+  },  
+  {
+    "Id": "rulebook-wizard_master",
+    "Name": "Wizard Master",
+    "Type": "Rule",
+    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"rulebook-channel\">Channel(2)</link></u> and knows 5 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell, the Adept, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
+  },
+  {
+    "Id": "rulebook-wizard_conclave",
+    "Name": "Wizard Conclave",
+    "Type": "Rule",
+    "Description": "The unit knows X different <u><link=\"rulebook-learned_spell\">Learned Spells</link></u>, selected from the list of available spells in its unit entry, is a Wizard and, if ‘X’ is 2 or more,it also gains <u><link=\"rulebook-channel\">Channel (1)</link></u>.\nThe unit may only do a Hereditary Swap if it could have picked the Hereditary Spell during Spell Selection (as part of Pre-game Planning), however it is still eligible for a Universal Swap. See the 'Battle Preparation' chapter for details.\nEven though the spells are known to the whole unit, only one model is a Caster: every time you cast the spell, just before choosing the targets, select one Rank-and-File model as the Caster for this spell.\nIf a Wizard Conclave suffers a Miscast, treat the entire unit as the Caster.\nFor the purpose of Primary and Secondary Objectives treat the entire unit as a Caster."
   },
   {
     "Id": "rulebook-channel",
@@ -699,7 +711,7 @@
     "Id": "dl-bribed_enchantments",
     "Name": "Bribed Enchantments",
     "Type": "Rule",
-    "Description": "If the model is in contact with an enemy unit containing a Magic Item during Step2.b of each Round of Combat (‘Calculate Static Combat Score’), add+1to Combat Score."
+    "Description": "If the model is in contact with an enemy unit containing a Magic Item during Step2.b of each Round of Combat (‘Calculate Static Combat Score’), add+1 to Combat Score."
   },
   {
     "Id": "dl-abandon_all_hope",
@@ -744,16 +756,10 @@
     "Description": "Unsaved wounds caused by the attack are multiplied into the value given in brackets (X). If the value is a <u><link=\"dice\">dice</link></u>, roll one <u><link=\"dice\">dice</link></u> for each unsaved wound from an attack with <u><link=\"rulebook-multiple_wounds\">Multiple Wounds</link></u>. The amount of wounds that the attack is multiplied into can never be higher than the Health Points Characteristic of the target, excluding Health Points lost previously in the battle.\nFor example, if a <u><link=\"rulebook-multiple_wounds\">Multiple Wounds(D6)</link></u> attack wounds a unit of Trolls (HP 3) and rolls a ‘5’ for the multiplier, the number of unsaved wounds is reduced to 3, even if the Troll unit has already lost one or two Health Points previously in battle."
   },
   {
-    "Id": "rulebook-wizard_master",
-    "Name": "Wizard Master",
-    "Type": "Rule",
-    "Description": "The <u><link=\"model\">model</link></u> becomes a Wizard, gains <u><link=\"rulebook-channel\">Channel(2)</link></u> and knows 5 Learned <u><link=\"spells\">Spells</link></u>; chosen from the Apprentice Spell, the Adept, and Master <u><link=\"spells\">Spells</link></u> (#1 - #6) of the Path it has chosen. It may do certain spell changes during <u><link=\"pregame_selections\">Pre-game Selections</link></u>. See Battle Preparation chapter for details."
-  },
-  {
     "Id": "dl-omniscience",
     "Name": "Omniscience",
     "Type": "Rule",
-    "Description": "If one or more models with <b>Omniscience</b> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
+    "Description": "If one or more models with <u>Omniscience</u> have neither Marched nor Charged in this Player Turn, the owner's limit on Excess Magic is increased by 2."
   },
   {
     "Id": "rulebook-grind_attack",
@@ -843,7 +849,7 @@
     "Id": "dl-falling_star",
     "Name": "Falling Star",
     "Type": "Rule",
-    "Description": "At the beginning of ‘Determine Agility Order’ (Melee Phase, 3.A), the model's Agility is <b>set</b> to twice the model’s current number of Health Points.\nAt the start of each Agility Step, the model’s Defensive Skill and Offensive Skill are <b>set</b> to twice the model’s current number of Health Points."
+    "Description": "At the start of ‘Determine Agility Order’ (Melee Phase, 3.A), the model's Agility is <b>set</b> to twice the model’s current number of Health Points.\nAt the start of each Agility Step, the model’s Defensive Skill and Offensive Skill are <b>set</b> to twice the model’s current number of Health Points."
   },
   {
     "Id": "dl-aether_battery",
@@ -861,7 +867,7 @@
     "Id": "dl-acid_blood",
     "Name": "Acid Blood",
     "Type": "Rule",
-    "Description": "Each time a model with Acid Blood loses a Health Point after failing a <u><link=\"rulebook-regeneration\">Regeneration</link></u> Save against an enemy <u><link=\"rulebook-melee_attacks\">Melee Attack</link></u>, it immediately inflicts 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> towards the Health Pool of the attacking model, before any casualties are removed."
+    "Description": "Each time a model with <u>Acid Blood</u> loses a Health Point after <b>failing</b> a <u><link=\"rulebook-regeneration\">Regeneration</link></u> Save against an enemy <u><link=\"rulebook-melee_attacks\">Melee Attack</link></u>, it immediately inflicts 1 hit with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u> towards the Health Pool of the attacking model, before any casualties are removed."
   },
   {
     "Id": "rally_test",
@@ -891,7 +897,7 @@
     "Id": "de-scent_of_blood",
     "Name": "Scent of Blood",
     "Type": "Rule",
-    "Description": "Charge Range rolls made by units entirely with <b>Scent of Blood</b> gain <b>Maximised</b> if the target of the Charge contains a Health Pool that has fewer Health Points than its starting value."
+    "Description": "Charge Range rolls made by units entirely with <u>Scent of Blood</u> gain <b>Maximised</b> if the target of the Charge contains a Health Pool that has fewer Health Points than its starting value."
   },
   {
     "Id": "de-meeting_of_minds",
@@ -999,7 +1005,7 @@
     "Id": "de-daeb_warfare",
     "Name": "Daeb Warfare",
     "Type": "Rule",
-    "Description": "When a unit containing Daeb Warfare is part of a <u><link=\"rulebook-combined_charges\">Combined Charge</link></u>, its Charge Range rolls gain <b>Maximised</b>.\nWhen multiple units containing <b>Daeb Warfare</b> are Engaged in the same <u><link=\"rulebook-combined_combats\">Combined Combat</link></u>, each of these unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-resolute\">Resolute</link></u>)."
+    "Description": "When a unit containing <u>Daeb Warfare</u> is part of a <u><link=\"rulebook-combined_charges\">Combined Charge</link></u>, its Charge Range rolls gain <b>Maximised</b>.\nWhen multiple units containing <u>Daeb Warfare</u> are Engaged in the same <u><link=\"rulebook-combined_combats\">Combined Combat</link></u>, each of these unit gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-resolute\">Resolute</link></u>)."
   },
   {
     "Id": "rulebook-march_and_shoot",
@@ -1107,7 +1113,7 @@
     "Id": "dh-rune_craft_mastery",
     "Name": "Rune Craft Mastery",
     "Type": "Rule",
-    "Description": "Melee Attacks from models in a unit containing <u><link=\"dh-rune_craft_mastery\">Rune Craft Mastery</link></u> gain +1 AP."
+    "Description": "<u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u> from models in a unit containing <u>Rune Craft Mastery</u> gain +1 AP."
   },
   {
     "Id": "rulebook-engineer",
@@ -1131,13 +1137,13 @@
     "Id": "dh-runic_anvil",
     "Name": "Runic Anvil",
     "Type": "Rule",
-    "Description": "The model must select three different <u><link=\"dh-battle_runes\">Battle Runes</link></u>. Note which spells are selected on the Army List.\nThe Range of these spells is set to 36\".\nThe model cannot cast Bound Spells in the same Player Turn that it performed a Move Manoeuvre."
+    "Description": "The model must select three different <u><link=\"dh-battle_runes\">Battle Runes</link></u>. Note which spells are selected on the Army List.\nThe Range of these spells is <b>set</b> to 36\".\nThe model <b>cannot cast</b> <u><link=\"rulebook-bound_spells\">Bound Spells</link></u> in the same Player Turn that it performed a Move Manoeuvre."
   },
   {
     "Id": "dh-kingsoath",
     "Name": "Kingsoath",
     "Type": "Rule",
-    "Description": "The model part gains +1 Att.\nThe extra Melee Attack resulting from Kingsoath can only be allocated towards targets in a unit containing a <u><link=\"dh-ancient_grudge\">Grudge Marker</link></u>."
+    "Description": "The model part gains +1 Att.\nThe extra <u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u> resulting from <u>Kingsoath</u> can only be allocated towards targets in a unit containing a <u><link=\"dh-ancient_grudge\">Grudge Marker</link></u>."
   },
   {
     "Id": "dh-whirling_chains_of_doom",
@@ -1161,7 +1167,7 @@
     "Id": "dh-forge_gun",
     "Name": "Forge Gun",
     "Type": "Rule",
-    "Description": "Aim 3+, Range 18\", Shots 1, Str 4, AP 0, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>, Always hits on 3+\n"
+    "Description": "Aim 3+, Range 18\", Shots 1, Str 4, AP 0, Always hits on 3+, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>"
   },
   {
     "Id": "dh-shrapnel_grenades",
@@ -1215,13 +1221,13 @@
     "Id": "eos-holy_relic",
     "Name": "Holy Relic",
     "Type": "Rule",
-    "Description": "Friendly units within 8\" of the model gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>).\nModel parts with <i>Mount</i> are not affected.\n<u><link=\"eos-blessings\">Blessings</link></u> <u><link=\"rulebook-bound_spells\">Bound Spells</link></u> cast by the rider have their Range <b>set</b> to 8\" and gain Types: Augment and Aura."
+    "Description": "Friendly units within 8\" of the model gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>).\nModel parts with <i>Mount</i> are not affected.\n<u><link=\"rulebook-bound_spells\">Bound Spells</link></u> from <u><link=\"eos-blessings\">Blessings</link></u> cast by the rider have their Range <b>set</b> to 8\" and gain Types: Augment and Aura.\nThe model can cast <u><link=\"rulebook-fates_judgement\">Fate’s Judgement</link></u> (Divination) as a </u>Bound Spell (4+)</u>."
   },
   {
     "Id": "eos-aura_of_power",
     "Name": "Aura of Power",
     "Type": "Rule",
-    "Description": "Units within 8\" of one or more friendly models with <b>Aura of Power</b> benefit from +2 Def and +2 Off.\nModel parts with <i>Mount</i> are not affected."
+    "Description": "Units within 8\" of one or more friendly models with <>Aura of Power</u> benefit from +2 Def and +2 Off.\nModel parts with <i>Mount</i> are not affected."
   },
   {
     "Id": "eos-master_artificer",
@@ -1467,7 +1473,7 @@
     "Id": "he-commander_of_the_veil",
     "Name": "Commander of the Veil",
     "Type": "Rule",
-    "Description": "Acadnah is equipped with the following Magic Items:\n<u><link=\"special-obsidian_rock\">Obsidian Rock</link></u>, <u><link=\"special-potion_of_power_preservation\">Potion of Power Preservation</link></u>, and <u><link=\"special-scroll_of_power\"></link>Scroll of Power</u>.\nThese Magic Items cannot be used by other friendly models."
+    "Description": "Arcanadh is equipped with the following Magic Items:\n<u><link=\"special-obsidian_rock\">Obsidian Rock</link></u>, <u><link=\"special-potion_of_power_preservation\">Potion of Power Preservation</link></u>, and <u><link=\"special-scroll_of_power\"></link>Scroll of Power</u>.\nThese Magic Items cannot be used by other friendly models."
   },
   {
     "Id": "he-shroud_seekers",
@@ -1509,7 +1515,7 @@
     "Id": "id-keys_to_the_citadel",
     "Name": "Keys to the Citadel",
     "Type": "Rule",
-    "Description": "The model must buy Weapon Enchantments for two of its mundane weapons.\nThe Point Cost of one of the Weapon Enchantments (the cheapest if applicable) is halved, rounding fractions up."
+    "Description": "The model <b>must</b> buy Weapon Enchantments for two of its mundane weapons.\nThe Point Cost of one of the Weapon Enchantments (the cheapest if applicable) is halved, rounding fractions up."
   },
   {
     "Id": "id-infernal_armour",
@@ -1533,13 +1539,13 @@
     "Id": "id-vassal_governor",
     "Name": "Vassal Governor",
     "Type": "Rule",
-    "Description": "Friendly units entirely with Vassal within 12\" of one or more models with <u><link=\"id-vassal_governor\">Vassal Governor</link></u> gain +1\" Mob."
+    "Description": "Friendly units entirely with <i>Vassal</i> within 12\" of one or more models with <u>Vassal Governor</u> gain +1\" Mobility."
   },
   {
     "Id": "id-prophet_of_shamut",
     "Name": "Prophet of Shamut",
     "Type": "Rule",
-    "Description": ""
+    "Description": "The model gains access to additional Mounts and Weapons options."
   },
   {
     "Id": "id-firing_platform",
@@ -1599,7 +1605,7 @@
     "Id": "id-theocratic_litigators",
     "Name": "Theocratic Litigators",
     "Type": "Rule",
-    "Description": "The model's unit and enemy units in contact with the model's unit gain <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u>(2), which is also applied to friendly spells. This <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u> value cannot be increased."
+    "Description": "The model's unit and enemy units in contact with the model's unit gain <u><link=\"rulebook-magic_resistance\">Magic Resistance</link></u> (2), which is also applied to friendly spells. This <u>Magic Resistance</u> value cannot be increased."
   },
   {
     "Id": "id-volcanic_embrace",
@@ -1719,7 +1725,13 @@
     "Id": "koe-braziers",
     "Name": "Braziers",
     "Type": "Rule",
-    "Description": "In each <u><link=\"rulebook-shooting_phase\">Shooting Phase</link></u>, before selecting its target, the unit containing Braziers may choose to gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> (Shooting), with Duration: One Phase."
+    "Description": "In each <u><link=\"rulebook-shooting_phase\">Shooting Phase</link></u>, before selecting its target, a unit containing Braziers <b>may</b> choose to gain <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> (Shooting), with Duration: One Phase."
+  },
+  {
+    "Id": "koe-crossbow",
+    "Name": "Crossbow",
+    "Type": "Rule",
+    "Description": "Aim 4+, Range 30\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-unwieldy\">Unwieldy (1)</link></u>."
   },
   {
     "Id": "koe-ordo_minister",
@@ -1803,7 +1815,7 @@
     "Id": "koe-sacred_relic",
     "Name": "Sacred Relic",
     "Type": "Rule",
-    "Description": "A unit containing Sacred Relic benefits from <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>.\nIn addition, when the unit is the target of an <u><link=\"koe-orisons\">Orison</link></u> while <u><link=\"rulebook-engaged_in_combat\">Engaged in Combat</link></u>, add one <u><link=\"rulebook-koe-orisons\">Blessing Token</link></u> to the your pool. Ignore this effect if a Character with the <u><link=\"koe-faith\">Faith</link></u> Knightly Principle is part of the model’s unit.\nThe 'Sacred Reliquary' model part gains all Weapons of the Rank-and-File models in the unit it is joined to, with Duration: Permanent."
+    "Description": "A unit containing Sacred Relic benefits from <u><link=\"rulebook-fight_in_extra_rank\">Fight in Extra Rank</link></u>.\nIn addition, when the unit is the target of an <u><link=\"koe-orisons\">Orison</link></u> while <u><link=\"rulebook-engaged_in_combat\">Engaged in Combat</link></u>, add one <u><link=\"rulebook-koe-orisons\">Blessing Token</link></u> to the your pool.\ngnore this effect if a Character with the <u><link=\"koe-faith\">Faith</link></u> Knightly Principle is part of the model’s unit.\nThe 'Sacred Reliquary' model part gains all Weapons of the Rank-and-File models in the unit it is joined to, with Duration: Permanent."
   },
   {
     "Id": "koe-scorpion",
@@ -1857,7 +1869,7 @@
     "Id": "ok-its_a_trap",
     "Name": "It's a Trap!",
     "Type": "Rule",
-    "Description": "When an enemy unit performs any of the following actions, it suffers 2D6 hits with Str 4, AP, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>:\n\n• The enemy unit successfully Charges a unit containing <b>It’saTrap!</b> in contact with a Terrain Feature.\n• The enemy unit comes into contact (while it was not in contact earlier) with a Terrain Feature that is in contact with a unit containing It’s a Trap!.\n\nResolve the hits at the end of the action that triggered them. No unit can be affected by It’s a Trap! more than once in each Player Turn (including from different units containing It’s a Trap!)."
+    "Description": "When an enemy unit performs any of the following actions, it suffers 2D6 hits with Str 4, AP 1, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>:\n\n• The enemy unit successfully Charges a unit containing <u>It’s a Trap!</u> in contact with a Terrain Feature.\n• The enemy unit comes into contact (while it was not in contact earlier) with a Terrain Feature that is in contact with a unit containing It’s a Trap!.\n\nResolve the hits at the end of the action that triggered them. No unit can be affected by It’s a Trap! more than once in each Player Turn (including from different units containing It’s a Trap!)."
   },
   {
     "Id": "ok-brace_of_ogre_pistols",
@@ -1989,7 +2001,7 @@
     "Id": "ong-beastie_whisperer",
     "Name": "Beastie Whisperer",
     "Type": "Rule",
-    "Description": "Immediately before choosing a unit to join using the <u><link=\"rulebook-hidden\">Hidden</link></u> rule, the model <b>may</b> gain a 'Beastie' mount without any upgrades for free.\nIf the model joins a unit with at least one Rank-and-File model with <u><link=\"creepycrawlies\">Creepy-Crawlies</link></u>, its mount also gains <u><link=\"ong-creepycrawlies\">Creepy-Crawlies</link></u>."
+    "Description": "Immediately before choosing a unit to join using the <u><link=\"rulebook-hidden\">Hidden</link></u> rule, the model <b>may</b> gain a 'Beastie' mount without any upgrades for free.\nIf the model joins a unit with at least one Rank-and-File model with <u><link=\"ong-creepycrawlies\">Creepy-Crawlies</link></u>, its mount also gains <u><link=\"ong-creepycrawlies\">Creepy-Crawlies</link></u>."
   },
   {
     "Id": "ong-unprofessional_courtesy",
@@ -2061,7 +2073,7 @@
     "Id": "ong-green_tide",
     "Name": "Green Tide",
     "Type": "Rule",
-    "Description": "Natural to-wound rolls of '1' with <u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u> from friendly units within 8\" <b>must</b> be rerolled."
+    "Description": "To-wound rolls of '1' with <u><link=\"rulebook-melee_attacks\">Melee Attacks</link></u> from friendly units within 8\" <b>must</b> be rerolled."
   },
   {
     "Id": "ong-symbol_of_the_warborn_alliance",
@@ -2397,7 +2409,7 @@
     "Id": "vc-wail_of_woe",
     "Name": "Wail of Woe",
     "Type": "Rule",
-    "Description": "Aim Auto, Range 8\", Shots D6+2, Str 4, AP 1, March and Shoot, Magical Attacks, Hits Automatically, Unmodifiable"
+    "Description": "Aim Auto, Range 8\", Shots D6+2, Str 4, AP 1, Hits automatically, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>, <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u>"
   },
   {
     "Id": "vc-ghostly_form",
@@ -2451,7 +2463,7 @@
     "Id": "vs-imperator",
     "Name": "Imperator",
     "Type": "Rule",
-    "Description": " Other friendly within units range of the model’s <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> gain <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-unstable\">Unstable</link></u>."
+    "Description": "Other friendly units within range of the model’s <u><link=\"rulebook-commanding_presence\">Commanding Presence</link></u> benefit from <u><link=\"rulebook-fearless\">Fearless</link></u>.\nDuring the <u><link=\"rulebook-melee_phase\">Melee Phase</link></u> they also benefit from <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "vs-pontifex_maximus",
@@ -2583,7 +2595,7 @@
     "Id": "vs-skorchit_ordnance",
     "Name": "Skorchit Ordnance",
     "Type": "Rule",
-    "Description": "Aim 5+, Range 48\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-area_attack \">Area Attack (3×3)</link></u>"
+    "Description": "Aim 5+, Range 48\", Shots 1, Str 4, AP 1, <u><link=\"rulebook-area_attack \">Area Attack (3×3)</link></u>, <u><link=\"rulebook-artillery\">Artillery</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>"
   },
   {
     "Id": "vs-maniacal_enthusiasm",
@@ -2667,7 +2679,7 @@
     "Id": "wdg-release_the_hounds",
     "Name": "Release the Hounds",
     "Type": "Rule",
-    "Description": "One use only. Duration: End of Turn.\n<b>Can</b> be activated at the start of any friendly Player Turn: the unit gains +2 Mob and <u><link=\"rulebook-devastating_charge\">Devastating Charge (+1 Att, +1 Str)</link></u>."
+    "Description": "One use only. Duration: End of Turn.\n<b>Can</b> be activated at the start of any friendly Player Turn: the unit gains +2\" Mob and <u><link=\"rulebook-devastating_charge\">Devastating Charge (+1 Att, +1 Str)</link></u>."
   },
   {
     "Id": "wdg-giant_see_giant_do",
@@ -2691,25 +2703,25 @@
     "Id": "de-altar_of_nabh",
     "Name": "Altar of Nabh",
     "Type": "Rule",
-    "Description": "The model’s Charge Speed and Mobility are <b>always</b> 0\".\nIn addition, it gains <u><link=\"rulebook-channel\">Channel (2)</link></u>, <u><link=\"rulebook-emplacement\">Emplacement</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u>.\nWhen another friendly unit within 18\" of the model suffers one or more HP slosses from an enemy attack, the <b>Altar of Tila</b> may cause 3 hits with Str 4, AP 2, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> onto the enemy unit that caused those losses. This effect can only be used once per phase."
+    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Height 1)</link></u>, <u><link=\"rulebook-frenzy\">Frenzy</link></u>, <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-war_platform\">War Platform</link></u>.\nModel parts with <i>Elf</i> in friendly units within 12\" of the <u>Altar of Nabh</u> gain <u><link=\"rulebook-fury\">Fury</link></u>."
   },
   {
     "Id": "de-altar_of_tila",
     "Name": "Altar of Tila",
     "Type": "Rule",
-    "Description": "The model’s Charge Speed and Mobility are always 0\".\nIn addition, it gains <u><link=\"rulebook-channel\">Channel (2)</link></u>, <u><link=\"rulebook-emplacement\">Emplacement</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u>.\nWhen another friendly unit within 18\" of the model suffers one or more HP slosses from an enemy attack, the Altar of Tila may cause 3 hits with Str 4, AP 2, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> onto the enemy unit that caused those losses. This effect can only be used once per phase."
+    "Description": "The model’s Charge Speed and Mobility are <b>always</b> 0\".\nIn addition, it gains <u><link=\"rulebook-channel\">Channel (2)</link></u>, <u><link=\"rulebook-emplacement\">Emplacement</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-solitary\">Solitary</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u>, and <u><link=\"rulebook-unstable\">Unstable</link></u>.\nWhen another friendly unit within 18\" of the model suffers one or more HP slosses from an enemy attack, the <u>Altar of Tila</u> may cause 3 hits with Str 4, AP 2, and <u><link=\"rulebook-unmodifiable\">Unmodifiable</link></u> onto the enemy unit that caused those losses. This effect can only be used once per phase."
   },
   {
     "Id": "de-altar_of_yema",
     "Name": "Altar of Yema",
     "Type": "Rule",
-    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Height 1)</link></u>, <u><link=\"rulebook-war_platform\">War Platform</link></u>, and a single 'Attendant' model part gains <u><link=\"de-petrifying_stare\">Petrifying Stare</link></u>.\nWhenever a friendly unit within 12\" of the Altar of Yema initiates any kind of move (<i>see “Definition and Terminology” chapter in the Reference Handbook</i>), the unit gains +1 Mobility and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (<u><link=\"rulebook-strider\">Strider</link></u>), with Duration: End of Turn."
+    "Description": "The model gains <u><link=\"rulebook-attached\">Attached</link></u>, <u><link=\"rulebook-exclusive\">Exclusive (Height 1)</link></u>, <u><link=\"rulebook-war_platform\">War Platform</link></u>, and a single 'Attendant' model part gains <u><link=\"de-petrifying_stare\">Petrifying Stare</link></u>.\nWhenever a friendly unit within 12\" of the <u>Altar of Yema</u> initiates any kind of move (<i>see “Definition and Terminology” chapter in the Reference Handbook</i>), the unit gains +1 Mobility and <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u> (<u><link=\"rulebook-strider\">Strider</link></u>), with Duration: End of Turn."
   },
   {
     "Id": "de-warlock_acolytes",
     "Name": "Warlock Acolytes",
     "Type": "Rule",
-    "Description": "The unit gains <u><link=\"de-irresistible_will\">Irresistible Will</link></u> and <u><link=\"rulebook-wizard_conclave\">Wizard Conclave (2)</link></u>.\nThe 'Dread Acolyte' model parts gains <i>Warlock</i>.\nThe unit selects its spells from:\n• <u><link=\"rulebook-ice_and_fire\">Ice and Fire</link></u> (Cosmology)\n• <u><link=\"rulebook-whispers_of_the_veil\">Whispers of the Veil</link></u> (Evocation)\n• <u><link=\"rulebook-illusory_paths\">Illusory Paths</link></u> (Witchcraft)\n• <u><link=\"rulebook-curse_of_the_phantom_queen\">Curse of the Phantom Queen</link></u> (Hereditary Spell)"
+    "Description": "The unit gains <u><link=\"de-irresistible_will\">Irresistible Will</link></u> and <u><link=\"rulebook-wizard_conclave\">Wizard Conclave (2)</link></u>.\nThe 'Dread Acolyte' model parts gains <i>Warlock</i>.\nThe unit selects its spells from:\n\n• <u><link=\"rulebook-ice_and_fire\">Ice and Fire</link></u> (Cosmology)\n• <u><link=\"rulebook-whispers_of_the_veil\">Whispers of the Veil</link></u> (Evocation)\n• <u><link=\"rulebook-illusory_paths\">Illusory Paths</link></u> (Witchcraft)\n• <u><link=\"rulebook-curse_of_the_phantom_queen\">Curse of the Phantom Queen</link></u> (Hereditary Spell)"
   },
   {
     "Id": "de-academy_commander",
@@ -3129,7 +3141,7 @@
     "Id": "id-prophet_of_ashuruk",
     "Name": "Prophet of Ashuruk",
     "Type": "Rule",
-    "Description": "During Pre-game Selections, regardless of its chosen Path of Magic, the model may exchange one of its spells for the Apprentice Spell  (#1) of either Alchemy, Pyromancy, Occultism."
+    "Description": "The model gains <u><link=\"rulebook-aegis\">Aegis</link></u>(4+), <u><link=\"rulebook-aegis\">Aegis</link></u> (3+, against <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>), and -3 Arm, and loses <i>Metal Armour</i> and <u><link=\"id-infernal_armour\">Infernal Armour</link></u>.\nThe model part gains <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u> and <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>."
   },
   {
     "Id": "id-prophet_of_lugar",
@@ -3141,7 +3153,7 @@
     "Id": "id-prophet_of_nezibkesh",
     "Name": "Prophet of Nezibkesh",
     "Type": "Rule",
-    "Description": "The model gains <u><link=\"rulebook-engineer\">Engineer</link></u>(Gunnery Team, Infernal Artillery or Infernal Engine)."
+    "Description": "The model gains <u><link=\"rulebook-engineer\">Engineer</link></u> (Gunnery Team, Infernal Artillery or Infernal Engine)."
   },
   {
     "Id": "id-taurukh_ritual",
@@ -3291,7 +3303,7 @@
     "Id": "id-blivet_lance",
     "Name": "Blivet Lance",
     "Type": "Rule",
-    "Description": "Lance.\n<u><link=\"rulebook-devastating_charge\">Devastating Charge (+5 Agi)</link></u>. Attacks with the Blivet Lance ignore negative modifiers to to-hit rolls."
+    "Description": "Lance. <u><link=\"rulebook-devastating_charge\">Devastating Charge (+5 Agi)</link></u>.\nAttacks with the <u>Blivet Lance</u> ignore negative modifiers to to-hit rolls."
   },
   {
     "Id": "id-burning_armour",
@@ -3304,6 +3316,12 @@
     "Name": "Helm of Kadim Command",
     "Type": "Rule",
     "Description": "Model parts with <i>Kadim</i> in friendly units within 12″ of Ibat-Sokavum gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (against <u><link=\"rulebook-weakness\">Weakness</link></u> (<u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>)))."
+  },
+  {
+    "Id": "id-flames_of_vengeance",
+    "Name": "Flames of Vengeance",
+    "Type": "Rule",
+    "Description": "<u><link=\"rulebook-breath_attack\">Breath Attack</link></u> (Str 4, AP 1, <u><link=\"rulebook-divine_attacks\">Divine Attacks</link></u>, <u><link=\"rulebook-flaming_attacks\">Flaming Attacks</link></u>, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u>)"
   },
   {
     "Id": "dl-daemonic_manifestations",
@@ -4701,7 +4719,7 @@
     "Id": "sa-spearback",
     "Name": "Spearback",
     "Type": "Rule",
-    "Description": "The 'Weapon Beast' model part gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>) and the following Shooting Weapon:\n\nShoot Spikes: Aim 3+, Range 12\", Shots 4, Str 5, AP 2, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
+    "Description": "The 'Weapon Beast' model part gains <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u>) and the following Shooting Weapon:\n\nShoot Spikes:\n\nAim 3+, Range 12\", Shots 4, Str 5, AP 2, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>, <u><link=\"rulebook-stand_and_shoot\">Stand and Shoot</link></u>."
   },
   {
     "Id": "sa-chameleon",
@@ -6039,7 +6057,7 @@
     "Id": "dh-entrench",
     "Name": "Entrench",
     "Type": "Rule",
-    "Description": "All friendly Field Artillery units within 6″ of a model with Entrench benefit from <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>."
+    "Description": "All friendly Field <u><link=\"rulebook-artillery\">Artillery</link></u> units within 6\" of a model with <u>Entrench</u> benefit from <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>."
   },
   {
     "Id": "dh-organ_gun",
@@ -6315,7 +6333,7 @@
     "Id": "dh-master_brewer",
     "Name": "Master Brewer",
     "Type": "Rule",
-    "Description": "During each friendly Magic Phase, at any time before ‘Casting and Dispelling Spells’ (Magic Phase,step 5), the Master Brewer may select a single of the following Ales to affect his unit. Duration: One Turn.\n\n • Stout Ale: <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n • Bitter Ale: <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n • Red Ale: <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
+    "Description": "During each friendly Magic Phase, at any time before 'Casting and Dispelling Spells' (Magic Phase, step 5), the <u>Master Brewer</u> <b>may</b> select a single of the following Ales to affect his unit.\nDuration: One Turn.\n\n• <u><link=\"dh-stout_ale\">Stout Ale</link></u>: <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n• <u><link=\"dh-bitter_ale\">Bitter Ale</link></u>: <u><link=\"rulebook-fury\">Fury</link></u>, <u><link=\"rulebook-hatred\">Hatred</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>.\n• <u><link=\"dh-red_ale\">Red Ale</link></u>: <u><link=\"rulebook-lethal_strike\">Lethal Strike</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and <u><link=\"rulebook-zeal\">Zeal</link></u>."
   },
   {
     "Id": "dh-stout_ale",
@@ -6615,7 +6633,7 @@
     "Id": "wdg-the_fathers_gifts",
     "Name": "The Father's Gifts",
     "Type": "Rule",
-    "Description": "At the beginning of each friendly Player Turn, Joulgrim can choose a single friendly unit within 12\" to gain one of the following abilities, with Duration : One Turn.\n\n• <u><link=\"wdg-supernal_shield\"></link>Supernal Shield</u>: the chosen unit suffers -3 Arm and gains <u><link=\"rulebook-aegis\"></link>Aegis (5+)</u>.\n• <u><link=\"wdg-unholy_edge\">Unholy Edge</link></u>: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n• <u><link=\"wdg-the_eight_point_crown\">The Eight-Point Crown</link></u>: the chosen unit suffers -1 Str and -1 AP, and gains <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unstable\">Unstable</link></u>."
+    "Description": "At the beginning of each friendly Player Turn, Joulgrim can choose a single friendly unit within 12\" to gain one of the following abilities, with Duration: One Turn.\n\n• <u><link=\"wdg-supernal_shield\"></link>Supernal Shield</u>: the chosen unit suffers -3 Arm and gains <u><link=\"rulebook-aegis\"></link>Aegis (5+)</u>.\n• <u><link=\"wdg-unholy_edge\">Unholy Edge</link></u>: the chosen unit always strikes at Agility Step 0 and gains +1 AP.\n• <u><link=\"wdg-the_eight_point_crown\">The Eight-Point Crown</link></u>: the chosen unit suffers -1 Str and -1 AP, and gains <u><link=\"rulebook-stubborn\">Stubborn</link></u> and <u><link=\"rulebook-unstable\">Unstable</link></u>."
   },
   {
     "Id": "wdg-supernal_shield",
@@ -9120,10 +9138,10 @@
         "Description": "Tag Path Of The Favoured"
     },
     {
-        "Id": "rule_tag_pathof_the_exiled",
+        "Id": "rule_tag_path_of_the_exiled",
         "Name": "Pathof The Exiled",
         "Type": "Rule",
-        "Description": "Tag Pathof The Exiled"
+        "Description": "Tag Path of The Exiled"
     },
     {
         "Id": "rule_path_of_alchemy",

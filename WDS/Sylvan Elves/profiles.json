@@ -427,6 +427,52 @@
     ]
   },
   {
+    "Id": "68357f80790d8280c4b25d1c",
+    "Name": "Heath Hunters",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
+      {
+        "Id": "statline_3252"
+      },
+      {
+        "Id": "statline_1253"
+      },
+      {
+        "Id": "statline_3254"
+      },
+      {
+        "Id": "statline_203"
+      },
+      {
+        "Id": "se-heath_hunters"
+      }
+    ]
+  },
+  {
+    "Id": "68357f80790d8280c4b25d1d",
+    "Name": "Heath Lancers",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
+      {
+        "Id": "statline_1252"
+      },
+      {
+        "Id": "statline_4253"
+      },
+      {
+        "Id": "statline_4254"
+      },
+      {
+        "Id": "statline_203"
+      },
+      {
+        "Id": "se-heath_lancers"
+      }
+    ]
+  },
+  {
     "Id": "68357f81790d8280c4b25d57",
     "Name": "Dryads",
     "Type": "Profile",
@@ -440,6 +486,26 @@
       },
       {
         "Id": "statline_1257"
+      }
+    ]
+  },
+  {
+    "Id": "68357f81790d8280c4b25d58",
+    "Name": "Dryads - Clearing Spirits",
+    "Type": "Profile",
+    "BaseId": "1",
+    "Children": [
+      {
+        "Id": "statline_3255"
+      },
+      {
+        "Id": "statline_3256"
+      },
+      {
+        "Id": "statline_1257"
+      },
+      {
+        "Id": "se-clearing_spirits"
       }
     ]
   },
@@ -490,7 +556,7 @@
         "Id": "statline_1265"
       },
       {
-        "Id": "statline_1204"
+        "Id": "statline_3204"
       }
     ]
   },
@@ -549,7 +615,7 @@
     ]
   },
   {
-    "Id": "68357f82790d8280c4b25e38",
+    "Id": "68357f82790d8280c4b25e37",
     "Name": "Kestrel Knights",
     "Type": "Profile",
     "BaseId": "4",
@@ -565,6 +631,62 @@
       },
       {
         "Id": "statline_1279"
+      }
+    ]
+  },
+  {
+    "Id": "68357f82790d8280c4b25e38",
+    "Name": "Kestrel Knights - Light Lance and Sylvan Bow",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
+      {
+        "Id": "statline_3276"
+      },
+      {
+        "Id": "statline_1277"
+      },
+      {
+        "Id": "statline_3278"
+      },
+      {
+        "Id": "statline_1279"
+      },
+      {
+        "Id": "rulebook-skirmisher"
+      },
+      {
+        "Id": "rulebook-light_lance"
+      },
+      {
+        "Id": "se-sylvan_bow",
+          "Info": "(3+)"
+      }
+    ]
+  },
+  {
+    "Id": "68357f82790d8280c4b25e39",
+    "Name": "Kestrel Knights - Lance and Shield",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
+      {
+        "Id": "statline_1276"
+      },
+      {
+        "Id": "statline_4277"
+      },
+      {
+        "Id": "statline_4278"
+      },
+      {
+        "Id": "statline_1279"
+      },
+      {
+        "Id": "rulebook-lance"
+      },
+      {
+        "Id": "rulebook-shield"
       }
     ]
   },

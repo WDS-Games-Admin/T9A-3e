@@ -29,9 +29,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -64,10 +61,10 @@
                "Info":  "(6+)"
              },
              {
-               "Id":  "rule_tag_vampire"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_vampire"
              }
            ]
   },
@@ -97,9 +94,6 @@
                "Id":  "rulebook-ghost_step"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              },
              {
@@ -107,9 +101,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -141,10 +132,10 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_mount"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -187,9 +178,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -221,10 +209,10 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rule_tag_spirit"
+               "Id":  "rule_tag_mount"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_spirit"
              }
            ]
   },
@@ -267,9 +255,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -308,10 +293,13 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_zombie"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
            ]
   },
@@ -338,6 +326,10 @@
                "Info":  "(Zombies)"
              },
              {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Barrow Guard, Ghouls, Skeletons, Zombies)"
+             },
+             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -360,9 +352,6 @@
              },
              {
                "Id":  "rulebook-war_platform"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -401,7 +390,7 @@
                "Info":  "(6+)"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_vampire"
              }
            ]
   },
@@ -418,11 +407,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-extra_support",
-               "Info":  "(3)"
+               "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rulebook-magical_attacks"
+               "Id":  "rule_tag_mount"
              },
              {
                "Id":  "rule_tag_spirit"
@@ -455,9 +443,6 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "vc-meeting_of_minds"
              },
              {
@@ -474,9 +459,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -512,7 +494,7 @@
     "Children":  [
              {
                "Id":  "rulebook-breath_attack",
-               "Info":  "(Str3, AP2)"
+               "Info":  "(Str 3, AP 2)"
              },
              {
                "Id":  "rulebook-stomp_attack",
@@ -522,10 +504,16 @@
                "Id":  "rule_tag_zombie"
              },
              {
+               "Id":  "rule_tag_beast"
+             },
+             {
                "Id":  "rule_tag_dragon"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
            ]
   },
@@ -571,9 +559,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -584,7 +569,7 @@
     "Attributes":  {
                "HP":  "7",
                "Def":  "4",
-               "Res":  "5",
+               "Res":  "6",
                "Arm":  "0",
                "Aeg":  "-"
              },
@@ -608,17 +593,21 @@
              },
     "Children":  [
              {
-               "Id":  "vc-chilling_shriek"
-             },
-             {
                "Id":  "vc-chilling_howl"
              },
+             {
+               "Id":  "vc-chilling_shriek"
+             },
+             
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              },
              {
                "Id":  "rule_tag_zombie"
@@ -651,9 +640,6 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "vc-meeting_of_minds"
              },
              {
@@ -670,9 +656,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -696,7 +679,7 @@
   },
   {
     "Id":  "statline_1418",
-    "Name":  "Colossal ZD",
+    "Name":  "Colossal Zombie Dragon",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "6",
@@ -708,11 +691,23 @@
     "Children":  [
              {
                "Id":  "rulebook-breath_attack",
-               "Info":  "(Str3, AP2)"
+               "Info":  "(Str 3, AP 2)"
              },
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_dragon"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
            ]
   },
@@ -746,10 +741,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "vc-vampiric",
-               "Info":  "(6+)"
              }
            ]
   },
@@ -782,10 +773,10 @@
                "Info":  "(6+)"
              },
              {
-               "Id":  "rule_tag_vampire"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_vampire"
              }
            ]
   },
@@ -813,9 +804,6 @@
              },
              {
                "Id":  "rulebook-ghost_step"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1016,19 +1004,16 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "vc-gates_of_the_netherworld"
              },
              {
-               "Id":  "vc-gates_of_the_netherworld"
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-undead"
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1087,9 +1072,6 @@
                "Id":  "rulebook-ghost_step"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              },
              {
@@ -1097,9 +1079,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1132,13 +1111,13 @@
                "Info":  "(Skeletons, Zombies)"
              },
              {
-               "Id":  "vc-gates_of_the_netherworld"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
                "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "vc-gates_of_the_netherworld"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -1154,9 +1133,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1189,6 +1165,10 @@
                "Info":  "(Skeletons, Zombies)"
              },
              {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Skeletons, Zombies)"
+             },
+             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -1214,9 +1194,6 @@
              },
              {
                "Id":  "rulebook-war_platform"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1248,7 +1225,15 @@
                "Str":  "3",
                "AP":  "0",
                "Agi":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
+           ]
   },
   {
     "Id":  "statline_1439",
@@ -1297,9 +1282,6 @@
                "Id":  "vc-gates_of_the_netherworld"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "vc-meeting_of_minds"
              },
              {
@@ -1316,9 +1298,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1336,9 +1315,6 @@
     "Children":  [
              {
                "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
              },
              {
                "Id":  "rulebook-disciplined"
@@ -1400,10 +1376,10 @@
                "Info":  "(2, towards Height 1-2)"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1423,9 +1399,6 @@
                "Id":  "rulebook-attached"
              },
              {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -1436,9 +1409,6 @@
              },
              {
                "Id":  "rulebook-ghost_step"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1459,7 +1429,7 @@
                "HP":  "3",
                "Def":  "5",
                "Res":  "5",
-               "Arm":  "5",
+               "Arm":  "4",
                "Aeg":  "-"
              },
     "Children":  [
@@ -1481,10 +1451,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-fly"
+               "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-fearless"
+               "Id":  "rulebook-fly"
              },
              {
                "Id":  "rulebook-ghost_step"
@@ -1673,8 +1643,7 @@
                "Id":  "rulebook-unstable"
              },
              {
-               "Id":  "rulebook-wizard_master",
-               "Info":  "(Evocation)"
+               "Id":  "rulebook-wizard_master"
              }
            ]
   },
@@ -1829,11 +1798,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
-             }
+               "Id":  "rule_tag_skeleton"
+             }             
            ]
   },
   {
@@ -1855,10 +1824,10 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-unruly"
+               "Id":  "rulebook-undead"
              },
              {
-               "Id":  "rulebook-undead"
+               "Id":  "rulebook-unruly"
              },
              {
                "Id":  "rulebook-unstable"
@@ -1991,10 +1960,10 @@
                "Info":  "(3)"
              },
              {
-               "Id":  "rule_tag_zombie"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_zombie"
              }
            ]
   },
@@ -2070,6 +2039,12 @@
              {
                "Id":  "rulebook-extra_support",
                "Info":  "(2)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
            ]
   },
@@ -2101,10 +2076,10 @@
                "Id":  "rulebook-mindless"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-skirmisher"
              },
              {
-               "Id":  "rulebook-skirmisher"
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2151,11 +2126,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_zombie"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
-             }
+               "Id":  "rule_tag_zombie"
+             }             
            ]
   },
   {
@@ -2293,10 +2268,10 @@
                "Info":  "(2, towards Height 1-2)"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -2382,10 +2357,10 @@
                "Id":  "rulebook-lance"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -2407,7 +2382,7 @@
              },
              {
                "Id":  "rulebook-exclusive",
-               "Info":  "(Zombies, Skeletons)"
+               "Info":  "(Skeletons, Zombies)"
              },
              {
                "Id":  "rulebook-fearless"
@@ -2463,7 +2438,12 @@
                "Str":  "3",
                "AP":  "0",
                "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
              }
+           ]
   },
   {
     "Id":  "statline_1485",
@@ -2491,6 +2471,9 @@
              },
              {
                "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2541,6 +2524,9 @@
                "Info":  "(3+)"
              },
              {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
                "Id":  "rule_tag_vampire"
              }
            ]
@@ -2565,7 +2551,7 @@
              },
              {
                "Id":  "rulebook-exclusive",
-               "Info":  "(Zombies, Skeletons, Barrow Guard, Ghouls)"
+               "Info":  "(Barrow Guard, Ghouls, Skeletons, Zombies)"
              },
              {
                "Id":  "rulebook-fearless"
@@ -2580,10 +2566,10 @@
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "vc-unnatural_activity"
+               "Id":  "rulebook-undead"
              },
              {
-               "Id":  "rulebook-undead"
+               "Id":  "vc-unnatural_activity"
              },
              {
                "Id":  "rulebook-unstable"
@@ -2628,7 +2614,7 @@
                "Info":  "(6+)"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_vampire"
              }
            ]
   },
@@ -2661,6 +2647,9 @@
              },
              {
                "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2712,12 +2701,15 @@
              {
                "Id":  "rulebook-first_strike",
                "Info":  "(+1 Str, +1 AP)"
+             },
+             {
+               "Id":  "rule_tag_spirit"
              }
            ]
   },
   {
     "Id":  "statline_1494",
-    "Name":  "Phantom Host (1)",
+    "Name":  "Phantom Host",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "6",
@@ -2729,6 +2721,9 @@
     "Children":  [
              {
                "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_mount"
              },
              {
                "Id":  "rule_tag_spirit"
@@ -2796,6 +2791,30 @@
              },
              {
                "Id":  "vc-ghostly_form"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3409",
+    "Name":  "Phantom Host",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "2",
+               "Str":  "2",
+               "AP":  "1",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-extra_support",
+                 "Info": "(3)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_spirit"
              }
            ]
   },
@@ -2906,13 +2925,13 @@
                "Info":  "(Ghostly Form)"
              },
              {
+               "Id":  "rulebook-fearless"
+             },
+             {
                "Id":  "rulebook-ghost_step"
              },
              {
                "Id":  "rulebook-horror"
-             },
-             {
-               "Id":  "rulebook-fearless"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -3062,25 +3081,16 @@
                "Id":  "rulebook-lance"
              },
              {
-               "Id":  "rule_tag_skeleton"
-             },
-             {
                "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_mount"
-             },
-             {
                "Id":  "rule_tag_vampire"
-             },
-             {
-               "Id":  "rule_tag_zombie"
              }
            ]
   },
   {
     "Id":  "statline_1507",
-    "Name":  "Undead Mount",
+    "Name":  "Undead",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "1",
@@ -3088,7 +3098,15 @@
                "Str":  "3",
                "AP":  "0",
                "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
+           ]
   },
   {
     "Id":  "statline_1508",
@@ -3184,10 +3202,6 @@
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-first_strike",
-               "Info":  "(Hatred)"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -3320,9 +3334,6 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rulebook-halberd"
-             },
-             {
                "Id":  "rule_tag_statue"
              }
            ]
@@ -3368,6 +3379,54 @@
              },
              {
                "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3414",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "7",
+               "Def":  "4",
+               "Res":  "6",
+               "Arm":  "0",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-regeneration",
+               "Info":  "(6+)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3415",
+    "Name":  "Shrieking Horror",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "vc-chilling_howl"
+             },
+             {
+               "Id":  "vc-chilling_shriek"
+             },             
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_zombie"
              }
            ]
   }

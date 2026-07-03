@@ -30,9 +30,14 @@
     "Type": 0
   },
   {
-    "Id": "ec9d21b9-f8ab-4dd2-8438-320c5d0bbe2e",
-    "Name": "Bloodfur Praetorians",
-    "Type": 1
+    "Id": "53b771f0-227f-4a5d-b0d1-a830d2f1f2e8",
+    "Name": "Fetthis Fleshmaster",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "vs-fetthis_fleshmaster"
+      }
+    ]
   },
   {
     "Id": "5fecf271-0fad-4a13-8667-f3429de54004",
@@ -45,12 +50,23 @@
     ]
   },
   {
+    "Id": "819937cf-ef78-4b3e-958a-1103762d71ee",
+    "Name": "Plague Flail",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "vs-plague_flail"
+      }
+    ]
+  },
+  {
     "Id": "8b9b007d-2841-40c8-b22e-69556b51d884",
     "Name": "Canister Launcher",
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "vs-canister_launcher"
+        "Id": "vs-canister_launcher",
+          "Info": "(6+)"
       }
     ]
   },
@@ -60,19 +76,25 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "vs-deepfire_thrower"
+        "Id": "vs-deepfire_thrower",
+          "Info": "(6+)"
       }
     ]
   },
   {
-    "Id": "768b7079-a09a-4e12-9862-96d33b99822d",
-    "Name": "Dire Rats",
-    "Type": 1
+    "Id": "79e053dc-da68-4f0b-8219-1a88b0d8d774",
+    "Name": "Enlightened by Favana",
+    "Type": 3
   },
   {
-    "Id": "b2bcb640-49dc-4003-a1e2-db59cd8fef5f",
-    "Name": "Greater Eagle Standard",
-    "Type": 1
+    "Id": "50141d99-b70b-4e61-9ec5-2c7b7fb4710f",
+    "Name": "Fortified by Udius",
+    "Type": 3
+  },
+  {
+    "Id": "3df939c6-ac8c-4c4e-8a50-d10b0aa6bc7b",
+    "Name": "Girded by Acratos",
+    "Type": 3
   },
   {
     "Id": "9cdf9587-0a7c-4ff1-b66b-612d13d9d7d0",
@@ -81,6 +103,21 @@
     "ItemsToAdd": [
       {
         "Id": "vs-i_am_the_senate"
+      }
+    ]
+  },
+  {
+    "Id": "a7b6b3f5-a922-4c17-b8f8-1988e51616e9",
+    "Name": "Lord of the Legions",
+    "Type": 3
+  },  
+  {
+    "Id": "cb4639b9-6e86-4c4e-a8d2-452dd8eeffc3",
+    "Name": "Pontifex Maximus",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "vs-pontifex_maximus"
       }
     ]
   },
@@ -97,27 +134,26 @@
   {
     "Id": "847c0fa3-6aea-40ee-b655-4f0a80f71abe",
     "Name": "Jezail and Shield",
-    "Type": 1
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "vs-jezail",
+          "Info": "(4+)"
+      },
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
   },
   {
     "Id": "f3726af1-917e-45b6-9b7f-40516d2da05a",
     "Name": "Pestilent Pulpit",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "er-pestilent_pulpit"
-      }
-    ]
+    "Type": 3
   },
   {
-    "Id": "cb4639b9-6e86-4c4e-a8d2-452dd8eeffc3",
-    "Name": "Pontifex Maximus",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "vs-pontifex_maximus"
-      }
-    ]
+    "Id": "8aad9e03-1573-4f41-95ec-abd081c02e1f",
+    "Name": "Whispering Bell",
+    "Type": 3
   },
   {
     "Id": "1145774a-08a2-400c-a531-7e6ccd941351",
@@ -135,7 +171,8 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "vs-rotary_gun"
+        "Id": "vs-rotary_gun",
+          "Info": "(4+)"
       }
     ]
   },
@@ -155,14 +192,21 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "vs-skorchit_ordnance"
+        "Id": "vs-skorchit_ordnance",
+          "Info": "(5+)"
       }
     ]
   },
   {
-    "Id": "d15164a1-3453-413b-953d-fea10401a689",
-    "Name": "Standard Bearer with Eagle Standard",
-    "Type": 1
+    "Id": "db7f44d6-1be0-40e2-a94d-4df355ec9207",
+    "Name": "Rakachit Mauss Rifle",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "vs-rakachit_mauss_rifle",
+          "Info": "(5+)"
+      }
+    ]
   },
   {
     "Id": "2efc8772-4835-49e8-937d-859e36a16bb7",
@@ -177,11 +221,6 @@
   {
     "Id": "6537041d-e23a-4404-b331-d93c53a8e9a3",
     "Name": "Underworld Beast",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "er-underworld_beast"
-      }
-    ]
+    "Type": 3
   }
 ]

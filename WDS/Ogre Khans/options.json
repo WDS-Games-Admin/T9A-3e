@@ -10,6 +10,21 @@
     "Type": 0
   },
   {
+    "Id": "2b1dad41-587a-417e-96b7-0b0a1fb74d31",
+    "Name": "Wildheart",
+    "Type": 1,
+    "ItemsToAdd": [      
+      {
+        "Id":  "ok-wildheart"
+      }
+    ]
+  },
+  {
+    "Id": "b6157b20-b6e9-441d-8586-34d6b4fcecd1",
+    "Name": "Leader of the Pack",
+    "Type": 3
+  },
+  {
     "Id": "8f3d5606-3d68-48b3-8609-aba3a812c3f4",
     "Name": "Brace of Ogre Pistol",
     "Type": 1
@@ -23,11 +38,6 @@
         "Id": "ok-brace_of_ogre_pistols"
       }
     ]
-  },
-  {
-    "Id": "c88d6085-a160-40b3-9c17-e9f3b8faae99",
-    "Name": "Chassis",
-    "Type": 1
   },
   {
     "Id": "39ff8caf-d9ce-45ee-8cef-bcf2e964c669",
@@ -50,8 +60,114 @@
     ]
   },
   {
-    "Id": "1fd60811-2155-4228-9ed8-74733178a5cf",
-    "Name": "Scrapling Foreman",
-    "Type": 1
+    "Id": "8114560f-4515-4ba9-bcbc-33d7e4b3bed1",
+    "Name": "Hunting Spear",
+    "Type": 1,
+    "ItemsToAdd": [      
+      {
+        "Id":  "ok-hunting_spear",
+          "Info":  "(2+)"
+      }
+    ]
+  },
+  {
+    "Id": "746d574b-0f87-4557-aacf-75d1c2ad430f",
+    "Name": "Hunting Spear",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ok-hunting_spear",
+          "Info":  "(4+)"
+      },
+      {
+        "Id": "ok-iron_fist"
+      },
+      {
+        "Id": "rulebook-poison_attacks",
+          "Info":  "(Shooting)"
+      }
+    ]
+  },
+  {
+    "Id": "101956de-b57e-4ca7-b7c6-3e519abe8292",
+    "Name": "Hunting Spear",
+    "Type": 1,
+    "ItemsToAdd": [      
+      {
+        "Id":  "ok-hunting_spear",
+          "Info":  "(3+)"
+      }
+    ]
+  },
+  {
+    "Id": "f36e89a5-5680-4959-a239-a9bb168fdecb",
+    "Name": "Ogre Crossbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ok-ogre_crossbow",
+          "Info":  "(3+)"
+      }
+    ]
+  },
+  {
+    "Id": "7f303bba-1cc3-4a83-9fe8-9de88fd44d20",
+    "Name": "Brace of Ogre Pistols and Lethal Strike",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id":  "ok-brace_of_ogre_pistols",
+          "Info":  "(4+)"
+      },
+      {
+        "Id":  "rulebook-lethal_strike",
+          "Info":  "(Shooting)"
+      }
+    ]
+  },
+  {
+    "Id": "1403cf9d-81ff-4254-90c3-c4ae59db11b6",
+    "Name": "Ogre Crossbow and Accurate",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ok-ogre_crossbow",
+          "Info":  "(4+)"
+      },
+      {
+        "Id":  "rulebook-accurate"
+      }
+    ]
+  },
+  {
+    "Id": "045c34b7-92c2-4256-b93f-23e97798045d",
+    "Name": "Magic Resistance",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id":  "rulebook-magic_resistance",
+          "Info": "(2)"
+      }
+    ]
+  },
+  {
+    "Id": "5e77a0da-978d-492c-bb92-073cb43fa466",
+    "Name": "Swiftstride",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id":  "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "5a075349-ac83-4576-8b7e-8743ee32ea15",
+    "Name": "Vanguard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id":  "rulebook-vanguard"
+      }
+    ]
   }
 ]
