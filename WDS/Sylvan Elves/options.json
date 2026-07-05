@@ -20,6 +20,21 @@
     "Type": 0
   },
   {
+    "Id": "e477f1fc-48d4-41a2-87d9-f56f917a352f",
+    "Name": "Clearing Spirits",
+    "Type": 3
+  },
+  {
+    "Id": "b9cd4c7b-729c-43fd-82fd-48da152d57ab",
+    "Name": "Heath Hunters",
+    "Type": 3
+  },
+  {
+    "Id": "693d4ae2-8a53-4398-8417-ffa2d5fbb5a7",
+    "Name": "Heath Lancers",
+    "Type": 3
+  },
+  {
     "Id": "c1b697a1-1ca1-4927-b21a-3efe40a12836",
     "Name": "Elven Cloak and Sylvan Blades",
     "Type": 1
@@ -36,8 +51,13 @@
   },
   {
     "Id": "97c42c57-fa61-470c-b6fb-1e222d22895c",
-    "Name": "Skirmisher and Sylvan Longbow",
-    "Type": 1
+    "Name": "Light Lance and Sylvan Bow",
+    "Type": 3
+  },
+  {
+    "Id": "85a152aa-c09a-4d69-980e-9938412e372f",
+    "Name": "Lance and Shield",
+    "Type": 3
   },
   {
     "Id": "e5539c59-fee2-4b0c-bbc9-7e4e33a1317a",
@@ -50,14 +70,14 @@
     ]
   },
   {
-    "Id": "6a37c3b8-5be8-4b4c-b02a-8e210a4163b6",
-    "Name": "Sylvan Lance",
-    "Type": 1
-  },
-  {
     "Id": "6374b440-f507-4ae5-8648-edeeff93d43e",
-    "Name": "Sylvan Longbow",
-    "Type": 1
+    "Name": "Sylvan Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "se-sylvan_bow"
+      }
+    ]
   },
   {
     "Id": "d07b3eec-8d3f-4985-ba5b-6fa3021a110e",

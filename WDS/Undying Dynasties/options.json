@@ -26,18 +26,57 @@
   },
   {
     "Id": "5c2831dc-0138-4b97-8fef-5a7a606cb708",
-    "Name": "Aspen Bow",
-    "Type": 1
+    "Name": "Aspis Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ud-aspis_arrows"
+      }
+    ]
   },
   {
     "Id": "eee253c2-a397-480d-8095-0ac61f033437",
-    "Name": "Giant Aspen Bow",
-    "Type": 1
+    "Name": "Giant Aspis Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ud-giant_aspis_bow",
+          "Info": "(4+)"
+      }
+    ]
   },
   {
     "Id": "7be2ee2d-ec7e-4bb1-b5bc-236646da9cfe",
-    "Name": "Great Aspen Bow",
-    "Type": 1
+    "Name": "Great Aspis Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ud-great_aspis_bow",
+          "Info": "(4+)"
+      }
+    ]
+  },
+  {
+    "Id": "7797869b-6832-43fb-a377-3b7700b336b0",
+    "Name": "Bow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-bow",
+          "Info": "(5+)"
+      }
+    ]
+  },
+  {
+    "Id": "f6000bfb-6b60-43ba-9460-51997f79810c",
+    "Name": "Longbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-longbow",
+          "Info": "(5+)"
+      }
+    ]
   },
   {
     "Id": "500c0431-15cc-4d3d-96b4-635d2260f41e",

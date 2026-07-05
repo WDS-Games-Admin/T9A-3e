@@ -91,6 +91,23 @@
     ]
   },
   {
+    "Id": "640fe845-8099-4ab3-bad4-ac1c732efa00",
+    "Name": "Prophet on Taurukh Ritual",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
+      {
+        "Id": "statline_2761"
+      },
+      {
+        "Id": "statline_627"
+      },
+      {
+        "Id": "statline_2763"
+      }
+    ]
+  },
+  {
     "Id": "99c40cac-affe-442d-b6e0-1c3634ca0ba7",
     "Name": "Prophet on Seat of Authority",
     "Type": "Profile",
@@ -210,6 +227,23 @@
       },
       {
         "Id": "statline_645"
+      }
+    ]
+  },
+  {
+    "Id": "4f1c9a82-b7e4-41d9-a6ce-83bd1f2a7c54",
+    "Name": "Vizier on Taurukh Ritual",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
+      {
+        "Id": "statline_2643"
+      },
+      {
+        "Id": "statline_644"
+      },
+      {
+        "Id": "statline_2645"
       }
     ]
   },
@@ -678,23 +712,6 @@
     ]
   },
   {
-    "Id": "68357f5a790d8280c4b2283d",
-    "Name": "Infernal Engine",
-    "Type": "Profile",
-    "BaseId": "10",
-    "Children": [
-      {
-        "Id": "statline_718"
-      },
-      {
-        "Id": "statline_719"
-      },
-      {
-        "Id": "statline_1720"
-      }
-    ]
-  },
-  {
     "Id": "68357f5a790d8280c4b22836",
     "Name": "Kadim Titan",
     "Type": "Profile",
@@ -708,6 +725,46 @@
       },
       {
         "Id": "statline_723"
+      }
+    ]
+  },
+  {
+    "Id": "68357f5a790d8280c4b22837",
+    "Name": "Kadim Titan - Walking Earthquake",
+    "Type": "Profile",
+    "BaseId": "14",
+    "Children": [
+      {
+        "Id": "statline_2721"
+      },
+      {
+        "Id": "statline_722"
+      },
+      {
+        "Id": "statline_2723"
+      },
+      {
+        "Id": "id-walking_earthquake"
+      }
+    ]
+  },
+  {
+    "Id": "68357f5a790d8280c4b22838",
+    "Name": "Kadim Titan - Walking Volcano",
+    "Type": "Profile",
+    "BaseId": "14",
+    "Children": [
+      {
+        "Id": "statline_721"
+      },
+      {
+        "Id": "statline_722"
+      },
+      {
+        "Id": "statline_3723"
+      },
+      {
+        "Id": "id-walking_volcano"
       }
     ]
   },

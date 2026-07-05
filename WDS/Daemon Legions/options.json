@@ -30,17 +30,48 @@
     "Type": 0
   },
   {
-    "Id": "a9b3d1f0-c3f2-5b6a-9e31-72db1c3e4f2d",
-    "Name": "Tristitia",
-    "Type": 0
-  },
-  {
     "Id": "418ac56c-93d0-4959-8163-bf480bdbf809",
     "Name": "Fly",
     "Type": 1,
     "ItemsToAdd": [
       {
         "Id": "rulebook-fly"
+      }
+    ]
+  },
+  {
+    "Id": "ade5e9fc-923d-4e0e-9ca9-8d7473a9eb8d",
+    "Name": "Wings",
+    "Type": 3
+  },
+  {
+    "Id": "798e7093-7858-45b4-8bfa-93cfcf50766c",
+    "Name": "Wizard Conclave",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "rulebook-wizard_conclave",
+        "Type": "Rule"
+      },
+      {
+        "Id": "spear of infinity/hereditary spells",
+        "Type": "Card"
+      },
+      {
+        "Id": "foresight/divination",
+        "Type": "Card"
+      },
+      {
+        "Id": "whispers of the veil/evocation",
+        "Type": "Card"
+      },
+      {
+        "Id": "smite the unbeliever/thaumaturgy",
+        "Type": "Card"
+      },
+      {
+        "Id": "mind fog/witchcraft",
+        "Type": "Card"
       }
     ]
   },
@@ -70,34 +101,14 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "cl-dark_fire"
+        "Id": "dl-dark_fire"
       }
     ]
   },
   {
     "Id": "7a74fe0d-60df-4c4f-a1e0-98caf8c972ab",
     "Name": "Engine of Damnation",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "dl-engine_of_damnation"
-      }
-    ]
-  },
-  {
-    "Id": "14edac68-c08c-4df3-afdf-b5d8110a90c6",
-    "Name": "Fly and Armour set to C",
-    "Type": 1
-  },
-  {
-    "Id": "d21b8c91-3c44-4f34-9726-e084ec47c5f5",
-    "Name": "Pale Horse",
-    "Type": 1
-  },
-  {
-    "Id": "abefdce2-7ac8-4bfc-8db0-1bdd1d8769cf",
-    "Name": "Tergon's Great Beast of Prophecy",
-    "Type": 1
+    "Type": 3
   },
   {
     "Id": "05721647-d968-4da4-a075-3343289bf3d7",
@@ -117,11 +128,11 @@
         "Type": "Card"
       },
       {
-        "Id": "touch of the reaper/evocation",
+        "Id": "whispers of the veil/evocation",
         "Type": "Card"
       },
       {
-        "Id": "illusory paths/witchcraft",
+        "Id": "touch of the reaper/evocation",
         "Type": "Card"
       }
     ]

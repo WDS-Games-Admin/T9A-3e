@@ -62,11 +62,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
-             }
+               "Id":  "rule_tag_skeleton"
+             }             
            ]
   },
   {
@@ -88,9 +88,6 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-undead"
              },
              {
@@ -107,7 +104,7 @@
     "Type":  "Statline",
     "Attributes":  {
                "HP":  "4",
-               "Def":  "8",
+               "Def":  "6",
                "Res":  "5",
                "Arm":  "3",
                "Aeg":  "-"
@@ -125,18 +122,18 @@
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "1",
-               "Off":  "4",
+               "Off":  "2",
                "Str":  "3",
                "AP":  "0",
                "Agi":  "2"
              },
     "Children":  [
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_mount"
              },
              {
-               "Id":  "rule_tag_mount"
-             }
+               "Id":  "rule_tag_skeleton"
+             }             
            ]
   },
   {
@@ -187,7 +184,7 @@
     "Type":  "Statline",
     "Attributes":  {
                "HP":  "4",
-               "Def":  "8",
+               "Def":  "6",
                "Res":  "5",
                "Arm":  "3",
                "Aeg":  "-"
@@ -205,14 +202,17 @@
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "1",
-               "Off":  "4",
+               "Off":  "2",
                "Str":  "3",
                "AP":  "0",
                "Agi":  "2"
              },
     "Children":  [
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -222,7 +222,7 @@
     "Type":  "Statline",
     "Attributes":  {
                "Att":  null,
-               "Off":  "2",
+               "Off":  null,
                "Str":  "5",
                "AP":  "2",
                "Agi":  null
@@ -257,9 +257,6 @@
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-solitary"
@@ -325,10 +322,10 @@
                "Info":  "(D6)"
              },
              {
-               "Id":  "rule_tag_statue"
+               "Id":  "rule_tag_mount"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_statue"
              }
            ]
   },
@@ -344,12 +341,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-fearless"
              },
@@ -395,16 +386,13 @@
              },
     "Children":  [
              {
-               "Id":  "ud-tomb_harbinger"
-             },
-             {
                "Id":  "ud-aspis_arrows"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -421,19 +409,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
              },
              {
                "Id":  "rulebook-undead"
@@ -474,13 +450,10 @@
              },
     "Children":  [
              {
-               "Id":  "ud-tomb_harbinger"
+               "Id":  "rule_tag_mount"
              },
              {
                "Id":  "rule_tag_skeleton"
-             },
-             {
-               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -497,13 +470,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "ud-autonomous"
-             },
-             {
-               "Id":  "rulebook-captain"
              },
              {
                "Id":  "rulebook-exclusive",
@@ -557,7 +524,10 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -575,10 +545,7 @@
     "Children":  [
              {
                "Id":  "rulebook-impact_hits",
-               "Info":  "(D3)"
-             },
-             {
-               "Id":  "ud-tomb_harbinger"
+               "Info":  "(D3+3)"
              },
              {
                "Id":  "rule_tag_construct"
@@ -598,16 +565,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "ud-ensouled_statue"
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -658,13 +619,10 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "ud-tomb_harbinger"
+               "Id":  "rule_tag_mount"
              },
              {
                "Id":  "rule_tag_statue"
-             },
-             {
-               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -681,19 +639,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "ud-ensouled_statue"
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-solitary"
@@ -703,6 +652,9 @@
              },
              {
                "Id":  "rulebook-terror"
+             },             
+             {
+               "Id":  "rulebook-swiftstride"
              },
              {
                "Id":  "rulebook-undead"
@@ -738,9 +690,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -792,9 +741,6 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              },
              {
@@ -802,9 +748,6 @@
              },
              {
                "Id":  "rulebook-unstable"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -833,11 +776,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_mount"
              },
              {
-               "Id":  "rule_tag_mount"
-             }
+               "Id":  "rule_tag_skeleton"
+             }             
            ]
   },
   {
@@ -863,9 +806,6 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "ud-sacred_ark"
              },
              {
@@ -876,9 +816,6 @@
              },
              {
                "Id":  "rulebook-war_platform"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -923,7 +860,13 @@
                "Info":  "(4+)"
              },
              {
+               "Id":  "rule_tag_mount"
+             },
+             {
                "Id":  "rule_tag_skeleton"
+             },
+             {
+               "Id":  "rule_tag_spirit"
              }
            ]
   },
@@ -961,7 +904,7 @@
              },
              {
                "Id":  "rulebook-channel",
-               "Info":  "(1)"
+               "Info":  "(3)"
              },
              {
                "Id":  "ud-death_is_only_the_beginning"
@@ -978,6 +921,9 @@
              },
              {
                "Id":  "rulebook-ghost_step"
+             },
+             {
+               "Id":  "rulebook-horror"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -1001,7 +947,7 @@
                "Id":  "rulebook-unstable"
              },
              {
-               "Id":  "rulebook-wizard_master"
+               "Id":  "rulebook-war_platform"
              }
            ]
   },
@@ -1042,10 +988,10 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_hierophant"
              },
              {
-               "Id":  "rule_tag_hierophant"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1100,6 +1046,12 @@
                "Id":  "ud-the_golden_chariot"
              },
              {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-undead"
+             },
+             {
                "Id":  "rulebook-unstable"
              }
            ]
@@ -1116,6 +1068,10 @@
                "Aeg":  "-"
              },
     "Children":  [
+             {
+               "Id":  "rulebook-regeneration",
+               "Info":  "(5+)"
+             },
              {
                "Id":  "rulebook-resistance",
                "Info":  "(Flaming Attacks)"
@@ -1141,10 +1097,10 @@
                "Id":  "ud-charioteer_of_the_sun"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1165,7 +1121,7 @@
                "Info":  "(1 hit)"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1182,7 +1138,8 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-unstable"
+               "Id":  "rulebook-impact_hits",
+                 "Info": "(2D3+3)"
              },
              {
                "Id":  "rule_tag_construct"
@@ -1240,11 +1197,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
-             }
+               "Id":  "rule_tag_skeleton"
+             }             
            ]
   },
   {
@@ -1301,10 +1258,6 @@
                "Id":  "ud-aspis_arrows"
              },
              {
-               "Id":  "rulebook-bow",
-               "Info":  "(5+)"
-             },
-             {
                "Id":  "rule_tag_skeleton"
              },
              {
@@ -1334,13 +1287,13 @@
                "Id":  "rulebook-swiftstride"
              },
              {
-               "Id":  "rulebook-vanguard"
-             },
-             {
                "Id":  "rulebook-undead"
              },
              {
                "Id":  "rulebook-unstable"
+             },
+             {
+               "Id":  "rulebook-vanguard"
              }
            ]
   },
@@ -1406,13 +1359,13 @@
                "Id":  "rulebook-swiftstride"
              },
              {
-               "Id":  "rulebook-vanguard"
-             },
-             {
                "Id":  "rulebook-undead"
              },
              {
                "Id":  "rulebook-unstable"
+             },
+             {
+               "Id":  "rulebook-vanguard"
              }
            ]
   },
@@ -1446,6 +1399,9 @@
              {
                "Id":  "rulebook-bow",
                "Info":  "(4+)"
+             },
+             {
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1509,7 +1465,31 @@
              },
     "Children":  [
              {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
                "Id":  "rule_tag_skeleton"
+             }             
+           ]
+  },
+  {
+    "Id":  "statline_3311",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(D3)"
+             },
+             {
+               "Id":  "rule_tag_construct"
              }
            ]
   },
@@ -1577,10 +1557,10 @@
                "Id":  "rulebook-lethal_strike"
              },
              {
-               "Id":  "rule_tag_skeleton"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1601,9 +1581,6 @@
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "rulebook-lethal_strike"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1645,6 +1622,12 @@
              },
              {
                "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1865,9 +1848,6 @@
     "Children":  [
              {
                "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -1888,19 +1868,19 @@
                "Info":  "(-1 Agi)"
              },
              {
-               "Id":  "rulebook-fearless"
+               "Id":  "ud-dust_to_dust"
              },
              {
-               "Id":  "ud-dust_to_dust"
+               "Id":  "rulebook-fearless"
              },
              {
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-skirmisher"
              },
              {
-               "Id":  "rulebook-skirmisher"
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1981,10 +1961,10 @@
                "Id":  "ud-ensouled_statue"
              },
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-fearless"
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-undead"
@@ -2022,10 +2002,10 @@
                "Id":  "ud-petrifying_gaze"
              },
              {
-               "Id":  "rule_tag_statue"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_statue"
              }
            ]
   },
@@ -2038,7 +2018,7 @@
                "Mob":  "0",
                "Dis":  "7",
                "Hgt":  "2",
-               "Rsr":  "-"
+               "Rsr":  "1"
              },
     "Children":  [
              {
@@ -2052,6 +2032,9 @@
              },
              {
                "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-undead"
@@ -2102,6 +2085,9 @@
                "Id":  "rulebook-halberd"
              },
              {
+               "Id":  "rule_tag_construct"
+             },
+             {
                "Id":  "rule_tag_skeleton"
              }
            ]
@@ -2126,6 +2112,9 @@
              },
              {
                "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-undead"
@@ -2261,10 +2250,13 @@
                "Info":  "(D6, Maximised)"
              },
              {
-               "Id":  "rule_tag_statue"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_statue"
              }
            ]
   },
@@ -2335,7 +2327,7 @@
     "Children":  [
              {
                "Id":  "rulebook-multiple_wounds",
-               "Info":  "(D3, towards Height 4-5 with 5 or towards Characters)"
+               "Info":  "(D3, towards Height 4-5 or towards Characters)"
              },
              {
                "Id":  "rulebook-poison_attacks"
@@ -2383,14 +2375,14 @@
                "Id":  "rulebook-swiftstride"
              },
              {
-               "Id":  "rulebook-vanguard",
-               "Info":  "(3 Mob)"
-             },
-             {
                "Id":  "rulebook-undead"
              },
              {
                "Id":  "rulebook-unstable"
+             },
+             {
+               "Id":  "rulebook-vanguard",
+               "Info":  "(3\" Mob)"
              }
            ]
   },
@@ -2528,6 +2520,9 @@
                "Id":  "rulebook-light_troops"
              },
              {
+               "Id":  "rulebook-solitary"
+             },
+             {
                "Id":  "rulebook-swiftstride"
              },
              {
@@ -2573,10 +2568,10 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_statue"
+               "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_statue"
              }
            ]
   }

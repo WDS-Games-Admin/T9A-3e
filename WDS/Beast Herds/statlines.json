@@ -231,12 +231,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-light_troops"
              },
              {
@@ -296,12 +290,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-exclusive",
                "Info":  "(Raiding Chariots)"
              },
@@ -356,9 +344,6 @@
              {
                "Id":  "rulebook-strider",
                "Info":  "(Forest)"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -407,6 +392,16 @@
              },
     "Children":  [
              {
+               "Id":  "bh-blood_offering"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Raiding Chariots)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
                "Id":  "bh-pack_tactics"
              },
              {
@@ -414,20 +409,7 @@
                "Info":  "(Forest)"
              },
              {
-               "Id":  "bh-blood_offering"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Raiding Chariots)"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -573,10 +555,10 @@
                "Id":  "bh-primal_instinct"
              },
              {
-               "Id":  "rule_tag_minotaur"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_minotaur"
              }
            ]
   },
@@ -645,10 +627,10 @@
                "Id":  "bh-primal_instinct"
              },
              {
-               "Id":  "rule_tag_minotaur"
+               "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_minotaur"
              }
            ]
   },
@@ -843,12 +825,7 @@
                "Res":  "4",
                "Arm":  "0",
                "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
              }
-           ]
   },
   {
     "Id":  "statline_38",
@@ -867,9 +844,6 @@
              },
              {
                "Id":  "rule_tag_wildhorn"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -954,10 +928,10 @@
                "Id":  "bh-pack_tactics"
              },
              {
-               "Id":  "rulebook-skirmisher"
+               "Id":  "rulebook-scout"
              },
              {
-               "Id":  "rulebook-scout"
+               "Id":  "rulebook-skirmisher"
              },
              {
                "Id":  "rulebook-strider",
@@ -1123,9 +1097,6 @@
                "Id":  "bh-primal_instinct"
              },
              {
-               "Id":  "rulebook-halberd"
-             },
-             {
                "Id":  "rule_tag_wildhorn"
              },
              {
@@ -1195,13 +1166,10 @@
                "Id":  "bh-primal_instinct"
              },
              {
-               "Id":  "rule_tag_minotaur"
-             },
-             {
                "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_minotaur"
              }
            ]
   },
@@ -1262,13 +1230,10 @@
                "Id":  "bh-primal_instinct"
              },
              {
-               "Id":  "rule_tag_light_armour"
-             },
-             {
                "Id":  "rule_tag_centauroid"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -1325,13 +1290,16 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-light_lance"
+               "Id":  "bh-primal_instinct"
              },
              {
                "Id":  "rulebook-great_weapon"
              },
              {
-               "Id":  "bh-primal_instinct"
+               "Id":  "rulebook-light_lance"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              },
              {
                "Id":  "rule_tag_wildhorn"
@@ -1355,7 +1323,7 @@
                "Info":  "(+1 Str, +1 AP)"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1412,7 +1380,7 @@
                "Info":  "(+1 Str, +1 AP)"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1485,11 +1453,11 @@
                "Id":  "bh-sleeper"
              },
              {
-               "Id":  "rulebook-strider",
-               "Info":  "(Forest)"
+               "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
              },
              {
                "Id":  "rulebook-stubborn"
@@ -1623,11 +1591,11 @@
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "rulebook-strider",
-               "Info":  "(Forest)"
+               "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
              },
              {
                "Id":  "rulebook-terror"

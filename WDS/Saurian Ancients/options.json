@@ -35,12 +35,80 @@
     "Type": 0
   },
   {
+    "Id": "9791ee26-2fa6-4e20-a0bb-9abb539f4e38",
+    "Name": "Light Troops and Closely Guarded",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "sa-closely_guarded"
+      }
+    ]
+  },
+  {
+    "Id": "2ab66449-faa9-4605-8901-8f3f83b3cb87",
+    "Name": "Light Troops and Strider",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-strider",
+          "Info": "(Water Terrain)"
+      }
+    ]
+  },
+  {
     "Id": "bd495621-e26a-4acc-8af6-3691036cc44c",
     "Name": "Blowpipe",
     "Type": 1,
     "ItemsToAdd": [
       {
         "Id": "sa-blowpipe"
+      }
+    ]
+  },
+  {
+    "Id": "e97271e8-44b8-46c3-944e-7cf382e0e2f1",
+    "Name": "Poisoned Javelin",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-poisoned_javelin"
+      }
+    ]
+  },
+  {
+    "Id": "caa43ba3-f0b7-4eb5-9eae-820b2497c86c",
+    "Name": "Tooth and Claw",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-tooth_and_claw"
+      }
+    ]
+  },
+  {
+    "Id": "b01e56ef-f0cc-49a6-9409-91a92cda6568",
+    "Name": "Ambush",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-ambush",
+          "Info": "(Battlefield Edge)"
+      }
+    ]
+  },
+  {
+    "Id": "501df619-c8d6-41ca-8b64-e77465a218d0",
+    "Name": "Corrosive Spitter",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-corrosive_spitter"
       }
     ]
   },
@@ -100,12 +168,43 @@
     ]
   },
   {
-    "Id": "684c765c-0377-4829-a2b4-d0177cfd9c5b",
-    "Name": "Marking Bolas",
+    "Id": "d7332dbc-a530-49ee-8423-5ac02eadf2cb",
+    "Name": "Ambush",
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "sa-marking_bolas"
+        "Id": "rulebook-ambush",
+          "Info": "(Friendly Titanopod)"
+      }
+    ]
+  },
+  {
+    "Id": "e8aafe06-d4ed-4668-856f-e781fa6353c7",
+    "Name": "Hunt Leader",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-hunt_leader"
+      }
+    ]
+  },
+  {
+    "Id": "68bdd76a-7c11-41c8-b9fc-f6923aa9c474",
+    "Name": "Path of Destruction",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-path_of_destruction"
+      }
+    ]
+  },
+  {
+    "Id": "0c7b17d6-1a31-46dd-a854-0150d32bf7c1",
+    "Name": "Walking Mountain",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-walking_mountain"
       }
     ]
   },
@@ -121,8 +220,23 @@
   },
   {
     "Id": "e1d4c873-caa7-4b24-a68b-36e71e5fbf0b",
-    "Name": "Salamander and Aegis",
-    "Type": 1
+    "Name": "Salamander",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-salamander"
+      }
+    ]
+  },
+  {
+    "Id": "e62c36c2-4fe1-4af8-8d04-f754c9dedc49",
+    "Name": "Spearback",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-spearback"
+      }
+    ]
   },
   {
     "Id": "ccdca7f5-8526-4115-a69d-e6a018d10e5f",
@@ -135,12 +249,32 @@
     ]
   },
   {
+    "Id": "ff85cb96-0770-4fc8-a909-f64d1e1fc09e",
+    "Name": "Great Protector",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "sa-great_protector"
+      }
+    ]
+  },
+  {
     "Id": "510182ec-c90b-4fbf-8221-af9232712bc4",
     "Name": "Venomous Fortress",
     "Type": 1,
     "ItemsToAdd": [
       {
         "Id": "sa-venomous_fortress"
+      }
+    ]
+  },
+  {
+    "Id": "bfc137c7-ea43-4a3f-aba3-3a1b3d4f57ec",
+    "Name": "Vanguard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-vanguard"
       }
     ]
   },
@@ -319,94 +453,20 @@
         "Type": "Card"
       }
     ]
-  },
+  },  
   {
-    "Id": "94eff8e7-0656-4f9e-b654-2d70c30856c5",
+    "Id": "39c9cfdc-bc9c-4166-a211-59c1495d38c1",
     "Name": "Combat Artist",
-    "Type": 7,
-    "ExtraItems": [
-      {
-        "Id": "sa-combat_artist",
-        "Type": "Rule"
-      }
-    ]
+    "Type": 3
   },
   {
-    "Id": "170ab5fb-59ba-43b2-b02f-c167f06ccece",
-    "Name": "Combat Master",
-    "Type": 7,
-    "ExtraItems": [
-      {
-        "Id": "sa-combat_master",
-        "Type": "Rule"
-      }
-    ]
-  },
-  {
-    "Id": "fccdf046-227c-4bb2-b591-7e6dccc88b6b",
+    "Id": "c428066a-3923-4e44-abf2-7a9623995432",
     "Name": "Combat Legend",
-    "Type": 7,
-    "ExtraItems": [
-      {
-        "Id": "sa-combat_legend",
-        "Type": "Rule"
-      },
-      {
-        "Id": "sa-enclave_wizard",
-        "Type": "Rule"
-      },
-      {
-        "Id": "astral union/hereditary spells",
-        "Type": "Card"
-      },
-      {
-        "Id": "fountain of youth/druidism",
-        "Type": "Card"
-      },
-      {
-        "Id": "entwining roots/druidism",
-        "Type": "Card"
-      },
-      {
-        "Id": "veil of mist/druidism",
-        "Type": "Card"
-      },
-      {
-        "Id": "stone skin/druidism",
-        "Type": "Card"
-      },
-      {
-        "Id": "whispers of the veil/evocation",
-        "Type": "Card"
-      },
-      {
-        "Id": "danse macabre/evocation",
-        "Type": "Card"
-      },
-      {
-        "Id": "chorus of the damned/evocation",
-        "Type": "Card"
-      },
-      {
-        "Id": "touch of the reaper/evocation",
-        "Type": "Card"
-      },
-      {
-        "Id": "swarm of insects/shamanism",
-        "Type": "Card"
-      },
-      {
-        "Id": "savage fury/shamanism",
-        "Type": "Card"
-      },
-      {
-        "Id": "awaken the beast/shamanism",
-        "Type": "Card"
-      },
-      {
-        "Id": "predator's instinct/shamanism",
-        "Type": "Card"
-      }
-    ]
+    "Type": 3
+  },
+  {
+    "Id": "e744580f-7a64-43aa-a483-04783d8298ae",
+    "Name": "Combat Master",
+    "Type": 3
   }
 ]

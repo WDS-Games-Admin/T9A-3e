@@ -35,6 +35,38 @@
     "Type": 0
   },
   {
+    "Id": "16569244-801c-40c7-88c6-da38a16b5afe",
+    "Name": "Longbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-longbow",
+          "Info": "(4+)"
+      }
+    ]
+  },
+  {
+    "Id": "3057e694-abd6-487d-9689-478712ff124d",
+    "Name": "Crossbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "koe-crossbow",
+          "Info": "(4+)" 
+      }
+    ]
+  },
+  {
+    "Id": "a49c24ec-2680-493d-9d68-48a306a2299c",
+    "Name": "Prepared Position",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "koe-prepared_position"
+      }
+    ]
+  },
+  {
     "Id": "80899070-314d-463e-a377-0a38c9aeb757",
     "Name": "Scorpion",
     "Type": 1,
@@ -55,11 +87,6 @@
     ]
   },
   {
-    "Id": "625b714e-053a-4b74-a0b0-76d85cfccd00",
-    "Name": "Avowed Armsmen",
-    "Type": 1
-  },
-  {
     "Id": "50562352-e97f-4c9e-af9f-aefb59b7e40a",
     "Name": "Bastard Sword",
     "Type": 1,
@@ -72,31 +99,38 @@
   {
     "Id": "32bf6309-4f73-48bb-a912-f5734917ec1e",
     "Name": "Halberd and Shield",
-    "Type": 1
-  },
-  {
-    "Id": "42272ea6-3c7d-40aa-9424-62eba2468a4b",
-    "Name": "Hooded Men",
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "koe-hooded_men"
+        "Id": "rulebook-halberd"
+      },
+      {
+        "Id": "rulebook-shield"
       }
     ]
   },
   {
-    "Id": "3cf727e8-4e00-4f99-abc0-6bbdd02f2024",
-    "Name": "Knights of the Court",
-    "Type": 1
+    "Id": "42272ea6-3c7d-40aa-9424-62eba2468a4b",
+    "Name": "Hooded Men",
+    "Type": 3
+  },
+  {
+    "Id": "d645ca58-b53d-4602-9052-4c9120ed1d56",
+    "Name": "Throwing Weapons and Vanguard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-throwing_weapons",
+          "Info": "(5+)"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      }
+    ]
   },
   {
     "Id": "807d1dbd-98cc-4740-9001-1ad9d9575c80",
     "Name": "Longbow (3+) and Shots 3",
-    "Type": 1
-  },
-  {
-    "Id": "b800ef95-b8cc-418b-89a0-ad5f64f124af",
-    "Name": "Longbow and Shots 3",
     "Type": 1
   },
   {
@@ -105,22 +139,35 @@
     "Type": 1
   },
   {
-    "Id": "f427ff2c-c98e-4df3-8a82-c8745befc499",
-    "Name": "Ordo Wardens",
+    "Id": "7698ce9c-8a79-4de1-b57c-ebd7c607e27e",
+    "Name": "Castle Guard",
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "koe-ordo_wardens"
+        "Id": "koe-castle_guard",
+          "Info": "(Commonfolk, Spear)"
       }
     ]
   },
   {
-    "Id": "18fdbc6b-625a-47d5-bd38-110868b45c9e",
-    "Name": "Trebuchet",
+    "Id": "e80361f5-6078-4865-a38e-aa57ce1aa7a3",
+    "Name": "Knights Forlorn",
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "koe-trebuchet"
+        "Id": "koe-knights_forlorn",
+          "Info": "(Nobility, Bastard Sword)"
+      }
+    ]
+  },
+  {
+    "Id": "2d37b7e2-4b63-4d2d-a61d-f64d8e64f0d3",
+    "Name": "Ordo Wardens",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "koe-ordo_wardens",
+          "Info": "(Clergy, Great Weapon)"
       }
     ]
   },
@@ -191,6 +238,10 @@
         "Type": "Rule"
       },
       {
+        "Id": "koe-courtier_of_the_dawn",
+        "Type": "Rule"
+      },
+      {
         "Id": "predator's instinct/shamanism",
         "Type": "Card"
       }
@@ -203,6 +254,10 @@
     "ExtraItems": [
       {
         "Id": "rulebook-wizard_conclave",
+        "Type": "Rule"
+      },
+      {
+        "Id": "koe-courtier_of_the_dusk",
         "Type": "Rule"
       },
       {
@@ -220,6 +275,36 @@
       {
         "Id": "shrouded steps/witchcraft",
         "Type": "Card"
+      }
+    ]
+  },
+  {
+    "Id": "d9188997-239b-4d99-8a60-9fa86eb9a99a",
+    "Name": "Champion of the Green Knight",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "koe-champion_of_the_green_knight"
+      }
+    ]
+  },
+  {
+    "Id": "032c9da2-a831-4c06-95f8-c72caabb0d93",
+    "Name": "Chosen of the Snow Childe",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "koe-chosen_of_the_snow_childe"
+      }
+    ]
+  },
+  {
+    "Id": "b442bf00-efd5-437f-ae90-47ea4d6e76e1",
+    "Name": "Warden of the Hooded Man",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "koe-warden_of_the_hooded_man"
       }
     ]
   }

@@ -119,17 +119,12 @@
   {
     "Id": "f3b9a0d7-2c4e-4f8a-9b61-7e5d1a8c0f42",
     "Name": "Dashers",
-    "Type": 0
+    "Type": 3
   },
   {
     "Id": "d572cb46-8f5c-4804-add5-0ba23c45a3bf",
     "Name": "Skewerer",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "ong-skewerer"
-      }
-    ]
+    "Type": 3
   },
   {
     "Id": "33a231a4-feb5-4f0f-8c8e-b8549593d175",
@@ -169,17 +164,50 @@
   {
     "Id": "712fc769-17c7-49de-aa47-bce44e31ac0b",
     "Name": "Bow and Spies",
-    "Type": 1
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-bow",
+          "Info": "(4+)"
+      },
+      {
+        "Id": "ong-spies"
+      }
+    ]
   },
   {
-    "Id": "12eb28b1-a741-4627-8166-3d32d5e6d96a",
-    "Name": "Cave Goblin",
-    "Type": 1
+    "Id": "8b9139ed-222c-4a54-8520-24dfb8b7d1ff",
+    "Name": "Poisoned Spear and Shield",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-poison_attacks"
+      },
+      {
+        "Id": "rulebook-spear"
+      },
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
   },
   {
-    "Id": "c6f8cadb-b016-498a-857f-e88dd13e35b1",
-    "Name": "Common Goblin",
-    "Type": 1
+    "Id": "1d568946-4cce-464f-9a4a-ab0e8441c42f",
+    "Name": "Poisoned Spear",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-poison_attacks"
+      },
+      {
+        "Id": "rulebook-spear"
+      }
+    ]
+  },
+  {
+    "Id": "59d2033e-24f3-4bff-ba4f-d43c117dbf81",
+    "Name": "Creepers",
+    "Type": 3
   },
   {
     "Id": "3f932d2f-4aed-42fb-b2eb-44405b9fd9bc",
@@ -187,34 +215,14 @@
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "creepycrawlies"
+        "Id": "ong-creepycrawlies"
       }
     ]
-  },
-  {
-    "Id": "4029a7c0-3994-406f-99ee-087c42d13879",
-    "Name": "Feral Orc",
-    "Type": 1
-  },
-  {
-    "Id": "af6c66f1-2c53-4a48-b40d-55095a4e354d",
-    "Name": "Feral Warlord",
-    "Type": 1
   },
   {
     "Id": "c9cdb798-5a28-4bd2-bcb9-52bb83d09816",
     "Name": "Forest Goblin",
     "Type": 1
-  },
-  {
-    "Id": "97bb3d66-ecab-4138-ae58-767d231b588e",
-    "Name": "Gnasher Dashers",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "ong-gnasher_dashers"
-      }
-    ]
   },
   {
     "Id": "f2b5a390-ba30-46ad-9323-0e76456bf6a0",
@@ -229,16 +237,6 @@
   {
     "Id": "8f4e5e87-1cea-497f-a088-284be1ecf107",
     "Name": "Headhunter - On Foot",
-    "Type": 1
-  },
-  {
-    "Id": "52caaed6-4aa9-4a35-8f24-a3aadfcd87f3",
-    "Name": "Heavy Armour and Crossbow",
-    "Type": 1
-  },
-  {
-    "Id": "a93f5210-6334-4b46-96e9-b6b9cb85af08",
-    "Name": "Hond",
     "Type": 1
   },
   {
@@ -262,6 +260,36 @@
     ]
   },
   {
+    "Id": "2c349561-5692-46fb-8477-64b88e03f508",
+    "Name": "Scarred Carapace",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-scarred_carapace"
+      }
+    ]
+  },
+  {
+    "Id": "1762cb82-ee5c-4b1c-bf7a-5af337ef2127",
+    "Name": "Slithering Frame",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-slithering_frame"
+      }
+    ]
+  },
+  {
+    "Id": "491eada5-1233-4065-8805-6e8819c5d1b0",
+    "Name": "Wicked Horns",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-wicked_horns"
+      }
+    ]
+  },
+  {
     "Id": "556a10a5-8ee5-4e8c-921b-5c3130ca6001",
     "Name": "Iron Orc Loner",
     "Type": 1
@@ -274,7 +302,40 @@
   {
     "Id": "0899dce2-e53d-415a-9edd-05ce1d5c8f09",
     "Name": "Lance and Shield",
-    "Type": 1
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-lance"
+      },
+      {
+        "Id": "rulebook-shield"
+      }
+    ]
+  },
+  {
+    "Id": "c95aadae-6167-4f78-a605-f759a90d91f2",
+    "Name": "Headbashers",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-headbashers"
+      }
+    ]
+  },
+  {
+    "Id": "d3654c19-649b-4d12-ac41-8917a2e89b09",
+    "Name": "Bridge Troll",
+    "Type": 3
+  },
+  {
+    "Id": "5444cf89-54e4-4f9b-90a9-2385ef1abb4b",
+    "Name": "Cave Troll",
+    "Type": 3
+  },
+  {
+    "Id": "a7adf590-d826-446e-bb4e-b6ef62de4067",
+    "Name": "Forest Troll",
+    "Type": 3
   },
   {
     "Id": "dcf9b797-7abb-423c-9f8a-c54ae3ee19a4",
@@ -304,36 +365,6 @@
   {
     "Id": "c475c768-a592-4f1c-bd70-ff1009cbe523",
     "Name": "Netter - Creepy",
-    "Type": 1
-  },
-  {
-    "Id": "b9f777ea-1ece-41a8-ab8b-022658378e72",
-    "Name": "On Foot",
-    "Type": 1
-  },
-  {
-    "Id": "4a823c0b-abcc-477e-901d-02176a7ee8a9",
-    "Name": "Orc Boar Chariot",
-    "Type": 1
-  },
-  {
-    "Id": "b8d40ada-d10a-4449-b7ec-e930b585278d",
-    "Name": "Veteran Warlord",
-    "Type": 1
-  },
-  {
-    "Id": "d3bd66ae-bc02-4cd2-befc-d60ea9a59e3a",
-    "Name": "War Boar",
-    "Type": 1
-  },
-  {
-    "Id": "867f0178-27de-4ff9-9b98-15de84a4b9dd",
-    "Name": "Web Launcher",
-    "Type": 1
-  },
-  {
-    "Id": "65f427ba-3b15-4835-a0e6-45e92b5d3ba5",
-    "Name": "Wrecking Ball",
     "Type": 1
   }
 ]

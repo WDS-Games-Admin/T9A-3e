@@ -16,9 +16,6 @@
              },
              {
                "Id":  "rulebook-stand_behind"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -56,10 +53,10 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_human"
+               "Id":  "rule_tag_holy_vows"
              },
              {
-               "Id":  "rule_tag_holy_vows"
+               "Id":  "rule_tag_human"
              }
            ]
   },
@@ -89,9 +86,6 @@
              },
              {
                "Id":  "rulebook-vanguard"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -167,9 +161,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -212,6 +203,9 @@
     "Children":  [
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -234,22 +228,13 @@
                "Id":  "rulebook-ghost_step"
              },
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-supernal"
              },
              {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-stand_behind"
-             },
-             {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -267,7 +252,7 @@
     "Children":  [
              {
                "Id":  "rulebook-aegis",
-               "Info":  "(6+)"
+               "Info":  "(+1, Max. 4+)"
              },
              {
                "Id":  "koe-clergy"
@@ -317,16 +302,10 @@
                "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-stand_behind"
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -387,9 +366,6 @@
                "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-stand_behind"
              },
              {
@@ -397,9 +373,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -531,9 +504,6 @@
                "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-strider"
              },
              {
@@ -549,7 +519,7 @@
                "HP":  "3",
                "Def":  "6",
                "Res":  "4",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "6"
              },
     "Children":  [
@@ -585,9 +555,6 @@
                "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -603,7 +570,7 @@
                "HP":  "3",
                "Def":  "6",
                "Res":  "4",
-               "Arm":  "5",
+               "Arm":  "4",
                "Aeg":  "6"
              },
     "Children":  [
@@ -641,9 +608,6 @@
                "Id":  "rulebook-ghost_step"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-solitary"
              },
              {
@@ -662,13 +626,13 @@
                "HP":  "4",
                "Def":  "6",
                "Res":  "4",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "6"
              },
     "Children":  [
              {
                "Id":  "rulebook-aegis",
-               "Info":  "(6+)"
+               "Info":  "(+1, Max. 4+)"
              },
              {
                "Id":  "koe-nobility"
@@ -715,7 +679,7 @@
                "HP":  "3",
                "Def":  "6",
                "Res":  "4",
-               "Arm":  "5",
+               "Arm":  "4",
                "Aeg":  "6"
              },
     "Children":  [
@@ -809,6 +773,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -895,9 +862,6 @@
                "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              }
            ]
@@ -910,7 +874,7 @@
                "HP":  "3",
                "Def":  "7",
                "Res":  "4",
-               "Arm":  "5",
+               "Arm":  "4",
                "Aeg":  "6"
              },
     "Children":  [
@@ -945,9 +909,6 @@
                "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-strider"
              },
              {
@@ -963,7 +924,7 @@
                "HP":  "3",
                "Def":  "7",
                "Res":  "4",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "6"
              },
     "Children":  [
@@ -1017,7 +978,7 @@
                "HP":  "3",
                "Def":  "7",
                "Res":  "4",
-               "Arm":  "5",
+               "Arm":  "4",
                "Aeg":  "6"
              },
     "Children":  [
@@ -1056,9 +1017,6 @@
                "Id":  "rulebook-ghost_step"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-solitary"
              },
              {
@@ -1077,13 +1035,18 @@
                "HP":  "4",
                "Def":  "7",
                "Res":  "4",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "6"
              },
     "Children":  [
              {
                "Id":  "rulebook-aegis",
                "Info":  "(4+ against Magical Attacks)"
+             },
+             
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(+1, Max. 4+)"
              },
              {
                "Id":  "koe-clergy"
@@ -1159,9 +1122,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "rulebook-light_troops"
              },
              {
@@ -1223,9 +1183,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "rulebook-fly"
              },
              {
@@ -1279,9 +1236,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
              {
                "Id":  "rulebook-fly"
              },
@@ -1337,13 +1291,7 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "koe-lance_formation"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "koe-traits_of_a_hero"
@@ -1387,16 +1335,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "koe-forest_guide"
              },
              {
                "Id":  "koe-lance_formation"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-strider"
@@ -1447,16 +1389,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
                "Id":  "rulebook-ghost_step"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-solitary"
@@ -1724,13 +1660,12 @@
                "Hgt":  "2",
                "Rsr":  "-"
              },
-    "Children":  [
-             {
-               "Id":  "rulebook-swiftstride"
+    "Children":  [{
+               "Id":  "koe-lance_formation"
              },
              {
-               "Id":  "koe-lance_formation"
-             }
+               "Id":  "rulebook-swiftstride"
+             }             
            ]
   },
   {
@@ -1771,6 +1706,12 @@
     "Children":  [
              {
                "Id":  "rulebook-lance"
+             },
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1814,10 +1755,10 @@
                "Info":  "(6+)"
              },
              {
-               "Id":  "rulebook-shield"
+               "Id":  "koe-nobility"
              },
              {
-               "Id":  "koe-nobility"
+               "Id":  "rulebook-shield"
              }
            ]
   },
@@ -1929,16 +1870,13 @@
                "Info":  "(Hatred)"
              },
              {
-               "Id":  "rulebook-light_lance"
-             },
-             {
                "Id":  "rule_tag_human"
              },
              {
-               "Id":  "rule_tag_metal_armour"
+               "Id":  "rule_tag_holy_vows"
              },
              {
-               "Id":  "rule_tag_holy_vows"
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -2010,7 +1948,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-paired_weapons"
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -2069,9 +2010,6 @@
     "Children":  [
              {
                "Id":  "rule_tag_human"
-             },
-             {
-               "Id":  "rule_tag_siege"
              }
            ]
   },
@@ -2107,7 +2045,7 @@
                "Id":  "rulebook-shield"
              },
              {
-               "Id":  "koe-stalwart_defense"
+               "Id":  "koe-stalwart_defence"
              }
            ]
   },
@@ -2185,15 +2123,15 @@
                "AP":  "1",
                "Agi":  "3"
              },
-    "Children":  [
+    "Children":  [             
+             {
+               "Id":  "rule_tag_holy_vows"
+             },
              {
                "Id":  "rule_tag_human"
              },
              {
                "Id":  "rule_tag_metal_armour"
-             },
-             {
-               "Id":  "rule_tag_holy_vows"
              }
            ]
   },
@@ -2250,8 +2188,7 @@
                "Off":  "4",
                "Str":  "4",
                "AP":  "1",
-               "Agi":  "3",
-               "undefined":  "0"
+               "Agi":  "3"
              },
     "Children":  [
              {
@@ -2260,6 +2197,12 @@
              },
              {
                "Id":  "rulebook-lance"
+             },
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -2334,6 +2277,12 @@
              },
              {
                "Id":  "rulebook-great_weapon"
+             },
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -2419,6 +2368,12 @@
              },
              {
                "Id":  "koe-bastard_sword"
+             },
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -2481,10 +2436,6 @@
                "Agi":  "3"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-bow",
-               "Info":  "(4+)"
-             },
              {
                "Id":  "rulebook-light_lance"
              },
@@ -2573,6 +2524,60 @@
            ]
   },
   {
+    "Id":  "statline_2830",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "4",
+               "Mob":  "4",
+               "Dis":  "7",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-insignificant"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-scout"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2831",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "3",
+               "Res":  "3",
+               "Arm":  "0",
+               "Aeg":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(6+)"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+                 "Info": "(1)"
+             },
+             {
+               "Id":  "koe-commonfolk"
+             }
+           ]
+  },
+  {
     "Id":  "statline_833",
     "Name":  "",
     "Type":  "Statline",
@@ -2637,7 +2642,18 @@
                "Str":  "3",
                "AP":  "0",
                "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_siege"
              }
+           ]
   },
   {
     "Id":  "statline_836",
@@ -2790,9 +2806,6 @@
                "Info":  "(+1 Att, Extra Support(3))"
              },
              {
-               "Id":  "rulebook-light_lance"
-             },
-             {
                "Id":  "rule_tag_human"
              },
              {
@@ -2857,8 +2870,8 @@
     "Name":  "Naiad",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "0",
-               "Off":  "0",
+               "Att":  null,
+               "Off":  null,
                "Str":  "3",
                "AP":  "3",
                "Agi":  "5"
@@ -2900,9 +2913,6 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-insignificant"
-             },
-             {
                "Id":  "koe-flickering_lights"
              },
              {
@@ -2916,6 +2926,9 @@
              },
              {
                "Id":  "rulebook-skirmisher"
+             },             
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-supernal"
@@ -2987,9 +3000,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "koe-courtier_of_the_dawn"
-             },
              {
                "Id":  "rulebook-fearless"
              },
@@ -3122,7 +3132,10 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "koe-warden_of_the_hooded_man"
+               "Id":  "rule_tag_fey"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   }

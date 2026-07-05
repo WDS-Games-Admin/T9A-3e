@@ -218,6 +218,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -276,6 +279,27 @@
     "Children":  [
              {
                "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2212",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(D6+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
              }
            ]
   },
@@ -344,6 +368,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -416,6 +443,9 @@
              },
              {
                "Id":  "rule_tag_dragon"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -431,12 +461,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -497,12 +521,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -537,12 +555,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -591,10 +603,6 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
-             },
-             {
                "Id":  "rulebook-light_troops"
              },
              {
@@ -612,7 +620,13 @@
                "Res":  "4",
                "Arm":  "3",
                "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
              }
+           ]
   },
   {
     "Id":  "statline_228",
@@ -626,12 +640,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -673,12 +681,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -728,9 +730,6 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-wizard_apprentice"
              }
            ]
   },
@@ -769,13 +768,13 @@
                "Info":  "(Artistry of Death)"
              },
              {
-               "Id":  "rule_tag_temple"
-             },
-             {
                "Id":  "rule_tag_elf"
              },
              {
                "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_temple"
              }
            ]
   },
@@ -796,9 +795,6 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -831,10 +827,10 @@
                "Info":  "(Artistry of Death)"
              },
              {
-               "Id":  "rule_tag_warlock"
+               "Id":  "rule_tag_elf"
              },
              {
-               "Id":  "rule_tag_elf"
+               "Id":  "rule_tag_warlock"
              }
            ]
   },
@@ -858,9 +854,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -896,9 +889,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -941,9 +931,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -957,7 +944,13 @@
                "Res":  "4",
                "Arm":  "1",
                "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
              }
+           ]
   },
   {
     "Id":  "statline_244",
@@ -988,9 +981,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1058,7 +1048,7 @@
              },
              {
                "Id":  "rulebook-exclusive",
-               "Info":  "(Unit without Silent Assassin)"
+               "Info":  "(unit without Silent Assassin)"
              },
              {
                "Id":  "rulebook-hidden"
@@ -1103,18 +1093,18 @@
                "Info":  "(Artistry of Death)"
              },
              {
-               "Id":  "rulebook-paired_weapons"
-             },
-             {
                "Id":  "rulebook-poison_attacks"
-             },
-             {
-               "Id":  "de-repeater_handbow",
-               "Info":  "(2+)"
              },
              {
                "Id":  "rulebook-zeal",
                "Info":  "(towards Characters)"
+             },
+             {
+               "Id":  "rulebook-paired_weapons"
+             },
+             {
+               "Id":  "de-repeater_handbow",
+               "Info":  "(2+)"
              },
              {
                "Id":  "rule_tag_elf"
@@ -1425,6 +1415,15 @@
              {
                "Id":  "de-repeater_crossbow",
                "Info":  "(3+)"
+             },
+             {
+               "Id":  "rule_tag_academy"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -1487,13 +1486,13 @@
                "Id":  "rulebook-paired_weapons"
              },
              {
-               "Id":  "rule_tag_temple"
-             },
-             {
                "Id":  "rule_tag_elf"
              },
              {
                "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_temple"
              }
            ]
   },
@@ -1658,16 +1657,20 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "de-irresistible_will"
              },
              {
-               "Id":  "rulebook-swiftstride"
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "de-temple_acolytes"
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-wizard_conclave",
+                 "Info": "(2)"
              }
            ]
   },
@@ -1691,7 +1694,7 @@
   },
   {
     "Id":  "statline_274",
-    "Name":  "Dread Acolyte",
+    "Name":  "Warlock Acolyte",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "2",
@@ -1712,7 +1715,59 @@
                "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_warlock"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2272",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2274",
+    "Name":  "Temple Acolyte",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "6",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "de-artistry_of_death"
+             },
+             {
+               "Id":  "rulebook-paired_weapons"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_temple"
              }
            ]
   },
@@ -1780,9 +1835,6 @@
              },
              {
                "Id":  "rule_tag_metal_armour"
-             },
-             {
-               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1798,6 +1850,10 @@
                "Rsr":  "-"
              },
     "Children":  [
+             {
+               "Id":  "rulebook-beacon_of_courage",
+                 "Info": "(6\")"
+             },
              {
                "Id":  "de-daeb_warfare"
              },
@@ -2006,22 +2062,25 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-solitary"
+               "Id":  "rulebook-insignificant"
              },
              {
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "rulebook-insignificant"
+               "Id":  "de-scent_of_blood"
              },
              {
                "Id":  "rulebook-skirmisher"
              },
              {
-               "Id":  "rulebook-unruly"
+               "Id":  "rulebook-solitary"
              },
              {
-               "Id":  "de-scent_of_blood"
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-unruly"
              }
            ]
   },
@@ -2061,6 +2120,10 @@
              },
              {
                "Id":  "rulebook-sweeping_attack",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_beast",
                "Info":  "(1)"
              }
            ]
@@ -2192,6 +2255,9 @@
              {
                "Id":  "rulebook-first_strike",
                "Info":  "(Hatred)"
+             },
+             {
+               "Id":  "rule_tag_beast"
              }
            ]
   },
@@ -2210,6 +2276,12 @@
              {
                "Id":  "rulebook-first_strike",
                "Info":  "(Artistry of Death)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_slaver"
              }
            ]
   },
@@ -2269,9 +2341,6 @@
              {
                "Id":  "rulebook-first_strike",
                "Info":  "(Artistry of Death)"
-             },
-             {
-               "Id":  "rulebook-halberd"
              }
            ]
   },
@@ -2327,6 +2396,12 @@
              },
              {
                "Id":  "rulebook-paired_weapons"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_temple"
              }
            ]
   },
@@ -2344,6 +2419,108 @@
     "Children":  [
              {
                "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2300",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Height 1)"
+             },
+             {
+               "Id":  "rulebook-frenzy"
+             },
+             {
+               "Id":  "rulebook-fury"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-unruly"
+             },
+             {
+               "Id":  "rulebook-war_platform"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3300",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "0",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-channel",
+                 "Info": "(1)"
+             },
+             {
+               "Id":  "rulebook-emplacement"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-stubborn"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4300",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "0",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Height 1)"
+             },
+             {
+               "Id":  "de-petrifying_stare"
+             },
+             {
+               "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-war_platform"
              }
            ]
   },
@@ -2666,8 +2843,7 @@
                "Off":  "5",
                "Str":  "7",
                "AP":  "3",
-               "Agi":  "3",
-               "undefined":  "0"
+               "Agi":  "3"
              },
     "Children":  [
              {
@@ -2684,12 +2860,6 @@
              },
              {
                "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_slaver"
              }
            ]
   },
@@ -2765,12 +2935,6 @@
              },
              {
                "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_slaver"
              }
            ]
   },
@@ -2787,10 +2951,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-fly"
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "de-scent_of_blood"
@@ -2847,10 +3011,7 @@
                "Id":  "rule_tag_beast"
              },
              {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_slaver"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -2871,7 +3032,10 @@
                "Info":  "(Artistry of Death)"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_slaver"
              }
            ]
   }
