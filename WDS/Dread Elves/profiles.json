@@ -95,7 +95,7 @@
         "Id": "statline_212"
       },
       {
-        "Id": "statline_7"
+        "Id": "statline_2212"
       }
     ]
   },
@@ -235,7 +235,7 @@
         "Id": "statline_212"
       },
       {
-        "Id": "statline_7"
+        "Id": "statline_2212"
       }
     ]
   },
@@ -537,7 +537,7 @@
   },
   {
     "Id": "68357f38790d8280c4b1fc32",
-    "Name": "Dread Acolytes",
+    "Name": "Warlock Acolytes",
     "Type": "Profile",
     "BaseId": "3",
     "Children": [
@@ -552,6 +552,32 @@
       },
       {
         "Id": "statline_203"
+      },
+      {
+        "Id":  "de-warlock_acolytes"
+      }
+    ]
+  },
+{
+    "Id": "68357f38790d8280c4b1fc33",
+    "Name": "Temple Acolytes",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
+      {
+        "Id": "statline_2272"
+      },
+      {
+        "Id": "statline_273"
+      },
+      {
+        "Id": "statline_2274"
+      },
+      {
+        "Id": "statline_203"
+      },
+      {
+        "Id":  "de-temple_acolytes"
       }
     ]
   },
@@ -673,10 +699,10 @@
         "Id": "statline_294"
       },
       {
-        "Id": "statline_295"
+        "Id": "statline_296"
       },
       {
-        "Id": "statline_296"
+        "Id": "statline_295"
       }
     ]
   },
@@ -699,7 +725,7 @@
         "Id": "statline_212"
       },
       {
-        "Id": "statline_7"
+        "Id": "statline_2212"
       }
     ]
   },
@@ -721,6 +747,75 @@
       {
         "Id": "statline_303"
       }
+    ]
+  },
+  {
+    "Id": "68357f37790d8280c4b1fb75-nabh",
+    "Name": "Divine Altar of Nabh",
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
+      {
+        "Id": "statline_2300"
+      },
+      {
+        "Id": "statline_301"
+      },
+      {
+        "Id": "statline_302"
+      },
+      {
+        "Id": "statline_303"
+      },
+      {
+        "Id": "de-altar_of_nabh"
+      }      
+    ]
+  },
+  {
+    "Id": "68357f37790d8280c4b1fb75-tila",
+    "Name": "Divine Altar of Tila",
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
+      {
+        "Id": "statline_3300"
+      },
+      {
+        "Id": "statline_301"
+      },
+      {
+        "Id": "statline_302"
+      },
+      {
+        "Id": "statline_303"
+      },
+      {
+        "Id": "de-altar_of_tila"
+      }      
+    ]
+  },
+  {
+    "Id": "68357f37790d8280c4b1fb75-yema",
+    "Name": "Divine Altar of Yema",
+    "Type": "Profile",
+    "BaseId": "10",
+    "Children": [
+      {
+        "Id": "statline_4300"
+      },
+      {
+        "Id": "statline_301"
+      },
+      {
+        "Id": "statline_302"
+      },
+      {
+        "Id": "statline_303"
+      },
+      {
+        "Id": "de-altar_of_yema"
+      }      
     ]
   },
   {
@@ -793,10 +888,10 @@
         "Id": "statline_316"
       },
       {
-        "Id": "statline_317"
+        "Id": "statline_296"
       },
       {
-        "Id": "statline_296"
+        "Id": "statline_317"
       }
     ]
   },
@@ -813,10 +908,10 @@
         "Id": "statline_319"
       },
       {
-        "Id": "statline_320"
+        "Id": "statline_296"
       },
       {
-        "Id": "statline_296"
+        "Id": "statline_320"
       }
     ]
   },
@@ -833,10 +928,10 @@
         "Id": "statline_322"
       },
       {
-        "Id": "statline_323"
+        "Id": "statline_324"
       },
       {
-        "Id": "statline_324"
+        "Id": "statline_323"
       }
     ]
   }

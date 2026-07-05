@@ -70,9 +70,6 @@
              },
              {
                "Id":  "rule_tag_daemon"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -97,9 +94,6 @@
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "wdg-gluttony"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -165,14 +159,7 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Path of the Favoured, Human)"
-             },
-             {
                "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "wdg-gluttony"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -193,7 +180,7 @@
                "HP":  "3",
                "Def":  "7",
                "Res":  "5",
-               "Arm":  "4",
+               "Arm":  "3",
                "Aeg":  "-"
              },
     "Children":  [
@@ -261,12 +248,6 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "wdg-gluttony"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              }
            ]
@@ -279,7 +260,7 @@
                "HP":  "3",
                "Def":  "7",
                "Res":  "5",
-               "Arm":  "6",
+               "Arm":  "5",
                "Aeg":  "-"
              },
     "Children":  [
@@ -337,12 +318,6 @@
              },
              {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "wdg-gluttony"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -354,7 +329,7 @@
                "HP":  "4",
                "Def":  "7",
                "Res":  "5",
-               "Arm":  "6",
+               "Arm":  "5",
                "Aeg":  "-"
              },
     "Children":  [
@@ -382,7 +357,7 @@
                "Id":  "rule_tag_human"
              },
              {
-               "Id":  "rule_tag_construct"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -409,12 +384,6 @@
                "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "wdg-gluttony"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              }
            ]
@@ -427,7 +396,7 @@
                "HP":  "3",
                "Def":  "7",
                "Res":  "5",
-               "Arm":  "6",
+               "Arm":  "5",
                "Aeg":  "-"
              },
     "Children":  [
@@ -472,10 +441,6 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Path of the Favoured, Human)"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -500,7 +465,7 @@
                "HP":  "4",
                "Def":  "7",
                "Res":  "5",
-               "Arm":  "6",
+               "Arm":  "5",
                "Aeg":  "-"
              },
     "Children":  [
@@ -530,6 +495,27 @@
            ]
   },
   {
+    "Id":  "statline_3645",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(D6+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
     "Id":  "statline_1646",
     "Name":  "",
     "Type":  "Statline",
@@ -545,14 +531,7 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Path of the Favoured, Human)"
-             },
-             {
                "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "wdg-gluttony"
              },
              {
                "Id":  "rulebook-light_troops"
@@ -603,6 +582,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -612,7 +594,7 @@
     "Type":  "Statline",
     "Attributes":  {
                "Cha":  "7",
-               "Mob":  "9",
+               "Mob":  "7",
                "Dis":  "9",
                "Hgt":  "5",
                "Rsr":  "-"
@@ -622,20 +604,10 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Path of the Favoured, Human)"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
                "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "wdg-gluttony"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "wdg-meeting_of_minds"
@@ -696,6 +668,9 @@
              },
              {
                "Id":  "rule_tag_dragon"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -788,26 +763,19 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-fearless"
-             },
-             {
                "Id":  "rulebook-dying_blow"
              },
              {
-               "Id":  "rulebook-exclusive",
-               "Info":  "(Path of the Exiled, Human)"
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
              },
              {
                "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -849,6 +817,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -872,9 +843,6 @@
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -897,9 +865,9 @@
     "Attributes":  {
                "Att":  "2",
                "Off":  "4",
-               "Str":  "3",
-               "AP":  "0",
-               "Agi":  "3"
+               "Str":  "1",
+               "AP":  "1",
+               "Agi":  "4"
              },
     "Children":  [
              {
@@ -926,13 +894,7 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -964,16 +926,10 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-swiftstride"
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1018,9 +974,6 @@
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1072,9 +1025,6 @@
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1103,9 +1053,6 @@
              },
     "Children":  [
              {
-               "Id":  "wdg-beacon_of_the_dark_gods"
-             },
-             {
                "Id":  "rulebook-courageous"
              },
              {
@@ -1116,9 +1063,6 @@
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1145,8 +1089,8 @@
     "Name":  "Wretched One (2)",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "0",
-               "Off":  "0",
+               "Att":  null,
+               "Off":  null,
                "Str":  "4",
                "AP":  "0",
                "Agi":  "1"
@@ -1155,6 +1099,9 @@
              {
                "Id":  "rulebook-grind_attack",
                "Info":  "(D6+1)"
+             },
+             {
+               "Id":  "rule_tag_irredeemable"
              },
              {
                "Id":  "rule_tag_mount"
@@ -1177,9 +1124,6 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-solitary"
              },
              {
@@ -1190,13 +1134,6 @@
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-               "Info":  "(D6)"
              }
            ]
   },
@@ -1218,7 +1155,7 @@
     "Type":  "Statline",
     "Attributes":  {
                "Cha":  "7",
-               "Mob":  "9",
+               "Mob":  "7",
                "Dis":  "8",
                "Hgt":  "5",
                "Rsr":  "-"
@@ -1229,9 +1166,6 @@
              },
              {
                "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "wdg-meeting_of_minds"
@@ -1247,9 +1181,6 @@
              },
              {
                "Id":  "wdg-veil_walker"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -1317,9 +1248,6 @@
              },
              {
                "Id":  "rule_tag_light_armour"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1337,9 +1265,6 @@
     "Children":  [
              {
                "Id":  "rulebook-courageous"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              }
            ]
   },
@@ -1369,9 +1294,6 @@
     "Children":  [
              {
                "Id":  "rulebook-courageous"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -1412,11 +1334,11 @@
                "Id":  "rulebook-strider"
              },
              {
-               "Id":  "rulebook-vanguard",
-               "Info":  "(3 Mob)"
+               "Id":  "rulebook-swiftstride"
              },
              {
-               "Id":  "rulebook-swiftstride"
+               "Id":  "rulebook-vanguard",
+               "Info":  "(3\" Mob)"
              }
            ]
   },
@@ -1674,6 +1596,9 @@
                "Info":  "(Water Terrain)"
              },
              {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
                "Id":  "rulebook-supernal"
              },
              {
@@ -1781,10 +1706,10 @@
     "Name":  "",
     "Type":  "Statline",
     "Attributes":  {
-               "HP":  "8",
+               "HP":  "4",
                "Def":  "6",
                "Res":  "6",
-               "Arm":  "0",
+               "Arm":  "4",
                "Aeg":  "-"
              },
     "Children":  [
@@ -1809,9 +1734,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-dying_blow"
-             },
-             {
                "Id":  "rulebook-handandahalf"
              },
              {
@@ -1822,13 +1744,10 @@
                "Id":  "rulebook-great_weapon"
              },
              {
-               "Id":  "rule_tag_pathof_the_exiled"
-             },
-             {
                "Id":  "rule_tag_metal_armour"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_path_of_the_exiled"
              }
            ]
   },
@@ -1985,12 +1904,7 @@
                "Res":  "3",
                "Arm":  "1",
                "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-shield"
              }
-           ]
   },
   {
     "Id":  "statline_1709",
@@ -2059,7 +1973,15 @@
                "Str":  "4",
                "AP":  "1",
                "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
+           ]
   },
   {
     "Id":  "statline_1713",
@@ -2075,9 +1997,6 @@
     "Children":  [
              {
                "Id":  "rulebook-insignificant"
-             },
-             {
-               "Id":  "wdg-release_the_hounds"
              },
              {
                "Id":  "rulebook-solitary"
@@ -2114,6 +2033,9 @@
                "Agi":  "3"
              },
     "Children":  [
+             {
+               "Id":  "wdg-release_the_hounds"
+             },
              {
                "Id":  "rule_tag_beast"
              }
@@ -2172,7 +2094,15 @@
                "Str":  "4",
                "AP":  "1",
                "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_path_of_the_favoured"
              }
+           ]
   },
   {
     "Id":  "statline_1719",
@@ -2194,6 +2124,9 @@
              },
              {
                "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2254,9 +2187,6 @@
     "Children":  [
              {
                "Id":  "rulebook-courageous"
-             },
-             {
-               "Id":  "wdg-envy"
              },
              {
                "Id":  "rulebook-fearless"
@@ -2323,9 +2253,6 @@
                "Id":  "rulebook-courageous"
              },
              {
-               "Id":  "wdg-envy"
-             },
-             {
                "Id":  "rulebook-fearless"
              },
              {
@@ -2387,9 +2314,6 @@
     "Children":  [
              {
                "Id":  "rulebook-courageous"
-             },
-             {
-               "Id":  "wdg-envy"
              },
              {
                "Id":  "rulebook-fearless"
@@ -2501,6 +2425,27 @@
              }
   },
   {
+    "Id":  "statline_3648",
+    "Name":  "Chimera",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D3)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
     "Id":  "statline_1734",
     "Name":  "",
     "Type":  "Statline",
@@ -2536,14 +2481,6 @@
              },
              {
                "Id":  "wdg-writhing_mass"
-             },
-             {
-               "Id":  "rulebook-regeneration",
-               "Info":  "(5+)"
-             },
-             {
-               "Id":  "rulebook-grind_attack",
-               "Info":  "(D6+1)"
              }
            ]
   },
@@ -2570,8 +2507,8 @@
     "Name":  "Wretched One",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  "0",
-               "Off":  "0",
+               "Att":  null,
+               "Off":  null,
                "Str":  "4",
                "AP":  "0",
                "Agi":  "1"
@@ -2599,11 +2536,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-courageous"
-             },
-             {
                "Id":  "rulebook-bodyguard",
                "Info":  "(Doomlord)"
+             },
+             {
+               "Id":  "rulebook-courageous"
              },
              {
                "Id":  "rulebook-dying_blow"
@@ -2708,14 +2645,11 @@
     "Children":  [
              {
                "Id":  "rulebook-hatred",
-               "Info":  "( against Fly)"
+               "Info":  "(against Fly)"
              },
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(1)"
-             },
-             {
-               "Id":  "rulebook-halberd"
              },
              {
                "Id":  "rule_tag_beast"
@@ -2822,7 +2756,7 @@
              },
              {
                "Id":  "rulebook-vanguard",
-               "Info":  "(3 Mob)"
+               "Info":  "(3\" Mob)"
              }
            ]
   },
@@ -2856,7 +2790,10 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_human"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -3058,9 +2995,6 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
-             },
-             {
-               "Id":  "wdg-giant_club"
              },
              {
                "Id":  "rule_tag_giant"

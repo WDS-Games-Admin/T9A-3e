@@ -12,9 +12,6 @@
              },
     "Children":  [
              {
-               "Id":  "sa-closely_guarded"
-             },
-             {
                "Id":  "sa-communal_bond"
              },
              {
@@ -57,12 +54,6 @@
     "Children":  [
              {
                "Id":  "rule_tag_anurarch"
-             },
-             {
-               "Id":  "rule_tag_mount"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -78,9 +69,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "sa-closely_guarded"
-             },
              {
                "Id":  "sa-communal_bond"
              },
@@ -101,7 +89,7 @@
                "Def":  "4",
                "Res":  "4",
                "Arm":  "3",
-               "Aeg":  "5"
+               "Aeg":  "-"
              },
     "Children":  [
              {
@@ -133,10 +121,13 @@
                "Id":  "sa-guardian_patu"
              },
              {
-               "Id":  "rule_tag_tegu"
+               "Id":  "rule_tag_light_armour"
              },
              {
                "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_tegu"
              }
            ]
   },
@@ -152,9 +143,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "sa-combat_artist"
-             },
              {
                "Id":  "sa-communal_bond"
              },
@@ -202,6 +190,219 @@
     "Children":  [
              {
                "Id":  "rulebook-fight_in_extra_rank"
+             },
+             {
+               "Id":  "rule_tag_caiman"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4102",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "sa-communal_bond"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Skink Warriors)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "sa-mentor"
+             },
+             {
+               "Id":  "rulebook-stand_behind"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Water Terrain)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_5102",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "sa-communal_bond"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Caiman Elders)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "sa-mentor"
+             },
+             {
+               "Id":  "rulebook-stand_behind"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Water Terrain)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_6102",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-attached"
+             },
+             {
+               "Id":  "sa-communal_bond"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+                 "Info": "(Tegu Warriors)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "sa-mentor"
+             },
+             {
+               "Id":  "rulebook-stand_behind"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Water Terrain)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4104",
+    "Name":  "Caiman Mentor",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fight_in_extra_rank"
+             },
+             {
+               "Id":  "sa-tooth_and_claw"
+             },
+             {
+               "Id":  "rule_tag_caiman"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_5104",
+    "Name":  "Caiman Mentor",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fight_in_extra_rank"
+             },
+             {
+               "Id":  "rulebook-weapon_master"
+             },
+             {
+               "Id":  "rulebook-great_weapon"
+             },
+             {
+               "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "sa-tooth_and_claw"
+             },
+             {
+               "Id":  "rule_tag_caiman"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_6104",
+    "Name":  "Caiman Mentor",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fight_in_extra_rank"
+             },
+             {
+               "Id":  "rulebook-weapon_master"
+             },
+             {
+               "Id":  "rulebook-great_weapon"
+             },
+             {
+               "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "sa-tooth_and_claw"
              },
              {
                "Id":  "rule_tag_caiman"
@@ -260,10 +461,10 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_tegu"
-             },
-             {
                "Id":  "rule_tag_light_armour"
+             },      
+             {
+               "Id":  "rule_tag_tegu"
              }
            ]
   },
@@ -281,9 +482,6 @@
     "Children":  [
              {
                "Id":  "sa-communal_bond"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "sa-pack_hunter"
@@ -322,11 +520,11 @@
              },
     "Children":  [
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_magnasaur"
              },
              {
-               "Id":  "rule_tag_magnasaur"
-             }
+               "Id":  "rule_tag_mount"
+             }             
            ]
   },
   {
@@ -351,14 +549,7 @@
                "Id":  "rulebook-frenzy"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water Terrain)"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -411,10 +602,10 @@
                "Info":  "(D6)"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_magnasaur"
              },
              {
-               "Id":  "rule_tag_magnasaur"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -476,14 +667,10 @@
              },
     "Children":  [
              {
-               "Id":  "sa-poisoned_javelin",
-               "Info":  "(2+)"
+               "Id":  "rule_tag_light_armour"
              },
              {
                "Id":  "rule_tag_skink"
-             },
-             {
-               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -500,9 +687,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "sa-communal_bond"
              },
              {
@@ -513,10 +697,6 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water Terrain)"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -565,10 +745,10 @@
                "Info":  "(2)"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_magnasaur"
              },
              {
-               "Id":  "rule_tag_magnasaur"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -589,9 +769,6 @@
                "Info":  "(Open Terrain)"
              },
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "sa-communal_bond"
              },
              {
@@ -605,10 +782,6 @@
              },
              {
                "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water Terrain)"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -677,20 +850,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
                "Id":  "sa-communal_bond"
              },
              {
-               "Id":  "rulebook-light_troops"
-             },
-             {
                "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Water Terrain)"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -710,13 +873,7 @@
                "Res":  "6",
                "Arm":  "4",
                "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-regeneration",
-               "Info":  "(6+)"
              }
-           ]
   },
   {
     "Id":  "statline_1125",
@@ -763,7 +920,7 @@
                "Id":  "rule_tag_magnasaur"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -781,6 +938,9 @@
     "Children":  [
              {
                "Id":  "sa-communal_bond"
+             },
+             {
+               "Id":  "sa-eternal_mastery"
              },
              {
                "Id":  "rulebook-fearless"
@@ -839,7 +999,7 @@
                "Off":  "1",
                "Str":  "1",
                "AP":  "0",
-               "Agi":  ""
+               "Agi":  "1"
              },
     "Children":  [
              {
@@ -927,10 +1087,10 @@
                "Id":  "sa-tooth_and_claw"
              },
              {
-               "Id":  "rule_tag_skink"
+               "Id":  "rule_tag_light_armour"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_skink"
              }
            ]
   },
@@ -950,10 +1110,10 @@
                "Id":  "sa-tooth_and_claw"
              },
              {
-               "Id":  "rule_tag_light_armour"
+               "Id":  "rule_tag_caiman"
              },
              {
-               "Id":  "rule_tag_caiman"
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -1176,9 +1336,6 @@
                "Agi":  "1"
              },
     "Children":  [
-             {
-               "Id":  "sa-tooth_and_claw"
-             },
              {
                "Id":  "rule_tag_caiman"
              }
@@ -1420,6 +1577,32 @@
     "Children":  [
              {
                "Id":  "rulebook-halberd"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_tegu"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3154",
+    "Name":  "Raptor",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "3",
+               "Str":  "4",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+            {
+               "Id":  "rule_tag_magnasaur"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1543,13 +1726,10 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_skink"
+               "Id":  "rule_tag_magnasaur"
              },
              {
                "Id":  "rule_tag_mount"
-             },
-             {
-               "Id":  "rule_tag_magnasaur"
              }
            ]
   },
@@ -1649,16 +1829,16 @@
                "Id":  "rulebook-fury"
              },
              {
-               "Id":  "rulebook-lethal_strike"
-             },
-             {
                "Id":  "rulebook-hatred"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rulebook-lethal_strike"
              },
              {
                "Id":  "rule_tag_magnasaur"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1779,9 +1959,6 @@
              {
                "Id":  "rulebook-strider",
                "Info":  "(Water Terrain)"
-             },
-             {
-               "Id":  "rulebook-vanguard"
              }
            ]
   },
@@ -1879,9 +2056,6 @@
              },
     "Children":  [
              {
-               "Id":  "sa-salamander"
-             },
-             {
                "Id":  "rule_tag_beast"
              },
              {
@@ -1968,10 +2142,6 @@
                "Id":  "rulebook-light_lance"
              },
              {
-               "Id":  "sa-poisoned_javelin",
-               "Info":  "(4+)"
-             },
-             {
                "Id":  "rule_tag_skink"
              }
            ]
@@ -1993,13 +2163,10 @@
                "Info":  "(2)"
              },
              {
-               "Id":  "rule_tag_skink"
+               "Id":  "rule_tag_magnasaur"
              },
              {
                "Id":  "rule_tag_mount"
-             },
-             {
-               "Id":  "rule_tag_magnasaur"
              }
            ]
   },
@@ -2020,6 +2187,9 @@
              },
              {
                "Id":  "sa-pack_hunter"
+             },
+             {
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -2067,10 +2237,10 @@
                "Info":  "(D3)"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_magnasaur"
              },
              {
-               "Id":  "rule_tag_magnasaur"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -2137,9 +2307,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-light_lance"
-             },
-             {
                "Id":  "rule_tag_tegu"
              }
            ]
@@ -2172,10 +2339,10 @@
                "Info":  "(D6)"
              },
              {
-               "Id":  "rule_tag_mount"
+               "Id":  "rule_tag_magnasaur"
              },
              {
-               "Id":  "rule_tag_magnasaur"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -2278,7 +2445,7 @@
                "HP":  "10",
                "Def":  "3",
                "Res":  "6",
-               "Arm":  "3",
+               "Arm":  "4",
                "Aeg":  "-"
              }
   },

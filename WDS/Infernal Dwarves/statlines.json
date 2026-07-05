@@ -12,11 +12,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-disciplined"
-             },
-             {
                "Id":  "rulebook-commanding_presence",
                "Info":  "(6\", Insignificant)"
+             },
+             {
+               "Id":  "rulebook-disciplined"
              },
              {
                "Id":  "id-keys_to_the_citadel"
@@ -221,6 +221,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -238,13 +241,10 @@
     "Children":  [
              {
                "Id":  "rulebook-commanding_presence",
-               "Info":  "(6\", Insignificant)"
+               "Info":  "(12\", Insignificant)"
              },
              {
                "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "id-keys_to_the_citadel"
              },
              {
                "Id":  "rulebook-fearless"
@@ -253,10 +253,13 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "rulebook-supernal"
+               "Id":  "id-keys_to_the_citadel"
              },
              {
                "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-supernal"
              },
              {
                "Id":  "rulebook-swiftstride"
@@ -300,11 +303,10 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-breath_attack",
-               "Info":  "(Str 4, AP 1, Divine Attacks, Flaming Attacks, Magical Attacks)"
+               "Id":  "rulebook-divine_attacks"
              },
              {
-               "Id":  "rulebook-divine_attacks"
+               "Id":  "id-flames_of_vengeance"
              },
              {
                "Id":  "rulebook-flaming_attacks"
@@ -322,6 +324,9 @@
              },
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -343,15 +348,9 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "id-prophet_of_shamut"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
-  },
+  },  
   {
     "Id":  "statline_627",
     "Name":  "",
@@ -390,6 +389,57 @@
            ]
   },
   {
+    "Id":  "statline_2761",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-commanding_presence",
+               "Info":  "(6\", Insignificant)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2763",
+    "Name":  "Prophet",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "2",
+               "Off":  "4",
+               "Str":  "4",
+               "AP":   "1",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+	       "Info": "(1)"
+             },
+             {
+               "Id":  "rule_tag_centauroid"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
     "Id":  "statline_629",
     "Name":  "",
     "Type":  "Statline",
@@ -409,13 +459,7 @@
                "Id":  "rulebook-disciplined"
              },
              {
-               "Id":  "id-prophet_of_shamut"
-             },
-             {
                "Id":  "id-vassal_governor"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -450,6 +494,9 @@
     "Children":  [
              {
                "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_vassal"
              }
            ]
   },
@@ -473,16 +520,10 @@
                "Id":  "rulebook-light_troops"
              },
              {
-               "Id":  "id-prophet_of_shamut"
-             },
-             {
                "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -495,7 +536,7 @@
                "Def":  "4",
                "Res":  "5",
                "Arm":  "5",
-               "Aeg":  "3"
+               "Aeg":  "-"
              },
     "Children":  [
              {
@@ -524,6 +565,19 @@
              },
              {
                "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "id-volcanic_embrace",
+                "Info":  "(2)"
+             },
+             {
+                "Id":  "rule_tag_kadim"
+             },
+             {
+                "Id":  "rule_tag_metal_armour"
+             },
+             {
+                "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -550,10 +604,6 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "id-volcanic_embrace",
-               "Info":  "(2)"
-             },
-             {
                "Id":  "rule_tag_construct"
              }
            ]
@@ -575,16 +625,13 @@
                "Info":  "(6\", Insignificant)"
              },
              {
+               "Id":  "rulebook-fearless"
+             },
+             {
                "Id":  "rulebook-fly"
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-fearless"
-             },
-             {
-               "Id":  "id-prophet_of_shamut"
              },
              {
                "Id":  "rulebook-solitary"
@@ -594,9 +641,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -634,30 +678,24 @@
              },
     "Children":  [
              {
+               "Id":  "rulebook-attached"
+             },
+             {
                "Id":  "rulebook-commanding_presence",
-               "Info":  "(6\", Insignificant)"
+               "Info":  "(12\", Insignificant)"
              },
              {
                "Id":  "id-firing_platform"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "id-prophet_of_shamut"
              },
              {
                "Id":  "rulebook-strider",
                "Info":  "(Wall)"
              },
              {
-               "Id":  "rulebook-war_platform"
-             },
-             {
                "Id":  "rulebook-terror"
              },
              {
-               "Id":  "rulebook-wizard_adept"
+               "Id":  "rulebook-war_platform"
              }
            ]
   },
@@ -688,7 +726,15 @@
                "Str":  "3",
                "AP":  "0",
                "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
+           ]
   },
   {
     "Id":  "statline_641",
@@ -708,6 +754,12 @@
              {
                "Id":  "rulebook-impact_hits",
                "Info":  "(D3+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -725,7 +777,7 @@
     "Children":  [
              {
                "Id":  "rulebook-commanding_presence",
-               "Info":  "(6\", Insignificant)"
+               "Info":  "(12\", Insignificant)"
              },
              {
                "Id":  "rulebook-fearless"
@@ -734,22 +786,16 @@
                "Id":  "rulebook-fly"
              },
              {
-               "Id":  "id-prophet_of_shamut"
+               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-supernal"
-             },
-             {
-               "Id":  "rulebook-solitary"
              },
              {
                "Id":  "rulebook-swiftstride"
              },
              {
                "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -765,12 +811,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-commanding_presence",
                "Info":  "(6\", Insignificant)"
@@ -817,6 +857,57 @@
              }
            ]
   },
+    {
+    "Id":  "statline_2643",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "9",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-commanding_presence",
+               "Info":  "(6\", Insignificant)"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2645",
+    "Name":  "Vizier",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+	       "Info": "(1)"
+             },
+             {
+               "Id":  "rule_tag_centauroid"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
   {
     "Id":  "statline_646",
     "Name":  "",
@@ -830,20 +921,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-commanding_presence",
-               "Info":  "(6\", Insignificant)"
+               "Info":  "(12\", Insignificant)"
              },
              {
                "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "id-vassal_governor"
@@ -879,12 +961,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-commanding_presence",
                "Info":  "(6\", Insignificant)"
@@ -946,24 +1022,21 @@
                "Id":  "rulebook-attached"
              },
              {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-commanding_presence",
-               "Info":  "(6\", Insignificant)"
+               "Info":  "(12\", Insignificant)"
              },
              {
                "Id":  "id-firing_platform"
              },
              {
-               "Id":  "rulebook-light_troops"
+               "Id":  "rulebook-strider",
+               "Info":  "(Wall)"
+             },
+             {
+               "Id":  "rulebook-terror"
              },
              {
                "Id":  "rulebook-war_platform"
-             },
-             {
-               "Id":  "rulebook-strider",
-               "Info":  "(Wall)"
              }
            ]
   },
@@ -972,7 +1045,7 @@
     "Name":  "Battering Ram",
     "Type":  "Statline",
     "Attributes":  {
-               "Att":  null,
+               "Att":  "1",
                "Off":  "4",
                "Str":  "5",
                "AP":  "2",
@@ -985,6 +1058,12 @@
              {
                "Id":  "rulebook-impact_hits",
                "Info":  "(D3+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1028,7 +1107,7 @@
   },
   {
     "Id":  "statline_654",
-    "Name":  "Taurukh Commis.",
+    "Name":  "Taurukh Commissioner",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "4",
@@ -1045,6 +1124,15 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_centauroid"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1120,11 +1208,11 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-feigned_flight"
-             },
-             {
                "Id":  "rulebook-exclusive",
                "Info":  "(Insignificant)"
+             },
+             {
+               "Id":  "rulebook-feigned_flight"
              },
              {
                "Id":  "rulebook-insignificant"
@@ -1204,6 +1292,9 @@
                "Id":  "rulebook-solitary"
              },
              {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
                "Id":  "rulebook-wizard_conclave",
                "Info":  "(3)"
              }
@@ -1244,6 +1335,12 @@
     "Children":  [
              {
                "Id":  "id-infernal_weapon"
+             },
+             {
+               "Id":  "rule_tag_dwarf"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1267,7 +1364,7 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rule_tag_beast"
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -1335,12 +1432,6 @@
     "Children":  [
              {
                "Id":  "rulebook-magical_attacks"
-             },
-             {
-               "Id":  "rule_tag_construct"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1366,6 +1457,9 @@
              },
              {
                "Id":  "rule_tag_construct"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              }
            ]
   },
@@ -1410,12 +1504,16 @@
                "Def":  "7",
                "Res":  "5",
                "Arm":  "4",
-               "Aeg":  "3"
+               "Aeg":  "4"
              },
     "Children":  [
              {
                "Id":  "rulebook-aegis",
-               "Info":  "(3+, against Flaming Attacks ; 4+)"
+               "Info":  "(4+)"
+             },
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(3+, against Flaming Attacks)"
              },
              {
                "Id":  "id-burning_armour"
@@ -1455,9 +1553,6 @@
              },
              {
                "Id":  "rule_tag_metal_armour"
-             },
-             {
-               "Id":  "rule_tag_kadim"
              }
            ]
   },
@@ -1482,6 +1577,12 @@
              {
                "Id":  "id-volcanic_embrace",
                "Info":  "(2)"
+             },
+             {
+               "Id":  "rule_tag_kadim"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
              },
              {
                "Id":  "rule_tag_mount"
@@ -1623,10 +1724,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-pistol",
-               "Info":  "(4+)"
-             },
-             {
                "Id":  "rule_tag_dwarf"
              },
              {
@@ -1652,10 +1749,6 @@
              },
              {
                "Id":  "rulebook-insignificant"
-             },
-             {
-               "Id":  "rulebook-weakness",
-               "Info":  "(Flaming Attacks)"
              }
            ]
   },
@@ -1669,7 +1762,13 @@
                "Res":  "3",
                "Arm":  "1",
                "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
              }
+           ]
   },
   {
     "Id":  "statline_682",
@@ -1687,7 +1786,10 @@
                "Id":  "id-oil_flasks"
              },
              {
-               "Id":  "rulebook-paired_weapons"
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_vassal"
              }
            ]
   },
@@ -1745,9 +1847,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-paired_weapons"
-             },
-             {
                "Id":  "rule_tag_slave"
              }
            ]
@@ -1797,6 +1896,10 @@
                "Aeg":  "5"
              },
     "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(3+, against Flaming Attacks)"
+             },
              {
                "Id":  "rulebook-aegis",
                "Info":  "(5+)"
@@ -1874,6 +1977,10 @@
     "Children":  [
              {
                "Id":  "rulebook-aegis",
+               "Info":  "(3+, against Flaming Attacks)"
+             },
+             {
+               "Id":  "rulebook-aegis",
                "Info":  "(5+)"
              }
            ]
@@ -1897,7 +2004,7 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rulebook-paired_weapons"
+               "Id":  "rule_tag_dwarf"
              }
            ]
   },
@@ -1966,9 +2073,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-great_weapon"
-             },
-             {
                "Id":  "rule_tag_dwarf"
              },
              {
@@ -2018,6 +2122,10 @@
     "Children":  [
              {
                "Id":  "rulebook-aegis",
+               "Info":  "(3+, against Flaming Attacks)"
+             },
+             {
+               "Id":  "rulebook-aegis",
                "Info":  "(5+)"
              }
            ]
@@ -2041,7 +2149,7 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
-               "Id":  "rulebook-paired_weapons"
+               "Id":  "rule_tag_dwarf"
              }
            ]
   },
@@ -2184,9 +2292,6 @@
                "Info":  "(1)"
              },
              {
-               "Id":  "rulebook-great_weapon"
-             },
-             {
                "Id":  "rule_tag_centauroid"
              },
              {
@@ -2226,10 +2331,6 @@
              },
              {
                "Id":  "rulebook-vanguard"
-             },
-             {
-               "Id":  "rulebook-weakness",
-               "Info":  "(Flaming Attacks)"
              }
            ]
   },
@@ -2247,6 +2348,10 @@
     "Children":  [
              {
                "Id":  "rulebook-shield"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
              }
            ]
   },
@@ -2266,11 +2371,17 @@
                "Id":  "id-oil_flasks"
              },
              {
+               "Id":  "rulebook-bow",
+               "Info":  "(4+)"
+             },
+             {
                "Id":  "rulebook-light_lance"
              },
              {
-               "Id":  "rulebook-bow",
-               "Info":  "(4+)"
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_vassal"
              }
            ]
   },
@@ -2330,6 +2441,12 @@
              {
                "Id":  "id-vassal_slingshot",
                "Info":  "(4+)"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             },
+             {
+               "Id":  "rule_tag_vassal"
              }
            ]
   },
@@ -2491,6 +2608,10 @@
                "Id":  "rulebook-attached"
              },
              {
+               "Id":  "rulebook-commanding_presence",
+                "Info":  "(12\", Insignificant)"
+             }, 
+             {
                "Id":  "id-firing_platform"
              },
              {
@@ -2597,35 +2718,7 @@
                "Id":  "rule_tag_metal_armour"
              }
            ]
-  },
-    {
-    "Id":  "statline_1720",
-    "Name":  "Chassis",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  null,
-               "Off":  null,
-               "Str":  "6",
-               "AP":  "3",
-               "Agi":  "2"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-devastating_charge",
-               "Info":  "(+1 Str, +1 AP, +10 Agi)"
-             },
-             {
-               "Id":  "rulebook-grind_attack",
-               "Info":  "(3D3)"
-             },
-             {
-               "Id":  "rule_tag_construct"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
+  },  
   {
     "Id":  "statline_721",
     "Name":  "",
@@ -2656,6 +2749,38 @@
            ]
   },
   {
+    "Id":  "statline_2721",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "7",
+               "Hgt":  "5",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-insignificant"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-supernal"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-terror"
+             }
+           ]
+  },
+  {
     "Id":  "statline_722",
     "Name":  "",
     "Type":  "Statline",
@@ -2667,6 +2792,10 @@
                "Aeg":  "5"
              },
     "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(3+, against Flaming Attacks)"
+             },
              {
                "Id":  "rulebook-aegis",
                "Info":  "(5+)"
@@ -2696,6 +2825,78 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_kadim"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2723",
+    "Name":  "Kadim Titan",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "4",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-flaming_attacks",
+               "Info":  "(Melee & Shooting)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks",
+               "Info":  "(Melee & Shooting)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "id-volcanic_embrace",
+               "Info":  "(D3+1)"
+             },
+             {
+               "Id":  "rule_tag_kadim"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3723",
+    "Name":  "Kadim Titan",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "4",
+               "Str":  "6",
+               "AP":  "3",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-flaming_attacks",
+               "Info":  "(Melee & Shooting)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks",
+               "Info":  "(Melee & Shooting)"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6)"
+             },
+             {
+               "Id":  "id-volcanic_embrace",
+               "Info":  "(2)"
              },
              {
                "Id":  "rule_tag_kadim"
@@ -2739,7 +2940,7 @@
                "HP":  "8",
                "Def":  "3",
                "Res":  "5",
-               "Arm":  "2",
+               "Arm":  "3",
                "Aeg":  "-"
              }
   },
@@ -2761,9 +2962,6 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
-             },
-             {
-               "Id":  "id-infernal_lash"
              },
              {
                "Id":  "rule_tag_dwarf"

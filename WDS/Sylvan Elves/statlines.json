@@ -181,10 +181,6 @@
              },
              {
                "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
              }
            ]
   },
@@ -198,7 +194,13 @@
                "Res":  "4",
                "Arm":  "2",
                "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
              }
+           ]
   },
   {
     "Id":  "statline_1204",
@@ -214,6 +216,9 @@
     "Children":  [
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -234,9 +239,6 @@
              },
              {
                "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "se-meeting_of_minds"
@@ -293,6 +295,9 @@
              },
              {
                "Id":  "rule_tag_dragon"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -308,12 +313,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -371,12 +370,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -416,12 +409,6 @@
              },
     "Children":  [
              {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
-             {
                "Id":  "rulebook-disciplined"
              },
              {
@@ -460,12 +447,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-disciplined"
              },
@@ -523,9 +504,6 @@
              },
              {
                "Id":  "se-tree_singing"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -582,9 +560,6 @@
              },
              {
                "Id":  "se-tree_singing"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -627,13 +602,6 @@
              },
              {
                "Id":  "se-tree_singing"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
-             },
-             {
-               "Id":  "rulebook-hard_target",
-               "Info":  "(1)"
              }
            ]
   },
@@ -647,7 +615,13 @@
                "Res":  "4",
                "Arm":  "1",
                "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
              }
+           ]
   },
   {
     "Id":  "statline_1224",
@@ -678,9 +652,6 @@
              },
              {
                "Id":  "se-tree_singing"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -719,9 +690,6 @@
              },
              {
                "Id":  "rule_tag_mount"
-             },
-             {
-               "Id":  "rule_tag_"
              }
            ]
   },
@@ -758,9 +726,6 @@
              },
              {
                "Id":  "se-tree_singing"
-             },
-             {
-               "Id":  "rulebook-wizard_adept"
              }
            ]
   },
@@ -776,12 +741,6 @@
                "Rsr":  "-"
              },
     "Children":  [
-             {
-               "Id":  "rulebook-attached"
-             },
-             {
-               "Id":  "rulebook-captain"
-             },
              {
                "Id":  "rulebook-exclusive",
                "Info":  "(Sylvan Spirit)"
@@ -1455,7 +1414,115 @@
                "Info":  "(Fury)"
              },
              {
-               "Id":  "se-heath_lancers"
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3252",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "8",
+               "Hgt":  "2",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "rulebook-hit_and_run"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-vanguard"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3254",
+    "Name":  "Heath Rider",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(Fury)"
+             },
+             {
+               "Id":  "rulebook-light_lance"
+             },
+             {
+               "Id":  "se-sylvan_bow",
+               "Info":  "(3+)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4253",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "5",
+               "Res":  "3",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4254",
+    "Name":  "Heath Rider",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "5",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(Fury)"
+             },
+             {
+               "Id":  "rulebook-lance"
              },
              {
                "Id":  "rule_tag_elf"
@@ -1532,6 +1599,66 @@
              },
              {
                "Id":  "rule_tag_sylvan_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3255",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "1",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Sylvan Spirit)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "se-forest_dweller"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3256",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "1",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "1",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-weakness",
+               "Info":  "(Flaming Attacks)"
              }
            ]
   },
@@ -1722,6 +1849,23 @@
            ]
   },
   {
+    "Id":  "statline_3204",
+    "Name":  "Forest Eagle",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "5",
+               "Str":  "5",
+               "AP":  "1",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_beast"
+             }
+           ]
+  },
+  {
     "Id":  "statline_1266",
     "Name":  "",
     "Type":  "Statline",
@@ -1742,10 +1886,6 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-magic_resistance",
-               "Info":  "(1)"
              },
              {
                "Id":  "rulebook-strider",
@@ -1811,10 +1951,10 @@
              },
     "Children":  [
              {
-               "Id":  "se-forest_dweller"
+               "Id":  "rulebook-fearless"
              },
              {
-               "Id":  "rulebook-fearless"
+               "Id":  "se-forest_dweller"
              },
              {
                "Id":  "rulebook-solitary"
@@ -1934,6 +2074,9 @@
              {
                "Id":  "rulebook-aegis",
                "Info":  "(6+)"
+             },
+             {
+               "Id":  "se-elven_cloak"
              }
            ]
   },
@@ -1960,7 +2103,10 @@
                "Id":  "rulebook-lethal_strike"
              },
              {
-               "Id":  "se-sylvan_blades"
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -1979,6 +2125,9 @@
              {
                "Id":  "rulebook-impact_hits",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
   },
@@ -2008,9 +2157,6 @@
              },
              {
                "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-skirmisher"
              },
              {
                "Id":  "rulebook-strider",
@@ -2062,13 +2208,6 @@
                "Info":  "(+1 Att)"
              },
              {
-               "Id":  "rulebook-light_lance"
-             },
-             {
-               "Id":  "se-sylvan_bow",
-               "Info":  "(3+)"
-             },
-             {
                "Id":  "rule_tag_elf"
              },
              {
@@ -2090,6 +2229,133 @@
     "Children":  [
              {
                "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3276",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "9",
+               "Mob":  "9",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-hit_and_run"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-skirmisher"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-vanguard"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3278",
+    "Name":  "Kestrel Knight",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(+1 Att)"
+             },
+             {
+               "Id":  "rulebook-light_lance"
+             },
+             {
+               "Id":  "se-sylvan_bow",
+               "Info":  "(3+)"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4277",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "2",
+               "Def":  "6",
+               "Res":  "4",
+               "Arm":  "2",
+               "Aeg":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "se-elven_cloak"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             },
+             {
+               "Id":  "rulebook-shield"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4278",
+    "Name":  "Kestrel Knight",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "6",
+               "Str":  "4",
+               "AP":  "1",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-devastating_charge",
+               "Info":  "(+1 Att)"
+             },
+             {
+               "Id":  "rulebook-lance"
+             },
+             {
+               "Id":  "rule_tag_elf"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
              }
            ]
   },
@@ -2154,7 +2420,8 @@
                "Id":  "rulebook-poison_attacks"
              },
              {
-               "Id":  "se-poisoned_thorn"
+               "Id":  "se-poisoned_thorn",
+                 "Info": "(3+)"
              },
              {
                "Id":  "rule_tag_elf"
@@ -2222,8 +2489,7 @@
              },
     "Children":  [
              {
-               "Id":  "se-big_game_hunters",
-               "Info":  "(Shooting)"
+               "Id":  "se-big_game_hunters"
              },
              {
                "Id":  "se-sylvan_bow",

@@ -141,6 +141,9 @@
     },
     "Children": [
       {
+        "Id": "rule_tag_beast"
+      },
+      {
         "Id": "rule_tag_mount"
       }
     ]
@@ -257,6 +260,30 @@
     ]
   },
   {
+    "Id": "statline_2503",
+    "Name": "High Prince",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "8",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "8"
+    },
+    "Children": [      
+      {
+        "Id": "he-sky_reaper",
+          "Info": "(1+)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
     "Id": "statline_514",
     "Type": "Statline",
     "Attributes": {
@@ -267,10 +294,6 @@
       "Rsr": "-"
     },
     "Children": [
-      {
-        "Id": "he-ancient_allies",
-        "Info": "(1)"
-      },
       {
         "Id": "rulebook-disciplined"
       },
@@ -321,6 +344,9 @@
       },
       {
         "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
       }
     ]
   },
@@ -336,17 +362,10 @@
     },
     "Children": [
       {
-        "Id": "he-ancient_allies",
-        "Info": "(2)"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
         "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
       },
       {
         "Id": "he-meeting_of_minds"
@@ -398,6 +417,9 @@
       },
       {
         "Id": "rule_tag_dragon"
+      },
+      {
+        "Id": "rule_tag_mount"
       }
     ]
   },
@@ -413,17 +435,10 @@
     },
     "Children": [
       {
-        "Id": "he-ancient_allies",
-        "Info": "(2)"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
         "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
       },
       {
         "Id": "he-meeting_of_minds"
@@ -475,6 +490,9 @@
       },
       {
         "Id": "rule_tag_dragon"
+      },
+      {
+        "Id": "rule_tag_mount"
       }
     ]
   },
@@ -489,12 +507,6 @@
       "Rsr": "-"
     },
     "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
       {
         "Id": "rulebook-disciplined"
       },
@@ -546,12 +558,6 @@
     },
     "Children": [
       {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
@@ -594,12 +600,6 @@
       "Rsr": "-"
     },
     "Children": [
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
       {
         "Id": "rulebook-disciplined"
       },
@@ -647,22 +647,16 @@
     },
     "Children": [
       {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
         "Id": "rulebook-light_troops"
       },
       {
-        "Id": "rulebook-swiftstride"
+        "Id": "rulebook-solitary"
       },
       {
-        "Id": "rulebook-solitary"
+        "Id": "rulebook-swiftstride"
       }
     ]
   },
@@ -688,16 +682,6 @@
       "Rsr": "-"
     },
     "Children": [
-      {
-        "Id": "he-ancient_allies",
-        "Info": "(1)"
-      },
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
       {
         "Id": "rulebook-disciplined"
       },
@@ -738,12 +722,6 @@
     },
     "Children": [
       {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
@@ -778,6 +756,30 @@
     ]
   },
   {
+    "Id": "statline_2525",
+    "Name": "Commander",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "3",
+      "Off": "7",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "7"
+    },
+    "Children": [
+      {
+        "Id": "he-sky_reaper",
+          "Info": "(1+)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
     "Id": "statline_536",
     "Type": "Statline",
     "Attributes": {
@@ -789,23 +791,10 @@
     },
     "Children": [
       {
-        "Id": "he-ancient_allies",
-        "Info": "(2)"
-      },
-      {
-        "Id": "rulebook-attached"
-      },
-      {
-        "Id": "rulebook-captain"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
         "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
       },
       {
         "Id": "he-meeting_of_minds"
@@ -840,9 +829,6 @@
       },
       {
         "Id": "he-master_of_spellcrafting"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
       }
     ]
   },
@@ -896,9 +882,6 @@
       },
       {
         "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
       }
     ]
   },
@@ -927,16 +910,13 @@
         "Id": "rulebook-hit_and_run"
       },
       {
-        "Id": "he-master_of_spellcrafting"
-      },
-      {
         "Id": "rulebook-light_troops"
       },
       {
-        "Id": "rulebook-swiftstride"
+        "Id": "he-master_of_spellcrafting"
       },
       {
-        "Id": "rulebook-wizard_adept"
+        "Id": "rulebook-swiftstride"
       }
     ]
   },
@@ -973,16 +953,13 @@
         "Id": "rulebook-fly"
       },
       {
-        "Id": "he-master_of_spellcrafting"
-      },
-      {
         "Id": "rulebook-light_troops"
       },
       {
-        "Id": "rulebook-swiftstride"
+        "Id": "he-master_of_spellcrafting"
       },
       {
-        "Id": "rulebook-wizard_adept"
+        "Id": "rulebook-swiftstride"
       }
     ]
   },
@@ -1015,29 +992,22 @@
     },
     "Children": [
       {
-        "Id": "he-ancient_allies",
-        "Info": "(1)"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
         "Id": "rulebook-fly"
       },
       {
-        "Id": "he-master_of_spellcrafting"
+        "Id": "rulebook-light_troops"
       },
       {
-        "Id": "rulebook-light_troops"
+        "Id": "he-master_of_spellcrafting"
       },
       {
         "Id": "rulebook-solitary"
       },
       {
         "Id": "rulebook-swiftstride"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
       }
     ]
   },
@@ -1064,17 +1034,10 @@
     },
     "Children": [
       {
-        "Id": "he-ancient_allies",
-        "Info": "(2)"
-      },
-      {
         "Id": "rulebook-disciplined"
       },
       {
         "Id": "rulebook-fly"
-      },
-      {
-        "Id": "rulebook-light_troops"
       },
       {
         "Id": "he-master_of_spellcrafting"
@@ -1090,9 +1053,6 @@
       },
       {
         "Id": "rulebook-terror"
-      },
-      {
-        "Id": "rulebook-wizard_adept"
       }
     ]
   },
@@ -1124,13 +1084,17 @@
         "Id": "rulebook-disciplined"
       },
       {
+        "Id": "rulebook-light_troops"
+      },
+      {
         "Id": "he-master_of_spellcrafting"
       },
       {
         "Id": "he-shroud_seekers"
       },
       {
-        "Id": "rulebook-wizard_master"
+        "Id": "rulebook-wizard_conclave",
+          "Info": "(8)"
       }
     ]
   },
@@ -1212,7 +1176,13 @@
       "Res": "6",
       "Arm": "4",
       "Aeg": "-"
-    }
+    },
+    "Children": [
+      {
+        "Id": "rulebook-resistance",
+          "Info": "(Flaming Attacks)"
+      }
+    ]
   },
   {
     "Id": "statline_553",
@@ -1245,7 +1215,7 @@
       "Att": "6",
       "Off": "6",
       "Str": "7",
-      "AP": "1",
+      "AP": "4",
       "Agi": "3"
     },
     "Children": [
@@ -1258,13 +1228,16 @@
       },
       {
         "Id": "rulebook-stomp_attack",
-        "Info": "(D6 hits)"
+        "Info": "(D6)"
       },
       {
         "Id": "rule_tag_beast"
       },
       {
         "Id": "rule_tag_dragon"
+      },
+      {
+        "Id": "rule_tag_mount"
       }
     ]
   },
@@ -1393,7 +1366,7 @@
       },
       {
         "Id": "rulebook-strider",
-        "Info": "(Water)"
+        "Info": "(Water Terrain)"
       }
     ]
   },
@@ -1817,6 +1790,12 @@
       },
       {
         "Id": "rulebook-lance"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
       }
     ]
   },
@@ -1881,6 +1860,12 @@
       {
         "Id": "rulebook-longbow",
         "Info": "(3+)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
       }
     ]
   },
@@ -1941,6 +1926,12 @@
       },
       {
         "Id": "rulebook-great_weapon"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
       }
     ]
   },
@@ -1991,6 +1982,23 @@
     ]
   },
   {
+    "Id": "statline_2511",
+    "Name": "Giant Eagle",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "3",
+      "Off": "5",
+      "Str": "5",
+      "AP": "1",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  }, 
+  {
     "Id": "statline_590",
     "Type": "Statline",
     "Attributes": {
@@ -2001,10 +2009,6 @@
       "Rsr": "-"
     },
     "Children": [
-      {
-        "Id": "he-ancient_allies",
-        "Info": "(1)"
-      },
       {
         "Id": "rulebook-disciplined"
       },
@@ -2054,6 +2058,9 @@
     "Children": [
       {
         "Id": "rulebook-flaming_attacks"
+      },
+      {
+        "Id": "rule_tag_elf"
       }
     ]
   },
@@ -2068,7 +2075,11 @@
       "AP": "2",
       "Agi": "3"
     },
-    "Children": [
+    "Children": [      
+      {
+        "Id": "rulebook-breath_attack",
+        "Info": "(Str 4, AP 1, Flaming Attacks)"
+      },
       {
         "Id": "rulebook-flaming_attacks"
       },
@@ -2077,8 +2088,13 @@
         "Info": "(D3)"
       },
       {
-        "Id": "rulebook-breath_attack",
-        "Info": "(Str 4, AP 1, Flaming Attacks)"
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_dragon"
+      },
+      {
+        "Id": "rule_tag_mount"
       }
     ]
   },
@@ -2370,7 +2386,7 @@
       },
       {
         "Id": "rulebook-strider",
-        "Info": "(Water)"
+        "Info": "(Water Terrain)"
       }
     ]
   },
@@ -2434,7 +2450,7 @@
       },
       {
         "Id": "rulebook-strider",
-        "Info": "(Water)"
+        "Info": "(Water Terrain)"
       },
       {
         "Id": "rulebook-swiftstride"
