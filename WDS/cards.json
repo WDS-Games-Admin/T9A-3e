@@ -2122,6 +2122,36 @@
     "Description": "Wizards only.\n\nMay be activated at any time during your Magic Phase.\n\nThe bearer knows the spell indicated in brackets (X) in addition to its other spells, unless the bearer already knew it."
   },
   {
+    "Id": "mesmerising plumage/dl - morphlings",
+    "Name": "Mesmerising Plumage",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "Permanent",
+      "Type": "Manifestation"
+    },
+    "Description": "Afflict (-1 Def, -1 Off)"
+  },
+  {
+    "Id": "torporous tendrils/dl - morphlings",
+    "Name": "Torporous Tendrils",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "Permanent",
+      "Type": "Manifestation"
+    },
+    "Description": "Afflict (-2 Agi)"
+  },
+  {
+    "Id": "venom sacs/dl - morphlings",
+    "Name": "Venom Sacs",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "Permanent",
+      "Type": "Manifestation"
+    },
+    "Description": "Poison Attacks (Melee & Shooting)"
+  },
+  {
     "Id": "de - beastmaster's vial/potions & scrolls",
     "Name": "DE - Beastmaster's Vial",
     "Type": "Card",
@@ -2418,6 +2448,26 @@
       "Duration": "Round of Combat"
     },
     "Description": "The Black Rose gains Hatred (against Characters) and Zeal (against Characters). Attacks against the Black Rose gain +1 to hit."
+  },
+  {
+    "Id": "ancient grudge/dh - ancient grudge",
+    "Name": "Ancient Grudge",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "Permanent",
+      "Type": "Army Specific Rule"
+    },	
+    "Description": "During Pre-game Selections, a Dwarven Holds army marks units on the opponent's Army List with Grudge Markers (note that Characters can be marked, too).\nThe number of Grudge Markers placed is equal to the number of instances of <u>Ancient Grudge</u> on units in your Army List.\nAll models with <i>Dwarf</i> in your army gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred (towards units with a Grudge Marker)</link></u>)."
+  },
+  {
+    "Id": "the living law/dh - the living law",
+    "Name": "The Living Law",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "Permanent",
+      "Type": "Model Rule"
+    },	
+    "Description": "At the beginning of each friendly Melee Phase, select an enemy unit (as appearing on the Army List). The selected unit becomes marked for the purpose of <u><link=\"dh-ancient_grudge\">Ancient Grudge</link></u>.\nAll models with <i>Dwarf</i> in your army gain <u><link=\"rulebook-first_strike\">First Strike</link></u> (<u><link=\"rulebook-hatred\">Hatred</link></u> (towards units with a Grudge Marker))."
   },
   {
     "Id": "rune of r e vocation/dh - battle runes",
@@ -2812,6 +2862,16 @@
       "Duration": "One Turn"
     },
     "Description": "Valish's unit gains Channel (1), Courageous and Disciplined"
+  },
+  {
+    "Id": "guiding mastery/sa - guiding mastery",
+    "Name": "Guiding Mastery",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One Turn",
+      "Type": "Telepathic Masteries"
+    },
+    "Description": "At the start of each friendly Player Turn, the model may choose friendly unit entirely with Magnasaur within 12″: the unit must reroll failed Charge Range rolls and loses Frenzy (if it has it)."
   },
   {
     "Id": "colony of frogs/se - ancient dawael, the world tree",
