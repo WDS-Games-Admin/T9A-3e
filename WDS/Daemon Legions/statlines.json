@@ -861,6 +861,9 @@
                "Id":  "rulebook-magical_attacks"
              },
              {
+               "Id":  "rule_tag_daemon"
+             },
+             {
                "Id":  "rule_tag_mount"
              }
            ]
@@ -2053,6 +2056,195 @@
              {
                "Id":  "dl-smother",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2161",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "6",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "0",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2162",
+    "Name":  "Tiller (3)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "dl-smother",
+               "Info":  "(2)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2119",
+    "Name":  "Hellsteed (3)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2120",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "4",
+               "AP":  "3",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(3D3)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3161",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "4",
+               "Res":  "4",
+               "Arm":  "0",
+               "Aeg":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-aegis",
+               "Info":  "(5+)"
+             },
+             {
+               "Id":  "rulebook-hard_target",
+               "Info":  "(1)"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3162",
+    "Name":  "Tiller (4)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "3",
+               "Off":  "4",
+               "Str":  "3",
+               "AP":  "1",
+               "Agi":  "5"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "dl-smother",
+               "Info":  "(2)"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3119",
+    "Name":  "Hellsteed (4)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "3",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_daemon"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3120",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "4",
+               "AP":  "3",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(4D3)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_construct"
              }
            ]
   },
