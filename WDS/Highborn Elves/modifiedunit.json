@@ -184,10 +184,6 @@
     "UnitId":  "68357f4e790d8280c4b21a69"
   },
   {
-    "OptionId":  "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
-    "UnitId":  "68357f4c790d8280c4b21997u"
-  },
-  {
     "OptionId":  "3a074005-878f-422e-a475-42dd13ce86ce",
     "UnitId":  "68357f4f790d8280c4b21a92"
   },
@@ -308,8 +304,116 @@
     "UnitId":  "68357f4b790d8280c4b216be"
   },
   {
+    "OptionId":  "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
+    "UnitId":  "68357f4c790d8280c4b21997",
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "statline_594",
+        "Ref": [
+          {
+            "Id": "rulebook-afflict",
+            "Info": "(−2 Def, −2 Off, and −2 Agi)"
+          },
+          {
+            "Id": "rulebook-fearless"
+          },
+          {
+            "Id": "rulebook-fly"
+          },
+          {
+            "Id":  "rulebook-light_troops"
+          },
+          {
+            "Id": "he-rebirth",
+            "Info": "(5+)"
+          },
+          {
+            "Id": "rulebook-solitary"
+          },
+          {
+            "Id": "rulebook-supernal"
+          },
+          {
+            "Id": "rulebook-swiftstride"
+          },
+          {
+            "Id": "rulebook-terror"
+          }
+        ]
+      },
+      {
+        "Id": "statline_596",
+        "Ref": [
+          {
+            "Id": "rulebook-magical_attacks"
+          },
+          {
+            "Id": "rulebook-stomp_attack",
+            "Info": "(D6)"
+          },
+          {
+            "Id": "rule_tag_beast"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "OptionId":  "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
+    "UnitId":  "68357f4c790d8280c4b21997",
+    "ReferencedItemsToAdd": [
+      {
+        "Id": "statline_594",
+        "Ref": [
+          {
+            "Id": "rulebook-fly"
+          },
+          {
+            "Id":  "rulebook-light_troops"
+          },
+          {
+            "Id": "he-rebirth",
+            "Info": "(5+)"
+          },
+          {
+            "Id": "rulebook-solitary"
+          },
+          {
+            "Id": "rulebook-swiftstride"
+          },
+          {
+            "Id": "rulebook-terror"
+          }          
+        ]
+      },
+      {
+        "Id": "statline_596",
+        "Ref": [
+          {
+            "Id": "rulebook-flaming_attacks"
+          },
+          {
+            "Id": "rulebook-grind_attack",
+            "Info": " (D6 hits, Str 4, AP 1, Flaming Attacks, Unmodifiable)"
+          },
+          {
+            "Id": "rulebook-stomp_attack",
+            "Info": "(D6)"
+          },
+          {
+            "Id": "rulebook-sweeping_attack",
+            "Info": "(XD3*+1 hits, Str 4, AP 1, Flaming Attacks)"
+          },
+          {
+            "Id": "rule_tag_beast"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "OptionId":  "ca034e2f-a833-424b-8312-0d4c6c8a518d",
-    "UnitId":  "68357f4c790d8280c4b21997u"
+    "UnitId":  "68357f4c790d8280c4b21997"
   },
   {
     "OptionId":  "59655b18-1352-4d9a-8612-2a2e1d55d57a",
@@ -1034,9 +1138,5 @@
   {
     "OptionId":  "59655b18-1352-4d9a-8612-2a2e1d55d57a",
     "UnitId":  "68357f4a790d8280c4b21289_regal_dragon"
-  },
-  {
-    "OptionId":  "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
-    "UnitId":  "68357f4c790d8280c4b21997u"
   }
 ]
