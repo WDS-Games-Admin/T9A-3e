@@ -37,38 +37,23 @@
   {
     "Id": "9da8b6f8-ae3f-4614-9d41-ed0b430eee5c",
     "Name": "Frost Phoenix",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "rulebook-afflict",
-        "Info": "(−2 Def, −2 Off, and −2 Agi)"
-      },
-      {
-        "Id": "rulebook-fearless"
-      },
-      {
-        "Id": "rulebook-magical_attacks"
-      },
-      {
-        "Id": "rulebook-supernal"
-      }
-    ]
+    "Type": 1
   },
   {
     "Id": "02e7b8d5-bd1b-40e9-bd65-7d66549020ce",
     "Name": "Fire Phoenix",
+    "Type": 1
+  },
+  {
+    "Id": "ca034e2f-a833-424b-8312-0d4c6c8a518d",
+    "Name": "Warden's Bond",
     "Type": 1,
     "ItemsToAdd": [
       {
-        "Id": "rulebook-flaming_attacks"
+        "Id": "statline_600"
       },
       {
-        "Id": "rulebook-grind_attack",
-        "Info": " (D6 hits, Str 4, AP 1, Flaming Attacks, Unmodifiable)"
-      },
-      {
-        "Id": "rulebook-sweeping_attack",
-        "Info": "(Sweeping Attack (XD3*+1 hits, Str 4, AP 1, Flaming Attacks)"
+        "Id": "he-wardens_bond"
       }
     ]
   },
@@ -159,19 +144,6 @@
     "ItemsToAdd": [
       {
         "Id": "he-royal_huntsman"
-      }
-    ]
-  },
-  {
-    "Id": "ca034e2f-a833-424b-8312-0d4c6c8a518d",
-    "Name": "Warden's Bond",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "he-wardens_bond"
-      },
-      {
-        "Id": "statline_600"
       }
     ]
   }
