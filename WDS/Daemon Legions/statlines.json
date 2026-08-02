@@ -2256,6 +2256,30 @@
            ]
   },
   {
+    "Id":  "statline_4120",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "4",
+               "AP":  "3",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(2D3)"
+             },
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
     "Id":  "statline_163",
     "Name":  "",
     "Type":  "Statline",
