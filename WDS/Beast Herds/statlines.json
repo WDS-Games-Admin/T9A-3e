@@ -1831,6 +1831,9 @@
              },
     "Children":  [
              {
+               "Id":  "bh-drunkard"
+             },
+             {
                "Id":  "bh-giant_see_giant_do"
              },
              {
@@ -1841,6 +1844,10 @@
              },
              {
                "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-strider",
+               "Info":  "(Forest)"
              }
            ]
   },
@@ -1874,6 +1881,45 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_giant"
+             },
+             {
+               "Id":  "rule_tag_light_armour"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2082",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "9",
+               "Def":  "3",
+               "Res":  "5",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_2083",
+    "Name":  "Beast Giant",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-rage"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6, Maximised)"
              },
              {
                "Id":  "rule_tag_giant"

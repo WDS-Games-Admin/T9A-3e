@@ -90,10 +90,19 @@
     ]
   },
   {
+    "Id": "6cdf0b73-15bf-4709-b84c-9a20a4c872bf",
+    "Name": "Big Brother",
+    "Type": 3
+  },
+  {
     "Id": "416ac8dd-38b8-4d25-9763-c1b88004ecf9",
     "Name": "Monstrous Familiar",
     "Type": 7,
     "ExtraItems": [
+      {
+        "Id": "wdg-monstrous_familiar",
+        "Type": "Rule"
+      },
       {
         "Id": "rulebook-wizard_conclave",
         "Type": "Rule"
@@ -109,6 +118,16 @@
       {
         "Id": "corruption of tin/alchemy",
         "Type": "Card"
+      }
+    ]
+  },
+  {
+    "Id": "23ba1a9d-9931-47b0-baa1-1d162288e67e",
+    "Name": "Tribal Warspear",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "wdg-tribal_warspear"
       }
     ]
   },

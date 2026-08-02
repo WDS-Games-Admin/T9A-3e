@@ -3959,6 +3959,9 @@
              },
              {
                "Id":  "rulebook-terror"
+             },
+             {
+               "Id":  "rulebook-unruly"
              }
            ]
   },
@@ -3987,11 +3990,56 @@
              },
     "Children":  [
              {
+               "Id":  "ong-brood_rivalry"
+             },
+             {
                "Id":  "rulebook-rage"
              },
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(D6)"
+             },
+             {
+               "Id":  "rule_tag_giant"
+             },
+             {
+               "Id":  "rule_tag_orc"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3087",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "9",
+               "Def":  "3",
+               "Res":  "5",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_3088",
+    "Name":  "Giant",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "3",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "ong-brood_rivalry"
+             },
+             {
+               "Id":  "rulebook-rage"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D6, Maximised)"
              },
              {
                "Id":  "rule_tag_giant"

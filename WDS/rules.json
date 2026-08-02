@@ -216,6 +216,18 @@
     "Description": "While a Character is joined to a unit containing Bodyguard and the Character fulfills at least one of the requirements defined by ‘X’, that Character benefits from <u><link=\"rulebook-stubborn\">Stubborn</link></u>.\nIn addition, if the unit it is joined to has at least one <u><link=\"rulebook-proper_ranks\">Proper Rank</link></u>, the unit is considered to be <u><link=\"rulebook-steadfast\">Steadfast</link></u> for the purposes of Break Tests.\nNote: units entirely with <u><link=\"rulebook-unstable\">Unstable</link></u> do not take Break Tests."
   },
   {
+    "Id": "rulebook-big_brother",
+    "Name": "Big Brother",
+    "Type": "Rule",
+    "Description": "The model's HP are <b>set</b> to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is <b>Maximised</b>."
+  },
+  {
+    "Id": "rulebook-giant_club",
+    "Name": "Giant Club",
+    "Type": "Rule",
+    "Description": "Characteristics Modifiers: +1 Str, +1AP."
+  },
+  {
     "Id": "rulebook-halberd",
     "Name": "Halberd",
     "Type": "Rule",
@@ -2688,12 +2700,6 @@
     "Description": "The model gains <u><link=\"rulebook-courageous\">Courageous</link></u>."
   },
   {
-    "Id": "wdg-giant_club",
-    "Name": "Giant Club (WDG)",
-    "Type": "Rule",
-    "Description": "+1 Str and +1 AP."
-  },
-  {
     "Id": "wdg-gateway",
     "Name": "Gateway",
     "Type": "Rule",
@@ -2838,22 +2844,10 @@
     "Description": "While the bearer’s unit is part of a Combined Charge, that unit, as well as all other units that are Charging the same target, must reroll failed Charge Range rolls, and gain <u><link=\"rulebook-devastating_charge\">Devastating Charge</link></u>(<u><link=\"rulebook-hard_target\">Hard Target (1)</link></u>)."
   },
   {
-    "Id": "ong-big_brother",
-    "Name": "Big Brother (OnG)",
-    "Type": "Rule",
-    "Description": "The model's HP are <b>set</b> to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> is <b>Maximised</b>"
-  },
-  {
     "Id": "ong-beloved_mascot",
     "Name": "Beloved Mascot",
     "Type": "Rule",
-    "Description": "<u><link=\"rulebook-afflict\">Afflict (-2 Def)</link></u>."
-  },
-  {
-    "Id": "ong-giant_club",
-    "Name": "Giant Club (OnG)",
-    "Type": "Rule",
-    "Description": "+1 Str, +1 AP."
+    "Description": "<u><link=\"rulebook-afflict\">Afflict (-3 Def)</link></u>."
   },
   {
     "Id": "ong-armed_to_the_teeth",
@@ -3106,18 +3100,6 @@
     "Name": "Troll’s Bellow",
     "Type": "Rule",
     "Description": "When you activate the <u><link=\"ong-war_cry\">War Cry!</link></u>, all friendly model parts with <i>Troll</i> gain <u><link=\"rulebook-fury\">Fury</link></u>. Duration: One Turn."
-  },
-  {
-    "Id": "id-big_brother",
-    "Name": "Big Brother (ID)",
-    "Type": "Rule",
-    "Description": "The model's HP are <b>set</b> to 9, its base size is changed to 75×100 mm, and the roll for the number of hits it does with its <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> is <b>Maximised</b>."
-  },
-  {
-    "Id": "id-giant_club",
-    "Name": "Giant Club (ID)",
-    "Type": "Rule",
-    "Description": "+1 Str, +1 AP."
   },
   {
     "Id": "id-tower_shield",
@@ -3660,18 +3642,6 @@
     "Description": "Each Character or model with <i>Dragon</i> that either:\n\n• Breaks from a <u><link=\"rulebook-round_of_combat\">Round of Combat</link></u> in which a unit containing Tergon Khan was Engaged, or\n• Selects <u><link=\"rulebook-flee_move\">Flee!</link></u> as a <u><link=\"rulebook-charge_reactions\"></link>Charge Reaction</u> when a unit containing Tergon Khan declared a Charge,\n\nSuffers D3 hits with Str 6, AP 3, <u><link=\"rulebook-magical_attacks\">Magical Attacks</link></u> and <u><link=\"rulebook-zeal\">Zeal</link></u> (<b>against</b> <i>Dragon</i>)."
   },
   {
-    "Id": "bh-big_brother",
-    "Name": "Big Brother (BH)",
-    "Type": "Rule",
-    "Description": "The model's HP are <b>set</b> to 9, and its base size is changed to 75×100 mm, and the roll for the number of hits it does with its <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> gains <b>Maximised</b>."
-  },
-  {
-    "Id": "bh-giant_club",
-    "Name": "Giant Club (BH)",
-    "Type": "Rule",
-    "Description": "+1 Str, +1 AP."
-  },
-  {
     "Id": "bh-beast_axe",
     "Name": "Beast Axe",
     "Type": "Rule",
@@ -3681,7 +3651,7 @@
     "Id": "bh-beer_barrel",
     "Name": "Beer Barrel",
     "Type": "Rule",
-    "Description": "The model gains <u><link=\"bh-looted_booze\">Looted Booze</link></u>. One use only.\nThis weapon can be used as a Shooting Weapon with the following profile:\nAim 2+, Range 8\", Shots 1, Str 4, AP 0, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (3×3)</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>\nAfter this weapon has been used as a Shooting Weapon, the model loses <u><link=\"bh-looted_booze\">Looted Booze</link></u>."
+    "Description": "The model gains <u><link=\"bh-looted_booze\">Looted Booze</link></u>. One use only.\nThis weapon can be used as a Shooting Weapon with the following profile:\n\nAim 2+, Range 8\", Shots 1, Str 4, AP 0, <u><link=\"rulebook-accurate\">Accurate</link></u>, <u><link=\"rulebook-area_attack\">Area Attack (3×3)</link></u>, <u><link=\"rulebook-march_and_shoot\">March and Shoot</link></u>, <u><link=\"rulebook-quick_to_fire\">Quick to Fire</link></u>"
   },
   {
     "Id": "bh-sober",
@@ -4504,18 +4474,6 @@
     "Name": "Leader of the Pack",
     "Type": "Rule",
     "Description": "The Mammoth Hunter's base size is changed to 50×50 mm.\nThe model replaces <u><link=\"rulebook-exclusive\">Exclusive (Yetis)</link></u> with <u><link=\"rulebook-exclusive\">Exclusive (Sabretooth Tigers)</link></u>.\nWhile joined to a unit of Sabretooth Tigers, the unit gains <u><link=\"rulebook-vanguard\">Vanguard</link></u>, loses <u><link=\"rulebook-unruly\">Unruly</link></u>, and the Mammoth Hunter counts as being  of the same Height as the unit for the purposes of allocating Ranged Attacks."
-  },
-  {
-    "Id": "ok-big_brother",
-    "Name": "Big Brother (OK)",
-    "Type": "Rule",
-    "Description": "The model's HP are <b>set</b> to 9, its base size is changed to 75×100 mm, and the roll for the number of hits it does with its <u><link=\"rulebook-stomp_attack\">Stomp Attack</link></u> is <b>Maximised</b>."
-  },
-  {
-    "Id": "ok-giant_club",
-    "Name": "Giant Club (OK)",
-    "Type": "Rule",
-    "Description": "+1 Str, +1 AP."
   },
   {
     "Id": "ok-iron_fist",
@@ -6382,12 +6340,6 @@
     "Name": "Damnation",
     "Type": "Rule",
     "Description": "The unit gains <u><link=\"rulebook-solitary\">Solitary</link></u>.\nIf it fails a Break Test, replace each model of the unit with a Wretched One model:\n• The unit and its models are considered removed as a casualties.\n• Each Wretched One model is placed in the same position and facing the same direction as the model it replaces (even if the replaced model was in contact with an enemy unit: in this case, the Wretched One model is placed in contact with the enemy unit, too).\n• The Wretched One models form a new unit.\n• The Wretched One unit follows the rules for <u><link=\"rulebook-summoned_units\">Summoned Units</link></u>, except that it ignores the Unit Spacing rule when placed on the Battlefield, but can still not overlap other units or <u><link=\"rulebook-impassable_terrain\">Impassable Terrain</link></u>.\n• The Wretched One unit cannot perform any <u><link=\"rulebook-combat_reforms\">Combat Reforms</link></u> in the Round of Combat during which it is <u><link=\"rulebook-summoned_units\">Summoned</link></u>. Enemy units can do so as normal.\n• Note that the following Round of Combat is not considered the First Round of Combat for the Wretched One unit, nor for the enemy units it is Engaged with."
-  },
-  {
-    "Id": "wdg-big_brother",
-    "Name": "Big Brother (WDG)",
-    "Type": "Rule",
-    "Description": "The model's HP are <b>set</b> to 9, its base size is changed to 75×100 mm, and its rolls for the number of hits for <u><link=\"rulebook-stomp_attack\">Stomp Attacks</link></u> is <b>Maximised</b>."
   },
   {
     "Id": "wdg-monstrous_familiar",

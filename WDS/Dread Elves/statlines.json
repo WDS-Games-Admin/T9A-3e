@@ -2864,6 +2864,49 @@
            ]
   },
   {
+    "Id": "statline_2316",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "3",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "rulebook-distracting",
+          "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-hard_target",
+          "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "statline_2296",
+    "Name": "Lashmaster (4)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry of Death)"
+      }
+    ]
+  },
+  {
     "Id":  "statline_318",
     "Name":  "",
     "Type":  "Statline",
