@@ -418,6 +418,50 @@
            ]
   },
   {
+    "Id":  "statline_3409",
+    "Name":  "Phantom Host (2)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "6",
+               "Off":  "2",
+               "Str":  "2",
+               "AP":  "1",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-magical_attacks"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_spirit"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3410",
+    "Name":  "Chassis",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  null,
+               "Off":  null,
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  null
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-impact_hits",
+               "Info":  "(D6+1)"
+             },
+             {
+               "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
     "Id":  "statline_1410",
     "Name":  "",
     "Type":  "Statline",
