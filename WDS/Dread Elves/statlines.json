@@ -375,6 +375,30 @@
            ]
   },
   {
+    "Id": "statline_2215",
+    "Name": "Manticore",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "5",
+      "AP": "2",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-lethal_strike"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D3)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
     "Id":  "statline_216",
     "Name":  "",
     "Type":  "Statline",
