@@ -575,6 +575,18 @@
              }
   },
   {
+    "Id":  "statline_3112",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "3",
+               "Res":  "6",
+               "Arm":  "4",
+               "Aeg":  "-"
+             }
+  },
+  {
     "Id":  "statline_1113",
     "Name":  "Alpha Carnosaur",
     "Type":  "Statline",
@@ -1730,6 +1742,87 @@
              },
              {
                "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3160",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "6",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "sa-communal_bond"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Tegu Warriors)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-war_platform"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4160",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "5",
+               "Mob":  "5",
+               "Dis":  "6",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "sa-communal_bond"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Skink Warriors, Skink Hunters)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-war_platform"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_4125",
+    "Name":  "Skink Rider (10)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "2",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "sa-poisoned_javelin",
+               "Info":  "(4+)"
+             },
+             {
+               "Id":  "rule_tag_skink"
              }
            ]
   },

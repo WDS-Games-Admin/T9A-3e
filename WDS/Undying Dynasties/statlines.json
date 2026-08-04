@@ -215,7 +215,7 @@
                "Id":  "rule_tag_skeleton"
              }
            ]
-  },
+  },  
   {
     "Id":  "statline_1298",
     "Name":  "Chassis",
@@ -234,6 +234,70 @@
              },
              {
                "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3295",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "5",
+               "Dis":  "9",
+               "Hgt":  "4",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "ud-autonomous"
+             },
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-undead"
+             },
+             {
+               "Id":  "ud-undying_will"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3297",
+    "Name":  "Skeletal Horse (4)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "2",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
@@ -549,6 +613,67 @@
              },
              {
                "Id":  "rule_tag_construct"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3308",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "8",
+               "Mob":  "5",
+               "Dis":  "8",
+               "Hgt":  "4",
+               "Rsr":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "ud-autonomous"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-fly"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-solitary"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
+               "Id":  "rulebook-undead"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3310",
+    "Name":  "Skeletal Horse (4)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "2",
+               "Str":  "3",
+               "AP":  "0",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_skeleton"
              }
            ]
   },
