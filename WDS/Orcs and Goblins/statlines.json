@@ -4221,5 +4221,41 @@
                "Id":  "rule_tag_mount"
              }
            ]
+  },
+  {
+    "Id":  "statline_3093",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "8",
+               "Def":  "3",
+               "Res":  "6",
+               "Arm":  "1",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_3094",
+    "Name":  "Rider (8)",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "1",
+               "Off":  "2",
+               "Str":  "2",
+               "AP":  "0",
+               "Agi":  "3"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-bow",
+               "Info":  "(4+)"
+             },
+             {
+               "Id":  "rulebook-lance"
+             },
+             {
+               "Id":  "rule_tag_goblin"
+             }
+           ]
   }
 ]

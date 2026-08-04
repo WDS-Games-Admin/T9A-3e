@@ -69,6 +69,78 @@
            ]
   },
   {
+    "Id":  "statline_3394",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "9",
+               "Hgt":  "3",
+               "Rsr":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "vc-autonomous"
+             },
+             {
+               "Id":  "vc-awaken",
+               "Info":  "(Zombies)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-undead"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3395",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "7",
+               "Res":  "6",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_3396",
+    "Name":  "Vampire Count",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "5",
+               "Off":  "7",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "7"
+             },
+    "Children":  [
+             {
+               "Id":  "vc-unholy_appetite"
+             },
+             {
+               "Id":  "vc-vampiric",
+               "Info":  "(6+)"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_vampire"
+             }
+           ]
+  },
+  {
     "Id":  "statline_1397",
     "Name":  "",
     "Type":  "Statline",
@@ -291,6 +363,39 @@
              {
                "Id":  "rulebook-stomp_attack",
                "Info":  "(1)"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             },
+             {
+               "Id":  "rule_tag_zombie"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3405",
+    "Name":  "Monstrous Revenant",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "2"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-lethal_strike"
+             },
+             {
+               "Id":  "rulebook-poison_attacks"
+             },
+             {
+               "Id":  "rulebook-stomp_attack",
+               "Info":  "(D3)"
              },
              {
                "Id":  "rule_tag_beast"
@@ -812,6 +917,78 @@
                "Agi":  "6"
              },
     "Children":  [
+             {
+               "Id":  "vc-vampiric",
+               "Info":  "(6+)"
+             },
+             {
+               "Id":  "rule_tag_metal_armour"
+             },
+             {
+               "Id":  "rule_tag_vampire"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3419",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "6",
+               "Mob":  "6",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "1"
+             },
+    "Children":  [
+             {
+               "Id":  "vc-autonomous"
+             },
+             {
+               "Id":  "vc-awaken",
+               "Info":  "(Zombies)"
+             },
+             {
+               "Id":  "rulebook-fearless"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-undead"
+             },
+             {
+               "Id":  "rulebook-unstable"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3420",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "HP":  "3",
+               "Def":  "6",
+               "Res":  "5",
+               "Arm":  "2",
+               "Aeg":  "-"
+             }
+  },
+  {
+    "Id":  "statline_3421",
+    "Name":  "Vampire Courtier",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "6",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "6"
+             },
+    "Children":  [
+             {
+               "Id":  "vc-unholy_appetite"
+             },
              {
                "Id":  "vc-vampiric",
                "Info":  "(6+)"
