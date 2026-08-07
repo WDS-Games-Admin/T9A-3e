@@ -1290,6 +1290,68 @@
            ]
   },
   {
+    "Id":  "statline_2986",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-disciplined"
+             },
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Goblin, Troll)"
+             },
+             {
+               "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "rulebook-ghost_step"
+             },
+             {
+               "Id":  "ong-goblin_cunning"
+             },
+             {
+               "Id":  "rulebook-hit_and_run"
+             },
+             {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_2988",
+    "Name":  "Huntsman Spiderr",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Att":  "4",
+               "Off":  "4",
+               "Str":  "5",
+               "AP":  "2",
+               "Agi":  "4"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-poison_attacks"
+             },
+             {
+               "Id":  "rule_tag_beast"
+             },
+             {
+               "Id":  "rule_tag_mount"
+             }
+           ]
+  },
+  {
     "Id":  "statline_989",
     "Name":  "",
     "Type":  "Statline",
@@ -1573,6 +1635,39 @@
              },
              {
                "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "ong-goblin_cunning"
+             },
+             {
+               "Id":  "rulebook-hit_and_run"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             }
+           ]
+  },
+  {
+    "Id":  "statline_3000",
+    "Name":  "",
+    "Type":  "Statline",
+    "Attributes":  {
+               "Cha":  "7",
+               "Mob":  "7",
+               "Dis":  "8",
+               "Hgt":  "3",
+               "Rsr":  "-"
+             },
+    "Children":  [
+             {
+               "Id":  "rulebook-exclusive",
+               "Info":  "(Goblin, Troll)"
+             },
+             {
+               "Id":  "rulebook-feigned_flight"
+             },
+             {
+               "Id":  "rulebook-ghost_step"
              },
              {
                "Id":  "ong-goblin_cunning"
