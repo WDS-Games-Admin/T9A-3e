@@ -1750,9 +1750,6 @@
                "Id":  "rulebook-attached"
              },
              {
-               "Id":  "ong-goblin_cunning"
-             },
-             {
                "Id":  "ong-beastie_whisperer"
              },
              {
@@ -1763,13 +1760,16 @@
                "Id":  "rulebook-feigned_flight"
              },
              {
-               "Id":  "rulebook-hit_and_run"
+               "Id":  "ong-goblin_cunning"
              },
              {
                "Id":  "rulebook-hidden"
              },
              {
-               "Id":  "ong-netter"
+               "Id":  "rulebook-hit_and_run"
+             },
+             {
+               "Id":  "rulebook-light_troops"
              },
              {
                "Id":  "ong-unprofessional_courtesy"
@@ -1796,7 +1796,7 @@
   },
   {
     "Id":  "statline_1005",
-    "Name":  "Gogtuk Initiate - Netter",
+    "Name":  "Gogtuk Initiate",
     "Type":  "Statline",
     "Attributes":  {
                "Att":  "2",
@@ -1827,12 +1827,14 @@
                "Id":  "ong-creepycrawlies"
              },
              {
-               "Id":  "rule_tag_construct"
+               "Id":  "rulebook-poison_attacks"
+             },
+             {
+               "Id":  "rule_tag_mount"
              }
            ]
-  },
-  {
-    "Id":  "statline_1007",
+  },  {
+    "Id":  "statline_3003",
     "Name":  "",
     "Type":  "Statline",
     "Attributes":  {
@@ -1866,32 +1868,18 @@
                "Id":  "rulebook-hit_and_run"
              },
              {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
                "Id":  "ong-unprofessional_courtesy"
-             },
-             {
-               "Id":  "rulebook-fury"
              }
            ]
   },
   {
-    "Id":  "statline_1008",
-    "Name":  "Gogtuk Initiate - Mauler",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "4",
-               "Str":  "4",
-               "AP":  "2",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-great_weapon"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_1009",
+    "Id":  "statline_4003",
     "Name":  "",
     "Type":  "Statline",
     "Attributes":  {
@@ -1916,6 +1904,9 @@
                "Id":  "rulebook-feigned_flight"
              },
              {
+               "Id":  "rulebook-ghost_step"
+             },
+             {
                "Id":  "ong-goblin_cunning"
              },
              {
@@ -1925,32 +1916,13 @@
                "Id":  "rulebook-hit_and_run"
              },
              {
+               "Id":  "rulebook-light_troops"
+             },
+             {
+               "Id":  "rulebook-swiftstride"
+             },
+             {
                "Id":  "ong-unprofessional_courtesy"
-             },
-             {
-               "Id":  "rulebook-poison_attacks",
-               "Info":  "(Melee and Shooting)"
-             }
-           ]
-  },
-  {
-    "Id":  "statline_1010",
-    "Name":  "Gogtuk Initiate - Headhunter",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "4",
-               "Str":  "4",
-               "AP":  "2",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-paired_weapons"
-             },
-             {
-               "Id":  "rulebook-throwing_weapons",
-               "Info":  "(4+, Shots 3)"
              }
            ]
   },
