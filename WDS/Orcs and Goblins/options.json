@@ -40,36 +40,6 @@
     "Type": 0
   },
   {
-    "Id": "option_1753954225508",
-    "Name": "Netter",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "rule_netter_e706a757"
-      }
-    ]
-  },
-  {
-    "Id": "option_1753954253573",
-    "Name": "Mauler",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "rule_mauler_b8bbef27"
-      }
-    ]
-  },
-  {
-    "Id": "option_1753954277100",
-    "Name": "Headhunter",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "rule_headhunter_2bbc3d51"
-      }
-    ]
-  },
-  {
     "Id": "65a8569e-799f-4d34-912f-d4c6069b982a",
     "Name": "Goblin Gardens",
     "Type": 7,
@@ -217,32 +187,7 @@
   {
     "Id": "3f932d2f-4aed-42fb-b2eb-44405b9fd9bc",
     "Name": "Creepy-Crawlies",
-    "Type": 1,
-    "ItemsToAdd": [
-      {
-        "Id": "ong-creepycrawlies"
-      }
-    ]
-  },
-  {
-    "Id": "c9cdb798-5a28-4bd2-bcb9-52bb83d09816",
-    "Name": "Forest Goblin",
-    "Type": 1
-  },
-  {
-    "Id": "f2b5a390-ba30-46ad-9323-0e76456bf6a0",
-    "Name": "Headhunter - Beastie",
-    "Type": 1
-  },
-  {
-    "Id": "841df456-d75b-4a12-96aa-2997c44c9f16",
-    "Name": "Headhunter - Creepy",
-    "Type": 1
-  },
-  {
-    "Id": "8f4e5e87-1cea-497f-a088-284be1ecf107",
-    "Name": "Headhunter - On Foot",
-    "Type": 1
+    "Type": 0
   },
   {
     "Id": "3630abe9-3a21-4b6d-90ad-8e01a9e65a33",
@@ -323,28 +268,33 @@
     "Type": 3
   },
   {
-    "Id": "dcf9b797-7abb-423c-9f8a-c54ae3ee19a4",
-    "Name": "Mad Git",
-    "Type": 1
+    "Id": "68357f70790d8280c4b248ca_headhunter",
+    "Name": "Headhunter",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-headhunter"
+      }
+    ]
   },
   {
-    "Id": "828fbbe6-3470-4532-b909-d75b0053e604",
-    "Name": "Mauler - Beastie",
-    "Type": 1
+    "Id": "68357f70790d8280c4b248ca_mauler",
+    "Name": "Mauler",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-mauler"
+      }
+    ]
   },
   {
-    "Id": "42660827-4ea4-4491-8701-750aa2c2e0da",
-    "Name": "Mauler - Creepy",
-    "Type": 1
-  },
-  {
-    "Id": "6d513cbb-a422-4ee4-a0d8-17e3e8cf8ee3",
-    "Name": "Netter - Beastie",
-    "Type": 1
-  },
-  {
-    "Id": "c475c768-a592-4f1c-bd70-ff1009cbe523",
-    "Name": "Netter - Creepy",
-    "Type": 1
+    "Id": "68357f70790d8280c4b248ca_netter",
+    "Name": "Netter",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "ong-netter"
+      }
+    ]
   }
 ]
