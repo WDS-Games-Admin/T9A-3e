@@ -272,6 +272,90 @@
     "Description": "Both Players gain: 8 Magic Dice"
   },
   {
+    "Id": "settle the score/secondary objectives",
+    "Name": "1. Settle the Score",
+    "Type": "Card",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_1_Settle_the_Score.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_back.png",
+      "IsRound": false,
+      "ShowInitials": false,
+      "Width": 63.5,
+      "Length": 88.0
+    },
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List, mark any TWO Rank-and-File units.\n\n<u>End of Game Completion:</u> BOTH marked units are removed as a casualty, Decimated, or Shaken.\n\n<u>Note</u>: If an Army List does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
+    "Id": "demonstrate superiority/secondary objectives",
+    "Name": "2. Demonstrate Superiority",
+    "Type": "Card",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_2_Demonstrate_Superiority.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_back.png",
+      "IsRound": false,
+      "ShowInitials": false,
+      "Width": 63.5,
+      "Length": 88.0
+    },
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List, mark the TWO most expensive Scoring units.\n\n<u>End of Game Completion:</u> at least one of the marked units is removed as a casualty, Decimated, or Shaken.\n\n<u>Note</u>: If an Army List does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
+    "Id": "slay the beast/secondary objectives",
+    "Name": "3. Slay the Beast",
+    "Type": "Card",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_3_Slay_the_Beast.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_back.png",
+      "IsRound": false,
+      "ShowInitials": false,
+      "Width": 63.5,
+      "Length": 88.0
+    },
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List, mark the TWO most expensive Non-Scoring Rank-and-File units or Characters of Height 4-5 with Solitary.\n\n<u>End of Game Completion:</u> at least one of the marked units is removed as a casualty, Decimated, or Shaken.\n\n<u>Note</u>: If an Army List does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
+    "Id": "assassinate/secondary objectives",
+    "Name": "4. Assassinate",
+    "Type": "Card",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_4_Assassinate.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_back.png",
+      "IsRound": false,
+      "ShowInitials": false,
+      "Width": 63.5,
+      "Length": 88.0
+    },
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List, mark TWO Characters. These must be: Characters who can be Deployed during Battle Setup. (Note: you cannot mark Hidden Characters.)\n\n<u>End of Game Completion:</u> at least one of the marked units is removed as a casualty, Decimated, or Shaken.\n\n<u>Note</u>: If an Army List does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
+    "Id": "capture their banners/secondary objectives",
+    "Name": "5. Capture their Banners",
+    "Type": "Card",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_5_Capture_their_Banners.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_back.png",
+      "IsRound": false,
+      "ShowInitials": false,
+      "Width": 63.5,
+      "Length": 88.0
+    },
+    "Description": "<u>Pre-game Selections:</u> on the opponent’s Army List, mark ALL Scoring units and The Battle Standard Bearer. At least 3 units must be marked.\n\n<u>End of Game Completion:</u> three or more of the marked units are removed as a casualty, Decimated, or Shaken.\n\n<u>Note</u>: If an Army List does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
+    "Id": "conserve our numbers/secondary objectives",
+    "Name": "6 Conserve our Numbers",
+    "Type": "Card",
+    "UIConfig": {
+      "ImageURL": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_6_Conserve_our_Numbers.png",
+      "ImageURLBack": "https://raw.githubusercontent.com/WDS-Games-Admin/T9A-3e/refs/heads/main/Images/SP/Secondary Objectives/Sec_Obj_back.png",
+      "IsRound": false,
+      "ShowInitials": false,
+      "Width": 63.5,
+      "Length": 88.0
+    },
+    "Description": "<u>Pre-game Selections:</u> on YOUR Army List, the opponent marks ALL Scoring units and the Battle Standard Bearer. At least 3 units must be marked.\n\n<u>End of Game Completion:</u> three or more of the marked units are NEITHER removed as a casualty, nor Decimated, nor Shaken.\n\n<u>Note</u>: If an Army List does not contain enough units that fulfil the requirements of a Secondary Objective, the relevant player first selects all units that fulfil the criteria and can then choose any units for the remaining choices."
+  },
+  {
     "Id": "living steel/alchemy",
     "Name": "Living Steel",
     "Type": "Card",
