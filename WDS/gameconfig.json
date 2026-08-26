@@ -1,22 +1,42 @@
 {
   "CloudLargeNeighborCount": 1,
   "Formations": [
-    { "Index": 0, "Type": "RankAndFile" },
-    { "Index": 1, "Type": "RankAndFileSeparated" }
+    {
+      "Index": 0,
+      "Type": "RankAndFile"
+    },
+    {
+      "Index": 1,
+      "Type": "RankAndFileSeparated"
+    }
   ],
   "FormationChangingRules": [
-    { "Rule": "Skirmisher", "FormationType": "RankAndFileSeparated" }
+    {
+      "Rule": "Skirmisher",
+      "FormationType": "RankAndFileSeparated"
+    }
   ],
   "TakeCardScreenshot": true,
   "TakeDeploymentScreenshot": true,
   "ResultCalculatorAlgorithm": 1,
-  "GameStateViewSections": [ 0, 1, 6 ],
+  "GameStateViewSections": [
+    0,
+    1,
+    6
+  ],
   "PointCounting": "FullHalfNone",
   "ShowAttribHeader": false,
   "CounterMultiplier": -100,
   "ListParsingAlgorithm": 1,
   "ShowGroupHeader": false,
-  "AvailableDice": [ "D6", "D8", "D3" ],
+  "BattleReportScreenshotTiming": "AtCardDraw",
+  "BattleReportScreenshotCardStackId": "2, 3",
+  "BattleReportScreenshotAtDeployment": true,
+  "AvailableDice": [
+    "D6",
+    "D8",
+    "D3"
+  ],
   "DefaultCardConfig": {
     "Width": 50.0,
     "Length": 50.0,
@@ -29,9 +49,18 @@
     "ImageURLBack": "https://raw.githubusercontent.com/Jucyliana/Jucyliana.github.io/main/40k/CardImages/cardBackExample.png"
   },
   "PointCountingStatusNames": [
-    { "Status": 0, "Name": "" },
-    { "Status": 1, "Name": "DEAD" },
-    { "Status": 2, "Name": "HALF" }
+    {
+      "Status": 0,
+      "Name": ""
+    },
+    {
+      "Status": 1,
+      "Name": "DEAD"
+    },
+    {
+      "Status": 2,
+      "Name": "HALF"
+    }
   ],
   "ShownButtons": [
     "Radius",
