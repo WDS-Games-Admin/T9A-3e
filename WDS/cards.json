@@ -2626,8 +2626,8 @@
     }
   },
   {
-    "Id": "rune of gleaming/dh - battle runes",
-    "Name": "Rune of Gleaming",
+    "Id": "rune of g l eaming/dh - battle runes",
+    "Name": "Rune of G l eaming",
     "Type": "Card",
     "Attributes": {
       "Level": "5",
@@ -2653,6 +2653,100 @@
       "Type": "Augment"
     },
     "Description": "To-wound rolls against the target suffer a -1 modifier.\n\nNo model can be affected by more than one instance of the same Battle Rune Bound Spell simultaneously.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of d e nial/dh - runic special items",
+    "Name": "Rune of D e nial",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "The player can choose to use this Rune instead of performing a Dispelling Roll. The spell is automatically dispelled.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of d e vouring/dh - runic special items",
+    "Name": "Rune of D e vouring",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "The player can choose to use this Rune in stead of performing a Dispelling Roll. The spell is cast as normal, but the Caster may not cast it.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of g r ounding/dh - runic special items",
+    "Name": "Rune of G r ounding",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "Can be activated during Combat Choices.\nAll spells with Duration: One Turn that affect any of the following units come to an end:\n\n• The bearer’s unit.\n• Enemy units in contact with the bearer’s unit.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of r e adiness/dh - runic special items",
+    "Name": "Rune of R e adiness",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "Can be activated at the end of the Charge Phase, immediately after all Charge Moves have been resolved.\nIf the bearer’s unit was successfully charged during this phase, it may perform a Combat Reform (following the normal rules for Combat Reforms).",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of storms/dh - runic special items",
+    "Name": "Rune of Storms",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "Can be activated at the start of the opponent’s Player Turn.\nChoose a single enemy unit within 24″ of the bearer. The Charge Speed and Mobility of all models with Fly in that unit are halved, rounding fractions up.\nDuration: End of Turn.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of courage/dh - runic special items",
+    "Name": "Rune of Courage",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "Can be activated during Combat Choices.\nThe bearer gains Stubborn.\nDuration: Round of Combat.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "runic standard of steadiness/dh - runic special items",
+    "Name": "Runic Standard of Steadiness",
+    "Type": "Card",
+    "Attributes": {
+      "Duration": "One use only"
+    },
+    "Description": "Can be activated at the start of any Movement Phase.\nThe bearer’s unit loses Unwieldy.\nDuration: End of Turn.",
+    "UIConfig": {
+      "Color": "#A6C7C7"
+    }
+  },
+  {
+    "Id": "rune of dragon's breath/dh - runic special items",
+    "Name": "Rune of Dragon's Breath",
+    "Type": "Card",
+    "Attributes": {},
+    "Description": "Breath Attack (Str 4, AP 1, Flaming Attacks and Magical Attacks).",
     "UIConfig": {
       "Color": "#A6C7C7"
     }
