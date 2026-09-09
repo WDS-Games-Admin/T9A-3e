@@ -1,0 +1,79 @@
+[
+  {
+    "Id": "ProfileDfDreadCaptain",
+    "Name": "Dread Captain",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfDreadCaptain"
+      },
+      {
+        "Id": "StatlineDefensiveDfDreadCaptain"
+      },
+      {
+        "Id": "StatlineOffensiveDfDreadCaptain"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfDreadCaptainFleetPegasus",
+    "Name": "Dread Captain on Fleet Pegasus ",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfDreadCaptainFleetPegasus"
+      },
+      {
+        "Id": "StatlineDefensiveDfDreadCaptainFleetPegasus"
+      },
+      {
+        "Id": "StatlineOffensiveDfDreadCaptain"
+      },
+      {
+        "Id": "StatlineMountDfDreadCaptainFleetPegasus"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfDreadCaptainOceanHorror",
+    "Name": "Dread Captain Ocean Horror",
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfDreadCaptainOceanHorror"
+      },
+      {
+        "Id": "StatlineDefensiveDfDreadCaptainOceanHorror"
+      },
+      {
+        "Id": "StatlineOffensiveDfDreadCaptain"
+      },
+      {
+        "Id": "StatlineMountDfDreadCaptainOceanHorror"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfDreadCaptainColossalKraken",
+    "Name": "Dread Captain Colossal Kraken",
+    "Type": "Profile",
+    "BaseId": "14",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfDreadCaptainColossalKraken"
+      },
+      {
+        "Id": "StatlineDefensiveDfDreadCaptainColossalKraken"
+      },
+      {
+        "Id": "StatlineOffensiveDfDreadCaptain"
+      },
+      {
+        "Id": "StatlineMountDfDreadCaptainColossalKraken"
+      }
+    ]
+  }
+]
