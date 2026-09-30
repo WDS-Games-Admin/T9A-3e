@@ -13,5 +13,121 @@
     "Id": "OptionDfColossalKraken",
     "Name": "Colossal Kraken",
     "Type": 0
+  },
+  {
+    "Id": "OptionDfVanguard",
+    "Name": "Vanguard",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-vanguard"
+      }
+    ]
+  },
+  {
+    "Id": "OptionDfRepeaterHandbow",
+    "Name": "Repeater Handbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "de-repeater_handbow",
+        "Info": "(4+)"
+      }
+    ]
+  },
+  {
+    "Id": "OptionDfRepeaterHandbowAim3",
+    "Name": "Repeater Handbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "de-repeater_handbow",
+        "Info": "(3+)"
+      }
+    ]
+  },
+  {
+    "Id": "OptionDfRepeaterHandbowAim2",
+    "Name": "Repeater Handbow",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "de-repeater_handbow",
+        "Info": "(2+)"
+      }
+    ]
+  },
+  {
+    "Id": "OptionDfBarbedNets",
+    "Name": "Barbed Nets",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "df-barbed_nets"
+      }
+    ]
+  },
+  {
+    "Id": "OptionDfAmbushBattlefieldEdge",
+    "Name": "Ambush",
+    "Type": 1,
+    "ItemsToAdd": [
+      {
+        "Id": "rulebook-ambush",
+        "Info": "(Battlefield Edge)"
+      }
+    ]
+  },
+  {
+    "Id": "OptionDfCorsairBoarders",
+    "Name": "Corsair Boarders",
+    "Type": 3
+  },
+  {
+    "Id": "OptionDfCorsairRavagers",
+    "Name": "Corsair Ravagers",
+    "Type": 3
+  },
+  {
+    "Id": "OptionDfCaptainsFavored",
+    "Name": "Captains Favored",
+    "Type": 3
+  },
+  {
+    "Id": "OptionDfForerunners",
+    "Name": "Forerunners",
+    "Type": 3
+  },
+  {
+    "Id": "OptionDfKrakenDfColossalKraken",
+    "Name": "Colossal Kraken",
+    "Type": 3
+  },
+  {
+    "Id": "OptionDfWizardConclave",
+    "Name": "Wizard Conclave",
+    "Type": 7,
+    "ExtraItems": [
+      {
+        "Id": "rulebook-wizard_conclave",
+        "Type": "Rule"
+      },
+      {
+        "Id": "tempest of the storm witch/hereditary spells",
+        "Type": "Card"
+      },
+      {
+        "Id": "fate's judgement/divination",
+        "Type": "Card"
+      },
+      {
+        "Id": "predator's instinct/shamanism",
+        "Type": "Card"
+      },
+      {
+        "Id": "shrouded steps/witchcraft",
+        "Type": "Card"
+      }
+    ]
   }
 ]
