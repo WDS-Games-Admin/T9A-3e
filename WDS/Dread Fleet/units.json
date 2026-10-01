@@ -3,8 +3,7 @@
     "Id": "DfDreadCaptain",
     "Name": "Dread Captain",
     "Type": "Unit",
-    "Attributes": {
-    },
+    "Attributes": {},
     "BasicProfileIds": [
       "ProfileDfDreadCaptain"
     ],
@@ -15,8 +14,7 @@
     "Id": "DfDreadCaptainFleetPegasus",
     "Name": "Dread Captain on Fleet Pegasus",
     "Type": "Unit",
-    "Attributes": {
-    },
+    "Attributes": {},
     "BasicProfileIds": [
       "ProfileDfDreadCaptainFleetPegasus"
     ],
@@ -27,8 +25,7 @@
     "Id": "DfDreadCaptainOceanHorror",
     "Name": "Dread Captain on Ocean Horror",
     "Type": "Unit",
-    "Attributes": {
-    },
+    "Attributes": {},
     "BasicProfileIds": [
       "ProfileDfDreadCaptainOceanHorror"
     ],
@@ -39,12 +36,194 @@
     "Id": "DfDreadCaptainColossalKraken",
     "Name": "Dread Captain on Colossal Kraken",
     "Type": "Unit",
-    "Attributes": {
-    },
+    "Attributes": {},
     "BasicProfileIds": [
       "ProfileDfDreadCaptainColossalKraken"
     ],
     "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfSeaboardExarch",
+    "Name": "Seaboard Exarch",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfSeaboardExarch"
+    ],
+    "ExtraItems": [
+      {
+        "Id": "tempest of the storm witch/hereditary spells",
+        "Type": "Card"
+      }
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfSeaboardExarchFleetPegasus",
+    "Name": "Seaboard Exarch on Fleet Pegasus",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfSeaboardExarchFleetPegasus"
+    ],
+    "ExtraItems": [
+      {
+        "Id": "tempest of the storm witch/hereditary spells",
+        "Type": "Card"
+      }
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfSeaboardExarchColossalKraken",
+    "Name": "Seaboard Exarch on Colossal Kraken",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfSeaboardExarchColossalKraken"
+    ],
+    "ExtraItems": [
+      {
+        "Id": "tempest of the storm witch/hereditary spells",
+        "Type": "Card"
+      }
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfTethaenTheOceanTerrorDf",
+    "Name": "Tethaen, the Ocean Terror",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfTethaenTheOceanTerrorDf"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfCorsairsDf",
+    "Name": "Corsairs",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfCorsairsDf"
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
+  {
+    "Id": "DfBroadsideArbalists",
+    "Name": "Broadside Arbalists",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfBroadsideArbalists"
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
+  {
+    "Id": "DfDreadMariners",
+    "Name": "Dread Mariners",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfDreadMariners"
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
+  {
+    "Id": "DfHarpiesDf",
+    "Name": "Harpies",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfHarpiesDf"
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
+  {
+    "Id": "DfSaltVeterans",
+    "Name": "Salt Veterans",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfSaltVeterans"
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
+  {
+    "Id": "DfSurfStalkers",
+    "Name": "Surf Stalkers",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfSurfStalkers"
+    ],
+    "DefaultFront": 5,
+    "Formation": 0
+  },
+  {
+    "Id": "DfThunderRiders",
+    "Name": "Thunder Riders",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfThunderRiders"
+    ],
+    "DefaultFront": 3,
+    "Formation": 0
+  },
+  {
+    "Id": "DfAvatarOfHarag",
+    "Name": "Avatar of Harag",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfAvatarOfHarag"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfKrakenDf",
+    "Name": "Kraken",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfKrakenDf"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfSeaFogLeviathan",
+    "Name": "Sea-Fog Leviathan",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfSeaFogLeviathan"
+    ],
+    "DefaultFront": 1,
+    "Formation": 0
+  },
+  {
+    "Id": "DfTritons",
+    "Name": "Tritons",
+    "Type": "Unit",
+    "Attributes": {},
+    "BasicProfileIds": [
+      "ProfileDfTritons"
+    ],
+    "DefaultFront": 3,
     "Formation": 0
   }
 ]

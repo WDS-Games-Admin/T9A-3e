@@ -1,9 +1,21 @@
-[
+[  
+  {
+    "Id": "df-shrouded_by_mist",
+    "Name": "Shrouded by Mist",
+    "Type": "Rule",
+    "Description": "Apply the following rules during the first game turn:\n\n• For Shooting Attacks made against units that are more than 12\" away, <b>all</b> units are considered to be in Soft Cover.\n\n• Charge Range rolls made against friendly units that are more than 12\" away are subject to <b>Minimised</b> Roll."
+  },
   {
     "Id": "df-barbed_nets",
     "Name": "Barbed Nets",
     "Type": "Rule",
     "Description": "Afflict (-1 Str, -1 AP)"
+  },
+  {
+    "Id": "df-sea_serpents_hide",
+    "Name": "Krakens Hide",
+    "Type": "Rule",
+    "Description": "The wearer gains +1 Arm and <u><link=\"rulebook-strider\">Strider (<u><link=\"rulebook-water_terrain\">Water Terrain</link></u>)</link></u>."
   },
   {
     "Id": "df-worshipper_of_harag",
@@ -12,9 +24,123 @@
     "Description": "While in contact with a <u><link=\"rulebook-water_terrain\">Water Terrain</link></u>, if entierly with Height 0-1, the unit benefits from +1 Cha and <b>Maximised</b> Charge Range."
   },
   {
+    "Id": "df-hurricanes_fury",
+    "Name": "Hurricane's Fury",
+    "Type": "Rule",
+    "Description": "Range 18\", Shots 2D6. <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u>.\nIf a unit is hit by one or more attacks from this weapon, all models in the unit suffer a -1 to-hit modifier (both for Shooting Attacks and Melee Attacks). Duration: One Turn."
+  },
+  {
+    "Id": "df-a_drop_of_harags_blood",
+    "Name": "A Drop of Harag's Blood",
+    "Type": "Rule",
+    "Description": "Duration: <b>Permanent</b>. Activation: Start of any Player Turn.\nAll model parts with <i>Elf</i> in the bearer's unit gain <u><link=\"rulebook-devastating_charge\">Devastating Charge (+1 Str, +1 AP)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, <u><link=\"rulebook-unruly\">Unruly</link></u>, and lose <u><link=\"rulebook-light_troops\">Light Troops</link></u>.\nThis does not give a unit with <u><link=\"rulebook-light_troops\">Light Troops</link></u> <b>Scoring</b>."
+  },
+  {
+    "Id": "df-chest_of_enveloping_fog",
+    "Name": "Chest of Enveloping Fog",
+    "Type": "Rule",
+    "Description": "Duration: <b>Permanent</b>. One use only.\nCan be activated at the end of any friendly Movement Phase, if the bearer is Unengaged.\nPlace a <u><link=\"rulebook-water_terrain\">Water Terrain</link></u>, in contact with the bearer and at least 1\" away from enemy units and other Terrain Features.\nThis <u><link=\"rulebook-water_terrain\">Water Terrain</link></u> has the dimensions of a 10\"x6\" rectangle."
+  },
+  {
+    "Id": "df-veil_of_harag",
+    "Name": "Veil of Harag",
+    "Type": "Rule",
+    "Description": "The bearer can cast <u><link=\"rulebook-clouded_sight\">Clouded Sight</link></u> (Witchcraft) as a <u><link=\"rulebook-bound_spells\">Bound Spell</link></u> (6+)."
+  },
+  {
+    "Id": "df-storm_cloak",
+    "Name": "Storm Cloak",
+    "Type": "Rule",
+    "Description": "The bearer gains <u><link=\"rulebook-hard_target\">Hard Target (1)</link></u> and <u><link=\"rulebook-magic_resistance\">Magic Resistance (2)</link></u>."
+  },
+  {
+    "Id": "df-black_flag",
+    "Name": "Black Flag",
+    "Type": "Rule",
+    "Description": "While in contact with the bearer's unit, enemy units Command Tests suffer from <b>Maximised</b>.\nIn addition, friendly models in units Engaged in the same Combined Combat as the bearer's unit must re-roll 1's to wound."
+  },
+  {
+    "Id": "df-banner_of_tides",
+    "Name": "Banner of Tides",
+    "Type": "Rule",
+    "Description": "The bearer's unit gains <u><link=\"rulebook-feigned_flight\">Feigned Flight</link></u> and <u><link=\"rulebook-hit_and_run\">Hit and Run</link></u>.\nIn addition, when using <u><link=\"rulebook-hit_and_run\">Hit and Run</link></u>, the unit automatically rallies at the end of 'Pursue Moves' (Round of Combat, 5.D). and cannot declare Charges in the following Player Turn."
+  },
+  {
+    "Id": "df-tempest_of_the_storm_witch",
+    "Name": "Tempest of the Storm Witch",
+    "Type": "Rule",
+    "Description": "Target gains <u><link=\"rulebook-lightning_attacks\">Lightning Attacks</link></u> and +1 AP against <i>Metal Armour</i>."
+  },
+  {
     "Id": "df-obsidian_admiral",
     "Name": "Obsidian Admiral",
     "Type": "Rule",
-    "Description": "The ‘Dread Captain’ model part’s Att is <b>set</b> to 5.\nAt the beginning of ‘Roll-off for Attacker and Defender’ (Battle Preparations, 3.A), the army may gain a +1 to the roll-off. If doing so and winning the roll-off, the army must select be the Attacker."
+    "Description": "The ‘Dread Captain’ model part’s Att is <b>set</b> to 5.\nAt the beginning of ‘Roll-off for Attacker and Defender’ (Battle Preparations, 3.A), the army <b>may</b> gain a +1 to the roll-off. If doing so and winning the roll-off, the army must select be the Attacker."
+  },
+  {
+    "Id": "df-a_watery_grave",
+    "Name": "A Watery Grave",
+    "Type": "Rule",
+    "Description": "Tethaen is always considered to have rolled a 3+ when rolling for whether he arrives using Ambush.\nIn addition, at the beginning of 'Post Combat' (Round of Combat, 6), if Tethaen won the Round of Combat and an enemy Character in that Combat was removed as a casualty, then Tethaen <b>may</b> be placed in Ambush."
+  },
+  {
+    "Id": "df-blessed_by_harag",
+    "Name": "Blessed by Harag",
+    "Type": "Rule",
+    "Description": "<i>Tethaen's rags and strange hat never stop dripping, even when out of the water.</i>\n<u><link=\"rulebook-aegis\">Aegis</link></u> (5+), <u><link=\"rulebook-resistance\">Resistance</link></u> (against Flaming Attacks)."
+  },
+  {
+    "Id": "df-grim_harpoon",
+    "Name": "Grim Harpoon",
+    "Type": "Rule",
+    "Description": "+1 Att, and counts as a <u><link=\"rulebook-great_weapon\">Great Weapon</link></u> in Melee.\nAny unit that suffers one or more ranged hits from this weapon loses <u><link=\"rulebook-swiftstride\">Swiftstride</link></u>, and cannot regain it in any way. Duration: One Turn."
+  },
+  {
+    "Id": "df-corsair_boarders",
+    "Name": "Corsair Boarders",
+    "Type": "Rule",
+    "Description": "The model gains +1 Arm, and replaces <i>Light Armour</i> with <i>Metal Armour</i>."
+  },
+  {
+    "Id": "df-corsair_ravagers",
+    "Name": "Corsair Ravagers",
+    "Type": "Rule",
+    "Description": "The model gains <u><link=\"rulebook-afflict\">Afflict</link></u> (-1 <u><link=\"rulebook-discipline\">Discipline</link></u>) and <u><link=\"rulebook-light_troops\">Light Troops</link></u>."
+  },
+  {
+    "Id": "df-captains_favored",
+    "Name": "Captains Favored",
+    "Type": "Rule",
+    "Description": "The unit gains <u><link=\"rulebook-devastating_charge\">Devastating Charge (+1 Str, +1 AP)</link></u>, <u><link=\"rulebook-fearless\">Fearless</link></u>, and <u><link=\"rulebook-unruly\">Unruly</link></u>"
+  },
+  {
+    "Id": "df-forerunners",
+    "Name": "Forerunners",
+    "Type": "Rule",
+    "Description": "The model gains <u><link=\"rulebook-light_troops\">Light Troops</link></u>, <u><link=\"rulebook-scout\">Scout</link></u>, and <u><link=\"rulebook-vanguard\">Vanguard</link></u>."
+  },
+  {
+    "Id": "df-omen_of_the_dread_fleet",
+    "Name": "Omen of the Dread Fleet",
+    "Type": "Rule",
+    "Description": "During Pre-game Selections, you <b>may</b> select a single Field, Forest, or Ruins Terrain Feature.\nThat Terrain Feature is replaced with a <u><link=\"rulebook-water_terrain\">Water Terrain</link></u> rectangle of the dimensions 10\"x6\".\nAll models consider all <u><link=\"rulebook-water_terrain\">Water Terrain</link></u> Features <u><link=\"rulebook-dangerous_terrain\">Dangerous Terrain (6+)</link></u> instead of any other instance of Dangerous Terrain for all models. This rule applies even if the Avatar of Harag is in <u><link=\"rulebook-ambush\">Ambush</link></u>."
+  },
+  {
+    "Id": "df-toxic_scum",
+    "Name": "Toxic Scum",
+    "Type": "Rule",
+    "Description": "At Agility Step 10, <b>all</b> other units Engaged in the same Combat as the model suffer 1D6+1 hits with <u><link=\"rulebook-toxic_attacks\">Toxic Attacks</link></u>"
+  },
+  {
+    "Id": "df-advancing_gloom",
+    "Name": "Advancing Gloom",
+    "Type": "Rule",
+    "Description": "<u><link=\"de-under_the_cover_of_mists\">Under the Cover of Mists</link></u> is extended until the end of the second Game Turn."
+  },
+  {
+    "Id": "df-sirens_song",
+    "Name": "Siren's Song",
+    "Type": "Rule",
+    "Description": "<u><link=\"rulebook-command_test\">Command Tests</link></u> taken by enemy units within 8\" of one or more models with this rule are <b>Maximised</b>.\nAt the start of 'Combat Choices' (Round of Combat, 1.D), all enemy units in contact must take a Command Test. Each unit that fails it suffers -2 Def. Duration: Round of Combat."
   }
 ]
