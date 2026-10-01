@@ -1,329 +1,1827 @@
 [
   {
-    "Id":  "StatlineGlobalDfDreadCaptain",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "5",
-               "Mob":  "5",
-               "Dis":  "9",
-               "Hgt":  "1",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "df-worshipper_of_harag"
-             }
-           ]
+    "Id": "StatlineGlobalDfDreadCaptain",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
   },
   {
-    "Id":  "StatlineDefensiveDfDreadCaptain",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "7",
-               "Res":  "3",
-               "Arm":  "2",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "de-krakens_hide"
-             }
-           ]
+    "Id": "StatlineDefensiveDfDreadCaptain",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "7",
+      "Res": "3",
+      "Arm": "5+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
   },
   {
-    "Id":  "StatlineOffensiveDfDreadCaptain",
-    "Name":  "Dread Captain",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "3",
-               "Off":  "7",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "7"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-first_strike",
-               "Info":  "(Artistry Of Death)"
-             },
-             {
-               "Id":  "rule_tag_elf"
-             },
-             {
-               "Id":  "rule_tag_metal_armour"
-             }
-           ]
-  },
-{
-    "Id":  "StatlineGlobalDfDreadCaptainFleetPegasus",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "9",
-               "Hgt":  "3",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-fly"
-             },
-             {
-               "Id":  "rulebook-hard_target",
-	             "Info": "(1)"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-vanguard"
-             },
-             {
-               "Id":  "df-worshipper_of_harag"
-             }
-           ]
+    "Id": "StatlineOffensiveDfDreadCaptain",
+    "Name": "Dread Captain",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "3",
+      "Off": "7",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "7"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
   },
   {
-    "Id":  "StatlineDefensiveDfDreadCaptainFleetPegasus",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "3",
-               "Def":  "7",
-               "Res":  "4",
-               "Arm":  "3",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "de-krakens_hide"
-             }
-           ]
+    "Id": "StatlineGlobalDfDreadCaptainFleetPegasus",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
   },
   {
-    "Id":  "StatlineMountDfDreadCaptainFleetPegasus",
-    "Name":  "Fleet Pegasus",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "2",
-               "Off":  "4",
-               "Str":  "4",
-               "AP":  "1",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-devastating_charge",
-               "Info":  "(+1 Str, +1 AP)"
-             },
-             {
-               "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_mount"
-             }
-           ]
-  },
-{
-    "Id":  "StatlineGlobalDfDreadCaptainOceanHorror",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "8",
-               "Mob":  "8",
-               "Dis":  "9",
-               "Hgt":  "4",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "rulebook-horror"
-             },
-             {
-               "Id":  "rulebook-light_troops"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-	             "Info": "(Water Terrain)"	
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "df-worshipper_of_harag"
-             }
-           ]
+    "Id": "StatlineDefensiveDfDreadCaptainFleetPegasus",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "7",
+      "Res": "4",
+      "Arm": "4+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
   },
   {
-    "Id":  "StatlineDefensiveDfDreadCaptainOceanHorror",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "5",
-               "Def":  "7",
-               "Res":  "5",
-               "Arm":  "4",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "de-coastal_predator"
-             },
-             {
-               "Id":  "de-krakens_hide"
-             }
-           ]
+    "Id": "StatlineMountDfDreadCaptainFleetPegasus",
+    "Name": "Fleet Pegasus",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "4",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(+1 Str, +1 AP)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
   },
   {
-    "Id":  "StatlineMountDfDreadCaptainOceanHorror",
-    "Name":  "Ocean Horror",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "4",
-               "Str":  "6",
-               "AP":  "3",
-               "Agi":  "4"
-             },
-    "Children":  [
-             {
-               "Id":  "df-barbed_nets"
-             },
-             {
-               "Id":  "rulebook-devastating_charge",
-	             "Info": "(Distracting)"	
-             },
-             {
-               "Id":  "rulebook-poison_attacks"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-	             "Info": "(1)"	
-             },
-             {
-               "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_mount"
-             }
-           ]
-  },
-{
-    "Id":  "StatlineGlobalDfDreadCaptainColossalKraken",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Cha":  "6",
-               "Mob":  "6",
-               "Dis":  "9",
-               "Hgt":  "5",
-               "Rsr":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-disciplined"
-             },
-             {
-               "Id":  "de-scent_of_blood"
-             },
-             {
-               "Id":  "rulebook-solitary"
-             },
-             {
-               "Id":  "rulebook-strider",
-	             "Info": "(Water Terrain)"	
-             },
-             {
-               "Id":  "rulebook-swiftstride"
-             },
-             {
-               "Id":  "rulebook-terror"
-             },
-             {
-               "Id":  "df-worshipper_of_harag"
-             }
-           ]
+    "Id": "StatlineGlobalDfDreadCaptainOceanHorror",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-horror"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
   },
   {
-    "Id":  "StatlineDefensiveDfDreadCaptainColossalKraken",
-    "Name":  "",
-    "Type":  "Statline",
-    "Attributes":  {
-               "HP":  "8",
-               "Def":  "5",
-               "Res":  "5",
-               "Arm":  "3",
-               "Aeg":  "-"
-             },
-    "Children":  [
-             {
-               "Id":  "de-coastal_predator"
-             },
-             {
-               "Id":  "rulebook-distracting",
-	             "Info": "(1)"	
-             },
-             {
-               "Id":  "rulebook-hard_target",
-	             "Info": "(1)"	
-             },
-             {
-               "Id":  "de-krakens_hide"
-             }
-           ]
+    "Id": "StatlineDefensiveDfDreadCaptainOceanHorror",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "7",
+      "Res": "5",
+      "Arm": "3+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
   },
   {
-    "Id":  "StatlineMountDfDreadCaptainColossalKraken",
-    "Name":  "Colossal Kraken",
-    "Type":  "Statline",
-    "Attributes":  {
-               "Att":  "4",
-               "Off":  "5",
-               "Str":  "7",
-               "AP":  "3",
-               "Agi":  "3"
-             },
-    "Children":  [
-             {
-               "Id":  "rulebook-hatred",
-	             "Info": "(towards Height 3-5)"	
-             },
-             {
-               "Id":  "rulebook-multiple_wounds",
-	             "Info": "(D3, towards Height 3-5)"	
-             },
-             {
-               "Id":  "rulebook-stomp_attack",
-	             "Info": "(D6)"	
-             },
-             {
-               "Id":  "rule_tag_beast"
-             },
-             {
-               "Id":  "rule_tag_mount"
-             }
-           ]
+    "Id": "StatlineMountDfDreadCaptainOceanHorror",
+    "Name": "Ocean Horror",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "4",
+      "Str": "6",
+      "AP": "3",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "df-barbed_nets"
+      },
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(Distracting)"
+      },
+      {
+        "Id": "rulebook-poison_attacks"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfDreadCaptainColossalKraken",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "6",
+      "Mob": "6",
+      "Dis": "9",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "de-scent_of_blood"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfDreadCaptainColossalKraken",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "4+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "rulebook-distracting",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      },
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineMountDfDreadCaptainColossalKraken",
+    "Name": "Colossal Kraken",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "7",
+      "AP": "3",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hatred",
+        "Info": "(towards Height 3-5)"
+      },
+      {
+        "Id": "rulebook-multiple_wounds",
+        "Info": "(D3, towards Height 3-5)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSeaboardExarch",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfSeaboardExarch",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "7",
+      "Res": "3",
+      "Arm": "6+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(5+, against Melee Attacks)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfSeaboardExarch",
+    "Name": "Seaboard Exarch",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "3",
+      "Off": "7",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "7"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSeaboardExarchFleetPegasus",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfSeaboardExarchFleetPegasus",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "7",
+      "Res": "4",
+      "Arm": "5+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(5+, against Melee Attacks)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineMountDfSeaboardExarchFleetPegasus",
+    "Name": "Fleet Pegasus",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "4",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(+1 Str, +1 AP)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSeaboardExarchColossalKraken",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "6",
+      "Mob": "6",
+      "Dis": "9",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-scent_of_blood"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfSeaboardExarchColossalKraken",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "4+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(5+, against Melee Attacks)"
+      },
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "rulebook-distracting",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineMountDfSeaboardExarchColossalKraken",
+    "Name": "Colossal Kraken",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "7",
+      "AP": "3",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hatred",
+        "Info": "(towards Height 3-5)"
+      },
+      {
+        "Id": "rulebook-multiple_wounds",
+        "Info": "(D3, towards Height 3-5)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfTethaenTheOceanTerrorDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "10",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-ambush",
+        "Info": "(Battlefield Edge, Water Terrain)"
+      },
+      {
+        "Id": "de-a_watery_grave"
+      },
+      {
+        "Id": "de-barbed_nets"
+      },
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-horror"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfTethaenTheOceanTerrorDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "8",
+      "Res": "5",
+      "Arm": "3+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-blessed_by_harag"
+      },
+      {
+        "Id": "de-coastal_predator"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfTethaenTheOceanTerrorDf",
+    "Name": "Tethaen",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "8",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "8"
+    },
+    "Children": [
+      {
+        "Id": "de-artistry_of_death"
+      },
+      {
+        "Id": "rulebook-elven_finesse"
+      },
+      {
+        "Id": "de-grim_harpoon"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineMountDfTethaenTheOceanTerrorDf",
+    "Name": "Blaishoi",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "4",
+      "Str": "6",
+      "AP": "3",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(Distracting)"
+      },
+      {
+        "Id": "rulebook-poison_attacks"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(1 hit)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfCorsairsDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfCorsairsDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "6+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfCorsairsDf",
+    "Name": "Corsair",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-paired_weapons"
+      },
+      {
+        "Id": "rule_tag_academy"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      },
+      {
+        "Id": "rule_tag_slaver"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfCorsairsDfCorsairBoarders",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "5",
+      "Res": "3",
+      "Arm": "5+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfCorsairsDfCorsairBoarders",
+    "Name": "Corsair",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-paired_weapons"
+      },
+      {
+        "Id": "rule_tag_academy"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_metal_armour"
+      },
+      {
+        "Id": "rule_tag_slaver"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfCorsairsDfCorsairRavagers",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-afflict",
+        "Info": "(-1 Dis)"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfBroadsideArbalists",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-disciplined"
+      },
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Stubborn)"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfBroadsideArbalists",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "6+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfBroadsideArbalists",
+    "Name": "Broadside Arbalist",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-march_and_shoot"
+      },
+      {
+        "Id": "rulebook-paired_weapons"
+      },
+      {
+        "Id": "de-repeater_crossbow",
+        "Info": "(3+)"
+      },
+      {
+        "Id": "rulebook-stand_and_shoot"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      },
+      {
+        "Id": "rule_tag_slaver"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfDreadMariners",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "8",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfDreadMariners",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "6+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfDreadMariners",
+    "Name": "Dread Mariner",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "6",
+      "Str": "3",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-elven_finesse"
+      },
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-great_weapon"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfHarpiesDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "9",
+      "Mob": "9",
+      "Dis": "7",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-insignificant"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "de-scent_of_blood"
+      },
+      {
+        "Id": "rulebook-skirmisher"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-unruly"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfHarpiesDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "3",
+      "Res": "4",
+      "Arm": "7+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfHarpiesDf",
+    "Name": "Harpy",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "3",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(+1 Att)"
+      },
+      {
+        "Id": "rulebook-sweeping_attack",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSaltVeterans",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-afflict",
+        "Info": "(-1 Dis)"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfSaltVeterans",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "6",
+      "Res": "3",
+      "Arm": "6+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfSaltVeterans",
+    "Name": "Salt Veteran",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "df-barbed_nets"
+      },
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-paired_weapons"
+      },
+      {
+        "Id": "rule_tag_academy"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSaltVeteransCaptainsFavored",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-afflict",
+        "Info": "(-1 Dis)"
+      },
+      {
+        "Id": "rulebook-fearless"
+      },
+      {
+        "Id": "rulebook-unruly"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfSaltVeteransCaptainsFavored",
+    "Name": "Salt Veteran",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "df-barbed_nets"
+      },
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(+1 Str, +1 AP)"
+      },
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-paired_weapons"
+      },
+      {
+        "Id": "rule_tag_academy"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSaltVeteransForerunners",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "5",
+      "Mob": "5",
+      "Dis": "9",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-afflict",
+        "Info": "(-1 Dis)"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-scout"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSurfStalkers",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "6",
+      "Hgt": "1",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-insignificant"
+      },
+      {
+        "Id": "de-scent_of_blood"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfSurfStalkers",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "1",
+      "Def": "3",
+      "Res": "4",
+      "Arm": "5+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-coastal_predator"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfSurfStalkers",
+    "Name": "Surf Stalker",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "4",
+      "Str": "4",
+      "AP": "0",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-extra_support",
+        "Info": "(2)"
+      },
+      {
+        "Id": "rulebook-poison_attacks"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfThunderRiders",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "8",
+      "Mob": "8",
+      "Dis": "9",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "rulebook-skirmisher"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-vanguard"
+      },
+      {
+        "Id": "df-worshipper_of_harag"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfThunderRiders",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "2",
+      "Def": "6",
+      "Res": "4",
+      "Arm": "5+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      },
+      {
+        "Id": "de-krakens_hide"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfThunderRiders",
+    "Name": "Thunder Rider",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "6"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(+1 Att)"
+      },
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-light_lance"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_light_armour"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineMountDfThunderRiders",
+    "Name": "Fleet Pegasus",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "2",
+      "Off": "4",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "4"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-devastating_charge",
+        "Info": "(+1 Str, +1 AP)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      },
+      {
+        "Id": "rule_tag_mount"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfAvatarOfHarag",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "6",
+      "Mob": "7",
+      "Dis": "9",
+      "Hgt": "4",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-ambush",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-fearless"
+      },
+      {
+        "Id": "df-omen_of_the_dread_fleet"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-supernal"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfAvatarOfHarag",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "5",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "5+",
+      "Aeg": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(5+)"
+      },
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "rulebook-regeneration",
+        "Info": "(5+)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfAvatarOfHarag",
+    "Name": "Avatar of Harag",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "5",
+      "Off": "5",
+      "Str": "5",
+      "AP": "3",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hatred",
+        "Info": "(against models without Supernal)"
+      },
+      {
+        "Id": "df-toxic_scum"
+      },
+      {
+        "Id": "rule_tag_elf"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfKrakenDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "6",
+      "Mob": "6",
+      "Dis": "8",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-scent_of_blood"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfKrakenDf",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "6",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "4+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "rulebook-distracting",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineCrewDfKrakenDf",
+    "Name": "Lashmaster (2)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_slaver"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfKrakenDf",
+    "Name": "Kraken",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "5",
+      "Str": "7",
+      "AP": "3",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-hatred",
+        "Info": "(towards Height 3-5)"
+      },
+      {
+        "Id": "rulebook-multiple_wounds",
+        "Info": "(D3, towards Height 3-5)"
+      },
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfKrakenDfColossalKraken",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "5",
+      "Res": "5",
+      "Arm": "4+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "de-coastal_predator"
+      },
+      {
+        "Id": "rulebook-distracting",
+        "Info": "(1)"
+      },
+      {
+        "Id": "rulebook-hard_target",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineCrewDfKrakenDfColossalKraken",
+    "Name": "Lashmaster (4)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_slaver"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfSeaFogLeviathan",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "8",
+      "Hgt": "5",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "df-advancing_gloom"
+      },
+      {
+        "Id": "rulebook-fly"
+      },
+      {
+        "Id": "rulebook-light_troops"
+      },
+      {
+        "Id": "de-scent_of_blood"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      },
+      {
+        "Id": "rulebook-terror"
+      },
+      {
+        "Id": "de-under_the_cover_of_mists"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfSeaFogLeviathan",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "8",
+      "Def": "3",
+      "Res": "5",
+      "Arm": "7+",
+      "Aeg": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-distracting",
+        "Info": "(1)"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineCrewDfSeaFogLeviathan",
+    "Name": "Lashmaster (4)",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "1",
+      "Off": "5",
+      "Str": "3",
+      "AP": "0",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry of Death)"
+      },
+      {
+        "Id": "rule_tag_elf"
+      },
+      {
+        "Id": "rule_tag_slaver"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineMountDfSeaFogLeviathan",
+    "Name": "Sea-Fog Leviathan",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "3",
+      "Str": "4",
+      "AP": "3",
+      "Agi": "3"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-stomp_attack",
+        "Info": "(D6)"
+      },
+      {
+        "Id": "rule_tag_beast"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineGlobalDfTritons",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "Cha": "7",
+      "Mob": "7",
+      "Dis": "8",
+      "Hgt": "3",
+      "Rsr": "-"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-fearless"
+      },
+      {
+        "Id": "df-sirens_song"
+      },
+      {
+        "Id": "rulebook-solitary"
+      },
+      {
+        "Id": "rulebook-strider",
+        "Info": "(Water Terrain)"
+      },
+      {
+        "Id": "rulebook-supernal"
+      },
+      {
+        "Id": "rulebook-swiftstride"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineDefensiveDfTritons",
+    "Name": "",
+    "Type": "Statline",
+    "Attributes": {
+      "HP": "3",
+      "Def": "6",
+      "Res": "4",
+      "Arm": "7+",
+      "Aeg": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-aegis",
+        "Info": "(5+)"
+      },
+      {
+        "Id": "de-coastal_predator"
+      }
+    ]
+  },
+  {
+    "Id": "StatlineOffensiveDfTritons",
+    "Name": "Triton",
+    "Type": "Statline",
+    "Attributes": {
+      "Att": "4",
+      "Off": "6",
+      "Str": "4",
+      "AP": "1",
+      "Agi": "5"
+    },
+    "Children": [
+      {
+        "Id": "rulebook-first_strike",
+        "Info": "(Artistry Of Death)"
+      },
+      {
+        "Id": "rulebook-magical_attacks"
+      },
+      {
+        "Id": "rule_tag_elf"
+      }
+    ]
   }
 ]

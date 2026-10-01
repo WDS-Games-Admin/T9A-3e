@@ -75,5 +75,381 @@
         "Id": "StatlineMountDfDreadCaptainColossalKraken"
       }
     ]
+  },
+  {
+    "Id": "ProfileDfSeaboardExarch",
+    "Name": "Seaboard Exarch",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSeaboardExarch"
+      },
+      {
+        "Id": "StatlineDefensiveDfSeaboardExarch"
+      },
+      {
+        "Id": "StatlineOffensiveDfSeaboardExarch"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSeaboardExarchFleetPegasus",
+    "Name": "Seaboard Exarch on Fleet Pegasus",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSeaboardExarchFleetPegasus"
+      },
+      {
+        "Id": "StatlineDefensiveDfSeaboardExarchFleetPegasus"
+      },
+      {
+        "Id": "StatlineOffensiveDfSeaboardExarch"
+      },
+      {
+        "Id": "StatlineMountDfSeaboardExarchFleetPegasus"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSeaboardExarchColossalKraken",
+    "Name": "Seaboard Exarch on Colossal Kraken",
+    "Type": "Profile",
+    "BaseId": "14",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSeaboardExarchColossalKraken"
+      },
+      {
+        "Id": "StatlineDefensiveDfSeaboardExarchColossalKraken"
+      },
+      {
+        "Id": "StatlineOffensiveDfSeaboardExarch"
+      },
+      {
+        "Id": "StatlineMountDfSeaboardExarchColossalKraken"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfTethaenTheOceanTerrorDf",
+    "Name": "Tethaen, the Ocean Terror",
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfTethaenTheOceanTerrorDf"
+      },
+      {
+        "Id": "StatlineDefensiveDfTethaenTheOceanTerrorDf"
+      },
+      {
+        "Id": "StatlineOffensiveDfTethaenTheOceanTerrorDf"
+      },
+      {
+        "Id": "StatlineMountDfTethaenTheOceanTerrorDf"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfCorsairsDf",
+    "Name": "Corsairs",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfCorsairsDf"
+      },
+      {
+        "Id": "StatlineDefensiveDfCorsairsDf"
+      },
+      {
+        "Id": "StatlineOffensiveDfCorsairsDf"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfCorsairsDfCorsairBoarders",
+    "Name": "Corsairs",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfCorsairsDf"
+      },
+      {
+        "Id": "StatlineDefensiveDfCorsairsDfCorsairBoarders"
+      },
+      {
+        "Id": "StatlineOffensiveDfCorsairsDfCorsairBoarders"
+      },
+      {
+        "Id": "df-corsair_boarders"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfCorsairsDfCorsairRavagers",
+    "Name": "Corsairs",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfCorsairsDfCorsairRavagers"
+      },
+      {
+        "Id": "StatlineDefensiveDfCorsairsDf"
+      },
+      {
+        "Id": "StatlineOffensiveDfCorsairsDf"
+      },
+      {
+        "Id": "df-corsair_ravagers"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfBroadsideArbalists",
+    "Name": "Broadside Arbalists",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfBroadsideArbalists"
+      },
+      {
+        "Id": "StatlineDefensiveDfBroadsideArbalists"
+      },
+      {
+        "Id": "StatlineOffensiveDfBroadsideArbalists"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfDreadMariners",
+    "Name": "Dread Mariners",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfDreadMariners"
+      },
+      {
+        "Id": "StatlineDefensiveDfDreadMariners"
+      },
+      {
+        "Id": "StatlineOffensiveDfDreadMariners"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfHarpiesDf",
+    "Name": "Harpies",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfHarpiesDf"
+      },
+      {
+        "Id": "StatlineDefensiveDfHarpiesDf"
+      },
+      {
+        "Id": "StatlineOffensiveDfHarpiesDf"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSaltVeterans",
+    "Name": "Salt Veterans",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSaltVeterans"
+      },
+      {
+        "Id": "StatlineDefensiveDfSaltVeterans"
+      },
+      {
+        "Id": "StatlineOffensiveDfSaltVeterans"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSaltVeteransCaptainsFavored",
+    "Name": "Salt Veterans",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSaltVeteransCaptainsFavored"
+      },
+      {
+        "Id": "StatlineDefensiveDfSaltVeterans"
+      },
+      {
+        "Id": "StatlineOffensiveDfSaltVeteransCaptainsFavored"
+      },
+      {
+        "Id": "df-captains_favored"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSaltVeteransForerunners",
+    "Name": "Salt Veterans",
+    "Type": "Profile",
+    "BaseId": "5",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSaltVeteransForerunners"
+      },
+      {
+        "Id": "StatlineDefensiveDfSaltVeterans"
+      },
+      {
+        "Id": "StatlineOffensiveDfSaltVeterans"
+      },
+      {
+        "Id": "df-forerunners"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSurfStalkers",
+    "Name": "Surf Stalkers",
+    "Type": "Profile",
+    "BaseId": "3",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSurfStalkers"
+      },
+      {
+        "Id": "StatlineDefensiveDfSurfStalkers"
+      },
+      {
+        "Id": "StatlineOffensiveDfSurfStalkers"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfThunderRiders",
+    "Name": "Thunder Riders",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfThunderRiders"
+      },
+      {
+        "Id": "StatlineDefensiveDfThunderRiders"
+      },
+      {
+        "Id": "StatlineOffensiveDfThunderRiders"
+      },
+      {
+        "Id": "StatlineMountDfThunderRiders"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfAvatarOfHarag",
+    "Name": "Avatar of Harag",
+    "Type": "Profile",
+    "BaseId": "7",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfAvatarOfHarag"
+      },
+      {
+        "Id": "StatlineDefensiveDfAvatarOfHarag"
+      },
+      {
+        "Id": "StatlineOffensiveDfAvatarOfHarag"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfKrakenDf",
+    "Name": "Kraken",
+    "Type": "Profile",
+    "BaseId": "2",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfKrakenDf"
+      },
+      {
+        "Id": "StatlineDefensiveDfKrakenDf"
+      },
+      {
+        "Id": "StatlineCrewDfKrakenDf"
+      },
+      {
+        "Id": "StatlineOffensiveDfKrakenDf"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfKrakenDfColossalKraken",
+    "Name": "Kraken - Colossal Kraken",
+    "Type": "Profile",
+    "BaseId": "14",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfKrakenDf"
+      },
+      {
+        "Id": "StatlineDefensiveDfKrakenDfColossalKraken"
+      },
+      {
+        "Id": "StatlineCrewDfKrakenDfColossalKraken"
+      },
+      {
+        "Id": "StatlineOffensiveDfKrakenDf"
+      },
+      {
+        "Id": "de-colossal_kraken"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfSeaFogLeviathan",
+    "Name": "Sea-Fog Leviathan",
+    "Type": "Profile",
+    "BaseId": "12",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfSeaFogLeviathan"
+      },
+      {
+        "Id": "StatlineDefensiveDfSeaFogLeviathan"
+      },
+      {
+        "Id": "StatlineCrewDfSeaFogLeviathan"
+      },
+      {
+        "Id": "StatlineMountDfSeaFogLeviathan"
+      }
+    ]
+  },
+  {
+    "Id": "ProfileDfTritons",
+    "Name": "Tritons",
+    "Type": "Profile",
+    "BaseId": "4",
+    "Children": [
+      {
+        "Id": "StatlineGlobalDfTritons"
+      },
+      {
+        "Id": "StatlineDefensiveDfTritons"
+      },
+      {
+        "Id": "StatlineOffensiveDfTritons"
+      }
+    ]
   }
 ]
