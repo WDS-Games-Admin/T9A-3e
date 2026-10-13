@@ -2949,37 +2949,79 @@
     "Description": "Riddle of the Lamassu: During the opponent's Pre-game Selections, the opponent must choose 'Power' or 'Wisdom'.\n\n • Wisdom: immediately choose up to two units from the opponent's ArmyList: the chosen units begin the game with an Incendiary Marker."
   },
   {
-    "Id": "orison of s h ielding/koe - blessing tokens",
-    "Name": "Orison of S h ielding",
+    "Id": "orison of s h ielding-a/koe - blessing tokens",
+    "Name": "Orison of S h ielding-A",
     "Type": "Card",
     "Attributes": {
       "Level": "1",
       "Duration": "1 Turn",
       "Type": "Blessing"
     },
-    "Description": "The target gains Aegis (5+).\n\n\nAdd an additional coloured token next to the spell token.\nKoE player own turn: white token\nOpponent turn: purple token"
+    "Description": "The target gains Aegis (5+).\n\nA = KoE player's turn - grey token"
   },
   {
-    "Id": "orison of s t riking/koe - blessing tokens",
-    "Name": "Orison of S t riking",
+    "Id": "orison of s t riking-a/koe - blessing tokens",
+    "Name": "Orison of S t riking-A",
     "Type": "Card",
     "Attributes": {
       "Level": "2",
       "Duration": "1 Turn",
       "Type": "Blessing"
     },
-    "Description": "The target gains +2 Off, Magical Attacks, and ignore Parry.\nModel parts with Mount are not affected.\n\n\nAdd an additional coloured token next to the spell token.\nKoE player own turn: white token\nOpponent turn: purple token"
+    "Description": "The target gains +2 Off, Magical Attacks, and ignore Parry.\nModel parts with Mount are not affected.\n\nA = KoE player's turn - grey token"
   },
   {
-    "Id": "orison of discipline/koe - blessing tokens",
-    "Name": "Orison of Discipline",
+    "Id": "orison of discipline-a/koe - blessing tokens",
+    "Name": "Orison of Discipline-A",
     "Type": "Card",
     "Attributes": {
       "Level": "3",
       "Duration": "1 Turn",
       "Type": "Blessing"
     },
-    "Description": "The target's Discipline is set to 9.\n\n\nAdd an additional coloured token next to the spell token.\nKoE player own turn: white token\nOpponent turn: purple token"
+    "Description": "The target's Discipline is set to 9.\n\nA = KoE player's turn - grey token"
+  },
+  {
+    "Id": "orison of s h ielding-b/koe - blessing tokens",
+    "Name": "Orison of S h ielding-B",
+    "Type": "Card",
+    "Attributes": {
+      "Level": "1",
+      "Duration": "1 Turn",
+      "Type": "Blessing"
+    },
+    "Description": "The target gains Aegis (5+).\n\nB = opponent player's turn - teal token",
+    "UIConfig": {
+      "Color": "#70ADCC"
+    }
+  },
+  {
+    "Id": "orison of s t riking-b/koe - blessing tokens",
+    "Name": "Orison of S t riking-B",
+    "Type": "Card",
+    "Attributes": {
+      "Level": "2",
+      "Duration": "1 Turn",
+      "Type": "Blessing"
+    },
+    "Description": "The target gains +2 Off, Magical Attacks, and ignore Parry.\nModel parts with Mount are not affected.\n\nB = opponent player's turn - teal token",
+    "UIConfig": {
+      "Color": "#70ADCC"
+    }
+  },
+  {
+    "Id": "orison of discipline-b/koe - blessing tokens",
+    "Name": "Orison of Discipline-B",
+    "Type": "Card",
+    "Attributes": {
+      "Level": "3",
+      "Duration": "1 Turn",
+      "Type": "Blessing"
+    },
+    "Description": "The target's Discipline is set to 9.\n\nB = opponent player's turn - teal token",
+    "UIConfig": {
+      "Color": "#70ADCC"
+    }
   },
   {
     "Id": "goblin gardens - field/ong - goblin gardens",
